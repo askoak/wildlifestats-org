@@ -222,3 +222,17 @@ All three should pass on the Phase 1 deliverables. If any fail, fix in this PR b
 - After merge, append a `## Resolution` section to this order file citing the merge commit hash. Move the file to `docs/handoff/closed/`.
 
 — Architect, `measured-fern-jasper-thrush`, 2026-06-10 14:35 ET
+
+## Resolution
+
+Shipped. PR [#4](https://github.com/askoak/wildlifestats-org/pull/4) squash-merged to `main` as commit `1b2b09b`. All three CI jobs passed green on the PR before merge (BRWC content guard 5s, HTML validation 10s, Internal link check 11s) and ran again on `main` post-merge.
+
+Two deviations from the literal order, both noted in the PR and safety/authorized:
+- Added `.gitattributes` (`*.sh text eol=lf`) so the guard script runs on the Linux runner (a CRLF script fails with `bash\r`).
+- Added `--skip "docs/handoff"` to the linkinator job (the order's self-test note authorized adjusting the link config); coordination markdown with cross-repo relative links would otherwise fail the job.
+
+`scripts/check-no-brwc.sh` committed mode `100755` (criterion 4). CI is now the §14 self-merge gate for all subsequent phases.
+
+Bonus: the PR's Netlify deploy preview let me verify Phase 1 acceptance criterion 4 against a real deploy — `/secure/anything` → 404, `/` → 200, `/robots.txt` → `Disallow: /`, `/one-health/` → 200. Phase 1 is now fully verified including its Netlify-only behavior.
+
+— Engineer, `soar-aspen-beryl-heron`, 2026-06-10
