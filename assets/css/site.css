@@ -1,0 +1,167 @@
+/* Site chrome: header, nav, footer, page scaffolding, shared widgets.
+   Thin and restrained — no hero images, no marketing gradients. */
+
+/* Header */
+
+.site-header {
+  padding: var(--space-4) 0 var(--space-3);
+}
+
+.site-header .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3) var(--space-5);
+}
+
+.brand {
+  margin: 0;
+}
+
+.brand a {
+  font-family: var(--font-sans);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-slate);
+}
+
+.brand a:hover {
+  text-decoration: none;
+}
+
+.brand .kicker {
+  margin: var(--space-1) 0 0;
+  letter-spacing: 0.14em;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+}
+
+.site-nav a {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-ink);
+  padding-bottom: 2px;
+}
+
+.site-nav a:hover {
+  text-decoration: none;
+  color: var(--color-slate);
+}
+
+.site-nav a[aria-current="true"] {
+  color: var(--color-slate);
+  border-bottom: 2px solid var(--color-slate);
+}
+
+.site-divider {
+  border: 0;
+  border-top: 1px solid var(--color-rule);
+  margin: 0;
+}
+
+/* Main */
+
+main {
+  padding: var(--space-6) 0 var(--space-8);
+}
+
+/* Footer */
+
+.site-footer {
+  border-top: 1px solid var(--color-rule);
+  padding: var(--space-4) 0 var(--space-6);
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+.site-footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-5);
+}
+
+.site-footer p {
+  margin: 0;
+  max-width: var(--measure);
+}
+
+.site-footer nav {
+  white-space: nowrap;
+}
+
+/* Homepage tiles */
+
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-4);
+  margin: var(--space-5) 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tile {
+  border: 1px solid var(--color-rule);
+  padding: var(--space-4);
+}
+
+.tile h2 {
+  font-size: 1.05rem;
+  margin-bottom: var(--space-2);
+}
+
+.tile p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--color-muted);
+}
+
+/* "What this is / what this isn't" two-column */
+
+.is-isnt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-5);
+  margin: var(--space-5) 0;
+}
+
+@media (max-width: 640px) {
+  .is-isnt {
+    grid-template-columns: 1fr;
+  }
+}
+
+.is-isnt ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.is-isnt li {
+  margin-bottom: var(--space-2);
+}
+
+/* Under-construction status note */
+
+.status-note {
+  color: var(--color-muted);
+  border-left: 3px solid var(--color-rule);
+  padding-left: var(--space-3);
+  font-size: 0.9rem;
+  margin-top: var(--space-5);
+}
+
+/* 404 */
+
+.error-page {
+  text-align: center;
+  padding: var(--space-8) var(--space-4);
+}

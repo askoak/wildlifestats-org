@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>WildlifeStats — Methodology</title>
+  <meta name="description" content="National Wildlife Rehabilitation Research Framework — under construction.">
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <a href="/">WildlifeStats</a>
+        <p class="kicker">National Wildlife Rehabilitation Research Framework</p>
+      </div>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="/one-health/">One Health</a></li>
+          <li><a href="/parks/">National Parks</a></li>
+          <li><a href="/wildlife/">Wildlife</a></li>
+          <li><a href="/data/">Data</a></li>
+          <li><a href="/methodology.html">Methodology</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <hr class="site-divider">
+
+  <main>
+    <div class="container prose">
+      <p class="kicker">Methodology</p>
+      <h1>Methodology</h1>
+      <p>This page documents how the WildlifeStats dataset is constructed. The
+      current dataset is synthetic: 100,000 patient records generated from
+      regional distribution models rather than collected from operating
+      centers. The structure mirrors what a real multi-center dataset would
+      hold — species, taxonomic class, intake reason, county, season, and
+      aggregate outcome — so that analyses developed against the synthetic data
+      transfer directly to real data when partner centers contribute it.</p>
+      <p>Synthetic records are produced deterministically from a fixed random
+      seed, so any published figure can be regenerated and audited. County-level
+      distribution is modeled across all fifty states and the District of
+      Columbia, weighted by population density as a proxy for encounter
+      likelihood and by biogeographic region as a proxy for species
+      composition. Seasonal patterns are modulated by latitude.</p>
+      <p>Outcome data is reported in aggregate only. No record on the public
+      tier can be resolved to an individual case, and counts below a fixed
+      suppression threshold are withheld. The full generation procedure, the
+      regional species archetypes, and the suppression rules will be published
+      here in detail as the framework reaches launch readiness.</p>
+      <p class="status-note">This section is under construction. Final content
+      lands as part of a later phase of the build plan.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>WildlifeStats is a research framework. Current dataset is synthetic
+      (n=100,000) generated from regional distribution models. See
+      <a href="/methodology.html">Methodology</a>.</p>
+      <nav aria-label="Footer">
+        <a href="/governance.html">Governance</a> ·
+        <a href="/about.html">About</a> ·
+        <span>2026</span>
+      </nav>
+    </div>
+  </footer>
+  <script src="/assets/js/site.js"></script>
+</body>
+</html>

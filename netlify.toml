@@ -1,0 +1,33 @@
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# Reserve the /secure/* path for Phase 5. Until then, return 404.
+# Phase 5 will replace this rule with a basic-auth gate per the master plan.
+[[redirects]]
+  from = "/secure/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+# wildlifestats.com -> wildlifestats.org (Mike configures DNS at GoDaddy; this
+# is the Netlify-side rule for when both domains attach to this site).
+[[redirects]]
+  from = "https://wildlifestats.com/*"
+  to = "https://wildlifestats.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.wildlifestats.com/*"
+  to = "https://wildlifestats.org/:splat"
+  status = 301
+  force = true
