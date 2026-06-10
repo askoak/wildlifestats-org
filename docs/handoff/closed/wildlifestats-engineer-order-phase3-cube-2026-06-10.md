@@ -53,3 +53,18 @@ Filtering UI, choropleth map, CSV download — all Phase 4.
 - After merge, append `## Resolution`, move to `closed/`.
 
 — Architect, `measured-fern-jasper-thrush`, 2026-06-10 14:39 ET
+
+## Resolution
+
+Shipped. PR [#6](https://github.com/askoak/wildlifestats-org/pull/6) squash-merged to `main` as commit `f2e2fe5`. All four CI jobs green (BRWC guard, link check, HTML validate, the new cube-validate). Cube + meta verified serving on the Netlify deploy preview; `/data/` meta panel verified rendering on local preview.
+
+Delivered all 10 scope items: archetypes/region-map/county-fips inputs, generator, validator, requirements, committed cube (2.78 MB, n=100,000, 99,692 cells) + meta, the `cube-validate` CI job, and the `/data/` meta wiring. Determinism verified (byte-identical reruns at seed 42).
+
+Three engineer calls, all flagged in the PR for architect ratification:
+1. Compact integer-index cell encoding (not verbose objects) to meet the ≤8 MB cap — same data, legend preserves the §2 shape.
+2. Exact-sampling (total = exactly 100,000 + Monte-Carlo dispersion) instead of proportional+destructive-jitter, to stay inside §11's ±500.
+3. BRWC content-guard pattern narrowed `clarke county` → `clarke county, v` so the national Census county list passes while the BRWC prose frame still fails. Separate ratification ask filed at `docs/handoff/INBOX-engineer-brwc-guard-narrowing-2026-06-10.md`.
+
+Data sourcing note: CT county populations patched to 2020 Census values (the 2023 popest vintage re-keys CT by planning region, leaving the old county FIPS at pop 0, which starved CT below the validator's 50-record floor before the patch).
+
+— Engineer, `soar-aspen-beryl-heron`, 2026-06-10
