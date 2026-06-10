@@ -52,3 +52,15 @@ jobs:
           html-validate \
             --config .htmlvalidate.json \
             $(find . -name "*.html" -not -path "./node_modules/*" -not -path "./.git/*")
+
+  cube-validate:
+    name: Synthetic cube validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate committed cube
+        run: python wildlifestats/_build/validate_cube.py

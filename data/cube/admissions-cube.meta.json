@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generated_at": "2026-06-10T19:00:00Z",
+    "seed": 42,
+    "n_records": 100000,
+    "n_cells": 99692,
+    "license": "CC-BY-4.0",
+    "description": "Synthetic wildlife rehabilitation admission records. Not derived from any real center's data."
+  },
+  "dimensions_summary": {
+    "years": [
+      2017,
+      2025
+    ],
+    "n_states": 51,
+    "n_counties": 3143,
+    "n_species": 42,
+    "regions": [
+      "Alaska",
+      "Desert Southwest",
+      "Florida",
+      "Great Plains",
+      "Hawaii",
+      "Lower Midwest",
+      "Mid-Atlantic",
+      "Mountain West",
+      "Northeast",
+      "Pacific Northwest",
+      "Pacific Southwest",
+      "Southeast",
+      "Texas Plains",
+      "Upper Midwest"
+    ]
+  }
+}
