@@ -35,11 +35,24 @@
   <hr class="site-divider">
 
   <main>
-    <div class="container prose">
+    <div class="container">
       <p class="kicker">Research Section</p>
       <h1>Ingestion methodology</h1>
-      <p>A walkthrough of the methodology by which heterogeneous wildlife center records — typically spreadsheets in incompatible schemas — could be normalized into the WildlifeStats schema. The page documents the cleaning and reconciliation pipeline and demonstrates it on sample records. The pipeline is not currently a live service. Final content lands in Phase 4.</p>
-      <p class="status-note">This section is under construction. Final content lands as part of Phase 4 of the build plan.</p>
+      <p class="prose">Wildlife rehabilitation centers record their patients in incompatible spreadsheets — different column names, date formats, species conventions, and outcome vocabularies. This page documents the conceptual pipeline by which such files could be normalized into the WildlifeStats schema, and demonstrates it on a set of sample files. <strong>It is a methodology demonstration, not a live service: there is no upload, and no file you provide is processed.</strong></p>
+
+      <ol class="pipeline-steps prose">
+        <li><strong>Schema inference.</strong> Detect the delimiter and read each file's header row to discover its columns, without assuming a fixed layout.</li>
+        <li><strong>Field mapping.</strong> Map each source column to a canonical WildlifeStats field (source identifier, species, admission date, location, state, admission reason, outcome) using a candidate-name dictionary.</li>
+        <li><strong>Species name normalization.</strong> Resolve free-text common names ("Red-tailed Hawk", "Mexican free-tailed bat") to the dataset's archetype vocabulary and infer the taxonomic class.</li>
+        <li><strong>Date and outcome standardization.</strong> Convert heterogeneous date formats to a single year-month grain and map outcome phrases ("died in care", "released to wild") to the canonical outcome set.</li>
+        <li><strong>K-suppression on aggregation.</strong> When normalized records are aggregated and published, any group below the suppression threshold is withheld, as on the rest of this site.</li>
+      </ol>
+
+      <h2 class="prose">Worked examples</h2>
+      <p class="prose">Each sample below is a real committed file with a different schema. The left column is the raw file; the right column is the normalized output the pipeline produces in your browser.</p>
+
+      <p id="ingest-status" class="explorer-status">Loading the sample files…</p>
+      <div id="ingest-samples"></div>
     </div>
   </main>
 
@@ -56,5 +69,6 @@
     </div>
   </footer>
   <script src="/assets/js/site.js"></script>
+  <script src="/assets/js/ingest.js"></script>
 </body>
 </html>
