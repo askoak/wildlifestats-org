@@ -180,8 +180,13 @@ def load_json(path):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--seed", type=int, default=42)
-    ap.add_argument("--n", type=int, default=100000)
+    ap.add_argument("--n", type=int, default=1000000)
     ap.add_argument("--out", default=os.path.join(REPO, "data", "cube", "admissions-cube.json"))
+    ap.add_argument("--out-dir", default=os.path.join(REPO, "data", "cube"),
+                    help="output directory for sharded mode")
+    ap.add_argument("--output-mode", choices=["single", "sharded"], default="single",
+                    help="single = one admissions-cube.json (Phase 3.1 ship); "
+                         "sharded = meta + by-state/<POSTAL>.json (Phase 3.2)")
     ap.add_argument("--with-parks-overlay", action="store_true",
                     help="also emit data/cube/parks-overlay.json (NPS unit rollups)")
     args = ap.parse_args()
@@ -305,53 +310,92 @@ def main():
     cells = [list(map(int, row)) + [int(c)] for row, c in zip(uniq.tolist(), counts.tolist())]
     cells.sort()
 
+    total_n = int(counts.sum())
     meta = {
-        "version": "1.0.0",
+        "version": "1.1.0",
         "generated_at": "2026-06-10T19:00:00Z",
         "seed": args.seed,
-        "n_records": int(counts.sum()),
+        "n_records": total_n,
         "n_cells": len(cells),
         "license": "CC-BY-4.0",
-        "description": "Synthetic wildlife rehabilitation admission records. "
-                       "Not derived from any real center's data.",
+        "description": f"Synthetic wildlife rehabilitation admission records, "
+                       f"n={total_n:,}. Not derived from any real center's data.",
     }
-
-    cube = {
-        "meta": meta,
-        "cells_legend": ["year_idx", "month", "state_idx", "county_idx",
-                         "class_idx", "species_idx", "reason_idx",
-                         "outcome_idx", "disposition_idx", "n"],
-        "dimensions": {
-            "years": YEARS,
-            "months": MONTHS,
-            "states": states,
-            "counties": [{"fips": c["fips"], "state": c["state"], "name": c["name"]}
-                         for c in counties],
-            "classes": CLASSES,
-            "species": species_vocab,
-            "reasons": REASONS,
-            "outcomes": OUTCOMES,
-            "dispositions": DISPOSITIONS,
-        },
-        "cells": cells,
+    CELLS_LEGEND = ["year_idx", "month", "state_idx", "county_idx",
+                    "class_idx", "species_idx", "reason_idx",
+                    "outcome_idx", "disposition_idx", "n"]
+    dimensions = {
+        "years": YEARS,
+        "months": MONTHS,
+        "states": states,
+        "counties": [{"fips": c["fips"], "state": c["state"], "name": c["name"]}
+                     for c in counties],
+        "classes": CLASSES,
+        "species": species_vocab,
+        "reasons": REASONS,
+        "outcomes": OUTCOMES,
+        "dispositions": DISPOSITIONS,
     }
+    iY, iST = 0, 2
 
-    out_dir = os.path.dirname(args.out)
-    if out_dir:
-        os.makedirs(out_dir, exist_ok=True)
-    with open(args.out, "w", encoding="utf-8", newline="\n") as f:
-        json.dump(cube, f, ensure_ascii=False, separators=(",", ":"), sort_keys=False)
+    def dimensions_summary():
+        return {
+            "years": [YEARS[0], YEARS[-1]],
+            "n_states": len(states),
+            "n_counties": n_counties,
+            "n_species": len(species_vocab),
+            "regions": region_names,
+        }
 
-    meta_out = os.path.join(os.path.dirname(args.out), "admissions-cube.meta.json")
-    with open(meta_out, "w", encoding="utf-8", newline="\n") as f:
-        json.dump({"meta": meta,
-                   "dimensions_summary": {
-                       "years": [YEARS[0], YEARS[-1]],
-                       "n_states": len(states),
-                       "n_counties": n_counties,
-                       "n_species": len(species_vocab),
-                       "regions": region_names,
-                   }}, f, ensure_ascii=False, indent=2, sort_keys=False)
+    if args.output_mode == "single":
+        cube = {"meta": meta, "cells_legend": CELLS_LEGEND,
+                "dimensions": dimensions, "cells": cells}
+        out_dir = os.path.dirname(args.out)
+        if out_dir:
+            os.makedirs(out_dir, exist_ok=True)
+        with open(args.out, "w", encoding="utf-8", newline="\n") as f:
+            json.dump(cube, f, ensure_ascii=False, separators=(",", ":"), sort_keys=False)
+        meta_out = os.path.join(os.path.dirname(args.out), "admissions-cube.meta.json")
+        with open(meta_out, "w", encoding="utf-8", newline="\n") as f:
+            json.dump({"meta": meta, "dimensions_summary": dimensions_summary()},
+                      f, ensure_ascii=False, indent=2, sort_keys=False)
+        size_mb = os.path.getsize(args.out) / 1e6
+        print(f"wrote {args.out}: {len(cells)} cells, n={total_n}, {size_mb:.2f} MB")
+        print(f"wrote {meta_out}")
+    else:  # sharded (Phase 3.2 storage; loader rewire lands with that phase)
+        by_state_dir = os.path.join(args.out_dir, "by-state")
+        os.makedirs(by_state_dir, exist_ok=True)
+        # group cells by state index -> postal code
+        by_state = {}
+        for cell in cells:
+            by_state.setdefault(cell[iST], []).append(cell)
+        shards, totals_by_state = {}, {}
+        for si in sorted(by_state):
+            postal = states[si]
+            scells = by_state[si]
+            path = os.path.join(by_state_dir, postal + ".json")
+            with open(path, "w", encoding="utf-8", newline="\n") as f:
+                json.dump({"state": postal, "cells_legend": CELLS_LEGEND, "cells": scells},
+                          f, ensure_ascii=False, separators=(",", ":"), sort_keys=False)
+            shards[postal] = {"path": f"by-state/{postal}.json",
+                              "n_records": int(sum(c[-1] for c in scells)),
+                              "cell_count": len(scells),
+                              "size_bytes": os.path.getsize(path)}
+            totals_by_state[postal] = shards[postal]["n_records"]
+        totals_by_year = {}
+        for cell in cells:
+            y = str(YEARS[cell[iY]])
+            totals_by_year[y] = totals_by_year.get(y, 0) + cell[-1]
+        meta_full = dict(meta)
+        meta_full.update({"cells_legend": CELLS_LEGEND, "shards": shards,
+                          "dimensions": dimensions,
+                          "dimensions_summary": dimensions_summary(),
+                          "totals_by_year": totals_by_year,
+                          "totals_by_state": totals_by_state})
+        meta_out = os.path.join(args.out_dir, "admissions-cube.meta.json")
+        with open(meta_out, "w", encoding="utf-8", newline="\n") as f:
+            json.dump(meta_full, f, ensure_ascii=False, indent=2, sort_keys=False)
+        print(f"wrote sharded cube: {len(shards)} shards, n={total_n} -> {args.out_dir}")
 
     size_mb = os.path.getsize(args.out) / 1e6
     print(f"wrote {args.out}: {len(cells)} cells, n={meta['n_records']}, {size_mb:.2f} MB")
