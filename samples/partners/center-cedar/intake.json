@@ -1,0 +1,6 @@
+[
+  {"case_no": "C-1001", "intake": "2024-04-18", "species": "passerine songbird", "presenting_complaint": "cat attack", "result": "euthanized", "county": "Travis"},
+  {"case_no": "C-1002", "intake": "2024-06-21", "species": "pelican", "presenting_complaint": "entangled in line", "result": "released", "county": "Galveston"},
+  {"case_no": "C-1003", "intake": "2024-05-09", "species": "Virginia opossum", "presenting_complaint": "orphan", "result": "in care", "county": "Travis"},
+  {"case_no": "C-1004", "intake": "2024-08-02", "species": "nine-banded armadillo", "presenting_complaint": "vehicle", "result": "died in care", "county": "Bexar"}
+]
