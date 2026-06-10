@@ -1,0 +1,54 @@
+name: validate
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  brwc-content-guard:
+    name: BRWC content guard
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for forbidden strings
+        run: bash scripts/check-no-brwc.sh
+
+  link-check:
+    name: Internal link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install link checker
+        run: npm install -g linkinator@6
+      - name: Check internal links
+        run: |
+          linkinator . \
+            --recurse \
+            --skip "^https?://" \
+            --skip "^mailto:" \
+            --skip "node_modules" \
+            --skip ".git" \
+            --skip "docs/handoff"
+
+  html-validate:
+    name: HTML validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install html-validate
+        run: npm install -g html-validate@8
+      - name: Validate HTML files
+        run: |
+          html-validate \
+            --config .htmlvalidate.json \
+            $(find . -name "*.html" -not -path "./node_modules/*" -not -path "./.git/*")
