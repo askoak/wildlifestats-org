@@ -35,11 +35,31 @@
   <hr class="site-divider">
 
   <main>
-    <div class="container prose">
+    <div class="container">
       <p class="kicker">Research Section</p>
       <h1>One Health</h1>
-      <p>One Health describes the interdependence of wildlife, domestic animal, and human health. The synthetic dataset includes admission reasons consistent with patterns documented in the literature — vehicle collisions, window strikes, predation, anthropogenic poisoning, and infectious disease presentations relevant to surveillance. This section will surface cross-species patterns and zoonotic-relevant categories. Final content lands in Phase 4.</p>
-      <p class="status-note">This section is under construction. Final content lands as part of Phase 4 of the build plan.</p>
+      <p class="prose">One Health describes the interdependence of wildlife, domestic animal, and human health. The synthetic dataset includes admission reasons consistent with patterns documented in the literature — vehicle collisions, window strikes, predation, anthropogenic poisoning, and infectious disease presentations relevant to surveillance. This section surfaces cross-species patterns and zoonotic-relevant categories.</p>
+
+      <article class="oh-card">
+        <h2>Cross-species disease patterns</h2>
+        <p>Several diseases that move among wild birds, mammals, domestic animals, and people are visible in wildlife rehabilitation intake. <strong>Highly pathogenic avian influenza (HPAI)</strong> has driven mortality in wild waterfowl, raptors, and seabirds since the 2022 H5N1 outbreak, with spillover into mammals; the U.S. Department of Agriculture's APHIS tracks detections in wild birds nationally (<a href="https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza" rel="noopener" target="_blank">USDA APHIS</a>).</p>
+        <p><strong>Leptospirosis</strong>, a bacterial infection shed in the urine of many mammals, is both a wildlife and a companion-animal and human concern, and is monitored by the CDC (<a href="https://www.cdc.gov/leptospirosis/" rel="noopener" target="_blank">CDC Leptospirosis</a>). <strong>Rabies</strong> remains endemic in wild reservoirs — raccoons, bats, skunks, and foxes — and rehabilitation handling protocols are built around it (<a href="https://www.cdc.gov/rabies/" rel="noopener" target="_blank">CDC Rabies</a>). <strong>West Nile virus (WNV)</strong>, a mosquito-borne flavivirus, causes seasonal mortality in corvids and raptors that often precedes human case clusters; the USGS National Wildlife Health Center conducts wildlife disease surveillance relevant to all of these (<a href="https://www.usgs.gov/centers/nwhc" rel="noopener" target="_blank">USGS NWHC</a>).</p>
+      </article>
+
+      <article class="oh-card">
+        <h2>Zoonotic risk by region</h2>
+        <p class="prose">The map below shades each state by its count of synthetic admissions coded to <em>infectious disease</em>. Because the dataset is synthetic, the geography reflects the regional distribution model rather than any measured surveillance signal.</p>
+        <figure class="map-figure">
+          <svg id="zoonotic-map" viewBox="0 0 975 610" role="img" aria-label="US states shaded by synthetic infectious-disease admission count" preserveAspectRatio="xMidYMid meet"></svg>
+          <figcaption id="zoonotic-status">Loading the regional map…</figcaption>
+        </figure>
+      </article>
+
+      <article class="oh-card">
+        <h2>The wildlife–domestic animal–human connection</h2>
+        <p>One Health is the principle that human, animal, and environmental health are a single interdependent system, and that surveillance in one domain informs the others. The framework is institutionally established: the U.S. Centers for Disease Control and Prevention maintains a dedicated One Health Office (<a href="https://www.cdc.gov/one-health/" rel="noopener" target="_blank">CDC One Health</a>), and the concept is operationalized internationally through the Quadripartite — the World Health Organization, the World Organisation for Animal Health, the Food and Agriculture Organization, and the UN Environment Programme (<a href="https://www.who.int/health-topics/one-health" rel="noopener" target="_blank">WHO One Health</a>).</p>
+        <p>Wildlife rehabilitation centers sit at an informative edge of this system. The animals they admit are sampled from the landscape, often before a disease signal is large enough to register elsewhere, and the intake record — species, reason, geography, season — is exactly the structure a surveillance analyst would want. WildlifeStats models that structure at national scale so the analytic methods can be developed and tested against a documented, reproducible dataset.</p>
+      </article>
     </div>
   </main>
 
@@ -56,5 +76,8 @@
     </div>
   </footer>
   <script src="/assets/js/site.js"></script>
+  <script src="/assets/js/vendor/topojson-client.min.js"></script>
+  <script src="/assets/js/choropleth.js"></script>
+  <script src="/assets/js/one-health.js"></script>
 </body>
 </html>
