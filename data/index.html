@@ -38,10 +38,52 @@
     <div class="container prose">
       <p class="kicker">Research Section</p>
       <h1>Data</h1>
-      <p>The full synthetic admissions cube — year, month, county, species, class, admission reason, outcome category, disposition — exposed as a filterable interface with k-suppressed CSV downloads. Final content lands in Phase 3 (data generation) and Phase 4 (interface).</p>
-      <p class="status-note">This section is under construction. The query interface is wired to the dataset in Phase 3 of the build plan.</p>
+      <p>The full synthetic admissions cube — year, month, county, species, class, admission reason, outcome category, disposition — exposed as a filterable interface with k-suppressed CSV downloads. The dataset is generated; the filtering interface, choropleth map, and CSV download land in Phase 4 of the build plan.</p>
+
+      <section class="data-meta" aria-label="Dataset summary" id="cube-meta">
+        <p class="data-meta__loading">Loading dataset summary…</p>
+      </section>
+
+      <p class="status-note"><strong>Synthetic data</strong> — every figure on this page is generated from regional distribution models, not collected from any wildlife center. See <a href="/methodology.html">Methodology</a>.</p>
     </div>
   </main>
+
+  <script>
+    (function () {
+      var host = document.getElementById('cube-meta');
+      if (!host) return;
+      fetch('/data/cube/admissions-cube.meta.json')
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (d) {
+          var m = d.meta || {};
+          var s = d.dimensions_summary || {};
+          var gen = (m.generated_at || '').slice(0, 10);
+          var rows = [
+            ['Records', Number(m.n_records || 0).toLocaleString()],
+            ['Aggregated cells', Number(m.n_cells || 0).toLocaleString()],
+            ['Years covered', (s.years || []).join(' – ')],
+            ['States + DC', s.n_states],
+            ['Counties', Number(s.n_counties || 0).toLocaleString()],
+            ['Species archetypes', s.n_species],
+            ['Biogeographic regions', (s.regions || []).length],
+            ['Generated', gen],
+            ['License', m.license]
+          ];
+          var html = '<dl class="data-meta__list">';
+          rows.forEach(function (row) {
+            if (row[1] === undefined || row[1] === null || row[1] === '') return;
+            html += '<div class="data-meta__item"><dt>' + row[0] + '</dt><dd>' + row[1] + '</dd></div>';
+          });
+          html += '</dl>';
+          html += '<p class="data-meta__note">Dataset version ' + (m.version || '?') +
+                  '. ' + (m.description || '') + '</p>';
+          host.innerHTML = html;
+        })
+        .catch(function () {
+          host.innerHTML = '<p class="data-meta__loading">Dataset summary is temporarily unavailable.</p>';
+        });
+    })();
+  </script>
 
   <footer class="site-footer">
     <div class="container">

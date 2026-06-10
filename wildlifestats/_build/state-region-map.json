@@ -1,0 +1,209 @@
+{
+ "description": "State -> dominant biogeographic region (whole-state assignment; no per-county overrides) and representative centroid latitude used for seasonality. 50 states + DC.",
+ "states": {
+  "AK": {
+   "lat": 64.2,
+   "region": "Alaska"
+  },
+  "AL": {
+   "lat": 32.8,
+   "region": "Southeast"
+  },
+  "AR": {
+   "lat": 34.8,
+   "region": "Southeast"
+  },
+  "AZ": {
+   "lat": 34.2,
+   "region": "Desert Southwest"
+  },
+  "CA": {
+   "lat": 37.2,
+   "region": "Pacific Southwest"
+  },
+  "CO": {
+   "lat": 39.0,
+   "region": "Mountain West"
+  },
+  "CT": {
+   "lat": 41.6,
+   "region": "Northeast"
+  },
+  "DC": {
+   "lat": 38.9,
+   "region": "Mid-Atlantic"
+  },
+  "DE": {
+   "lat": 39.0,
+   "region": "Mid-Atlantic"
+  },
+  "FL": {
+   "lat": 28.6,
+   "region": "Florida"
+  },
+  "GA": {
+   "lat": 32.6,
+   "region": "Southeast"
+  },
+  "HI": {
+   "lat": 20.8,
+   "region": "Hawaii"
+  },
+  "IA": {
+   "lat": 42.0,
+   "region": "Upper Midwest"
+  },
+  "ID": {
+   "lat": 44.4,
+   "region": "Mountain West"
+  },
+  "IL": {
+   "lat": 40.0,
+   "region": "Lower Midwest"
+  },
+  "IN": {
+   "lat": 39.9,
+   "region": "Lower Midwest"
+  },
+  "KS": {
+   "lat": 38.5,
+   "region": "Great Plains"
+  },
+  "KY": {
+   "lat": 37.5,
+   "region": "Southeast"
+  },
+  "LA": {
+   "lat": 31.0,
+   "region": "Southeast"
+  },
+  "MA": {
+   "lat": 42.2,
+   "region": "Northeast"
+  },
+  "MD": {
+   "lat": 39.0,
+   "region": "Mid-Atlantic"
+  },
+  "ME": {
+   "lat": 45.4,
+   "region": "Northeast"
+  },
+  "MI": {
+   "lat": 44.3,
+   "region": "Upper Midwest"
+  },
+  "MN": {
+   "lat": 46.3,
+   "region": "Upper Midwest"
+  },
+  "MO": {
+   "lat": 38.4,
+   "region": "Lower Midwest"
+  },
+  "MS": {
+   "lat": 32.7,
+   "region": "Southeast"
+  },
+  "MT": {
+   "lat": 46.9,
+   "region": "Mountain West"
+  },
+  "NC": {
+   "lat": 35.5,
+   "region": "Southeast"
+  },
+  "ND": {
+   "lat": 47.5,
+   "region": "Great Plains"
+  },
+  "NE": {
+   "lat": 41.5,
+   "region": "Great Plains"
+  },
+  "NH": {
+   "lat": 43.7,
+   "region": "Northeast"
+  },
+  "NJ": {
+   "lat": 40.1,
+   "region": "Northeast"
+  },
+  "NM": {
+   "lat": 34.4,
+   "region": "Desert Southwest"
+  },
+  "NV": {
+   "lat": 39.3,
+   "region": "Mountain West"
+  },
+  "NY": {
+   "lat": 42.9,
+   "region": "Northeast"
+  },
+  "OH": {
+   "lat": 40.3,
+   "region": "Lower Midwest"
+  },
+  "OK": {
+   "lat": 35.6,
+   "region": "Great Plains"
+  },
+  "OR": {
+   "lat": 43.9,
+   "region": "Pacific Northwest"
+  },
+  "PA": {
+   "lat": 40.9,
+   "region": "Northeast"
+  },
+  "RI": {
+   "lat": 41.7,
+   "region": "Northeast"
+  },
+  "SC": {
+   "lat": 33.9,
+   "region": "Southeast"
+  },
+  "SD": {
+   "lat": 44.4,
+   "region": "Great Plains"
+  },
+  "TN": {
+   "lat": 35.9,
+   "region": "Southeast"
+  },
+  "TX": {
+   "lat": 31.5,
+   "region": "Texas Plains"
+  },
+  "UT": {
+   "lat": 39.3,
+   "region": "Mountain West"
+  },
+  "VA": {
+   "lat": 37.5,
+   "region": "Mid-Atlantic"
+  },
+  "VT": {
+   "lat": 44.1,
+   "region": "Northeast"
+  },
+  "WA": {
+   "lat": 47.4,
+   "region": "Pacific Northwest"
+  },
+  "WI": {
+   "lat": 44.6,
+   "region": "Upper Midwest"
+  },
+  "WV": {
+   "lat": 38.6,
+   "region": "Mid-Atlantic"
+  },
+  "WY": {
+   "lat": 43.0,
+   "region": "Mountain West"
+  }
+ }
+}

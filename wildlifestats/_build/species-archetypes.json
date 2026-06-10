@@ -1,0 +1,581 @@
+{
+ "description": "Regional species archetypes. class_weights gives the per-region class mix; species gives the within-class probability table. Probabilities normalized to sum ~1.0. Inland regions omit the marine class entirely.",
+ "regions": {
+  "Alaska": {
+   "class_weights": {
+    "amphibian": 0.02,
+    "bird": 0.5,
+    "mammal": 0.3,
+    "marine": 0.18
+   },
+   "species": {
+    "amphibian": {
+     "frog": 0.7,
+     "salamander": 0.3
+    },
+    "bird": {
+     "corvid": 0.1,
+     "passerine_songbird": 0.22,
+     "raptor": 0.3,
+     "shorebird": 0.08,
+     "waterfowl": 0.3
+    },
+    "mammal": {
+     "bat": 0.08,
+     "black_bear": 0.14,
+     "brown_bear": 0.1,
+     "cottontail": 0.18,
+     "deer_mule": 0.14,
+     "fox": 0.14,
+     "raccoon": 0.06,
+     "squirrel": 0.16
+    },
+    "marine": {
+     "sea_otter": 0.2,
+     "seabird": 0.35,
+     "seal": 0.45
+    }
+   }
+  },
+  "Desert Southwest": {
+   "class_weights": {
+    "amphibian": 0.02,
+    "bird": 0.46,
+    "mammal": 0.24,
+    "marine": 0.02,
+    "reptile": 0.26
+   },
+   "species": {
+    "amphibian": {
+     "frog": 0.4,
+     "toad": 0.6
+    },
+    "bird": {
+     "corvid": 0.08,
+     "dove_pigeon": 0.14,
+     "gamebird": 0.08,
+     "hummingbird": 0.08,
+     "passerine_songbird": 0.32,
+     "raptor": 0.3
+    },
+    "mammal": {
+     "armadillo": 0.08,
+     "bat": 0.16,
+     "cottontail": 0.16,
+     "coyote": 0.08,
+     "deer_mule": 0.16,
+     "fox": 0.1,
+     "raccoon": 0.12,
+     "squirrel": 0.14
+    },
+    "marine": {
+     "dolphin": 0.2,
+     "sea_turtle": 0.3,
+     "seabird": 0.5
+    },
+    "reptile": {
+     "lizard": 0.38,
+     "snake": 0.34,
+     "tortoise": 0.18,
+     "turtle_aquatic": 0.1
+    }
+   }
+  },
+  "Florida": {
+   "class_weights": {
+    "amphibian": 0.04,
+    "bird": 0.46,
+    "mammal": 0.22,
+    "marine": 0.1,
+    "reptile": 0.18
+   },
+   "species": {
+    "amphibian": {
+     "frog": 0.65,
+     "toad": 0.35
+    },
+    "bird": {
+     "corvid": 0.06,
+     "dove_pigeon": 0.06,
+     "passerine_songbird": 0.3,
+     "pelican": 0.12,
+     "raptor": 0.2,
+     "shorebird": 0.16,
+     "waterfowl": 0.1
+    },
+    "mammal": {
+     "armadillo": 0.14,
+     "bat": 0.12,
+     "cottontail": 0.1,
+     "opossum": 0.18,
+     "raccoon": 0.2,
+     "squirrel": 0.16,
+     "white_tailed_deer": 0.1
+    },
+    "marine": {
+     "dolphin": 0.12,
+     "manatee": 0.18,
+     "pelican": 0.24,
+     "sea_turtle": 0.38,
+     "seabird": 0.08
+    },
+    "reptile": {
+     "lizard": 0.22,
+     "snake": 0.28,
+     "tortoise": 0.18,
+     "turtle_aquatic": 0.32
+    }
+   }
+  },
+  "Great Plains": {
+   "class_weights": {
+    "amphibian": 0.04,
+    "bird": 0.56,
+    "mammal": 0.34,
+    "reptile": 0.06
+   },
+   "species": {
+    "amphibian": {
+     "frog": 0.55,
+     "salamander": 0.15,
+     "toad": 0.3
+    },
+    "bird": {
+     "corvid": 0.08,
+     "gamebird": 0.08,
+     "passerine_songbird": 0.38,
+     "raptor": 0.26,
+     "shorebird": 0.06,
+     "waterfowl": 0.14
+    },
+    "mammal": {
+     "bat": 0.08,
+     "cottontail": 0.14,
+     "fox": 0.06,
+     "opossum": 0.08,
+     "prairie_dog": 0.12,
+     "raccoon": 0.16,
+     "squirrel": 0.16,
+     "white_tailed_deer": 0.2
+    },
+    "reptile": {
+     "lizard": 0.25,
+     "snake": 0.55,
+     "turtle_aquatic": 0.2
+    }
+   }
+  },
+  "Hawaii": {
+   "class_weights": {
+    "bird": 0.55,
+    "mammal": 0.07,
+    "marine": 0.38
+   },
+   "species": {
+    "bird": {
+     "native_passerine": 0.3,
+     "seabird": 0.45,
+     "shorebird": 0.1,
+     "waterfowl": 0.15
+    },
+    "mammal": {
+     "bat": 1.0
+    },
+    "marine": {
+     "monk_seal": 0.25,
+     "sea_turtle": 0.45,
+     "seabird_pelagic": 0.3
+    }
+   }
+  },
+  "Lower Midwest": {
+   "class_weights": {
+    "amphibian": 0.06,
+    "bird": 0.54,
+    "mammal": 0.35,
+    "reptile": 0.05
+   },
+   "species": {
+    "amphibian": {
+     "frog": 0.58,
+     "salamander": 0.27,
+     "toad": 0.15
+    },
+    "bird": {
+     "corvid": 0.08,
+     "dove_pigeon": 0.07,
+     "gamebird": 0.04,
+     "passerine_songbird": 0.38,
+     "raptor": 0.24,
+     "waterfowl": 0.12,
+     "woodpecker": 0.07
+    },
+    "mammal": {
+     "bat": 0.12,
+     "cottontail": 0.12,
+     "fox": 0.06,
+     "opossum": 0.14,
+     "raccoon": 0.18,
+     "squirrel": 0.18,
+     "white_tailed_deer": 0.2
+    },
+    "reptile": {
+     "lizard": 0.15,
+     "snake": 0.4,
+     "turtle_aquatic": 0.45
+    }
+   }
+  },
+  "Mid-Atlantic": {
+   "class_weights": {
+    "amphibian": 0.05,
+    "bird": 0.53,
+    "mammal": 0.33,
+    "marine": 0.03,
+    "reptile": 0.06
+   },
+   "species": {
+    "amphibian": {
+     "frog": 0.55,
+     "salamander": 0.3,
+     "toad": 0.15
+    },
+    "bird": {
+     "corvid": 0.08,
+     "gamebird": 0.04,
+     "passerine_songbird": 0.38,
+     "raptor": 0.22,
+     "shorebird": 0.09,
+     "waterfowl": 0.13,
+     "woodpecker": 0.06
+    },
+    "mammal": {
+     "bat": 0.12,
+     "cottontail": 0.12,
+     "fox": 0.06,
+     "opossum": 0.14,
+     "raccoon": 0.18,
+     "squirrel": 0.16,
+     "white_tailed_deer": 0.22
+    },
+    "marine": {
+     "sea_turtle": 0.3,
+     "seal": 0.4,
+     "shorebird_pelagic": 0.3
+    },
+    "reptile": {
+     "lizard": 0.08,
+     "snake": 0.36,
+     "terrapin": 0.1,
+     "turtle_aquatic": 0.46
+    }
+   }
+  },
+  "Mountain West": {
+   "class_weights": {
+    "amphibian": 0.06,
+    "bird": 0.5,
+    "mammal": 0.36,
+    "reptile": 0.08
+   },
+   "species": {
+    "amphibian": {
+     "frog": 0.55,
+     "salamander": 0.25,
+     "toad": 0.2
+    },
+    "bird": {
+     "corvid": 0.09,
+     "gamebird": 0.07,
+     "passerine_songbird": 0.34,
+     "raptor": 0.3,
+     "shorebird": 0.03,
+     "waterfowl": 0.12,
+     "woodpecker": 0.05
+    },
+    "mammal": {
+     "bat": 0.1,
+     "black_bear": 0.06,
+     "cottontail": 0.14,
+     "deer_mule": 0.22,
+     "fox": 0.08,
+     "pronghorn": 0.12,
+     "raccoon": 0.12,
+     "squirrel": 0.16
+    },
+    "reptile": {
+     "lizard": 0.35,
+     "snake": 0.55,
+     "turtle_aquatic": 0.1
+    }
+   }
+  },
+  "Northeast": {
+   "class_weights": {
+    "amphibian": 0.06,
+    "bird": 0.53,
+    "mammal": 0.33,
+    "marine": 0.03,
+    "reptile": 0.05
+   },
+   "species": {
+    "amphibian": {
+     "frog": 0.52,
+     "salamander": 0.33,
+     "toad": 0.15
+    },
+    "bird": {
+     "corvid": 0.08,
+     "gamebird": 0.04,
+     "passerine_songbird": 0.38,
+     "raptor": 0.22,
+     "shorebird": 0.08,
+     "waterfowl": 0.14,
+     "woodpecker": 0.06
+    },
+    "mammal": {
+     "bat": 0.12,
+     "cottontail": 0.12,
+     "fox": 0.08,
+     "opossum": 0.12,
+     "raccoon": 0.18,
+     "squirrel": 0.18,
+     "white_tailed_deer": 0.2
+    },
+    "marine": {
+     "sea_turtle": 0.2,
+     "seabird": 0.3,
+     "seal": 0.5
+    },
+    "reptile": {
+     "lizard": 0.14,
+     "snake": 0.38,
+     "turtle_aquatic": 0.48
+    }
+   }
+  },
+  "Pacific Northwest": {
+   "class_weights": {
+    "amphibian": 0.08,
+    "bird": 0.55,
+    "mammal": 0.3,
+    "marine": 0.03,
+    "reptile": 0.04
+   },
+   "species": {
+    "amphibian": {
+     "frog": 0.5,
+     "salamander": 0.35,
+     "toad": 0.15
+    },
+    "bird": {
+     "corvid": 0.08,
+     "gamebird": 0.04,
+     "passerine_songbird": 0.36,
+     "raptor": 0.26,
+     "shorebird": 0.06,
+     "waterfowl": 0.14,
+     "woodpecker": 0.06
+    },
+    "mammal": {
+     "bat": 0.12,
+     "black_bear": 0.1,
+     "cottontail": 0.12,
+     "deer_mule": 0.18,
+     "fox": 0.08,
+     "opossum": 0.06,
+     "raccoon": 0.16,
+     "squirrel": 0.18
+    },
+    "marine": {
+     "sea_turtle": 0.1,
+     "seabird": 0.35,
+     "seal": 0.55
+    },
+    "reptile": {
+     "lizard": 0.3,
+     "snake": 0.5,
+     "turtle_aquatic": 0.2
+    }
+   }
+  },
+  "Pacific Southwest": {
+   "class_weights": {
+    "amphibian": 0.04,
+    "bird": 0.52,
+    "mammal": 0.28,
+    "marine": 0.04,
+    "reptile": 0.12
+   },
+   "species": {
+    "amphibian": {
+     "frog": 0.55,
+     "salamander": 0.3,
+     "toad": 0.15
+    },
+    "bird": {
+     "corvid": 0.08,
+     "dove_pigeon": 0.1,
+     "hummingbird": 0.05,
+     "passerine_songbird": 0.36,
+     "raptor": 0.24,
+     "shorebird": 0.08,
+     "waterfowl": 0.09
+    },
+    "mammal": {
+     "bat": 0.1,
+     "cottontail": 0.12,
+     "coyote": 0.06,
+     "deer_mule": 0.18,
+     "fox": 0.08,
+     "opossum": 0.12,
+     "raccoon": 0.16,
+     "squirrel": 0.18
+    },
+    "marine": {
+     "dolphin": 0.1,
+     "sea_turtle": 0.15,
+     "seabird": 0.3,
+     "seal": 0.45
+    },
+    "reptile": {
+     "lizard": 0.38,
+     "snake": 0.4,
+     "tortoise": 0.1,
+     "turtle_aquatic": 0.12
+    }
+   }
+  },
+  "Southeast": {
+   "class_weights": {
+    "amphibian": 0.04,
+    "bird": 0.5,
+    "mammal": 0.32,
+    "marine": 0.04,
+    "reptile": 0.1
+   },
+   "species": {
+    "amphibian": {
+     "frog": 0.58,
+     "salamander": 0.27,
+     "toad": 0.15
+    },
+    "bird": {
+     "corvid": 0.08,
+     "dove_pigeon": 0.06,
+     "passerine_songbird": 0.36,
+     "raptor": 0.22,
+     "shorebird": 0.08,
+     "waterfowl": 0.12,
+     "woodpecker": 0.08
+    },
+    "mammal": {
+     "armadillo": 0.06,
+     "bat": 0.08,
+     "cottontail": 0.1,
+     "fox": 0.06,
+     "opossum": 0.16,
+     "raccoon": 0.18,
+     "squirrel": 0.16,
+     "white_tailed_deer": 0.2
+    },
+    "marine": {
+     "dolphin": 0.1,
+     "pelican": 0.35,
+     "sea_turtle": 0.35,
+     "seabird": 0.2
+    },
+    "reptile": {
+     "lizard": 0.14,
+     "snake": 0.36,
+     "tortoise": 0.12,
+     "turtle_aquatic": 0.38
+    }
+   }
+  },
+  "Texas Plains": {
+   "class_weights": {
+    "amphibian": 0.03,
+    "bird": 0.5,
+    "mammal": 0.3,
+    "marine": 0.03,
+    "reptile": 0.14
+   },
+   "species": {
+    "amphibian": {
+     "frog": 0.45,
+     "toad": 0.55
+    },
+    "bird": {
+     "corvid": 0.08,
+     "dove_pigeon": 0.12,
+     "gamebird": 0.04,
+     "passerine_songbird": 0.34,
+     "raptor": 0.26,
+     "shorebird": 0.06,
+     "waterfowl": 0.1
+    },
+    "mammal": {
+     "armadillo": 0.12,
+     "bat": 0.08,
+     "cottontail": 0.12,
+     "fox": 0.04,
+     "opossum": 0.14,
+     "raccoon": 0.16,
+     "squirrel": 0.14,
+     "white_tailed_deer": 0.2
+    },
+    "marine": {
+     "dolphin": 0.18,
+     "pelican": 0.32,
+     "sea_turtle": 0.4,
+     "seabird": 0.1
+    },
+    "reptile": {
+     "lizard": 0.3,
+     "snake": 0.38,
+     "tortoise": 0.12,
+     "turtle_aquatic": 0.2
+    }
+   }
+  },
+  "Upper Midwest": {
+   "class_weights": {
+    "amphibian": 0.07,
+    "bird": 0.55,
+    "mammal": 0.33,
+    "reptile": 0.05
+   },
+   "species": {
+    "amphibian": {
+     "frog": 0.55,
+     "salamander": 0.3,
+     "toad": 0.15
+    },
+    "bird": {
+     "corvid": 0.08,
+     "gamebird": 0.04,
+     "passerine_songbird": 0.38,
+     "raptor": 0.24,
+     "shorebird": 0.04,
+     "waterfowl": 0.16,
+     "woodpecker": 0.06
+    },
+    "mammal": {
+     "bat": 0.12,
+     "cottontail": 0.12,
+     "fox": 0.08,
+     "opossum": 0.1,
+     "raccoon": 0.18,
+     "squirrel": 0.18,
+     "white_tailed_deer": 0.22
+    },
+    "reptile": {
+     "lizard": 0.15,
+     "snake": 0.4,
+     "turtle_aquatic": 0.45
+    }
+   }
+  }
+ }
+}
