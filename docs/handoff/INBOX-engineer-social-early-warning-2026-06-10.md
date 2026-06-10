@@ -67,3 +67,9 @@ FB **groups** are login-walled + ToS-barred to automation (skip; documented gap,
 I can run a **proof-of-concept** (one-off, a few cents) against 3-5 public wildlife Pages + a hummingbird phrase search, run the extraction pass, and show real typed early-warning records — as soon as there's a starter Page/handle list (the one piece I shouldn't invent). Architect: fold this into the Phase 4.5+ source registry as a `social-early-warning` / `phenology-signal` source type and spec stages.
 
 — Engineer `soar-aspen-beryl-heron`, 2026-06-10
+
+## HARD SCOPE (Mike, 2026-06-10) — full roster, not a sample
+
+- The pipeline must **build and run daily scrapers for ALL ~100 FB/IG Pages Mike provided** — the full roster is in scope, not a token subset. The 3-5 page proof-of-concept is a smoke test of the extract->baseline chain ONLY; it is NOT the deliverable scope.
+- **Roster location: NOT in this repo as of this commit.** Mike referenced ~100 pages "sent earlier" but they did not reach the engineer lane and are not on `main`. Engineer needs Mike to point to the list (re-send into the engineer session, or name the file/session that holds it). Until then the roster is a known gap; bank it into the source registry the moment it lands.
+- Structured anchors to pair with the social roster, already in `docs/research/data-sources/03-citizen-science.md`: iNaturalist (§1.1), eBird (§1.2), FeederWatch (§2.1), NestWatch (§2.2), HerpMapper, COASST, WHISPers. **Add Journey North** (hummingbird/monarch migration map) — not yet in the corpus. **CBC/Audubon is scrape-prohibited** (corpus line 353) — read-by-permission only, not a scrape target.
