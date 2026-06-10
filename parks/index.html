@@ -35,11 +35,23 @@
   <hr class="site-divider">
 
   <main>
-    <div class="container prose">
+    <div class="container">
       <p class="kicker">Research Section</p>
       <h1>National Parks</h1>
-      <p>The National Parks lens filters the synthetic admissions data by proximity to NPS units. The map and tables are illustrative — synthetic data is plausibly shaped by regional species composition but is not measured against any specific park's actual wildlife activity. Final content lands in Phase 4.</p>
-      <p class="status-note">This section is under construction. Final content lands as part of Phase 4 of the build plan.</p>
+      <p class="prose">The National Parks lens rolls up the synthetic admissions data to National Park Service units, using the counties within roughly fifty miles of each park. Search for a park to see the species classes, dominant admission reasons, and seasonal pattern modeled for its surrounding counties.</p>
+
+      <p id="park-status" class="explorer-status">Loading the parks dataset…</p>
+
+      <div id="park-browser" hidden>
+        <div class="park-layout">
+          <div class="park-search-col">
+            <label class="park-search-label" for="park-search">Search parks</label>
+            <input type="search" id="park-search" class="park-search" placeholder="Park name or state code" autocomplete="off">
+            <ul id="park-list" class="park-list"></ul>
+          </div>
+          <section id="park-profile" class="park-profile" aria-live="polite" hidden></section>
+        </div>
+      </div>
     </div>
   </main>
 
@@ -56,5 +68,6 @@
     </div>
   </footer>
   <script src="/assets/js/site.js"></script>
+  <script src="/assets/js/parks.js"></script>
 </body>
 </html>
