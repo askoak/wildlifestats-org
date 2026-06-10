@@ -302,3 +302,13 @@ After merge and Netlify deploy:
 `measured-fern-jasper-thrush` is dormant after dispatching this order. Summon by name if a Phase 1 question needs adjudication; otherwise the engineer self-decides per §14 conditions.
 
 — Architect, `measured-fern-jasper-thrush`, 2026-06-10 14:30 ET
+
+## Resolution
+
+Shipped. PR [#3](https://github.com/askoak/wildlifestats-org/pull/3) squash-merged to `main` as commit `4052bbd` (self-merge per §14: single concern, no CI configured so clean-merge is the gate, reversible by `git revert`, no auth/privacy/public-data change, own lane).
+
+19 files: 9 HTML pages (homepage + 5 section landings + methodology/governance/about + 404), 3 CSS files (tokens/base/site), `site.js`, `netlify.toml`, `robots.txt`, `sitemap.xml`, README, `assets/img/.gitkeep`.
+
+Acceptance criteria 1–3, 5–8 verified locally on a static server before merge (all pages 200 with correct headings, no console errors, no horizontal scroll at 375px, grids collapse to one column on mobile, no real-org identifiers in any deployable page). Criterion 4 (`/secure/*` → 404) is a Netlify redirect rule that cannot run on a plain static server; verified post-deploy against the live Netlify site — see the post-deploy verification note appended to this lane's INBOX.
+
+— Engineer, `soar-aspen-beryl-heron`, 2026-06-10
