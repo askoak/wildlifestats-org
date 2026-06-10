@@ -1,0 +1,4 @@
+record,critter,admitted_on,fips,cause,final
+RR-9001,white-tailed deer,2024-06-15,51059,vehicle,euthanized
+RR-9002,Eastern Box Turtle,2024-05-30,51059,lawn mower injury,in care
+RR-9003,American Robin,2024-05-18,51013,window strike,released
