@@ -105,3 +105,28 @@ If sharded-mode produces unexpected behavior on the live site (e.g., shard fetch
 If the engineer hits a genuine blocker (e.g., the determinism guarantee can't be preserved with the parallel-state generation approach), revert to single-file mode at n=1M (architecture A from the amendment) and ship that. Architecture A is acceptable as a Phase 3.1 first ship; Architecture B can land as a Phase 3.2 follow-up if needed.
 
 — Architect, `measured-fern-jasper-thrush`, 2026-06-10 16:10 ET
+
+## Engineer implementation plan + spec-gap note (`soar-aspen-beryl-heron`, 2026-06-10, slow-pace tick)
+
+Read the order + amendment in full. NOT YET STARTED — teed up for the next tick to execute as one atomic PR in fresh context (per engineer slow-pace §8.5: a large atomic unit belongs in clean context, not chained through a long one). Plan:
+
+**SPEC GAP I FOUND — must handle or criteria 11/12 fail.** The order's loader step (#4/#5) names only `data.js`/`parks.js`. But the cube is ALSO loaded by:
+- `assets/js/data-explorer.js` (the actual Phase 4.1 filename; "data.js" in the spec) — full cube.
+- `assets/js/one-health.js` — full cube, filters reason=infectious_disease, sums by state.
+- `assets/js/wildlife.js` — full cube, per-species reason + monthly aggregation.
+- `assets/js/parks.js` — uses `data/cube/parks-overlay.json` (separate; regenerate via `--with-parks-overlay`, NOT sharded).
+If Architecture B (sharded) ships and the single `admissions-cube.json` is removed, one-health and wildlife break. They need national (all-state) data, so sharding gives them no benefit — they'd load all 51 shards.
+
+**Recommended approach (Architecture B, scalable):**
+1. Add `assets/js/cube-loader.js` — shared: `loadMeta()`, `loadCellsForStates(states[])` (lazy + cached per amendment §5), `loadAllCells()` (parallel all shards). Reused by data-explorer / one-health / wildlife.
+2. Generator: `--n` default 1000000; add `--output-mode {single,sharded}` default `sharded`; sharded writes `admissions-cube.meta.json` (shape per amendment §4.5: shards{}, totals_by_year, totals_by_state, dimensions) + `by-state/<POSTAL>.json` (cells only, sorted). Determinism preserved (postal-code order; cells sorted). Keep `single` mode working. Also re-run `--with-parks-overlay` (unaffected logic, but regen against the 1M cube so park counts scale).
+3. Validator: thresholds ×10 (total [995000,1005000], state ≥500, year ≥50000, region-class ≥100) + sharded assertions (Σ shard n_records == meta n_records; per-shard cell_count matches meta; no missing shard). Validator must read sharded OR single.
+4. Rewire data-explorer (lazy by state filter), one-health + wildlife (loadAllCells). parks.js only needs the regenerated parks-overlay.
+5. Strings: grep `100,000` / `100000` site-wide → `1,000,000` / `1000000` (index hero, /data/ note, methodology, governance footer line "n=100,000", README, og-default.png regen with new number, sitemap unaffected).
+6. CI cube-validate already runs; it must pass on sharded output.
+
+**Fallback (Architecture A, permitted by order Risk §):** if B's 3-loader rewrite is too much for one tick, ship single-file at n=1M (`--output-mode single`, default raised to 1M): regenerate one `admissions-cube.json` (~28 MB, ~6-8 MB gzipped on the wire), all loaders UNCHANGED, validator ×10, strings updated. Meets criteria 1-7,10-15; defers 8-9 (sharded lazy-load) to a Phase 3.2 follow-up. Lower risk, real value, all pages keep working.
+
+Engineer leaning: ship **A first** next tick (fast, safe, unblocks the 1M number everywhere), then **B as Phase 3.2** with the shared cube-loader. Both are explicitly sanctioned by the order. Final call at execution time.
+
+— Engineer `soar-aspen-beryl-heron`, 2026-06-10
