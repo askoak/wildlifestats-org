@@ -4,8 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
-  <title>WildlifeStats — Ingestion sandbox</title>
+  <title>WildlifeStats — Ingestion methodology</title>
   <meta name="description" content="National Wildlife Rehabilitation Research Framework — under construction.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap">
   <link rel="stylesheet" href="/assets/css/tokens.css">
   <link rel="stylesheet" href="/assets/css/base.css">
   <link rel="stylesheet" href="/assets/css/site.css">
@@ -13,10 +16,10 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <div class="brand">
-        <a href="/">WildlifeStats</a>
-        <p class="kicker">National Wildlife Rehabilitation Research Framework</p>
-      </div>
+      <a href="/" class="brand" aria-label="WildlifeStats — home">
+        <img src="/assets/img/logo.svg" alt="" width="240" height="64" class="brand__mark">
+        <span class="brand__kicker">National Wildlife Rehabilitation Research Framework</span>
+      </a>
       <nav class="site-nav" aria-label="Primary">
         <ul>
           <li><a href="/one-health/">One Health</a></li>
@@ -33,19 +36,10 @@
 
   <main>
     <div class="container prose">
-      <p class="kicker">Ingestion sandbox</p>
-      <h1>Multi-format ingestion sandbox</h1>
-      <p>Wildlife rehabilitation records live in thousands of incompatible
-      spreadsheets, each with its own columns, abbreviations, and conventions.
-      The ingestion sandbox documents how WildlifeStats reconciles them: how a
-      heterogeneous set of files is read, cleaned, mapped to a common schema,
-      and merged into the national database while preserving each contributor's
-      provenance. This page is a methodology demonstration rather than a live
-      upload tool, illustrated with sample files that show the standardization
-      workflow end to end. It explains how the framework would scale to many
-      contributing centers without requiring real partner data to be present.</p>
-      <p class="status-note">This section is under construction. The
-      demonstration lands as part of Phase 4 of the build plan.</p>
+      <p class="kicker">Research Section</p>
+      <h1>Ingestion methodology</h1>
+      <p>A walkthrough of the methodology by which heterogeneous wildlife center records — typically spreadsheets in incompatible schemas — could be normalized into the WildlifeStats schema. The page documents the cleaning and reconciliation pipeline and demonstrates it on sample records. The pipeline is not currently a live service. Final content lands in Phase 4.</p>
+      <p class="status-note">This section is under construction. Final content lands as part of Phase 4 of the build plan.</p>
     </div>
   </main>
 

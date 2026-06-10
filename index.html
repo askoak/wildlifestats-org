@@ -6,6 +6,9 @@
   <meta name="robots" content="noindex, nofollow">
   <title>WildlifeStats — National Wildlife Rehabilitation Research Framework</title>
   <meta name="description" content="National Wildlife Rehabilitation Research Framework — under construction.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap">
   <link rel="stylesheet" href="/assets/css/tokens.css">
   <link rel="stylesheet" href="/assets/css/base.css">
   <link rel="stylesheet" href="/assets/css/site.css">
@@ -13,10 +16,10 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <div class="brand">
-        <a href="/">WildlifeStats</a>
-        <p class="kicker">National Wildlife Rehabilitation Research Framework</p>
-      </div>
+      <a href="/" class="brand" aria-label="WildlifeStats — home">
+        <img src="/assets/img/logo.svg" alt="" width="240" height="64" class="brand__mark">
+        <span class="brand__kicker">National Wildlife Rehabilitation Research Framework</span>
+      </a>
       <nav class="site-nav" aria-label="Primary">
         <ul>
           <li><a href="/one-health/">One Health</a></li>
@@ -36,14 +39,16 @@
       <p class="kicker">National Wildlife Rehabilitation Research Framework</p>
       <h1>WildlifeStats</h1>
       <div class="prose">
-        <p>WildlifeStats is a national research framework for the analysis of
-        wildlife rehabilitation patient data. The current dataset is synthetic
-        — 100,000 patient records generated from regional distribution models
-        — and is intended to demonstrate the framework's methodology rather
-        than report real admissions. The framework is built for researchers,
-        policy analysts, educators, and conservation organizations who need a
-        standardized, queryable view of wildlife intake patterns at national
-        scale. Every analysis published here states its data provenance.</p>
+        <p>WildlifeStats is a national research framework for wildlife
+        rehabilitation data. The current public dataset is synthetic, generated
+        at n=100,000 from regional distribution models calibrated against
+        published wildlife rehabilitation literature. It is intended for
+        researchers, policy analysts, educators, and conservation
+        organizations.</p>
+        <p>The framework demonstrates a method, not a real-time surveillance
+        network. Real wildlife centers operate on heterogeneous record systems;
+        the methodology page describes how published records, if shared, can be
+        normalized into the structure shown here.</p>
       </div>
 
       <ul class="tile-grid">
@@ -78,23 +83,21 @@
         <div>
           <h2>What this is</h2>
           <ul>
-            <li>A research framework demonstrating standardized analysis of
-            wildlife rehabilitation data at national scale.</li>
-            <li>A synthetic dataset — honestly labeled as such on every page
-            that touches it.</li>
-            <li>A methodology for ingesting heterogeneous records from many
-            centers into one queryable structure.</li>
+            <li>A national research framework</li>
+            <li>Synthetic data calibrated against published rehabilitation
+            literature</li>
+            <li>Methodology demonstration for multi-source wildlife data</li>
+            <li>A reading reference for researchers, policy analysts, and
+            educators</li>
           </ul>
         </div>
         <div>
           <h2>What this isn't</h2>
           <ul>
-            <li>Not live or real-time admissions data.</li>
-            <li>Not a fundraising platform for any organization.</li>
-            <li>Not a replacement for state wildlife agencies or rehabilitator
-            directories.</li>
-            <li>Not a partner self-service platform — yet. The partnership
-            model is described under <a href="/governance.html">Governance</a>.</li>
+            <li>A real-time surveillance system</li>
+            <li>Live data from any specific rehabilitation center</li>
+            <li>A triage routing service for finders of injured wildlife</li>
+            <li>A fundraising platform for any organization</li>
           </ul>
         </div>
       </section>

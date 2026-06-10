@@ -16,23 +16,36 @@
 }
 
 .brand {
-  margin: 0;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-1);
+  text-decoration: none;
+  color: inherit;
 }
 
-.brand a {
-  font-family: var(--font-sans);
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: var(--color-slate);
-}
-
-.brand a:hover {
+.brand:hover {
   text-decoration: none;
 }
 
-.brand .kicker {
-  margin: var(--space-1) 0 0;
-  letter-spacing: 0.14em;
+.brand__mark {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
+@media (max-width: 640px) {
+  .brand__mark {
+    height: 32px;
+  }
+}
+
+.brand__kicker {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 11px;
+  color: var(--color-muted);
 }
 
 .site-nav ul {
