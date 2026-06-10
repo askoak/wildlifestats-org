@@ -6,6 +6,9 @@
   <meta name="robots" content="noindex, nofollow">
   <title>WildlifeStats — Methodology</title>
   <meta name="description" content="National Wildlife Rehabilitation Research Framework — under construction.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap">
   <link rel="stylesheet" href="/assets/css/tokens.css">
   <link rel="stylesheet" href="/assets/css/base.css">
   <link rel="stylesheet" href="/assets/css/site.css">
@@ -13,10 +16,10 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <div class="brand">
-        <a href="/">WildlifeStats</a>
-        <p class="kicker">National Wildlife Rehabilitation Research Framework</p>
-      </div>
+      <a href="/" class="brand" aria-label="WildlifeStats — home">
+        <img src="/assets/img/logo.svg" alt="" width="240" height="64" class="brand__mark">
+        <span class="brand__kicker">National Wildlife Rehabilitation Research Framework</span>
+      </a>
       <nav class="site-nav" aria-label="Primary">
         <ul>
           <li><a href="/one-health/">One Health</a></li>
@@ -35,26 +38,7 @@
     <div class="container prose">
       <p class="kicker">Methodology</p>
       <h1>Methodology</h1>
-      <p>This page documents how the WildlifeStats dataset is constructed. The
-      current dataset is synthetic: 100,000 patient records generated from
-      regional distribution models rather than collected from operating
-      centers. The structure mirrors what a real multi-center dataset would
-      hold — species, taxonomic class, intake reason, county, season, and
-      aggregate outcome — so that analyses developed against the synthetic data
-      transfer directly to real data when partner centers contribute it.</p>
-      <p>Synthetic records are produced deterministically from a fixed random
-      seed, so any published figure can be regenerated and audited. County-level
-      distribution is modeled across all fifty states and the District of
-      Columbia, weighted by population density as a proxy for encounter
-      likelihood and by biogeographic region as a proxy for species
-      composition. Seasonal patterns are modulated by latitude.</p>
-      <p>Outcome data is reported in aggregate only. No record on the public
-      tier can be resolved to an individual case, and counts below a fixed
-      suppression threshold are withheld. The full generation procedure, the
-      regional species archetypes, and the suppression rules will be published
-      here in detail as the framework reaches launch readiness.</p>
-      <p class="status-note">This section is under construction. Final content
-      lands as part of a later phase of the build plan.</p>
+      <p>The current dataset is synthetic, generated at n=100,000 patient records distributed across all 50 states and the District of Columbia. Distributions are calibrated against published wildlife rehabilitation literature for admission categories, seasonality, and regional species composition. The generation script and seeds are committed to the repository for reproducibility. A full methodology writeup lands in Phase 3 of the build plan.</p>
     </div>
   </main>
 
