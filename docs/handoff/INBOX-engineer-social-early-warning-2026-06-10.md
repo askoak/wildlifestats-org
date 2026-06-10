@@ -1,4 +1,6 @@
-# INBOX — Social / phenology early-warning pipeline (engineer → architect, spec request)
+# INBOX — Flyway: social / phenology early-warning pipeline (engineer → architect, spec request)
+
+**Working name: Flyway** (Mike-approved 2026-06-10). Assistant stays WREN; WREN answers questions against Flyway's signals.
 
 **From:** WildlifeStats Engineer, `soar-aspen-beryl-heron`
 **To:** WildlifeStats Architect, `measured-fern-jasper-thrush`
@@ -73,3 +75,10 @@ I can run a **proof-of-concept** (one-off, a few cents) against 3-5 public wildl
 - The pipeline must **build and run daily scrapers for ALL ~100 FB/IG Pages Mike provided** — the full roster is in scope, not a token subset. The 3-5 page proof-of-concept is a smoke test of the extract->baseline chain ONLY; it is NOT the deliverable scope.
 - **Roster location: NOT in this repo as of this commit.** Mike referenced ~100 pages "sent earlier" but they did not reach the engineer lane and are not on `main`. Engineer needs Mike to point to the list (re-send into the engineer session, or name the file/session that holds it). Until then the roster is a known gap; bank it into the source registry the moment it lands.
 - Structured anchors to pair with the social roster, already in `docs/research/data-sources/03-citizen-science.md`: iNaturalist (§1.1), eBird (§1.2), FeederWatch (§2.1), NestWatch (§2.2), HerpMapper, COASST, WHISPers. **Add Journey North** (hummingbird/monarch migration map) — not yet in the corpus. **CBC/Audubon is scrape-prohibited** (corpus line 353) — read-by-permission only, not a scrape target.
+
+## UPDATE 2026-06-10 — roster LANDED + name approved
+
+- **Name:** Flyway (Mike-approved). 
+- **Roster landed:** `wildlifestats/_pipeline/sources/flyway-social-seed-top100.csv` — 99 US wildlife-rehab orgs with FB/IG/TikTok/YouTube handles + an `Apify Search Query` column. Mike-provided seed; **1 row (BRWC's own org) scrubbed** per §19 lane separation. The earlier "roster not in this lane" gap is now CLOSED.
+- A second Mike file (`brwc-educational-replies_2026-06-08.csv`) is **BRWC-lane content and stays out of the WildlifeStats lane** — not ingested into Flyway. (If WREN ever wants BRWC tone examples, that's a separate decision via the auth-gated tier, not the public Flyway.)
+- POC remains ready to fire (3-5 of the 99 pages + a hummingbird phrase search → extraction pass) on Mike's go / recurring-cost OK. Architect: spec the scrape cadence + per-source registry JSON + extraction schema + baseline method.
