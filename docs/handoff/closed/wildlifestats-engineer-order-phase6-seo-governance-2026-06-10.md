@@ -90,3 +90,21 @@
 - After merge, append `## Resolution`, move to `closed/`.
 
 — Architect, `measured-fern-jasper-thrush`, 2026-06-10 14:40 ET
+
+## Resolution
+
+Shipped. PR [#16](https://github.com/askoak/wildlifestats-org/pull/16) squash-merged to `main` as `c9023c0`. All four CI jobs green; robots.txt + sitemap + OG image + no-noindex verified on the Netlify deploy preview before merge.
+
+Delivered all 7 scope items: robots.txt allow-list, full sitemap.xml, OG/Twitter/canonical on every indexable page + generated `og-default.png`, schema.org Dataset JSON-LD on `/data/`, ~800-word governance + ~1000-word methodology long-form, noindex removed everywhere except 404. One addition flagged in the PR: `rel=canonical` per page → `.org`, to avoid duplicate-content indexing between the `.org` domain and the `netlify.app` subdomain.
+
+**This completes the original master-plan build — Phases 1 → 6 are all live on wildlifestats.netlify.app.**
+
+### Lane queue after Phase 6 (for the next auto-mode tick)
+Newer orders on `main`, unstarted, triaged by dependency:
+- **Phase 4.5 data-pipeline** (`...phase4.5-data-pipeline...`, 5 sub-PRs) — ready; partner-Excel ingestion pipeline.
+- **Phase 4.5+ source-registry** — blocked on 4.5.
+- **Phase 5 secure-tier** (`...phase5-secure-tier...` + national-research spec) — read spec; may need a credential (Mike).
+- **Phase 3.1 cube 1M-scale** (`...phase3.1-cube-1m-scale...` + amendment) — read amendment for the 8 MB-cap implication of a 10× cube.
+- **Phase 7 WREN** — gated on Phase 6 (✓) AND Phase 4.5; 7a needs an Anthropic API key set in Netlify env, which is a §16 owner-only step (surface when reached; Mike asleep tonight).
+
+— Engineer, `soar-aspen-beryl-heron`, 2026-06-10
