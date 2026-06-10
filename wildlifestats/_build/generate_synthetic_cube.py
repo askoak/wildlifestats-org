@@ -182,6 +182,8 @@ def main():
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--n", type=int, default=100000)
     ap.add_argument("--out", default=os.path.join(REPO, "data", "cube", "admissions-cube.json"))
+    ap.add_argument("--with-parks-overlay", action="store_true",
+                    help="also emit data/cube/parks-overlay.json (NPS unit rollups)")
     args = ap.parse_args()
 
     rng = np.random.default_rng(args.seed)
@@ -354,6 +356,95 @@ def main():
     size_mb = os.path.getsize(args.out) / 1e6
     print(f"wrote {args.out}: {len(cells)} cells, n={meta['n_records']}, {size_mb:.2f} MB")
     print(f"wrote {meta_out}")
+
+    if args.with_parks_overlay:
+        write_parks_overlay(cells, counties, states, args)
+
+
+def _haversine_mi(lat1, lon1, lat2, lon2):
+    import math
+    r = 3958.8  # earth radius, miles
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    dphi = math.radians(lat2 - lat1)
+    dl = math.radians(lon2 - lon1)
+    a = math.sin(dphi / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+    return 2 * r * math.asin(math.sqrt(a))
+
+
+def write_parks_overlay(cells, counties, states, args, radius_mi=50.0):
+    """Per-park rollup of admissions from counties within radius_mi of each
+    NPS unit. Deterministic from the committed cube + county centroids."""
+    nps_path = os.path.join(REPO, "assets", "data", "nps-units.json")
+    nps = load_json(nps_path)["units"]
+
+    # county centroids
+    clat = [c.get("lat") for c in counties]
+    clon = [c.get("lon") for c in counties]
+
+    # Pre-aggregate cells by county into class/reason/month vectors.
+    iM, iCTY, iCL, iRS, iN = 1, 3, 4, 6, 9
+    per_county = {}  # county_idx -> {"class":[5], "reason":[10], "month":[12], "total":n}
+    for c in cells:
+        cty = c[iCTY]
+        rec = per_county.get(cty)
+        if rec is None:
+            rec = {"class": [0] * len(CLASSES), "reason": [0] * len(REASONS),
+                   "month": [0] * 12, "total": 0}
+            per_county[cty] = rec
+        n = c[iN]
+        rec["class"][c[iCL]] += n
+        rec["reason"][c[iRS]] += n
+        rec["month"][c[iM] - 1] += n
+        rec["total"] += n
+
+    parks_out = []
+    for unit in nps:
+        plat, plon = unit["lat"], unit["lon"]
+        cls = [0] * len(CLASSES)
+        rsn = [0] * len(REASONS)
+        mon = [0] * 12
+        total = 0
+        ncty = 0
+        for cty, rec in per_county.items():
+            if clat[cty] is None:
+                continue
+            if _haversine_mi(plat, plon, clat[cty], clon[cty]) <= radius_mi:
+                ncty += 1
+                total += rec["total"]
+                for i in range(len(CLASSES)):
+                    cls[i] += rec["class"][i]
+                for i in range(len(REASONS)):
+                    rsn[i] += rec["reason"][i]
+                for i in range(12):
+                    mon[i] += rec["month"][i]
+        top_classes = sorted(
+            [{"class": CLASSES[i], "n": cls[i]} for i in range(len(CLASSES)) if cls[i]],
+            key=lambda x: -x["n"])[:5]
+        top_reasons = sorted(
+            [{"reason": REASONS[i], "n": rsn[i]} for i in range(len(REASONS)) if rsn[i]],
+            key=lambda x: -x["n"])[:5]
+        parks_out.append({
+            "name": unit["name"], "type": unit["type"], "state": unit["state"],
+            "lat": plat, "lon": plon, "n_counties": ncty, "total": total,
+            "classes": top_classes, "reasons": top_reasons, "monthly": mon,
+        })
+
+    parks_out.sort(key=lambda p: p["name"])
+    overlay = {
+        "meta": {
+            "version": "1.0.0",
+            "radius_mi": radius_mi,
+            "n_parks": len(parks_out),
+            "description": "Synthetic admissions rolled up to NPS units from "
+                           "counties within the given radius. Plausibly shaped by "
+                           "region; not measured against any park's actual activity.",
+        },
+        "parks": parks_out,
+    }
+    out = os.path.join(REPO, "data", "cube", "parks-overlay.json")
+    with open(out, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(overlay, f, ensure_ascii=False, separators=(",", ":"), sort_keys=False)
+    print(f"wrote {out}: {len(parks_out)} parks")
 
 
 if __name__ == "__main__":

@@ -380,3 +380,120 @@ main {
 .oh-card .map-figure {
   margin-top: var(--space-4);
 }
+
+/* Parks lens */
+
+.park-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: var(--space-5);
+  margin-top: var(--space-5);
+}
+
+@media (max-width: 768px) {
+  .park-layout { grid-template-columns: 1fr; }
+}
+
+.park-search-label {
+  display: block;
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 11px;
+  color: var(--color-muted);
+  margin-bottom: var(--space-2);
+}
+
+.park-search {
+  width: 100%;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-rule);
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  background: #fff;
+}
+
+.park-list {
+  list-style: none;
+  margin: var(--space-3) 0 0;
+  padding: 0;
+  max-height: 420px;
+  overflow-y: auto;
+  border: 1px solid var(--color-rule);
+}
+
+.park-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--color-rule);
+  padding: var(--space-2) var(--space-3);
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--color-ink);
+  cursor: pointer;
+}
+
+.park-link:hover { background: var(--color-paper); color: var(--color-slate); }
+
+.park-state {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  color: var(--color-muted);
+}
+
+.park-profile {
+  border: 1px solid var(--color-rule);
+  padding: var(--space-5);
+}
+
+.park-profile h2 { margin-top: 0; }
+
+.park-meta {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+.park-caveat {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  border-left: 3px solid var(--color-clay);
+  padding-left: var(--space-3);
+}
+
+.park-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-5);
+  margin: var(--space-4) 0;
+}
+
+@media (max-width: 560px) {
+  .park-cols { grid-template-columns: 1fr; }
+}
+
+.kv-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.kv-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-1) 0;
+  border-bottom: 1px solid var(--color-rule);
+  font-size: 0.9rem;
+}
+
+.spark {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  display: block;
+}
