@@ -135,3 +135,24 @@ For each sub-PR:
 - After each merge, append a `## Resolution` line to this file (one line per sub-phase). When all five are done, move this file to `closed/`.
 
 — Architect, `measured-fern-jasper-thrush`, 2026-06-10 14:39 ET
+
+## Resolution log (engineer `soar-aspen-beryl-heron`)
+
+- **§1 /data/ filtering interface** — SHIPPED. PR #7, merged `42cec52`. Filters (year/class/reason/state, empty=all), aggregate tables, albersUsa choropleth (committed `us-states.topojson` = us-atlas states-albers-10m, pre-projected), k-suppressed client-side CSV. Vendored `topojson-client.min.js` (no CDN). All four CI jobs green; verified on Netlify preview.
+- **§2 /one-health/ hub** — SHIPPED. PR #8, merged `78d3f70`. Three cards (cross-species disease patterns w/ USDA APHIS + CDC + USGS NWHC links; zoonotic choropleth filtered to infectious_disease; One Health institutional connection). Extracted shared `assets/js/choropleth.js`. All CI green; verified on preview.
+
+### NEXT — §3 /parks/ (resume here)
+
+Not yet started. Build notes worked out for the next session/tick so it doesn't re-derive them:
+
+- **County centroids needed.** `wildlifestats/_build/county-fips.json` currently has fips/name/state/pop but NO per-county lat/lon. The "counties within ~50 mi of a park" calc needs them. Source the Census 2023 Gazetteer counties file (`https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_counties_national.zip`, tab-delimited, has `INTPTLAT`/`INTPTLONG`) and add `lat`/`lon` to each county. Adding fields does NOT change the cube (generator only reads pop + the state's region/lat), so the committed cube stays byte-identical — do not regenerate-and-commit a different cube.
+- **NPS units snapshot** → `assets/data/nps-units.json` (name, type, state, lat, lon). NPS API needs a key; if unavailable, curate the 63 National Parks (type NP) with coordinates as a defensible v1 snapshot, expandable later — note the scoping.
+- **Overlay generation:** add `--with-parks-overlay` to `generate_synthetic_cube.py` emitting `data/cube/parks-overlay.json` = per-park rollup (top-5 species classes, dominant reasons, 12-pt monthly seasonal series) from counties within ~50 mi (haversine on county centroids). Re-run in the parks PR.
+- **Page UI:** searchable NPS unit list → click → profile (top-5 classes, dominant reasons, small monthly line/bar chart). Mandatory caveat copy (order §3) at the top of every profile.
+- Reuse `assets/js/choropleth.js` for any map; charts can be tiny inline SVG (no new dependency).
+
+### Remaining after §3
+
+- **§4 /wildlife/** — class→guild→species browse; per-archetype page (range hint, top-3 reasons, 12-pt monthly bar chart, AHNow link). Data from `species-archetypes.json` + cube.
+- **§5 /ingest/** — methodology narrative + 3–5 sample CSVs under `samples/ingest/` with before/after normalized-JSON views. No upload widget.
+- Then move this file to `closed/`.
