@@ -143,21 +143,13 @@ For each sub-PR:
 
 - **§3 /parks/ National Parks lens** — SHIPPED. PR #10, merged `b2a2526`. `assets/data/nps-units.json` (61 National Parks within the 50 states). County centroids added to `county-fips.json` from the 2023 Census Gazetteer (cube verified byte-identical). `generate_synthetic_cube.py --with-parks-overlay` → `data/cube/parks-overlay.json` (per-park rollup, counties within 50 mi via haversine). Searchable list + profile (caveat, class/reason breakdown, inline-SVG seasonal chart); 0-county parks show an honest message. All CI green; verified on preview.
 
-### NEXT — §4 /wildlife/ (resume here)
+- **§4 /wildlife/ encyclopedia** — SHIPPED. PR #11, merged `fc7ece0`. Class → species-archetype browse from `species-archetypes.json`; per-archetype profile with modeled range map, top-3 reasons, seasonal chart, AHNow routing.
+- **§5 /ingest/ methodology demo** — SHIPPED. PR #13, merged `04542c8`. 4 sample CSVs (incompatible schemas) under `samples/ingest/`; in-browser normalization pipeline with before/after views; no upload widget.
 
-Not yet started. Notes:
-- Class → guild → species-archetype browse. Species archetypes live in `wildlifestats/_build/species-archetypes.json` (42 species across 14 regions); the cube's `species` dimension lists them.
-- Per-archetype page: range hint (which states/regions the archetype appears in, from species-archetypes.json — can reuse `assets/js/choropleth.js` to shade those states), top-3 synthetic admission reasons (compute from the cube by filtering cells to that species_idx), a 12-pt monthly bar chart (reuse the inline-SVG bar pattern from `parks.js`), and a generic "what to do if you find one" routing to https://ahnow.org — NO triage advice on the page.
-- Voice: encyclopedic, neutral; no anthropomorphizing.
+## Phase 4 COMPLETE
 
-### Remaining after §4
+All five sections shipped (#7 data, #8 one-health, #10 parks, #11 wildlife, #13 ingest), all live on wildlifestats.netlify.app, all CI-green self-merges. This file moved to `closed/`.
 
-- **§5 /ingest/** — methodology narrative (schema inference → field mapping → species normalization → date/outcome standardization → k-suppression) + 3–5 sample CSVs under `samples/ingest/` (different made-up schemas) with before/after normalized-JSON views. No upload widget.
-- Then move this file to `closed/`.
-
-### NOTE — additional orders arrived mid-run (not yet started)
-
-While §1–§3 shipped, the architect dispatched more work, now on `main`:
-- `docs/handoff/wildlifestats-engineer-order-phase4.5-data-pipeline-2026-06-10.md` (+ its spec `wildlifestats-data-pipeline-spec-phase4.5-2026-06-10.md`)
-- `docs/handoff/wildlifestats-engineer-order-phase7-wren-2026-06-10.md` (+ `wildlifestats-wren-architecture-spec-2026-06-10.md`)
-These have NOT been read or started. Sequence: finish Phase 4 §4 + §5, then Phase 6 (SEO/governance, original master-plan order), then triage the new 4.5 / 7 orders by their stated dependencies.
+### NEXT for the lane (unstarted)
+- **Phase 6** (original master-plan, not yet dispatched as a separate engineer order): SEO + governance polish — flip `robots.txt` to allow + real `sitemap.xml`, OpenGraph/Twitter meta, schema.org `Dataset` markup, long-form methodology + governance pages.
+- **New orders that arrived mid-run** (on `main`, unread): `wildlifestats-engineer-order-phase4.5-data-pipeline-2026-06-10.md`, `wildlifestats-engineer-order-phase4.5-source-registry-2026-06-10.md`, `wildlifestats-engineer-order-phase7-wren-2026-06-10.md`, plus `wildlifestats-data-sources-master-plan` and a `docs/research/data-sources/` corpus. Triage by stated dependencies on the next tick.
