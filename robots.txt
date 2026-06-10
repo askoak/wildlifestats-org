@@ -1,2 +1,5 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /secure/
+
+Sitemap: https://wildlifestats.org/sitemap.xml

@@ -3,9 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="noindex, nofollow">
   <title>WildlifeStats — Governance</title>
-  <meta name="description" content="National Wildlife Rehabilitation Research Framework — under construction.">
+  <meta name="description" content="The four-tier data framework, privacy and k-suppression policy, partnership model, and citation guidance for WildlifeStats.">
+  <link rel="canonical" href="https://wildlifestats.org/governance.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WildlifeStats">
+  <meta property="og:title" content="Governance — WildlifeStats">
+  <meta property="og:description" content="The four-tier data framework, privacy and k-suppression policy, partnership model, and citation guidance for WildlifeStats.">
+  <meta property="og:url" content="https://wildlifestats.org/governance.html">
+  <meta property="og:image" content="https://wildlifestats.org/assets/img/og-default.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Governance — WildlifeStats">
+  <meta name="twitter:description" content="The four-tier data framework, privacy and k-suppression policy, partnership model, and citation guidance for WildlifeStats.">
+  <meta name="twitter:image" content="https://wildlifestats.org/assets/img/og-default.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap">
@@ -38,7 +48,80 @@
     <div class="container prose">
       <p class="kicker">Governance</p>
       <h1>Governance</h1>
-      <p>WildlifeStats is structured around a four-tier data framework: public, partner, research, and surveillance. The public tier — this site — uses synthetic data exclusively. The remaining tiers are future work and require partner agreements with real wildlife rehabilitation centers. A full governance writeup lands in Phase 6 of the build plan.</p>
+
+      <p>WildlifeStats is a research framework, and a framework that handles
+      wildlife rehabilitation data needs an explicit account of what it holds,
+      who can see it, and how individuals and organizations are protected. This
+      page sets out that account: the access model, the privacy policy, the
+      partnership path, and how to cite the work.</p>
+
+      <h2>The four-tier data framework</h2>
+      <p>Access to data is organized in four tiers of increasing detail and
+      increasingly strict control.</p>
+      <ul>
+        <li><strong>Public.</strong> The tier you are reading. It carries only
+        aggregate, suppression-aware figures and, at present, a synthetic
+        dataset. Anyone may use it without an account.</li>
+        <li><strong>Partner.</strong> Reserved for contributing wildlife
+        rehabilitation centers, who can see their own records alongside
+        aggregate national context. Access requires a partnership agreement.</li>
+        <li><strong>Research.</strong> De-identified record-level data for
+        approved research use, governed by a data-use agreement that specifies
+        purpose, retention, and re-disclosure limits.</li>
+        <li><strong>Surveillance.</strong> The most sensitive tier, intended for
+        public-health and wildlife-health partners who need timely signals.
+        Access is the most tightly held and is out of scope for the current
+        build.</li>
+      </ul>
+      <p>Only the public tier exists today, and it is deliberately the least
+      sensitive: nothing on it can be resolved to an individual case or a single
+      contributing organization.</p>
+
+      <h2>Why the dataset is synthetic, and why no real centers are named</h2>
+      <p>The dataset published here is generated, not collected. It is produced
+      from regional distribution models calibrated against published wildlife
+      rehabilitation literature, and it is labeled as synthetic on every page
+      that presents it. The <a href="/methodology.html">Methodology</a> page
+      describes exactly how it is built, including the seed and the build
+      command, so that any figure can be reproduced.</p>
+      <p>Using synthetic data for the public tier is a privacy decision, not a
+      shortcut. It lets the framework demonstrate national-scale analysis — the
+      maps, the seasonal patterns, the cross-species views — without exposing any
+      real center's records or implying claims about specific places. For the
+      same reason, no real wildlife rehabilitation center is named on the public
+      tier. When real data is contributed under the partner tier, the governing
+      agreement, not this page, sets the terms under which a center may be
+      identified.</p>
+
+      <h2>Privacy and suppression policy</h2>
+      <p>The public tier follows a privacy-by-construction rule: it ships only
+      figures that have already been aggregated, and small groups are withheld.
+      Any download from the data interface applies <strong>k-suppression</strong>
+      — rows representing fewer than ten records are collapsed into a single
+      "Suppressed (n&lt;10)" line carrying only their combined count. This
+      prevents a small, potentially identifying cell from being read off the
+      public surface. Outcome information is presented in aggregate only; there
+      are no individual patient records on this site, synthetic or otherwise.</p>
+
+      <h2>How a wildlife center could partner</h2>
+      <p>The framework is designed to accept records from many independent
+      centers and to standardize them into a common schema — the process the
+      <a href="/ingest/">ingestion methodology</a> page demonstrates. A
+      contributing center retains ownership of its records. The framework
+      normalizes, aggregates, and publishes only what the partner agreement
+      permits, and a center can see its own data in national context without that
+      data becoming public. Centers interested in the partner model can follow
+      the project as the partner tier is built out; the public site will note
+      when partner onboarding is open.</p>
+
+      <h2>Citing WildlifeStats</h2>
+      <p>If you reference this work in academic or policy writing, please cite it
+      as: <em>WildlifeStats: a national wildlife rehabilitation research
+      framework (synthetic dataset, version 1.0.0), 2026,
+      https://wildlifestats.org/</em>. Because the dataset is reproducible from a
+      committed seed, please include the dataset version so readers can match
+      figures to the exact build. The public dataset is released under the
+      Creative Commons Attribution 4.0 license.</p>
     </div>
   </main>
 

@@ -3,15 +3,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="noindex, nofollow">
   <title>WildlifeStats — Data</title>
-  <meta name="description" content="National Wildlife Rehabilitation Research Framework — under construction.">
+  <meta name="description" content="Filter the synthetic national wildlife admissions dataset by year, state, class, and reason; view a choropleth and download suppression-aware CSVs.">
+  <link rel="canonical" href="https://wildlifestats.org/data/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WildlifeStats">
+  <meta property="og:title" content="Data — WildlifeStats">
+  <meta property="og:description" content="Filter the synthetic national wildlife admissions dataset by year, state, class, and reason; view a choropleth and download suppression-aware CSVs.">
+  <meta property="og:url" content="https://wildlifestats.org/data/">
+  <meta property="og:image" content="https://wildlifestats.org/assets/img/og-default.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Data — WildlifeStats">
+  <meta name="twitter:description" content="Filter the synthetic national wildlife admissions dataset by year, state, class, and reason; view a choropleth and download suppression-aware CSVs.">
+  <meta name="twitter:image" content="https://wildlifestats.org/assets/img/og-default.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap">
   <link rel="stylesheet" href="/assets/css/tokens.css">
   <link rel="stylesheet" href="/assets/css/base.css">
   <link rel="stylesheet" href="/assets/css/site.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "WildlifeStats Synthetic Admissions Cube",
+    "description": "Synthetic wildlife rehabilitation admission records, n=100,000, generated from regional distribution models calibrated against published literature.",
+    "url": "https://wildlifestats.org/data/",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "WildlifeStats"
+    },
+    "distribution": [{
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://wildlifestats.org/data/cube/admissions-cube.json"
+    }]
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
