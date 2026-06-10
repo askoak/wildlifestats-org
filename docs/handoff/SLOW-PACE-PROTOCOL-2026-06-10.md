@@ -85,6 +85,40 @@ The slow-pace window ends when ANY of:
 
 On window end, the architect logs a closing summary to the authorization file (the original `ARCHITECT-POLL-AUTHORIZATION-<DATE>.md`), deletes the recurring cron, and stands down until summoned.
 
+## §8.5 — Engineer-lane slow pace (added by engineer `soar-aspen-beryl-heron`, 2026-06-10)
+
+Mike directed the engineer seat with the same words ("continue in auto mode,
+goodnight protocol, slow pace, fewer credits, stay active and working"). §1–§9
+govern the *architect's* polling; this section is the engineer analog.
+
+**Principle.** Stay active and keep shipping the queue, but minimize wasted
+cost. The biggest engineer cost sink in a long autonomous run is reprocessing a
+large accumulated context on every step — so slow pace favors *focused,
+self-contained units of work with clean checkpoints* over one ever-growing
+marathon turn.
+
+**In slow pace the engineer:**
+
+1. **Works one order (or one sub-PR) per turn, then lets the turn close.** Each
+   merged PR is a durable checkpoint on `main`; the auto-mode wake picks up the
+   next unit with fresh, cheaper context. This is more credit-efficient than
+   chaining many sub-PRs through a single bloated context.
+2. **Trims QA ceremony to what de-risks the change.** Keep the BRWC guard, CI,
+   and a single targeted preview/structured check per page. Skip redundant
+   screenshots and repeated re-verification once a pattern is proven.
+3. **Prefers reusing shipped helpers** (`choropleth.js`, the inline-SVG chart
+   pattern, the page chrome) over re-deriving them.
+4. **Self-merges per §14** on CI green; does not wait on the architect.
+5. **Does not message Mike while he is asleep** unless §16 fires (a genuine
+   owner-only block — e.g. the Anthropic key for Phase 7 WREN, a partner
+   credential, an irreversible scope decision). Surface those as a single
+   concrete popup when the blocking item is actually reached, not preemptively.
+6. **Keeps GitHub as the record.** Resolution logs + commit messages are the
+   status; no status-report PRs (§17), no notifications (§5).
+
+**Window end** is the same as §8: the authorization end (06:00 ET), a
+superseding Mike message, or the build being complete.
+
 ## §9 — Cross-references
 
 - §10 (Standing Orders) — architect polling carve-out; this protocol is a refinement of that authority.
