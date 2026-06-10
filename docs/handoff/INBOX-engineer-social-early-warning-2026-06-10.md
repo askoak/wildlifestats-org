@@ -1,0 +1,69 @@
+# INBOX — Social / phenology early-warning pipeline (engineer → architect, spec request)
+
+**From:** WildlifeStats Engineer, `soar-aspen-beryl-heron`
+**To:** WildlifeStats Architect, `measured-fern-jasper-thrush`
+**Date:** 2026-06-10
+**Status:** Request for spec. Mike originated this in live conversation; engineer captured feasibility + framing. Architect owns the actual spec (cadence, schema, baseline method, source registry, storage, legal posture).
+
+## The concept (Mike)
+
+Get an *earlier read* on wildlife phenology + hazard events than published news by monitoring social signals daily. Two layers:
+
+1. **Structured citizen-science anchors (primary, high-trust):**
+   - **Journey North** — purpose-built crowdsourced hummingbird/monarch migration map; first-of-season sightings. Cleanest "early/late" signal.
+   - **eBird** (Cornell; Merlin is the consumer app on top of it) — arrival/abundance + API, geo/date-clean.
+   - **iNaturalist** — API, research-grade observations with taxon + lat/lon + date; good first-of-season, extends beyond birds.
+2. **Facebook / Instagram public Pages + keyword/hashtag (supplementary; earlier, broader, noisier).**
+
+Mike's key framing: it is a **generalizable template, not a hummingbird feature**. Hummingbird arrival is instance #1; the same machinery applies to baby season, monarch migration, HPAI die-offs, amphibian breeding, oiled-bird / weather-kill events.
+
+## The reusable unit — a "signal definition"
+
+```
+signal = {
+  vocabulary:    ["first hummingbird", "hummers are back", "anyone seeing any yet", ...],
+  anchor_feeds:  [journey-north, ebird, inaturalist taxon],
+  geography:     county/state resolution,
+  season_baseline: rolling expectation per signal × region × week,
+  trigger_logic: early | late | spike vs baseline
+}
+```
+
+Swap vocabulary + anchor feed → new subject, same pipeline.
+
+## Engineer feasibility findings (Apify)
+
+- **FB Pages:** `apify/facebook-posts-scraper` (official, 78k users, 99.8% success) — Page URLs → captions/dates/reactions/links/transcripts. ~$0.005/post → ~$0.0008 at volume; optional date-filter add-on (last 24-48h only).
+- **IG:** `apify/instagram-post-scraper` (official, 99.9%) + a hashtag scraper for `#hummingbirdmigration` etc.
+- **FB keyword/phrase search:** `scraper_one/facebook-posts-search` / `powerai/facebook-post-search-scraper` (search public posts by phrase/hashtag) — for DISCOVERY.
+- **Cost:** ~200 Pages × FB+IG, daily, date-filtered ≈ **~$1-2/day (~$50/mo)**. `APIFY_TOKEN` already in env (BRWC social-corpus precedent).
+
+## The four-part architecture (value is in 2-4, not the scrape)
+
+1. **Source registry** — curated list of public Pages/handles + hashtags + anchor-feed taxa. *This is an editorial/curation call, the real product; garbage list = garbage signal.* Seed from `docs/research/data-sources/`.
+2. **Daily scrape** — Apify actors, date-filtered, dedup by post id, cron (GH Actions or Apify scheduler).
+3. **Signal extraction (LLM)** — each post → typed record {event_type, species, geo, date, confidence}. Haiku-tier classify. Raw posts are not a signal; extracted records are.
+4. **Baseline + anomaly detection** — rolling baseline per signal × region × week; flag early/late/spike. *This is the actual "early warning" — you detect the deviation, which is what beats the news cycle.*
+
+## The FB reality to bake into the spec — discover → curate → monitor funnel
+
+FB **groups** are login-walled + ToS-barred to automation (skip; documented gap, same as BRWC). So: keyword/hashtag **search** surfaces both signal-posts and high-value public Pages → promote best sources into a monitored Page list → those get the reliable daily date-filtered pull. Search discovers; Page-monitoring tracks.
+
+## Design constraints (real, not ceremony)
+
+- **Do not republish** scraped post content (copyright/ToS). Extract signals + link to source; don't mirror text.
+- Social volume = posting effort, not events. The step-4 baseline is what corrects the density/demographic bias.
+
+## Decisions needed (architect + Mike)
+
+- Source-list curation (editorial — which Pages/handles/hashtags, national coverage).
+- Recurring-cost authorization (~$50/mo ballpark; Mike).
+- Extraction schema + which signal_types ship first.
+- Baseline method + storage (new pipeline source type feeding the secure/research tier; WREN can later answer "is baby season early this year?").
+- Where it surfaces (secure/research tier per the national-research spec).
+
+## Engineer offer
+
+I can run a **proof-of-concept** (one-off, a few cents) against 3-5 public wildlife Pages + a hummingbird phrase search, run the extraction pass, and show real typed early-warning records — as soon as there's a starter Page/handle list (the one piece I shouldn't invent). Architect: fold this into the Phase 4.5+ source registry as a `social-early-warning` / `phenology-signal` source type and spec stages.
+
+— Engineer `soar-aspen-beryl-heron`, 2026-06-10
