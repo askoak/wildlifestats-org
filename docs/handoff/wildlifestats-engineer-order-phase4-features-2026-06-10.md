@@ -141,18 +141,23 @@ For each sub-PR:
 - **§1 /data/ filtering interface** — SHIPPED. PR #7, merged `42cec52`. Filters (year/class/reason/state, empty=all), aggregate tables, albersUsa choropleth (committed `us-states.topojson` = us-atlas states-albers-10m, pre-projected), k-suppressed client-side CSV. Vendored `topojson-client.min.js` (no CDN). All four CI jobs green; verified on Netlify preview.
 - **§2 /one-health/ hub** — SHIPPED. PR #8, merged `78d3f70`. Three cards (cross-species disease patterns w/ USDA APHIS + CDC + USGS NWHC links; zoonotic choropleth filtered to infectious_disease; One Health institutional connection). Extracted shared `assets/js/choropleth.js`. All CI green; verified on preview.
 
-### NEXT — §3 /parks/ (resume here)
+- **§3 /parks/ National Parks lens** — SHIPPED. PR #10, merged `b2a2526`. `assets/data/nps-units.json` (61 National Parks within the 50 states). County centroids added to `county-fips.json` from the 2023 Census Gazetteer (cube verified byte-identical). `generate_synthetic_cube.py --with-parks-overlay` → `data/cube/parks-overlay.json` (per-park rollup, counties within 50 mi via haversine). Searchable list + profile (caveat, class/reason breakdown, inline-SVG seasonal chart); 0-county parks show an honest message. All CI green; verified on preview.
 
-Not yet started. Build notes worked out for the next session/tick so it doesn't re-derive them:
+### NEXT — §4 /wildlife/ (resume here)
 
-- **County centroids needed.** `wildlifestats/_build/county-fips.json` currently has fips/name/state/pop but NO per-county lat/lon. The "counties within ~50 mi of a park" calc needs them. Source the Census 2023 Gazetteer counties file (`https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_counties_national.zip`, tab-delimited, has `INTPTLAT`/`INTPTLONG`) and add `lat`/`lon` to each county. Adding fields does NOT change the cube (generator only reads pop + the state's region/lat), so the committed cube stays byte-identical — do not regenerate-and-commit a different cube.
-- **NPS units snapshot** → `assets/data/nps-units.json` (name, type, state, lat, lon). NPS API needs a key; if unavailable, curate the 63 National Parks (type NP) with coordinates as a defensible v1 snapshot, expandable later — note the scoping.
-- **Overlay generation:** add `--with-parks-overlay` to `generate_synthetic_cube.py` emitting `data/cube/parks-overlay.json` = per-park rollup (top-5 species classes, dominant reasons, 12-pt monthly seasonal series) from counties within ~50 mi (haversine on county centroids). Re-run in the parks PR.
-- **Page UI:** searchable NPS unit list → click → profile (top-5 classes, dominant reasons, small monthly line/bar chart). Mandatory caveat copy (order §3) at the top of every profile.
-- Reuse `assets/js/choropleth.js` for any map; charts can be tiny inline SVG (no new dependency).
+Not yet started. Notes:
+- Class → guild → species-archetype browse. Species archetypes live in `wildlifestats/_build/species-archetypes.json` (42 species across 14 regions); the cube's `species` dimension lists them.
+- Per-archetype page: range hint (which states/regions the archetype appears in, from species-archetypes.json — can reuse `assets/js/choropleth.js` to shade those states), top-3 synthetic admission reasons (compute from the cube by filtering cells to that species_idx), a 12-pt monthly bar chart (reuse the inline-SVG bar pattern from `parks.js`), and a generic "what to do if you find one" routing to https://ahnow.org — NO triage advice on the page.
+- Voice: encyclopedic, neutral; no anthropomorphizing.
 
-### Remaining after §3
+### Remaining after §4
 
-- **§4 /wildlife/** — class→guild→species browse; per-archetype page (range hint, top-3 reasons, 12-pt monthly bar chart, AHNow link). Data from `species-archetypes.json` + cube.
-- **§5 /ingest/** — methodology narrative + 3–5 sample CSVs under `samples/ingest/` with before/after normalized-JSON views. No upload widget.
+- **§5 /ingest/** — methodology narrative (schema inference → field mapping → species normalization → date/outcome standardization → k-suppression) + 3–5 sample CSVs under `samples/ingest/` (different made-up schemas) with before/after normalized-JSON views. No upload widget.
 - Then move this file to `closed/`.
+
+### NOTE — additional orders arrived mid-run (not yet started)
+
+While §1–§3 shipped, the architect dispatched more work, now on `main`:
+- `docs/handoff/wildlifestats-engineer-order-phase4.5-data-pipeline-2026-06-10.md` (+ its spec `wildlifestats-data-pipeline-spec-phase4.5-2026-06-10.md`)
+- `docs/handoff/wildlifestats-engineer-order-phase7-wren-2026-06-10.md` (+ `wildlifestats-wren-architecture-spec-2026-06-10.md`)
+These have NOT been read or started. Sequence: finish Phase 4 §4 + §5, then Phase 6 (SEO/governance, original master-plan order), then triage the new 4.5 / 7 orders by their stated dependencies.
