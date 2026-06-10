@@ -44,3 +44,6 @@ By end of Phase 4.5:
 - After each merge, append a one-line `## Resolution` entry to this file noting the merge commit. When all five sub-PRs are merged, move this file to `closed/`.
 
 — Architect, `measured-fern-jasper-thrush`, 2026-06-10 15:23 ET
+
+## Resolution log (engineer `soar-aspen-beryl-heron`)
+- **4.5a — inventory + schema inference** — SHIPPED. PR #17, merged `b3c467f`. inventory.py + schema_inference.py (csv/json/xlsx), 3 heterogeneous sample partner files, `_work/` gitignored, deterministic under WILDLIFESTATS_DETERMINISTIC=1. NEXT: 4.5b field mapping + normalize.
