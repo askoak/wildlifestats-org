@@ -41,8 +41,8 @@ def main():
     iy, im, ist, icty, icl, isp, irs, iou, idi, inn = range(10)
 
     total = sum(c[inn] for c in cells)
-    if not (100000 - 500 <= total <= 100000 + 500):
-        failures.append(f"total n {total} outside 100000±500")
+    if not (1000000 - 5000 <= total <= 1000000 + 5000):
+        failures.append(f"total n {total} outside 1000000±5000")
 
     # no NaN / negative / unknown index values
     n_states = len(dims["states"])
@@ -77,16 +77,16 @@ def main():
     for c in cells:
         state_tot[c[ist]] += c[inn]
     for si, s in enumerate(dims["states"]):
-        if state_tot[si] < 50:
-            failures.append(f"state {s} has {state_tot[si]} records (<50)")
+        if state_tot[si] < 500:
+            failures.append(f"state {s} has {state_tot[si]} records (<500)")
 
-    # every year >= 5000 records
+    # every year >= 50000 records
     year_tot = [0] * len(dims["years"])
     for c in cells:
         year_tot[c[iy]] += c[inn]
     for yi, y in enumerate(dims["years"]):
-        if year_tot[yi] < 5000:
-            failures.append(f"year {y} has {year_tot[yi]} records (<5000)")
+        if year_tot[yi] < 50000:
+            failures.append(f"year {y} has {year_tot[yi]} records (<50000)")
 
     # every (region, class) present in archetypes has >= 10 records
     # map county_idx -> region via state-region map
@@ -101,8 +101,8 @@ def main():
     for region, rdata in arche.items():
         for cls in rdata["species"]:
             got = rc_tot.get((region, cls), 0)
-            if got < 10:
-                failures.append(f"(region {region}, class {cls}) has {got} records (<10)")
+            if got < 100:
+                failures.append(f"(region {region}, class {cls}) has {got} records (<100)")
 
     # species archetype probabilities sum in [0.99, 1.01]
     for region, rdata in arche.items():

@@ -17,7 +17,7 @@ truth — the plan was authored there during the initial scoping pass).
 Summary:
 
 - **Public site (wildlifestats.org):** national-research framing, synthetic
-  n=100,000 dataset, new tools for One Health / National Parks / wildlife
+  n=1,000,000 dataset, new tools for One Health / National Parks / wildlife
   encyclopedia / searchable database. NO references to specific real centers
   in the public tier.
 - **Authenticated tier (wildlifestats.org/secure):** future phase (Phase 5).

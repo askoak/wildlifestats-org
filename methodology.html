@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>WildlifeStats — Methodology</title>
-  <meta name="description" content="How the synthetic n=100,000 wildlife admissions dataset is generated, calibrated against published literature, and validated.">
+  <meta name="description" content="How the synthetic n=1,000,000 wildlife admissions dataset is generated, calibrated against published literature, and validated.">
   <link rel="canonical" href="https://wildlifestats.org/methodology.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="WildlifeStats">
   <meta property="og:title" content="Methodology — WildlifeStats">
-  <meta property="og:description" content="How the synthetic n=100,000 wildlife admissions dataset is generated, calibrated against published literature, and validated.">
+  <meta property="og:description" content="How the synthetic n=1,000,000 wildlife admissions dataset is generated, calibrated against published literature, and validated.">
   <meta property="og:url" content="https://wildlifestats.org/methodology.html">
   <meta property="og:image" content="https://wildlifestats.org/assets/img/og-default.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Methodology — WildlifeStats">
-  <meta name="twitter:description" content="How the synthetic n=100,000 wildlife admissions dataset is generated, calibrated against published literature, and validated.">
+  <meta name="twitter:description" content="How the synthetic n=1,000,000 wildlife admissions dataset is generated, calibrated against published literature, and validated.">
   <meta name="twitter:image" content="https://wildlifestats.org/assets/img/og-default.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,7 +57,7 @@
       the public repository so that the method is auditable, not asserted.</p>
 
       <h2>What the dataset represents</h2>
-      <p>The dataset is a cube of <strong>100,000 admission records</strong>
+      <p>The dataset is a cube of <strong>1,000,000 admission records</strong>
       distributed across all 50 states and the District of Columbia, spanning
       2017 through 2025. Each record carries a year, month, county, taxonomic
       class, species archetype, admission reason, outcome, and disposition.
@@ -66,7 +66,7 @@
       tables, maps, and downloads.</p>
 
       <h2>Generation algorithm</h2>
-      <p>The generator draws each of the 100,000 records through a fixed sequence
+      <p>The generator draws each of the 1,000,000 records through a fixed sequence
       of conditional steps, then aggregates them. In order:</p>
       <ol>
         <li><strong>State allocation.</strong> Records are allotted to states by
@@ -132,17 +132,17 @@
       <p>The build is deterministic. With a fixed master seed of 42, the
       generator produces byte-identical output on every run. To rebuild:</p>
       <pre class="ingest-pre">python wildlifestats/_build/generate_synthetic_cube.py \
-  --seed 42 --n 100000 --out data/cube/admissions-cube.json</pre>
+  --seed 42 --n 1000000 --out data/cube/admissions-cube.json</pre>
       <p>The only dependency is NumPy (pinned in
       <code>wildlifestats/_build/requirements.txt</code>); NumPy's PCG64 random
       stream is stable across versions, so the committed cube can be regenerated
-      and compared by hash. The committed dataset is version 1.0.0.</p>
+      and compared by hash. The committed dataset is version 1.1.0.</p>
 
       <h2>Validation</h2>
       <p>A committed validator runs in continuous integration on every change and
-      checks, among other invariants: the total is within 100,000 ± 500; every
-      state has at least 50 records and every year at least 5,000; every
-      region-and-class combination present in the archetypes has at least 10
+      checks, among other invariants: the total is within 1,000,000 ± 5,000; every
+      state has at least 500 records and every year at least 50,000; every
+      region-and-class combination present in the archetypes has at least 100
       records; every species-archetype probability table sums to 1.0 within
       tolerance; and no cell carries an unknown reason, outcome, or disposition,
       a negative count, or a missing value.</p>
@@ -165,7 +165,7 @@
   <footer class="site-footer">
     <div class="container">
       <p>WildlifeStats is a research framework. Current dataset is synthetic
-      (n=100,000) generated from regional distribution models. See
+      (n=1,000,000) generated from regional distribution models. See
       <a href="/methodology.html">Methodology</a>.</p>
       <nav aria-label="Footer">
         <a href="/governance.html">Governance</a> ·
