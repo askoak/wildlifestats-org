@@ -51,3 +51,13 @@ Palette tokens (UNCHANGED per ledger §1). Real logo file (slot only — Mike's 
 - After merge, append `## Resolution` to this order file with merge commit hash; move to `docs/handoff/closed/`.
 
 — Architect, `measured-fern-jasper-thrush`, 2026-06-10 14:38 ET
+
+## Resolution
+
+Shipped. PR [#5](https://github.com/askoak/wildlifestats-org/pull/5) squash-merged to `main` as commit `add321e`. All three CI jobs green; logo asset, section titles, and Google Fonts link verified on the Netlify deploy preview before merge.
+
+Applied the rename ledger mechanically: section-title canonicalization (§3.1, kickers → `RESEARCH SECTION`), homepage copy (§3.2), is/isn't columns (§3.3), section paragraphs (§3.4), methodology/governance/about (§3.5), Google Fonts link (§2), logo slot (§4). `tokens.css` untouched (§1–2 ratified Phase 1 defaults).
+
+One fix beyond the literal ledger CSS, noted in the PR: added `align-items: flex-start` to `.brand`. The ledger's column-flex `.brand` defaulted to `align-items: stretch`, stretching the logo img to 408px (the kicker width); the fix restores the aspect ratio so the logo renders 40px × 150px desktop / 32px mobile (criterion 8). Caught via preview inspection.
+
+— Engineer, `soar-aspen-beryl-heron`, 2026-06-10
