@@ -1,0 +1,34 @@
+/* WildlifeStats design tokens.
+   Architect defaults per the Phase 1 order; Mike's ratified palette
+   replaces these values in Phase 2. Pages reference tokens only —
+   the rebrand is a swap of this file, not a page-by-page edit. */
+
+:root {
+  /* Color */
+  --color-ink: #1F2A2A;          /* primary text */
+  --color-muted: #6B6B65;        /* secondary text, captions */
+  --color-paper: #FAF6EC;        /* page background (cream) */
+  --color-rule: #DDD8CA;         /* hairlines, borders */
+  --color-slate: #2A3F52;        /* deeper slate — primary brand */
+  --color-clay: #B96F4D;         /* warm clay — accents, links */
+  --color-sage: #6B8264;         /* muted sage — secondary accent */
+
+  /* Type */
+  --font-serif: 'Source Serif Pro', Georgia, 'Times New Roman', serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+  --space-8: 96px;
+
+  /* Layout */
+  --measure: 68ch;               /* prose column width */
+  --container-max: 1100px;       /* wide layout max */
+}

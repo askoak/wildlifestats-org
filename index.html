@@ -1,116 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex, nofollow">
-<title>WildlifeStats &mdash; National Wildlife Rehabilitation Research Framework</title>
-<meta name="description" content="A national research framework for wildlife rehabilitation data. Coming soon.">
-<style>
-  :root {
-    --ink: #1F2A2A;
-    --muted: #6B6B65;
-    --accent: #2A4A3A;
-    --paper: #FAF6EC;
-    --rule: #DDD8CA;
-  }
-  *, *::before, *::after { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; }
-  body {
-    font-family: 'Source Serif Pro', Georgia, 'Times New Roman', serif;
-    color: var(--ink);
-    background: var(--paper);
-    line-height: 1.6;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  .container {
-    flex: 1 0 auto;
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 80px 32px 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .kicker {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.18em;
-    font-size: 11px;
-    color: var(--muted);
-    font-weight: 600;
-    margin-bottom: 32px;
-  }
-  h1 {
-    font-size: 44px;
-    line-height: 1.15;
-    margin: 0 0 24px;
-    color: var(--accent);
-    font-weight: 600;
-    letter-spacing: -0.01em;
-  }
-  h1 .light { color: var(--ink); font-weight: 400; }
-  .lede {
-    font-size: 19px;
-    color: var(--ink);
-    margin-bottom: 28px;
-  }
-  .body p {
-    font-size: 16px;
-    color: var(--ink);
-    margin-bottom: 18px;
-  }
-  .body p.muted {
-    color: var(--muted);
-    font-size: 15px;
-  }
-  hr.rule {
-    border: 0;
-    height: 1px;
-    background: var(--rule);
-    margin: 40px 0 28px;
-  }
-  footer {
-    flex-shrink: 0;
-    padding: 24px 32px;
-    border-top: 1px solid var(--rule);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    font-size: 12px;
-    color: var(--muted);
-    text-align: center;
-  }
-  @media (max-width: 600px) {
-    .container { padding: 48px 24px 32px; }
-    h1 { font-size: 32px; }
-    .lede { font-size: 17px; }
-  }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>WildlifeStats — National Wildlife Rehabilitation Research Framework</title>
+  <meta name="description" content="National Wildlife Rehabilitation Research Framework — under construction.">
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <a href="/">WildlifeStats</a>
+        <p class="kicker">National Wildlife Rehabilitation Research Framework</p>
+      </div>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="/one-health/">One Health</a></li>
+          <li><a href="/parks/">National Parks</a></li>
+          <li><a href="/wildlife/">Wildlife</a></li>
+          <li><a href="/data/">Data</a></li>
+          <li><a href="/methodology.html">Methodology</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <hr class="site-divider">
 
-<div class="container">
-  <div class="kicker">WildlifeStats &middot; In development</div>
+  <main>
+    <div class="container">
+      <p class="kicker">National Wildlife Rehabilitation Research Framework</p>
+      <h1>WildlifeStats</h1>
+      <div class="prose">
+        <p>WildlifeStats is a national research framework for the analysis of
+        wildlife rehabilitation patient data. The current dataset is synthetic
+        — 100,000 patient records generated from regional distribution models
+        — and is intended to demonstrate the framework's methodology rather
+        than report real admissions. The framework is built for researchers,
+        policy analysts, educators, and conservation organizations who need a
+        standardized, queryable view of wildlife intake patterns at national
+        scale. Every analysis published here states its data provenance.</p>
+      </div>
 
-  <h1>A national research framework <span class="light">for wildlife rehabilitation data.</span></h1>
+      <ul class="tile-grid">
+        <li class="tile">
+          <h2><a href="/one-health/">One Health</a></h2>
+          <p>Cross-species disease patterns and the connections among wildlife,
+          domestic-animal, and human health.</p>
+        </li>
+        <li class="tile">
+          <h2><a href="/parks/">National Parks</a></h2>
+          <p>The dataset viewed through the lens of proximity to National Park
+          Service units.</p>
+        </li>
+        <li class="tile">
+          <h2><a href="/wildlife/">Wildlife</a></h2>
+          <p>An encyclopedia of taxa, guilds, and species, with intake reasons
+          and seasonal patterns.</p>
+        </li>
+        <li class="tile">
+          <h2><a href="/data/">Data</a></h2>
+          <p>The searchable national database — filters, charts, and
+          suppression-aware downloads.</p>
+        </li>
+        <li class="tile">
+          <h2><a href="/methodology.html">Methodology</a></h2>
+          <p>How the synthetic dataset is constructed, and how a real
+          multi-center dataset would be.</p>
+        </li>
+      </ul>
 
-  <p class="lede">WildlifeStats will turn the patient records of America's wildlife rehabilitation centers into a public knowledge layer for researchers, educators, journalists, conservation organizations, and citizen scientists.</p>
+      <section class="is-isnt" aria-label="What this is and what it is not">
+        <div>
+          <h2>What this is</h2>
+          <ul>
+            <li>A research framework demonstrating standardized analysis of
+            wildlife rehabilitation data at national scale.</li>
+            <li>A synthetic dataset — honestly labeled as such on every page
+            that touches it.</li>
+            <li>A methodology for ingesting heterogeneous records from many
+            centers into one queryable structure.</li>
+          </ul>
+        </div>
+        <div>
+          <h2>What this isn't</h2>
+          <ul>
+            <li>Not live or real-time admissions data.</li>
+            <li>Not a fundraising platform for any organization.</li>
+            <li>Not a replacement for state wildlife agencies or rehabilitator
+            directories.</li>
+            <li>Not a partner self-service platform — yet. The partnership
+            model is described under <a href="/governance.html">Governance</a>.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
 
-  <div class="body">
-    <p>The platform is in design. The first deliverables will include a national admissions dashboard, a One Health hub, a species encyclopedia, a national-parks lens, and a searchable database of public-tier wildlife records.</p>
-
-    <p>Standardized intake and outcome data &mdash; ingested from heterogeneous center systems, AI-cleaned, privacy-disciplined, and aggregated to the public tier &mdash; will let anyone ask the questions wildlife rehabilitation has been quietly answering for decades.</p>
-
-    <hr class="rule">
-
-    <p class="muted">This is a placeholder while the framework is built. Check back soon.</p>
-  </div>
-</div>
-
-<footer>
-  WildlifeStats &mdash; National wildlife rehabilitation research framework &middot; in development &middot; 2026
-</footer>
-
+  <footer class="site-footer">
+    <div class="container">
+      <p>WildlifeStats is a research framework. Current dataset is synthetic
+      (n=100,000) generated from regional distribution models. See
+      <a href="/methodology.html">Methodology</a>.</p>
+      <nav aria-label="Footer">
+        <a href="/governance.html">Governance</a> ·
+        <a href="/about.html">About</a> ·
+        <span>2026</span>
+      </nav>
+    </div>
+  </footer>
+  <script src="/assets/js/site.js"></script>
 </body>
 </html>
