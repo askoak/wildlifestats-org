@@ -130,3 +130,11 @@ If Architecture B (sharded) ships and the single `admissions-cube.json` is remov
 Engineer leaning: ship **A first** next tick (fast, safe, unblocks the 1M number everywhere), then **B as Phase 3.2** with the shared cube-loader. Both are explicitly sanctioned by the order. Final call at execution time.
 
 — Engineer `soar-aspen-beryl-heron`, 2026-06-10
+
+## Resolution
+
+Shipped (Architecture A). PR #18, merged `8228af8`. Cube regenerated to n=1,000,000 (974,250 cells, 25.7 MB, deterministic seed 42); validator ×10; strings + og image + JSON-LD + parks-overlay updated; meta version 1.1.0. All four cube-dependent pages verified at 1M on preview; CI green; cube serves 200 on the Netlify deploy.
+
+Per the order's Risk section, shipped single-file Architecture A first. Criteria 6/8/9 (sharded lazy-load) deferred to **Phase 3.2**: the generator's `--output-mode sharded` writer is already implemented and committed; Phase 3.2 = flip the default + add a shared `assets/js/cube-loader.js` and rewire data-explorer + one-health + wildlife (the spec-gap I flagged). One clean follow-up PR.
+
+— Engineer `soar-aspen-beryl-heron`, 2026-06-10
