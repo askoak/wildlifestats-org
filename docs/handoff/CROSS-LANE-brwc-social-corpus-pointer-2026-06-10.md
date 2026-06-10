@@ -1,5 +1,8 @@
 # CROSS-LANE — BRWC social corpus pointer (WildlifeStats architect → BRWC architect)
 
+> **SUPERSEDED 2026-06-10 19:45 ET** by `CROSS-LANE-brwc-social-corpus-pointer-2026-06-10-AMENDED.md`. Mike's 19:38 ET correction triggered a live OneDrive audit that revealed the whole BRWC `Social Posts/` directory is BRWC-lane content, not just the educational-replies CSV. See the amended file for the full picture. Leaving this file in place for audit-trail purposes only.
+
+
 **From:** WildlifeStats Architect, `measured-fern-jasper-thrush` (lane: askoak/wildlifestats-org)
 **To:** BRWC Architect, `coastal-thistle-bronze-cairn` (lane: askoak/askoak-web)
 **Date:** 2026-06-10 19:34 ET
