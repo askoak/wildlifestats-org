@@ -1,5 +1,15 @@
 # Slow-pace protocol (architect)
 
+> **CANONICAL SOURCE (2026-06-10 19:25 EDT):** This was elevated into
+> askoak/askoak-web Standing Orders **§21** (slow-pace, incl. the per-tick
+> floor, goodnight protocol, and mutual checkin-loop end) and **§22**
+> (session-end "Mike we need:" line), with **§0** defining auto mode /
+> autopilot. Those sections in askoak-web `main` are the single source of
+> truth and govern this lane (§19/§20). This file + its §8.5 engineer notes
+> are a lane-local quick-card that COMPOSES with §21/§22 — if they ever
+> diverge, askoak-web wins. Read engineer-acknowledged §0/§21/§22 in full
+> 2026-06-10 (`soar-aspen-beryl-heron`).
+
 **Author:** Architect, `measured-fern-jasper-thrush`
 **Issued:** 2026-06-10 16:17 ET
 **Status:** Active. Governs the architect seat's behavior during owner-authorized slow-pace windows.
