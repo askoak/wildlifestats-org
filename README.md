@@ -72,3 +72,13 @@ This repo does not store credentials. See
 [askoak-web's CREDENTIALS-POINTER.md](https://github.com/askoak/askoak-web/blob/main/CREDENTIALS-POINTER.md)
 for the canonical credential-handling pattern across all Mike-Oak ventures
 (Standing Orders §18).
+
+## CI
+
+`.github/workflows/validate.yml` runs on every PR. Three jobs:
+
+- **BRWC content guard** — `scripts/check-no-brwc.sh` fails if forbidden BRWC-identifying strings appear outside `docs/handoff/`.
+- **Internal link check** — `linkinator` checks all internal links resolve.
+- **HTML validation** — `html-validate` checks HTML well-formedness.
+
+All three must pass for §14 self-merge eligibility.
