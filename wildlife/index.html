@@ -35,11 +35,20 @@
   <hr class="site-divider">
 
   <main>
-    <div class="container prose">
+    <div class="container">
       <p class="kicker">Research Section</p>
       <h1>Wildlife</h1>
-      <p>A taxonomic browse of the synthetic admissions data — by class, by guild, by species. Each entry will include a range hint, the most common synthetic admission reasons in the dataset, and a seasonal pattern. Final content lands in Phase 4.</p>
-      <p class="status-note">This section is under construction. Final content lands as part of Phase 4 of the build plan.</p>
+      <p class="prose">A taxonomic browse of the synthetic admissions data. Choose a class, then a species archetype, to see its modeled range, most common admission reasons, and seasonal pattern. The dataset's species granularity is archetype-level — guild-scale groupings such as raptors, songbirds, or sea turtles rather than individual species. See <a href="/methodology.html">Methodology</a>.</p>
+
+      <p id="wildlife-status" class="explorer-status">Loading the dataset…</p>
+
+      <div id="wildlife-browser" hidden>
+        <div id="class-tabs" class="class-tabs" role="group" aria-label="Animal class"></div>
+        <div class="wildlife-layout">
+          <ul id="species-list" class="species-list"></ul>
+          <section id="species-profile" class="species-profile" aria-live="polite" hidden></section>
+        </div>
+      </div>
     </div>
   </main>
 
@@ -56,5 +65,8 @@
     </div>
   </footer>
   <script src="/assets/js/site.js"></script>
+  <script src="/assets/js/vendor/topojson-client.min.js"></script>
+  <script src="/assets/js/choropleth.js"></script>
+  <script src="/assets/js/wildlife.js"></script>
 </body>
 </html>
