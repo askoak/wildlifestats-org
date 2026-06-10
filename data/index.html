@@ -35,16 +35,61 @@
   <hr class="site-divider">
 
   <main>
-    <div class="container prose">
+    <div class="container">
       <p class="kicker">Research Section</p>
       <h1>Data</h1>
-      <p>The full synthetic admissions cube — year, month, county, species, class, admission reason, outcome category, disposition — exposed as a filterable interface with k-suppressed CSV downloads. The dataset is generated; the filtering interface, choropleth map, and CSV download land in Phase 4 of the build plan.</p>
+      <p class="prose">The synthetic admissions cube — year, month, county, species, class, admission reason, outcome, and disposition — filtered in your browser. Choose any combination of filters to update the summary, the map, and the CSV download.</p>
+
+      <p class="explorer-note prose">Synthetic dataset, n=100,000 records distributed across all 50 states and the District of Columbia. Generated from regional distribution models calibrated against published wildlife rehabilitation literature. See <a href="/methodology.html">Methodology</a> for the generation script and seed.</p>
 
       <section class="data-meta" aria-label="Dataset summary" id="cube-meta">
         <p class="data-meta__loading">Loading dataset summary…</p>
       </section>
 
-      <p class="status-note"><strong>Synthetic data</strong> — every figure on this page is generated from regional distribution models, not collected from any wildlife center. See <a href="/methodology.html">Methodology</a>.</p>
+      <p id="explorer-status" class="explorer-status">Loading the dataset…</p>
+
+      <div id="explorer-body" hidden>
+        <div class="explorer-filters" role="group" aria-label="Filters">
+          <fieldset class="filter-group">
+            <legend>Year</legend>
+            <div id="filter-year"></div>
+          </fieldset>
+          <fieldset class="filter-group">
+            <legend>Class</legend>
+            <div id="filter-class"></div>
+          </fieldset>
+          <fieldset class="filter-group">
+            <legend>Admission reason</legend>
+            <div id="filter-reason"></div>
+          </fieldset>
+          <fieldset class="filter-group">
+            <legend>State</legend>
+            <div id="filter-state"></div>
+          </fieldset>
+          <div class="filter-actions">
+            <button type="button" id="btn-clear" class="btn">Reset filters</button>
+            <button type="button" id="btn-csv" class="btn btn--primary">Download CSV</button>
+          </div>
+        </div>
+
+        <p class="result-total"><span id="result-total">—</span> match the current filters.</p>
+
+        <figure class="map-figure">
+          <svg id="us-map" viewBox="0 0 975 610" role="img" aria-label="US states choropleth of admission counts" preserveAspectRatio="xMidYMid meet"></svg>
+          <figcaption>Counties with fewer than 10 records in the current filter are suppressed in downloads. States are shaded by total matching records.</figcaption>
+        </figure>
+
+        <div class="agg-tables">
+          <div>
+            <h2>By year</h2>
+            <div id="agg-year"></div>
+          </div>
+          <div>
+            <h2>Top states</h2>
+            <div id="agg-state"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
@@ -84,6 +129,8 @@
         });
     })();
   </script>
+  <script src="/assets/js/vendor/topojson-client.min.js"></script>
+  <script src="/assets/js/data-explorer.js"></script>
 
   <footer class="site-footer">
     <div class="container">
