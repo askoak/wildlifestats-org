@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wildlifestats.org/schemas/flyway/extraction-record.json",
+  "title": "Flyway extraction record",
+  "description": "The typed output of the extraction pass over a single public post (flyway-spec §4). Zero or one of these per post. NO raw post text is stored — only the extracted fields + source_url for attribution.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["record_id", "extracted_at", "source_type", "source_url",
+               "signal_id", "extracted_fields", "extraction_method",
+               "post_text_NOT_STORED"],
+  "properties": {
+    "record_id": {"type": "string", "description": "sha256(source_url + signal_id + event_date)"},
+    "extracted_at": {"type": "string"},
+    "source_type": {"type": "string", "enum": ["facebook", "instagram", "tiktok", "youtube", "web"]},
+    "source_url": {"type": "string"},
+    "source_org_id": {"type": ["string", "null"], "description": "Flyway roster rank/org id if from a monitored Page"},
+    "signal_id": {"type": "string"},
+    "extracted_fields": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["event_type", "confidence"],
+      "properties": {
+        "event_type": {"type": "string"},
+        "species_canonical": {"type": ["string", "null"]},
+        "species_verbatim": {"type": ["string", "null"]},
+        "geo_county_fips": {"type": ["string", "null"]},
+        "geo_state": {"type": ["string", "null"]},
+        "geo_locality_verbatim": {"type": ["string", "null"]},
+        "event_date": {"type": ["string", "null"]},
+        "event_date_precision": {"type": ["string", "null"], "enum": ["day", "week", "month", null]},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "extraction_method": {"type": "string"},
+    "extraction_prompt_hash": {"type": ["string", "null"]},
+    "post_text_NOT_STORED": {"const": true},
+    "license_compliance_notes": {"type": ["string", "null"]}
+  }
+}
