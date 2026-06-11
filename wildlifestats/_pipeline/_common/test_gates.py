@@ -322,6 +322,30 @@ def _():
             os.environ["CUSTOM_CRED_OAMQICYLPYTBLDRNYBCC_SUPABASE_CO_TOKEN"] = saved_tok
 
 
+def _assert_supabase_schema_exposed(schema: str) -> None:
+    """Probe PostgREST to confirm `schema` is in the project's exposed-schemas
+    list. Raises AssertionError with a remediation hint if not. Credentialed;
+    only reached from the live test."""
+    import urllib.error
+    import urllib.request
+    base = creds.get_supabase_url().rstrip("/")
+    token = creds.get_supabase_token()
+    req = urllib.request.Request(
+        f"{base}/rest/v1/signals?limit=0",
+        headers={"apikey": token, "Authorization": f"Bearer {token}",
+                 "Accept-Profile": schema},
+        method="GET")
+    try:
+        urllib.request.urlopen(req, timeout=20)
+    except urllib.error.HTTPError as exc:
+        body = exc.read().decode("utf-8", errors="replace")
+        if exc.code == 404 and "PGRST106" in body:
+            raise AssertionError(
+                f"schema {schema!r} is NOT exposed to PostgREST. Add it under "
+                f"Supabase -> Settings -> API -> Exposed schemas before writes.") from None
+        raise  # other statuses (401 creds, etc.) surface as-is
+
+
 @case("upsert live round-trip [skipped unless WILDLIFESTATS_LIVE_SUPABASE=1]")
 def _():
     # Live, money/quota-touching round-trip against the real project. Skipped
@@ -333,6 +357,11 @@ def _():
         print("    (skipped — set WILDLIFESTATS_LIVE_SUPABASE=1 to run live)")
         return
     import time
+    # Config-presence pre-check (architect ask, 2026-06-11): confirm the lane
+    # schema is actually exposed to PostgREST before attempting a write, so a
+    # dashboard regression fails here with a clear message rather than as an
+    # opaque first-write 404.
+    _assert_supabase_schema_exposed("wildlifestats_bucket_01_social_signals")
     stamp = str(int(time.time()))
     # 1) A legitimate org record must write and round-trip.
     ok = supabase_client.WriteRequest(
