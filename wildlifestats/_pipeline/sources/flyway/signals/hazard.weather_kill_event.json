@@ -1,0 +1,34 @@
+{
+  "signal_id": "hazard.weather_kill_event",
+  "signal_type": "hazard.weather_kill_event",
+  "subject_taxa": [
+    "Aves"
+  ],
+  "subject_canonical": "weather_mortality",
+  "vocabulary": [
+    "storm killed",
+    "hail stunned",
+    "frozen birds",
+    "heat wave deaths",
+    "mass casualties after storm",
+    "downed by the storm",
+    "fallout after the front"
+  ],
+  "anchor_feeds": [
+    "nws:storm-reports",
+    "usgs-nwhc:mortality-events"
+  ],
+  "geography_resolution": "county",
+  "season_window": {
+    "month_start": 1,
+    "month_end": 12
+  },
+  "baseline_period_years": 3,
+  "trigger_logic": {
+    "early": "first observation week N < baseline mean − 1.5 stddev",
+    "late": "first observation week N > baseline mean + 1.5 stddev",
+    "spike": "weekly post count > rolling 8-week mean × 3"
+  },
+  "active": true,
+  "owner": "architect-curated"
+}

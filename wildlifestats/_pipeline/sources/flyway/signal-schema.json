@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wildlifestats.org/schemas/flyway/signal-definition.json",
+  "title": "Flyway signal definition",
+  "description": "The reusable unit of Flyway: a phenology or hazard signal defined by its vocabulary, anchor feeds, geography, season window, and trigger logic. See flyway-spec §3. NOTE: this is the signal-DEFINITION schema (what files under signals/ validate against). The extraction-RECORD schema (flyway-spec §4, the typed output of the LLM pass) is a separate file shipped in sub-PR 4.5+g.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "signal_id", "signal_type", "subject_canonical", "vocabulary",
+    "anchor_feeds", "geography_resolution", "season_window",
+    "baseline_period_years", "trigger_logic", "active", "owner"
+  ],
+  "properties": {
+    "signal_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+(\\.[a-z0-9_]+)+$",
+      "description": "Dotted lowercase id, e.g. phenology.first_of_season.hummingbird_spring"
+    },
+    "signal_type": {
+      "type": "string",
+      "enum": ["phenology.first_of_season", "phenology.baby_season_start",
+               "phenology.amphibian_breeding_start", "hazard.hpai_outbreak",
+               "hazard.oiled_bird_event", "hazard.weather_kill_event",
+               "hazard.window_strike_spike"]
+    },
+    "subject_taxa": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Scientific names or higher taxa (e.g. Trochilidae). May be empty for hazard signals."
+    },
+    "subject_canonical": {
+      "type": "string",
+      "description": "Stable canonical subject id used across the pipeline."
+    },
+    "vocabulary": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string"},
+      "description": "Free-text phrases people post that indicate this signal."
+    },
+    "anchor_feeds": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Structured citizen-science anchors, e.g. journey-north:hummingbird-spring, ebird:Trochilidae, inaturalist:taxon-7227, aphis:hpai-wild-birds."
+    },
+    "geography_resolution": {
+      "type": "string",
+      "enum": ["county", "state", "region"]
+    },
+    "season_window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["month_start", "month_end"],
+      "properties": {
+        "month_start": {"type": "integer", "minimum": 1, "maximum": 12},
+        "month_end": {"type": "integer", "minimum": 1, "maximum": 12}
+      }
+    },
+    "baseline_period_years": {"type": "integer", "minimum": 1, "maximum": 50},
+    "trigger_logic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["spike"],
+      "properties": {
+        "early": {"type": "string"},
+        "late": {"type": "string"},
+        "spike": {"type": "string"}
+      }
+    },
+    "active": {"type": "boolean"},
+    "owner": {"type": "string"}
+  }
+}

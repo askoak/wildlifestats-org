@@ -1,0 +1,36 @@
+{
+  "signal_id": "hazard.hpai_outbreak",
+  "signal_type": "hazard.hpai_outbreak",
+  "subject_taxa": [
+    "Anatidae",
+    "Accipitridae",
+    "Laridae"
+  ],
+  "subject_canonical": "hpai_susceptible_birds",
+  "vocabulary": [
+    "mass die-off",
+    "dead birds",
+    "avian flu",
+    "HPAI",
+    "bird flu",
+    "multiple dead waterfowl",
+    "unexplained bird deaths"
+  ],
+  "anchor_feeds": [
+    "aphis:hpai-wild-birds",
+    "usgs-nwhc:mortality-events"
+  ],
+  "geography_resolution": "county",
+  "season_window": {
+    "month_start": 1,
+    "month_end": 12
+  },
+  "baseline_period_years": 3,
+  "trigger_logic": {
+    "early": "first observation week N < baseline mean − 1.5 stddev",
+    "late": "first observation week N > baseline mean + 1.5 stddev",
+    "spike": "weekly post count > rolling 8-week mean × 3"
+  },
+  "active": true,
+  "owner": "architect-curated"
+}

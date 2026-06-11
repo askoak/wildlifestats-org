@@ -1,0 +1,11 @@
+{
+  "source_id": "journey-north",
+  "display_name": "Journey North (hummingbird/monarch migration)",
+  "url": "https://journeynorth.org",
+  "license": "verify-cc-by-or-direct-permission",
+  "access_method": "api-or-bulk-download-tbd",
+  "refresh_cadence": "daily-during-migration-season",
+  "tier": "public-and-research",
+  "license_status": "UNVERIFIED — Journey North license + API/bulk-download path not yet confirmed. Mike-only decision per flyway-spec §11; surfaced, not blocking 4.5+f. Do not pull data from this source until license is verified.",
+  "notes": "Anchor feed for Flyway's earliest signal layer (the migration-map citizen-science layer). iNaturalist and eBird are separately in the Phase 4.5+ citizen-science registry. Verify license and API status before any ingestion."
+}

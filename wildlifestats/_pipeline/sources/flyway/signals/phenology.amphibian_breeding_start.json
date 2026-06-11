@@ -1,0 +1,34 @@
+{
+  "signal_id": "phenology.amphibian_breeding_start",
+  "signal_type": "phenology.amphibian_breeding_start",
+  "subject_taxa": [
+    "Anura",
+    "Caudata"
+  ],
+  "subject_canonical": "amphibian_breeding",
+  "vocabulary": [
+    "first frog calls",
+    "spring peepers",
+    "salamander migration",
+    "big night",
+    "frogs are calling",
+    "wood frogs are out"
+  ],
+  "anchor_feeds": [
+    "inaturalist:taxon-20978",
+    "herpmapper:anura"
+  ],
+  "geography_resolution": "county",
+  "season_window": {
+    "month_start": 2,
+    "month_end": 6
+  },
+  "baseline_period_years": 5,
+  "trigger_logic": {
+    "early": "first observation week N < baseline mean − 1.5 stddev",
+    "late": "first observation week N > baseline mean + 1.5 stddev",
+    "spike": "weekly post count > rolling 8-week mean × 3"
+  },
+  "active": true,
+  "owner": "architect-curated"
+}

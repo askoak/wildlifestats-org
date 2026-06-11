@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Flyway — Early-warning methodology — WildlifeStats</title>
+  <meta name="description" content="How Flyway detects wildlife phenology and hazard signals early from public citizen-science feeds and social Pages, and the legal posture that governs it.">
+  <link rel="canonical" href="https://wildlifestats.org/methodology/flyway/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WildlifeStats">
+  <meta property="og:title" content="Flyway — Early-warning methodology — WildlifeStats">
+  <meta property="og:description" content="How Flyway detects wildlife phenology and hazard signals early from public citizen-science feeds and social Pages, and the legal posture that governs it.">
+  <meta property="og:url" content="https://wildlifestats.org/methodology/flyway/">
+  <meta property="og:image" content="https://wildlifestats.org/assets/img/og-default.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Flyway — Early-warning methodology — WildlifeStats">
+  <meta name="twitter:description" content="How Flyway detects wildlife phenology and hazard signals early from public citizen-science feeds and social Pages, and the legal posture that governs it.">
+  <meta name="twitter:image" content="https://wildlifestats.org/assets/img/og-default.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap">
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="brand" aria-label="WildlifeStats — home">
+        <img src="/assets/img/logo.svg" alt="" width="240" height="64" class="brand__mark">
+        <span class="brand__kicker">National Wildlife Rehabilitation Research Framework</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="/one-health/">One Health</a></li>
+          <li><a href="/parks/">National Parks</a></li>
+          <li><a href="/wildlife/">Wildlife</a></li>
+          <li><a href="/data/">Data</a></li>
+          <li><a href="/methodology.html">Methodology</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <hr class="site-divider">
+
+  <main>
+    <div class="container prose">
+      <p class="kicker">Methodology · Flyway</p>
+      <h1>Flyway — early-warning methodology</h1>
+
+      <p>Flyway is the part of WildlifeStats that aims to detect wildlife events
+      <em>early</em> — before they reach the news cycle. Rehabilitators and
+      naturalists post what they are seeing as it happens: the first hummingbird
+      at a feeder, a sudden run of orphaned nestlings, a storm-driven die-off.
+      Flyway reads those public signals, turns them into structured records, and
+      flags when a pattern is running early, late, or spiking against its
+      historical baseline. This page explains how it works and the rules that
+      govern it.</p>
+
+      <h2>The signal template</h2>
+      <p>Flyway is built around one reusable unit, a <strong>signal
+      definition</strong>. Each signal is described by the same four parts, so
+      the same machinery serves many subjects:</p>
+      <ul>
+        <li><strong>Vocabulary</strong> — the phrases people actually post
+        ("first hummingbird," "found a baby bird," "mass die-off").</li>
+        <li><strong>Anchor feeds</strong> — structured citizen-science sources
+        for the same subject (Journey North, eBird, iNaturalist), which are
+        higher-trust and cleanly geolocated.</li>
+        <li><strong>Geography and season window</strong> — the resolution
+        (usually county) and the months a signal is expected.</li>
+        <li><strong>Trigger logic</strong> — the rule that calls a deviation:
+        early, late, or a spike against the rolling baseline.</li>
+      </ul>
+      <p>The first batch defines eight signals — hummingbird and monarch spring
+      arrival, songbird baby-season onset, amphibian breeding, and four hazard
+      signals (avian-influenza die-offs, oiled-bird events, weather-kill events,
+      and migration-season window-strike spikes). The catalog grows by editorial
+      curation.</p>
+
+      <h2>The pipeline</h2>
+      <ol>
+        <li><strong>Sources.</strong> A curated roster of public wildlife-rehab
+        Pages on Facebook and Instagram, a weekly phrase/hashtag discovery pass
+        to surface new candidate Pages for human review, and the structured
+        anchor feeds.</li>
+        <li><strong>Extraction.</strong> Each public post is read by a language
+        model that emits at most one typed record — event type, species,
+        county, date, confidence — and nothing else.</li>
+        <li><strong>Baseline and triggers.</strong> Records are compared to a
+        rolling per-signal, per-region baseline. A deviation fires an
+        early / late / spike trigger.</li>
+        <li><strong>Surface.</strong> Triggered signals are available to the
+        research tier and, in aggregate, through the WildlifeStats assistant.</li>
+      </ol>
+
+      <h2>Legal posture</h2>
+      <p>Flyway is built to extract signals, not to copy content. The rules:</p>
+      <ul>
+        <li><strong>No raw post text is stored or republished.</strong> The post
+        content is read once to extract a typed record, then discarded. Only the
+        link back to the original post is kept, for attribution.</li>
+        <li><strong>No re-syndication of images or video.</strong> A signal that
+        rests on visual evidence cites the original post; it does not copy the
+        media.</li>
+        <li><strong>Public Pages only.</strong> Private Facebook groups are
+        login-walled and off-limits to automation; Flyway uses public Pages and
+        public phrase/hashtag search only.</li>
+        <li><strong>Attribution preserved.</strong> Every signal record links
+        back to its source post.</li>
+        <li><strong>Take-down on request.</strong> Any organization can ask to be
+        removed from the Flyway roster; its entry is removed within five business
+        days and its historical extracted records are scrubbed.</li>
+      </ul>
+
+      <p class="status-note">Flyway is in development. The signal catalog and
+      source registry are in place; the recurring scrape is disabled until
+      explicitly authorized, and structured citizen-science feeds are the
+      primary, highest-trust layer. The assistant is <strong>WREN</strong>; it
+      answers questions against Flyway's signals once they are flowing.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>WildlifeStats is a research framework. Current dataset is synthetic
+      (n=1,000,000) generated from regional distribution models. See
+      <a href="/methodology.html">Methodology</a>.</p>
+      <nav aria-label="Footer">
+        <a href="/governance.html">Governance</a> ·
+        <a href="/about.html">About</a> ·
+        <span>2026</span>
+      </nav>
+    </div>
+  </footer>
+  <script src="/assets/js/site.js"></script>
+</body>
+</html>

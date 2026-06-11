@@ -1,0 +1,14 @@
+{
+  "description": "Discovery queries for flyway-phrase-search (weekly). Surfaces new high-value public Pages/posts that match phenology/hazard vocabulary, for human review before any Page enters the monitored roster. NOT a signal source. See flyway-spec §2.2.",
+  "review_required_before_promotion": true,
+  "queries": [
+    {"signal_id": "phenology.first_of_season.hummingbird_spring", "phrases": ["first hummingbird of the year", "hummers are back", "anyone seeing hummingbirds yet"], "hashtags": ["#hummingbirdmigration", "#firsthummingbird"]},
+    {"signal_id": "phenology.first_of_season.monarch_spring", "phrases": ["first monarch sighting", "monarchs are back"], "hashtags": ["#monarchmigration", "#firstmonarch"]},
+    {"signal_id": "phenology.baby_season_start.songbird", "phrases": ["found a baby bird", "baby bird season"], "hashtags": ["#babybirdseason", "#orphanedwildlife"]},
+    {"signal_id": "hazard.hpai_outbreak", "phrases": ["mass bird die-off", "dead waterfowl"], "hashtags": ["#HPAI", "#birdflu"]},
+    {"signal_id": "hazard.oiled_bird_event", "phrases": ["oiled bird", "oil spill wildlife"], "hashtags": ["#oiledwildlife"]},
+    {"signal_id": "hazard.weather_kill_event", "phrases": ["storm killed birds", "hail stunned birds"], "hashtags": ["#stormwildlife"]},
+    {"signal_id": "phenology.amphibian_breeding_start", "phrases": ["first spring peepers", "salamander big night"], "hashtags": ["#bignight", "#springpeepers"]},
+    {"signal_id": "hazard.window_strike_spike", "phrases": ["window strike season", "lots of window strikes"], "hashtags": ["#windowstrikes", "#birdcollisions"]}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "source_id": "flyway-social-pages",
+  "display_name": "Flyway — Wildlife rehab social media Pages roster",
+  "url": "https://wildlifestats.org/methodology/flyway/",
+  "license": "scraped-public-extracts-only",
+  "license_url": "internal-tos",
+  "license_allows_commercial": false,
+  "license_allows_redistribution": false,
+  "access_method": "apify-actor",
+  "data_format": "json",
+  "actor": "apify/facebook-posts-scraper",
+  "alternate_actor": "apify/instagram-post-scraper",
+  "refresh_cadence": "daily",
+  "endpoint_config": "wildlifestats/_pipeline/sources/flyway-social-seed-top100.csv",
+  "extraction_pipeline": "wildlifestats/_pipeline/flyway/extract.py",
+  "extraction_schema": "wildlifestats/_pipeline/flyway/extraction-record-schema.json",
+  "baseline_storage": "secure/cube/flyway/baselines/",
+  "signal_storage": "secure/cube/flyway/signals/",
+  "tier": "tier2-research-and-tier3-reference",
+  "anonymization_required": "post-content-not-stored-only-extracted-signals",
+  "notes": "Scraped content (post text, images) is NOT stored or republished. Only extracted signal records + source_url. See methodology/flyway and flyway-spec §6 legal posture. extraction_schema (the §4 typed-record schema) lands in sub-PR 4.5+g; signal-definition schema is sources/flyway/signal-schema.json."
+}

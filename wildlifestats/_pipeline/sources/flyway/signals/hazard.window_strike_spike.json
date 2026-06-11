@@ -1,0 +1,33 @@
+{
+  "signal_id": "hazard.window_strike_spike",
+  "signal_type": "hazard.window_strike_spike",
+  "subject_taxa": [
+    "Passeriformes"
+  ],
+  "subject_canonical": "window_collision",
+  "vocabulary": [
+    "window strike",
+    "hit the window",
+    "collision season",
+    "lots of window strikes",
+    "building collision",
+    "migration collisions"
+  ],
+  "anchor_feeds": [
+    "usgs:bird-banding",
+    "ebird:migration-windows"
+  ],
+  "geography_resolution": "county",
+  "season_window": {
+    "month_start": 4,
+    "month_end": 11
+  },
+  "baseline_period_years": 3,
+  "trigger_logic": {
+    "early": "first observation week N < baseline mean − 1.5 stddev",
+    "late": "first observation week N > baseline mean + 1.5 stddev",
+    "spike": "weekly post count > rolling 8-week mean × 3"
+  },
+  "active": true,
+  "owner": "architect-curated"
+}
