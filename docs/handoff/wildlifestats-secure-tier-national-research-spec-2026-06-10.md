@@ -171,12 +171,12 @@ Every bulk download produces a citation snippet at download time:
 ```
 WildlifeStats National Wildlife Rehabilitation Database. Tier 2 anonymized
 research extract. Query: state=FL, year=2023, species=sea_turtle. Generated
-2026-06-10T20:14:00Z. Snapshot DOI: 10.xxxx/wildlifestats.snapshot.2026Q2.
+2026-06-10T20:14:00Z. Snapshot DOI: 10.5281/zenodo.20643065 (concept DOI; version DOIs assigned per quarterly release via the GitHub-Zenodo integration on askoak/wildlifestats-org).
 Includes data from sources: usgs-whispers (CC0), gbif (CC-BY), and 7 partner
-organizations (anonymized). Cite as: WildlifeStats Consortium (2026). https://doi.org/10.xxxx/...
+organizations (anonymized). Cite as: Oak, M. and WildlifeStats Consortium (2026). https://doi.org/10.5281/zenodo.20643065
 ```
 
-Snapshot DOIs are issued quarterly via DataCite (free for the first 100/year on the EZID service). Each quarterly snapshot is immutable and citable; if a partner's data is later corrected, a new DOI is issued; the old DOI remains for reproducibility of prior research.
+Snapshot DOIs are issued quarterly via the Zenodo GitHub-release integration on `askoak/wildlifestats-org`. Each release tag (e.g. `v1.1.0`, `v1.2.0`) triggers Zenodo's webhook, mints a new version DOI, and links it to the project's concept DOI (`10.5281/zenodo.20643065`) which always resolves to the latest version. Each quarterly snapshot is immutable and citable; if a partner's data is later corrected, a new DOI is issued; the old DOI remains for reproducibility of prior research. Zenodo's GitHub integration is free and operational; the EZID/DataCite alternative path is deprecated for this lane.
 
 ### §5.4 Take-down policy
 

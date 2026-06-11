@@ -194,11 +194,19 @@
     }).join("\n");
     // Phase 4.6b: synthetic-data header so any downstream user of this CSV
     // (analyst, screenshot, archive) sees the watermark inline.
+    // Phase 4.6l: also emit the Zenodo DOI in the citation snippet.
     var version = (cube && cube.meta && cube.meta.version) ? cube.meta.version : "unknown";
     var generated = (cube && cube.meta && cube.meta.generated_at) ? cube.meta.generated_at : "unknown";
-    var header = "# SYNTHETIC — WildlifeStats v" + version + " — generated " + generated + "\n" +
-                 "# This file contains synthetic data, not measured records.\n" +
-                 "# See https://wildlifestats.org/methodology.html for the parameter provenance table.\n";
+    var header =
+      "# SYNTHETIC — WildlifeStats v" + version + " — generated " + generated + "\n" +
+      "# This file contains synthetic data, not measured records.\n" +
+      "# DOI: 10.5281/zenodo.20643065 (canonical v1.1.0 archive)\n" +
+      "# Cite as: Oak, M. and WildlifeStats Consortium (2026). WildlifeStats: a\n" +
+      "#   national wildlife rehabilitation research framework — synthetic\n" +
+      "#   admissions cube v1.1.0. Zenodo. https://doi.org/10.5281/zenodo.20643065\n" +
+      "# License: CC-BY-4.0\n" +
+      "# Methodology: https://wildlifestats.org/methodology.html\n" +
+      "# Citation guide: https://wildlifestats.org/governance.html#citing\n";
     csv = header + csv;
     var blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
     var url = URL.createObjectURL(blob);
