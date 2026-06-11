@@ -5,10 +5,13 @@
     "void-style": "off",
     "no-inline-style": "off",
     "no-implicit-button-type": "warn",
+    "tel-non-breaking": "off",
+    "long-title": "warn",
     "wcag/h30": "warn",
     "wcag/h32": "warn",
     "wcag/h36": "warn",
     "wcag/h37": "warn",
+    "wcag/h63": "warn",
     "wcag/h67": "warn",
     "wcag/h71": "warn"
   },
