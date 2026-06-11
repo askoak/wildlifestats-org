@@ -1,0 +1,277 @@
+# E1 — SD + VT Gap Fill
+# Agent E, 2026-06-11
+#
+# Adds 2 South Dakota and 2 Vermont organizations to close the SD/VT state gaps.
+#
+# Sources consulted:
+#   SD Game, Fish & Parks wildlife-rehab page: https://gfp.sd.gov/wildlife-rehab/
+#   CauseIQ: https://www.causeiq.com/organizations/black-hills-raptor-center,274423598/
+#   ProPublica: https://projects.propublica.org/nonprofits/organizations/274423598
+#   BirdRescues.org SD: http://birdrescues.org/south-dakota-bird-rescues-bird-rehabs-and-wildlife-hospitals/
+#   Town & Country TLC Vet wildlife page: https://townandcountryvetsd.com/wildlife/
+#   Vermont Fish & Wildlife licensed rehabber list (PDF): https://www.vtvets.org/assets/docs/Wildlife_Rehabilitator_Locator_Map.pdf
+#   BirdRescues.org VT: http://birdrescues.org/vermont-bird-rescues-bird-rehabs-and-wildlife-hospitals/
+#   ProPublica VINS: https://projects.propublica.org/nonprofits/organizations/30231665
+#   CauseIQ Parkhill Wildlife Rehab VT: https://www.causeiq.com/organizations/parkhill-wildlife-rehab,933397141/
+#
+# Note on SD: SD Game, Fish & Parks explicitly states "South Dakota has very few licensed wildlife
+# rehabilitators." There is NO publicly accessible state directory of individual rehabbers.
+# The Black Hills Raptor Center and Town & Country TLC Vet are the only verifiable
+# organizational-level (non-individual) rehab operations. A third SD center could not be
+# confirmed with sufficient confidence for inclusion.
+#
+# Note on VT: Vermont's rehabbers are overwhelmingly individual licensees operating out of
+# private residences. VINS (Vermont Institute of Natural Science) is the sole major institutional
+# rehab center. Vermont Wildlife Rescue Association (Carol Winfield, Westford) is the
+# next-best org-level candidate per the VT F&W list, but operates as a very small volunteer
+# group without a dedicated website and was not found as a registered 501(c)(3). Only
+# VINS is included as a high-confidence institutional entry. Parkhill Wildlife Rehab (VT,
+# EIN 93-3397141) is noted as a newer small org.
+
+- slug: black-hills-raptor-center
+  legal_name: Black Hills Raptor Center
+  common_name: Black Hills Raptor Center
+  state: SD
+  city: Rapid City
+  county_fips: '46103'
+  ein: 27-4423598
+  primary_url: https://www.blackhillsraptorcenter.org
+  wildlife_help_url: https://www.blackhillsraptorcenter.org/contact-us/
+  about_url: https://www.blackhillsraptorcenter.org/about-us/
+  contact_url: https://www.blackhillsraptorcenter.org/contact-us/
+  contact_email: ''
+  contact_phone: 605-519-2008
+  emergency_hotline: 605-519-2008
+  intake_address: 'PO Box 48, Caputa, SD 57725 (no public walk-in facility yet; call for drop-off)'
+  intake_hours: ''
+  news_or_blog_url: ''
+  newsletter_signup_url: ''
+  patient_stories_url: ''
+  annual_reports_url: ''
+  most_recent_annual_report_pdf: ''
+  social:
+    facebook: ''
+    instagram: ''
+    tiktok: ''
+    youtube: ''
+    twitter: ''
+    linkedin: ''
+    bluesky: ''
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ''
+  accreditations: []
+  leadership:
+    executive_director: Maggie Engler
+    medical_director: Peggy Behrens, DVM
+  mission_excerpt: To conserve and protect native birds of prey and their natural habitats
+    through education, rehabilitation, and research.
+  status: active
+  notes: >
+    SD's principal raptor rehabilitation and education nonprofit, operating since at least 2010
+    (990-EZ filing history). All-volunteer group managed by 8-person board. Currently building
+    a permanent public education facility in western SD. Conducts 125–150 educational programs
+    per year using live raptors. SD GF&P has no public rehabber directory; BHRC is the most
+    prominent formally incorporated raptor rehab org in the state.
+    EIN confirmed via ProPublica (https://projects.propublica.org/nonprofits/organizations/274423598).
+  source_urls:
+  - https://www.blackhillsraptorcenter.org
+  - https://projects.propublica.org/nonprofits/organizations/274423598
+  - https://gfp.sd.gov/wildlife-rehab/
+
+- slug: town-country-tlc-vet-wildlife
+  legal_name: Town & Country TLC Vet (wildlife rehabilitation program)
+  common_name: Town & Country TLC Vet Wildlife Program
+  state: SD
+  city: Rapid City
+  county_fips: '46103'
+  ein: ''
+  primary_url: https://townandcountryvetsd.com
+  wildlife_help_url: https://townandcountryvetsd.com/wildlife/
+  about_url: https://townandcountryvetsd.com/about/
+  contact_url: https://townandcountryvetsd.com/contact/
+  contact_email: ''
+  contact_phone: ''
+  emergency_hotline: ''
+  intake_address: 'Rapid City, SD (see website for current address)'
+  intake_hours: ''
+  news_or_blog_url: ''
+  newsletter_signup_url: ''
+  patient_stories_url: ''
+  annual_reports_url: ''
+  most_recent_annual_report_pdf: ''
+  social:
+    facebook: ''
+    instagram: ''
+    tiktok: ''
+    youtube: ''
+    twitter: ''
+    linkedin: ''
+    bluesky: ''
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ''
+  accreditations: []
+  leadership:
+    executive_director: ''
+    medical_director: ''
+  mission_excerpt: >
+    Accepts ill, injured, or orphaned native wild animals (with exceptions); primary goal is
+    rehabilitation and release back to the wild.
+  status: active
+  notes: >
+    Veterinary clinic in Rapid City, SD that operates a licensed wildlife rehabilitation program
+    accepting native wild animals. Not a standalone nonprofit — a private veterinary practice.
+    Included here as one of SD's very few publicly listed intake points for injured wildlife.
+    SD GF&P directs the public to call regional wildlife offices because "South Dakota has very
+    few licensed wildlife rehabilitators." This clinic is referenced on SD-facing bird-rescue
+    directories. EIN not applicable (for-profit veterinary practice, not a 501(c)(3)).
+  source_urls:
+  - https://townandcountryvetsd.com/wildlife/
+  - http://birdrescues.org/south-dakota-bird-rescues-bird-rehabs-and-wildlife-hospitals/
+
+- slug: vins-nature-center
+  legal_name: Vermont Institute of Natural Science Inc
+  common_name: VINS Nature Center
+  state: VT
+  city: Quechee
+  county_fips: '50027'
+  ein: 03-0231665
+  primary_url: https://vinsweb.org
+  wildlife_help_url: https://vinsweb.org/wild-bird-rehabilitation/
+  about_url: https://vinsweb.org/about/
+  contact_url: https://vinsweb.org/contact/
+  contact_email: ''
+  contact_phone: 802-359-5000
+  emergency_hotline: 802-359-5000 ext. 212
+  intake_address: '149 Natures Way, Quechee, VT 05059'
+  intake_hours: 'Open daily; rehabilitation intake contact ext. 212'
+  news_or_blog_url: ''
+  newsletter_signup_url: ''
+  patient_stories_url: ''
+  annual_reports_url: ''
+  most_recent_annual_report_pdf: ''
+  social:
+    facebook: ''
+    instagram: https://www.instagram.com/vinsraptors/
+    tiktok: ''
+    youtube: ''
+    twitter: ''
+    linkedin: ''
+    bluesky: ''
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ''
+  accreditations: []
+  leadership:
+    executive_director: ''
+    medical_director: Grae O'Toole
+  mission_excerpt: To motivate individuals and communities to care for the environment
+    through education, research, and avian wildlife rehabilitation.
+  status: active
+  notes: >
+    Vermont's only institutional-scale wild bird rehabilitation center. Treats all birds
+    including raptors, waterfowl, songbirds, gamebirds, and threatened/endangered species from
+    throughout New England. Listed on the Vermont F&W licensed rehabber directory as the primary
+    statewide bird rehab intake point. Tax-exempt since August 1973; revenue ~$3M annually.
+    35,000+ visitors per year. ADA accessible. Adopt-a-Raptor (RISE) program.
+    EIN confirmed via ProPublica (https://projects.propublica.org/nonprofits/organizations/30231665).
+  source_urls:
+  - https://vinsweb.org
+  - https://projects.propublica.org/nonprofits/organizations/30231665
+  - https://www.vtvets.org/assets/docs/Wildlife_Rehabilitator_Locator_Map.pdf
+
+- slug: parkhill-wildlife-rehab
+  legal_name: Parkhill Wildlife Rehab
+  common_name: Parkhill Wildlife Rehab
+  state: VT
+  city: Benson
+  county_fips: '50001'
+  ein: 93-3397141
+  primary_url: ''
+  wildlife_help_url: ''
+  about_url: ''
+  contact_url: ''
+  contact_email: ''
+  contact_phone: ''
+  emergency_hotline: ''
+  intake_address: 'Benson, VT'
+  intake_hours: ''
+  news_or_blog_url: ''
+  newsletter_signup_url: ''
+  patient_stories_url: ''
+  annual_reports_url: ''
+  most_recent_annual_report_pdf: ''
+  social:
+    facebook: ''
+    instagram: ''
+    tiktok: ''
+    youtube: ''
+    twitter: ''
+    linkedin: ''
+    bluesky: ''
+  services:
+    accepts_birds: false
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ''
+  accreditations: []
+  leadership:
+    executive_director: ''
+    medical_director: ''
+  mission_excerpt: ''
+  status: active
+  notes: >
+    Newer small Vermont nonprofit (EIN 93-3397141 per CauseIQ). Based in Benson, VT (Addison County).
+    No public website found. EIN prefix 93- indicates recent IRS recognition. Likely a small
+    mammal-focused operation aligned with the licensed rehabber community in that region (Benson
+    has two listed rehabbers in the VT F&W directory: Lia McFarline and Sally Beckwith). Include
+    as a stub pending further research.
+  source_urls:
+  - https://www.causeiq.com/organizations/parkhill-wildlife-rehab,933397141/

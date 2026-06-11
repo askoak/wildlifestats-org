@@ -1,0 +1,900 @@
+# Wildlife Rehabilitation Sector Funders Catalog
+# Generated: 2026-06-11
+# Coverage: National foundations, federal programs, regional/community foundations,
+#           and corporate programs funding US wildlife rehabilitation work.
+# EIN policy: Only included where verified via ProPublica Nonprofit Explorer,
+#             IRS filings, or foundation's own official website.
+
+##############################################################################
+# NATIONAL PRIVATE FOUNDATIONS & PUBLIC CHARITIES
+##############################################################################
+
+- legal_name: PetSmart Charities, Inc.
+  common_name: PetSmart Charities
+  type: public_charity
+  ein: 93-1140967
+  primary_url: https://petsmartcharities.org/
+  grants_program_url: https://petsmartcharities.org/pros/grants
+  annual_grants_total_usd_approx: 70000000
+  focus_areas:
+    - companion_animal_welfare
+    - wildlife_rehab
+    - spay_neuter
+    - disaster_relief_animals
+    - pet_adoption
+  eligibility_summary: >
+    501(c)(3) animal welfare organizations in the US and Canada. Programs include
+    companion animal adoption, emergency and disaster relief, spay/neuter, and
+    broader animal welfare capacity grants. Wildlife crossover through
+    animal emergency and sheltering programs.
+  application_deadlines_url: https://petsmartcharities.org/pros/grants
+  contact_email: null
+  sources:
+    - https://projects.propublica.org/nonprofits/organizations/931140967
+    - https://petsmartcharities.org/sites/default/files/inline-files/2015%20U.S.%20Form%20990.pdf
+    - https://www.charitywatch.org/charities/petsmart-charities
+
+- legal_name: The American Society for the Prevention of Cruelty to Animals
+  common_name: ASPCA
+  type: public_charity
+  ein: 13-1623829
+  primary_url: https://www.aspca.org/
+  grants_program_url: https://www.aspcapro.org/grants/grant-opportunities
+  annual_grants_total_usd_approx: 15000000
+  focus_areas:
+    - companion_animal_welfare
+    - animal_sheltering
+    - disaster_relief_animals
+    - wildlife_crossover
+    - spay_neuter
+    - anti_cruelty
+  eligibility_summary: >
+    501(c)(3) animal welfare organizations, municipal shelters, universities, and
+    government agencies. Grants span shelter capacity, spay/neuter, disaster
+    response, and anti-cruelty. Wildlife rehabilitation organizations may
+    qualify under emergency/disaster and sheltering programs. Since 2001 ASPCA
+    has awarded $200M+ to 4,000+ organizations.
+  application_deadlines_url: https://www.aspcapro.org/grants/grant-opportunities
+  contact_email: null
+  sources:
+    - https://www.aspca.org/about-us/faq
+    - https://www.aspcapro.org/grants/grant-opportunities
+    - https://www.aspca.org/about-us/press-releases/aspca-announces-second-year-national-shelter-grant-initiative-improve
+
+- legal_name: The Walt Disney Company (Disney Conservation Fund)
+  common_name: Disney Conservation Fund
+  type: corporate_program
+  ein: null
+  primary_url: https://impact.disney.com/environmental-sustainability/nature/
+  grants_program_url: https://impact.disney.com/environmental-sustainability/nature/
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - wildlife_conservation
+    - habitat_protection
+    - community_conservation
+    - endangered_species
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    US 501(c)(3) organizations (or non-US nonprofits applying via a US 501(c)(3)
+    fiscal sponsor). Annual Conservation Grants (max $50,000 over 2 years) require
+    prior DCF funding history since 2015. Rapid Response Fund grants up to $10,000
+    accepted on rolling basis. Focus on community-based wildlife corridor and
+    migratory pathway protection. Letter of inquiry required.
+  application_deadlines_url: https://impact.disney.com/environmental-sustainability/nature/
+  contact_email: null
+  sources:
+    - https://impact.disney.com/environmental-sustainability/nature/
+    - https://www.terravivagrants.org/group-2-biodiversity-conservation-wildlife/disney-conservation-fund/
+    - https://www.groundworksnm.org/grantmakers-directory/disney-worldwide-conservation-fund
+
+- legal_name: National Fish and Wildlife Foundation
+  common_name: NFWF
+  type: public_charity
+  ein: 52-1384139
+  primary_url: https://www.nfwf.org/
+  grants_program_url: https://www.nfwf.org/apply-grant
+  annual_grants_total_usd_approx: 513000000
+  focus_areas:
+    - wildlife_habitat
+    - fish_wildlife_restoration
+    - endangered_species
+    - wildlife_rehab_adjacent
+    - coastal_wetlands
+    - migratory_birds
+  eligibility_summary: >
+    Chartered by Congress in 1984. Awards competitive grants to states, tribes,
+    nonprofits, universities, and government agencies for fish, wildlife, and plant
+    conservation. Multiple programs including America the Beautiful Challenge,
+    Conservation Partners Program, Five Star and Urban Waters, and regional funds.
+    Programs vary in eligibility; many require matching contributions (typically 1:1).
+  application_deadlines_url: https://www.nfwf.org/apply-grant
+  contact_email: info@nfwf.org
+  sources:
+    - https://projects.propublica.org/nonprofits/organizations/521384139
+    - https://www.nfwf.org/apply-grant
+    - https://www.nfwf.org/media-center/press-releases/national-fish-and-wildlife-foundation-announces-122-5-million
+
+- legal_name: Wildlife Conservation Society
+  common_name: WCS / WCS Climate Adaptation Fund
+  type: public_charity
+  ein: 13-1740011
+  primary_url: https://www.wcs.org/
+  grants_program_url: https://www.wcsclimateadaptationfund.org/
+  annual_grants_total_usd_approx: 5000000
+  focus_areas:
+    - climate_adaptation
+    - wildlife_conservation
+    - habitat_management
+    - ecosystem_resilience
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    The WCS Climate Adaptation Fund (funded by Doris Duke Charitable Foundation)
+    awards grants of $50,000–$300,000 to US-based 501(c)(3) conservation nonprofits
+    for applied, on-the-ground climate adaptation projects within the 50 US states
+    and territories. Requires a minimum 1:1 match. Annual RFP cycle with
+    pre-proposal requirement. National organizations with cumulative awards
+    exceeding $2M face additional eligibility conditions.
+  application_deadlines_url: https://www.wcsclimateadaptationfund.org/program-information
+  contact_email: null
+  sources:
+    - https://www.wcsclimateadaptationfund.org
+    - https://newsroom.wcs.org/News-Releases/articleType/ArticleView/articleId/16988/WCS-Climate-Adaptation-Fund-Awards-265M-in-11-New-Grants-to-Nonprofits-Furthering-Innovation-Evidence-Based-Learning-and-Mainstreaming-in-Climate-Adaptation.aspx
+    - https://impala.digital/public/profiles/13-1740011/overview
+
+- legal_name: Doris Duke Charitable Foundation / Doris Duke Foundation
+  common_name: Doris Duke Foundation
+  type: private_foundation
+  ein: 13-7043679
+  primary_url: https://www.dorisduke.org/
+  grants_program_url: https://www.dorisduke.org/grants
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - wildlife_conservation
+    - environmental_conservation
+    - climate_change
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    Most grants are by invitation only; unsolicited proposals accepted on limited basis.
+    Environment Program focuses on thriving, resilient environments for wildlife and
+    people. Has funded WCS Climate Adaptation Fund, Defenders of Wildlife, NWF,
+    and The Nature Conservancy. Assets ~$1.77B (2018). Grantees typically large
+    established conservation organizations.
+  application_deadlines_url: https://www.dorisduke.org/grants
+  contact_email: null
+  sources:
+    - https://projects.propublica.org/nonprofits/organizations/823691183
+    - https://www.influencewatch.org/non-profit/doris-duke-charitable-foundation/
+    - https://www.dorisduke.org/grants
+
+- legal_name: Wilburforce Foundation
+  common_name: Wilburforce Foundation
+  type: private_foundation
+  ein: 94-3137894
+  primary_url: https://wilburforce.org/
+  grants_program_url: https://wilburforce.org/grants/
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - wildlife_conservation
+    - habitat_security
+    - focal_species_protection
+    - wildlife_linkages
+    - landscape_connectivity
+  eligibility_summary: >
+    Supports land, water, and wildlife conservation across 13 priority regions in
+    Western North America. Focuses on habitat security, focal species protection,
+    and wildlife linkages. Grants range from $1,000 to $1,300,000 (median ~$50,000).
+    Rolling deadlines. Conservation science and law/policy support integrated into
+    regional strategies.
+  application_deadlines_url: https://wilburforce.org/grants/
+  contact_email: null
+  sources:
+    - https://projects.propublica.org/nonprofits/organizations/943137894
+    - https://grantedai.com/foundations/wilburforce-foundation-7894
+
+- legal_name: National Wildlife Federation
+  common_name: NWF
+  type: public_charity
+  ein: 53-0204616
+  primary_url: https://www.nwf.org/
+  grants_program_url: https://fundingnaturebasedsolutions.nwf.org/
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - wildlife_conservation
+    - habitat_restoration
+    - climate_adaptation
+    - wildlife_rehab_adjacent
+    - certified_wildlife_habitat
+  eligibility_summary: >
+    NWF primarily operates as an advocacy and education organization rather than a
+    direct grantmaker to external groups. Maintains the Nature-based Funding
+    Database (fundingnaturebasedsolutions.nwf.org) as a resource for organizations
+    seeking conservation funding. Partners with Subaru for Certified Wildlife
+    Habitat school programs. Annual revenue ~$156M.
+  application_deadlines_url: https://fundingnaturebasedsolutions.nwf.org/
+  contact_email: null
+  sources:
+    - https://www.causeiq.com/organizations/national-wildlife-federation,530204616/
+    - https://fundingnaturebasedsolutions.nwf.org
+    - https://www.nwf.org/Our-Work/Wildlife-Conservation/Policy/Funding
+
+- legal_name: National Wildlife Rehabilitators Association
+  common_name: NWRA
+  type: public_charity
+  ein: 37-1143442
+  primary_url: https://www.nwrawildlife.org/
+  grants_program_url: https://www.nwrawildlife.org/page/funding_opportunities
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - wildlife_rehab
+    - wildlife_medicine
+    - wildlife_education
+    - post_release_studies
+  eligibility_summary: >
+    NWRA awards research grants in wildlife rehabilitation, medicine, and education.
+    Also provides scholarships for symposium attendance and educational materials.
+    Grants support independent and collaborative research by wildlife rehabilitation
+    organizations and professionals. Post-release studies are a priority.
+    Contact nwra@nwrawildlife.org for details.
+  application_deadlines_url: https://www.nwrawildlife.org/page/funding_opportunities
+  contact_email: nwra@nwrawildlife.org
+  sources:
+    - https://projects.propublica.org/nonprofits/organizations/371143442
+    - https://www.nwrawildlife.org/page/funding_opportunities
+
+- legal_name: American Humane Association
+  common_name: American Humane
+  type: public_charity
+  ein: 84-0432950
+  primary_url: https://www.americanhumane.org/
+  grants_program_url: https://www.americanhumane.org/what-we-do/rescue-and-protect/second-chance-grants/
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - animal_welfare
+    - wildlife_rehab_adjacent
+    - cruelty_neglect_rescue
+    - veterinary_care
+  eligibility_summary: >
+    Second Chance® Grants reimburse 501(c)(3) shelters and rescue organizations for
+    emergency and specialty veterinary costs for animals who have suffered abuse or
+    neglect. Covers surgery, diagnostics, intensive rehabilitation. Wildlife
+    rehabilitation organizations that handle cruelty/neglect cases may qualify.
+    Annual revenue ~$26M.
+  application_deadlines_url: https://www.americanhumane.org/what-we-do/rescue-and-protect/second-chance-grants/
+  contact_email: null
+  sources:
+    - https://www.americanhumane.org/our-impact-protecting-animals-2025/
+    - https://www.americanhumane.org/what-we-do/rescue-and-protect/second-chance-grants/
+    - https://impala.digital/public/profiles/84-0432950/overview
+
+- legal_name: National Park Foundation
+  common_name: NPF
+  type: public_charity
+  ein: 52-1086761
+  primary_url: https://www.nationalparks.org/
+  grants_program_url: https://www.nationalparks.org/news-and-updates/updates/protecting-wildlife-npf-grants-support-threatened-endangered-species
+  annual_grants_total_usd_approx: 81900000
+  focus_areas:
+    - national_park_wildlife
+    - threatened_endangered_species
+    - habitat_restoration
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    Official charitable partner of the National Park Service. Grants (~$81.9M in
+    2024, 588 grantees) are predominantly invitation-only; does not accept
+    unsolicited proposals. Funds wildlife protection, endangered species recovery,
+    and habitat projects within and adjacent to national parks. Organizations
+    working within NPS units may be considered.
+  application_deadlines_url: https://www.nationalparks.org/
+  contact_email: null
+  sources:
+    - https://impala.digital/public/profiles/52-1086761/overview
+    - https://www.causeiq.com/organizations/national-park-foundation,521086761/
+    - https://www.nationalparks.org/news-and-updates/updates/protecting-wildlife-npf-grants-support-threatened-endangered-species
+
+##############################################################################
+# FEDERAL GRANT PROGRAMS
+##############################################################################
+
+- legal_name: U.S. Fish & Wildlife Service – State Wildlife Grants Program
+  common_name: USFWS State Wildlife Grants (SWG)
+  type: federal_program
+  ein: null
+  primary_url: https://www.fws.gov/program/state-wildlife-grants
+  grants_program_url: https://www.grants.gov/search-results-detail/285369
+  annual_grants_total_usd_approx: 74000000
+  focus_areas:
+    - wildlife_conservation
+    - species_of_greatest_conservation_need
+    - habitat_restoration
+    - wildlife_action_plans
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    Federal formula grants to US states, DC, commonwealths, and territories for
+    development and implementation of State Wildlife Action Plans. State fish and
+    wildlife agencies are the direct recipients; they may sub-grant to nonprofits,
+    universities, and other partners. Focuses on non-game and at-risk species;
+    requires ≥35% non-federal match. Congress appropriates annually; ~$74M/year.
+    CFDA 15.634.
+  application_deadlines_url: https://www.fws.gov/program/state-wildlife-grants
+  contact_email: John_Stremple@fws.gov
+  sources:
+    - https://www.grants.gov/search-results-detail/285369
+    - https://wildlife.ca.gov/Grants/State-Wildlife-Grants
+    - https://portal.ct.gov/DEEP/Wildlife/Federal-Funding-for-Fish-and-Wildlife
+
+- legal_name: U.S. Fish & Wildlife Service – Wildlife Restoration Program (Pittman-Robertson)
+  common_name: USFWS Wildlife Restoration / Pittman-Robertson Act
+  type: federal_program
+  ein: null
+  primary_url: https://www.fws.gov/program/wildlife-restoration
+  grants_program_url: https://www.grants.gov/search-results-detail/285369
+  annual_grants_total_usd_approx: 1200000000
+  focus_areas:
+    - wildlife_habitat_restoration
+    - wildlife_management_research
+    - hunter_education
+    - public_access_wildlife
+    - wild_birds_mammals
+  eligibility_summary: >
+    Funded by federal excise taxes on firearms, ammunition, and archery equipment.
+    Grants go to state fish and wildlife agencies (not directly to nonprofits) for
+    restoration, rehabilitation, and improvement of wildlife habitat; population
+    surveys; land acquisition; and hunter education. State agencies may partner
+    with or sub-grant to nonprofits. Covers wild birds and mammals only. Federal
+    share up to 75%; state provides at least 25% match from license revenues.
+    CFDA 15.611. ~$1.2B apportioned in FY2023.
+  application_deadlines_url: https://www.fws.gov/program/wildlife-restoration
+  contact_email: null
+  sources:
+    - https://www.fws.gov/program/wildlife-restoration
+    - https://wildlifeforall.us/resources/pittman-robertson-wildlife-restoration-act-explained/
+    - https://www.doi.gov/pressreleases/interior-department-announces-over-15-billion-support-state-wildlife-conservation-and
+
+- legal_name: U.S. Fish & Wildlife Service – Tribal Wildlife Grants Program
+  common_name: USFWS Tribal Wildlife Grants (TWG)
+  type: federal_program
+  ein: null
+  primary_url: https://www.fws.gov/service/tribal-wildlife-grants
+  grants_program_url: https://grants.gov/search-results-detail/358603
+  annual_grants_total_usd_approx: 6100000
+  focus_areas:
+    - tribal_wildlife_conservation
+    - cultural_species
+    - habitat_mapping
+    - wildlife_rehab
+    - species_not_hunted_fished
+  eligibility_summary: >
+    Competitive grants exclusively to federally recognized Tribal governments for
+    fish and wildlife conservation and management. Award range $25,000–$200,000 per
+    tribe per fiscal year. Activities may include conservation planning, field
+    research, habitat mapping, population monitoring, habitat enhancement, and
+    conservation education. No land acquisitions allowed. CFDA 15.639.
+    ~$6.1M estimated FY2025 total program funding.
+  application_deadlines_url: https://grants.gov/search-results-detail/358603
+  contact_email: null
+  sources:
+    - https://www.fws.gov/service/tribal-wildlife-grants
+    - https://grants.gov/search-results-detail/358603
+    - https://www.doi.gov/pressreleases/us-fish-and-wildlife-service-tribal-wildlife-grants-provide-opportunities-partnerships
+
+- legal_name: U.S. Fish & Wildlife Service – Neotropical Migratory Bird Conservation Act Grants
+  common_name: USFWS NMBCA Grants
+  type: federal_program
+  ein: null
+  primary_url: https://www.fws.gov/service/neotropical-migratory-bird-conservation-act-nmbca-grants
+  grants_program_url: https://www.fws.gov/service/neotropical-migratory-bird-conservation-act-nmbca-grants
+  annual_grants_total_usd_approx: 4000000
+  focus_areas:
+    - migratory_bird_conservation
+    - bird_habitat
+    - wildlife_rehab_adjacent
+    - international_bird_conservation
+  eligibility_summary: >
+    Funds projects promoting conservation of neotropical migratory birds across
+    the entire migratory life cycle in the US, Canada, Latin America, and Caribbean.
+    Eligible applicants include nonprofits, universities, state agencies, and
+    foreign organizations in partnership with US entities. Minimum 3:1 non-federal
+    match required. ~$3.8M federal funds in recent award cycles.
+  application_deadlines_url: https://www.fws.gov/service/neotropical-migratory-bird-conservation-act-nmbca-grants
+  contact_email: null
+  sources:
+    - https://www.fws.gov/service/neotropical-migratory-bird-conservation-act-nmbca-grants
+    - https://wildlife.org/u-s-fish-and-wildlife-service-announces-grants-for-neotropical-birds/
+
+- legal_name: National Science Foundation – Biological Sciences Directorate / Partnership to Advance Conservation Science and Practice
+  common_name: NSF BIO / PACSP
+  type: federal_program
+  ein: null
+  primary_url: https://www.nsf.gov/funding
+  grants_program_url: https://www.federalgrants.com/Partnership-to-Advance-Conservation-Science-and-Practice-98536.html
+  annual_grants_total_usd_approx: 16000000
+  focus_areas:
+    - conservation_science
+    - biodiversity
+    - ecology_evolution
+    - wildlife_research
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    NSF-Paul G. Allen Family Foundation Partnership (PACSP, FON 24-531). Supports
+    conservation research investigating organismal biology, ecology, and/or
+    evolution tied to on-the-ground biodiversity conservation. Eligible: non-profit
+    non-academic organizations (museums, research labs, professional societies in
+    the US) and accredited IHEs. Proposals must connect basic research to
+    conservation implementation. ~$16M total program funding; ~16 expected awards.
+    CFDA 47.074.
+  application_deadlines_url: https://www.nsf.gov/funding
+  contact_email: info@nsf.gov
+  sources:
+    - https://www.federalgrants.com/Partnership-to-Advance-Conservation-Science-and-Practice-98536.html
+    - https://www.nsf.gov/funding
+
+##############################################################################
+# REGIONAL / STATE COMMUNITY FOUNDATIONS & STATE PROGRAMS
+##############################################################################
+
+- legal_name: Virginia Environmental Endowment
+  common_name: VEE
+  type: private_foundation
+  ein: 54-1041973
+  primary_url: https://www.vee.org/
+  grants_program_url: https://www.vee.org/grant-programs-application/
+  annual_grants_total_usd_approx: 1700000
+  focus_areas:
+    - water_quality
+    - land_conservation
+    - environmental_literacy
+    - habitat_conservation
+    - chesapeake_bay
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    Grants to nonprofits for programs in Virginia (Virginia Program), James River
+    watershed (James River Program), southwestern Virginia counties (Community
+    Conservation Program), and Kanawha/Ohio River Valleys of KY and WV. Priorities:
+    water quality, Chesapeake Bay, land conservation, climate adaptation.
+    Virginia Program deadlines: December 1 and June 15 (December 2025 by invitation
+    only). Awards 23 grants totaling $611,005 in October 2025 grant round.
+  application_deadlines_url: https://www.vee.org/grant-programs-application/
+  contact_email: null
+  sources:
+    - https://www.vee.org
+    - https://www.vee.org/grant-programs-application/
+    - https://www.causeiq.com/organizations/virginia-environmental-endowment,541041973/
+
+- legal_name: California Department of Fish and Wildlife – Native Wildlife Rehabilitation Grant Program
+  common_name: CDFW Native Wildlife Rehabilitation Grants
+  type: federal_program
+  ein: null
+  primary_url: https://wildlife.ca.gov/Conservation/Laboratories/Wildlife-Health/Rehab/Resources
+  grants_program_url: https://www.grants.ca.gov/grants/voluntary-tax-fund-native-wildlife-rehabilitation-grant-3/
+  annual_grants_total_usd_approx: 500000
+  focus_areas:
+    - wildlife_rehab
+    - injured_orphaned_wildlife
+    - conservation_education
+    - facility_operations
+  eligibility_summary: >
+    Competitive grants exclusively to California-permitted nonprofit wildlife
+    rehabilitation facilities. Applicant must hold a valid CDFW Wildlife
+    Rehabilitation Permit, maintain active use of the Wildlife Rehabilitation
+    Medical Database, and be in compliance with MOU terms. Grant tiers based on
+    prior year animal intake (10–200 animals: $2,500; 201–500: $5,000; 501–900:
+    $7,500; 901–1,300: $10,000; 1,301–3,000: $15,000; 3,001+: $20,000).
+    Funded through the Native California Wildlife Rehabilitation Voluntary Tax
+    Contribution Fund. Annual cycle.
+  application_deadlines_url: https://www.grants.ca.gov/grants/voluntary-tax-fund-native-wildlife-rehabilitation-grant-3/
+  contact_email: RehabWildlife@wildlife.ca.gov
+  sources:
+    - https://www.grants.ca.gov/grants/voluntary-tax-fund-native-wildlife-rehabilitation-grant-3/
+    - https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=225491
+    - https://wildlife.ca.gov/Conservation/Laboratories/Wildlife-Health/Rehab/Resources
+
+- legal_name: California Wildlife Foundation
+  common_name: CWF
+  type: public_charity
+  ein: 68-0234744
+  primary_url: https://www.californiawildlifefoundation.org/
+  grants_program_url: https://www.californiawildlifefoundation.org/donate/
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - wildlife_biodiversity
+    - habitat_acquisition
+    - wildlife_health
+    - species_conservation
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    Independent California 501(c)(3) focused on wildlife biodiversity and health
+    through habitat acquisition and species conservation. Operates primarily as a
+    conservancy rather than grantmaker; may provide project-specific funding.
+    Annual operating budget ~$5.5M. Based in Berkeley, CA.
+  application_deadlines_url: https://www.californiawildlifefoundation.org/
+  contact_email: null
+  sources:
+    - https://www.californiawildlifefoundation.org/donate/
+    - https://impala.digital/public/profiles/68-0234744/overview
+
+##############################################################################
+# CORPORATE / INDUSTRY FUNDERS
+##############################################################################
+
+- legal_name: Bass Pro Shops & Cabela's Outdoor Fund
+  common_name: Bass Pro / Cabela's Outdoor Fund
+  type: public_charity
+  ein: 83-0691791
+  primary_url: https://about.basspro.com/conservation/outdoor-fund/
+  grants_program_url: https://about.basspro.com/community/support/
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - wildlife_habitat
+    - species_conservation
+    - outdoor_education
+    - fishing_hunting_conservation
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    501(c)(3) or equivalent nonprofit. Local Impact Grants (up to $5,000, rolling
+    deadline) open to organizations with missions aligned with conserving wildlife
+    and habitat, connecting new audiences to the outdoors, or supporting military
+    and veterans. National-level grants are by invitation only. Does not fund:
+    fundraising events, banquets, capital campaigns, or construction. Customer
+    round-up program has raised $45M+ since 2019.
+  application_deadlines_url: https://about.basspro.com/community/support/
+  contact_email: null
+  sources:
+    - https://projects.propublica.org/nonprofits/organizations/830691791
+    - https://about.basspro.com/conservation/outdoor-fund/
+    - https://about.basspro.com/community/support/
+
+- legal_name: Patagonia, Inc. – Environmental Grants Program
+  common_name: Patagonia Environmental Grants
+  type: corporate_program
+  ein: null
+  primary_url: https://www.patagonia.com/how-we-fund/
+  grants_program_url: https://www.patagonia.com/how-we-fund/corporate-grant/
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - grassroots_environmental_activism
+    - native_fish_habitat
+    - biodiversity
+    - water_marine
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    US-based 501(c)(3) public charities (or comparable fiscal sponsor). Supports
+    grassroots activist groups with direct-action, systems-change campaigns.
+    Grants typically $5,000–$20,000. Current priority: protecting and restoring
+    native fish populations and their habitat. Corporate Grants Program (national
+    scope) is invitation-only. Does not fund: land acquisition, research without
+    action plan, hatchery programs, educational-only work, dam renovations.
+    Pledges ≥1% of annual sales to environmental grants. Application cycles vary;
+    May 1–April 30 fiscal year.
+  application_deadlines_url: https://www.patagonia.com/how-we-fund/
+  contact_email: null
+  sources:
+    - https://www.patagonia.com/how-we-fund/
+    - https://www.patagonia.com/how-we-fund/corporate-grant/
+    - https://www.terravivagrants.org/group-5-cross-cutting/patagonia-environmental-grants-program/
+
+- legal_name: Subaru of America – Subaru Loves the Earth / National Wildlife Federation Partnership
+  common_name: Subaru Loves the Earth
+  type: corporate_program
+  ein: null
+  primary_url: https://www.subaru.com/our-commitment/love-promise/subaru-loves-the-earth.html
+  grants_program_url: https://www.subaru.com/our-commitment/love-promise/subaru-loves-the-earth.html
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - wildlife_habitat
+    - certified_wildlife_habitat
+    - tree_planting
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    Subaru of America funds environmental conservation through its Love Promise
+    platform, partnering with National Wildlife Federation, Arbor Day Foundation,
+    Wildlife Conservation Society, and National Park Foundation. Wildlife habitat
+    programs focus on creating Certified Wildlife Habitats at schools and
+    communities. Program activities coordinated through dealer network and
+    national conservation partners; not an open-application grant program.
+  application_deadlines_url: https://www.subaru.com/our-commitment/love-promise/subaru-loves-the-earth.html
+  contact_email: null
+  sources:
+    - https://www.subaru.com/our-commitment/love-promise/subaru-loves-the-earth.html
+    - https://media.subaru.com/pressrelease/1095/subaru-renews-partnership-national-wildlife-federation-2017-subaru
+
+- legal_name: Toyota Motor North America / National Environmental Education Foundation – Biodiversity Conservation Grants
+  common_name: Toyota / NEEF Biodiversity Conservation Grants
+  type: corporate_program
+  ein: null
+  primary_url: https://www.neefusa.org/partner/our-partners/toyota
+  grants_program_url: https://www.toyotaeffect.com/stories-of-impact/neef-grants/
+  annual_grants_total_usd_approx: 500000
+  focus_areas:
+    - biodiversity_conservation
+    - pollinator_habitat
+    - public_lands
+    - wildlife_habitat
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    Toyota Motor North America has provided $500,000+ in biodiversity conservation
+    grant funding through NEEF for projects on America's public lands. Focus areas:
+    pollinator habitat enhancement and biodiversity hotspots (California Floristic
+    Province). Grants awarded to nonprofits for shovel-ready projects on public
+    lands. Additional Toyota/NEEF programs include National Public Lands Day
+    restoration grants and accessibility grants up to $20,000 each.
+    Check NEEF website for current open cycles.
+  application_deadlines_url: https://www.neefusa.org/partner/our-partners/toyota
+  contact_email: null
+  sources:
+    - https://www.neefusa.org/partner/our-partners/toyota
+    - https://www.toyotaeffect.com/stories-of-impact/neef-grants/
+
+- legal_name: Oxbow Animal Health – Annual Rescue Grant Program
+  common_name: Oxbow Animal Rescue Grant (Kindswell for Rescues)
+  type: corporate_program
+  ein: null
+  primary_url: https://oxbowanimalhealth.com/for-rescues/
+  grants_program_url: https://oxbowanimalhealth.com/for-rescues/
+  annual_grants_total_usd_approx: 25000
+  focus_areas:
+    - wildlife_rehab
+    - small_mammal_rehab
+    - exotic_animal_rehab
+    - facility_operations
+  eligibility_summary: >
+    Annual grants (~$25,000 total, 6–10 awards) to US and Canadian nonprofit rescue
+    organizations, foster networks, humane societies, wildlife rehabilitation
+    organizations, and animal sanctuaries. Qualifying species: rabbits, guinea
+    pigs, chinchillas, ferrets, degus, sugar gliders, rats, mice, hamsters,
+    gerbils, reptiles, tortoises, and wildlife. Does not require 501(c)(3).
+    Does not fund dog- or cat-specific projects or spay/neuter. Organizations
+    eligible in 2 of every 3 calendar years. Application window opens mid-May
+    through summer; awards announced in October.
+  application_deadlines_url: https://oxbowanimalhealth.com/for-rescues/
+  contact_email: null
+  sources:
+    - https://oxbowanimalhealth.com/for-rescues/
+    - https://oxbowanimalhealth.com/the-oxbow-way/appreciation/annual-rescue-grants/oxbow-rescue-grant-program-faqs/
+    - https://philanthropydelaware.org/event-3594262
+
+##############################################################################
+# ADDITIONAL NATIONAL FOUNDATIONS WITH WILDLIFE / WILDLIFE-REHAB FOCUS
+##############################################################################
+
+- legal_name: The ASPCA / American Society for the Prevention of Cruelty to Animals – National Shelter Grants Initiative
+  common_name: ASPCA National Shelter Grants Initiative
+  type: public_charity
+  ein: 13-1623829
+  primary_url: https://www.aspcapro.org/
+  grants_program_url: https://aspcapro.org/national-shelter-grants
+  annual_grants_total_usd_approx: 5000000
+  focus_areas:
+    - animal_sheltering
+    - veterinary_care
+    - wildlife_rehab_adjacent
+    - capacity_building
+  eligibility_summary: >
+    ASPCA's National Shelter Grants Initiative provides up to $5M+ per cycle to
+    100+ organizations. Open to 501(c)(3) nonprofit and municipal shelters with a
+    physical facility housing adoptable animals. Board of directors must have
+    ≥4 members (majority independent). Application through ASPCA online portal.
+    Deadline typically October. Wildlife rehabilitation organizations operating
+    intake facilities may qualify.
+  application_deadlines_url: https://aspcapro.org/national-shelter-grants
+  contact_email: null
+  sources:
+    - https://www.aspca.org/about-us/press-releases/aspca-announces-second-year-national-shelter-grant-initiative-improve
+    - https://www.aspcapro.org/grants/grant-opportunities
+
+- legal_name: International Fund for Animal Welfare
+  common_name: IFAW
+  type: public_charity
+  ein: 31-1594197
+  primary_url: https://www.ifaw.org/
+  grants_program_url: https://www.ifaw.org/
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - wildlife_rescue
+    - wildlife_rehab
+    - marine_mammal_rescue
+    - disaster_relief_animals
+    - anti_poaching
+  eligibility_summary: >
+    IFAW provides grants to partner organizations for wildlife rescue, rehabilitation,
+    and protection globally and in the US. Focus includes marine mammals, large
+    terrestrial wildlife, and disaster response. Partners primarily in US through
+    existing programmatic relationships. Inquire directly via ifaw.org for current
+    grant opportunities.
+  application_deadlines_url: https://www.ifaw.org/
+  contact_email: null
+  sources:
+    - https://www.guidestar.org/profile/31-1594197
+    - https://www.ifaw.org
+
+- legal_name: Defenders of Wildlife
+  common_name: Defenders of Wildlife
+  type: public_charity
+  ein: 53-0183181
+  primary_url: https://defenders.org/
+  grants_program_url: https://defenders.org/publications/funding-opportunities-biodiversity-projects
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - endangered_species
+    - wildlife_conservation
+    - habitat_protection
+    - policy_advocacy
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    Primarily an advocacy and legal organization, but publishes Funding Opportunities
+    for Biodiversity Projects as a resource guide. Limited direct grantmaking;
+    funding partnerships with agencies and foundations. Organizations seeking
+    wildlife funding may use Defenders' funding directory as a research tool.
+  application_deadlines_url: https://defenders.org/publications/funding-opportunities-biodiversity-projects
+  contact_email: null
+  sources:
+    - https://www.charitynavigator.org/ein/530183181
+    - https://defenders.org/publications/funding-opportunities-biodiversity-projects
+
+##############################################################################
+# ADDITIONAL FEDERAL PROGRAMS
+##############################################################################
+
+- legal_name: Morris Animal Foundation
+  common_name: Morris Animal Foundation
+  type: public_charity
+  ein: 84-6032307
+  primary_url: https://www.morrisanimalfoundation.org/
+  grants_program_url: https://www.morrisanimalfoundation.org/apply
+  annual_grants_total_usd_approx: 4600000
+  focus_areas:
+    - wildlife_health_research
+    - wildlife_medicine
+    - zoonotic_disease
+    - wildlife_rehab
+    - veterinary_science
+  eligibility_summary: >
+    Funds hypothesis-driven, humane animal health research at universities and
+    research institutions. Wildlife/exotic animal research track supports
+    conservation-relevant studies including disease ecology, population health,
+    and veterinary care for captive and free-ranging wildlife. Grant types:
+    Established Investigator Awards (no cap, avg $50K/yr, 2 yrs), First Award
+    Grants (max $50K/yr, 2 yrs), Fellowship Training Grants (~$50K/yr), and
+    Pilot Study Grants (max $10K). Four annual RFP cycles. Eligible: universities,
+    research institutions, Smithsonian, zoological institutions.
+    ~$4.6M annual giving (2023); ~$1M wildlife-specific grants annually.
+  application_deadlines_url: https://www.morrisanimalfoundation.org/apply
+  contact_email: null
+  sources:
+    - https://projects.propublica.org/nonprofits/organizations/846032307
+    - https://www.morrisanimalfoundation.org/article/morris-animal-foundation-awards-nearly-1-million-grants-support-wildlife-research
+    - https://www.causeiq.com/organizations/morris-animal-foundation,846032307/
+
+- legal_name: Zoological Society of San Diego (San Diego Zoo Wildlife Alliance)
+  common_name: San Diego Zoo Wildlife Alliance
+  type: public_charity
+  ein: 95-1648219
+  primary_url: https://sandiegozoowildlifealliance.org/
+  grants_program_url: https://sandiegozoowildlifealliance.org/grants-programs
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - wildlife_health
+    - species_conservation
+    - wildlife_rehab
+    - captive_breeding
+    - reintroduction
+    - wildlife_medicine
+  eligibility_summary: >
+    SDZWA conducts in-house conservation science and awards grants to external
+    partners through programmatic research collaborations. Primarily supports
+    conservation field programs through the Wildlife Health Sciences and
+    Conservation Science programs. External grant opportunities typically through
+    collaborative proposals and partnerships; not a large open-application grant
+    program. Annual operating budget ~$385.7M.
+  application_deadlines_url: https://sandiegozoowildlifealliance.org/
+  contact_email: null
+  sources:
+    - https://sandiegozoowildlifealliance.org/reports/financial-reports
+    - https://projects.propublica.org/nonprofits/organizations/951648219
+    - https://impala.digital/public/profiles/95-1648219/overview
+
+- legal_name: Gordon E. and Betty I. Moore Foundation
+  common_name: Gordon and Betty Moore Foundation
+  type: private_foundation
+  ein: 94-3397785
+  primary_url: https://www.moore.org/
+  grants_program_url: https://www.moore.org/grants
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - environmental_conservation
+    - marine_conservation
+    - wildfire_resilience
+    - biodiversity
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    Large private foundation (~952 awards in 2023) with Environmental Conservation
+    as a primary program area. Funds conservation science, marine conservation,
+    wildfire resilience, and habitat protection at national and global scale.
+    Grantees include major conservation organizations (WCS, TNC, WWF). Primarily
+    by invitation; unsolicited proposals reviewed selectively. Grants typically
+    multi-year, $100K–$5M+ range.
+  application_deadlines_url: https://www.moore.org/grants
+  contact_email: null
+  sources:
+    - https://projects.propublica.org/nonprofits/organizations/943397785
+    - https://www.moore.org/grants
+    - https://www.instrumentl.com/990-report/gordon-e-and-betty-i-moore-foundation
+
+- legal_name: REI Cooperative Action Fund
+  common_name: REI Cooperative Action Fund
+  type: public_charity
+  ein: 85-4299419
+  primary_url: https://www.reifund.org/
+  grants_program_url: https://www.reifund.org/
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - outdoor_access
+    - public_lands_conservation
+    - climate_resilience
+    - community_outdoors
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    Independent public charity established in 2021 by REI Co-op to support
+    community-led organizations making the outdoors more accessible, inclusive,
+    and climate-resilient. $36M+ distributed to 500+ nonprofits. Focus areas:
+    creating space outside, connecting people outside, centering health outside.
+    Grantees identified through REI staff recommendations, community advisors,
+    and public nominations; primarily unrestricted multi-year grants. Wildlife
+    habitat organizations working in public lands may qualify.
+  application_deadlines_url: https://www.reifund.org/
+  contact_email: null
+  sources:
+    - https://projects.propublica.org/nonprofits/organizations/854299419
+    - https://www.reifund.org
+    - https://sustonmagazine.com/rei-cooperative-action-network-fund/
+
+- legal_name: U.S. Department of Agriculture – Natural Resources Conservation Service Wildlife Habitat Incentive Program / EQIP Wildlife Practices
+  common_name: USDA NRCS EQIP Wildlife
+  type: federal_program
+  ein: null
+  primary_url: https://www.nrcs.usda.gov/programs-initiatives/eqip-environmental-quality-incentives-program
+  grants_program_url: https://www.nrcs.usda.gov/programs-initiatives/eqip-environmental-quality-incentives-program
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - wildlife_habitat
+    - grassland_conservation
+    - wetland_restoration
+    - forest_habitat
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    Environmental Quality Incentives Program (EQIP) provides financial and technical
+    assistance to agricultural producers for wildlife habitat practices including
+    brush management, tree/shrub establishment, wetland restoration, and upland
+    wildlife habitat management. Eligible: farmers, ranchers, and forest landowners.
+    Not a direct wildlife rehab grant but funds habitat improvement that supports
+    wildlife populations and may benefit rehab-adjacent programs.
+  application_deadlines_url: https://www.nrcs.usda.gov/programs-initiatives/eqip-environmental-quality-incentives-program
+  contact_email: null
+  sources:
+    - https://www.nrcs.usda.gov/programs-initiatives/eqip-environmental-quality-incentives-program
+    - https://www.nwf.org/Our-Work/Wildlife-Conservation/Policy/Funding
+
+- legal_name: National Fish and Wildlife Foundation – Five Star and Urban Waters Restoration Grant Program
+  common_name: NFWF Five Star and Urban Waters
+  type: public_charity
+  ein: 52-1384139
+  primary_url: https://www.nfwf.org/programs/five-star-and-urban-waters-restoration-grant-program
+  grants_program_url: https://www.nfwf.org/programs/five-star-and-urban-waters-restoration-grant-program
+  annual_grants_total_usd_approx: null
+  focus_areas:
+    - urban_wildlife_habitat
+    - wetland_restoration
+    - riparian_restoration
+    - community_stewardship
+    - wildlife_rehab_adjacent
+  eligibility_summary: >
+    NFWF sub-program (via EPA partnership) for small community-based habitat
+    restoration projects in urban and suburban areas. Grants typically $2,500–$20,000
+    for community stewardship projects restoring wetlands, riparian areas, coastal
+    habitats. Eligible: nonprofits, community groups, schools. Supports
+    environmental literacy and on-the-ground habitat work that benefits urban
+    wildlife populations. Annual RFP.
+  application_deadlines_url: https://www.nfwf.org/programs/five-star-and-urban-waters-restoration-grant-program
+  contact_email: info@nfwf.org
+  sources:
+    - https://www.nfwf.org/apply-grant
+    - https://www.instrumentl.com/990-report/national-fish-and-wildlife-foundation

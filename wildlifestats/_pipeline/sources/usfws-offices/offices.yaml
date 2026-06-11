@@ -1,0 +1,900 @@
+# USFWS Field Offices Catalog — Phase 9
+# Sources:
+#   Primary: https://www.fws.gov/about/regions
+#   ES Contacts: https://www.fws.gov/program/ecological-services/contact-us
+#   Migratory Bird Permits: https://www.fws.gov/program/migratory-bird-permits/contact-us
+#   Regional HQ contacts: https://www.jobmonkey.com/parks/usfws_directory/ (cross-ref)
+#   Western invasive mussel contacts: https://www.westernqzrr.com/regional-usfws-contacts
+#   Region 3 permit info: https://www.fws.gov/sites/default/files/documents/2024-08/usfws-region-3-permit-contact-information_1.pdf
+# Note: USFWS renamed regions from numbers to names (Pacific=1, Southwest=2, Midwest=3,
+#       Southeast=4, Northeast=5, Mountain-Prairie=6, Alaska=7, Pacific Southwest=8).
+#       Region 6 is now officially "Mountain-Prairie" and HQ moved from Denver to Lakewood, CO.
+#       Some field-level contact info (phone/email/address) is not published on fws.gov office pages;
+#       those values are sourced from cross-referenced official documents and the westernqzrr.com USFWS contacts.
+
+# ============================================================
+# SECTION 1: REGIONAL HEADQUARTERS (8 offices)
+# ============================================================
+
+- office_type: regional_hq
+  region_number: 1
+  office_name: USFWS Region 1 — Pacific Regional Office
+  state: OR
+  city: Portland
+  primary_url: https://www.fws.gov/about/region/pacific
+  contact_phone: (503) 231-6136
+  contact_email: null
+  hq_address: Eastside Federal Complex, 911 NE 11th Avenue, Portland, OR 97232-4181
+  jurisdictions_covered: [OR, WA, ID, HI, GU, AS, CNMI]
+
+- office_type: regional_hq
+  region_number: 2
+  office_name: USFWS Region 2 — Southwest Regional Office
+  state: NM
+  city: Albuquerque
+  primary_url: https://www.fws.gov/about/region/southwest
+  contact_phone: (505) 248-6911
+  contact_email: null
+  hq_address: 500 Gold Avenue SW, P.O. Box 1306, Albuquerque, NM 87102
+  jurisdictions_covered: [AZ, NM, OK, TX]
+
+- office_type: regional_hq
+  region_number: 3
+  office_name: USFWS Region 3 — Midwest Regional Office
+  state: MN
+  city: Bloomington
+  primary_url: https://www.fws.gov/about/region/midwest
+  contact_phone: (612) 713-5360
+  contact_email: null
+  hq_address: 5600 American Blvd. West, Suite 990, Bloomington, MN 55437-1458
+  jurisdictions_covered: [IA, IL, IN, MI, MN, MO, OH, WI]
+
+- office_type: regional_hq
+  region_number: 4
+  office_name: USFWS Region 4 — Southeast Regional Office
+  state: GA
+  city: Atlanta
+  primary_url: https://www.fws.gov/about/region/southeast
+  contact_phone: (404) 679-4000
+  contact_email: null
+  hq_address: Richard B. Russell Federal Building, 1875 Century Boulevard, Atlanta, GA 30345
+  jurisdictions_covered: [AL, AR, FL, GA, KY, LA, MS, NC, SC, TN, PR, VI]
+
+- office_type: regional_hq
+  region_number: 5
+  office_name: USFWS Region 5 — Northeast Regional Office
+  state: MA
+  city: Hadley
+  primary_url: https://www.fws.gov/about/region/northeast
+  contact_phone: (413) 253-8200
+  contact_email: null
+  hq_address: 300 Westgate Center Drive, Hadley, MA 01035-9589
+  jurisdictions_covered: [CT, DE, ME, MD, MA, NH, NJ, NY, PA, RI, VT, VA, WV, DC]
+
+- office_type: regional_hq
+  region_number: 6
+  office_name: USFWS Region 6 — Mountain-Prairie Regional Office
+  state: CO
+  city: Lakewood
+  primary_url: https://www.fws.gov/about/region/mountain-prairie
+  contact_phone: (303) 236-5414
+  contact_email: null
+  hq_address: 134 Union Boulevard, Suite 650, Lakewood, CO 80228
+  jurisdictions_covered: [CO, KS, MT, NE, ND, SD, UT, WY]
+
+- office_type: regional_hq
+  region_number: 7
+  office_name: USFWS Region 7 — Alaska Regional Office
+  state: AK
+  city: Anchorage
+  primary_url: https://www.fws.gov/about/region/alaska
+  contact_phone: (907) 786-3301
+  contact_email: null
+  hq_address: 1011 E. Tudor Road, Anchorage, AK 99503-6199
+  jurisdictions_covered: [AK]
+
+- office_type: regional_hq
+  region_number: 8
+  office_name: USFWS Region 8 — Pacific Southwest Regional Office
+  state: CA
+  city: Sacramento
+  primary_url: https://www.fws.gov/about/region/pacific-southwest
+  contact_phone: (916) 414-6464
+  contact_email: null
+  hq_address: 2800 Cottage Way, Suite W-2606, Sacramento, CA 95825
+  jurisdictions_covered: [CA, NV, OR-Klamath]
+
+# ============================================================
+# SECTION 2: ECOLOGICAL SERVICES FIELD OFFICES (~75 offices)
+# ============================================================
+
+# --- REGION 1: PACIFIC ---
+
+- office_type: ecological_services
+  region_number: 1
+  office_name: Oregon Fish and Wildlife Office
+  state: OR
+  city: Portland
+  primary_url: https://www.fws.gov/office/oregon-fish-and-wildlife
+  contact_phone: (503) 231-6179
+  contact_email: null
+  hq_address: 2600 SE 98th Avenue, Suite 100, Portland, OR 97266
+  jurisdictions_covered: [OR]
+
+- office_type: ecological_services
+  region_number: 1
+  office_name: Washington Fish and Wildlife Office
+  state: WA
+  city: Lacey
+  primary_url: https://www.fws.gov/office/washington-fish-and-wildlife
+  contact_phone: (360) 753-9440
+  contact_email: null
+  hq_address: 510 Desmond Drive SE, Suite 102, Lacey, WA 98503
+  jurisdictions_covered: [WA]
+
+- office_type: ecological_services
+  region_number: 1
+  office_name: Idaho Fish and Wildlife Office
+  state: ID
+  city: Boise
+  primary_url: https://www.fws.gov/office/idaho-fish-and-wildlife
+  contact_phone: (208) 378-5243
+  contact_email: null
+  hq_address: 1387 South Vinnell Way, Suite 368, Boise, ID 83709
+  jurisdictions_covered: [ID]
+
+- office_type: ecological_services
+  region_number: 1
+  office_name: Pacific Islands Fish and Wildlife Office
+  state: HI
+  city: Honolulu
+  primary_url: https://www.fws.gov/office/pacific-islands-fish-and-wildlife
+  contact_phone: (808) 792-9400
+  contact_email: null
+  hq_address: 300 Ala Moana Boulevard, Room 3-122, Honolulu, HI 96850
+  jurisdictions_covered: [HI, GU, AS, CNMI]
+
+# --- REGION 2: SOUTHWEST ---
+
+- office_type: ecological_services
+  region_number: 2
+  office_name: Arizona Ecological Services Field Office
+  state: AZ
+  city: Phoenix
+  primary_url: https://www.fws.gov/office/arizona-ecological-services
+  contact_phone: (602) 242-0210
+  contact_email: null
+  hq_address: 9828 North 31st Avenue, Suite C3, Phoenix, AZ 85051
+  jurisdictions_covered: [AZ]
+
+- office_type: ecological_services
+  region_number: 2
+  office_name: New Mexico Ecological Services Field Office
+  state: NM
+  city: Albuquerque
+  primary_url: https://www.fws.gov/office/new-mexico-ecological-services
+  contact_phone: (505) 346-2525
+  contact_email: null
+  hq_address: 2105 Osuna Road NE, Albuquerque, NM 87113
+  jurisdictions_covered: [NM]
+
+- office_type: ecological_services
+  region_number: 2
+  office_name: Oklahoma Ecological Services Field Office
+  state: OK
+  city: Tulsa
+  primary_url: https://www.fws.gov/office/oklahoma-ecological-services
+  contact_phone: (918) 581-7458
+  contact_email: null
+  hq_address: 9014 East 21st Street, Tulsa, OK 74129
+  jurisdictions_covered: [OK]
+
+- office_type: ecological_services
+  region_number: 2
+  office_name: Texas Coastal and Central Plains Ecological Services Field Office
+  state: TX
+  city: Fort Worth
+  primary_url: https://www.fws.gov/office/texas-coastal-and-central-plains-ecological-services
+  contact_phone: (817) 277-1100
+  contact_email: fortworth_es@fws.gov
+  hq_address: 3233 Curtis Drive, Fort Worth, TX 76116
+  jurisdictions_covered: [TX]
+
+- office_type: ecological_services
+  region_number: 2
+  office_name: Texas Southwest Ecological Services Field Office (Austin Sub-Office)
+  state: TX
+  city: Austin
+  primary_url: https://www.fws.gov/office/texas-coastal-and-central-plains-ecological-services
+  contact_phone: (512) 937-7371
+  contact_email: esaustininfo@fws.gov
+  hq_address: 1505 Ferguson Lane, Austin, TX 78754
+  jurisdictions_covered: [TX]
+
+# --- REGION 3: MIDWEST ---
+
+- office_type: ecological_services
+  region_number: 3
+  office_name: Illinois-Iowa Ecological Services Field Office
+  state: IL
+  city: Moline
+  primary_url: https://www.fws.gov/office/illinois-iowa-ecological-services
+  contact_phone: (309) 757-5800
+  contact_email: null
+  hq_address: 1511 47th Avenue, Moline, IL 61265
+  jurisdictions_covered: [IL, IA]
+
+- office_type: ecological_services
+  region_number: 3
+  office_name: Indiana Ecological Services Field Office
+  state: IN
+  city: Bloomington
+  primary_url: https://www.fws.gov/office/indiana-ecological-services
+  contact_phone: (812) 334-4261
+  contact_email: null
+  hq_address: 620 S. Walker Street, Bloomington, IN 47403
+  jurisdictions_covered: [IN]
+
+- office_type: ecological_services
+  region_number: 3
+  office_name: Michigan Ecological Services Field Office
+  state: MI
+  city: East Lansing
+  primary_url: https://www.fws.gov/office/michigan-ecological-services
+  contact_phone: (517) 351-8375
+  contact_email: MIFO_TE@fws.gov
+  hq_address: 2651 Coolidge Road, East Lansing, MI 48823
+  jurisdictions_covered: [MI]
+
+- office_type: ecological_services
+  region_number: 3
+  office_name: Minnesota-Wisconsin Ecological Services Field Office
+  state: MN
+  city: Bloomington
+  primary_url: https://www.fws.gov/office/minnesota-wisconsin-ecological-services
+  contact_phone: (952) 252-0092
+  contact_email: twincities@fws.gov
+  hq_address: 4101 American Blvd. East, Bloomington, MN 55425
+  jurisdictions_covered: [MN, WI]
+
+- office_type: ecological_services
+  region_number: 3
+  office_name: Missouri Ecological Services Field Office
+  state: MO
+  city: Columbia
+  primary_url: https://www.fws.gov/office/missouri-ecological-services
+  contact_phone: (573) 234-2132
+  contact_email: null
+  hq_address: 101 Park DeVille Drive, Suite A, Columbia, MO 65203
+  jurisdictions_covered: [MO]
+
+- office_type: ecological_services
+  region_number: 3
+  office_name: Ohio Ecological Services Field Office
+  state: OH
+  city: Columbus
+  primary_url: https://www.fws.gov/office/ohio-ecological-services
+  contact_phone: (614) 416-8993
+  contact_email: null
+  hq_address: 4625 Morse Road, Suite 104, Columbus, OH 43230
+  jurisdictions_covered: [OH]
+
+# --- REGION 4: SOUTHEAST ---
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: Alabama Ecological Services Field Office
+  state: AL
+  city: Daphne
+  primary_url: https://www.fws.gov/office/alabama-ecological-services
+  contact_phone: (251) 441-5184
+  contact_email: Alabama@fws.gov
+  hq_address: 1208B Main Street, Daphne, AL 36526
+  jurisdictions_covered: [AL]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: Arkansas Ecological Services Field Office
+  state: AR
+  city: Conway
+  primary_url: https://www.fws.gov/office/arkansas-ecological-services
+  contact_phone: (501) 513-4470
+  contact_email: arkansas-es_recovery@fws.gov
+  hq_address: 110 South Amity Road, Suite 300, Conway, AR 72032
+  jurisdictions_covered: [AR]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: Florida Ecological Services Office
+  state: FL
+  city: Gainesville
+  primary_url: https://www.fws.gov/office/florida-ecological-services
+  contact_phone: (352) 448-9151
+  contact_email: null
+  hq_address: "Gainesville, FL (state office being established; branch offices in Jacksonville, Panama City, Vero Beach)"
+  jurisdictions_covered: [FL]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: South Florida Ecological Services Field Office
+  state: FL
+  city: Vero Beach
+  primary_url: https://www.fws.gov/office/south-florida-ecological-services
+  contact_phone: (772) 562-3909
+  contact_email: null
+  hq_address: 1339 20th Street, Vero Beach, FL 32960
+  jurisdictions_covered: [FL]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: Panama City Ecological Services Field Office
+  state: FL
+  city: Panama City
+  primary_url: https://www.fws.gov/office/panama-city-ecological-services
+  contact_phone: (850) 769-0552
+  contact_email: null
+  hq_address: 1601 Balboa Avenue, Panama City, FL 32405
+  jurisdictions_covered: [FL]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: Georgia Ecological Services Field Office
+  state: GA
+  city: Athens
+  primary_url: https://www.fws.gov/office/georgia-ecological-services
+  contact_phone: (706) 613-9493
+  contact_email: georgiaes@fws.gov
+  hq_address: 105 Environmental and Natural Resources Building, Athens, GA 30602
+  jurisdictions_covered: [GA]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: Kentucky Ecological Services Field Office
+  state: KY
+  city: Frankfort
+  primary_url: https://www.fws.gov/office/kentucky-ecological-services
+  contact_phone: (502) 695-0468
+  contact_email: null
+  hq_address: 330 West Broadway, Suite 265, Frankfort, KY 40601
+  jurisdictions_covered: [KY]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: Louisiana Ecological Services Field Office
+  state: LA
+  city: Lafayette
+  primary_url: https://www.fws.gov/office/louisiana-ecological-services
+  contact_phone: (337) 291-3100
+  contact_email: lafayette@fws.gov
+  hq_address: 200 Dulles Drive, Lafayette, LA 70506
+  jurisdictions_covered: [LA]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: Mississippi Ecological Services Field Office
+  state: MS
+  city: Jackson
+  primary_url: https://www.fws.gov/office/mississippi-ecological-services
+  contact_phone: (601) 321-1122
+  contact_email: null
+  hq_address: 6578 Dogwood View Parkway, Suite A, Jackson, MS 39213
+  jurisdictions_covered: [MS]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: Asheville Ecological Services Field Office
+  state: NC
+  city: Asheville
+  primary_url: https://www.fws.gov/office/asheville-ecological-services
+  contact_phone: (828) 258-3939
+  contact_email: null
+  hq_address: 160 Zillicoa Street, Suite B, Asheville, NC 28801
+  jurisdictions_covered: [NC]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: Raleigh Ecological Services Field Office
+  state: NC
+  city: Raleigh
+  primary_url: https://www.fws.gov/office/raleigh-ecological-services
+  contact_phone: (919) 856-4520
+  contact_email: raleigh_es@fws.gov
+  hq_address: 551 Pylon Drive, Suite F, Raleigh, NC 27606
+  jurisdictions_covered: [NC]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: Eastern North Carolina Ecological Services Field Office
+  state: NC
+  city: Raleigh
+  primary_url: https://www.fws.gov/office/eastern-north-carolina-ecological-services
+  contact_phone: (919) 856-4520
+  contact_email: null
+  hq_address: 551 Pylon Drive, Suite F, Raleigh, NC 27606
+  jurisdictions_covered: [NC]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: South Carolina Ecological Services Field Office
+  state: SC
+  city: Charleston
+  primary_url: https://www.fws.gov/office/south-carolina-ecological-services
+  contact_phone: (843) 727-4707
+  contact_email: charleston_recovery@fws.gov
+  hq_address: 176 Croghan Spur Road, Suite 200, Charleston, SC 29412
+  jurisdictions_covered: [SC]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: Tennessee Ecological Services Field Office
+  state: TN
+  city: Cookeville
+  primary_url: https://www.fws.gov/office/tennessee-ecological-services
+  contact_phone: (931) 528-6481
+  contact_email: null
+  hq_address: 446 Neal Street, Cookeville, TN 38501
+  jurisdictions_covered: [TN]
+
+- office_type: ecological_services
+  region_number: 4
+  office_name: Caribbean Ecological Services Field Office
+  state: PR
+  city: Boquerón
+  primary_url: https://www.fws.gov/office/caribbean-ecological-services
+  contact_phone: (787) 851-7297
+  contact_email: caribbean_es@fws.gov
+  hq_address: Road 301 Km. 5.1, P.O. Box 491, Boquerón, PR 00622
+  jurisdictions_covered: [PR, VI]
+
+# --- REGION 5: NORTHEAST ---
+
+- office_type: ecological_services
+  region_number: 5
+  office_name: New England Ecological Services Field Office
+  state: NH
+  city: Concord
+  primary_url: https://www.fws.gov/office/new-england-ecological-services
+  contact_phone: (603) 225-1411
+  contact_email: null
+  hq_address: 70 Commercial Street, Suite 300, Concord, NH 03301
+  jurisdictions_covered: [CT, MA, ME, NH, RI, VT]
+
+- office_type: ecological_services
+  region_number: 5
+  office_name: Maine Ecological Services Field Office
+  state: ME
+  city: East Orland
+  primary_url: https://www.fws.gov/office/maine-ecological-services
+  contact_phone: (207) 469-7300
+  contact_email: null
+  hq_address: "P.O. Box A, 306 Hatchery Road, East Orland, ME 04431"
+  jurisdictions_covered: [ME]
+
+- office_type: ecological_services
+  region_number: 5
+  office_name: New Jersey Ecological Services Field Office
+  state: NJ
+  city: Pleasantville
+  primary_url: https://www.fws.gov/office/new-jersey-ecological-services
+  contact_phone: (609) 646-0620
+  contact_email: null
+  hq_address: 927 North Main Street, Building D1, Pleasantville, NJ 08232
+  jurisdictions_covered: [NJ]
+
+- office_type: ecological_services
+  region_number: 5
+  office_name: New York Ecological Services Field Office
+  state: NY
+  city: Cortland
+  primary_url: https://www.fws.gov/office/new-york-ecological-services
+  contact_phone: (607) 753-9334
+  contact_email: null
+  hq_address: 3817 Luker Road, Cortland, NY 13045-9385
+  jurisdictions_covered: [NY]
+
+- office_type: ecological_services
+  region_number: 5
+  office_name: Long Island Ecological Services Field Office
+  state: NY
+  city: Shirley
+  primary_url: https://www.fws.gov/office/long-island-ecological-services
+  contact_phone: (631) 286-0485
+  contact_email: null
+  hq_address: 340 Smith Road, Shirley, NY 11967-2258
+  jurisdictions_covered: [NY]
+
+- office_type: ecological_services
+  region_number: 5
+  office_name: Pennsylvania Ecological Services Field Office
+  state: PA
+  city: State College
+  primary_url: https://www.fws.gov/office/pennsylvania-ecological-services
+  contact_phone: (814) 234-4090
+  contact_email: null
+  hq_address: 110 Radnor Road, Suite 101, State College, PA 16801
+  jurisdictions_covered: [PA]
+
+- office_type: ecological_services
+  region_number: 5
+  office_name: Chesapeake Bay Ecological Services Field Office
+  state: MD
+  city: Annapolis
+  primary_url: https://www.fws.gov/office/chesapeake-bay-ecological-services
+  contact_phone: (410) 573-4500
+  contact_email: null
+  hq_address: 177 Admiral Cochrane Drive, Annapolis, MD 21401-7307
+  jurisdictions_covered: [MD, DE, DC]
+
+- office_type: ecological_services
+  region_number: 5
+  office_name: Virginia Ecological Services Field Office
+  state: VA
+  city: Gloucester
+  primary_url: https://www.fws.gov/office/virginia-ecological-services
+  contact_phone: (804) 693-6694
+  contact_email: null
+  hq_address: 6669 Short Lane, Gloucester, VA 23061-4410
+  jurisdictions_covered: [VA]
+
+- office_type: ecological_services
+  region_number: 5
+  office_name: West Virginia Ecological Services Field Office
+  state: WV
+  city: Elkins
+  primary_url: https://www.fws.gov/office/west-virginia-ecological-services
+  contact_phone: (304) 636-6586
+  contact_email: null
+  hq_address: 694 Beverly Pike, Elkins, WV 26241
+  jurisdictions_covered: [WV]
+
+# --- REGION 6: MOUNTAIN-PRAIRIE ---
+
+- office_type: ecological_services
+  region_number: 6
+  office_name: Colorado Ecological Services Field Office
+  state: CO
+  city: Denver
+  primary_url: https://www.fws.gov/office/colorado-ecological-services
+  contact_phone: (303) 236-4773
+  contact_email: null
+  hq_address: 1 Denver Federal Center, Building 25, Room W1911, Denver, CO 80225
+  jurisdictions_covered: [CO]
+
+- office_type: ecological_services
+  region_number: 6
+  office_name: Western Colorado Ecological Services Field Office
+  state: CO
+  city: Grand Junction
+  primary_url: https://www.fws.gov/office/western-colorado-ecological-services
+  contact_phone: (970) 628-7180
+  contact_email: null
+  hq_address: 445 West Gunnison Avenue, Suite 240, Grand Junction, CO 81501
+  jurisdictions_covered: [CO]
+
+- office_type: ecological_services
+  region_number: 6
+  office_name: Kansas Ecological Services Field Office
+  state: KS
+  city: Manhattan
+  primary_url: https://www.fws.gov/office/kansas-ecological-services
+  contact_phone: (785) 539-3474
+  contact_email: null
+  hq_address: 2609 Anderson Avenue, Manhattan, KS 66502
+  jurisdictions_covered: [KS]
+
+- office_type: ecological_services
+  region_number: 6
+  office_name: Montana Ecological Services Field Office
+  state: MT
+  city: Helena
+  primary_url: https://www.fws.gov/office/montana-ecological-services
+  contact_phone: (406) 449-5225
+  contact_email: null
+  hq_address: 585 Shephard Way, Suite 1, Helena, MT 59601
+  jurisdictions_covered: [MT]
+
+- office_type: ecological_services
+  region_number: 6
+  office_name: Nebraska Ecological Services Field Office
+  state: NE
+  city: Wood River
+  primary_url: https://www.fws.gov/office/nebraska-ecological-services
+  contact_phone: (308) 382-6468
+  contact_email: null
+  hq_address: 9325 South Alda Road, Suite B, Wood River, NE 68883
+  jurisdictions_covered: [NE]
+
+- office_type: ecological_services
+  region_number: 6
+  office_name: North Dakota Ecological Services Field Office
+  state: ND
+  city: Bismarck
+  primary_url: https://www.fws.gov/office/north-dakota-ecological-services
+  contact_phone: (701) 250-4481
+  contact_email: null
+  hq_address: 3425 Miriam Avenue, Bismarck, ND 58501
+  jurisdictions_covered: [ND]
+
+- office_type: ecological_services
+  region_number: 6
+  office_name: South Dakota Ecological Services Field Office
+  state: SD
+  city: Pierre
+  primary_url: https://www.fws.gov/office/south-dakota-ecological-services
+  contact_phone: (605) 224-8693
+  contact_email: null
+  hq_address: 420 South Garfield Avenue, Suite 400, Pierre, SD 57501
+  jurisdictions_covered: [SD]
+
+- office_type: ecological_services
+  region_number: 6
+  office_name: Utah Ecological Services Field Office
+  state: UT
+  city: West Valley City
+  primary_url: https://www.fws.gov/office/utah-ecological-services
+  contact_phone: (801) 975-3330
+  contact_email: null
+  hq_address: 2369 West Orton Circle, Suite 50, West Valley City, UT 84119
+  jurisdictions_covered: [UT]
+
+- office_type: ecological_services
+  region_number: 6
+  office_name: Wyoming Ecological Services Field Office
+  state: WY
+  city: Cheyenne
+  primary_url: https://www.fws.gov/office/wyoming-ecological-services
+  contact_phone: (307) 772-2374
+  contact_email: null
+  hq_address: 334 Parsley Boulevard, Cheyenne, WY 82007
+  jurisdictions_covered: [WY]
+
+# --- REGION 7: ALASKA ---
+
+- office_type: ecological_services
+  region_number: 7
+  office_name: Northern Alaska Fish and Wildlife Field Office
+  state: AK
+  city: Fairbanks
+  primary_url: https://www.fws.gov/office/northern-alaska-field-office
+  contact_phone: (907) 456-0203
+  contact_email: null
+  hq_address: 101 12th Avenue, Room 110, Fairbanks, AK 99701
+  jurisdictions_covered: [AK]
+
+- office_type: ecological_services
+  region_number: 7
+  office_name: Southern Alaska Fish and Wildlife Field Office
+  state: AK
+  city: Anchorage
+  primary_url: https://www.fws.gov/office/southern-alaska-field-office
+  contact_phone: (907) 271-2888
+  contact_email: null
+  hq_address: 4700 BLM Road, Anchorage, AK 99507
+  jurisdictions_covered: [AK]
+
+- office_type: ecological_services
+  region_number: 7
+  office_name: Alaska Regional Office — Juneau Sub-Office
+  state: AK
+  city: Juneau
+  primary_url: https://www.fws.gov/about/region/alaska
+  contact_phone: (907) 780-1180
+  contact_email: null
+  hq_address: 3000 Vintage Boulevard, Suite 201, Juneau, AK 99801
+  jurisdictions_covered: [AK]
+
+# --- REGION 8: PACIFIC SOUTHWEST ---
+
+- office_type: ecological_services
+  region_number: 8
+  office_name: Sacramento Fish and Wildlife Office
+  state: CA
+  city: Sacramento
+  primary_url: https://www.fws.gov/office/sacramento-fish-and-wildlife
+  contact_phone: (916) 414-6600
+  contact_email: null
+  hq_address: 2800 Cottage Way, Room W-2605, Sacramento, CA 95825
+  jurisdictions_covered: [CA]
+
+- office_type: ecological_services
+  region_number: 8
+  office_name: Arcata Fish and Wildlife Office
+  state: CA
+  city: Arcata
+  primary_url: https://www.fws.gov/office/arcata-fish-and-wildlife
+  contact_phone: (707) 822-7201
+  contact_email: null
+  hq_address: 1655 Heindon Road, Arcata, CA 95521-5582
+  jurisdictions_covered: [CA]
+
+- office_type: ecological_services
+  region_number: 8
+  office_name: Carlsbad Fish and Wildlife Office
+  state: CA
+  city: Carlsbad
+  primary_url: https://www.fws.gov/office/carlsbad-fish-and-wildlife
+  contact_phone: (760) 431-9440
+  contact_email: null
+  hq_address: 2177 Salk Avenue, Suite 250, Carlsbad, CA 92008
+  jurisdictions_covered: [CA]
+
+- office_type: ecological_services
+  region_number: 8
+  office_name: Ventura Fish and Wildlife Office
+  state: CA
+  city: Ventura
+  primary_url: https://www.fws.gov/office/ventura-fish-and-wildlife
+  contact_phone: (805) 644-1766
+  contact_email: null
+  hq_address: 2493 Portola Road, Suite A, Ventura, CA 93003
+  jurisdictions_covered: [CA]
+
+- office_type: ecological_services
+  region_number: 8
+  office_name: Yreka Fish and Wildlife Office
+  state: CA
+  city: Yreka
+  primary_url: https://www.fws.gov/office/yreka-fish-and-wildlife
+  contact_phone: (530) 842-5763
+  contact_email: null
+  hq_address: 1829 South Oregon Street, Yreka, CA 96097
+  jurisdictions_covered: [CA]
+
+- office_type: ecological_services
+  region_number: 8
+  office_name: Lodi Fish and Wildlife Office
+  state: CA
+  city: Lodi
+  primary_url: https://www.fws.gov/office/lodi-fish-and-wildlife
+  contact_phone: (209) 334-2283
+  contact_email: null
+  hq_address: 2800 Cottage Way, Room W-2605, Sacramento, CA 95825
+  jurisdictions_covered: [CA]
+
+- office_type: ecological_services
+  region_number: 8
+  office_name: San Francisco Bay-Delta Fish and Wildlife Office
+  state: CA
+  city: Sacramento
+  primary_url: https://www.fws.gov/office/san-francisco-bay-delta
+  contact_phone: (916) 414-6600
+  contact_email: null
+  hq_address: 2800 Cottage Way, Room W-2605, Sacramento, CA 95825
+  jurisdictions_covered: [CA]
+
+- office_type: ecological_services
+  region_number: 8
+  office_name: Red Bluff Fish and Wildlife Office
+  state: CA
+  city: Red Bluff
+  primary_url: https://www.fws.gov/office/red-bluff-fish-and-wildlife
+  contact_phone: (530) 934-2801
+  contact_email: null
+  hq_address: 10950 Tyler Road, Red Bluff, CA 96080
+  jurisdictions_covered: [CA]
+
+- office_type: ecological_services
+  region_number: 8
+  office_name: Reno Fish and Wildlife Office
+  state: NV
+  city: Reno
+  primary_url: https://www.fws.gov/office/reno-fish-and-wildlife
+  contact_phone: (775) 861-6300
+  contact_email: null
+  hq_address: 1340 Financial Boulevard, Suite 234, Reno, NV 89502
+  jurisdictions_covered: [NV]
+
+- office_type: ecological_services
+  region_number: 8
+  office_name: Southern Nevada Fish and Wildlife Office
+  state: NV
+  city: Las Vegas
+  primary_url: https://www.fws.gov/office/southern-nevada-fish-and-wildlife
+  contact_phone: (702) 515-5230
+  contact_email: null
+  hq_address: 4701 North Torrey Pines Drive, Las Vegas, NV 89130
+  jurisdictions_covered: [NV]
+
+- office_type: ecological_services
+  region_number: 8
+  office_name: Klamath Falls Fish and Wildlife Office
+  state: OR
+  city: Klamath Falls
+  primary_url: https://www.fws.gov/office/klamath-falls-fish-and-wildlife
+  contact_phone: (541) 885-2505
+  contact_email: null
+  hq_address: 1936 California Avenue, Klamath Falls, OR 97601
+  jurisdictions_covered: [OR, CA]
+
+# ============================================================
+# SECTION 3: MIGRATORY BIRD PERMIT OFFICES (8 offices, one per region)
+# Source: https://www.fws.gov/program/migratory-bird-permits/contact-us
+# ============================================================
+
+- office_type: migratory_bird_permits
+  region_number: 1
+  office_name: USFWS Migratory Bird Permit Office — Region 1 Pacific
+  state: OR
+  city: Portland
+  primary_url: https://www.fws.gov/program/migratory-bird-permits/contact-us
+  contact_phone: (503) 872-2715
+  contact_email: PermitsR1MB@fws.gov
+  hq_address: 911 NE 11th Avenue, Portland, OR 97232-4181
+  jurisdictions_covered: [WA, OR, ID, HI, GU, AS, CNMI]
+
+- office_type: migratory_bird_permits
+  region_number: 2
+  office_name: USFWS Migratory Bird Permit Office — Region 2 Southwest
+  state: NM
+  city: Albuquerque
+  primary_url: https://www.fws.gov/program/migratory-bird-permits/contact-us
+  contact_phone: (505) 248-7882
+  contact_email: PermitsR2MB@fws.gov
+  hq_address: "P.O. Box 709, Albuquerque, NM 87103"
+  jurisdictions_covered: [AZ, NM, OK, TX]
+
+- office_type: migratory_bird_permits
+  region_number: 3
+  office_name: USFWS Migratory Bird Permit Office — Region 3 Midwest
+  state: MN
+  city: Bloomington
+  primary_url: https://www.fws.gov/program/migratory-bird-permits/contact-us
+  contact_phone: (612) 713-5436
+  contact_email: PermitsR3MB@fws.gov
+  hq_address: 5600 American Blvd. West, Suite 990, Bloomington, MN 55437-1458
+  jurisdictions_covered: [MN, IA, IL, IN, MO, OH, WI, MI]
+
+- office_type: migratory_bird_permits
+  region_number: 4
+  office_name: USFWS Migratory Bird Permit Office — Region 4 Southeast
+  state: GA
+  city: Atlanta
+  primary_url: https://www.fws.gov/program/migratory-bird-permits/contact-us
+  contact_phone: (404) 679-7070
+  contact_email: PermitsR4MB@fws.gov
+  hq_address: 1875 Century Blvd. NE, Suite 222, Atlanta, GA 30345
+  jurisdictions_covered: [AR, LA, AL, MS, NC, SC, GA, FL, KY, TN, PR, VI]
+
+- office_type: migratory_bird_permits
+  region_number: 5
+  office_name: USFWS Migratory Bird Permit Office — Region 5 Northeast
+  state: MA
+  city: Hadley
+  primary_url: https://www.fws.gov/program/migratory-bird-permits/contact-us
+  contact_phone: (413) 253-8643
+  contact_email: PermitsR5MB@fws.gov
+  hq_address: 300 Westgate Center Drive, Hadley, MA 01035-0779
+  jurisdictions_covered: [CT, DE, ME, MA, MD, NH, NJ, NY, PA, RI, VT, VA, WV]
+
+- office_type: migratory_bird_permits
+  region_number: 6
+  office_name: USFWS Migratory Bird Permit Office — Region 6 Mountain-Prairie
+  state: CO
+  city: Denver
+  primary_url: https://www.fws.gov/program/migratory-bird-permits/contact-us
+  contact_phone: (303) 236-8171
+  contact_email: PermitsR6MB@fws.gov
+  hq_address: "P.O. Box 25486, DFC (60154), Denver, CO 80225-0486"
+  jurisdictions_covered: [CO, KS, MT, NE, ND, SD, UT, WY]
+
+- office_type: migratory_bird_permits
+  region_number: 7
+  office_name: USFWS Migratory Bird Permit Office — Region 7 Alaska
+  state: AK
+  city: Anchorage
+  primary_url: https://www.fws.gov/program/migratory-bird-permits/contact-us
+  contact_phone: (907) 786-3693
+  contact_email: PermitsR7MB@fws.gov
+  hq_address: 1011 E. Tudor Road, Anchorage, AK 99503
+  jurisdictions_covered: [AK]
+
+- office_type: migratory_bird_permits
+  region_number: 8
+  office_name: USFWS Migratory Bird Permit Office — Region 8 Pacific Southwest
+  state: CA
+  city: Sacramento
+  primary_url: https://www.fws.gov/program/migratory-bird-permits/contact-us
+  contact_phone: (916) 414-6464
+  contact_email: PermitsR8MB@fws.gov
+  hq_address: 2800 Cottage Way, Room W-2606, Sacramento, CA 95825
+  jurisdictions_covered: [CA, NV]
