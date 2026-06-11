@@ -28,7 +28,7 @@ import argparse
 import os
 
 from wildlifestats._pipeline._common import apify_client
-from wildlifestats._pipeline.flyway import build_tier_rosters
+from wildlifestats._pipeline.flyway import build_tier_rosters, spend_tracker
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CRON_ENABLED_FILE = os.path.join(HERE, "CRON_ENABLED")
@@ -85,6 +85,15 @@ def run(*, dry_run: bool) -> int:
         print("CRON_ENABLED != '1' — cron is suspended, nothing to do. "
               "(Flip to '1' at 4.5+i.5 go-live.)")
         return 0
+
+    # Pre-flight spend guard (4.5+i.2): if this calendar month has already hit
+    # the cap, trip the kill-switch and no-op — even if someone flipped the
+    # switch back on. The auto-suspend is enforced here, not just trusted.
+    guard = spend_tracker.check_and_maybe_suspend()
+    if guard["suspended"]:
+        print(f"Spend cap reached — {guard['reason']}. Suspended; nothing to do.")
+        return 0
+    print(f"Spend guard: {guard['reason']}")
 
     plan = plan_today()
     est = apify_client.estimate_cost(plan)
