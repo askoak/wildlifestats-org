@@ -1,0 +1,65 @@
+{
+  "upload_type": "dataset",
+  "title": "WildlifeStats: a national wildlife rehabilitation research framework — synthetic admissions cube v1.1.0",
+  "description": "<p>A deterministic synthetic dataset of one million wildlife rehabilitation admission records distributed across all 50 U.S. states and the District of Columbia, covering 2017&ndash;2025, packaged with the WildlifeStats research framework source code, methodology, parameter provenance table, and Wildlife911 Virginia triage corpus.</p><p>The cube is generated from regional species archetypes, latitude-modulated seasonality, and admission-reason base distributions documented in the parameter provenance table at <a href=\"https://wildlifestats.org/methodology.html\">https://wildlifestats.org/methodology.html</a>. Reproducibility: with a fixed master seed of 42, the generator produces byte-identical output on every run.</p><p><strong>Dimensions:</strong> year (2017&ndash;2025), month, county FIPS (3,143 counties + DC), state postal code (51), taxonomic class, species archetype (42), admission reason, outcome, disposition.</p><p><strong>Intended use:</strong> methodology demonstration, schema validation, framework testing, and as a reference layer for analytical workflows that will later ingest real partner data. Not a substitute for measured rehabilitation records. Not a fit to any specific institution.</p><p><strong>Calibration sources:</strong> Henger et al. 2021 (PLoS ONE), McRuer et al. 2017 (Journal of Wildlife Diseases), U.S. Fish &amp; Wildlife Service 2024 <em>Conservation Value of Wildlife Rehabilitation</em>, Loss et al. 2013 (Nature Communications), Doherty et al. 2016 (PNAS), USGS National Wildlife Health Center WHISPers. Full per-parameter attribution and known limitations are in the parameter provenance table on the methodology page.</p><p><strong>Wildlife911 Virginia</strong> is a Mike-authored institutional triage assistant included in this release for completeness; it lists Blue Ridge Wildlife Center, SW Virginia Wildlife Center, and Wildlife Center of Virginia as legitimate Virginia rehabilitation referrals, alongside Virginia Department of Wildlife Resources and Animal Help Now. The Wildlife911 corpus is licensed CC-BY-4.0.</p><p><strong>WildlifeStats</strong> is a national research framework for wildlife rehabilitation, disease, injury, and One Health data. Project home: <a href=\"https://wildlifestats.org\">https://wildlifestats.org</a>.</p>",
+  "creators": [
+    {
+      "name": "Oak, Michael",
+      "affiliation": "Michael Oak Advisors"
+    },
+    {
+      "name": "WildlifeStats Consortium",
+      "affiliation": "Michael Oak Advisors"
+    }
+  ],
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "wildlife rehabilitation",
+    "synthetic data",
+    "wildlife disease",
+    "One Health",
+    "wildlife medicine",
+    "biodiversity informatics",
+    "reproducible research",
+    "rehabilitation medicine",
+    "citizen science",
+    "deterministic synthetic dataset",
+    "county-level wildlife admissions",
+    "regional species archetypes",
+    "wildlife mortality",
+    "wildlife conservation",
+    "USGS WHISPers"
+  ],
+  "language": "eng",
+  "version": "1.1.0",
+  "notes": "This is a synthetic dataset. It is not derived from any real wildlife rehabilitation organization's records. Quarterly versioned snapshots are planned; see the project governance page at https://wildlifestats.org/governance.html for the snapshot policy. Future versions will be released as GitHub releases on the askoak/wildlifestats-org repository, with new DOIs automatically minted by this Zenodo integration.",
+  "related_identifiers": [
+    {
+      "identifier": "https://wildlifestats.org/methodology.html",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://wildlifestats.org/governance.html",
+      "relation": "isDescribedBy",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://wildlifestats.org/",
+      "relation": "isPartOf",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://github.com/askoak/wildlifestats-org",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://wildlifestats.org/wildlife911/",
+      "relation": "isPartOf",
+      "resource_type": "other"
+    }
+  ],
+  "communities": []
+}
