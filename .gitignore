@@ -1,5 +1,8 @@
 /wildlifestats/_pipeline/_work/
 
+# fetch.py on-disk response + robots cache (never committed)
+/data/_cache/
+
 # Python bytecode
 __pycache__/
 *.pyc
