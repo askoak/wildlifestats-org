@@ -1,0 +1,145 @@
+{
+  "generated_with": "claude-flyway-extractor-smoke",
+  "note": "LLM extraction by the session Claude model using extraction-prompt.md (ANTHROPIC_API_KEY env-shadowed in the Claude Code shell; production extract.py --extractor llm calls Haiku via the API). 47 posts scanned (31 FB + 16 IG); 0 hummingbird-arrival (June = past arrival window); 6 baby-season records.",
+  "n_records": 6,
+  "records": [
+    {
+      "record_id": "3fb8cac77648e5cd1c0123667ec136116d7b8ca3a5aa7bd68ba66863fcfd2798",
+      "extracted_at": "2026-06-11T00:00:00Z",
+      "source_type": "facebook",
+      "source_url": "https://www.facebook.com/wildbirdfund",
+      "source_org_id": null,
+      "signal_id": "phenology.baby_season_start.songbird",
+      "extracted_fields": {
+        "event_type": "songbird",
+        "species_canonical": "songbird_orphan",
+        "species_verbatim": "patient #5,000 of the year, 12% YoY increase",
+        "geo_county_fips": null,
+        "geo_state": "NY",
+        "geo_locality_verbatim": "New York City",
+        "event_date": "2026-06-10",
+        "event_date_precision": "day",
+        "confidence": 0.85
+      },
+      "extraction_method": "claude-flyway-extractor-smoke (session model, prompt a9b4c2cac84761e9)",
+      "extraction_prompt_hash": "a9b4c2cac84761e9",
+      "post_text_NOT_STORED": true,
+      "license_compliance_notes": "Extract only; original post content not retained per ToS."
+    },
+    {
+      "record_id": "b705a7069eb1378da0e1126c7496538949c490f0420ff5018cc41148c9a08c7a",
+      "extracted_at": "2026-06-11T00:00:00Z",
+      "source_type": "facebook",
+      "source_url": "https://www.facebook.com/wildbirdfund",
+      "source_org_id": null,
+      "signal_id": "phenology.baby_season_start.songbird",
+      "extracted_fields": {
+        "event_type": "songbird",
+        "species_canonical": "songbird_orphan",
+        "species_verbatim": "American kestrel nestling + three fledglings",
+        "geo_county_fips": null,
+        "geo_state": "NY",
+        "geo_locality_verbatim": "Brooklyn",
+        "event_date": "2026-06-09",
+        "event_date_precision": "day",
+        "confidence": 0.88
+      },
+      "extraction_method": "claude-flyway-extractor-smoke (session model, prompt a9b4c2cac84761e9)",
+      "extraction_prompt_hash": "a9b4c2cac84761e9",
+      "post_text_NOT_STORED": true,
+      "license_compliance_notes": "Extract only; original post content not retained per ToS."
+    },
+    {
+      "record_id": "0f77d9d9aca93b7d27acbf5da2141de600b0d700be00390c6e47dbbf51d911e0",
+      "extracted_at": "2026-06-11T00:00:00Z",
+      "source_type": "facebook",
+      "source_url": "https://www.facebook.com/wildbirdfund",
+      "source_org_id": null,
+      "signal_id": "phenology.baby_season_start.songbird",
+      "extracted_fields": {
+        "event_type": "songbird",
+        "species_canonical": "songbird_orphan",
+        "species_verbatim": "red-winged blackbird fledgling (Viola)",
+        "geo_county_fips": null,
+        "geo_state": "NY",
+        "geo_locality_verbatim": "Prospect Park",
+        "event_date": "2026-06-02",
+        "event_date_precision": "day",
+        "confidence": 0.8
+      },
+      "extraction_method": "claude-flyway-extractor-smoke (session model, prompt a9b4c2cac84761e9)",
+      "extraction_prompt_hash": "a9b4c2cac84761e9",
+      "post_text_NOT_STORED": true,
+      "license_compliance_notes": "Extract only; original post content not retained per ToS."
+    },
+    {
+      "record_id": "664d1a59afd21d529d911ff495c9674624eb1ac520c0d0c0e0ec503dcf655528",
+      "extracted_at": "2026-06-11T00:00:00Z",
+      "source_type": "facebook",
+      "source_url": "https://www.facebook.com/wildbirdfund",
+      "source_org_id": null,
+      "signal_id": "phenology.baby_season_start.songbird",
+      "extracted_fields": {
+        "event_type": "songbird",
+        "species_canonical": "songbird_orphan",
+        "species_verbatim": "nesting season; fledglings/nestlings",
+        "geo_county_fips": null,
+        "geo_state": "NY",
+        "geo_locality_verbatim": null,
+        "event_date": "2026-06-01",
+        "event_date_precision": "day",
+        "confidence": 0.78
+      },
+      "extraction_method": "claude-flyway-extractor-smoke (session model, prompt a9b4c2cac84761e9)",
+      "extraction_prompt_hash": "a9b4c2cac84761e9",
+      "post_text_NOT_STORED": true,
+      "license_compliance_notes": "Extract only; original post content not retained per ToS."
+    },
+    {
+      "record_id": "f5d24f4613e53b2819db683341e6d3389ab298e2c94a0f18a25cf82890a6d94d",
+      "extracted_at": "2026-06-11T00:00:00Z",
+      "source_type": "facebook",
+      "source_url": "https://www.facebook.com/waldenspuddle",
+      "source_org_id": null,
+      "signal_id": "phenology.baby_season_start.songbird",
+      "extracted_fields": {
+        "event_type": "songbird",
+        "species_canonical": "songbird_orphan",
+        "species_verbatim": "baby season; songbirds in rehabilitation; baby skunks",
+        "geo_county_fips": null,
+        "geo_state": "TN",
+        "geo_locality_verbatim": null,
+        "event_date": "2026-05-20",
+        "event_date_precision": "day",
+        "confidence": 0.82
+      },
+      "extraction_method": "claude-flyway-extractor-smoke (session model, prompt a9b4c2cac84761e9)",
+      "extraction_prompt_hash": "a9b4c2cac84761e9",
+      "post_text_NOT_STORED": true,
+      "license_compliance_notes": "Extract only; original post content not retained per ToS."
+    },
+    {
+      "record_id": "f404780ca7e7c0b5a97a2c133319ba4b5ba1ce4edbced5ef4995f9589ca4bf46",
+      "extracted_at": "2026-06-11T00:00:00Z",
+      "source_type": "facebook",
+      "source_url": "https://www.facebook.com/waldenspuddle",
+      "source_org_id": null,
+      "signal_id": "phenology.baby_season_start.songbird",
+      "extracted_fields": {
+        "event_type": "songbird",
+        "species_canonical": "songbird_orphan",
+        "species_verbatim": "blue jay fledglings (leucistic)",
+        "geo_county_fips": null,
+        "geo_state": "TN",
+        "geo_locality_verbatim": null,
+        "event_date": "2026-05-22",
+        "event_date_precision": "day",
+        "confidence": 0.74
+      },
+      "extraction_method": "claude-flyway-extractor-smoke (session model, prompt a9b4c2cac84761e9)",
+      "extraction_prompt_hash": "a9b4c2cac84761e9",
+      "post_text_NOT_STORED": true,
+      "license_compliance_notes": "Extract only; original post content not retained per ToS."
+    }
+  ]
+}
