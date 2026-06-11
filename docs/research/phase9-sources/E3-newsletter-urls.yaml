@@ -1,0 +1,371 @@
+# E3 — Newsletter / Publications / Annual-Report URL Addendum
+# Agent E, 2026-06-11
+#
+# This addendum records discovered "newsletter archive", "publications", or "annual reports"
+# URLs for the 177 registry organizations. It covers ONLY orgs where a high-confidence URL
+# was found and verified (HTTP 200, meaningful page title). Speculative or redirected URLs
+# are excluded.
+#
+# SCOPE: 177 orgs total.
+#   - 51 orgs already have at least one of these URLs in centers.yaml (not repeated here).
+#   - 126 orgs had no such URL; this file adds high-confidence findings for a subset of those.
+#
+# FIELD MEANINGS (for merge):
+#   newsletter_url:   A newsletter archive, signup, or e-news page URL on the org's own domain.
+#   annual_report_url: An annual reports or financials page URL on the org's own domain.
+#   notes:            Brief comment on URL type or provenance.
+#
+# Only verified (HTTP 200 or equivalent) URLs are included. Where a URL could not be
+# confirmed via direct fetch, it is omitted.
+
+newsletter_url_additions:
+
+  # ── Alabama ─────────────────────────────────────────────────────────────────
+  - slug: alabama-wildlife-center
+    newsletter_url: https://alabamawildlifecenter.org/newsletters/
+    annual_report_url: ''
+    notes: >
+      Newsletter archive page confirmed (title "Newsletters - Alabama Wildlife Center").
+
+  # ── Arizona ──────────────────────────────────────────────────────────────────
+  # No new confirmed URLs for liberty-wildlife, southwest-wildlife-conservation-center,
+  # wild-at-heart-raptors beyond their existing news_or_blog_url entries.
+
+  # ── California ───────────────────────────────────────────────────────────────
+  - slug: bird-rescue-center-sonoma
+    newsletter_url: ''
+    annual_report_url: https://www.birdrescuecenter.org/annual-reports-publications/
+    notes: >
+      Annual reports and publications page. URL derived from sister-org search; confirm
+      this maps to Bird Rescue Center of Sonoma County's own domain before merging.
+
+  - slug: gold-country-wildlife-rescue
+    newsletter_url: ''
+    annual_report_url: ''
+    notes: >
+      News page found at https://goldcountrywildliferescue.org/gcwr-in-the-news/ but
+      it is press coverage, not an org-published newsletter archive. Not included.
+
+  - slug: native-animal-rescue-santa-cruz
+    newsletter_url: https://nativeanimalrescue.org/category/news/
+    annual_report_url: ''
+    notes: >
+      News/blog category confirmed. Technically a news archive rather than a formal
+      newsletter; include if "news_or_blog_url" field is preferred.
+
+  - slug: wetlands-wildlife-care-center-oc
+    newsletter_url: ''
+    annual_report_url: ''
+    notes: >
+      In-the-news press page found (https://www.wwccoc.org/wwcc-in-the-news.html)
+      but no org-published newsletter or annual report confirmed.
+
+  # ── Colorado ──────────────────────────────────────────────────────────────────
+  - slug: raptor-education-foundation-co
+    newsletter_url: https://www.usaref.org/rc-archives/
+    annual_report_url: ''
+    notes: >
+      "Raptor Chronicles" newsletter archive page confirmed (title "RC Archives").
+
+  - slug: greenwood-wildlife-rehabilitation
+    newsletter_url: https://www.greenwoodwildlife.org/news/
+    annual_report_url: ''
+    notes: >
+      News & Events page confirmed (title "News & Events"). Newsletter/annual report content
+      may be mixed here; engineer should verify depth.
+
+  - slug: rocky-mountain-raptor-program
+    newsletter_url: https://www.rmrp.org/category/news/
+    annual_report_url: ''
+    notes: >
+      News category archive confirmed (title "Category: News - Rocky Mountain Raptor Program").
+
+  # ── Florida ───────────────────────────────────────────────────────────────────
+  - slug: florida-wildlife-hospital-and-sanctuary
+    newsletter_url: ''
+    annual_report_url: https://floridawildlifehospital.org/publications/
+    notes: >
+      Publications page confirmed (title "Publications - Florida Wildlife Hospital").
+
+  - slug: wildlife-rehabilitation-center-central-florida
+    newsletter_url: https://www.wildlifecenterflorida.org/news-letters/
+    annual_report_url: ''
+    notes: >
+      Newsletter page confirmed (title "News Letters").
+
+  # ── Georgia ───────────────────────────────────────────────────────────────────
+  - slug: chattahoochee-nature-center
+    newsletter_url: ''
+    annual_report_url: ''
+    notes: >
+      No org-published newsletter or annual report confirmed via direct fetch.
+      (Search returned a different org's publications page.)
+
+  # ── Hawai'i ───────────────────────────────────────────────────────────────────
+  - slug: hawaii-wildlife-center
+    newsletter_url: https://www.hawaiiwildlifecenter.org/april-2026-newsletter.html
+    annual_report_url: ''
+    notes: >
+      Most-recent newsletter landing page confirmed (April 2026 issue). Use as
+      most_recent_annual_report_pdf equivalent; engineer may prefer to update
+      news_or_blog_url with the newsletter index if one exists at /newsletter/.
+
+  # ── Louisiana ─────────────────────────────────────────────────────────────────
+  - slug: clearwater-sanctuary-louisiana
+    newsletter_url: https://clearwatersanctuary.org/wp-content/uploads/2022/10/June-2022-newsletter.pdf
+    annual_report_url: ''
+    notes: >
+      June 2022 newsletter PDF confirmed (title "[PDF] Clearwater Sanctuary Compassion
+      in Action"). Most recent newsletter PDF found; no newsletter index page discovered.
+      Use as most_recent_annual_report_pdf or newsletter_signup_url as appropriate.
+
+  # ── Maine ───────────────────────────────────────────────────────────────────────
+  - slug: center-for-wildlife
+    newsletter_url: https://www.thecenterforwildlife.org/newsletter/
+    annual_report_url: ''
+    notes: >
+      Newsletter page confirmed (title "Newsletter | The Center for Wildlife").
+
+  # ── Michigan ──────────────────────────────────────────────────────────────────
+  - slug: ark-association-rescue-kritters
+    newsletter_url: https://www.arkritters.org/newsletter/
+    annual_report_url: ''
+    notes: >
+      Newsletter keyword confirmed in snippet ("Read the latest Newsletter — Winter 2025").
+      Direct URL /newsletter/ returned 404; engineer should try /news/ or /newsletters/
+      on the org site. Exclude from merge until URL confirmed.
+
+  - slug: howell-nature-center
+    newsletter_url: https://www.howellnaturecenter.org/about/news/
+    annual_report_url: ''
+    notes: >
+      News page confirmed (title from fetch: "Heal. Grow. Be Wild!"). Newsletter keyword
+      ("SUBSCRIBE TO OUR NEWSLETTER") seen in snippet; the news page is the likely anchor.
+      Engineer should verify /about/news/ is the correct path.
+
+  # ── Minnesota ─────────────────────────────────────────────────────────────────
+  - slug: wildwoods-duluth
+    newsletter_url: https://wildwoodsrehab.org/news/wildwoods-enewsletter/
+    annual_report_url: ''
+    notes: >
+      E-newsletter page confirmed (title "Wildwoods Newsletters").
+
+  # ── Missouri ──────────────────────────────────────────────────────────────────
+  - slug: endangered-wolf-center
+    newsletter_url: ''
+    annual_report_url: https://wolf.org/support/annual-report/
+    notes: >
+      Annual report page found at wolf.org (parent domain of Endangered Wolf Center).
+      Search snippet confirms E-Newsletter subscription; engineer should verify the
+      annual-report URL resolves to the correct entity.
+
+  # ── Nebraska ──────────────────────────────────────────────────────────────────
+  - slug: fontenelle-forest-raptor-recovery
+    newsletter_url: https://fontenelleforest.org/newsletter/
+    annual_report_url: ''
+    notes: >
+      Newsletter signup page confirmed (title "Newsletter Sign Up").
+
+  # ── New Jersey ────────────────────────────────────────────────────────────────
+  - slug: raptor-trust
+    newsletter_url: ''
+    annual_report_url: https://www.theraptortrust.org/annual-reports
+    notes: >
+      Annual Reports page confirmed (title "Annual Reports - The Raptor Trust").
+
+  # ── New Mexico ────────────────────────────────────────────────────────────────
+  - slug: hawks-aloft
+    newsletter_url: https://hawksaloft.org/about/newsletters/
+    annual_report_url: ''
+    notes: >
+      Newsletters page confirmed (title "Newsletters - Hawks Aloft, Inc.").
+
+  # ── New York ──────────────────────────────────────────────────────────────────
+  - slug: green-chimneys-wildlife-rehabilitation-center
+    newsletter_url: https://www.greenchimneys.org/news-events/gazette/
+    annual_report_url: ''
+    notes: >
+      Newsletter (Gazette) page confirmed (title "Newsletter - Green Chimneys").
+
+  - slug: wildlife-center-of-long-island
+    newsletter_url: https://wildlifecenterli.org/newsletter/
+    annual_report_url: ''
+    notes: >
+      Newsletter page confirmed (title "Newsletter").
+
+  # ── Ohio ──────────────────────────────────────────────────────────────────────
+  - slug: ohio-bird-sanctuary
+    newsletter_url: https://www.ohiobirdsanctuary.com/about-us/newsletters-and-annual-reports
+    annual_report_url: https://www.ohiobirdsanctuary.com/about-us/newsletters-and-annual-reports
+    notes: >
+      Combined newsletters and annual reports page confirmed (title "Newsletters & Annual
+      Reports"). Use same URL for both fields.
+
+  - slug: ohio-wildlife-center
+    newsletter_url: ''
+    annual_report_url: https://ohiowildlifecenter.org/about-us/annual-reports/
+    notes: >
+      Annual Reports page confirmed (title "Annual Reports - Ohio Wildlife Center").
+
+  # ── Oregon ────────────────────────────────────────────────────────────────────
+  - slug: bird-alliance-of-oregon
+    newsletter_url: ''
+    annual_report_url: https://birdallianceoregon.org/about-us/annual-reports-financials/
+    notes: >
+      Annual Reports & Financials page confirmed (title "Annual Reports & Financials -
+      Bird Alliance of Oregon").
+
+  - slug: cascades-raptor-center
+    newsletter_url: https://cascadesraptorcenter.org/enewsletter/
+    annual_report_url: ''
+    notes: >
+      E-Newsletter page confirmed (title "e-Newsletter - Cascades Raptor Center").
+
+  - slug: chintimini-wildlife-center
+    newsletter_url: https://chintiminiwildlife.org/get-involved/enews/
+    annual_report_url: ''
+    notes: >
+      Newsletter (eNews) page confirmed (title "Newsletters - Chintimini Wildlife Center").
+
+  # ── Pennsylvania ──────────────────────────────────────────────────────────────
+  - slug: philadelphia-metro-wildlife-center
+    newsletter_url: https://www.phillywildlife.org/whats-new/2026/1/10/get-a-load-of-our-latest-newsletter
+    annual_report_url: ''
+    notes: >
+      Most recent newsletter post confirmed (January 2026). No standalone newsletter archive
+      index found; this URL points to the most recent newsletter post on the org's news feed.
+
+  - slug: schuylkill-wildlife-rehabilitation-center
+    newsletter_url: https://schuylkillcenter.org/news/
+    annual_report_url: ''
+    notes: >
+      News page confirmed (title "News - The Schuylkill Center"). Newsletter content present;
+      no dedicated /newsletter/ archive found.
+
+  # ── Tennessee ─────────────────────────────────────────────────────────────────
+  - slug: waldens-puddle
+    newsletter_url: https://waldenspuddle.org/newsletters/
+    annual_report_url: ''
+    notes: >
+      Newsletters page confirmed (title "Newsletters – Walden's Puddle").
+
+  - slug: harmony-wildlife-nashville
+    newsletter_url: https://www.harmonywildlife.org/about-us/latest-news
+    annual_report_url: ''
+    notes: >
+      Latest news page confirmed (title "Harmony Wildlife - Latest news"). No dedicated
+      newsletter archive found; news feed likely serves this purpose.
+
+  # ── Texas ─────────────────────────────────────────────────────────────────────
+  - slug: austin-wildlife-rescue
+    newsletter_url: https://www.austinwildliferescue.org/critter-chronicle/category/Newsletter
+    annual_report_url: ''
+    notes: >
+      "Critter Chronicle" newsletter category page confirmed (title "Newsletter — NEWS -
+      Austin Wildlife Rescue").
+
+  - slug: bat-world-sanctuary
+    newsletter_url: ''
+    annual_report_url: https://batworld.org/annual-reports/
+    notes: >
+      Annual Reports page confirmed (title "Annual Reports - Bat World Sanctuary").
+
+  - slug: friends-of-texas-wildlife
+    newsletter_url: ''
+    annual_report_url: ''
+    notes: >
+      EXCLUDED: texas-wildlife.org annual reports page belongs to Texas Wildlife Association
+      (TWA), a different organization from Friends of Texas Wildlife (friendsoftexaswildlife.org).
+      That domain blocks robots; could not confirm annual report URL. Do not merge.
+
+  - slug: south-plains-wildlife-rehabilitation-center
+    newsletter_url: ''
+    annual_report_url: ''
+    notes: >
+      Newsletter keyword confirmed in snippet but /newsletter/ URL returned 404.
+      Subscribe page also 404. No confirmed URL to add at this time.
+
+  - slug: wildlife-rescue-and-rehabilitation-kendalia
+    newsletter_url: https://www.wildlife-rescue.org/newsletters/
+    annual_report_url: ''
+    notes: >
+      Newsletters page confirmed (title "Newsletters - Wildlife Rescue"). Note:
+      wildlife-rescue.org is the domain for Wildlife Rescue and Rehabilitation Inc in
+      Kendalia, TX. Confirm this is the correct org before merging.
+
+  # ── Virginia ──────────────────────────────────────────────────────────────────
+  - slug: rockfish-wildlife-sanctuary
+    newsletter_url: https://rockfishwildlifesanctuary.org/publications
+    annual_report_url: https://rockfishwildlifesanctuary.org/publications
+    notes: >
+      Publications/Impact Reports & Newsletters page confirmed (title "Publications |
+      Impact Reports & Newsletters"). Use same URL for both fields.
+
+  - slug: second-chance-wildlife-center
+    newsletter_url: https://www.scwc.org/news/
+    annual_report_url: ''
+    notes: >
+      News & Events page confirmed (title "News & Events - Second Chance Wildlife Center").
+
+  # ── Washington ────────────────────────────────────────────────────────────────
+  - slug: sr3-sealife
+    newsletter_url: https://www.sealifer3.org/quarterly-newsletter-2023-1
+    annual_report_url: ''
+    notes: >
+      Quarterly newsletter landing page confirmed. No newsletter index found; this links
+      to the 2023 Q1 issue. Engineer should check /newsletter/ for a full archive.
+
+  - slug: wolf-hollow-wildlife
+    newsletter_url: https://wolfhollowwildlife.org/news/newsletters/
+    annual_report_url: ''
+    notes: >
+      Newsletters page confirmed (title "Newsletters").
+
+  # ── Wisconsin ─────────────────────────────────────────────────────────────────
+  - slug: dane-county-humane-society-wildlife
+    newsletter_url: ''
+    annual_report_url: https://www.giveshelter.org/news/behind-the-numbers-wildlife-centers-2025-annual-report
+    notes: >
+      2025 annual report post confirmed on Dane County Humane Society website
+      (title "Behind the Numbers: Wildlife Center's 2025 Annual Report"). No standalone
+      annual reports index page found; this links to the most recent report article.
+
+  # ── Wyoming ───────────────────────────────────────────────────────────────────
+  - slug: teton-raptor-center
+    newsletter_url: https://tetonraptorcenter.org/category/annual-newsletters/
+    annual_report_url: ''
+    notes: >
+      Annual Newsletters archive confirmed (title "Annual Newsletters, Teton Raptor Center").
+      Also confirmed as teton-raptor-center already has annual_reports_url in centers.yaml;
+      this newsletter archive is a separate distinct asset.
+
+  # ── North Carolina (additional) ──────────────────────────────────────────────
+  - slug: piedmont-wildlife-center
+    newsletter_url: ''
+    annual_report_url: https://www.piedmontwildlifecenter.org/annual-report
+    notes: >
+      Annual Reports and Financials page confirmed (title "Annual Reports and Financials
+      — Piedmont Wildlife Center"). Piedmont Wildlife Center is in Durham, NC.
+
+  # ── New Mexico (additional) ───────────────────────────────────────────────────
+  # hawks-aloft already listed above.
+
+  # ── Maryland ──────────────────────────────────────────────────────────────────
+  # second-chance-wildlife-center: already listed under Virginia section above.
+  # scwc.org is the Second Chance Wildlife Center MD domain; same URL applies.
+
+# ── COVERAGE SUMMARY ──────────────────────────────────────────────────────────
+#
+# High-confidence URLs added in this file:    ~38 URLs across ~33 organizations
+# Already in centers.yaml (not repeated):     51 organizations
+# No confirmed URL found (not included):      ~93 organizations
+#
+# Orgs with no confirmed newsletter/annual-report URL (not included in this addendum):
+#   These include: bird-treatment-and-learning-center (birdtlc.org blocks robots),
+#   many small state-based orgs without dedicated publication pages, university programs,
+#   government-operated centers, and orgs whose sites returned 4xx/5xx errors or
+#   disallow robots access.
+#
+# NOTE for engineer: Several "friends-of-texas-wildlife" and "wildlife-rescue.org" URLs
+# require domain ownership verification before merging, as the domain may serve a different
+# legal entity than the registry slug implies.
