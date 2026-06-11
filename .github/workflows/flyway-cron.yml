@@ -1,0 +1,29 @@
+name: flyway-cron
+
+# Flyway recurring early-warning cron (Phase 4.5+i). Scheduled daily at 04:00 UTC
+# (midnight ET) so it runs after most US-East orgs have finished posting.
+#
+# SAFE BY CONSTRUCTION at this sub-PR (4.5+i.1):
+#   - cron_run.py no-ops unless wildlifestats/_pipeline/flyway/CRON_ENABLED == "1"
+#     (it ships as "0"). The schedule exists but does nothing until 4.5+i.5.
+#   - No credentials are injected here. The live executor (and the credential
+#     injection it needs) land in 4.5+i.2; until then cron_run refuses to spend.
+# This workflow can therefore merge and even fire on schedule with zero effect.
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  flyway-daily:
+    name: Flyway daily run (self-gated by CRON_ENABLED)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run cron orchestrator (no-op while CRON_ENABLED=0)
+        run: PYTHONPATH=. python -m wildlifestats._pipeline.flyway.cron_run

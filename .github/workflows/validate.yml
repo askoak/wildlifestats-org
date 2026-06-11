@@ -46,6 +46,8 @@ jobs:
           python-version: '3.12'
       - name: Run Flyway 4.5+h trigger tests
         run: PYTHONPATH=. python wildlifestats/_pipeline/flyway/test_triggers.py
+      - name: Run Flyway 4.5+i cron tests
+        run: PYTHONPATH=. python wildlifestats/_pipeline/flyway/test_cron.py
 
   link-check:
     name: Internal link check

@@ -1,0 +1,51 @@
+# Flyway Tier 2 (quarterly + trailing-7d delta) — 49 centers
+# rank	tier	name	state	platforms
+52	B	Flint Creek Wildlife Rehabilitation	IL	facebook,instagram,tiktok,youtube
+53	B	Wildlife Rescue Center	MO	facebook,instagram,tiktok,youtube
+54	B	Wild Bird Rehabilitation	MO	facebook,instagram,tiktok,youtube
+55	B	Lakeside Nature Center Wildlife Rehabilitation	MO	facebook,instagram,tiktok,youtube
+56	B	Walden's Puddle	TN	facebook,instagram,tiktok,youtube
+57	B	Appalachian Wildlife Refuge	NC	facebook,instagram,tiktok,youtube
+58	B	Possumwood Acres Wildlife Sanctuary	NC	facebook,instagram,tiktok,youtube
+59	B	Piedmont Wildlife Center	NC	facebook,instagram,tiktok,youtube
+60	B	New Mexico Wildlife Center	NM	facebook,instagram,tiktok,youtube
+61	C	Woodlands Wildlife Refuge	NJ	facebook,instagram,tiktok,youtube
+62	C	Aark Wildlife Rehabilitation and Education Center	PA	facebook,instagram,tiktok,youtube
+63	C	Raven Ridge Wildlife Center	PA	facebook,instagram,tiktok,youtube
+64	C	Red Creek Wildlife Center	PA	facebook,instagram,tiktok,youtube
+65	C	Philadelphia Metro Wildlife Center	PA	facebook,instagram,tiktok,youtube
+66	C	Volunteers for Wildlife	NY	facebook,instagram,tiktok,youtube
+67	C	Evelyn Alexander Wildlife Rescue Center	NY	facebook,instagram,tiktok,youtube
+68	C	Sweetbriar Nature Center	NY	facebook,instagram,tiktok,youtube
+69	C	Wildlife Rescue Center of the Hamptons	NY	facebook,instagram,tiktok,youtube
+70	C	Avian Haven	ME	facebook,instagram
+71	C	City Wildlife	DC	facebook,instagram,tiktok,x,youtube
+72	C	Second Chance Wildlife Center	MD	facebook,instagram,tiktok,youtube
+73	C	Owl Moon Raptor Center	MD	facebook,instagram,tiktok,youtube
+74	C	Phoenix Wildlife Center	MD	facebook,instagram,tiktok,youtube
+75	C	Wildlife Rescue League	VA	facebook,instagram,x,youtube
+76	C	A.E.R.O. Animal Education and Rescue Organization	VA	facebook,instagram,tiktok
+77	C	Richmond Wildlife Center	VA	facebook,instagram,tiktok,youtube
+78	C	Rockfish Wildlife Sanctuary	VA	facebook,instagram,tiktok,youtube
+79	C	Wildlife Veterinary Care	VA/WV/MD	facebook,instagram
+80	C	Carolina Waterfowl Rescue	NC	facebook,instagram,tiktok,youtube
+81	C	Rogers Wildlife Rehabilitation Center	TX	facebook,instagram,tiktok,youtube
+82	C	TWRC Wildlife Center	TX	facebook,instagram,tiktok,youtube
+83	C	Wildlife Rescue & Rehabilitation, Inc.	TX	facebook,instagram,tiktok,youtube
+84	C	Houston SPCA Wildlife Center of Texas	TX	facebook,instagram,tiktok,x,youtube
+85	C	Center for Birds of Prey / Avian Conservation Center	SC	facebook,instagram,tiktok,youtube
+86	C	Audubon Center for Birds of Prey	FL	facebook,instagram,tiktok,x,youtube
+87	C	Seaside Seabird Sanctuary	FL	facebook,instagram,tiktok,youtube
+88	C	Emerald Coast Wildlife Refuge	FL	facebook,instagram,tiktok,youtube
+89	C	Wetlands & Wildlife Care Center	CA	facebook,instagram,tiktok,youtube
+90	C	Ojai Raptor Center	CA	facebook,instagram,tiktok,youtube
+91	C	Bird Rescue Center	CA	facebook,instagram,tiktok,youtube
+92	C	Sonoma County Wildlife Rescue	CA	facebook,instagram,tiktok,youtube
+93	C	Gold Country Wildlife Rescue	CA	facebook,instagram,tiktok,youtube
+94	C	Native Animal Rescue	CA	facebook,instagram,tiktok,youtube
+95	C	Yggdrasil Urban Wildlife Rescue	CA	facebook,instagram,tiktok,youtube
+96	C	Turtle Ridge Wildlife Center	OR	facebook,instagram,tiktok,youtube
+97	C	Badger Run Wildlife Rehab	OR	facebook,instagram,youtube
+98	C	Nebraska Wildlife Rehab, Inc.	NE	facebook,instagram,tiktok,youtube
+99	C	Fontenelle Forest Raptor Recovery	NE	facebook,instagram,tiktok,youtube
+100	C	Iowa Bird Rehabilitation	IA	facebook,instagram,tiktok,youtube

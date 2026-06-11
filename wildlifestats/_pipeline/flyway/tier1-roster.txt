@@ -1,0 +1,52 @@
+# Flyway Tier 1 (daily refresh) — 50 centers
+# rank	tier	name	state	platforms
+1	A	The Marine Mammal Center	CA	facebook,instagram,tiktok,x,youtube
+2	A	International Bird Rescue	CA	facebook,instagram,tiktok,x,youtube
+3	A	Wildlife Center of Virginia	VA	facebook,instagram,x,youtube
+4	A	Wildlife Rehabilitation Center of Minnesota	MN	facebook,instagram
+5	A	Lindsay Wildlife Experience / Wildlife Rehabilitation Hospital	CA	facebook,instagram,tiktok,youtube
+6	A	Clinic for the Rehabilitation of Wildlife (CROW)	FL	facebook,instagram,tiktok,x,youtube
+7	A	WildCare	CA	facebook,instagram,tiktok,youtube
+9	A	Southwest Virginia Wildlife Center of Roanoke	VA	facebook,instagram,tiktok,x,youtube
+10	A	San Diego Humane Society Project Wildlife	CA	facebook,instagram,tiktok,x,youtube
+11	A	California Wildlife Center	CA	facebook,instagram,tiktok,youtube
+12	A	Austin Wildlife Rescue	TX	facebook,instagram,tiktok,youtube
+13	A	PAWS Wildlife Center	WA	facebook,instagram,tiktok,x,youtube
+14	A	Greenwood Wildlife Rehabilitation Center	CO	facebook,instagram,tiktok,youtube
+15	A	South Florida Wildlife Center	FL	facebook,instagram,tiktok,youtube
+16	A	Pelican Harbor Seabird Station	FL	facebook,instagram,tiktok,youtube
+17	A	Florida Keys Wild Bird Center	FL	facebook,instagram,tiktok,youtube
+18	A	Florida Wildlife Hospital	FL	facebook,instagram,tiktok,youtube
+19	A	Busch Wildlife Sanctuary	FL	facebook,instagram,tiktok,youtube
+20	A	Carolina Raptor Center	NC	facebook,instagram,tiktok,x,youtube
+21	A	Carolina Wildlife Center	SC	facebook,instagram,tiktok,youtube
+22	A	New England Wildlife Center	MA	facebook,instagram,tiktok,youtube
+23	A	Cape Wildlife Center	MA	facebook,instagram,tiktok,youtube
+24	A	Center for Wildlife	ME	facebook,instagram,tiktok,youtube
+25	A	Wild Bird Fund	NY	facebook,instagram,tiktok,x,youtube
+26	B	The Raptor Trust	NJ	facebook,instagram,tiktok,youtube
+27	B	Tri-State Bird Rescue & Research	DE	facebook,instagram,tiktok,x,youtube
+28	B	Pacific Wildlife Care	CA	facebook,instagram,tiktok,youtube
+29	B	Santa Barbara Wildlife Care Network	CA	facebook,instagram,tiktok,youtube
+30	B	Wildlife Images Rehabilitation & Education Center	OR	facebook,instagram,tiktok,youtube
+31	B	Chintimini Wildlife Center	OR	facebook,instagram,tiktok,youtube
+32	B	Cascade Raptor Center	OR	facebook,instagram,tiktok,youtube
+33	B	Bird Alliance of Oregon Wildlife Care Center	OR	facebook,instagram,tiktok,youtube
+34	B	Sarvey Wildlife Care Center	WA	facebook,instagram,tiktok,youtube
+35	B	Liberty Wildlife	AZ	facebook,instagram,tiktok,x,youtube
+36	B	Southwest Wildlife Conservation Center	AZ	facebook,instagram,tiktok,x,youtube
+37	B	Tucson Wildlife Center	AZ	facebook,instagram,tiktok,youtube
+38	B	Southwest Wildlife Foundation of Utah / Enoch Wildlife Rescue	UT	facebook,instagram,tiktok,x,youtube
+39	B	Alaska Raptor Center	AK	facebook,instagram,tiktok,youtube
+40	B	Alaska SeaLife Center Wildlife Response	AK	facebook,instagram,tiktok,x,youtube
+41	B	Bird Treatment and Learning Center	AK	facebook,instagram,tiktok,youtube
+42	B	Teton Raptor Center	WY	facebook,instagram,tiktok,x,youtube
+43	B	Ohio Wildlife Center	OH	facebook,instagram,tiktok,youtube
+44	B	Back to the Wild	OH	facebook,instagram,tiktok,youtube
+45	B	Lake Erie Nature & Science Center Wildlife Rehabilitation	OH	facebook,instagram,tiktok,youtube
+46	B	Wildlife In Need Center	WI	facebook,instagram,tiktok,youtube
+47	B	Fellow Mortals Wildlife Hospital	WI	facebook,instagram
+48	B	Raptor Education Group, Inc. (REGI)	WI	facebook,instagram,tiktok,youtube
+49	B	Wild Instincts	WI	facebook,instagram,tiktok,youtube
+50	B	Dane County Humane Society Wildlife Center	WI	facebook,instagram,tiktok,youtube
+51	B	Willowbrook Wildlife Center	IL	facebook,instagram
