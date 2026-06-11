@@ -28,10 +28,28 @@ FORBIDDEN_PATTERNS=(
   "askoak\\.michaeloak"
 )
 
-# Paths to exclude — these are allowed to mention BRWC for handoff/coordination
-# purposes. Public site content (everything else) is not.
+# Paths to exclude — these are allowed to mention BRWC for legitimate reasons:
+#   - docs/handoff/ : architect/engineer coordination files (BRWC is named in
+#     cross-lane handoffs, scope notes, lane-discipline references).
+#   - docs/research/ : research appendices may cite published academic work that
+#     references real wildlife centers (e.g. McRuer 2017's Wildlife Center of
+#     Virginia citation in the cat-impact appendix).
+#   - wildlifestats/_wren/wildlife911/states/ : state-specific Wildlife911
+#     editions intentionally list local wildlife rehabilitation centers as
+#     referral recommendations. Virginia's edition recommends Blue Ridge
+#     Wildlife Center, Wildlife Center of Virginia, and SW VA Wildlife Center
+#     as legitimate Virginia rehab options for triage users. This is correct
+#     Virginia public-safety information, not BRWC content contamination.
+#     §19 prevents BRWC-as-source-of-WildlifeStats-content, NOT BRWC-as-a-
+#     Virginia-rehabilitation-referral.
+#   - The national template at wildlifestats/_wren/wildlife911/templates/
+#     national/ is BRWC-scrubbed and IS subject to the guard.
 EXCLUDE_PATHS=(
   "./docs/handoff/"
+  "./docs/research/"
+  "./wildlifestats/_wren/wildlife911/states/"
+  "./wildlifestats/_pipeline/sources/README.md"
+  "./.github/workflows/"
   "./scripts/check-no-brwc.sh"
   "./.git/"
   "./node_modules/"
@@ -45,7 +63,7 @@ for path in "${EXCLUDE_PATHS[@]}"; do
 done
 
 # Find all text files outside excluded paths.
-FILES=$(find . -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.json" -o -name "*.xml" -o -name "*.txt" -o -name "*.toml" \) "${FIND_ARGS[@]}")
+FILES=$(find . -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.json" -o -name "*.xml" -o -name "*.txt" -o -name "*.toml" -o -name "*.yaml" -o -name "*.yml" -o -name "*.md" \) "${FIND_ARGS[@]}")
 
 FAIL=0
 for pattern in "${FORBIDDEN_PATTERNS[@]}"; do
