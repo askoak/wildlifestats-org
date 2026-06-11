@@ -69,11 +69,10 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Alaska's only public aquarium and ocean wildlife rescue center; a world-class marine research, rehabilitation,
-    and education facility.
+  mission_excerpt: Alaska's only public aquarium and ocean wildlife rescue center; a world-class marine research, rehabilitation, and education facility.
   status: active
-  notes: MARINE MAMMAL SPECIALIST. The only year-round marine mammal and seabird rescue/rehabilitation facility in Alaska.
-    AZA-accredited. Responds to strandings of Steller sea lions, harbor seals, sea otters, and seabirds statewide.
+  notes: MARINE MAMMAL SPECIALIST. The only year-round marine mammal and seabird rescue/rehabilitation facility in Alaska. AZA-accredited. Responds to strandings of Steller sea lions, harbor seals, sea
+    otters, and seabirds statewide.
   source_urls:
   - https://alaskasealife.org
   - https://projects.propublica.org/nonprofits/organizations/920132479
@@ -125,11 +124,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Caring and advocating for Alaska's wild birds through rehabilitation, education, and outreach to ensure
-    they remain a vital part of Alaska's iconic landscape.
+  mission_excerpt: Caring and advocating for Alaska's wild birds through rehabilitation, education, and outreach to ensure they remain a vital part of Alaska's iconic landscape.
   status: active
-  notes: Alaska's primary avian rehabilitation center; treats bald eagles, seabirds, shorebirds, and passerines from throughout
-    southcentral and interior Alaska.
+  notes: Alaska's primary avian rehabilitation center; treats bald eagles, seabirds, shorebirds, and passerines from throughout southcentral and interior Alaska.
   source_urls:
   - https://www.birdtlc.org
   - https://projects.propublica.org/nonprofits/organizations/920130037
@@ -149,8 +146,8 @@
   emergency_hotline: 205-663-7930 ext. 1
   intake_address: 100 Terrace Dr, Oak Mountain State Park, Pelham, AL 35124
   intake_hours: Bird Admission 11am–4pm; Visitors 9am–5pm; open every day
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://alabamawildlifecenter.org/newsletters/
+  newsletter_signup_url: https://alabamawildlifecenter.org/newsletters/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -193,7 +190,7 @@
   state: AL
   city: Auburn
   county_fips: 01081
-  ein: ''
+  ein: not_501c3
   primary_url: https://www.vetmed.auburn.edu/raptor/
   wildlife_help_url: https://www.vetmed.auburn.edu/raptor/about/
   about_url: https://www.vetmed.auburn.edu/raptor/history/
@@ -235,13 +232,13 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Five decades of raptor rehabilitation and release at Auburn University College of Veterinary Medicine;
-    accepts raptors from Alabama only.
+  mission_excerpt: Five decades of raptor rehabilitation and release at Auburn University College of Veterinary Medicine; accepts raptors from Alabama only.
   status: active
-  notes: University program, not independent 501(c)(3). Accepts injured/orphaned raptors from Alabama only with prior phone
-    authorization.
+  notes: University program, not independent 501(c)(3). Accepts injured/orphaned raptors from Alabama only with prior phone authorization.
   source_urls:
   - https://www.vetmed.auburn.edu/raptor/
+  ein_resolution_note: Auburn University is a public land-grant university (EIN 63-6001138 for the Auburn University Foundation). The Raptor Center is an academic program of the College of Veterinary Medicine,
+    not an indepe
 - slug: central-arkansas-wildlife-rehabilitation
   legal_name: Central Arkansas Wildlife Rehabilitation, Inc.
   common_name: Central Arkansas Wildlife Rehab
@@ -346,8 +343,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Nurturing the nature of Arizona through quality wildlife rehabilitation, environmental education, and conservation
-    services for the community.
+  mission_excerpt: Nurturing the nature of Arizona through quality wildlife rehabilitation, environmental education, and conservation services for the community.
   status: active
   notes: Arizona's largest general wildlife rehabilitation center; serves the greater Phoenix metropolitan area.
   source_urls:
@@ -401,8 +397,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Rescues Arizona native wild mammals that have lost their homes to development or are found injured in the
-    Sonoran Desert.
+  mission_excerpt: Rescues Arizona native wild mammals that have lost their homes to development or are found injured in the Sonoran Desert.
   status: active
   notes: Mammal-specialist facility focusing on native Arizona mammals; permanent sanctuary for non-releasable wildlife.
   source_urls:
@@ -481,7 +476,7 @@
   news_or_blog_url: ''
   newsletter_signup_url: ''
   patient_stories_url: ''
-  annual_reports_url: ''
+  annual_reports_url: https://www.birdrescuecenter.org/annual-reports-publications/
   most_recent_annual_report_pdf: ''
   social:
     facebook: ''
@@ -510,8 +505,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: The only wildlife organization in Sonoma County dedicated to all species of native wild birds; rescues,
-    rehabilitates, and releases nearly 3,000 birds annually.
+  mission_excerpt: The only wildlife organization in Sonoma County dedicated to all species of native wild birds; rescues, rehabilitates, and releases nearly 3,000 birds annually.
   status: active
   notes: Bird-only facility serving Sonoma County.
   source_urls:
@@ -619,8 +613,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: All-volunteer, non-profit organization dedicated to caring for orphaned and injured native wildlife in
-    the Central Valley.
+  mission_excerpt: All-volunteer, non-profit organization dedicated to caring for orphaned and injured native wildlife in the Central Valley.
   status: active
   notes: Primary wildlife rehab organization for Fresno and surrounding Central Valley counties.
   source_urls:
@@ -686,7 +679,7 @@
   state: CA
   city: Bayside
   county_fips: '06023'
-  ein: unknown
+  ein: 27-2811727
   primary_url: https://humboldtwildlifecare.org
   wildlife_help_url: https://humboldtwildlifecare.org/injured-wildlife/
   about_url: https://humboldtwildlifecare.org/about/
@@ -782,11 +775,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: International Bird Rescue operates two year-round California aquatic bird rescue centers — San Pedro and
-    Fairfield — specializing in seabirds and waterbirds.
+  mission_excerpt: International Bird Rescue operates two year-round California aquatic bird rescue centers — San Pedro and Fairfield — specializing in seabirds and waterbirds.
   status: active
-  notes: Internationally recognized leader in aquatic bird rehabilitation. Also responds to oil spills globally. Southern
-    CA facility at San Pedro (Los Angeles Harbor). Northern CA facility in Fairfield.
+  notes: Internationally recognized leader in aquatic bird rehabilitation. Also responds to oil spills globally. Southern CA facility at San Pedro (Los Angeles Harbor). Northern CA facility in Fairfield.
   source_urls:
   - https://www.birdrescue.org
   - https://projects.propublica.org/nonprofits/organizations/941739027
@@ -838,8 +829,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Giving mother nature a helping hand by raising and rehabilitating orphaned and injured wildlife so they
-    may be released back to the wild.
+  mission_excerpt: Giving mother nature a helping hand by raising and rehabilitating orphaned and injured wildlife so they may be released back to the wild.
   status: active
   notes: Serves the Lake Tahoe basin on both CA and NV sides. Experienced a brief permit lapse 2022.
   source_urls:
@@ -969,8 +959,8 @@
   emergency_hotline: (831) 462-0726
   intake_address: 2882 Soquel Ave, Santa Cruz, CA 95062
   intake_hours: ''
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://nativeanimalrescue.org/category/news/
+  newsletter_signup_url: https://nativeanimalrescue.org/category/news/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -1055,8 +1045,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: State and federally permitted 501(c)(3) nonprofit dedicated to the rescue, rehabilitation, and release
-    of raptors in the Ventura County region.
+  mission_excerpt: State and federally permitted 501(c)(3) nonprofit dedicated to the rescue, rehabilitation, and release of raptors in the Ventura County region.
   status: active
   notes: Raptor-specialist facility serving Ventura and Santa Barbara counties.
   source_urls:
@@ -1164,8 +1153,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Grassroots non-profit 501(c)(3) dedicated to providing the best possible care to injured and abandoned
-    wildlife in South Orange County.
+  mission_excerpt: Grassroots non-profit 501(c)(3) dedicated to providing the best possible care to injured and abandoned wildlife in South Orange County.
   status: active
   notes: Serves South Orange County and the Laguna Beach area.
   source_urls:
@@ -1219,11 +1207,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Caring for San Diego's wild animals; the largest wildlife rehabilitation program in Southern California,
-    operated by San Diego Humane Society.
+  mission_excerpt: Caring for San Diego's wild animals; the largest wildlife rehabilitation program in Southern California, operated by San Diego Humane Society.
   status: active
-  notes: One of the largest wildlife rehabilitation programs in the US by intake. Operates multiple drop-off locations including
-    a dedicated campus in Ramona.
+  notes: One of the largest wildlife rehabilitation programs in the US by intake. Operates multiple drop-off locations including a dedicated campus in Ramona.
   source_urls:
   - https://sdhumane.org/programs/project-wildlife/
   - https://projects.propublica.org/nonprofits/organizations/951661688
@@ -1233,7 +1219,7 @@
   state: CA
   city: Petaluma
   county_fips: 06097
-  ein: unknown
+  ein: 94-2759874
   primary_url: https://scwildliferescue.org
   wildlife_help_url: https://scwildliferescue.org/found-an-animal/
   about_url: https://scwildliferescue.org/about/
@@ -1275,8 +1261,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Dedicated to the rescue, rehabilitation, and release of sick, injured, and orphaned wildlife in Sonoma
-    County.
+  mission_excerpt: Dedicated to the rescue, rehabilitation, and release of sick, injured, and orphaned wildlife in Sonoma County.
   status: active
   notes: Serves Sonoma County; staffed by dedicated team of staff and volunteers.
   source_urls:
@@ -1329,11 +1314,10 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: The Marine Mammal Center advances ocean health through marine mammal rescue and rehabilitation, research,
-    and education.
+  mission_excerpt: The Marine Mammal Center advances ocean health through marine mammal rescue and rehabilitation, research, and education.
   status: active
-  notes: MARINE MAMMAL SPECIALIST. World's largest marine mammal hospital; rescues sea lions, harbor seals, elephant seals,
-    and other marine mammals along the Pacific Coast. Also operates satellite facilities in Hawaii and on the Farallon Islands.
+  notes: MARINE MAMMAL SPECIALIST. World's largest marine mammal hospital; rescues sea lions, harbor seals, elephant seals, and other marine mammals along the Pacific Coast. Also operates satellite facilities
+    in Hawaii and on the Farallon Islands.
   source_urls:
   - https://www.marinemammalcenter.org
   - https://projects.propublica.org/nonprofits/organizations/510144434
@@ -1439,8 +1423,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: WildCare is here to help as human habitation continues to expand into the wild places that surround us,
-    helping people and wildlife increasingly coexist.
+  mission_excerpt: WildCare is here to help as human habitation continues to expand into the wild places that surround us, helping people and wildlife increasingly coexist.
   status: active
   notes: Marin County's primary wildlife hospital; underwent major facility renovation 2023–2024.
   source_urls:
@@ -1496,8 +1479,7 @@
     medical_director: ''
   mission_excerpt: Rescue, rehabilitation, and release of native Silicon Valley wildlife.
   status: active
-  notes: Now operated under the Peninsula Humane Society & SPCA umbrella since late 2025. Still operates at same San Jose
-    location.
+  notes: Now operated under the Peninsula Humane Society & SPCA umbrella since late 2025. Still operates at same San Jose location.
   source_urls:
   - https://wcsv.org
   - https://projects.propublica.org/nonprofits/organizations/770378066
@@ -1603,8 +1585,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: 501(c)(3) nonprofit dedicated to the rehabilitation and release of injured and orphaned raptors in the
-    Colorado Front Range; over 600 birds per year.
+  mission_excerpt: 501(c)(3) nonprofit dedicated to the rehabilitation and release of injured and orphaned raptors in the Colorado Front Range; over 600 birds per year.
   status: active
   notes: Raptor-specialist facility serving the Denver/Boulder metropolitan area.
   source_urls:
@@ -1626,8 +1607,8 @@
   emergency_hotline: (303) 823-8455
   intake_address: 5854 Ute Hwy, Longmont, CO 80503
   intake_hours: Daily 9am–6pm
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://www.greenwoodwildlife.org/news/
+  newsletter_signup_url: https://www.greenwoodwildlife.org/news/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -1680,8 +1661,8 @@
   emergency_hotline: (303) 680-8500
   intake_address: Castle Rock, CO 80108
   intake_hours: ''
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://www.usaref.org/rc-archives/
+  newsletter_signup_url: https://www.usaref.org/rc-archives/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -1712,8 +1693,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Colorado's first and oldest raptor sanctuary, supporting Denver's nesting peregrine falcons and rehabilitating
-    injured raptors.
+  mission_excerpt: Colorado's first and oldest raptor sanctuary, supporting Denver's nesting peregrine falcons and rehabilitating injured raptors.
   status: active
   notes: Colorado's oldest raptor rehabilitation organization. Notable for supporting Denver's peregrine falcon nesting populations.
   source_urls:
@@ -1734,8 +1714,8 @@
   emergency_hotline: (970) 484-7756
   intake_address: Colorado State University, Fort Collins, CO 80523
   intake_hours: ''
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://www.rmrp.org/category/news/
+  newsletter_signup_url: https://www.rmrp.org/category/news/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -1766,8 +1746,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Inspiring the protection and conservation of raptors and the environment through excellence in rehabilitation,
-    education, and research at Colorado State University.
+  mission_excerpt: Inspiring the protection and conservation of raptors and the environment through excellence in rehabilitation, education, and research at Colorado State University.
   status: active
   notes: University-affiliated raptor rehabilitation program at Colorado State University; serves northern Colorado.
   source_urls:
@@ -1824,11 +1803,10 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: State and federally licensed wildlife rehabilitation facility in Connecticut treating hundreds of sick,
-    injured, and orphaned birds and other wildlife every year with the goal of releasing them back into the wild.
+  mission_excerpt: State and federally licensed wildlife rehabilitation facility in Connecticut treating hundreds of sick, injured, and orphaned birds and other wildlife every year with the goal of releasing
+    them back into the wild.
   status: active
-  notes: Part of National Audubon Society's Sharon Center. Litchfield County, CT. Bird-focused rehabilitation. Not a 24-hour
-    emergency service. EIN belongs to national Audubon Society.
+  notes: Part of National Audubon Society's Sharon Center. Litchfield County, CT. Bird-focused rehabilitation. Not a 24-hour emergency service. EIN belongs to national Audubon Society.
   source_urls:
   - https://www.audubon.org/sharon/explore/wildlife-rehabilitation-clinic
 - slug: city-wildlife
@@ -1883,11 +1861,10 @@
   leadership:
     executive_director: Lorraine Docherty, PhD
     medical_director: Bryan Vorbach, VMD (volunteer)
-  mission_excerpt: Protects and advocates for wildlife and wildlife habitat through rehabilitation for release, public education,
-    and community engagement. Only wildlife rehabilitation organization in Washington, DC. Founded 2013.
+  mission_excerpt: Protects and advocates for wildlife and wildlife habitat through rehabilitation for release, public education, and community engagement. Only wildlife rehabilitation organization in Washington,
+    DC. Founded 2013.
   status: active
-  notes: Only wildlife rehab center in DC. Founded 2007 by Anne Lewis and Jim Monsma; opened 2013. 1,857 animals / 121 species
-    treated (2024). Operates Lights Out DC and Duck Watch programs. Budget $500k–$1M.
+  notes: Only wildlife rehab center in DC. Founded 2007 by Anne Lewis and Jim Monsma; opened 2013. 1,857 animals / 121 species treated (2024). Operates Lights Out DC and Duck Watch programs. Budget $500k–$1M.
   source_urls:
   - https://citywildlife.org/about/
   - https://citywildlife.org/wp-content/uploads/Annual-Report-2025.pdf
@@ -1944,12 +1921,11 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: To achieve excellence in the rehabilitation of injured, orphaned, and oiled native wild birds, with the
-    goal of returning healthy birds to their natural environment. Leading oiled-bird response organization.
+  mission_excerpt: To achieve excellence in the rehabilitation of injured, orphaned, and oiled native wild birds, with the goal of returning healthy birds to their natural environment. Leading oiled-bird
+    response organization.
   status: active
-  notes: Founded 1976; incorporated 1982. Annual operating budget ~$1.8M; total assets ~$11.1M. Bird-only facility. National
-    leader in oiled waterbird rehabilitation; volunteer transport network covers PA and MD. Serves Delaware, SE Pennsylvania,
-    and northern Maryland.
+  notes: Founded 1976; incorporated 1982. Annual operating budget ~$1.8M; total assets ~$11.1M. Bird-only facility. National leader in oiled waterbird rehabilitation; volunteer transport network covers
+    PA and MD. Serves Delaware, SE Pennsylvania, and northern Maryland.
   source_urls:
   - https://tristatebird.org
   - https://www.causeiq.com/organizations/tri-state-bird-rescue-and-research,510265807/
@@ -2002,8 +1978,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Established 1979; focuses on rescue, rehabilitation, and conservation of Florida's raptors. Program of
-    Florida Audubon Society.
+  mission_excerpt: Established 1979; focuses on rescue, rehabilitation, and conservation of Florida's raptors. Program of Florida Audubon Society.
   status: active
   notes: Operated under Florida Audubon Society (EIN 59-0245495). Located near Orlando.
   source_urls:
@@ -2113,8 +2088,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Dedicated to saving wildlife through state-of-the-art veterinary care, research, education, and conservation
-    medicine.
+  mission_excerpt: Dedicated to saving wildlife through state-of-the-art veterinary care, research, education, and conservation medicine.
   status: active
   notes: Teaching hospital and visitor education center. One of the largest wildlife hospitals in the US.
   source_urls:
@@ -2193,7 +2167,7 @@
   news_or_blog_url: ''
   newsletter_signup_url: ''
   patient_stories_url: ''
-  annual_reports_url: ''
+  annual_reports_url: https://floridawildlifehospital.org/publications/
   most_recent_annual_report_pdf: ''
   social:
     facebook: ''
@@ -2222,8 +2196,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Nonprofit dedicated to care and conservation of native wildlife and habitat through rehabilitation, education,
-    and study.
+  mission_excerpt: Nonprofit dedicated to care and conservation of native wildlife and habitat through rehabilitation, education, and study.
   status: active
   notes: Listed as Melbourne in ProPublica; floridawildlifecare.org copyright 2004-2007, may have limited web presence.
   source_urls:
@@ -2439,8 +2412,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Miami's premier native wildlife hospital dedicated to improving the lives of sick, injured, and orphaned
-    native wildlife.
+  mission_excerpt: Miami's premier native wildlife hospital dedicated to improving the lives of sick, injured, and orphaned native wildlife.
   status: active
   notes: Founded 1980. Miami-Dade and Broward service area.
   source_urls:
@@ -2494,8 +2466,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Non-profit wildlife conservation and education organization dedicated to rescue and rehabilitation of sick
-    and injured birds.
+  mission_excerpt: Non-profit wildlife conservation and education organization dedicated to rescue and rehabilitation of sick and injured birds.
   status: active
   notes: Located on former site of The Pelican Man's Bird Sanctuary on City Island, Sarasota. ~100 resident birds.
   source_urls:
@@ -2549,8 +2520,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Founded 1969. Highest-volume wildlife care facility in Florida treating nearly 8,000 animals/year from
-    ~250 species.
+  mission_excerpt: Founded 1969. Highest-volume wildlife care facility in Florida treating nearly 8,000 animals/year from ~250 species.
   status: active
   notes: Independently operated 501(c)(3); not affiliated with any government or humane agency.
   source_urls:
@@ -2604,8 +2574,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Non-profit dedicated to conservation of native wildlife in north Florida through rescue, rehabilitation,
-    and education.
+  mission_excerpt: Non-profit dedicated to conservation of native wildlife in north Florida through rescue, rehabilitation, and education.
   status: active
   notes: Serves north Florida (Leon County area).
   source_urls:
@@ -2659,8 +2628,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: One of the largest wild bird hospitals in the world, dedicated to the rescue and rehabilitation of injured
-    birds.
+  mission_excerpt: One of the largest wild bird hospitals in the world, dedicated to the rescue and rehabilitation of injured birds.
   status: active
   notes: Founded 1971 by Ralph Heath. Pinellas County. Underwent significant restructuring ~2017-2019.
   source_urls:
@@ -2713,8 +2681,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Saving wildlife since 2004. 24/7 emergency intake. 70,000+ total animals rehabilitated. Zero government
-    funding.
+  mission_excerpt: Saving wildlife since 2004. 24/7 emergency intake. 70,000+ total animals rehabilitated. Zero government funding.
   status: active
   notes: Serves Manatee, Sarasota, Charlotte, and Lee Counties. Also known as WildlifeSWFL.
   source_urls:
@@ -2735,8 +2702,8 @@
   emergency_hotline: ''
   intake_address: Christmas, FL (Orange County)
   intake_hours: ''
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://www.wildlifecenterflorida.org/news-letters/
+  newsletter_signup_url: https://www.wildlifecenterflorida.org/news-letters/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -2952,8 +2919,8 @@
   emergency_hotline: (808) 884-5000
   intake_address: 53-324 Lighthouse Road, Kapa'au, HI 96755
   intake_hours: Mon–Sun 9am–5pm
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://www.hawaiiwildlifecenter.org/april-2026-newsletter.html
+  newsletter_signup_url: https://www.hawaiiwildlifecenter.org/april-2026-newsletter.html
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -2984,12 +2951,11 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Providing emergency response, medical and rehabilitative care for native birds and bats statewide in Hawaii,
-    alongside conservation programs creating a community where native wildlife thrive.
+  mission_excerpt: Providing emergency response, medical and rehabilitative care for native birds and bats statewide in Hawaii, alongside conservation programs creating a community where native wildlife
+    thrive.
   status: active
-  notes: USFWS permit MB53007A; DLNR DOFAW permit 240503114849-OTH. Operating since 2012. Serves all islands including responding
-    to seabird fallout events. Treats critically endangered Hawaiian species. AZA partner. The Marine Mammal Center also operates
-    a satellite facility on Hawaii Island in Kona for monk seal rescue.
+  notes: USFWS permit MB53007A; DLNR DOFAW permit 240503114849-OTH. Operating since 2012. Serves all islands including responding to seabird fallout events. Treats critically endangered Hawaiian species.
+    AZA partner. The Marine Mammal Center also operates a satellite facility on Hawaii Island in Kona for monk seal rescue.
   source_urls:
   - https://www.hawaiiwildlifecenter.org
   - https://www.hawaiiwildlifecenter.org/hours-directions.html
@@ -3044,8 +3010,7 @@
     medical_director: ''
   mission_excerpt: Rescue, rehabilitate, and release injured and orphaned wild birds across Iowa.
   status: active
-  notes: Birds only. Revenue ~$279K (FY2024). Home-based urban operation in Des Moines. Runs annual garage sale fundraiser.
-    Separate from Iowa Wildlife Center.
+  notes: Birds only. Revenue ~$279K (FY2024). Home-based urban operation in Des Moines. Runs annual garage sale fundraiser. Separate from Iowa Wildlife Center.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/825080219
   - https://www.causeiq.com/organizations/iowa-bird-rehabilitation,825080219/
@@ -3101,8 +3066,7 @@
     medical_director: Derrick Grimmer, PhD
   mission_excerpt: Wildlife rehabilitation in central Iowa, providing care for injured and orphaned native wildlife.
   status: active
-  notes: Revenue ~$322K (FY2023). Website does not load; verify active status. Received $240K grant from Margaret Ruth Boys
-    Charitable Foundation. Located in Poweshiek County (Grinnell area).
+  notes: Revenue ~$322K (FY2023). Website does not load; verify active status. Received $240K grant from Margaret Ruth Boys Charitable Foundation. Located in Poweshiek County (Grinnell area).
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/261886495
   - https://www.causeiq.com/organizations/iowa-wildlife-center,261886495/
@@ -3112,7 +3076,7 @@
   state: ID
   city: St. Maries
   county_fips: '16079'
-  ein: unknown
+  ein: 35-1900474
   primary_url: https://www.birdsofpreynorthwest.org
   wildlife_help_url: https://www.birdsofpreynorthwest.org/injured-bird/
   about_url: https://www.birdsofpreynorthwest.org/about/
@@ -3207,11 +3171,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Caring for Idaho's orphaned and injured wildlife since 1987 through Animals In Distress Association and
-    its avian branch, the Ruth Melichar Bird Center.
+  mission_excerpt: Caring for Idaho's orphaned and injured wildlife since 1987 through Animals In Distress Association and its avian branch, the Ruth Melichar Bird Center.
   status: active
-  notes: 'Primary general wildlife hospital for the Treasure Valley / Boise area. Operating since 1987. EIN per ProPublica:
-    Animals in Distress Association Inc.'
+  notes: 'Primary general wildlife hospital for the Treasure Valley / Boise area. Operating since 1987. EIN per ProPublica: Animals in Distress Association Inc.'
   source_urls:
   - https://www.idahowildliferescue.org
   - https://projects.propublica.org/nonprofits/organizations/820418179
@@ -3264,11 +3226,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Volunteer conservation project dedicated to the protection of migratory birds through rescue, advocacy
-    and outreach in downtown Chicago.
+  mission_excerpt: Volunteer conservation project dedicated to the protection of migratory birds through rescue, advocacy and outreach in downtown Chicago.
   status: active
-  notes: Focuses on window-collision rescue of migratory songbirds in Chicago Loop/lakefront each spring and fall. EIN confirmed
-    from fundraising profiles.
+  notes: Focuses on window-collision rescue of migratory songbirds in Chicago Loop/lakefront each spring and fall. EIN confirmed from fundraising profiles.
   source_urls:
   - https://www.birdmonitors.net
   - https://www.birdmonitors.net/SupportUs.php
@@ -3278,7 +3238,7 @@
   state: IL
   city: Glen Ellyn
   county_fips: '17043'
-  ein: ''
+  ein: not_501c3
   primary_url: https://www.dupageforest.org/places-to-go/centers/wildlife-conservation
   wildlife_help_url: https://www.dupageforest.org/places-to-go/centers/wildlife-conservation
   about_url: https://www.dupageforest.org/places-to-go/centers/wildlife-conservation
@@ -3321,13 +3281,13 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Provides care and medical treatment to injured, orphaned, and sick native wild animals with the goal of
-    rehabilitation and release.
+  mission_excerpt: Provides care and medical treatment to injured, orphaned, and sick native wild animals with the goal of rehabilitation and release.
   status: active
-  notes: Successor to Willowbrook Wildlife Center; government agency (Forest Preserve District), no separate 501(c)(3)/EIN.
-    Call before arriving. Received $2M capital investment for new facility.
+  notes: Successor to Willowbrook Wildlife Center; government agency (Forest Preserve District), no separate 501(c)(3)/EIN. Call before arriving. Received $2M capital investment for new facility.
   source_urls:
   - https://www.dupageforest.org/places-to-go/centers/wildlife-conservation
+  ein_resolution_note: 'The Forest Preserve District of DuPage County is a unit of Illinois local government (a special-purpose taxing district), not a 501(c)(3) nonprofit. The Wildlife Conservation Center
+    at Willowbrook is '
 - slug: flint-creek-wildlife-rehabilitation
   legal_name: Flint Creek Wildlife Rehabilitation
   common_name: Flint Creek Wildlife
@@ -3432,11 +3392,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Providing rescue guidance, medical treatment, and rehabilitation for injured and orphaned animals throughout
-    the Fox Valley region.
+  mission_excerpt: Providing rescue guidance, medical treatment, and rehabilitation for injured and orphaned animals throughout the Fox Valley region.
   status: active
-  notes: ProPublica shows most recent filing FY2018 (~$166K revenue); operates through Animal House Shelter (AHConnects).
-    Verify active status. Phone from AHConnects wildlife page.
+  notes: ProPublica shows most recent filing FY2018 (~$166K revenue); operates through Animal House Shelter (AHConnects). Verify active status. Phone from AHConnects wildlife page.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/364358670
   - https://ahconnects.org/wildlife-2/
@@ -3489,11 +3447,9 @@
   leadership:
     executive_director: D. Jane Seitz
     medical_director: Jacques Nuzzo
-  mission_excerpt: Ensures the well-being of native animals through wildlife rehabilitation; increases conservation awareness;
-    contributes expertise to conservation partners.
+  mission_excerpt: Ensures the well-being of native animals through wildlife rehabilitation; increases conservation awareness; contributes expertise to conservation partners.
   status: active
-  notes: 25-acre wildlife rehabilitation facility on Sangamon River west of Decatur. Revenue ~$145K (FY2024). Website appears
-    inactive/down; verify current status.
+  notes: 25-acre wildlife rehabilitation facility on Sangamon River west of Decatur. Revenue ~$145K (FY2024). Website appears inactive/down; verify current status.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/371287919
   - https://www.causeiq.com/organizations/illinois-raptor-center,371287919/
@@ -3504,7 +3460,7 @@
   state: IL
   city: Loves Park
   county_fips: '17201'
-  ein: ''
+  ein: 27-0170561
   primary_url: https://www.northernillinoisraptor.org
   wildlife_help_url: https://www.northernillinoisraptor.org
   about_url: ''
@@ -3549,8 +3505,7 @@
     medical_director: ''
   mission_excerpt: Raptor rescue, rehabilitation, and education in northern Illinois.
   status: active
-  notes: EIN not found in ProPublica/CauseIQ under this name; may operate as DBA or very small filer. Based in Rockford metro
-    area (Winnebago County). Has PayPal fundraiser account. Verify 501c3 status.
+  notes: EIN not found in ProPublica/CauseIQ under this name; may operate as DBA or very small filer. Based in Rockford metro area (Winnebago County). Has PayPal fundraiser account. Verify 501c3 status.
   source_urls:
   - https://www.northernillinoisraptor.org
   - https://www.facebook.com/NorthernIllinoisRaptor/
@@ -3603,11 +3558,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: 501(c)(3) nonprofit established in 1979 dedicated to the rescue, rehabilitation, and release of native
-    wildlife while promoting environmental awareness through education.
+  mission_excerpt: 501(c)(3) nonprofit established in 1979 dedicated to the rescue, rehabilitation, and release of native wildlife while promoting environmental awareness through education.
   status: active
-  notes: 8.5-acre facility between Alton and Grafton, IL. One of Illinois' oldest wildlife rehab orgs (est. 1979). Serves
-    central and southern Illinois. Revenue ~$201K (FY2024).
+  notes: 8.5-acre facility between Alton and Grafton, IL. One of Illinois' oldest wildlife rehab orgs (est. 1979). Serves central and southern Illinois. Revenue ~$201K (FY2024).
   source_urls:
   - https://www.causeiq.com/organizations/treehouse-wildlife-center,371093617/
   - https://www.treehousewildlifecenter.com
@@ -3662,8 +3615,7 @@
     medical_director: ''
   mission_excerpt: Wildlife Rehabilitation and Education Center preserves and protects native wildlife from 26 Indiana counties.
   status: active
-  notes: Wildlife component on Valparaiso property acquired 2014; serves 26 Indiana counties. Separate from main shelter in
-    Munster. ProPublica filing for Humane Indiana Inc. umbrella org.
+  notes: Wildlife component on Valparaiso property acquired 2014; serves 26 Indiana counties. Separate from main shelter in Munster. ProPublica filing for Humane Indiana Inc. umbrella org.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/350895837
   - https://www.humaneindiana.org/wildlife-about
@@ -3719,8 +3671,7 @@
     medical_director: ''
   mission_excerpt: A hospital for birds of prey in the hills of Brown County, Indiana.
   status: active
-  notes: Raptors only; accepts injured/orphaned birds of prey 24/7 by phone. Located in scenic Brown County in south-central
-    Indiana.
+  notes: Raptors only; accepts injured/orphaned birds of prey 24/7 by phone. Located in scenic Brown County in south-central Indiana.
   source_urls:
   - https://www.indianaraptorcenter.com/contact/
   - https://www.indianaraptorcenter.com
@@ -3773,11 +3724,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Providing guidance and rescue help for orphaned, injured, or ill wildlife and giving them the care they
-    need to return to the wild.
+  mission_excerpt: Providing guidance and rescue help for orphaned, injured, or ill wildlife and giving them the care they need to return to the wild.
   status: active
-  notes: Founded 2024 as formal nonprofit; predecessor Avian & Exotic Animal Clinic provided 30 years pro bono wildlife care.
-    Over 1,100 patients in first year. EIN from Impala/CharityNavigator profile.
+  notes: Founded 2024 as formal nonprofit; predecessor Avian & Exotic Animal Clinic provided 30 years pro bono wildlife care. Over 1,100 patients in first year. EIN from Impala/CharityNavigator profile.
   source_urls:
   - https://impala.digital/public/profiles/92-0813045/overview
   - https://www.rewildingindiana.org/about-us
@@ -3830,12 +3779,10 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Provides rehabilitation and veterinary services to injured and orphaned wild animals in the Kansas City
-    metro and surrounding communities in northeast Kansas.
+  mission_excerpt: Provides rehabilitation and veterinary services to injured and orphaned wild animals in the Kansas City metro and surrounding communities in northeast Kansas.
   status: active
-  notes: Founded 1989. Largest publicly funded wildlife rehabilitation in Kansas per KDWPT statistics. 4,000-sq-ft facility
-    with surgical suite, laboratory, isolation room, flight pens, outdoor enclosures. Release rate averages 69% (vs 49% national
-    average). Annual revenue ~$540K. Covers 5,000 sq miles in NE Kansas. Tax-exempt since April 1994.
+  notes: Founded 1989. Largest publicly funded wildlife rehabilitation in Kansas per KDWPT statistics. 4,000-sq-ft facility with surgical suite, laboratory, isolation room, flight pens, outdoor enclosures.
+    Release rate averages 69% (vs 49% national average). Annual revenue ~$540K. Covers 5,000 sq miles in NE Kansas. Tax-exempt since April 1994.
   source_urls:
   - https://owl-online.org
   - https://getholdings.com/nonprofits/ein/481078633
@@ -3890,8 +3837,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Native Kentucky wildlife mammal rehabilitation; licensed 2017, became 501(c)(3) 2019. 100% volunteer, no
-    government funding.
+  mission_excerpt: Native Kentucky wildlife mammal rehabilitation; licensed 2017, became 501(c)(3) 2019. 100% volunteer, no government funding.
   status: active
   notes: Harrison County. Focuses on native wild mammals of all ages and species. ~90% of intakes are newborns/young.
   source_urls:
@@ -4022,8 +3968,8 @@
   emergency_hotline: (985) 630-1009
   intake_address: 24 Holly Dr, Covington, LA 70435
   intake_hours: M–F 9am–5:30pm, Sat 9am–1pm
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://clearwatersanctuary.org/wp-content/uploads/2022/10/June-2022-newsletter.pdf
+  newsletter_signup_url: https://clearwatersanctuary.org/wp-content/uploads/2022/10/June-2022-newsletter.pdf
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -4055,8 +4001,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: 501(c)(3) sanctuary on 100 acres rehabilitating injured and orphaned Louisiana wildlife. In service since
-    1989.
+  mission_excerpt: 501(c)(3) sanctuary on 100 acres rehabilitating injured and orphaned Louisiana wildlife. In service since 1989.
   status: active
   notes: St. Tammany Parish. Works in conjunction with Abita Veterinary Clinic. Spring-fed river setting.
   source_urls:
@@ -4168,12 +4113,11 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: Two non-profit wildlife veterinary hospitals and education centers in Massachusetts (Weymouth + Barnstable/Cape
-    Cod) providing veterinary and rehabilitative care to sick, injured, and orphaned wild animals.
+  mission_excerpt: Two non-profit wildlife veterinary hospitals and education centers in Massachusetts (Weymouth + Barnstable/Cape Cod) providing veterinary and rehabilitative care to sick, injured, and
+    orphaned wild animals.
   status: active
-  notes: 'Annual revenue ~$30.8M; assets ~$38.6M (large for regional rehab; includes veterinary hospital services beyond just
-    wildlife). Dual-location: South Weymouth and Barnstable. Federal license for raptors, eagles, and all bird species. Instagram:
-    @theoddpetvet.'
+  notes: 'Annual revenue ~$30.8M; assets ~$38.6M (large for regional rehab; includes veterinary hospital services beyond just wildlife). Dual-location: South Weymouth and Barnstable. Federal license for
+    raptors, eagles, and all bird species. Instagram: @theoddpetvet.'
   source_urls:
   - https://www.newildlife.org
   - https://www.newildlife.org/finances-and-policies/
@@ -4230,12 +4174,11 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: State and federally licensed wildlife clinic at the Cummings School of Veterinary Medicine, treating injured
-    wildlife (injured animals only — does NOT accept healthy orphaned or abandoned animals). 2025 was a record-setting year.
+  mission_excerpt: State and federally licensed wildlife clinic at the Cummings School of Veterinary Medicine, treating injured wildlife (injured animals only — does NOT accept healthy orphaned or abandoned
+    animals). 2025 was a record-setting year.
   status: active
-  notes: Does NOT accept healthy baby animals or those who are orphaned/abandoned — only injured animals. Part of Tufts University
-    veterinary school. EIN belongs to Tufts University; Cummings School EIN commonly listed as 04-2103547. Teaching/research
-    clinic.
+  notes: Does NOT accept healthy baby animals or those who are orphaned/abandoned — only injured animals. Part of Tufts University veterinary school. EIN belongs to Tufts University; Cummings School EIN
+    commonly listed as 04-2103547. Teaching/research clinic.
   source_urls:
   - https://vet.tufts.edu/tufts-wildlife-clinic
 - slug: phoenix-wildlife-center
@@ -4289,11 +4232,10 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: 501(c)(3) tax-exempt, non-profit organization dedicated to the rehabilitation and return to the wild of
-    native birds, mammals, and reptiles, and to the education of the public on wildlife issues. Founded 1992.
+  mission_excerpt: 501(c)(3) tax-exempt, non-profit organization dedicated to the rehabilitation and return to the wild of native birds, mammals, and reptiles, and to the education of the public on wildlife
+    issues. Founded 1992.
   status: active
-  notes: All-volunteer staff. No charge for services. Appointment required for drop-off. ~10 miles north of Towson, MD. EIN
-    confirmed via ProPublica (52-1891740).
+  notes: All-volunteer staff. No charge for services. Appointment required for drop-off. ~10 miles north of Towson, MD. EIN confirmed via ProPublica (52-1891740).
   source_urls:
   - https://www.phoenixwildlife.org
   - https://projects.propublica.org/nonprofits/organizations/521891740
@@ -4314,7 +4256,7 @@
   intake_address: Gaithersburg, MD (Montgomery County)
   intake_hours: Monday–Sunday 10:00am – 4:00pm
   news_or_blog_url: https://www.scwc.org/news
-  newsletter_signup_url: unknown
+  newsletter_signup_url: https://www.scwc.org/news/
   patient_stories_url: unknown
   annual_reports_url: unknown
   most_recent_annual_report_pdf: unknown
@@ -4350,11 +4292,10 @@
   leadership:
     executive_director: Maureen Smith (Staff President)
     medical_director: unknown
-  mission_excerpt: Independent 501(c)(3) non-profit facility providing skilled and compassionate emergency treatment and long-term
-    rehabilitative care to injured, ill, and orphaned wildlife since 1995.
+  mission_excerpt: Independent 501(c)(3) non-profit facility providing skilled and compassionate emergency treatment and long-term rehabilitative care to injured, ill, and orphaned wildlife since 1995.
   status: active
-  notes: Founded 1995. ~3,000 patients/year. Serves Montgomery County and surrounding area. Received proclamation from Montgomery
-    County and the Governor of Maryland. Revenue ~$2.15M (2024). Not open for tours; not on public display per permit rules.
+  notes: Founded 1995. ~3,000 patients/year. Serves Montgomery County and surrounding area. Received proclamation from Montgomery County and the Governor of Maryland. Revenue ~$2.15M (2024). Not open for
+    tours; not on public display per permit rules.
   source_urls:
   - https://www.scwc.org
   - https://projects.propublica.org/nonprofits/organizations/521927600
@@ -4409,11 +4350,10 @@
   leadership:
     executive_director: Diane Winn (Founder)
     medical_director: unknown
-  mission_excerpt: Bird-only wildlife rehabilitation facility in Freedom, Maine. Accepts all birds and reptiles; has multiple
-    flight cages. Operates on North Palermo Road in Waldo County.
+  mission_excerpt: Bird-only wildlife rehabilitation facility in Freedom, Maine. Accepts all birds and reptiles; has multiple flight cages. Operates on North Palermo Road in Waldo County.
   status: active
-  notes: Waldo County, ME. Bird and reptile specialist. Multiple flight cages. Rehabilitator Diane Winn confirmed with federal
-    permit in state directory. Additional rehabilitator Laura Graham also listed at same address.
+  notes: Waldo County, ME. Bird and reptile specialist. Multiple flight cages. Rehabilitator Diane Winn confirmed with federal permit in state directory. Additional rehabilitator Laura Graham also listed
+    at same address.
   source_urls:
   - https://avianhaven.org
   - https://www.causeiq.com/organizations/avian-haven,010529491/
@@ -4469,12 +4409,10 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: Strengthening our community's overall health through conservation medicine and nature-based education.
-    For 39 years, treated over 90,000 injured and orphaned wild animals representing 190+ species. Does NOT accept rabies
-    vector species (fox, raccoon, skunk, bat, groundhog).
+  mission_excerpt: Strengthening our community's overall health through conservation medicine and nature-based education. For 39 years, treated over 90,000 injured and orphaned wild animals representing
+    190+ species. Does NOT accept rabies vector species (fox, raccoon, skunk, bat, groundhog).
   status: active
-  notes: York County (base of Mount Agamenticus). Founded ~1986; moved to current site 1994. 2,500 patients/year; 190+ species.
-    Does NOT accept RVS. Nature Center and Ambassador Village open Thurs–Sun 10am–4pm.
+  notes: York County (base of Mount Agamenticus). Founded ~1986; moved to current site 1994. 2,500 patients/year; 190+ species. Does NOT accept RVS. Nature Center and Ambassador Village open Thurs–Sun 10am–4pm.
   source_urls:
   - https://www.thecenterforwildlife.org
   - https://www.causeiq.com/organizations/the-center-for-wildlife,222778845/
@@ -4494,8 +4432,8 @@
   emergency_hotline: 989-389-3305
   intake_address: Saint Helen, MI (Roscommon County)
   intake_hours: ''
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://www.arkritters.org/newsletter/
+  newsletter_signup_url: https://www.arkritters.org/newsletter/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -4529,8 +4467,7 @@
     medical_director: ''
   mission_excerpt: A second chance for injured and orphaned wildlife through rehabilitation, education, and release.
   status: active
-  notes: Founded 2001. Cannot take skunks, bats, or certain county-restricted raccoon/fawn. Revenue ~$102K (FY2024). MSU Vet
-    Medicine referred cases here. No state/federal funding.
+  notes: Founded 2001. Cannot take skunks, bats, or certain county-restricted raccoon/fawn. Revenue ~$102K (FY2024). MSU Vet Medicine referred cases here. No state/federal funding.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/731636166
   - https://www.causeiq.com/organizations/a-r-k-association-to-rescue-kritters,731636166/
@@ -4586,8 +4523,7 @@
     medical_director: ''
   mission_excerpt: Saving songbirds since 2004 through rehabilitation and education in southeast Michigan.
   status: active
-  notes: Birds only (songbirds focus). Revenue ~$280K (FY2024). Intake by text with photo first. Formerly known as Bird Center
-    of Washtenaw County.
+  notes: Birds only (songbirds focus). Revenue ~$280K (FY2024). Intake by text with photo first. Formerly known as Bird Center of Washtenaw County.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/830406863
   - https://www.causeiq.com/organizations/bird-center-of-michigan,830406863/
@@ -4608,8 +4544,8 @@
   emergency_hotline: ''
   intake_address: Livingston County, MI
   intake_hours: ''
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://www.howellnaturecenter.org/about/news/
+  newsletter_signup_url: https://www.howellnaturecenter.org/about/news/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -4641,11 +4577,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Through mutual love and respect, we teach people to be faithful caretakers of one another and the world
-    around us.
+  mission_excerpt: Through mutual love and respect, we teach people to be faithful caretakers of one another and the world around us.
   status: active
-  notes: 230-acre nature center with wildlife rehab program. Revenue ~$3.25M (FY2021, most recent ProPublica). MSU Vet Medicine
-    refers wildlife cases to Wildside and ARK; Howell remains active independently.
+  notes: 230-acre nature center with wildlife rehab program. Revenue ~$3.25M (FY2021, most recent ProPublica). MSU Vet Medicine refers wildlife cases to Wildside and ARK; Howell remains active independently.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/474324628
   - https://www.howellnaturecenter.org
@@ -4700,8 +4634,7 @@
     medical_director: ''
   mission_excerpt: Education and wildlife rehabilitation serving mid-Michigan with a wetland sanctuary focus.
   status: active
-  notes: Operates significant wetland sanctuary habitat; currently contesting utility power line permit through their property.
-    Revenue ~$86K (FY2025). Located Isabella County (near Mt. Pleasant).
+  notes: Operates significant wetland sanctuary habitat; currently contesting utility power line permit through their property. Revenue ~$86K (FY2025). Located Isabella County (near Mt. Pleasant).
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/382240042
   - https://www.wildliferecovery.org/contact/
@@ -4756,8 +4689,7 @@
     medical_director: ''
   mission_excerpt: Wildlife rehabilitation and education serving mid-Michigan.
   status: active
-  notes: MSU Vet Medicine refers wildlife cases here. Covers thousands of critters annually per Lansing City Pulse profile.
-    Revenue ~$59K (FY2025 990-EZ).
+  notes: MSU Vet Medicine refers wildlife cases here. Covers thousands of critters annually per Lansing City Pulse profile. Revenue ~$59K (FY2025 990-EZ).
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/383249187
   - https://www.causeiq.com/organizations/wildside-rehabilitation-and-education-center,383249187/
@@ -4768,7 +4700,7 @@
   state: MN
   city: Saint Paul
   county_fips: '27123'
-  ein: ''
+  ein: not_501c3
   primary_url: https://raptor.umn.edu
   wildlife_help_url: https://raptor.umn.edu/injured-bird
   about_url: https://raptor.umn.edu/about-us
@@ -4812,14 +4744,14 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: World-renowned raptor rehabilitation, research, and education center at the University of Minnesota College
-    of Veterinary Medicine.
+  mission_excerpt: World-renowned raptor rehabilitation, research, and education center at the University of Minnesota College of Veterinary Medicine.
   status: active
-  notes: 'FLAGSHIP ORG. Part of UMN CVM; not a separate 501c3. 2025 total 1,285 patients (record). 2024: 1,105. Partners for
-    Wildlife program. Call before bringing birds. No EIN as university unit.'
+  notes: 'FLAGSHIP ORG. Part of UMN CVM; not a separate 501c3. 2025 total 1,285 patients (record). 2024: 1,105. Partners for Wildlife program. Call before bringing birds. No EIN as university unit.'
   source_urls:
   - https://raptor.umn.edu/clinic-information
   - https://raptor.umn.edu
+  ein_resolution_note: The Raptor Center is a unit of the University of Minnesota College of Veterinary Medicine. The University of Minnesota is a public research university; The Raptor Center operates
+    under the university'
 - slug: wildlife-rehabilitation-center-minnesota
   legal_name: Wildlife Rehabilitation Center
   common_name: Wildlife Rehabilitation Center of Minnesota
@@ -4871,8 +4803,7 @@
     medical_director: ''
   mission_excerpt: Comprehensive wildlife rehabilitation serving the Twin Cities metro and surrounding region.
   status: active
-  notes: FLAGSHIP ORG. Revenue ~$2.6M (FY2024). Executive compensation ~$363K reported (likely leadership team). Website wrcmn.org
-    appears to be offline/redirecting; Facebook/Instagram active.
+  notes: FLAGSHIP ORG. Revenue ~$2.6M (FY2024). Executive compensation ~$363K reported (likely leadership team). Website wrcmn.org appears to be offline/redirecting; Facebook/Instagram active.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/411588791
   - https://impala.digital/public/profiles/41-1588791/overview
@@ -4883,7 +4814,7 @@
   state: MN
   city: ''
   county_fips: ''
-  ein: ''
+  ein: 41-1775492
   primary_url: https://wrr-mn.org
   wildlife_help_url: ''
   about_url: ''
@@ -4926,11 +4857,10 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Support wildlife rehabilitation efforts in the region through education, recruitment, and direct rehabilitation
-    support.
+  mission_excerpt: Support wildlife rehabilitation efforts in the region through education, recruitment, and direct rehabilitation support.
   status: active
-  notes: All-volunteer organization; no paid staff. Supports rehabilitators in greater MN region. EIN not found under this
-    name in ProPublica — may file under different legal entity or may be small filer. CauseIQ EIN 91-1967756 unconfirmed.
+  notes: All-volunteer organization; no paid staff. Supports rehabilitators in greater MN region. EIN not found under this name in ProPublica — may file under different legal entity or may be small filer.
+    CauseIQ EIN 91-1967756 unconfirmed.
   source_urls:
   - https://wrr-mn.org
   - https://wrr-mn.org/contact/
@@ -4983,11 +4913,9 @@
   leadership:
     executive_director: Jessica Labumbard
     medical_director: ''
-  mission_excerpt: To promote understanding, appreciation, and well being of wildlife and the world we share through compassion,
-    care, and community involvement.
+  mission_excerpt: To promote understanding, appreciation, and well being of wildlife and the world we share through compassion, care, and community involvement.
   status: active
-  notes: 501(c)(3) in Duluth, MN. Revenue ~$601K (FY2025). Cannot accept animals from Wisconsin per MN DNR rules. Separate
-    from Wisconsin rehab networks.
+  notes: 501(c)(3) in Duluth, MN. Revenue ~$601K (FY2025). Cannot accept animals from Wisconsin per MN DNR rules. Separate from Wisconsin rehab networks.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/800698285
   - https://www.causeiq.com/organizations/wildwoods,800698285/
@@ -5011,7 +4939,7 @@
   news_or_blog_url: ''
   newsletter_signup_url: ''
   patient_stories_url: ''
-  annual_reports_url: ''
+  annual_reports_url: https://wolf.org/support/annual-report/
   most_recent_annual_report_pdf: ''
   social:
     facebook: https://www.facebook.com/EndangeredWolfCenter/
@@ -5043,12 +4971,10 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Breeding, conservation, and education for critically endangered wolves; every Mexican gray wolf in the
-    wild traces lineage to this center.
+  mission_excerpt: Breeding, conservation, and education for critically endangered wolves; every Mexican gray wolf in the wild traces lineage to this center.
   status: active
-  notes: Specializes in Mexican gray wolf, red wolf, and maned wolf SSP breeding. Not a general wildlife rehab center but
-    included as nationally significant credentialed wildlife facility in MO. Top-rated nonprofit (Great Nonprofits). 1% for
-    the Planet partner.
+  notes: Specializes in Mexican gray wolf, red wolf, and maned wolf SSP breeding. Not a general wildlife rehab center but included as nationally significant credentialed wildlife facility in MO. Top-rated
+    nonprofit (Great Nonprofits). 1% for the Planet partner.
   source_urls:
   - https://en.wikipedia.org/wiki/Endangered_Wolf_Center
   - https://www.endangeredwolfcenter.org/financials/
@@ -5101,8 +5027,7 @@
   leadership:
     executive_director: Kimberli Rutledge
     medical_director: ''
-  mission_excerpt: Rehabilitates injured, sick and orphaned native wildlife and releases healthy animals to their natural
-    habitat while providing environmental awareness through educational outreach.
+  mission_excerpt: Rehabilitates injured, sick and orphaned native wildlife and releases healthy animals to their natural habitat while providing environmental awareness through educational outreach.
   status: active
   notes: Revenue ~$761K (FY2024). Located in St. Louis County (Ballwin). Call ext. 201 before bringing animal.
   source_urls:
@@ -5159,11 +5084,9 @@
   leadership:
     executive_director: Roger Holloway
     medical_director: ''
-  mission_excerpt: Founded in 1977 to provide the St. Louis area with a hospital for sick or injured raptors; now internationally
-    renowned raptor rehab and education center on 305 acres.
+  mission_excerpt: Founded in 1977 to provide the St. Louis area with a hospital for sick or injured raptors; now internationally renowned raptor rehab and education center on 305 acres.
   status: active
-  notes: 305-acre facility in partnership with MO DNR. 200+ animals, 60+ species. Revenue ~$1.7M (FY2024). Originally founded
-    by Walter C. Crawford Jr. in 1977.
+  notes: 305-acre facility in partnership with MO DNR. 200+ animals, 60+ species. Revenue ~$1.7M (FY2024). Originally founded by Walter C. Crawford Jr. in 1977.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/431184675
   - https://www.causeiq.com/organizations/world-bird-sanctuary,431184675/
@@ -5216,8 +5139,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Founded 1995 to meet the growing need for wildlife assistance in north Mississippi. Education programs
-    for schools and civic orgs.
+  mission_excerpt: Founded 1995 to meet the growing need for wildlife assistance in north Mississippi. Education programs for schools and civic orgs.
   status: active
   notes: Non-profit assisting injured and orphaned wild birds. North Mississippi focus. Revenue ~$99K (FY2023).
   source_urls:
@@ -5326,8 +5248,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Dedicated to rescue and rehabilitation of Mississippi's wildlife and educating the community on coexistence
-    with wildlife.
+  mission_excerpt: Dedicated to rescue and rehabilitation of Mississippi's wildlife and educating the community on coexistence with wildlife.
   status: active
   notes: 'Harrison County / Gulf Coast area. Phone on website: 228-223-0430.'
   source_urls:
@@ -5381,8 +5302,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Raptor rehabilitation and conservation center serving the greater Yellowstone ecosystem and the Gallatin
-    Valley.
+  mission_excerpt: Raptor rehabilitation and conservation center serving the greater Yellowstone ecosystem and the Gallatin Valley.
   status: active
   notes: Serves southwest Montana and the greater Yellowstone area. Raptor-specialist organization.
   source_urls:
@@ -5436,8 +5356,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Rescues, rehabilitates, and releases raptors in western Montana; leads education and research on raptor
-    issues including lead poisoning.
+  mission_excerpt: Rescues, rehabilitates, and releases raptors in western Montana; leads education and research on raptor issues including lead poisoning.
   status: active
   notes: Raptor-specialist facility in western Montana; active in lead-poisoning research and advocacy.
   source_urls:
@@ -5492,8 +5411,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Dedicated to raptor rehabilitation, education, and conservation in Huntersville, NC. Raptor Trail at Latta
-    Nature Preserve.
+  mission_excerpt: Dedicated to raptor rehabilitation, education, and conservation in Huntersville, NC. Raptor Trail at Latta Nature Preserve.
   status: active
   notes: Located within Latta Nature Preserve. One of the largest raptor centers in the Southeast.
   source_urls:
@@ -5549,8 +5467,7 @@
     medical_director: ''
   mission_excerpt: Sanctuary and rescue for wild and exotic cats (tigers, lions, cougars, leopards, etc.).
   status: active
-  notes: Focuses on captive exotic cats rather than native wildlife rehabilitation; included due to USDA licensed facility
-    with published presence.
+  notes: Focuses on captive exotic cats rather than native wildlife rehabilitation; included due to USDA licensed facility with published presence.
   source_urls:
   - https://carolinatigerrescue.org
   - https://projects.propublica.org/nonprofits/organizations/561522499
@@ -5602,8 +5519,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Rescued and rehabilitated over 11,000 injured and orphaned animals. 140-acre conservation land near Charlotte,
-    NC.
+  mission_excerpt: Rescued and rehabilitated over 11,000 injured and orphaned animals. 140-acre conservation land near Charlotte, NC.
   status: active
   notes: State-of-the-art clinic with full surgery capabilities. Serves entire state of NC.
   source_urls:
@@ -5658,8 +5574,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: 501(c)(3) nonprofit mitigating human impacts on native wildlife through medical treatment, education, and
-    scientific research.
+  mission_excerpt: 501(c)(3) nonprofit mitigating human impacts on native wildlife through medical treatment, education, and scientific research.
   status: active
   notes: 100% volunteer staff. Tax-exempt since Nov. 2019.
   source_urls:
@@ -5738,7 +5653,7 @@
   news_or_blog_url: ''
   newsletter_signup_url: ''
   patient_stories_url: ''
-  annual_reports_url: ''
+  annual_reports_url: https://www.piedmontwildlifecenter.org/annual-report
   most_recent_annual_report_pdf: ''
   social:
     facebook: ''
@@ -5779,7 +5694,7 @@
   state: ND
   city: Bismarck
   county_fips: '38015'
-  ein: unknown
+  ein: 23-7394067
   primary_url: https://www.dakotazoo.org
   wildlife_help_url: https://www.dakotazoo.org/education/raptor-rehabilitation/
   about_url: https://www.dakotazoo.org/conservation/
@@ -5821,13 +5736,10 @@
   leadership:
     executive_director: Terry Lincoln
     medical_director: ''
-  mission_excerpt: Conducts medical treatment and rehabilitation for numerous raptors each year, specializing in endangered
-    and threatened species, particularly eagles.
+  mission_excerpt: Conducts medical treatment and rehabilitation for numerous raptors each year, specializing in endangered and threatened species, particularly eagles.
   status: active
-  notes: 'One of very few credentialed wildlife rehab facilities in North Dakota. Raptor rehabilitation program active 40+
-    years. Typically receives 30–65 birds/year. Common causes: power lines, barbed wire, vehicles, shooting, nest falls. X-rays
-    all birds as part of ongoing study. Reports shooting cases to USFWS. Operates under federal USFWS permit. North Dakota
-    has no published statewide rehab directory.'
+  notes: 'One of very few credentialed wildlife rehab facilities in North Dakota. Raptor rehabilitation program active 40+ years. Typically receives 30–65 birds/year. Common causes: power lines, barbed
+    wire, vehicles, shooting, nest falls. X-rays all birds as part of ongoing study. Reports shooting cases to USFWS. Operates under federal USFWS permit. North Dakota has no published statewide rehab directory.'
   source_urls:
   - https://www.dakotazoo.org/education/raptor-rehabilitation/
   - https://www.dakotazoo.org/conservation/
@@ -5848,8 +5760,8 @@
   emergency_hotline: 866-888-7261
   intake_address: 1111 Bellevue Blvd N, Bellevue, NE 68005
   intake_hours: unknown
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://fontenelleforest.org/newsletter/
+  newsletter_signup_url: https://fontenelleforest.org/newsletter/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -5880,13 +5792,10 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Provides a place where people can experience and enjoy the quiet wild of nature, and inspires current and
-    future generations to care for the natural world.
+  mission_excerpt: Provides a place where people can experience and enjoy the quiet wild of nature, and inspires current and future generations to care for the natural world.
   status: active
-  notes: 'Raptor Recovery is a program of Fontenelle Forest (founded 1913). One of Nebraska''s oldest conservation organizations;
-    National Natural Landmark. 130+ statewide volunteers. Saves ~600 raptors/year in Nebraska and western Iowa. 25 non-releasable
-    birds of prey as educational ambassadors. Wildlife Rescue Team program director: Denise Lewis. Refer non-raptor birds
-    to Nebraska Wildlife Rehab (402-234-2473).'
+  notes: 'Raptor Recovery is a program of Fontenelle Forest (founded 1913). One of Nebraska''s oldest conservation organizations; National Natural Landmark. 130+ statewide volunteers. Saves ~600 raptors/year
+    in Nebraska and western Iowa. 25 non-releasable birds of prey as educational ambassadors. Wildlife Rescue Team program director: Denise Lewis. Refer non-raptor birds to Nebraska Wildlife Rehab (402-234-2473).'
   source_urls:
   - https://nebraska.tv/features/ntvs-good-life/raptor-recovery
   - https://projects.propublica.org/nonprofits/organizations/476026109
@@ -5940,12 +5849,11 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: To rehabilitate native Nebraska wildlife and migratory birds for return to the wild, to preserve and restore
-    native habitats, and to educate youth and adults about the importance of wildlife and ecosystems.
+  mission_excerpt: To rehabilitate native Nebraska wildlife and migratory birds for return to the wild, to preserve and restore native habitats, and to educate youth and adults about the importance of wildlife
+    and ecosystems.
   status: active
-  notes: Founded 1999. Operates under permits from Nebraska Game & Parks Commission and U.S. Fish & Wildlife Service. Over
-    8,000 patients in 2024 from 174 species. Annual operating budget ~$1.7M. Offers after-school programming in 4 middle schools;
-    15 summer university internships; High School Science Academy. 25,000+ community wildlife inquiries/year.
+  notes: Founded 1999. Operates under permits from Nebraska Game & Parks Commission and U.S. Fish & Wildlife Service. Over 8,000 patients in 2024 from 174 species. Annual operating budget ~$1.7M. Offers
+    after-school programming in 4 middle schools; 15 summer university internships; High School Science Academy. 25,000+ community wildlife inquiries/year.
   source_urls:
   - https://www.nebraskawildliferehab.org
   - https://impala.digital/public/profiles/47-0829201/overview
@@ -5999,13 +5907,11 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: To provide care and support for injured and orphaned raptors in preparation for release; to assist in the
-    management of raptor populations and raptor research; to enlist public support for raptor conservation through educational
-    programs.
+  mission_excerpt: To provide care and support for injured and orphaned raptors in preparation for release; to assist in the management of raptor populations and raptor research; to enlist public support
+    for raptor conservation through educational programs.
   status: active
-  notes: Successor to Raptor Recovery Nebraska (founded 1976), merged with Nature's Educators (Colorado). Over 14,000–15,000
-    raptors admitted in 45+ years — one of top 10 raptor rehab organizations nationally. ~50% release rate. Statewide volunteer
-    transport network. Maintains non-releasable raptors as educational ambassadors. Also serves western Iowa.
+  notes: Successor to Raptor Recovery Nebraska (founded 1976), merged with Nature's Educators (Colorado). Over 14,000–15,000 raptors admitted in 45+ years — one of top 10 raptor rehab organizations nationally.
+    ~50% release rate. Statewide volunteer transport network. Maintains non-releasable raptors as educational ambassadors. Also serves western Iowa.
   source_urls:
   - https://www.rcabirds.org
   - https://www.rcabirds.org/about/
@@ -6059,12 +5965,10 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Dedicated to the rescue and rehabilitation of Nebraska's orphaned and injured wildlife, and its return
-    to its natural habitat.
+  mission_excerpt: Dedicated to the rescue and rehabilitation of Nebraska's orphaned and injured wildlife, and its return to its natural habitat.
   status: active
-  notes: Founded 1979 in Lincoln. All-volunteer organization; no salaries paid. In-home rehabbers statewide (NOT a physical
-    facility). State and federal permits. Does NOT accept raptors (refer to Raptor Conservation Alliance at 402-994-2009),
-    skunks, or deer. Monthly meetings at Grace Lutheran Church, Lincoln. No government funding.
+  notes: Founded 1979 in Lincoln. All-volunteer organization; no salaries paid. In-home rehabbers statewide (NOT a physical facility). State and federal permits. Does NOT accept raptors (refer to Raptor
+    Conservation Alliance at 402-994-2009), skunks, or deer. Monthly meetings at Grace Lutheran Church, Lincoln. No government funding.
   source_urls:
   - https://www.wildliferescueteamincne.org
   - https://www.wildliferescueteamincne.org/about-wrt.html
@@ -6120,11 +6024,11 @@
   leadership:
     executive_director: Cathie Gregg
     medical_director: unknown
-  mission_excerpt: Wildlife rehabilitation center providing professional and compassionate care to injured and orphaned native
-    wildlife in the Mount Washington Valley area. Gated facility; priority to Carroll and Coos Counties. Open 9am–6pm daily.
+  mission_excerpt: Wildlife rehabilitation center providing professional and compassionate care to injured and orphaned native wildlife in the Mount Washington Valley area. Gated facility; priority to Carroll
+    and Coos Counties. Open 9am–6pm daily.
   status: active
-  notes: 'Carroll County, NH (Mount Washington Valley). EIN published on website: 02-6087584. Gated facility; closes property
-    overnight. All fawn calls routed through NH Fish & Game before being placed here.'
+  notes: 'Carroll County, NH (Mount Washington Valley). EIN published on website: 02-6087584. Gated facility; closes property overnight. All fawn calls routed through NH Fish & Game before being placed
+    here.'
   source_urls:
   - https://www.elaineconnerscenterforwildlife.org
 - slug: mercer-county-wildlife-center
@@ -6133,7 +6037,7 @@
   state: NJ
   city: Lambertville
   county_fips: '34021'
-  ein: unknown
+  ein: not_501c3
   primary_url: https://www.mercercounty.org/departments/mercer-county-park-commission/wildlife-center
   wildlife_help_url: https://www.mercercounty.org/departments/mercer-county-park-commission/wildlife-center/about-us
   about_url: https://www.mercercounty.org/departments/mercer-county-park-commission/wildlife-center/about-us
@@ -6177,13 +6081,15 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: State and federally licensed facility that cares for injured, ill, and displaced native wildlife. Provides
-    medical treatment and temporary refuge prior to release. Free services, 365 days/year.
+  mission_excerpt: State and federally licensed facility that cares for injured, ill, and displaced native wildlife. Provides medical treatment and temporary refuge prior to release. Free services, 365
+    days/year.
   status: active
-  notes: County government-operated (Mercer County Park Commission), supported by nonprofit Wildlife Center Friends 501(c)(3).
-    EIN belongs to county government — 501(c)(3) support org uses separate EIN. By appointment only.
+  notes: County government-operated (Mercer County Park Commission), supported by nonprofit Wildlife Center Friends 501(c)(3). EIN belongs to county government — 501(c)(3) support org uses separate EIN.
+    By appointment only.
   source_urls:
   - https://www.mercercounty.org/departments/mercer-county-park-commission/wildlife-center/about-us
+  ein_resolution_note: The Mercer County Wildlife Center is operated by the Mercer County Park Commission, a county government agency in New Jersey. County park commissions are governmental entities, not
+    501(c)(3) nonprofit
 - slug: raptor-trust
   legal_name: The Raptor Trust
   common_name: The Raptor Trust
@@ -6235,11 +6141,11 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: Premier wild bird rehabilitation center in the United States. Provides free care to injured, sick, or orphaned
-    wild birds, educates about conservation, and provides a humane example. Founded 1982.
+  mission_excerpt: Premier wild bird rehabilitation center in the United States. Provides free care to injured, sick, or orphaned wild birds, educates about conservation, and provides a humane example.
+    Founded 1982.
   status: active
-  notes: Morris County. Incorporated 1982; 501(c)(3) since 1983. Admits up to 6,000 birds/year; handled 150,000+ birds in
-    40-year history. State-of-the-art hospital with exterior housing for several hundred birds. Bird-only facility.
+  notes: Morris County. Incorporated 1982; 501(c)(3) since 1983. Admits up to 6,000 birds/year; handled 150,000+ birds in 40-year history. State-of-the-art hospital with exterior housing for several hundred
+    birds. Bird-only facility.
   source_urls:
   - https://www.theraptortrust.org/about
   - https://www.theraptortrust.org/donate
@@ -6294,11 +6200,10 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: NJ state licensed wildlife rehabilitation facility on 86 acres of protected forest in the Ramapo Mountains.
-    100% volunteer, 501(c)(3). Rescues, recovers, rehabilitates, and releases orphaned, sick, or injured wild animals.
+  mission_excerpt: NJ state licensed wildlife rehabilitation facility on 86 acres of protected forest in the Ramapo Mountains. 100% volunteer, 501(c)(3). Rescues, recovers, rehabilitates, and releases orphaned,
+    sick, or injured wild animals.
   status: active
-  notes: Passaic County, Northern NJ. 86 acres preserved forest. Accepts bobcat, bear, deer, fox, coyote, fisher. 24/7 wildlife
-    hotline. Building on-site veterinary hospital.
+  notes: Passaic County, Northern NJ. 86 acres preserved forest. Accepts bobcat, bear, deer, fox, coyote, fisher. 24/7 wildlife hotline. Building on-site veterinary hospital.
   source_urls:
   - https://thelastresortwildlife.com
   - https://thelastresortwildlife.com/aboutus/
@@ -6353,11 +6258,9 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: 171-acre non-profit wildlife refuge, wildlife rehabilitation hospital, and nature center on the edge of
-    the New Jersey Pinelands. Accepts songbirds to fawns; 7,000+ animals treated annually.
+  mission_excerpt: 171-acre non-profit wildlife refuge, wildlife rehabilitation hospital, and nature center on the edge of the New Jersey Pinelands. Accepts songbirds to fawns; 7,000+ animals treated annually.
   status: active
-  notes: Burlington County. 171 acres including Wildlife Housing Area with 50+ native resident animals, Wildlife Rehabilitation
-    Hospital, Woodford Nature Center. 7,000+ patients/year. No government funding.
+  notes: Burlington County. 171 acres including Wildlife Housing Area with 50+ native resident animals, Wildlife Rehabilitation Hospital, Woodford Nature Center. 7,000+ patients/year. No government funding.
   source_urls:
   - https://www.cedarrun.org
   - https://www.causeiq.com/organizations/woodford-cedar-run-wildlife-refuge,222373291/
@@ -6411,11 +6314,9 @@
   leadership:
     executive_director: Tracy Leaver (Founder/Executive Director)
     medical_director: unknown
-  mission_excerpt: The care and release of orphaned and injured native wildlife back to their natural habitat. Giving New
-    Jersey's Wildlife a Second Chance Since 1986.
+  mission_excerpt: The care and release of orphaned and injured native wildlife back to their natural habitat. Giving New Jersey's Wildlife a Second Chance Since 1986.
   status: active
-  notes: Hunterdon County. Founded 1986 by Tracy Leaver. ~800 animals/year. Accepts bobcat, bear, beaver, otter, fox, coyote
-    — broad mammal range. Reptiles and amphibians also accepted.
+  notes: Hunterdon County. Founded 1986 by Tracy Leaver. ~800 animals/year. Accepts bobcat, bear, beaver, otter, fox, coyote — broad mammal range. Reptiles and amphibians also accepted.
   source_urls:
   - https://woodlandswildlife.org
   - https://www.charitynavigator.org/ein/223053310
@@ -6435,8 +6336,8 @@
   emergency_hotline: (505) 828-9455
   intake_address: Albuquerque, NM 87109
   intake_hours: ''
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://hawksaloft.org/about/newsletters/
+  newsletter_signup_url: https://hawksaloft.org/about/newsletters/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -6467,8 +6368,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: 501(c)(3) non-profit incorporated in 1994 working to preserve New Mexico's wildlife and unique landscapes
-    through avian research, raptor rescue, and conservation education.
+  mission_excerpt: 501(c)(3) non-profit incorporated in 1994 working to preserve New Mexico's wildlife and unique landscapes through avian research, raptor rescue, and conservation education.
   status: active
   notes: Avian research and raptor rescue organization; USFWS partner for migratory bird research.
   source_urls:
@@ -6522,8 +6422,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Connecting people and wildlife for an abundant tomorrow; non-profit relying on volunteers to provide excellent
-    care for New Mexico's injured and orphaned wildlife.
+  mission_excerpt: Connecting people and wildlife for an abundant tomorrow; non-profit relying on volunteers to provide excellent care for New Mexico's injured and orphaned wildlife.
   status: active
   notes: Serves northern New Mexico; also offers animal encounter programs.
   source_urls:
@@ -6577,11 +6476,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Nevada Humane Society's wildlife program provides care for injured and orphaned native wildlife in the
-    Reno/Sparks area.
+  mission_excerpt: Nevada Humane Society's wildlife program provides care for injured and orphaned native wildlife in the Reno/Sparks area.
   status: active
-  notes: 'Primary wildlife rehabilitation resource for northern Nevada. Note: Lake Tahoe Wildlife Care (South Lake Tahoe,
-    CA) also serves the Nevada side of Lake Tahoe.'
+  notes: 'Primary wildlife rehabilitation resource for northern Nevada. Note: Lake Tahoe Wildlife Care (South Lake Tahoe, CA) also serves the Nevada side of Lake Tahoe.'
   source_urls:
   - https://nevadahumanesociety.org
 - slug: evelyn-alexander-wildlife-rescue-center
@@ -6635,12 +6532,10 @@
   leadership:
     executive_director: Virginia Frati (Founder)
     medical_director: unknown
-  mission_excerpt: To preserve and protect the region's native wildlife by providing rehabilitation services and education
-    to raise public awareness. Full-time professional wildlife hospital staffed by licensed rehabilitators, biologists, and
-    animal behaviorists.
+  mission_excerpt: To preserve and protect the region's native wildlife by providing rehabilitation services and education to raise public awareness. Full-time professional wildlife hospital staffed by
+    licensed rehabilitators, biologists, and animal behaviorists.
   status: active
-  notes: Suffolk County (Eastern Long Island). Not-for-profit 501(c)(3). All services at no cost to the community. Founded
-    by Virginia Frati after 23-year career with Suffolk County government.
+  notes: Suffolk County (Eastern Long Island). Not-for-profit 501(c)(3). All services at no cost to the community. Founded by Virginia Frati after 23-year career with Suffolk County government.
   source_urls:
   - https://wildliferescuecenter.org
   - https://www.causeiq.com/organizations/evelyn-alexander-wildlife-rescue-center,113409551/
@@ -6661,7 +6556,7 @@
   intake_address: 400 Doansburg Road, Brewster, NY 10509
   intake_hours: unknown
   news_or_blog_url: unknown
-  newsletter_signup_url: unknown
+  newsletter_signup_url: https://www.greenchimneys.org/news-events/gazette/
   patient_stories_url: unknown
   annual_reports_url: https://www.greenchimneys.org/about/financials/
   most_recent_annual_report_pdf: unknown
@@ -6696,12 +6591,11 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: Paul C. Kupchok Wildlife Rehabilitation Center provides rescue, rehabilitation, and continued care for
-    injured, orphaned, and distressed wildlife, primarily birds of prey, at the Green Chimneys campus in Brewster.
+  mission_excerpt: Paul C. Kupchok Wildlife Rehabilitation Center provides rescue, rehabilitation, and continued care for injured, orphaned, and distressed wildlife, primarily birds of prey, at the Green
+    Chimneys campus in Brewster.
   status: active
-  notes: 'Putnam County. Part of Green Chimneys therapeutic farm/school. ~50 birds of prey on site. One of few NY facilities
-    with Bald Eagle rehab license. Wildlife program contact: Dave Spillo, 845-279-2995 x1304. EIN belongs to parent Green
-    Chimneys School.'
+  notes: 'Putnam County. Part of Green Chimneys therapeutic farm/school. ~50 birds of prey on site. One of few NY facilities with Bald Eagle rehab license. Wildlife program contact: Dave Spillo, 845-279-2995
+    x1304. EIN belongs to parent Green Chimneys School.'
   source_urls:
   - https://www.greenchimneys.org/community-programs-services/farm-wildlife-center/wildlife-rehabilitation/
 - slug: wildlife-center-of-long-island
@@ -6721,7 +6615,7 @@
   intake_address: Huntington, NY (Nassau & Western Suffolk Counties)
   intake_hours: unknown
   news_or_blog_url: https://wildlifecenterli.org/news/
-  newsletter_signup_url: unknown
+  newsletter_signup_url: https://wildlifecenterli.org/newsletter/
   patient_stories_url: unknown
   annual_reports_url: unknown
   most_recent_annual_report_pdf: unknown
@@ -6755,11 +6649,10 @@
   leadership:
     executive_director: Lauren Arcuri (Wildlife Center Director)
     medical_director: unknown
-  mission_excerpt: Dedicated to the preservation of Long Island's wildlife and natural habitats since 1982. Primary resource
-    for injured and orphaned wildlife on Long Island, serving Nassau and Western Suffolk Counties.
+  mission_excerpt: Dedicated to the preservation of Long Island's wildlife and natural habitats since 1982. Primary resource for injured and orphaned wildlife on Long Island, serving Nassau and Western
+    Suffolk Counties.
   status: active
-  notes: Formerly Volunteers for Wildlife. Founded 1982; 501(c)(3) since 1984. 2,200+ patients/year; 10,000+ annual hotline
-    calls. 200+ education and outreach programs/year.
+  notes: Formerly Volunteers for Wildlife. Founded 1982; 501(c)(3) since 1984. 2,200+ patients/year; 10,000+ annual hotline calls. 200+ education and outreach programs/year.
   source_urls:
   - https://wildlifecenterli.org
   - https://projects.propublica.org/nonprofits/organizations/112660135
@@ -6813,8 +6706,7 @@
     medical_director: ''
   mission_excerpt: Educate and inspire people of all ages to value and protect the natural world.
   status: active
-  notes: Nature center and wildlife rehab facility on Lake Erie shoreline. Revenue ~$2.8M (FY2025). Serves Cuyahoga, Lorain
-    and surrounding counties.
+  notes: Nature center and wildlife rehab facility on Lake Erie shoreline. Revenue ~$2.8M (FY2025). Serves Cuyahoga, Lorain and surrounding counties.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/340845030
   - https://www.lensc.org
@@ -6869,8 +6761,7 @@
     medical_director: ''
   mission_excerpt: Dedicated to the care and rehabilitation of sick, injured, or orphaned birds of prey in Northeast Ohio.
   status: active
-  notes: Raptors only; does not accept waterfowl or mammals. Volunteer-operated private facility. Revenue ~$131K (FY2025).
-    Founder William Jordan passed away; center continues under Melissa Jordan.
+  notes: Raptors only; does not accept waterfowl or mammals. Volunteer-operated private facility. Revenue ~$131K (FY2025). Founder William Jordan passed away; center continues under Melissa Jordan.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/311498428
   - https://www.causeiq.com/organizations/medina-raptor-center,311498428/
@@ -6891,10 +6782,10 @@
   emergency_hotline: 419-884-4295
   intake_address: 3774 Orweiler Road, Mansfield, OH 44903
   intake_hours: Tue–Fri 10AM–4PM, Sat 10AM–4PM, Sun 12–4PM, Mon closed
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://www.ohiobirdsanctuary.com/about-us/newsletters-and-annual-reports
+  newsletter_signup_url: https://www.ohiobirdsanctuary.com/about-us/newsletters-and-annual-reports
   patient_stories_url: ''
-  annual_reports_url: ''
+  annual_reports_url: https://www.ohiobirdsanctuary.com/about-us/newsletters-and-annual-reports
   most_recent_annual_report_pdf: ''
   social:
     facebook: ''
@@ -6925,8 +6816,7 @@
     medical_director: ''
   mission_excerpt: Wildlife rehabilitation and conservation education focusing on native Ohio birds.
   status: active
-  notes: Located in Richland County, north-central Ohio. Revenue ~$1.3M (FY2024). Received $100K supporting org grant from
-    Ashland County Community Foundation.
+  notes: Located in Richland County, north-central Ohio. Revenue ~$1.3M (FY2024). Received $100K supporting org grant from Ashland County Community Foundation.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/341691325
   - https://www.causeiq.com/organizations/ohio-bird-sanctuary,341691325/
@@ -6950,7 +6840,7 @@
   news_or_blog_url: ''
   newsletter_signup_url: ''
   patient_stories_url: ''
-  annual_reports_url: ''
+  annual_reports_url: https://ohiowildlifecenter.org/about-us/annual-reports/
   most_recent_annual_report_pdf: ''
   social:
     facebook: https://www.facebook.com/OhioWildlifeCenter/
@@ -6980,11 +6870,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Ohio Wildlife Center is dedicated to fostering awareness and appreciation of Ohio's native wildlife through
-    rehabilitation, education and wildlife health studies.
+  mission_excerpt: Ohio Wildlife Center is dedicated to fostering awareness and appreciation of Ohio's native wildlife through rehabilitation, education and wildlife health studies.
   status: active
-  notes: State's largest wildlife rehabilitation center per org website. Operating since 1984. Revenue ~$2.7M (FY2024 Form
-    990). Moved consolidated campus to Powell Dec 2025.
+  notes: State's largest wildlife rehabilitation center per org website. Operating since 1984. Revenue ~$2.7M (FY2024 Form 990). Moved consolidated campus to Powell Dec 2025.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/311182372
   - https://www.ohiowildlifecenter.org/about/
@@ -7038,8 +6926,7 @@
     medical_director: ''
   mission_excerpt: Education and rehabilitation of raptors in the Cincinnati/Clermont County region of Ohio.
   status: active
-  notes: Raptor education and rehabilitation center in Clermont County, SW Ohio. Revenue ~$280K (FY2024). Free monthly open
-    houses Mar–Nov. Received $100K grant from Landen Family Foundation.
+  notes: Raptor education and rehabilitation center in Clermont County, SW Ohio. Revenue ~$280K (FY2024). Free monthly open houses Mar–Nov. Received $100K grant from Landen Family Foundation.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/310955114
   - https://www.causeiq.com/organizations/raptor-inc,310955114/
@@ -7092,12 +6979,10 @@
   leadership:
     executive_director: Annette King
     medical_director: ''
-  mission_excerpt: To provide medical or infant support to any indigenous wild animal in need of assistance and release it
-    into suitable wild habitat once care is completed.
+  mission_excerpt: To provide medical or infant support to any indigenous wild animal in need of assistance and release it into suitable wild habitat once care is completed.
   status: active
-  notes: State and federally licensed. 100-acre facility completed spring 2023. Over 90,000 wild animals released since founding
-    (through end of 2022). Takes in all species—black bear, mountain lion, turtles, snakes, songbirds, deer, raccoons, skunks,
-    opossums. Does not allow public visitors (operates as hospital and infant care center). IRS ruling year 2008.
+  notes: State and federally licensed. 100-acre facility completed spring 2023. Over 90,000 wild animals released since founding (through end of 2022). Takes in all species—black bear, mountain lion, turtles,
+    snakes, songbirds, deer, raccoons, skunks, opossums. Does not allow public visitors (operates as hospital and infant care center). IRS ruling year 2008.
   source_urls:
   - https://4thewild.org
   - https://www.charitynavigator.org/ein/050541861
@@ -7151,13 +7036,10 @@
   leadership:
     executive_director: Inger Giuffrida
     medical_director: ''
-  mission_excerpt: To provide people a place to bring native wildlife struggling to survive, with the goal of releasing healthy
-    individuals back to nature.
+  mission_excerpt: To provide people a place to bring native wildlife struggling to survive, with the goal of releasing healthy individuals back to nature.
   status: active
-  notes: Founded 1984 (home-based); incorporated as nonprofit 1995. Oldest and largest wildlife rehabilitation center in Oklahoma;
-    sixth largest in the US. Has full veterinary unit (vet, 2 vet techs, vet assistant). Golden Family Wildlife Rehabilitation
-    and Education Center facility. Help desk handles 42,000+ calls/year. Takes in animals from 75 of 77 Oklahoma counties.
-    36 employees.
+  notes: Founded 1984 (home-based); incorporated as nonprofit 1995. Oldest and largest wildlife rehabilitation center in Oklahoma; sixth largest in the US. Has full veterinary unit (vet, 2 vet techs, vet
+    assistant). Golden Family Wildlife Rehabilitation and Education Center facility. Help desk handles 42,000+ calls/year. Takes in animals from 75 of 77 Oklahoma counties. 36 employees.
   source_urls:
   - https://www.wildcareoklahoma.org
   - https://www.charitynavigator.org/ein/731461935
@@ -7212,11 +7094,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Portland Audubon (now Bird Alliance of Oregon) has operated a wildlife care center since 1961, treating
-    injured and orphaned wildlife.
+  mission_excerpt: Portland Audubon (now Bird Alliance of Oregon) has operated a wildlife care center since 1961, treating injured and orphaned wildlife.
   status: active
-  notes: Formerly Portland Audubon Society; rebranded as Bird Alliance of Oregon 2024. Opening new wildlife hospital in NW
-    Portland (2025).
+  notes: Formerly Portland Audubon Society; rebranded as Bird Alliance of Oregon 2024. Opening new wildlife hospital in NW Portland (2025).
   source_urls:
   - https://birdallianceoregon.org
   - https://projects.propublica.org/nonprofits/organizations/936026088
@@ -7236,8 +7116,8 @@
   emergency_hotline: (541) 485-1320
   intake_address: 32275 Fox Hollow Rd, Eugene, OR 97405
   intake_hours: ''
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://cascadesraptorcenter.org/enewsletter/
+  newsletter_signup_url: https://cascadesraptorcenter.org/enewsletter/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -7268,8 +7148,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Nature center and wildlife hospital housing nearly 40 birds of prey native to the Pacific Northwest in
-    an outdoor aviary; provides educational programs for all ages.
+  mission_excerpt: Nature center and wildlife hospital housing nearly 40 birds of prey native to the Pacific Northwest in an outdoor aviary; provides educational programs for all ages.
   status: active
   notes: Raptor-specialist facility; permanent care center for non-releasable raptors that serve as education ambassadors.
   source_urls:
@@ -7291,8 +7170,8 @@
   emergency_hotline: (541) 745-5324
   intake_address: 27126 NW Llewellyn Rd, Corvallis, OR 97330
   intake_hours: ''
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://chintiminiwildlife.org/get-involved/enews/
+  newsletter_signup_url: https://chintiminiwildlife.org/get-involved/enews/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -7323,8 +7202,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Protecting and celebrating Oregon's native wildlife through care for injured and orphaned animals; has
-    served 30,000+ animals since 1989.
+  mission_excerpt: Protecting and celebrating Oregon's native wildlife through care for injured and orphaned animals; has served 30,000+ animals since 1989.
   status: active
   notes: Facing funding challenges as of late 2025. Serves the mid-Willamette Valley.
   source_urls:
@@ -7378,8 +7256,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Non-profit focused on wildlife conservation through rehabilitation and education, integrating animal health
-    and education for effective conservation strategies in the Rogue Valley.
+  mission_excerpt: Non-profit focused on wildlife conservation through rehabilitation and education, integrating animal health and education for effective conservation strategies in the Rogue Valley.
   status: active
   notes: Serves Josephine and Jackson counties in southern Oregon's Rogue Valley.
   source_urls:
@@ -7437,11 +7314,10 @@
   leadership:
     executive_director: Leah Stallings
     medical_director: unknown
-  mission_excerpt: Non-profit wildlife center dedicated to the rehabilitation and release of orphaned and injured Pennsylvania
-    wildlife and promoting harmony between humans and their wild neighbors through quality environmental education.
+  mission_excerpt: Non-profit wildlife center dedicated to the rehabilitation and release of orphaned and injured Pennsylvania wildlife and promoting harmony between humans and their wild neighbors through
+    quality environmental education.
   status: active
-  notes: One of the busiest wildlife centers in Pennsylvania. 5,000+ patients annually. Bucks County. Member of PA Wildlife
-    Rehabilitation & Education Council (advisory to PA Game Commission). Founded ~1981.
+  notes: One of the busiest wildlife centers in Pennsylvania. 5,000+ patients annually. Bucks County. Member of PA Wildlife Rehabilitation & Education Council (advisory to PA Game Commission). Founded ~1981.
   source_urls:
   - https://www.aark.org
   - https://www.gofundme.com/charity/the-aark-wildlife-rehabilitation-and-education-center-inc
@@ -7463,7 +7339,7 @@
   intake_address: 2815 Township Line Road, Norristown, PA 19403 (Worcester Township, Montgomery County)
   intake_hours: unknown
   news_or_blog_url: unknown
-  newsletter_signup_url: unknown
+  newsletter_signup_url: https://www.phillywildlife.org/whats-new/2026/1/10/get-a-load-of-our-latest-newsletter
   patient_stories_url: unknown
   annual_reports_url: unknown
   most_recent_annual_report_pdf: unknown
@@ -7497,11 +7373,9 @@
   leadership:
     executive_director: Richard Schubert
     medical_director: unknown
-  mission_excerpt: Hospital run by licensed wildlife rehabilitation professionals treating all species of injured or orphaned
-    wildlife in the Philadelphia metropolitan area.
+  mission_excerpt: Hospital run by licensed wildlife rehabilitation professionals treating all species of injured or orphaned wildlife in the Philadelphia metropolitan area.
   status: active
-  notes: Serves Philadelphia, Montgomery, Chester, and Delaware counties. Founded 2017. Revenue ~$236K (2022). Requires appointment/phone
-    contact before drop-off.
+  notes: Serves Philadelphia, Montgomery, Chester, and Delaware counties. Founded 2017. Revenue ~$236K (2022). Requires appointment/phone contact before drop-off.
   source_urls:
   - https://www.phillywildlife.org
   - https://givefreely.com/charity-directory/nonprofit/ein-823774041/
@@ -7555,11 +7429,10 @@
   leadership:
     executive_director: Kathy Uhler
     medical_director: unknown
-  mission_excerpt: PA Certified & Licensed Wildlife Rehabilitation Center dedicated to making a positive change by promoting
-    humane and compassionate treatment of all living species. Serves Monroe County and the Pocono region.
+  mission_excerpt: PA Certified & Licensed Wildlife Rehabilitation Center dedicated to making a positive change by promoting humane and compassionate treatment of all living species. Serves Monroe County
+    and the Pocono region.
   status: active
-  notes: 'EIN published on website: 23-2524389. Located in Monroe County (Pocono Mountains area). Also known as The Wilderz
-    at Pocono Wildlife.'
+  notes: 'EIN published on website: 23-2524389. Located in Monroe County (Pocono Mountains area). Also known as The Wilderz at Pocono Wildlife.'
   source_urls:
   - https://poconowildlife.com
 - slug: raven-ridge-wildlife-center
@@ -7615,11 +7488,9 @@
   leadership:
     executive_director: Tracie Young
     medical_director: unknown
-  mission_excerpt: Non-profit wildlife rehabilitation center in Lancaster County specializing in healing injured birds of
-    prey, mammals, and waterfowl. Opened 2015.
+  mission_excerpt: Non-profit wildlife rehabilitation center in Lancaster County specializing in healing injured birds of prey, mammals, and waterfowl. Opened 2015.
   status: active
-  notes: Lancaster County, PA. Founded 2015. Revenue ~$278K (2024). Specializes in raptors, mammals, and waterfowl. Facility
-    not open to public.
+  notes: Lancaster County, PA. Founded 2015. Revenue ~$278K (2024). Specializes in raptors, mammals, and waterfowl. Facility not open to public.
   source_urls:
   - https://ravenridgewildlifecenter.org
   - https://www.charitynavigator.org/ein/472143893
@@ -7640,7 +7511,7 @@
   intake_address: 304 Port Royal Avenue, Philadelphia, PA 19128
   intake_hours: unknown
   news_or_blog_url: unknown
-  newsletter_signup_url: unknown
+  newsletter_signup_url: https://schuylkillcenter.org/news/
   patient_stories_url: unknown
   annual_reports_url: unknown
   most_recent_annual_report_pdf: unknown
@@ -7674,11 +7545,10 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: The only licensed wildlife rehabilitation clinic in the city of Philadelphia. Acts as an emergency room
-    and hospital for thousands of wild animals. Part of the Schuylkill Center for Environmental Education.
+  mission_excerpt: The only licensed wildlife rehabilitation clinic in the city of Philadelphia. Acts as an emergency room and hospital for thousands of wild animals. Part of the Schuylkill Center for Environmental
+    Education.
   status: active
-  notes: Does NOT currently accept rabies vector species (fox, raccoon, skunk, bat, groundhog). EIN belongs to parent org
-    Schuylkill Center for Environmental Education; clinic is a program within that org.
+  notes: Does NOT currently accept rabies vector species (fox, raccoon, skunk, bat, groundhog). EIN belongs to parent org Schuylkill Center for Environmental Education; clinic is a program within that org.
   source_urls:
   - https://schuylkillcenter.org/wildlife-clinic/
   - https://valleyforgeaudubon.org/wildlife-rehab-rescue/
@@ -7733,12 +7603,11 @@
   leadership:
     executive_director: Sheida Soleimani (Founder)
     medical_director: unknown
-  mission_excerpt: To rehabilitate every wild bird in need, and establish a compassionate environment for wild birds through
-    advocacy, education, and art. Only avian-specific rehabilitation facility in Rhode Island with an onsite release center.
+  mission_excerpt: To rehabilitate every wild bird in need, and establish a compassionate environment for wild birds through advocacy, education, and art. Only avian-specific rehabilitation facility in
+    Rhode Island with an onsite release center.
   status: active
-  notes: Founded 2016 by Sheida Soleimani (artist, educator, Brandeis University faculty). Formally became 501(c)(3) nonprofit
-    in 2024. 24-hour triage clinic in Providence; rehabilitation and release center in Chepachet (42 acres). 1,000+ avian
-    patients/year. QTBIPOC-friendly.
+  notes: Founded 2016 by Sheida Soleimani (artist, educator, Brandeis University faculty). Formally became 501(c)(3) nonprofit in 2024. 24-hour triage clinic in Providence; rehabilitation and release center
+    in Chepachet (42 acres). 1,000+ avian patients/year. QTBIPOC-friendly.
   source_urls:
   - https://www.congressofthebirds.org
   - https://www.causeiq.com/organizations/congress-of-the-birds,991524923/
@@ -7794,12 +7663,10 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: Providing direct, hands-on medical and rehabilitative care to ALL species of injured or orphaned wildlife
-    in Rhode Island since 1993. The only non-profit in RI licensed to provide veterinary and rehabilitative care to all wildlife
-    species.
+  mission_excerpt: Providing direct, hands-on medical and rehabilitative care to ALL species of injured or orphaned wildlife in Rhode Island since 1993. The only non-profit in RI licensed to provide veterinary
+    and rehabilitative care to all wildlife species.
   status: active
-  notes: Only full-all-species rehab organization in Rhode Island. 6,000+ patients/year. Founded 1993. Legal name is WRARI;
-    operates as Wildlife Clinic of Rhode Island.
+  notes: Only full-all-species rehab organization in Rhode Island. 6,000+ patients/year. Founded 1993. Legal name is WRARI; operates as Wildlife Clinic of Rhode Island.
   source_urls:
   - https://www.riwildliferehab.org
   - https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/bnatres/fishwild/pdf/ri-wildlife-rehab.pdf
@@ -7853,11 +7720,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Providing medical care for injured birds of prey and shorebirds; education, research, and conservation.
-    15,000+ cases since founding.
+  mission_excerpt: Providing medical care for injured birds of prey and shorebirds; education, research, and conservation. 15,000+ cases since founding.
   status: active
-  notes: Incorporated 1991 as Charleston Raptor Center; renamed SC Center for Birds of Prey 1995; Avian Conservation Center
-    umbrella org 2004. Revenue ~$1.5M/yr.
+  notes: Incorporated 1991 as Charleston Raptor Center; renamed SC Center for Birds of Prey 1995; Avian Conservation Center umbrella org 2004. Revenue ~$1.5M/yr.
   source_urls:
   - https://thecenterforbirdsofprey.org
   - https://projects.propublica.org/nonprofits/organizations/570966813
@@ -7909,8 +7774,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Founded 1989. Devoted to rehabilitation of injured and orphaned native wildlife and preservation of wildlife
-    through education.
+  mission_excerpt: Founded 1989. Devoted to rehabilitation of injured and orphaned native wildlife and preservation of wildlife through education.
   status: active
   notes: Serves Columbia, SC area. Ruling date 1991-06-01 per IRS.
   source_urls:
@@ -7969,6 +7833,125 @@
   notes: EIN not found in ProPublica; may be a DBA or small org filing 990-N. State permit verified via SC DNR registry.
   source_urls:
   - https://wildlife-rehab.com
+- slug: black-hills-raptor-center
+  legal_name: Black Hills Raptor Center
+  common_name: Black Hills Raptor Center
+  state: SD
+  city: Rapid City
+  county_fips: '46103'
+  ein: 27-4423598
+  primary_url: https://www.blackhillsraptorcenter.org
+  wildlife_help_url: https://www.blackhillsraptorcenter.org/contact-us/
+  about_url: https://www.blackhillsraptorcenter.org/about-us/
+  contact_url: https://www.blackhillsraptorcenter.org/contact-us/
+  contact_email: ''
+  contact_phone: 605-519-2008
+  emergency_hotline: 605-519-2008
+  intake_address: PO Box 48, Caputa, SD 57725 (no public walk-in facility yet; call for drop-off)
+  intake_hours: ''
+  news_or_blog_url: ''
+  newsletter_signup_url: ''
+  patient_stories_url: ''
+  annual_reports_url: ''
+  most_recent_annual_report_pdf: ''
+  social:
+    facebook: ''
+    instagram: ''
+    tiktok: ''
+    youtube: ''
+    twitter: ''
+    linkedin: ''
+    bluesky: ''
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ''
+  accreditations: []
+  leadership:
+    executive_director: Maggie Engler
+    medical_director: Peggy Behrens, DVM
+  mission_excerpt: To conserve and protect native birds of prey and their natural habitats through education, rehabilitation, and research.
+  status: active
+  notes: 'SD''s principal raptor rehabilitation and education nonprofit, operating since at least 2010 (990-EZ filing history). All-volunteer group managed by 8-person board. Currently building a permanent
+    public education facility in western SD. Conducts 125–150 educational programs per year using live raptors. SD GF&P has no public rehabber directory; BHRC is the most prominent formally incorporated
+    raptor rehab org in the state. EIN confirmed via ProPublica (https://projects.propublica.org/nonprofits/organizations/274423598).
+
+    '
+  source_urls:
+  - https://www.blackhillsraptorcenter.org
+  - https://projects.propublica.org/nonprofits/organizations/274423598
+  - https://gfp.sd.gov/wildlife-rehab/
+- slug: town-country-tlc-vet-wildlife
+  legal_name: Town & Country TLC Vet (wildlife rehabilitation program)
+  common_name: Town & Country TLC Vet Wildlife Program
+  state: SD
+  city: Rapid City
+  county_fips: '46103'
+  ein: ''
+  primary_url: https://townandcountryvetsd.com
+  wildlife_help_url: https://townandcountryvetsd.com/wildlife/
+  about_url: https://townandcountryvetsd.com/about/
+  contact_url: https://townandcountryvetsd.com/contact/
+  contact_email: ''
+  contact_phone: ''
+  emergency_hotline: ''
+  intake_address: Rapid City, SD (see website for current address)
+  intake_hours: ''
+  news_or_blog_url: ''
+  newsletter_signup_url: ''
+  patient_stories_url: ''
+  annual_reports_url: ''
+  most_recent_annual_report_pdf: ''
+  social:
+    facebook: ''
+    instagram: ''
+    tiktok: ''
+    youtube: ''
+    twitter: ''
+    linkedin: ''
+    bluesky: ''
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ''
+  accreditations: []
+  leadership:
+    executive_director: ''
+    medical_director: ''
+  mission_excerpt: 'Accepts ill, injured, or orphaned native wild animals (with exceptions); primary goal is rehabilitation and release back to the wild.
+
+    '
+  status: active
+  notes: 'Veterinary clinic in Rapid City, SD that operates a licensed wildlife rehabilitation program accepting native wild animals. Not a standalone nonprofit — a private veterinary practice. Included
+    here as one of SD''s very few publicly listed intake points for injured wildlife. SD GF&P directs the public to call regional wildlife offices because "South Dakota has very few licensed wildlife rehabilitators."
+    This clinic is referenced on SD-facing bird-rescue directories. EIN not applicable (for-profit veterinary practice, not a 501(c)(3)).
+
+    '
+  source_urls:
+  - https://townandcountryvetsd.com/wildlife/
+  - http://birdrescues.org/south-dakota-bird-rescues-bird-rehabs-and-wildlife-hospitals/
 - slug: for-fox-sake-wildlife-rescue
   legal_name: For Fox Sake Wildlife Rescue
   common_name: For Fox Sake
@@ -8019,8 +8002,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: 'Non-profit wildlife rehabilitation in Chattanooga focused on under-served species: skunks, foxes, raccoons,
-    bobcats, reptiles, and amphibians.'
+  mission_excerpt: 'Non-profit wildlife rehabilitation in Chattanooga focused on under-served species: skunks, foxes, raccoons, bobcats, reptiles, and amphibians.'
   status: active
   notes: TWRA permitted with special authorization for rabies-vector species. USDA licensed. IWRC certified, NWRA standards.
   source_urls:
@@ -8042,8 +8024,8 @@
   emergency_hotline: (615) 266-5701
   intake_address: P.O. Box 58586, Nashville, TN 37205
   intake_hours: By appointment; Mon–Fri 10am–6pm
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://www.harmonywildlife.org/about-us/latest-news
+  newsletter_signup_url: https://www.harmonywildlife.org/about-us/latest-news
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -8075,8 +8057,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Cares for Tennessee's orphaned and injured native wildlife; helps neighbors understand and coexist with
-    wildlife.
+  mission_excerpt: Cares for Tennessee's orphaned and injured native wildlife; helps neighbors understand and coexist with wildlife.
   status: active
   notes: TWRA licensed. Nashville/West Nashville area. Text line for animal help.
   source_urls:
@@ -8184,8 +8165,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Protects wildlife of West Tennessee; rehabilitates raccoons, squirrels, opossums, turtles, and other wild
-    species.
+  mission_excerpt: Protects wildlife of West Tennessee; rehabilitates raccoons, squirrels, opossums, turtles, and other wild species.
   status: active
   notes: Tax-exempt since March 2021. Shelby County. No government funding.
   source_urls:
@@ -8207,8 +8187,8 @@
   emergency_hotline: 615-559-WILD (9453)
   intake_address: Joelton, TN (Davidson County)
   intake_hours: ''
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://waldenspuddle.org/newsletters/
+  newsletter_signup_url: https://waldenspuddle.org/newsletters/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -8239,8 +8219,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Professionally-staffed wildlife rehabilitation facility serving middle Tennessee sick, injured, and orphaned
-    native wildlife.
+  mission_excerpt: Professionally-staffed wildlife rehabilitation facility serving middle Tennessee sick, injured, and orphaned native wildlife.
   status: active
   notes: Tax-exempt since Jan. 1992. Revenue ~$645K (FY2024). No federal or state funding.
   source_urls:
@@ -8294,11 +8273,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Dedicated to rehabilitating and releasing injured, orphaned, and sick wild animals and educating the public
-    about local wildlife.
+  mission_excerpt: Dedicated to rehabilitating and releasing injured, orphaned, and sick wild animals and educating the public about local wildlife.
   status: active
-  notes: Founded 2012. Central Texas facility a few miles north of downtown Georgetown. Opened Little Red Schoolhouse education
-    facility in 2023. No government funding; relies entirely on donations.
+  notes: Founded 2012. Central Texas facility a few miles north of downtown Georgetown. Opened Little Red Schoolhouse education facility in 2023. No government funding; relies entirely on donations.
   source_urls:
   - https://allthingswildrehab.org
   - https://allthingswildrehab.org/donate/
@@ -8320,8 +8297,8 @@
   emergency_hotline: 512-472-9453
   intake_address: 811 E. 13th Street, Austin, TX 78702
   intake_hours: 9 am to 4 pm, Monday through Sunday
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://www.austinwildliferescue.org/critter-chronicle/category/Newsletter
+  newsletter_signup_url: https://www.austinwildliferescue.org/critter-chronicle/category/Newsletter
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -8352,11 +8329,10 @@
   leadership:
     executive_director: Jules Maron, CWR
     medical_director: ''
-  mission_excerpt: Austin Wildlife Rescue rehabilitates and releases orphaned, injured, and sick wild animals and educates
-    the public to coexist with wildlife.
+  mission_excerpt: Austin Wildlife Rescue rehabilitates and releases orphaned, injured, and sick wild animals and educates the public to coexist with wildlife.
   status: active
-  notes: Founded 1977. Only wildlife rehabilitation center with an intake facility in Austin. Serves 30+ Texas counties. Hotline
-    receives ~14,000 calls/year. Rehabilitation facility in Elgin, TX (111 Elbow Bend, Elgin, TX 78621); intake in Austin.
+  notes: Founded 1977. Only wildlife rehabilitation center with an intake facility in Austin. Serves 30+ Texas counties. Hotline receives ~14,000 calls/year. Rehabilitation facility in Elgin, TX (111 Elbow
+    Bend, Elgin, TX 78621); intake in Austin.
   source_urls:
   - https://www.austinwildliferescue.org/about
   - https://impala.digital/public/profiles/74-1951561/overview
@@ -8380,7 +8356,7 @@
   news_or_blog_url: ''
   newsletter_signup_url: ''
   patient_stories_url: ''
-  annual_reports_url: ''
+  annual_reports_url: https://batworld.org/annual-reports/
   most_recent_annual_report_pdf: ''
   social:
     facebook: https://www.facebook.com/batworld.org/
@@ -8410,12 +8386,10 @@
   leadership:
     executive_director: Amanda Lollar
     medical_director: ''
-  mission_excerpt: On the front line to end the mistreatment of bats. Rescues hundreds of bats annually; provides lifetime
-    sanctuary for non-releasable bats.
+  mission_excerpt: On the front line to end the mistreatment of bats. Rescues hundreds of bats annually; provides lifetime sanctuary for non-releasable bats.
   status: active
-  notes: Founded 1994 by Amanda Lollar. Bat-specialist rehab only. Accredited by Global Federation of Animal Sanctuaries.
-    Facility houses 400+ permanent residents. Provides workshops to bat rehabilitators worldwide. Partners with Texas Parks
-    and Wildlife, CDC, and universities.
+  notes: Founded 1994 by Amanda Lollar. Bat-specialist rehab only. Accredited by Global Federation of Animal Sanctuaries. Facility houses 400+ permanent residents. Provides workshops to bat rehabilitators
+    worldwide. Partners with Texas Parks and Wildlife, CDC, and universities.
   source_urls:
   - https://batworld.org/about-us/
   - https://batworld.org/faqs/
@@ -8470,9 +8444,8 @@
     medical_director: ''
   mission_excerpt: Established to care for injured and orphaned native Texas wildlife in the Clear Lake area.
   status: active
-  notes: 501(c)(3) established 2007. Operates in Galveston County area, serving Clear Lake and southeast Houston suburbs.
-    Cares for animals under Texas Parks & Wildlife and U.S. Fish & Wildlife guidelines. Limited web presence; contact information
-    not published online.
+  notes: 501(c)(3) established 2007. Operates in Galveston County area, serving Clear Lake and southeast Houston suburbs. Cares for animals under Texas Parks & Wildlife and U.S. Fish & Wildlife guidelines.
+    Limited web presence; contact information not published online.
   source_urls:
   - https://www.bawr.org
   - https://getholdings.com/nonprofits/ein/208246883
@@ -8525,12 +8498,10 @@
   leadership:
     executive_director: Prudi Koeninger
     medical_director: ''
-  mission_excerpt: To reduce the incidence of orphaned and euthanized native wildlife in the DFW metroplex through public
-    outreach and education.
+  mission_excerpt: To reduce the incidence of orphaned and euthanized native wildlife in the DFW metroplex through public outreach and education.
   status: active
-  notes: Hotline/referral organization only; does not itself take in animals. Operating since 2003; 50+ volunteers. Covers
-    20 DFW-area counties. Refers callers to licensed rehabilitators. Also operates dfwwildlife.org resource website. Budget
-    under $100,000.
+  notes: Hotline/referral organization only; does not itself take in animals. Operating since 2003; 50+ volunteers. Covers 20 DFW-area counties. Refers callers to licensed rehabilitators. Also operates
+    dfwwildlife.org resource website. Budget under $100,000.
   source_urls:
   - https://www.dfwwildlife.org
   - https://www.northtexasgivingday.org/organization/Dfw-Wildlife-Coalition
@@ -8582,12 +8553,10 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Friends of Texas Wildlife is a group of trained and permitted volunteers who provide care for injured,
-    displaced, and orphaned wildlife in Montgomery and surrounding Counties.
+  mission_excerpt: Friends of Texas Wildlife is a group of trained and permitted volunteers who provide care for injured, displaced, and orphaned wildlife in Montgomery and surrounding Counties.
   status: active
-  notes: Only wildlife rescue group based in Montgomery County with rehabbers permitted by U.S. Fish & Wildlife and Texas
-    Parks & Wildlife. Volunteer-run. Intake center plus education center at 29816 Dobbin-Huffsmith Rd, Magnolia, 77354. No
-    after-hours assistance available.
+  notes: Only wildlife rescue group based in Montgomery County with rehabbers permitted by U.S. Fish & Wildlife and Texas Parks & Wildlife. Volunteer-run. Intake center plus education center at 29816 Dobbin-Huffsmith
+    Rd, Magnolia, 77354. No after-hours assistance available.
   source_urls:
   - https://ftwl.org
   - https://www.causeiq.com/organizations/friends-of-texas-wildlife,760440890/
@@ -8599,7 +8568,7 @@
   state: TX
   city: San Antonio
   county_fips: '48029'
-  ein: unknown
+  ein: 74-2213535
   primary_url: https://lastchanceforever.org
   wildlife_help_url: https://lastchanceforever.org/found-an-injured-bird/
   about_url: https://lastchanceforever.org/our-organization/
@@ -8641,12 +8610,10 @@
   leadership:
     executive_director: John Karger
     medical_director: ''
-  mission_excerpt: Dedicated to the rehabilitation of sick, injured, and orphaned birds of prey, scientific investigation,
-    and education of the public.
+  mission_excerpt: Dedicated to the rehabilitation of sick, injured, and orphaned birds of prey, scientific investigation, and education of the public.
   status: active
-  notes: Founded 1978 by Master Falconer and Vet Tech John Karger. Raptors only (hawks, owls, falcons, eagles, vultures).
-    Primary care facility in NE San Antonio houses 80–100 birds at any given time. 62%–80% release rate. Over 200 education
-    programs/year reaching 500,000+ people annually. 501(c)(3); EIN not publicly indexed in standard sources.
+  notes: Founded 1978 by Master Falconer and Vet Tech John Karger. Raptors only (hawks, owls, falcons, eagles, vultures). Primary care facility in NE San Antonio houses 80–100 birds at any given time. 62%–80%
+    release rate. Over 200 education programs/year reaching 500,000+ people annually. 501(c)(3); EIN not publicly indexed in standard sources.
   source_urls:
   - https://lastchanceforever.org
   - https://lastchanceforever.org/our-organization/
@@ -8702,9 +8669,8 @@
     medical_director: ''
   mission_excerpt: Committed to the rescue, rehabilitation, and release of local injured or orphaned wildlife.
   status: active
-  notes: Founded 2013 (originally Dallas Wildlife Center). Received 60-day eviction notice from Plano facility in June 2025;
-    secured new location by Oct 2025 and finalizing loan/renovation. Serves North Texas metro. 4,000+ animals assisted in
-    2025. Texas Parks & Wildlife permitted. EIN listed on website.
+  notes: Founded 2013 (originally Dallas Wildlife Center). Received 60-day eviction notice from Plano facility in June 2025; secured new location by Oct 2025 and finalizing loan/renovation. Serves North
+    Texas metro. 4,000+ animals assisted in 2025. Texas Parks & Wildlife permitted. EIN listed on website.
   source_urls:
   - https://www.ntxwildlife.org
   - https://www.ntxwildlife.org/about-us
@@ -8757,11 +8723,10 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Dedicated to rescuing, rehabilitating, and releasing native wildlife while fostering a deeper understanding
-    and respect for the natural world.
+  mission_excerpt: Dedicated to rescuing, rehabilitating, and releasing native wildlife while fostering a deeper understanding and respect for the natural world.
   status: active
-  notes: Founded 1988 by Carol Lee. Specializes in songbirds, birds of prey, migratory species, small mammals, and reptiles.
-    Serves West Texas. Affiliated with Texas Tech University OLLI program for education visits.
+  notes: Founded 1988 by Carol Lee. Specializes in songbirds, birds of prey, migratory species, small mammals, and reptiles. Serves West Texas. Affiliated with Texas Tech University OLLI program for education
+    visits.
   source_urls:
   - https://www.spwrc.org/about-us-1
   - https://www.causeiq.com/organizations/south-plains-wildlife-rehabilitation-center,752468445/
@@ -8816,9 +8781,8 @@
     medical_director: ''
   mission_excerpt: To coexist peacefully with wildlife and rehabilitate them so that we can release them back to the wild.
   status: active
-  notes: Founded 2016 by Stephanie Brady. Amarillo's first wildlife rehabilitation center. Only state and federally permitted
-    rehab facility across all 26 counties of the Texas Panhandle. Serves Potter County and surrounding 26 counties. Will drive
-    up to 2 hours each way to rescue animals.
+  notes: Founded 2016 by Stephanie Brady. Amarillo's first wildlife rehabilitation center. Only state and federally permitted rehab facility across all 26 counties of the Texas Panhandle. Serves Potter
+    County and surrounding 26 counties. Will drive up to 2 hours each way to rescue animals.
   source_urls:
   - https://wildwestwildlife.com/about/
   - https://projects.propublica.org/nonprofits/organizations/813303679
@@ -8830,7 +8794,7 @@
   state: TX
   city: Houston
   county_fips: '48201'
-  ein: unknown
+  ein: 76-0389711
   primary_url: https://wildlifecenteroftexas.org
   wildlife_help_url: https://wildlifecenteroftexas.org/need-help/
   about_url: https://wildlifecenteroftexas.org/about/
@@ -8872,12 +8836,10 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: To rescue, rehabilitate, and release native wildlife and to provide sanctuary, individualized care, and
-    a voice for other animals in need.
+  mission_excerpt: To rescue, rehabilitate, and release native wildlife and to provide sanctuary, individualized care, and a voice for other animals in need.
   status: active
-  notes: Affiliate of Houston SPCA operating within Houston SPCA main campus at 7007 Old Katy Rd. Accepts oiled wildlife;
-    specialty oiled wildlife response. The Wildlife Center of Texas brand is now used for the SPCA's wildlife program separate
-    from Wildlife Rescue & Rehabilitation (Kendalia). TPWD lists both as distinct permitted entities for Harris County.
+  notes: Affiliate of Houston SPCA operating within Houston SPCA main campus at 7007 Old Katy Rd. Accepts oiled wildlife; specialty oiled wildlife response. The Wildlife Center of Texas brand is now used
+    for the SPCA's wildlife program separate from Wildlife Rescue & Rehabilitation (Kendalia). TPWD lists both as distinct permitted entities for Harris County.
   source_urls:
   - https://wildlifecenteroftexas.org/contact/
   - https://tpwd.texas.gov/huntwild/wild/rehab/list/counties/index.phtml?id=101&county=Harris
@@ -8899,8 +8861,8 @@
   emergency_hotline: 830-336-2725
   intake_address: 335 Old Blanco Rd., Kendalia, TX 78027
   intake_hours: Monday–Sunday 6:30 am – 11 pm; after-hours call available
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://www.wildlife-rescue.org/newsletters/
+  newsletter_signup_url: https://www.wildlife-rescue.org/newsletters/
   patient_stories_url: ''
   annual_reports_url: https://www.wildlife-rescue.org/financial/
   most_recent_annual_report_pdf: ''
@@ -8931,13 +8893,10 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: To rescue, rehabilitate, and release native wildlife and to provide sanctuary, individualized care, and
-    a voice for other animals in need.
+  mission_excerpt: To rescue, rehabilitate, and release native wildlife and to provide sanctuary, individualized care, and a voice for other animals in need.
   status: active
-  notes: Founded 1977. 212-acre facility in Texas Hill Country near Austin and San Antonio. Also provides permanent sanctuary
-    for ~600 resident animals including non-native and farmed animals. The Wildlife Center of Texas (Houston) is a separate
-    affiliate org at Houston SPCA. San Antonio intake location (11902 Rustic Ln) consolidated to Kendalia as of Oct 21, 2025.
-    Charity Navigator rated.
+  notes: Founded 1977. 212-acre facility in Texas Hill Country near Austin and San Antonio. Also provides permanent sanctuary for ~600 resident animals including non-native and farmed animals. The Wildlife
+    Center of Texas (Houston) is a separate affiliate org at Houston SPCA. San Antonio intake location (11902 Rustic Ln) consolidated to Kendalia as of Oct 21, 2025. Charity Navigator rated.
   source_urls:
   - https://www.wildlife-rescue.org/contact/
   - https://www.charitynavigator.org/ein/742012897
@@ -8990,8 +8949,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Wild Friends is the wildlife sanctuary component of Best Friends Animal Sanctuary, rehabilitating native
-    wild animals from the Colorado Plateau region.
+  mission_excerpt: Wild Friends is the wildlife sanctuary component of Best Friends Animal Sanctuary, rehabilitating native wild animals from the Colorado Plateau region.
   status: active
   notes: Part of the Best Friends Animal Sanctuary campus in Angel Canyon, Kanab. Serves southern Utah and the Colorado Plateau.
   source_urls:
@@ -9002,7 +8960,7 @@
   state: UT
   city: Ogden
   county_fips: '49057'
-  ein: unknown
+  ein: 26-4301793
   primary_url: https://wrcnu.org
   wildlife_help_url: https://wrcnu.org/found-an-animal/
   about_url: https://wrcnu.org/about/
@@ -9044,11 +9002,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Empowering the community to engage in conservation and responsible stewardship of wildlife and habitat
-    in northern Utah.
+  mission_excerpt: Empowering the community to engage in conservation and responsible stewardship of wildlife and habitat in northern Utah.
   status: active
-  notes: Primary wildlife hospital for Weber, Davis, and Box Elder counties in northern Utah. Has experienced periods of closure/relocation;
-    confirmed active.
+  notes: Primary wildlife hospital for Weber, Davis, and Box Elder counties in northern Utah. Has experienced periods of closure/relocation; confirmed active.
   source_urls:
   - https://wrcnu.org
 - slug: aero-animal-education-rescue-organization
@@ -9101,8 +9057,7 @@
   leadership:
     executive_director: Olivia LoBalbo (Founder)
     medical_director: unknown
-  mission_excerpt: 501(c)(3) organization dedicated to the rescue and rehabilitation of orphaned, injured, and sick native
-    Virginia wildlife. Active in Fairfax, Prince William, Fauquier, and Stafford counties.
+  mission_excerpt: 501(c)(3) organization dedicated to the rescue and rehabilitation of orphaned, injured, and sick native Virginia wildlife. Active in Fairfax, Prince William, Fauquier, and Stafford counties.
   status: active
   notes: Founded 2013. DWR Category IIB organization (wildlife facility), can sponsor up to 20 apprentice rehabilitators.
   source_urls:
@@ -9159,11 +9114,9 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: To protect and conserve native wildlife by integrating veterinary medicine, rehabilitation, public education,
-    professional training, and research.
+  mission_excerpt: To protect and conserve native wildlife by integrating veterinary medicine, rehabilitation, public education, professional training, and research.
   status: active
-  notes: Located in Clarke County near Winchester, VA. Annual revenue ~$3.2M (2024). Offers professional training internships
-    and fellowships.
+  notes: Located in Clarke County near Winchester, VA. Annual revenue ~$3.2M (2024). Offers professional training internships and fellowships.
   source_urls:
   - https://blueridgewildlifectr.org
   - https://grantedai.com/org/blue-ridge-wildlife-center-541996991
@@ -9184,9 +9137,9 @@
   intake_address: 5450 Wheelers Cove Rd., Shipman, VA 22971
   intake_hours: 9:00am - 4:00pm daily, 365 days/year
   news_or_blog_url: https://rockfishwildlifesanctuary.org/blog
-  newsletter_signup_url: unknown
+  newsletter_signup_url: https://rockfishwildlifesanctuary.org/publications
   patient_stories_url: unknown
-  annual_reports_url: unknown
+  annual_reports_url: https://rockfishwildlifesanctuary.org/publications
   most_recent_annual_report_pdf: unknown
   social:
     facebook: https://www.facebook.com/RockfishWildlifeSanctuary
@@ -9217,11 +9170,10 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: At Rockfish Wildlife Sanctuary, every injured or orphaned wild animal gets the professional, compassionate
-    care it deserves so it can return to the wild. Specializes in caring for clinically healthy orphaned wildlife.
+  mission_excerpt: At Rockfish Wildlife Sanctuary, every injured or orphaned wild animal gets the professional, compassionate care it deserves so it can return to the wild. Specializes in caring for clinically
+    healthy orphaned wildlife.
   status: active
-  notes: Located in Nelson County near Charlottesville. No on-site veterinarian; specializes in orphaned mammals. 3,000 sq
-    ft rehabilitation facility.
+  notes: Located in Nelson County near Charlottesville. No on-site veterinarian; specializes in orphaned mammals. 3,000 sq ft rehabilitation facility.
   source_urls:
   - https://rockfishwildlifesanctuary.org
   - https://rockfishwildlifesanctuary.org/rehabilitation
@@ -9278,11 +9230,10 @@
   leadership:
     executive_director: Sabrina Garvin (Co-founder)
     medical_director: unknown
-  mission_excerpt: Conserving Virginia's wildlife through rehabilitation and release while teaching care and respect of native
-    species. One of only 3 wildlife veterinary hospitals in Virginia authorized to treat threatened and endangered species.
+  mission_excerpt: Conserving Virginia's wildlife through rehabilitation and release while teaching care and respect of native species. One of only 3 wildlife veterinary hospitals in Virginia authorized
+    to treat threatened and endangered species.
   status: active
-  notes: Independent nonprofit since 2002. Co-founded by NWRA/IWRC members Sabrina and Lucky Garvin. Covers entire western
-    half of Virginia. 2,700+ patients annually.
+  notes: Independent nonprofit since 2002. Co-founded by NWRA/IWRC members Sabrina and Lucky Garvin. Covers entire western half of Virginia. 2,700+ patients annually.
   source_urls:
   - https://swvawildlifecenter.org/about/
   - https://projects.propublica.org/nonprofits/organizations/300882382
@@ -9339,11 +9290,9 @@
   leadership:
     executive_director: Margaret Gammage Tucker (President)
     medical_director: unknown
-  mission_excerpt: Teaching the world to care about, and care for, wildlife and the environment. Founded 1982; one of the
-    world's premier teaching hospitals for wildlife and conservation medicine.
+  mission_excerpt: Teaching the world to care about, and care for, wildlife and the environment. Founded 1982; one of the world's premier teaching hospitals for wildlife and conservation medicine.
   status: active
-  notes: One of the largest wildlife teaching hospitals in North America; affiliated with veterinary medicine programs nationally;
-    operates Critter Cams livestream; annual budget ~$3.6M (2024).
+  notes: One of the largest wildlife teaching hospitals in North America; affiliated with veterinary medicine programs nationally; operates Critter Cams livestream; annual budget ~$3.6M (2024).
   source_urls:
   - https://wildlifecenter.org/about
   - https://projects.propublica.org/nonprofits/organizations/541215402
@@ -9397,11 +9346,10 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: Non-profit 501(c)(3) organization dedicated to providing care for sick, injured, and orphaned wildlife
-    with the intent of releasing them back into their native habitat. Serves Northern Virginia and surrounding counties.
+  mission_excerpt: Non-profit 501(c)(3) organization dedicated to providing care for sick, injured, and orphaned wildlife with the intent of releasing them back into their native habitat. Serves Northern
+    Virginia and surrounding counties.
   status: active
-  notes: Operates helpline; network-model — coordinates licensed home rehabilitators across Fairfax, Loudoun, Prince William,
-    Fauquier counties. Building first stand-alone wildlife rehab center.
+  notes: Operates helpline; network-model — coordinates licensed home rehabilitators across Fairfax, Loudoun, Prince William, Fauquier counties. Building first stand-alone wildlife rehab center.
   source_urls:
   - https://www.wildliferescueleague.org
   - https://www.causeiq.com/organizations/wildlife-rescue-league,521419298/
@@ -9411,7 +9359,7 @@
   state: VA
   city: Virginia Beach
   county_fips: '51810'
-  ein: unknown
+  ein: 54-1641798
   primary_url: https://www.wildliferesponse.org
   wildlife_help_url: https://www.wildliferesponse.org
   about_url: https://www.wildliferesponse.org/about
@@ -9455,14 +9403,128 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: Distinctive 501(c)(3) volunteer organization devoted solely to the care of orphaned, injured, and displaced
-    native wildlife in the Hampton Roads region.
+  mission_excerpt: Distinctive 501(c)(3) volunteer organization devoted solely to the care of orphaned, injured, and displaced native wildlife in the Hampton Roads region.
   status: active
-  notes: Serves Hampton Roads area. Building permanent Wildlife Response and Rehabilitation Center (expected 2025). EIN not
-    publicly confirmed; ProPublica shows 83-3753390 for 'Wild Response Inc.' which may be a related entity.
+  notes: Serves Hampton Roads area. Building permanent Wildlife Response and Rehabilitation Center (expected 2025). EIN not publicly confirmed; ProPublica shows 83-3753390 for 'Wild Response Inc.' which
+    may be a related entity.
   source_urls:
   - https://www.wildliferesponse.org
   - https://www.chewy.com/g/wildlife-response-inc_b100187295
+- slug: parkhill-wildlife-rehab
+  legal_name: Parkhill Wildlife Rehab
+  common_name: Parkhill Wildlife Rehab
+  state: VT
+  city: Benson
+  county_fips: '50001'
+  ein: 93-3397141
+  primary_url: ''
+  wildlife_help_url: ''
+  about_url: ''
+  contact_url: ''
+  contact_email: ''
+  contact_phone: ''
+  emergency_hotline: ''
+  intake_address: Benson, VT
+  intake_hours: ''
+  news_or_blog_url: ''
+  newsletter_signup_url: ''
+  patient_stories_url: ''
+  annual_reports_url: ''
+  most_recent_annual_report_pdf: ''
+  social:
+    facebook: ''
+    instagram: ''
+    tiktok: ''
+    youtube: ''
+    twitter: ''
+    linkedin: ''
+    bluesky: ''
+  services:
+    accepts_birds: false
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ''
+  accreditations: []
+  leadership:
+    executive_director: ''
+    medical_director: ''
+  mission_excerpt: ''
+  status: active
+  notes: 'Newer small Vermont nonprofit (EIN 93-3397141 per CauseIQ). Based in Benson, VT (Addison County). No public website found. EIN prefix 93- indicates recent IRS recognition. Likely a small mammal-focused
+    operation aligned with the licensed rehabber community in that region (Benson has two listed rehabbers in the VT F&W directory: Lia McFarline and Sally Beckwith). Include as a stub pending further research.
+
+    '
+  source_urls:
+  - https://www.causeiq.com/organizations/parkhill-wildlife-rehab,933397141/
+- slug: vins-nature-center
+  legal_name: Vermont Institute of Natural Science Inc
+  common_name: VINS Nature Center
+  state: VT
+  city: Quechee
+  county_fips: '50027'
+  ein: 03-0231665
+  primary_url: https://vinsweb.org
+  wildlife_help_url: https://vinsweb.org/wild-bird-rehabilitation/
+  about_url: https://vinsweb.org/about/
+  contact_url: https://vinsweb.org/contact/
+  contact_email: ''
+  contact_phone: 802-359-5000
+  emergency_hotline: 802-359-5000 ext. 212
+  intake_address: 149 Natures Way, Quechee, VT 05059
+  intake_hours: Open daily; rehabilitation intake contact ext. 212
+  news_or_blog_url: ''
+  newsletter_signup_url: ''
+  patient_stories_url: ''
+  annual_reports_url: ''
+  most_recent_annual_report_pdf: ''
+  social:
+    facebook: ''
+    instagram: https://www.instagram.com/vinsraptors/
+    tiktok: ''
+    youtube: ''
+    twitter: ''
+    linkedin: ''
+    bluesky: ''
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ''
+  accreditations: []
+  leadership:
+    executive_director: ''
+    medical_director: Grae O'Toole
+  mission_excerpt: To motivate individuals and communities to care for the environment through education, research, and avian wildlife rehabilitation.
+  status: active
+  notes: 'Vermont''s only institutional-scale wild bird rehabilitation center. Treats all birds including raptors, waterfowl, songbirds, gamebirds, and threatened/endangered species from throughout New
+    England. Listed on the Vermont F&W licensed rehabber directory as the primary statewide bird rehab intake point. Tax-exempt since August 1973; revenue ~$3M annually. 35,000+ visitors per year. ADA accessible.
+    Adopt-a-Raptor (RISE) program. EIN confirmed via ProPublica (https://projects.propublica.org/nonprofits/organizations/30231665).
+
+    '
+  source_urls:
+  - https://vinsweb.org
+  - https://projects.propublica.org/nonprofits/organizations/30231665
+  - https://www.vtvets.org/assets/docs/Wildlife_Rehabilitator_Locator_Map.pdf
 - slug: paws-wildlife-center
   legal_name: Progressive Animal Welfare Society, Inc.
   common_name: PAWS Wildlife Center
@@ -9511,11 +9573,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: PAWS provides medical care for injured and orphaned wildlife with the goal of releasing them back to the
-    wild.
+  mission_excerpt: PAWS provides medical care for injured and orphaned wildlife with the goal of releasing them back to the wild.
   status: active
-  notes: One of the Pacific Northwest's largest and most respected wildlife rehabilitation centers. Also operates companion
-    animal adoption services.
+  notes: One of the Pacific Northwest's largest and most respected wildlife rehabilitation centers. Also operates companion animal adoption services.
   source_urls:
   - https://www.paws.org
   - https://projects.propublica.org/nonprofits/organizations/916073154
@@ -9567,8 +9627,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Sarvey Wildlife Care Center cares for over 3,000 wildlife patients annually, treating all species of birds
-    and mammals in the Pacific Northwest.
+  mission_excerpt: Sarvey Wildlife Care Center cares for over 3,000 wildlife patients annually, treating all species of birds and mammals in the Pacific Northwest.
   status: active
   notes: 40+ year history; currently raising funds for new facility. Serves Snohomish and surrounding counties.
   source_urls:
@@ -9591,7 +9650,7 @@
   intake_address: Mukilteo, WA 98275
   intake_hours: ''
   news_or_blog_url: https://www.sealifer3.org/news
-  newsletter_signup_url: ''
+  newsletter_signup_url: https://www.sealifer3.org/quarterly-newsletter-2023-1
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -9622,11 +9681,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: The only hospital exclusively for marine wildlife in the Pacific Northwest; rescues and protects marine
-    life through response, rehabilitation, and research.
+  mission_excerpt: The only hospital exclusively for marine wildlife in the Pacific Northwest; rescues and protects marine life through response, rehabilitation, and research.
   status: active
-  notes: MARINE MAMMAL SPECIALIST. Responds to strandings of seals, sea lions, porpoises, dolphins, and whales throughout
-    the Pacific Northwest. 24/7 stranding response.
+  notes: MARINE MAMMAL SPECIALIST. Responds to strandings of seals, sea lions, porpoises, dolphins, and whales throughout the Pacific Northwest. 24/7 stranding response.
   source_urls:
   - https://www.sealifer3.org
   - https://projects.propublica.org/nonprofits/organizations/451491069
@@ -9646,8 +9703,8 @@
   emergency_hotline: (360) 378-5000
   intake_address: 284 Boyce Rd, Friday Harbor, WA 98250
   intake_hours: ''
-  news_or_blog_url: ''
-  newsletter_signup_url: ''
+  news_or_blog_url: https://wolfhollowwildlife.org/news/newsletters/
+  newsletter_signup_url: https://wolfhollowwildlife.org/news/newsletters/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -9678,11 +9735,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Raising awareness and providing educational opportunities about wildlife living in the San Juan Islands;
-    rehabilitating injured and orphaned wildlife.
+  mission_excerpt: Raising awareness and providing educational opportunities about wildlife living in the San Juan Islands; rehabilitating injured and orphaned wildlife.
   status: active
-  notes: Serves the San Juan Islands archipelago, including San Juan, Orcas, Lopez, and nearby islands. Also known as Salish
-    Wildlife Rescue.
+  notes: Serves the San Juan Islands archipelago, including San Juan, Orcas, Lopez, and nearby islands. Also known as Salish Wildlife Rescue.
   source_urls:
   - https://wolfhollowwildlife.org
   - https://projects.propublica.org/nonprofits/organizations/911265913
@@ -9705,7 +9760,7 @@
   news_or_blog_url: ''
   newsletter_signup_url: ''
   patient_stories_url: ''
-  annual_reports_url: ''
+  annual_reports_url: https://www.giveshelter.org/news/behind-the-numbers-wildlife-centers-2025-annual-report
   most_recent_annual_report_pdf: ''
   social:
     facebook: https://www.facebook.com/dchswc/
@@ -9735,11 +9790,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Wildlife Center of Dane County Humane Society, formerly Four Lakes Wildlife Center, founded 2002 to provide
-    wildlife rehabilitation in the Madison area.
+  mission_excerpt: Wildlife Center of Dane County Humane Society, formerly Four Lakes Wildlife Center, founded 2002 to provide wildlife rehabilitation in the Madison area.
   status: active
-  notes: Wildlife program of DCHS. Founded 2002. 4-star Charity Navigator rating. EIN is for parent org Dane County Humane
-    Society.
+  notes: Wildlife program of DCHS. Founded 2002. 4-star Charity Navigator rating. EIN is for parent org Dane County Humane Society.
   source_urls:
   - https://www.charitynavigator.org/ein/390806335
   - https://www.giveshelter.org/wildlife-center
@@ -9794,8 +9847,7 @@
     medical_director: ''
   mission_excerpt: Help birds of prey through education, rehabilitation and conservation.
   status: active
-  notes: Non-profit 501(c)(3) raptor center founded 1998, located near Milton in southern Wisconsin. Volunteer-run. Supported
-    by We Energies Foundation, Alliant Energy Foundation, MGE Foundation.
+  notes: Non-profit 501(c)(3) raptor center founded 1998, located near Milton in southern Wisconsin. Volunteer-run. Supported by We Energies Foundation, Alliant Energy Foundation, MGE Foundation.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/030491352
   - https://www.causeiq.com/organizations/hoos-woods-raptor-center,030491352/
@@ -9850,11 +9902,9 @@
   leadership:
     executive_director: Marge Gibson
     medical_director: ''
-  mission_excerpt: Dedicated to the care and rehabilitation of sick, injured, or orphaned native bird species and public education
-    of wildlife issues.
+  mission_excerpt: Dedicated to the care and rehabilitation of sick, injured, or orphaned native bird species and public education of wildlife issues.
   status: active
-  notes: Nationally known eagle rehabilitation and raptor education center in northern Wisconsin. Founded by Marge Gibson.
-    Revenue ~$431K (FY2025). Wikipedia article confirms long track record.
+  notes: Nationally known eagle rehabilitation and raptor education center in northern Wisconsin. Founded by Marge Gibson. Revenue ~$431K (FY2025). Wikipedia article confirms long track record.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/391772318
   - https://www.causeiq.com/organizations/raptor-education-group,391772318/
@@ -9908,11 +9958,9 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Care for more than 150 different species of animals, including all species of native birds, reptiles, and
-    amphibians, as well as most mammals.
+  mission_excerpt: Care for more than 150 different species of animals, including all species of native birds, reptiles, and amphibians, as well as most mammals.
   status: active
-  notes: Wildlife center is a program of WHS, serving Milwaukee, Ozaukee, and Racine counties. Cannot take bears, skunks,
-    Norway rats, white-tailed deer, or non-native birds per DNR restrictions.
+  notes: Wildlife center is a program of WHS, serving Milwaukee, Ozaukee, and Racine counties. Cannot take bears, skunks, Norway rats, white-tailed deer, or non-native birds per DNR restrictions.
   source_urls:
   - https://projects.propublica.org/nonprofits/organizations/390810533
   - https://www.wihumane.org/services/wildlife/
@@ -9967,12 +10015,11 @@
   leadership:
     executive_director: unknown
     medical_director: unknown
-  mission_excerpt: To conserve the region's wild birds through research, education, and rehabilitation. Licensed by USFWS
-    to rehabilitate all wild bird species including raptors, eagles, songbirds, waterbirds, waterfowl, and sea birds.
+  mission_excerpt: To conserve the region's wild birds through research, education, and rehabilitation. Licensed by USFWS to rehabilitate all wild bird species including raptors, eagles, songbirds, waterbirds,
+    waterfowl, and sea birds.
   status: active
-  notes: Located near Morgantown. Only avian rehab center for northern WV. Outdoor classroom at separate address (217 Morgan
-    Hill Road). Sponsors WV Young Birders Club. WV does not have standard state rehab permit program; ACCA operates under
-    federal permits.
+  notes: Located near Morgantown. Only avian rehab center for northern WV. Outdoor classroom at separate address (217 Morgan Hill Road). Sponsors WV Young Birders Club. WV does not have standard state rehab
+    permit program; ACCA operates under federal permits.
   source_urls:
   - https://www.accawv.org
   - https://www.charitynavigator.org/ein/454294729
@@ -9993,7 +10040,7 @@
   intake_address: 5450 W McCollister Drive, Wilson, WY 83014
   intake_hours: ''
   news_or_blog_url: https://tetonraptorcenter.org/news/
-  newsletter_signup_url: ''
+  newsletter_signup_url: https://tetonraptorcenter.org/category/annual-newsletters/
   patient_stories_url: ''
   annual_reports_url: ''
   most_recent_annual_report_pdf: ''
@@ -10024,8 +10071,7 @@
   leadership:
     executive_director: ''
     medical_director: ''
-  mission_excerpt: Non-profit organization advancing raptor conservation through education, research, and rehabilitation in
-    the Greater Yellowstone Ecosystem.
+  mission_excerpt: Non-profit organization advancing raptor conservation through education, research, and rehabilitation in the Greater Yellowstone Ecosystem.
   status: active
   notes: Serves Jackson Hole and the Greater Yellowstone area. Raptor-specialist organization.
   source_urls:

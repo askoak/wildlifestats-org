@@ -1,0 +1,438 @@
+# Statewide and Regional Wildlife Rehabilitation Associations — US
+# Compiled: 2025
+# Scope: Nonprofit member associations of licensed wildlife rehabilitators within a state or region.
+#   Excludes individual rehabilitation centers, and the national orgs NWRA/IWRC.
+# EIN data verified via ProPublica Nonprofit Explorer (projects.propublica.org/nonprofits).
+# Ruling year (IRS recognition) used as proxy for founding year where website data is absent.
+# Note: Not every state has a statewide member association; realistic count is 15–30 nationally.
+
+- jurisdiction: CA
+  legal_name: California Council for Wildlife Rehabilitators
+  common_name: CCWR
+  ein: 68-0316336
+  founded_year: 1993
+  primary_url: https://ccwr.org
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: null
+  mission_statement: The California Council for Wildlife Rehabilitators is dedicated
+    to advancing wildlife rehabilitation and supporting wildlife in a changing world.
+  mission_source_url: https://ccwr.org/about/
+  accreditations: []
+  sources:
+    - https://ccwr.org
+    - https://ccwr.org/about/
+    - https://projects.propublica.org/nonprofits/organizations/680316336
+- jurisdiction: CT
+  legal_name: Connecticut Wildlife Rehabilitators Association, Inc.
+  common_name: CWRA
+  ein: 06-1245911
+  founded_year: 2015
+  primary_url: https://cwrawildlife.org
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: null
+  mission_statement: Connecticut's Wildlife Rehabilitators — dedicated to the care
+    and protection of native Connecticut wildlife.
+  mission_source_url: https://cwrawildlife.org
+  accreditations: []
+  notes: IRS ruling year is 2015; the group may predate formal 501(c)(3) recognition.
+  sources:
+    - https://cwrawildlife.org
+    - https://projects.propublica.org/nonprofits/organizations/61245911
+    - https://www.thegreatgive.org/organizations/ct-wildlife-rehabilitators-association-inc
+- jurisdiction: DE
+  legal_name: The Delaware Council of Wildlife Rehabilitators and Educators, Inc.
+  common_name: DCWRE
+  ein: 52-2063897
+  founded_year: 1995
+  primary_url: https://www.dewildliferescue.org
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: DCWRE1@gmail.com
+  mission_statement: DCWRE is a diverse group of volunteers of all age groups and
+    experience levels who come together to help the wildlife of Delaware. They share
+    their experience with one another and promote wildlife awareness within the state.
+    It was established in 1995 to care for sick, injured and abandoned wildlife with
+    the goal of returning them to the wild.
+  mission_source_url: https://www.dewildliferescue.org
+  accreditations:
+    - 501(c)(3)
+  sources:
+    - https://www.dewildliferescue.org
+    - https://projects.propublica.org/nonprofits/organizations/522063897
+    - https://dnrec.delaware.gov/fish-wildlife/conservation/sick-dead-wildlife/
+- jurisdiction: FL
+  legal_name: Florida Wildlife Rehabilitators Association, Inc.
+  common_name: FWRA
+  ein: 65-0163273
+  founded_year: 1988
+  primary_url: https://fwra.org
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: null
+  mission_statement: The Florida Wildlife Rehabilitators Association (FWRA) is a nonprofit
+    organization dedicated to the unification, education and dissemination of information
+    to all wildlife rehabilitators in Florida.
+  mission_source_url: https://fwra.org/about-fwra/
+  accreditations:
+    - 501(c)(3)
+  sources:
+    - https://fwra.org/about-fwra/
+    - https://projects.propublica.org/nonprofits/organizations/650163273
+- jurisdiction: LA
+  legal_name: Louisiana Wildlife Rehabilitators Association
+  common_name: LAWRA
+  ein: 72-1402657
+  founded_year: 1997
+  primary_url: null
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: null
+  mission_statement: The Louisiana Wildlife Rehabilitators Association (LAWRA), incorporated
+    in 1997 as a 501(c)(3) conservation-minded non-profit, supports Louisiana's wildlife
+    and provides resources and assistance for wildlife rehabilitators.
+  mission_source_url: https://www.idealist.org/en/nonprofit/a98ebf79735a4b05a0635bcb5bffb8ed-louisiana-wildlife-rehabilitators-association-baton-rouge
+  accreditations:
+    - 501(c)(3)
+  notes: Primary website (lwra.org) is no longer active; domain is parked. Organization
+    listed as active on Idealist as of 2025.
+  sources:
+    - https://www.idealist.org/en/nonprofit/a98ebf79735a4b05a0635bcb5bffb8ed-louisiana-wildlife-rehabilitators-association-baton-rouge
+    - https://projects.propublica.org/nonprofits/organizations/721402657
+- jurisdiction: MA
+  legal_name: Wildlife Rehabilitators' Association of Massachusetts, Inc.
+  common_name: WRAM
+  ein: 04-3174534
+  founded_year: 1992
+  primary_url: https://wraminc.org
+  member_count_approx: null
+  annual_conference_url: https://wraminc.org/upcoming-2024-2025-conferences
+  newsletter_url: null
+  contact_email: wraminc@gmail.com
+  mission_statement: To promote the communication and dissemination of information
+    among the Wildlife Rehabilitation community; to provide educational materials
+    and resources to the residents of Massachusetts; to support the conservation of
+    wildlife and natural resources in Massachusetts; to foster partnerships with governmental
+    agencies such as the U.S. Fish and Wildlife Service and the Division of Fisheries
+    and Wildlife.
+  mission_source_url: https://wraminc.org/about/
+  accreditations: []
+  sources:
+    - https://wraminc.org
+    - https://wraminc.org/about/
+    - https://projects.propublica.org/nonprofits/organizations/43174534
+- jurisdiction: MD
+  legal_name: Maryland Wildlife Rehabilitators Association
+  common_name: MWRA
+  ein: null
+  founded_year: null
+  primary_url: https://www.mwrawildlife.net
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: kathy.wren@gmail.com
+  mission_statement: Our mission is the protection and preservation of wildlife by
+    supporting and advancing wildlife rehabilitation in the State of Maryland.
+  mission_source_url: https://www.mwrawildlife.net/who-we-are
+  accreditations: []
+  notes: EIN not found on ProPublica (likely files 990-N as small organization). Website
+    at mwrawildlife.net; an earlier domain (mwrawildlife.org) has been squatted. Offers
+    continuing education to members free of charge. Issues scholarships for the Wildlife
+    Center of Virginia Call of the Wild conference.
+  sources:
+    - https://www.mwrawildlife.net
+    - https://www.mwrawildlife.net/who-we-are
+    - https://wildlifecenter.org/sites/default/files/documents/Program2024.pdf
+- jurisdiction: MI
+  legal_name: Michigan Association of Wildlife Rehabilitation
+  common_name: MAWR
+  ein: 99-1397078
+  founded_year: 2024
+  primary_url: https://www.michiganawr.org
+  member_count_approx: 50
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: null
+  mission_statement: Our mission is to facilitate networking among wildlife rehabilitators
+    as well as promote education, ethics and standards of wildlife rehabilitation
+    in Michigan. Through our organization, we also aim to further the advancement
+    of science and education by aiding and encouraging wildlife care, rehabilitation
+    welfare, management, education and conservation. We also strive to provide quality
+    public information that will promote conservation and a peaceful coexistence between
+    wildlife and the public. We are committed to growing awareness and respect for
+    our field.
+  mission_source_url: https://www.michiganawr.org
+  accreditations:
+    - 501(c)(3)
+  notes: Organization was newly founded in 2024; IRS ruling year April 2024.
+  sources:
+    - https://www.michiganawr.org
+    - https://projects.propublica.org/nonprofits/organizations/991397078
+- jurisdiction: MN
+  legal_name: Minnesota Wildlife Assistance Cooperative
+  common_name: MWAC
+  ein: null
+  founded_year: 1981
+  primary_url: null
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: null
+  mission_statement: MWAC is a statewide nonprofit organization dedicated to wildlife
+    rehabilitation. Since 1981, MWAC has been providing information, training, resources,
+    and networking to help wildlife rehabilitators improve animal care and public
+    education efforts.
+  mission_source_url: https://www.dnr.state.mn.us/eco/nongame/rehabilitation/organizations.html
+  accreditations: []
+  notes: 'Mailing address: P.O. Box 13054, Roseville, MN 55113. No active website
+    found as of research date. EIN not located via ProPublica (may file 990-N e-Postcard
+    as small organization or may be inactive). Listed as active by MN DNR. Courses
+    meet USFWS and MN DNR educational requirements.'
+  sources:
+    - https://www.dnr.state.mn.us/eco/nongame/rehabilitation/organizations.html
+- jurisdiction: NC
+  legal_name: Wildlife Rehabilitators Association of North Carolina, Inc.
+  common_name: WRNC
+  ein: 56-1525275
+  founded_year: 1997
+  primary_url: https://ncwildliferehab.org
+  member_count_approx: null
+  annual_conference_url: https://ncwildliferehab.org/symposium/
+  newsletter_url: null
+  contact_email: barnowl.mom@gmail.com
+  mission_statement: Wildlife Rehabilitators of North Carolina (WRNC) is a nonprofit,
+    membership organization committed to sharing information and knowledge about wildlife
+    rehabilitation for the benefit of native wildlife.
+  mission_source_url: https://ncwildliferehab.org
+  accreditations: []
+  notes: Annual symposium held at NCSU College of Veterinary Medicine in Raleigh each
+    January.
+  sources:
+    - https://ncwildliferehab.org
+    - https://ncwildliferehab.org/symposium/
+    - https://projects.propublica.org/nonprofits/organizations/561525275
+- jurisdiction: NJ
+  legal_name: New Jersey Association of Wildlife Rehabilitators, Inc.
+  common_name: NJAWR
+  ein: 22-3184384
+  founded_year: 1991
+  primary_url: https://njawr.com
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: info@njawr.org
+  mission_statement: Encourage professionalism and standardization within the field
+    of wildlife rehabilitation; provide proper and timely dissemination of information
+    among all persons handling wildlife; offer workshops, seminars and newsletters
+    providing up-to-date information on wildlife care, policy changes, new products,
+    new techniques and many other topics pertinent to the handling of wildlife; ensure
+    that all groups handling wildlife are doing so with the best information available.
+  mission_source_url: https://njawr.com/about/
+  accreditations: []
+  sources:
+    - https://njawr.com/about/
+    - https://njawr.com/contact/
+    - https://projects.propublica.org/nonprofits/organizations/223184384
+- jurisdiction: NY
+  legal_name: New York State Wildlife Rehabilitation Council, Inc.
+  common_name: NYSWRC
+  ein: 16-1339231
+  founded_year: 1990
+  primary_url: https://www.nyswrc.org
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: null
+  mission_statement: Promoting the professionalism of licensed wildlife rehabilitators;
+    giving rehabilitators the field support and educational services they need to
+    appropriately care for distressed wildlife; providing wildlife rehabilitators
+    with timely access to the latest technical information through a system of network
+    support; working with governmental agencies to formulate better than adequate
+    regulations concerning wildlife; disseminating educational material and information
+    to NY state residents about distressed wildlife; and continually promoting the
+    conservation of wildlife, their habitats, and other natural resources.
+  mission_source_url: https://www.nyswrc.org
+  accreditations: []
+  notes: Annual conference held; each year members handle over 20,000 animals.
+  sources:
+    - https://www.nyswrc.org
+    - https://projects.propublica.org/nonprofits/organizations/161339231
+    - https://ravensbeard.org/blogs/give-a-hoot/what-does-a-wildlife-rehabber-do
+- jurisdiction: OH
+  legal_name: Ohio Wildlife Rehabilitators Association
+  common_name: OWRA
+  ein: 31-1358163
+  founded_year: 1992
+  primary_url: https://www.owra.org
+  member_count_approx: null
+  annual_conference_url: https://www.owra.org/events
+  newsletter_url: null
+  contact_email: iwr@owra.org
+  mission_statement: The Ohio Wildlife Rehabilitators Association's mission is to
+    promote wildlife conservation by providing resources to wildlife rehabilitators,
+    educators, and the community.
+  mission_source_url: https://www.owra.org/about
+  accreditations:
+    - 501(c)(3)
+  sources:
+    - https://www.owra.org
+    - https://www.owra.org/about
+    - https://www.owra.org/events
+    - https://projects.propublica.org/nonprofits/organizations/311358163
+- jurisdiction: OR
+  legal_name: Oregon Wildlife Rehabilitation Association
+  common_name: OWRA
+  ein: 81-0843535
+  founded_year: 2025
+  primary_url: https://www.owrawildlife.com
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: OWRA.Board@gmail.com
+  mission_statement: Further the cause of wildlife rehabilitation in the state of
+    Oregon through improved communications and training among Oregon's wildlife rehabilitators;
+    develop and maintain strong partnerships with relevant government agencies, representing
+    both the rehabilitation community and wildlife; promote public education with
+    respect to coexisting with wildlife.
+  mission_source_url: https://www.owrawildlife.com
+  accreditations: []
+  notes: IRS ruling year is February 2025 (recently recognized). The organization
+    serves as a platform connecting Oregon's 15 licensed wildlife rehabilitation facilities
+    and individual rehabilitators.
+  sources:
+    - https://www.owrawildlife.com
+    - https://projects.propublica.org/nonprofits/organizations/810843535
+    - https://olis.oregonlegislature.gov/liz/2025r1/Downloads/PublicTestimonyDocument/120375
+- jurisdiction: PA
+  legal_name: Pennsylvania Association of Wildlife Rehabilitators
+  common_name: PAWR
+  ein: null
+  founded_year: null
+  primary_url: https://pawr.com
+  member_count_approx: null
+  annual_conference_url: https://pawr.com/2025-wildlife-rehabilitation-conference/
+  newsletter_url: null
+  contact_email: null
+  mission_statement: Find a Wildlife Rehabilitator in Pennsylvania.
+  mission_source_url: https://pawr.com
+  accreditations: []
+  notes: 'EIN not found on ProPublica; may not be separately incorporated as 501(c)(3),
+    or may be an unincorporated association. Hosts annual conference (December 2025:
+    Wyndham Lancaster Resort & Conference Center, Lancaster, PA). Website serves as
+    statewide directory of PA rehabilitators organized by county.'
+  sources:
+    - https://pawr.com
+    - https://pawr.com/2025-wildlife-rehabilitation-conference/
+    - https://redcreekwildlifecenter.com/intro/
+- jurisdiction: RI
+  legal_name: Wildlife Rehabilitators Association of Rhode Island, Inc.
+  common_name: WRARI
+  ein: 05-0473996
+  founded_year: 1993
+  primary_url: https://www.riwildliferehab.org
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: null
+  mission_statement: Dedicated to the care of injured and orphaned wildlife in Rhode
+    Island.
+  mission_source_url: https://www.riwildliferehab.org
+  accreditations: []
+  notes: WRARI operates the Wildlife Clinic of Rhode Island — it is both a statewide
+    member association and operates a direct-care clinic. The EIN in centers.yaml
+    (05-0473996) corresponds to the association entity.
+  sources:
+    - https://www.riwildliferehab.org
+    - https://projects.propublica.org/nonprofits/organizations/50473996
+- jurisdiction: TX
+  legal_name: Texas Wildlife Rehabilitation Coalition, Inc.
+  common_name: TWRC
+  ein: 74-2130258
+  founded_year: 1980
+  primary_url: https://www.twrcwildlifecenter.org
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: volunteer@twrcwildlifecenter.org
+  mission_statement: An urban wildlife emergency and rehabilitative care facility
+    that cares for injured and orphaned wildlife and provides outreach programs for
+    youth and adult groups to promote living in harmony with nature.
+  mission_source_url: https://serveforgood.org/charity/texas-wildlife-rehabilitation-coalition-twrc-wildlife-center/
+  accreditations:
+    - 501(c)(3)
+  notes: One of the oldest wildlife rehabilitation organizations in the US (IRS ruling
+    1980). Primarily operates as a wildlife center in Houston (10801 Hammerly Blvd,
+    Ste 200). The 'Coalition' in its name reflects historical statewide membership
+    roots; it now functions primarily as a facility rather than a statewide membership
+    association. Included here per the original task example list.
+  sources:
+    - https://serveforgood.org/charity/texas-wildlife-rehabilitation-coalition-twrc-wildlife-center/
+    - https://projects.propublica.org/nonprofits/organizations/742130258
+    - https://www.idealist.org/en/nonprofit/c65f568df047446c943e65bdd32fbd51-texas-wildlife-rehabilitation-coalition-houston
+- jurisdiction: VA
+  legal_name: Wildlife Rehabilitators Association of Virginia, Inc.
+  common_name: WRAVa
+  ein: null
+  founded_year: null
+  primary_url: null
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: null
+  mission_statement: null
+  mission_source_url: null
+  accreditations: []
+  notes: Commonly cited in literature (e.g., task brief cites WRAVa with URL wravarehabbers.org)
+    but domain resolves to DNS failure as of research date. Not found on ProPublica.
+    May be inactive or dissolved. Included as a stub for follow-up verification.
+  sources:
+    - https://wildlifecenter.org/help-advice/sick-and-injured-wildlife/find-wildlife-rehabilitator
+- jurisdiction: WA
+  legal_name: Washington Wildlife Rehabilitation Association
+  common_name: WWRA
+  ein: 20-0754792
+  founded_year: 2003
+  primary_url: https://www.wwrawildlife.org
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: null
+  mission_statement: WWRA's mission is to act as a collective voice dedicated to advancing
+    professional wildlife rehabilitation in Washington State through education and
+    community-building.
+  mission_source_url: https://www.wwrawildlife.org
+  accreditations: []
+  sources:
+    - https://www.wwrawildlife.org
+    - https://projects.propublica.org/nonprofits/organizations/200754792
+- jurisdiction: WI
+  legal_name: Wisconsin Wildlife Rehabilitators Association, Inc.
+  common_name: WWRA
+  ein: 39-1715518
+  founded_year: 1991
+  primary_url: https://www.wiwildlife.org
+  member_count_approx: null
+  annual_conference_url: null
+  newsletter_url: null
+  contact_email: wwra@wiwildlife.org
+  mission_statement: To empower and support Wisconsin's wildlife rehabilitators, aspiring
+    practitioners, volunteers, veterinarians, and enthusiasts by fostering a community
+    dedicated to the ethical care, conservation, and advocacy of the state's diverse
+    wildlife.
+  mission_source_url: https://www.wiwildlife.org/about
+  accreditations:
+    - 501(c)(3)
+  notes: Originally organized in the late 1980s by eight licensed wildlife rehabilitators;
+    formally incorporated October 21, 1991. For 30+ years has organized annual conferences,
+    including tri-state conferences with Minnesota and Iowa rehabilitation organizations.
+  sources:
+    - https://www.wiwildlife.org/about
+    - https://www.wiwildlife.org/contact
+    - https://projects.propublica.org/nonprofits/organizations/391715518
+    - https://getholdings.com/nonprofits/ein/391715518

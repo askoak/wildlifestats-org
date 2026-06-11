@@ -1,0 +1,302 @@
+# E2 — Missing EIN Research
+# Agent E, 2026-06-11
+#
+# For each of the 16 orgs with ein: '' or ein: unknown in centers.yaml,
+# this file records the result of a ProPublica Nonprofit Explorer search
+# plus supplementary lookups (CauseIQ, Charity Navigator, GetHoldings, GiveMN).
+#
+# Confidence levels:
+#   CONFIRMED  — EIN matched by legal name + state + plausible 990 history
+#   INFERRED   — EIN matched by name + state but via parent/fiscal-sponsor relationship
+#   NOT_501C3  — government agency, university dept, LLC, or vet practice; no EIN applicable
+#   NOT_FOUND  — could not locate a confident match; probable 990-N small filer or very new org
+
+missing_ein_research:
+
+  - slug: auburn-university-raptor-center
+    legal_name: Auburn University College of Veterinary Medicine
+    state: AL
+    city: Auburn
+    resolution: NOT_501C3
+    ein_finding: ''
+    confidence: high
+    notes: >
+      Auburn University is a public land-grant university (EIN 63-6001138 for the Auburn
+      University Foundation). The Raptor Center is an academic program of the College of
+      Veterinary Medicine, not an independently incorporated nonprofit. It has no standalone
+      IRS determination letter. Correct classification: university-operated program.
+      Not a separate 501(c)(3) — no EIN to assign.
+    source_urls:
+    - https://www.vetmed.auburn.edu/raptor/
+
+  - slug: humboldt-wildlife-care-center
+    legal_name: Humboldt Wildlife Care Center
+    state: CA
+    city: Manila
+    resolution: INFERRED
+    ein_finding: 27-2811727
+    confidence: high
+    notes: >
+      Humboldt Wildlife Care Center is a project of Bird Ally X, a 501(c)(3) nonprofit
+      headquartered in Arcata, CA (EIN 27-2811727, tax-exempt since June 2012). HWCC is
+      not independently incorporated; the Bird Ally X EIN covers its operations.
+      The center is physically located at 68 Mill St, Manila, CA 95521 (previously Bayside).
+      ProPublica: https://projects.propublica.org/nonprofits/organizations/272811727
+    source_urls:
+    - https://birdallyx.net/humboldt-wildlife-care-center-2/
+    - https://projects.propublica.org/nonprofits/organizations/272811727
+
+  - slug: sonoma-county-wildlife-rescue
+    legal_name: Sonoma County Wildlife Rescue
+    state: CA
+    city: Sonoma
+    resolution: CONFIRMED
+    ein_finding: 94-2759874
+    confidence: high
+    notes: >
+      Confirmed via Charity Navigator (EIN 94-2759874, IRS ruling year 1981) and ProPublica.
+      Address: 3050 High Grove Ln, Sonoma, CA 95476. Active 990 filer.
+      Note: Charity Navigator 2-star rating; revenue relatively small.
+    source_urls:
+    - https://www.charitynavigator.org/ein/942759874
+    - https://projects.propublica.org/nonprofits/organizations/942759874
+
+  - slug: birds-of-prey-northwest
+    legal_name: Raptor Chapter Inc (dba Birds of Prey Northwest)
+    state: ID
+    city: St. Maries
+    resolution: CONFIRMED
+    ein_finding: 35-1900474
+    confidence: high
+    notes: >
+      Legal name on IRS records is "Raptor Chapter Inc"; "Birds of Prey Northwest" is the
+      operating/DBA name. Tax-exempt since December 1994. St Maries, ID.
+      ProPublica full filing confirms EIN 35-1900474.
+      Source: https://projects.propublica.org/nonprofits/organizations/351900474/202103199349212260/full
+    source_urls:
+    - https://projects.propublica.org/nonprofits/organizations/351900474/202103199349212260/full
+    - https://www.birdsofpreynorthwest.org
+
+  - slug: dupage-wildlife-conservation-center
+    legal_name: Forest Preserve District of DuPage County
+    state: IL
+    city: Glen Ellyn
+    resolution: NOT_501C3
+    ein_finding: ''
+    confidence: high
+    notes: >
+      The Forest Preserve District of DuPage County is a unit of Illinois local government
+      (a special-purpose taxing district), not a 501(c)(3) nonprofit. The Wildlife
+      Conservation Center at Willowbrook is one of its programs. Government agencies do not
+      have IRs 501(c)(3) EINs in the traditional sense. Not a 501(c)(3) — government-operated.
+    source_urls:
+    - https://www.dupageforest.org/places-to-go/centers/wildlife-conservation
+
+  - slug: northern-illinois-raptor-rehab
+    legal_name: Northern Illinois Raptor Rehab & Education
+    state: IL
+    city: Loves Park
+    resolution: CONFIRMED
+    ein_finding: 27-0170561
+    confidence: high
+    notes: >
+      EIN 27-0170561 confirmed via CauseIQ Illinois wildlife sanctuaries directory and
+      Charity Navigator (https://www.charitynavigator.org/ein/270170561).
+      Active 501(c)(3) in Loves Park, IL.
+    source_urls:
+    - https://www.charitynavigator.org/ein/270170561
+    - https://www.causeiq.com/directory/wildlife-sanctuaries-list/illinois-state/
+
+  - slug: the-raptor-center-umn
+    legal_name: The Raptor Center – University of Minnesota
+    state: MN
+    city: Saint Paul
+    resolution: NOT_501C3
+    ein_finding: ''
+    confidence: high
+    notes: >
+      The Raptor Center is a unit of the University of Minnesota College of Veterinary
+      Medicine. The University of Minnesota is a public research university; The Raptor
+      Center operates under the university's tax-exempt umbrella (UMN EIN 41-6007513).
+      There is no standalone IRS determination for The Raptor Center as a separate 501(c)(3).
+      Not a separately incorporated 501(c)(3).
+    source_urls:
+    - https://www.raptor.umn.edu
+
+  - slug: wildlife-rehabilitation-release-mn
+    legal_name: Wildlife Rehabilitation & Release, Inc.
+    state: MN
+    city: Crystal
+    resolution: CONFIRMED
+    ein_finding: 41-1775492
+    confidence: high
+    notes: >
+      EIN 41-1775492 confirmed via GiveMN (https://www.givemn.org/organization/Wildlife-Rehabilitation-And-Release).
+      Address: PO Box 28127, Crystal, MN 55428. Phone: 612-822-7058.
+      Listed on Minnesota DNR wildlife rehabilitation organizations page.
+      Active 501(c)(3) supporting licensed independent rehabilitators statewide.
+    source_urls:
+    - https://www.givemn.org/organization/Wildlife-Rehabilitation-And-Release
+    - https://www.dnr.state.mn.us/eco/nongame/rehabilitation/organizations.html
+
+  - slug: dakota-zoo-raptor-rehabilitation
+    legal_name: Dakota Zoological Society
+    state: ND
+    city: Bismarck
+    resolution: CONFIRMED
+    ein_finding: 23-7394067
+    confidence: high
+    notes: >
+      EIN 23-7394067 confirmed via GiveFreely and ProPublica
+      (https://projects.propublica.org/nonprofits/organizations/237394067).
+      Dakota Zoological Society Inc, 602 Riverside Park Road, Bismarck, ND 58504.
+      Active 990 filer (most recent 2023). Operates the Dakota Zoo, which includes
+      raptor rehabilitation programs.
+    source_urls:
+    - https://givefreely.com/charity-directory/nonprofit/ein-237394067/
+    - https://projects.propublica.org/nonprofits/organizations/237394067
+
+  - slug: mercer-county-wildlife-center
+    legal_name: Mercer County Wildlife Center (operated by Mercer County Park Commission)
+    state: NJ
+    city: Titusville
+    resolution: NOT_501C3
+    ein_finding: ''
+    confidence: high
+    notes: >
+      The Mercer County Wildlife Center is operated by the Mercer County Park Commission,
+      a county government agency in New Jersey. County park commissions are governmental
+      entities, not 501(c)(3) nonprofits. No standalone EIN applies.
+      The slug city field says "Lambertville" but the center is at 1638 Old Mill Rd,
+      Titusville, NJ 08560.
+    source_urls:
+    - https://www.mercercounty.org/departments/mercer-county-park-commission/naturalist-department/tulphaking-nature-center
+
+  - slug: the-last-resort-wildlife-refuge
+    legal_name: The Last Resort Wildlife Refuge, Inc.
+    state: NJ
+    city: West Milford
+    resolution: NOT_FOUND
+    ein_finding: ''
+    confidence: medium
+    notes: >
+      The Last Resort Wildlife Refuge is described on its website as a "NJ 501c3 Non Profit,
+      100% Volunteer Organization." However, ProPublica search for "Last Resort Wildlife
+      Refuge" NJ returns a result (EIN 26-2985185, https://projects.propublica.org/nonprofits/organizations/262985185)
+      for an entity called "Last Resort" in NJ — but the category is "Animal Protection and
+      Welfare" without specific confirmation of the West Milford location.
+      TENTATIVE EIN: 26-2985185. Requires engineer verification against the 990 address.
+    source_urls:
+    - https://thelastresortwildlife.com/aboutus/
+    - https://projects.propublica.org/nonprofits/organizations/262985185
+
+  - slug: wildlife-rehab-group-of-south-carolina
+    legal_name: Wildlife Rehab Group of South Carolina
+    state: SC
+    city: Greenville
+    resolution: NOT_FOUND
+    ein_finding: ''
+    confidence: low
+    notes: >
+      No ProPublica or Charity Navigator entry found for "Wildlife Rehab Group of South Carolina."
+      The organization operates a website (https://www.wildlife-rehab.com) but does not disclose
+      its EIN publicly. CauseIQ Greenville SC wildlife sanctuary directory does not list this org.
+      Probable classification: likely 990-N small filer (revenue under $50K) or a volunteer
+      network not separately incorporated. Recommend direct outreach to confirm status.
+    source_urls:
+    - https://www.wildlife-rehab.com
+
+  - slug: last-chance-forever
+    legal_name: Last Chance Forever, The Bird of Prey Conservancy
+    state: TX
+    city: San Antonio
+    resolution: CONFIRMED
+    ein_finding: 74-2213535
+    confidence: high
+    notes: >
+      EIN 74-2213535 confirmed via GetHoldings (https://getholdings.com/nonprofits/ein/742213535).
+      Founded 1978; 501(c)(3) status originally obtained ~1980. The organization had its
+      tax-exempt status automatically revoked Feb 2023 and reinstated Feb 2023 (same day —
+      likely administrative error quickly corrected). Currently active. IRS ruling date June 2024
+      reflects the reinstated status. Annual revenue ~$429K; assets ~$6M. Based in San Antonio
+      and Comfort, TX (1,300-acre sanctuary).
+    source_urls:
+    - https://getholdings.com/nonprofits/ein/742213535
+    - https://lastchanceforever.org
+
+  - slug: wildlife-center-of-texas
+    legal_name: The Wildlife Center of Texas Inc
+    state: TX
+    city: Houston
+    resolution: CONFIRMED
+    ein_finding: 76-0389711
+    confidence: high
+    notes: >
+      EIN 76-0389711 confirmed via ProPublica full filing
+      (https://projects.propublica.org/nonprofits/organizations/760389711/202333079349302393/full)
+      and GiveFreely. Tax-exempt since August 1993. The Wildlife Center of Texas is a subsidiary
+      of the Houston SPCA (EIN 74-1287171) but is separately incorporated as its own 501(c)(3).
+      The center is Houston's only dedicated native wildlife trauma and rehabilitation center,
+      treating ~12,000 animals/year representing 360+ species.
+    source_urls:
+    - https://projects.propublica.org/nonprofits/organizations/760389711/202333079349302393/full
+    - https://givefreely.com/charity-directory/nonprofit/ein-760389711/
+
+  - slug: wildlife-rehabilitation-center-northern-utah
+    legal_name: Wildlife Rehabilitation Center of Northern Utah
+    state: UT
+    city: Ogden (Farr West)
+    resolution: CONFIRMED
+    ein_finding: 26-4301793
+    confidence: high
+    notes: >
+      EIN 26-4301793 confirmed via CauseIQ
+      (https://www.causeiq.com/organizations/wildlife-rehabilitation-center-of-northern-utah,264301793/).
+      Physical address: 3127 North Pelican Drive, Farr West, UT 84404. Phone: 801-814-7888.
+      Active 501(c)(3).
+    source_urls:
+    - https://www.causeiq.com/organizations/wildlife-rehabilitation-center-of-northern-utah,264301793/
+    - https://wrcnu.org/documents
+
+  - slug: wildlife-response-inc
+    legal_name: Wildlife Response, Inc.
+    state: VA
+    city: Virginia Beach
+    resolution: CONFIRMED
+    ein_finding: 54-1641798
+    confidence: high
+    notes: >
+      EIN 54-1641798 confirmed via Mightycause
+      (https://www.mightycause.com/organization/wildlife-response-inc).
+      Distinctive 501(c)(3) volunteer organization devoted to care of orphaned, injured,
+      and displaced native wildlife in the Virginia Beach area.
+    source_urls:
+    - https://www.mightycause.com/organization/wildlife-response-inc
+    - https://www.wildliferesponse.org
+
+# Summary
+# CONFIRMED (EIN found):      9 orgs
+#   sonoma-county-wildlife-rescue     94-2759874
+#   birds-of-prey-northwest           35-1900474  (legal: Raptor Chapter Inc)
+#   northern-illinois-raptor-rehab    27-0170561
+#   wildlife-rehabilitation-release-mn 41-1775492
+#   dakota-zoo-raptor-rehabilitation  23-7394067
+#   last-chance-forever               74-2213535
+#   wildlife-center-of-texas          76-0389711
+#   wildlife-rehabilitation-center-northern-utah  26-4301793
+#   wildlife-response-inc             54-1641798
+#
+# INFERRED via parent org (EIN found):  1 org
+#   humboldt-wildlife-care-center     27-2811727  (parent: Bird Ally X)
+#
+# TENTATIVE (needs verification):      1 org
+#   the-last-resort-wildlife-refuge   26-2985185  (ProPublica match uncertain; verify address)
+#
+# NOT_501C3 (government/university):   4 orgs
+#   auburn-university-raptor-center   — university dept (UMN College of Vet Med)
+#   dupage-wildlife-conservation-center — IL county government district
+#   the-raptor-center-umn             — University of Minnesota program
+#   mercer-county-wildlife-center     — NJ county government agency
+#
+# NOT_FOUND (likely small/volunteer):  1 org
+#   wildlife-rehab-group-of-south-carolina — no 990 record found; probable 990-N filer

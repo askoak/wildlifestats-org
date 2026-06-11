@@ -1,0 +1,1174 @@
+# =============================================================================
+# US State Veterinary & Agriculture Department Wildlife/Zoonotic-Disease Contacts
+# =============================================================================
+# Date compiled: 2026-06-11
+# Methodology:
+#   - Primary sources only: state .gov sites, USDA APHIS ADT Road Maps (aphis.usda.gov),
+#     NAHRS/SAHO 2021 Handbook (iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf),
+#     direct agency website fetches.
+#   - Secondary cross-validation: USDA APHIS National List of Reportable Animal Diseases
+#     (aphis.usda.gov/livestock-poultry-disease/surveillance/reportable-diseases),
+#     Wisconsin DATCP nationwide contact compilation
+#     (datcp.wi.gov/Documents/AHContactAcrossUS.pdf).
+#   - State veterinarian names checked against current agency web pages where available;
+#     where pages blocked or unavailable, the most recent confirmed name from SAHO 2021
+#     or subsequent APHIS ADT submissions is used with a note.
+#   - Wildlife disease program and dashboard fields reflect programs verifiably listed
+#     on official .gov sites. "null" indicates information not publicly discoverable
+#     from primary sources within the allotted research time.
+#   - Jurisdiction order: alphabetical by 2-letter state/DC code.
+# Scope: 51 jurisdictions (50 states + District of Columbia).
+# =============================================================================
+
+- jurisdiction: AK
+  state_name: Alaska
+  agency_name: Alaska Department of Environmental Conservation — Office of the State Veterinarian
+  parent_department: Alaska Department of Environmental Conservation, Division of Environmental Health
+  state_veterinarian_name: Dr. Sarah Coburn
+  state_veterinarian_url: https://dec.alaska.gov/eh/vet/about
+  wildlife_disease_program_url: https://dec.alaska.gov/eh/vet/
+  reportable_diseases_url: https://dec.alaska.gov/eh/vet/
+  contact_phone: 907-375-8215
+  contact_email: sarah.coburn@alaska.gov
+  hq_address: 5251 Dr. Martin Luther King Jr. Avenue, Anchorage, AK 99507
+  primary_url: https://dec.alaska.gov/eh/vet/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Sarah Coburn appointed March 2024, succeeding Dr. Robert Gerlach. OSV operates under a formal "One Health" model
+    and coordinates zoonotic disease surveillance across livestock, wildlife, and public health.
+
+    '
+  sources:
+  - https://dec.alaska.gov/eh/vet/about
+  - https://dec.alaska.gov/commish/newsroom/24-1-dr-sarah-coburn-selected-as-next-state-veterinarian/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: AL
+  state_name: Alabama
+  agency_name: Alabama Department of Agriculture and Industries — Animal Industries Division
+  parent_department: Alabama Department of Agriculture and Industries
+  state_veterinarian_name: Dr. Tony Frazier
+  state_veterinarian_url: https://agi.alabama.gov/animalindustries/about/
+  wildlife_disease_program_url: https://agi.alabama.gov/animalindustries/
+  reportable_diseases_url: https://agi.alabama.gov/animalindustries/
+  contact_phone: (334) 240-7253
+  contact_email: tony.frazier@agi.alabama.gov
+  hq_address: 1445 Federal Drive, Montgomery, AL 36106
+  primary_url: https://agi.alabama.gov/animalindustries/
+  publishes_dashboard: false
+  dashboard_url: null
+  sources:
+  - https://agi.alabama.gov/animalindustries/about/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: AR
+  state_name: Arkansas
+  agency_name: Arkansas Department of Agriculture — Animal Health Division
+  parent_department: Arkansas Department of Agriculture
+  state_veterinarian_name: Dr. Andrew Fidler
+  state_veterinarian_url: https://agriculture.arkansas.gov/news/arkansas-department-of-agriculture-appoints-new-state-veterinarian/
+  wildlife_disease_program_url: https://agriculture.arkansas.gov/animals/
+  reportable_diseases_url: https://agriculture.arkansas.gov/animals/
+  contact_phone: (501) 297-2250
+  contact_email: null
+  hq_address: 1 Natural Resources Drive, Little Rock, AR 72205
+  primary_url: https://agriculture.arkansas.gov/animals/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Andrew Fidler appointed October 27, 2025, succeeding Dr. Randolph Chick. Arkansas Board of Animal Health (separate
+    board) oversees livestock/poultry disease control; Animal Health Division handles zoonotic and wildlife-interface programs.
+
+    '
+  sources:
+  - https://agriculture.arkansas.gov/animals/
+  - https://agriculture.arkansas.gov/news/arkansas-department-of-agriculture-appoints-new-state-veterinarian/
+  - https://agriculture.arkansas.gov/resources/about/boards-commissions/arkansas-board-of-animal-health/
+
+- jurisdiction: AZ
+  state_name: Arizona
+  agency_name: Arizona Department of Agriculture — Animal Services Division
+  parent_department: Arizona Department of Agriculture
+  state_veterinarian_name: Dr. Peter Mundschenk
+  state_veterinarian_url: https://azda.gov/animal-services/animal-health/
+  wildlife_disease_program_url: https://azda.gov/animal-services/
+  reportable_diseases_url: https://azda.gov/animal-services/
+  contact_phone: (602) 542-4293
+  contact_email: PMundschenk@azda.gov
+  hq_address: 1688 W. Adams Street, Phoenix, AZ 85007
+  primary_url: https://azda.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Name from SAHO 2021 (iowaagriculture.gov SAHO handbook); AZDA robots.txt blocked direct page fetches during research.
+    Verify current name at azda.gov.
+
+    '
+  gaps:
+  - Current state veterinarian name not confirmed post-2021 (direct site blocked)
+  - Wildlife disease program specific URL not retrievable
+  sources:
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: CA
+  state_name: California
+  agency_name: California Department of Food and Agriculture — Animal Health Branch
+  parent_department: CDFA Animal Health and Food Safety Services Division
+  state_veterinarian_name: Dr. Amanda Murray
+  state_veterinarian_url: https://www.cdfa.ca.gov/ahfss/Animal_Health/
+  wildlife_disease_program_url: https://www.cdfa.ca.gov/ahfss/Animal_Health/
+  reportable_diseases_url: https://www.cdfa.ca.gov/ahfss/Animal_Health/
+  contact_phone: 916-900-5002
+  contact_email: ahbfeedback@cdfa.ca.gov
+  hq_address: 1220 N Street, Sacramento, CA 95814
+  primary_url: https://www.cdfa.ca.gov/ahfss/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Amanda Murray named State Veterinarian effective January 2026, succeeding Dr. Annette Jones (who served 2014–2025).
+    Animal Health Branch tracks avian influenza, CWD, and zoonotic diseases. HPAI H5N1 in livestock tracked at cdfa.ca.gov/ahfss/Animal_Health/.
+
+    '
+  sources:
+  - https://www.cdfa.ca.gov/ahfss/Animal_Health/
+  - https://plantingseedsblog.cdfa.ca.gov/wordpress/index.php/2025/12/17/cdfa-announces-leadership-changes-in-division-of-animal-health-and-food-safety-services-dr-stephen-beam-and-dr-amanda-murray-named-to-top-posts/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: CO
+  state_name: Colorado
+  agency_name: Colorado Department of Agriculture — Animal Health Division
+  parent_department: Colorado Department of Agriculture
+  state_veterinarian_name: Dr. Keith Roehr
+  state_veterinarian_url: https://ag.colorado.gov/animals
+  wildlife_disease_program_url: https://ag.colorado.gov/animals
+  reportable_diseases_url: https://ag.colorado.gov/animals
+  contact_phone: (303) 869-9130
+  contact_email: animalhealth@state.co.us
+  hq_address: 305 Interlocken Parkway, Broomfield, CO 80021
+  primary_url: https://ag.colorado.gov/animals
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Name and address from SAHO 2021; agriculture.colorado.gov domain currently resolves via ag.colorado.gov. Verify
+    current state veterinarian name.
+
+    '
+  gaps:
+  - Current state veterinarian name not confirmed beyond SAHO 2021 record
+  sources:
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: CT
+  state_name: Connecticut
+  agency_name: Connecticut Department of Agriculture — Bureau of Regulatory Services, Office of the State Veterinarian
+  parent_department: Connecticut Department of Agriculture
+  state_veterinarian_name: Dr. Thamus J. Morgan, DVM, MPH, DACVPM
+  state_veterinarian_url: https://portal.ct.gov/doag/regulatory/regulatory/state-veterinarian
+  wildlife_disease_program_url: https://portal.ct.gov/doag/regulatory/regulatory/state-veterinarian
+  reportable_diseases_url: https://portal.ct.gov/doag/regulatory/regulatory/state-veterinarian
+  contact_phone: (860) 713-2505
+  contact_email: ctstate.vet@ct.gov
+  hq_address: 450 Columbus Boulevard, Suite 702, Hartford, CT 06103
+  primary_url: https://portal.ct.gov/doag/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Erin Masur named Interim State Veterinarian in June 2024; current page (June 2026) lists Dr. Thamus J. Morgan
+    as State Veterinarian. Connecticut reportable disease list updated April 2024 and available via state vet page.
+
+    '
+  sources:
+  - https://portal.ct.gov/doag/regulatory/regulatory/state-veterinarian
+  - https://portal.ct.gov/doag/press-room/press-releases/2024/june/interim-connecticut-state-veterinarian-named
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: DC
+  state_name: District of Columbia
+  agency_name: DC Department of Health — Health Regulation and Licensing Administration
+  parent_department: District of Columbia Department of Health
+  state_veterinarian_name: Dr. Vito DelVento
+  state_veterinarian_url: https://dchealth.dc.gov/animal-services
+  wildlife_disease_program_url: https://dchealth.dc.gov/service/rabies-and-animal-exposures
+  reportable_diseases_url: https://dchealth.dc.gov/animal-services
+  contact_phone: (202) 724-8813
+  contact_email: animal.info@dc.gov
+  hq_address: 899 North Capitol Street NE, 2nd Floor, Washington, DC 20002
+  primary_url: https://dchealth.dc.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'DC does not have a state-level agriculture department. Animal disease/zoonotic surveillance is under DC Health.
+    SAHO 2021 lists Dr. Vito DelVento as Executive Director of Health Regulation and Licensing Administration.
+
+    '
+  sources:
+  - https://dchealth.dc.gov/animal-services
+  - https://dchealth.dc.gov/service/rabies-and-animal-exposures
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: DE
+  state_name: Delaware
+  agency_name: Delaware Department of Agriculture — Poultry and Animal Health Section
+  parent_department: Delaware Department of Agriculture
+  state_veterinarian_name: Dr. Karen Lopez
+  state_veterinarian_url: https://agriculture.delaware.gov/poultry-animal-health/contact-us/
+  wildlife_disease_program_url: https://agriculture.delaware.gov/poultry-animal-health/
+  reportable_diseases_url: https://agriculture.delaware.gov/poultry-animal-health/
+  contact_phone: (302) 698-4561
+  contact_email: karen.lopez@delaware.gov
+  hq_address: 2320 South DuPont Highway, Dover, DE 19901
+  primary_url: https://agriculture.delaware.gov/poultry-animal-health/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'After-hours agricultural disease emergency hotline: (302) 233-1480. Wildlife disease questions referred to DNREC
+    Fish and Wildlife (dnrec.alpha.delaware.gov/fish-wildlife/).
+
+    '
+  sources:
+  - https://agriculture.delaware.gov/poultry-animal-health/contact-us/
+  - https://agriculture.delaware.gov/poultry-animal-health/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: FL
+  state_name: Florida
+  agency_name: Florida Department of Agriculture and Consumer Services — Division of Animal Industry
+  parent_department: Florida Department of Agriculture and Consumer Services
+  state_veterinarian_name: Dr. Michael Short
+  state_veterinarian_url: https://www.fdacs.gov/Agriculture-Industry/Animals/Animal-Health
+  wildlife_disease_program_url: https://www.fdacs.gov/Agriculture-Industry/Animals/Animal-Health
+  reportable_diseases_url: https://www.fdacs.gov/Agriculture-Industry/Animals/Animal-Health
+  contact_phone: (850) 410-0900
+  contact_email: FlaOCVI@FreshFromFlorida.com
+  hq_address: 407 South Calhoun Street, Mayo Building, Room 300, Tallahassee, FL 32399
+  primary_url: https://www.fdacs.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Name from SAHO 2021. FDACS division of animal industry page structure changed; direct URL to division contact page
+    not confirmed in current robots. Verify current state veterinarian name and contact at fdacs.gov.
+
+    '
+  gaps:
+  - Current state veterinarian name not confirmed post-2021
+  sources:
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: GA
+  state_name: Georgia
+  agency_name: Georgia Department of Agriculture — State Veterinarian's Office (Animal Industry Division)
+  parent_department: Georgia Department of Agriculture
+  state_veterinarian_name: Dr. Robert Cobb
+  state_veterinarian_url: https://www.agr.georgia.gov/animal-health-state-veterinarians-office
+  wildlife_disease_program_url: https://www.agr.georgia.gov/animal-health-diseases
+  reportable_diseases_url: https://www.agr.georgia.gov/animal-health-diseases
+  contact_phone: (404) 656-3667
+  contact_email: AnimalHealth@agr.georgia.gov
+  hq_address: 19 MLK Jr. Drive SW, Atlanta, GA 30334
+  primary_url: https://www.agr.georgia.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'State Vet''s Office monitors and reports on 100+ animal diseases including CWD, avian influenza, rabies, and other
+    zoonotic diseases. Rabies control is managed jointly with county Boards of Health. SAHO 2021 records Dr. Robert Cobb;
+    confirm current officeholder at agr.georgia.gov.
+
+    '
+  sources:
+  - https://www.agr.georgia.gov/animal-health-state-veterinarians-office
+  - https://www.agr.georgia.gov/animal-health-diseases
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: HI
+  state_name: Hawaii
+  agency_name: Hawaii Department of Agriculture and Biosecurity — Animal Industry Division
+  parent_department: Hawaii Department of Agriculture and Biosecurity
+  state_veterinarian_name: Dr. Isaac Maeda
+  state_veterinarian_url: https://dab.hawaii.gov/ai/
+  wildlife_disease_program_url: https://dab.hawaii.gov/ai/
+  reportable_diseases_url: https://dab.hawaii.gov/ai/
+  contact_phone: (808) 483-7100
+  contact_email: hdoaic@hawaii.gov
+  hq_address: 99-941 Halawa Valley Street, Aiea, HI 96701
+  primary_url: https://dab.hawaii.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Isaac Maeda appointed 2019. Hawaii''s Animal Industry Division administers rabies quarantine program and Animal
+    Disease Control Branch. "Department of Agriculture and Biosecurity" is the current name following 2024 reorganization.
+
+    '
+  sources:
+  - https://dab.hawaii.gov/ai/
+  - https://dab.hawaii.gov/blog/main/nr19-12maeda/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: IA
+  state_name: Iowa
+  agency_name: Iowa Department of Agriculture and Land Stewardship — Animal Industry Bureau
+  parent_department: Iowa Department of Agriculture and Land Stewardship
+  state_veterinarian_name: Dr. Jeff Kaisand
+  state_veterinarian_url: https://iowaagriculture.gov/animal-industry-division/
+  wildlife_disease_program_url: https://iowaagriculture.gov/animal-industry-division/
+  reportable_diseases_url: https://iowaagriculture.gov/animal-industry-division/veterinary-resources
+  contact_phone: (515) 281-5305
+  contact_email: Jeff.Kaisand@iowaagriculture.gov
+  hq_address: 502 East 9th Street, Des Moines, IA 50319
+  primary_url: https://iowaagriculture.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Jeff Kaisand named State Veterinarian February 2019. Iowa DNR holds a formal CWD Response Plan coordinated with
+    IDALS (iowadnr.gov/media/6889/download).
+
+    '
+  sources:
+  - https://iowaagriculture.gov/animal-industry-division/veterinary-resources
+  - https://iowaagriculture.gov/news/naig-dr-jeff-kaisand-named-state-veterinarian-iowa
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: ID
+  state_name: Idaho
+  agency_name: Idaho State Department of Agriculture — Division of Animal Industries
+  parent_department: Idaho State Department of Agriculture
+  state_veterinarian_name: Scott Leibsle, DVM
+  state_veterinarian_url: https://agri.idaho.gov/animals/animal-industries-contacts/
+  wildlife_disease_program_url: https://agri.idaho.gov/animals/
+  reportable_diseases_url: https://agri.idaho.gov/animals/
+  contact_phone: (208) 332-8540
+  contact_email: animal_info@isda.idaho.gov
+  hq_address: 2270 Old Penitentiary Road, Boise, ID 83712
+  primary_url: https://agri.idaho.gov/animals/
+  publishes_dashboard: false
+  dashboard_url: null
+  sources:
+  - https://agri.idaho.gov/animals/animal-industries-contacts/
+  - https://agri.idaho.gov/animals/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: IL
+  state_name: Illinois
+  agency_name: Illinois Department of Agriculture — Bureau of Animal Health and Welfare
+  parent_department: Illinois Department of Agriculture
+  state_veterinarian_name: Dr. Mark Ernst
+  state_veterinarian_url: https://agr.illinois.gov/animals/animalhealth.html
+  wildlife_disease_program_url: https://agr.illinois.gov/animals/animalhealth.html
+  reportable_diseases_url: https://agr.illinois.gov/animals/animalhealth.html
+  contact_phone: (217) 782-4944
+  contact_email: agr.bahw.dockets@illinois.gov
+  hq_address: P.O. Box 19281, State Fairgrounds, Springfield, IL 62794-9281
+  primary_url: https://agr.illinois.gov/animals/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Name from SAHO 2021; confirm current holder at agr.illinois.gov.
+
+    '
+  sources:
+  - https://agr.illinois.gov/animals/animalhealth.html
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: IN
+  state_name: Indiana
+  agency_name: Indiana State Board of Animal Health
+  parent_department: Indiana State Board of Animal Health (independent state agency)
+  state_veterinarian_name: Dr. Kyle Shipman
+  state_veterinarian_url: https://www.in.gov/boah/about-boah/
+  wildlife_disease_program_url: https://www.in.gov/boah/
+  reportable_diseases_url: https://www.in.gov/boah/
+  contact_phone: (317) 544-2400
+  contact_email: animalhealth@boah.in.gov
+  hq_address: Discovery Hall, Suite 100, 1202 East 38th Street, Indianapolis, IN 46205
+  primary_url: https://www.in.gov/boah/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Indiana Board of Animal Health is an independent state agency, not under the Department of Agriculture. Dr. Kyle
+    Shipman is listed as current State Veterinarian on the BOAH About page (2025).
+
+    '
+  sources:
+  - https://www.in.gov/boah/about-boah/
+  - https://www.in.gov/boah/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: KS
+  state_name: Kansas
+  agency_name: Kansas Department of Agriculture — Division of Animal Health
+  parent_department: Kansas Department of Agriculture
+  state_veterinarian_name: Dr. Justin Smith
+  state_veterinarian_url: https://www.agriculture.ks.gov/divisions-programs/division-of-animal-health/contacts
+  wildlife_disease_program_url: https://www.agriculture.ks.gov/divisions-programs/division-of-animal-health/animal-diseases
+  reportable_diseases_url: https://www.agriculture.ks.gov/divisions-programs/division-of-animal-health/animal-diseases
+  contact_phone: (785) 564-6601
+  contact_email: justin.smith@ks.gov
+  hq_address: 1320 Research Park Drive, Manhattan, KS 66502
+  primary_url: https://www.agriculture.ks.gov/divisions-programs/division-of-animal-health
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Justin Smith is titled "Animal Health Commissioner" (not State Veterinarian). Avian influenza and CWD updates
+    tracked at division''s news page.
+
+    '
+  sources:
+  - https://www.agriculture.ks.gov/divisions-programs/division-of-animal-health
+  - https://www.agriculture.ks.gov/divisions-programs/division-of-animal-health/contacts
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: KY
+  state_name: Kentucky
+  agency_name: Kentucky Department of Agriculture — Office of State Veterinarian
+  parent_department: Kentucky Department of Agriculture
+  state_veterinarian_name: Dr. R. Steve Velasco
+  state_veterinarian_url: https://www.kyagr.com/statevet/
+  wildlife_disease_program_url: https://www.kyagr.com/statevet/
+  reportable_diseases_url: https://www.kyagr.com/statevet/
+  contact_phone: (502) 573-0282
+  contact_email: StateVet@ky.gov
+  hq_address: 109 Corporate Drive, Frankfort, KY 40601
+  primary_url: https://www.kyagr.com/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'R. Steve Velasco DVM is listed as "Kentucky State Veterinarian" on Kentucky Board of Veterinary Examiners page (kbve.ky.gov).
+    SAHO 2021 listed Dr. Robert Stout. Toll-free: 1-800-327-6568.
+
+    '
+  sources:
+  - https://www.kyagr.com/statevet/
+  - https://kbve.ky.gov/about-kbve/Pages/board-members.aspx
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+  - https://datcp.wi.gov/Documents/AHContactAcrossUS.pdf
+
+- jurisdiction: LA
+  state_name: Louisiana
+  agency_name: Louisiana Department of Agriculture and Forestry — Office of Animal Health and Food Safety
+  parent_department: Louisiana Department of Agriculture and Forestry
+  state_veterinarian_name: Dr. Brent Robbins
+  state_veterinarian_url: https://www.ldaf.la.gov/animals/health
+  wildlife_disease_program_url: https://www.ldaf.la.gov/animals/health
+  reportable_diseases_url: https://www.ldaf.la.gov/animals/health
+  contact_phone: (225) 925-3962
+  contact_email: ahfsinfo@ldaf.state.la.us
+  hq_address: 5825 Florida Boulevard, Suite 4000, Baton Rouge, LA 70806
+  primary_url: https://www.ldaf.la.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Name from SAHO 2021. Current name may differ; verify at ldaf.la.gov.
+
+    '
+  sources:
+  - https://www.ldaf.la.gov/animals/health
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: MA
+  state_name: Massachusetts
+  agency_name: Massachusetts Department of Agricultural Resources — Division of Animal Health
+  parent_department: Massachusetts Department of Agricultural Resources
+  state_veterinarian_name: Dr. Lorraine O'Connor
+  state_veterinarian_url: https://www.mass.gov/info-details/division-of-animal-health
+  wildlife_disease_program_url: https://www.mass.gov/info-details/division-of-animal-health
+  reportable_diseases_url: https://www.mass.gov/info-details/division-of-animal-health
+  contact_phone: 617-626-1795
+  contact_email: Michael.Cahill@mass.gov
+  hq_address: 100 Cambridge Street, 9th Floor, Boston, MA 02114
+  primary_url: https://www.mass.gov/orgs/massachusetts-department-of-agricultural-resources
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SAHO 2021 lists Dr. Lorraine O''Connor as State Veterinarian. 2025 New England fair memo from MDAR also lists Dr.
+    O''Connor. Division director Michael Cahill handles administrative inquiries. Reportable disease program includes HPAI,
+    ASF, rabies, EEE, and West Nile Virus.
+
+    '
+  sources:
+  - https://www.mass.gov/info-details/division-of-animal-health
+  - https://www.aphis.usda.gov/sites/default/files/MA.pdf
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: MD
+  state_name: Maryland
+  agency_name: Maryland Department of Agriculture — Animal Health Program
+  parent_department: Maryland Department of Agriculture
+  state_veterinarian_name: Dr. Jennifer Trout
+  state_veterinarian_url: https://mda.maryland.gov/AnimalHealth/Pages/default.aspx
+  wildlife_disease_program_url: https://mda.maryland.gov/AnimalHealth/Pages/default.aspx
+  reportable_diseases_url: https://mda.maryland.gov/AnimalHealth/Pages/default.aspx
+  contact_phone: (410) 841-5810
+  contact_email: animalhealth.mda@maryland.gov
+  hq_address: 50 Harry S. Truman Parkway, Annapolis, MD 21401
+  primary_url: https://mda.maryland.gov/AnimalHealth/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Jennifer Trout appointed State Veterinarian October 3, 2024. Toll-free: (800) 492-5590. Emergency after hours:
+    (410) 841-5971. Diagnostic labs in Frederick (301-600-1548) and Salisbury (410-543-6610).
+
+    '
+  sources:
+  - https://mda.maryland.gov/AnimalHealth/pages/healthoffices.aspx
+  - https://news.maryland.gov/mda/press-release/2024/10/03/maryland-agriculture-secretary-appoints-dr-jennifer-trout-as-state-veterinarian/
+
+- jurisdiction: ME
+  state_name: Maine
+  agency_name: Maine Department of Agriculture, Conservation and Forestry — Division of Animal and Plant Health, Animal Health
+    Unit
+  parent_department: Maine Department of Agriculture, Conservation and Forestry
+  state_veterinarian_name: Dr. Rachael Fiske
+  state_veterinarian_url: https://www.maine.gov/dacf/ahw/animal_health/aboutus.shtml
+  wildlife_disease_program_url: https://www.maine.gov/dacf/ahw/animal_health/
+  reportable_diseases_url: https://www.maine.gov/dacf/ahw/animal_health/
+  contact_phone: 207-287-3701
+  contact_email: AnimalHealth.AGR@maine.gov
+  hq_address: State House, Station 28, Augusta, ME 04333-0028
+  primary_url: https://www.maine.gov/dacf/ahw/animal_health/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SAHO 2021 listed Dr. Michele Walsh. 2025 New England fair memo from MDAR lists Dr. Rachael Fiske as current ME State
+    Veterinarian. About page lists Taryn Pearson as Assistant State Veterinarian.
+
+    '
+  sources:
+  - https://www.maine.gov/dacf/ahw/animal_health/aboutus.shtml
+  - https://www.maine.gov/dacf/ahw/animal_health/index.shtml
+  - https://www.mass.gov/doc/agricultural-fairs-animal-health-rules-memorandum/download
+
+- jurisdiction: MI
+  state_name: Michigan
+  agency_name: Michigan Department of Agriculture and Rural Development — Animal Industry Division
+  parent_department: Michigan Department of Agriculture and Rural Development
+  state_veterinarian_name: Dr. Nora Wineland
+  state_veterinarian_url: https://www.michigan.gov/mdard/animals
+  wildlife_disease_program_url: https://www.michigan.gov/mdard/animals
+  reportable_diseases_url: https://www.michigan.gov/mdard/animals
+  contact_phone: (800) 292-3939
+  contact_email: cvi@michigan.gov
+  hq_address: P.O. Box 30017, 525 West Allegan Street, Lansing, MI 48933
+  primary_url: https://www.michigan.gov/mdard/animals
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SAHO 2021 lists Dr. Nora Wineland. Michigan has significant bovine tuberculosis surveillance program (wildlife-livestock
+    interface with white-tailed deer). MDARD-MSU CVM partnership for community medicine announced April 2026.
+
+    '
+  sources:
+  - https://www.michigan.gov/mdard/animals
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: MN
+  state_name: Minnesota
+  agency_name: Minnesota Board of Animal Health
+  parent_department: Minnesota Board of Animal Health (independent state agency)
+  state_veterinarian_name: Dr. Beth Thompson
+  state_veterinarian_url: https://bah.state.mn.us/
+  wildlife_disease_program_url: https://bah.state.mn.us/
+  reportable_diseases_url: https://bah.state.mn.us/
+  contact_phone: (651) 201-6844
+  contact_email: trace@state.mn.us
+  hq_address: 625 Robert Street North, Saint Paul, MN 55155
+  primary_url: https://bah.state.mn.us/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Minnesota Board of Animal Health is an independent state agency separate from the Department of Agriculture. Dr.
+    Beth Thompson is Executive Director and State Veterinarian (SAHO 2021; verify current holder at bah.state.mn.us). Permit
+    line: (651) 296-2942.
+
+    '
+  sources:
+  - https://bah.state.mn.us/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: MO
+  state_name: Missouri
+  agency_name: Missouri Department of Agriculture — Animal Health Division
+  parent_department: Missouri Department of Agriculture
+  state_veterinarian_name: Dr. Steve Strubberg
+  state_veterinarian_url: https://agriculture.mo.gov/animals/health/staff.html
+  wildlife_disease_program_url: https://agriculture.mo.gov/animals/health/
+  reportable_diseases_url: https://agriculture.mo.gov/animals/health/
+  contact_phone: (573) 751-3377
+  contact_email: Animal.Health@mda.mo.gov
+  hq_address: 1616 Missouri Boulevard, Jefferson City, MO 65109
+  primary_url: https://agriculture.mo.gov/animals/health/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Steve Strubberg confirmed State Veterinarian (SAHO 2021 and current staff page). Dr. Jean Schmidt is Assistant
+    State Veterinarian. Epidemiologist Dr. Sarah Reinkemeyer is District 4 State Epidemiologist and Field Veterinarian.
+
+    '
+  sources:
+  - https://agriculture.mo.gov/animals/health/staff.html
+  - https://agriculture.mo.gov/animals/health/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: MS
+  state_name: Mississippi
+  agency_name: Mississippi Board of Animal Health
+  parent_department: Mississippi Board of Animal Health (independent state agency)
+  state_veterinarian_name: Dr. James A. Watson
+  state_veterinarian_url: https://www.mbah.ms.gov/
+  wildlife_disease_program_url: https://www.mbah.ms.gov/
+  reportable_diseases_url: https://www.mbah.ms.gov/
+  contact_phone: (601) 359-1170
+  contact_email: msstatevet@mdac.ms.gov
+  hq_address: PO Box 3889, Jackson, MS 39207
+  primary_url: https://www.mbah.ms.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Mississippi Board of Animal Health is an independent agency. SAHO 2021 lists Dr. James Watson; robots.txt blocked
+    direct site fetch — verify current holder at mbah.ms.gov.
+
+    '
+  gaps:
+  - Current state veterinarian name not confirmed post-2021 (site blocked by robots)
+  sources:
+  - https://www.mbah.ms.gov/about/organization/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: MT
+  state_name: Montana
+  agency_name: Montana Department of Livestock — Animal Health Bureau
+  parent_department: Montana Department of Livestock
+  state_veterinarian_name: Dr. Tahnee Szymanski
+  state_veterinarian_url: https://liv.mt.gov/Animal-Health/
+  wildlife_disease_program_url: https://liv.mt.gov/Animal-Health/
+  reportable_diseases_url: https://liv.mt.gov/Animal-Health/
+  contact_phone: (406) 444-5214
+  contact_email: null
+  hq_address: PO Box 202001, 301 N. Roberts Street, Helena, MT 59620-2001
+  primary_url: https://liv.mt.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Tahnee Szymanski selected as Montana''s new State Veterinarian July 2023, succeeding Dr. Martin Zaluski. Montana
+    has significant brucellosis/CWD wildlife-livestock interface programs.
+
+    '
+  sources:
+  - https://liv.mt.gov/Animal-Health/Contact-Information
+  - https://news.mt.gov/Department-of-Livestock/Dr-Tahnee-Szymanski-selected-as-Montanas-new-State-Veterinarian
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: NC
+  state_name: North Carolina
+  agency_name: North Carolina Department of Agriculture and Consumer Services — Veterinary Division
+  parent_department: North Carolina Department of Agriculture and Consumer Services
+  state_veterinarian_name: Dr. R. Douglas Meckes
+  state_veterinarian_url: https://www.ncagr.gov/divisions/veterinary
+  wildlife_disease_program_url: https://www.ncagr.gov/divisions/veterinary
+  reportable_diseases_url: https://www.ncagr.gov/divisions/veterinary
+  contact_phone: (919) 707-3250
+  contact_email: NC-ICVI@ncagr.gov
+  hq_address: 2 West Edenton Street (1030 Mail Service Center), Raleigh, NC 27699
+  primary_url: https://www.ncagr.gov/divisions/veterinary
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SAHO 2021 lists Dr. R. Douglas Meckes. NC Veterinary Diagnostic Laboratory System is housed in the division. NCDHHS
+    Veterinary Public Health program (epi.dph.ncdhhs.gov) provides parallel zoonotic disease surveillance.
+
+    '
+  sources:
+  - https://www.ncagr.gov/divisions/veterinary
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: ND
+  state_name: North Dakota
+  agency_name: North Dakota Department of Agriculture — Animal Health Division / State Board of Animal Health
+  parent_department: North Dakota Department of Agriculture
+  state_veterinarian_name: Dr. Ethan Andress
+  state_veterinarian_url: https://www.ndda.nd.gov/divisions/animal-health/state-veterinarians-office
+  wildlife_disease_program_url: https://www.ndda.nd.gov/divisions/animal-health
+  reportable_diseases_url: https://www.ndda.nd.gov/divisions/animal-health
+  contact_phone: 701-328-2655
+  contact_email: doa-bah@nd.gov
+  hq_address: 600 E. Boulevard Avenue, Dept. 602, Bismarck, ND 58505-0020
+  primary_url: https://www.ndda.nd.gov/divisions/animal-health
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Ethan Andress confirmed State Veterinarian on live agency page and NIFA shortage nomination (ND251). Dr. Beth
+    Carlson is Deputy State Veterinarian.
+
+    '
+  sources:
+  - https://www.ndda.nd.gov/divisions/animal-health/state-veterinarians-office
+  - https://www.ndda.nd.gov/divisions/animal-health/north-dakota-state-board-animal-health
+
+- jurisdiction: NE
+  state_name: Nebraska
+  agency_name: Nebraska Department of Agriculture — Animal and Plant Health Protection Division
+  parent_department: Nebraska Department of Agriculture
+  state_veterinarian_name: Dr. Dennis A. Hughes
+  state_veterinarian_url: https://nda.nebraska.gov/animal/index.html
+  wildlife_disease_program_url: https://nda.nebraska.gov/animal/
+  reportable_diseases_url: https://nda.nebraska.gov/animal/
+  contact_phone: (402) 471-2351
+  contact_email: agr.cvi@nebraska.gov
+  hq_address: 301 Centennial Mall South, 4th Floor, PO Box 94787, Lincoln, NE 68509
+  primary_url: https://nda.nebraska.gov/animal/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Name from SAHO 2021; verify current holder at nda.nebraska.gov. NDA ADT program page: nda.nebraska.gov/adt.
+
+    '
+  sources:
+  - https://nda.nebraska.gov/animal/index.html
+  - https://nda.nebraska.gov/adt
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: NH
+  state_name: New Hampshire
+  agency_name: New Hampshire Department of Agriculture, Markets and Food — Division of Animal Industry
+  parent_department: New Hampshire Department of Agriculture, Markets and Food
+  state_veterinarian_name: Dr. Stephen K. Crawford
+  state_veterinarian_url: https://agriculture.nh.gov/animals-livestock/animal-health-disease-management
+  wildlife_disease_program_url: https://agriculture.nh.gov/animals-livestock/
+  reportable_diseases_url: https://agriculture.nh.gov/animals-livestock/
+  contact_phone: (603) 271-2404
+  contact_email: stephen.crawford@agr.nh.gov
+  hq_address: 25 Capitol Street, Concord, NH 03301
+  primary_url: https://agriculture.nh.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SAHO 2021 and 2025 New England fairs memo both list Dr. Stephen K. Crawford. NH DAMF site uses robots restrictions
+    that blocked direct page fetch.
+
+    '
+  sources:
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+  - https://www.mass.gov/doc/agricultural-fairs-animal-health-rules-memorandum/download
+
+- jurisdiction: NJ
+  state_name: New Jersey
+  agency_name: New Jersey Department of Agriculture — Division of Animal Health
+  parent_department: New Jersey Department of Agriculture
+  state_veterinarian_name: Dr. Amar Patil
+  state_veterinarian_url: https://www.nj.gov/agriculture/divisions/ah/about/contacts.shtml
+  wildlife_disease_program_url: https://www.nj.gov/agriculture/divisions/ah/
+  reportable_diseases_url: https://www.nj.gov/agriculture/divisions/ah/
+  contact_phone: 609-671-6400
+  contact_email: Amar.Patil@ag.nj.gov
+  hq_address: 'NJ Public Health, Environmental and Agriculture Laboratory, 3 Schwarzkopf Dr., Ewing, NJ 08628 (Mailing: P.O.
+    Box 330, Trenton, NJ 08625)'
+  primary_url: https://www.nj.gov/agriculture/divisions/ah/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Amar Patil is current Division Director/State Veterinarian per the agency''s live contacts page. SAHO 2021 listed
+    Dr. Manoel Tamassia.
+
+    '
+  sources:
+  - https://www.nj.gov/agriculture/divisions/ah/about/contacts.shtml
+  - https://www.nj.gov/agriculture/divisions/ah/
+
+- jurisdiction: NM
+  state_name: New Mexico
+  agency_name: New Mexico Livestock Board — State Veterinarian's Office
+  parent_department: New Mexico Livestock Board (independent state agency)
+  state_veterinarian_name: Dr. Ralph Zimmerman
+  state_veterinarian_url: https://www.nmlb.state.nm.us/
+  wildlife_disease_program_url: https://www.nmlb.state.nm.us/
+  reportable_diseases_url: https://www.nmlb.state.nm.us/
+  contact_phone: (505) 841-6161
+  contact_email: ralph.zimmerman@state.nm.us
+  hq_address: 300 San Mateo NE, Suite 1000, Albuquerque, NM 87108
+  primary_url: https://www.nmlb.state.nm.us/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'New Mexico''s state veterinarian function resides in the NM Livestock Board, not the Department of Agriculture.
+    SAHO 2021 confirmed Dr. Zimmerman and Albuquerque address. Site blocked robots during research; verify current holder.
+
+    '
+  sources:
+  - https://www.nmlegis.gov/handouts/EDPC%20071422%20Item%206%20NM%20Livestock%20Board%20Testimony.pdf
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: NV
+  state_name: Nevada
+  agency_name: Nevada Department of Agriculture — Division of Animal Industry
+  parent_department: Nevada Department of Agriculture
+  state_veterinarian_name: Dr. Peter Rolfe
+  state_veterinarian_url: https://agri.nv.gov/Resources/Staff_Listings/Animal_Industry_-_Staff_Listing/
+  wildlife_disease_program_url: https://agri.nv.gov/animals/animal_home/
+  reportable_diseases_url: https://agri.nv.gov/animals/animal_home/
+  contact_phone: (775) 353-3755
+  contact_email: prolfe@agri.nv.gov
+  hq_address: 405 S. 21st Street, Sparks, NV 89431
+  primary_url: https://agri.nv.gov/animals/animal_home/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Peter Rolfe confirmed current State Veterinarian per live staff listing page. Entry permit desk: (775) 353-3709
+    / entrypermits@agri.nv.gov.
+
+    '
+  sources:
+  - https://agri.nv.gov/Resources/Staff_Listings/Animal_Industry_-_Staff_Listing/
+  - https://agri.nv.gov/animals/animal_home/
+
+- jurisdiction: NY
+  state_name: New York
+  agency_name: New York State Department of Agriculture and Markets — Division of Animal Industry
+  parent_department: New York State Department of Agriculture and Markets
+  state_veterinarian_name: Dr. David Smith
+  state_veterinarian_url: https://agriculture.ny.gov/division-animal-industry
+  wildlife_disease_program_url: https://agriculture.ny.gov/animals
+  reportable_diseases_url: https://agriculture.ny.gov/animals
+  contact_phone: (518) 457-3502
+  contact_email: animal.industry@agriculture.ny.gov
+  hq_address: 10B Airline Drive, Albany, NY 12235
+  primary_url: https://agriculture.ny.gov/division-animal-industry
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SAHO 2021 listed "Pending" for NY State Veterinarian. A 2024 NYSDAM press release identifies Dr. David Smith as
+    Director, Division of Animal Industry. Verify exact title/current status at agriculture.ny.gov.
+
+    '
+  sources:
+  - https://agriculture.ny.gov/division-animal-industry
+  - https://agriculture.ny.gov/news/commissioner-recognizes-two-division-animal-industry-employees-national-leaders-field
+
+- jurisdiction: OH
+  state_name: Ohio
+  agency_name: Ohio Department of Agriculture — Division of Animal Health
+  parent_department: Ohio Department of Agriculture
+  state_veterinarian_name: Dr. Tony Forshey
+  state_veterinarian_url: https://agri.ohio.gov/divisions/animal-health
+  wildlife_disease_program_url: https://agri.ohio.gov/divisions/animal-health
+  reportable_diseases_url: https://agri.ohio.gov/divisions/animal-health
+  contact_phone: (614) 728-6220
+  contact_email: agrcvi@agri.ohio.gov
+  hq_address: 8995 East Main Street, Reynoldsburg, OH 43068
+  primary_url: https://agri.ohio.gov/divisions/animal-health
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SAHO 2021 lists Dr. Tony Forshey. Ohio ADDL (Animal Disease Diagnostic Laboratory) is a NAHLN Level 1 lab at the
+    same Reynoldsburg address.
+
+    '
+  sources:
+  - https://agri.ohio.gov/divisions/animal-health
+  - https://agri.ohio.gov/programs/animal-disease-diagnostic-lab/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: OK
+  state_name: Oklahoma
+  agency_name: Oklahoma Department of Agriculture, Food and Forestry — Animal Industry Division
+  parent_department: Oklahoma Department of Agriculture, Food and Forestry
+  state_veterinarian_name: Dr. Rod Hall
+  state_veterinarian_url: https://ag.ok.gov/divisions/animal-industry-state-veterinarian/
+  wildlife_disease_program_url: https://ag.ok.gov/divisions/animal-industry-state-veterinarian/
+  reportable_diseases_url: https://ag.ok.gov/divisions/animal-industry-state-veterinarian/
+  contact_phone: (405) 522-0270
+  contact_email: rod.hall@ag.ok.gov
+  hq_address: 2800 N. Lincoln Boulevard, Oklahoma City, OK 73105
+  primary_url: https://ag.ok.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Rod Hall confirmed as State Veterinarian on current ODAFF page. CWD program for farmed cervidae listed on same
+    page. Import permit line: 405-522-6141.
+
+    '
+  sources:
+  - https://ag.ok.gov/divisions/animal-industry-state-veterinarian/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: OR
+  state_name: Oregon
+  agency_name: Oregon Department of Agriculture — Animal Health Program
+  parent_department: Oregon Department of Agriculture
+  state_veterinarian_name: Dr. Ryan Scholz
+  state_veterinarian_url: https://www.oregon.gov/oda/animal-health-feeds-livestock-id/pages/default.aspx
+  wildlife_disease_program_url: https://www.oregon.gov/oda/animal-health-feeds-livestock-id/pages/default.aspx
+  reportable_diseases_url: https://www.oregon.gov/oda/animal-health-feeds-livestock-id/pages/default.aspx
+  contact_phone: (503) 986-4680
+  contact_email: ahforms@oda.state.or.us
+  hq_address: 635 Capitol Street NE, Salem, OR 97301
+  primary_url: https://www.oregon.gov/oda/animal-health-feeds-livestock-id/pages/default.aspx
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SAHO 2021 lists Dr. Ryan Scholz as "Acting State Veterinarian." Verify current permanent appointment at oregon.gov.
+
+    '
+  sources:
+  - https://www.oregon.gov/oda/animal-health-feeds-livestock-id/pages/default.aspx
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: PA
+  state_name: Pennsylvania
+  agency_name: Pennsylvania Department of Agriculture — Bureau of Animal Health and Diagnostic Services
+  parent_department: Pennsylvania Department of Agriculture
+  state_veterinarian_name: Dr. Kevin Brightbill
+  state_veterinarian_url: https://www.pa.gov/agencies/pda/animals/bureau-of-animal-health-and-diagnostic-services-bahds
+  wildlife_disease_program_url: https://www.pa.gov/agencies/pda/animals/bureau-of-animal-health-and-diagnostic-services-bahds
+  reportable_diseases_url: https://www.pa.gov/agencies/pda/animals/bureau-of-animal-health-and-diagnostic-services-bahds
+  contact_phone: (717) 772-2852
+  contact_email: RA-ahds@pa.gov
+  hq_address: 2301 North Cameron Street, Harrisburg, PA 17110
+  primary_url: https://www.pa.gov/agencies/pda/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SAHO 2021 lists Dr. Kevin Brightbill. PAHDS oversees PADLS (PA Animal Diagnostic Laboratory System) in partnership
+    with Penn State ADL and UPenn New Bolton Center. Seven regional offices statewide.
+
+    '
+  sources:
+  - https://www.pa.gov/agencies/pda/animals/bureau-of-animal-health-and-diagnostic-services-bahds
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: RI
+  state_name: Rhode Island
+  agency_name: Rhode Island Department of Environmental Management — Division of Agriculture, Animal Health Unit
+  parent_department: Rhode Island Department of Environmental Management
+  state_veterinarian_name: Dr. Scott Marshall
+  state_veterinarian_url: https://dem.ri.gov/people/scott-marshall
+  wildlife_disease_program_url: https://dem.ri.gov/natural-resources-bureau/agriculture-and-forest-environment/agriculture/animal-health
+  reportable_diseases_url: https://dem.ri.gov/natural-resources-bureau/agriculture-and-forest-environment/agriculture/animal-health
+  contact_phone: (401) 222-2781
+  contact_email: scott.marshall@dem.ri.gov
+  hq_address: 235 Promenade Street, Providence, RI 02908
+  primary_url: https://dem.ri.gov/natural-resources-bureau/agriculture-and-forest-environment/agriculture/animal-health
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Rhode Island''s animal health function sits under DEM, not a Department of Agriculture. Dr. Scott Marshall is confirmed
+    as Deputy Chief / State Veterinarian on the current DEM staff page.
+
+    '
+  sources:
+  - https://dem.ri.gov/people/scott-marshall
+  - https://dem.ri.gov/natural-resources-bureau/agriculture-and-forest-environment/agriculture/animal-health
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: SC
+  state_name: South Carolina
+  agency_name: Clemson University Livestock Poultry Health
+  parent_department: Clemson University (State Statutory Authority)
+  state_veterinarian_name: Dr. Mike J. Neault
+  state_veterinarian_url: https://www.clemson.edu/public/lph/state-veterinarian.html
+  wildlife_disease_program_url: https://www.clemson.edu/public/lph/
+  reportable_diseases_url: https://www.clemson.edu/public/lph/
+  contact_phone: 803-726-7818
+  contact_email: mneault@clemson.edu
+  hq_address: 500 Clemson Road (PO Box 102406), Columbia, SC 29224-2406
+  primary_url: https://www.clemson.edu/public/lph/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SC''s state veterinarian function is uniquely delegated to Clemson University''s Livestock Poultry Health program.
+    Dr. Mike Neault is State Veterinarian and Director confirmed on current LPH staff page. Catherine Harris is Deputy State
+    Veterinarian (named 2026). LPH general line: 803-788-2260.
+
+    '
+  sources:
+  - https://www.clemson.edu/public/lph/
+  - https://www.clemson.edu/public/lph/state-veterinarian.html
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: SD
+  state_name: South Dakota
+  agency_name: South Dakota Animal Industry Board
+  parent_department: South Dakota Animal Industry Board (independent state agency)
+  state_veterinarian_name: Dr. Dustin Oedekoven
+  state_veterinarian_url: https://aib.sd.gov/
+  wildlife_disease_program_url: https://aib.sd.gov/
+  reportable_diseases_url: https://aib.sd.gov/
+  contact_phone: (605) 773-3321
+  contact_email: aibmail@state.sd.us
+  hq_address: 411 S. Fort Street, Pierre, SD 57501
+  primary_url: https://aib.sd.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Dustin Oedekoven is State Veterinarian and Executive Secretary of the SD Animal Industry Board (confirmed NCBI
+    biosketches and SAHO 2021). Board is an independent state agency.
+
+    '
+  sources:
+  - https://aib.sd.gov/
+  - https://www.ncbi.nlm.nih.gov/books/NBK566526/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: TN
+  state_name: Tennessee
+  agency_name: Tennessee Department of Agriculture — Animal Health Division
+  parent_department: Tennessee Department of Agriculture
+  state_veterinarian_name: Dr. Samantha Beaty
+  state_veterinarian_url: https://www.tn.gov/agriculture/animals/statevet.html
+  wildlife_disease_program_url: https://www.tn.gov/agriculture/animals.html
+  reportable_diseases_url: https://www.tn.gov/agriculture/animals/statevet.html
+  contact_phone: (615) 837-5120
+  contact_email: animal.health@tn.gov
+  hq_address: PO Box 40627, Nashville, TN 37204
+  primary_url: https://www.tn.gov/agriculture/animals.html
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SAHO 2021 lists Dr. Samantha Beaty. TN has a formal CWD Herd Certification Program (order listed at state vet page).
+    C.E. Kord Animal Health Diagnostic Laboratory newsletter confirms ongoing zoonotic surveillance.
+
+    '
+  sources:
+  - https://www.tn.gov/agriculture/animals/statevet.html
+  - https://www.tn.gov/agriculture/animals.html
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: TX
+  state_name: Texas
+  agency_name: Texas Animal Health Commission
+  parent_department: Texas Animal Health Commission (independent state agency)
+  state_veterinarian_name: Dr. Andy Schwartz
+  state_veterinarian_url: https://www.tahc.texas.gov/
+  wildlife_disease_program_url: https://www.tahc.texas.gov/
+  reportable_diseases_url: https://www.tahc.texas.gov/
+  contact_phone: (800) 550-8242
+  contact_email: execdir@tahc.texas.gov
+  hq_address: 2105 Kramer Lane (PO Box 12966), Austin, TX 78711
+  primary_url: https://www.tahc.texas.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Texas Animal Health Commission is an independent state agency separate from TDA. Dr. Andy Schwartz is State Veterinarian
+    and Executive Director (SAHO 2021; TAHC mission statement confirmed current). Import permit line: 512-719-0777. TAHC has
+    active New World Screwworm sterile fly program.
+
+    '
+  sources:
+  - https://www.tahc.texas.gov/
+  - https://www.tahc.texas.gov/adt/
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: UT
+  state_name: Utah
+  agency_name: Utah Department of Agriculture and Food — Animal Industry Division, Animal Health Program
+  parent_department: Utah Department of Agriculture and Food
+  state_veterinarian_name: Dr. Amanda Price
+  state_veterinarian_url: https://ag.utah.gov/animal-industry/animal-health-program/
+  wildlife_disease_program_url: https://ag.utah.gov/animal-industry/animal-health-program/
+  reportable_diseases_url: https://ag.utah.gov/animal-industry/animal-health-program/
+  contact_phone: (801) 982-2235
+  contact_email: utahstatevet@utah.gov
+  hq_address: 350 N. Redwood Road, PO Box 146500, Salt Lake City, UT 84114-6500
+  primary_url: https://ag.utah.gov/animal-industry/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Amanda Price DVM MS is listed as Animal Health Program lead on the current UDAF animal health page. SAHO 2021
+    listed Dr. Dean J. Taylor. New address per 2022 APHIS ADT Road Map submission: 4315 S. 2700 W., Taylorsville, UT 84129
+    (field office). Verify current HQ address.
+
+    '
+  sources:
+  - https://ag.utah.gov/animal-industry/animal-health-program/
+  - https://www.aphis.usda.gov/sites/default/files/UT.pdf
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: VA
+  state_name: Virginia
+  agency_name: Virginia Department of Agriculture and Consumer Services — Office of Veterinary Services
+  parent_department: Virginia Department of Agriculture and Consumer Services (Division of Animal and Food Industry Services)
+  state_veterinarian_name: Dr. Charlie Broaddus
+  state_veterinarian_url: https://www.vdacs.virginia.gov/animals-veterinary-services.shtml
+  wildlife_disease_program_url: https://www.vdacs.virginia.gov/animals-animal-health.shtml
+  reportable_diseases_url: https://www.vdacs.virginia.gov/animals-animal-health.shtml
+  contact_phone: 804.786.2483
+  contact_email: cvi@vdacs.virginia.gov
+  hq_address: 102 Governor Street, Richmond, VA 23219
+  primary_url: https://www.vdacs.virginia.gov/animals.shtml
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SAHO 2021 lists Dr. Charlie Broaddus. OVS manages Animal Disease Traceability Program, outbreak investigation, and
+    lab diagnostics. Division phone: 804-692-0601.
+
+    '
+  sources:
+  - https://www.vdacs.virginia.gov/animals-veterinary-services.shtml
+  - https://www.vdacs.virginia.gov/about-division-of-animal-and-food-industry-services.shtml
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: VT
+  state_name: Vermont
+  agency_name: Vermont Agency of Agriculture, Food and Markets — Animal Health Section
+  parent_department: Vermont Agency of Agriculture, Food and Markets
+  state_veterinarian_name: Dr. Emily Buskey
+  state_veterinarian_url: https://agriculture.vermont.gov/public-health-agricultural-resource-management/animal-health
+  wildlife_disease_program_url: https://agriculture.vermont.gov/public-health-agricultural-resource-management/animal-health
+  reportable_diseases_url: https://agriculture.vermont.gov/public-health-agricultural-resource-management/animal-health
+  contact_phone: (802) 828-2426
+  contact_email: agr.animalhealth@vermont.gov
+  hq_address: 116 State Street, Montpelier, VT 05620
+  primary_url: https://agriculture.vermont.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SAHO 2021 listed Dr. Kristin M. Haas. 2025 New England fair health memo lists Dr. Emily Buskey as current VT State
+    Veterinarian.
+
+    '
+  sources:
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+  - https://www.mass.gov/doc/agricultural-fairs-animal-health-rules-memorandum/download
+  - https://www.healthvermont.gov/media/current-news-releases/know-health-risks-when-raising-backyard-birds
+
+- jurisdiction: WA
+  state_name: Washington
+  agency_name: Washington State Department of Agriculture — Animal Health Program
+  parent_department: Washington State Department of Agriculture
+  state_veterinarian_name: Dr. Amber Itle
+  state_veterinarian_url: https://agr.wa.gov/departments/animals-livestock-and-pets/animal-health/contact-us
+  wildlife_disease_program_url: https://agr.wa.gov/departments/animals-livestock-and-pets/animal-health
+  reportable_diseases_url: https://agr.wa.gov/departments/animals-livestock-and-pets/animal-health
+  contact_phone: (360) 902-1878
+  contact_email: ahealth@agr.wa.gov
+  hq_address: PO Box 42577, Olympia, WA 98504-2577
+  primary_url: https://agr.wa.gov/departments/animals-livestock-and-pets/animal-health
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. Amber Itle confirmed current State Veterinarian on live WSDA contact page. SAHO 2021 listed Dr. Brian Joseph.
+    24/7 entry permit line: (800) 942-1035.
+
+    '
+  sources:
+  - https://agr.wa.gov/departments/animals-livestock-and-pets/animal-health/contact-us
+
+- jurisdiction: WI
+  state_name: Wisconsin
+  agency_name: Wisconsin Department of Agriculture, Trade and Consumer Protection — Division of Animal Health
+  parent_department: Wisconsin Department of Agriculture, Trade and Consumer Protection
+  state_veterinarian_name: Dr. Darlene Konkle
+  state_veterinarian_url: https://datcp.wi.gov/Pages/Programs_Services/AnimalDiseases.aspx
+  wildlife_disease_program_url: https://datcp.wi.gov/Pages/Programs_Services/AnimalDiseases.aspx
+  reportable_diseases_url: https://datcp.wi.gov/Pages/Programs_Services/AnimalDiseases.aspx
+  contact_phone: (608) 224-4872
+  contact_email: DATCPAnimalImports@wisconsin.gov
+  hq_address: 2811 Agriculture Drive, Madison, WI 53718
+  primary_url: https://datcp.wi.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'SAHO 2021 lists Dr. Darlene Konkle. After-hours disease reporting duty office: 1-800-940-0003 option 2. Import permit
+    line: (608) 224-4874 (business hours) or (608) 224-4879 (automated 24 hrs).
+
+    '
+  sources:
+  - https://datcp.wi.gov/Pages/Programs_Services/AnimalDiseases.aspx
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+
+- jurisdiction: WV
+  state_name: West Virginia
+  agency_name: West Virginia Department of Agriculture — Animal Health Division
+  parent_department: West Virginia Department of Agriculture
+  state_veterinarian_name: Dr. James L. Maxwell
+  state_veterinarian_url: https://agriculture.wv.gov/divisions/animal-health/animal-health-contacts/
+  wildlife_disease_program_url: https://agriculture.wv.gov/divisions/animal-health/
+  reportable_diseases_url: https://agriculture.wv.gov/divisions/animal-health/
+  contact_phone: 304-558-2214
+  contact_email: Jmaxwell@wvda.us
+  hq_address: 347 Gus R. Douglass Agricultural Center at Guthrie, Buildings 12 and 13, Charleston, WV 25312
+  primary_url: https://agriculture.wv.gov/divisions/animal-health/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Dr. James L. Maxwell confirmed State Veterinarian and Director on live WV DOA contact page. Dr. Erika Alt is Assistant
+    State Veterinarian.
+
+    '
+  sources:
+  - https://agriculture.wv.gov/divisions/animal-health/animal-health-contacts/
+  - https://agriculture.wv.gov/divisions/animal-health/
+
+- jurisdiction: WY
+  state_name: Wyoming
+  agency_name: Wyoming Livestock Board
+  parent_department: Wyoming Livestock Board (independent state agency)
+  state_veterinarian_name: Dr. Jim Logan
+  state_veterinarian_url: https://wlsb.wyo.gov/
+  wildlife_disease_program_url: https://wlsb.wyo.gov/
+  reportable_diseases_url: https://wlsb.wyo.gov/
+  contact_phone: (307) 777-7515
+  contact_email: jim.logan@wyo.gov
+  hq_address: 1934 Wyott Drive, Cheyenne, WY 82002
+  primary_url: https://wlsb.wyo.gov/
+  publishes_dashboard: false
+  dashboard_url: null
+  notes: 'Wyoming''s state veterinarian resides in the Wyoming Livestock Board, not WLSB. SAHO 2021 lists Dr. Jim Logan (State
+    Veterinarian at 610 Fairground Road, Riverton, WY 82501 field office; main office Cheyenne). Health certificate email:
+    health.cert@wyo.gov. WDA and WLSB jointly announced HPAI detection in dairy herd (2025).
+
+    '
+  sources:
+  - https://iowaagriculture.gov/sites/default/files/animal-industry/pdf/Handbook/SAHO2021.pdf
+  - https://agriculture.wy.gov/index.php?section=news&prrid=130
+
