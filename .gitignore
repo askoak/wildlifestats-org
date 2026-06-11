@@ -3,6 +3,9 @@
 # fetch.py on-disk response + robots cache (never committed)
 /data/_cache/
 
+# apify_client.py per-run audit logs (URLs + flags only; never committed)
+/data/_apify_audit/
+
 # Python bytecode
 __pycache__/
 *.pyc
