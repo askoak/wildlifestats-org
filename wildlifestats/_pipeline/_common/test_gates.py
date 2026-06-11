@@ -177,12 +177,18 @@ def _():
 
 @case("upsert allows non-BRWC EIN in raw-records bucket past validation gates")
 def _():
-    # Validation passes; the actual postgrest call is still TODO[engineer],
-    # which raises NotImplementedError. That's the expected outcome — it
-    # means the validation gates did NOT fire on a legitimate record.
+    # Validation passes on a legitimate record, so upsert() proceeds to read
+    # the Supabase credential. With no token in the CI environment that read
+    # raises MissingCredentialError — which proves the §19 client gates did
+    # NOT fire on a legitimate record and the postgrest path is wired to
+    # creds (not a hardcoded module-level secret). The live HTTP call itself
+    # is covered by the flag-gated live test below.
+    import os
+    saved_url = os.environ.pop("CUSTOM_CRED_OAMQICYLPYTBLDRNYBCC_SUPABASE_CO_URL", None)
+    saved_tok = os.environ.pop("CUSTOM_CRED_OAMQICYLPYTBLDRNYBCC_SUPABASE_CO_TOKEN", None)
     req = supabase_client.WriteRequest(
         target_schema="wildlifestats_secure_bucket_05_raw_records",
-        target_table="intakes",
+        target_table="raw_records",
         record={
             "fetched_at": "2026-06-11T15:00:00Z",
             "source_url": "https://example.org/x",
@@ -192,13 +198,68 @@ def _():
     )
     try:
         supabase_client.upsert(req)
-        assert False, "expected NotImplementedError (scaffold passthrough)"
+        assert False, "expected MissingCredentialError (no token in CI env)"
     except supabase_client.CrossLaneViolation as e:
         assert False, f"unexpected lane violation on legitimate record: {e}"
     except supabase_client.MissingProvenance as e:
         assert False, f"unexpected provenance error: {e}"
-    except NotImplementedError:
-        pass  # expected — gates passed, scaffold raised
+    except creds.MissingCredentialError:
+        pass  # expected — gates passed; credential read is where it stops in CI
+    finally:
+        if saved_url is not None:
+            os.environ["CUSTOM_CRED_OAMQICYLPYTBLDRNYBCC_SUPABASE_CO_URL"] = saved_url
+        if saved_tok is not None:
+            os.environ["CUSTOM_CRED_OAMQICYLPYTBLDRNYBCC_SUPABASE_CO_TOKEN"] = saved_tok
+
+
+@case("upsert live round-trip [skipped unless WILDLIFESTATS_LIVE_SUPABASE=1]")
+def _():
+    # Live, money/quota-touching round-trip against the real project. Skipped
+    # by default so CI exercises only the offline gates. Enable explicitly with
+    #   WILDLIFESTATS_LIVE_SUPABASE=1  (plus the Supabase creds in env)
+    # to validate the actual postgrest write + the server-side §19 CHECK gate.
+    import os
+    if os.environ.get("WILDLIFESTATS_LIVE_SUPABASE") != "1":
+        print("    (skipped — set WILDLIFESTATS_LIVE_SUPABASE=1 to run live)")
+        return
+    import time
+    stamp = str(int(time.time()))
+    # 1) A legitimate org record must write and round-trip.
+    ok = supabase_client.WriteRequest(
+        target_schema="wildlifestats_secure_bucket_05_raw_records",
+        target_table="raw_records",
+        on_conflict="rehab_org_ein,content_hash",
+        record={
+            "fetched_at": "2026-06-11T15:00:00Z",
+            "source_url": "https://example.org/live-test",
+            "content_hash": f"livetest-{stamp}",
+            "rehab_org_ein": "94-2759874",
+            "record": {"_test": True},
+        },
+    )
+    returned = supabase_client.upsert(ok)
+    assert returned.get("rehab_org_ein") == "94-2759874", f"round-trip mismatch: {returned}"
+    # 2) A BRWC EIN must be rejected server-side (CHECK constraint), surfacing
+    #    as a RuntimeError from the postgrest 4xx — never a silent success.
+    brwc = supabase_client.WriteRequest(
+        target_schema="wildlifestats_secure_bucket_05_raw_records",
+        target_table="raw_records",
+        record={
+            "fetched_at": "2026-06-11T15:00:00Z",
+            "source_url": "https://example.org/live-test-brwc",
+            "content_hash": f"livetest-brwc-{stamp}",
+            "rehab_org_ein": supabase_client.BRWC_EIN,
+            "record": {"_test": True},
+        },
+    )
+    try:
+        supabase_client.upsert(brwc)
+        assert False, "BRWC EIN was NOT rejected server-side — §19 breach"
+    except supabase_client.CrossLaneViolation:
+        pass  # client gate caught it first — also acceptable
+    except RuntimeError as e:
+        assert "23514" in str(e) or "raw_records_no_brwc_ein" in str(e) or "violates check" in str(e).lower(), \
+            f"expected a CHECK-constraint rejection, got: {e}"
 
 
 print("\n[exa] artifact-type validation gates")

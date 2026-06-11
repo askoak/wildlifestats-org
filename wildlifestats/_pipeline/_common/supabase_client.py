@@ -61,8 +61,13 @@ calls and the per-bucket schema definitions.
 
 from __future__ import annotations
 
+import json as _json
+import urllib.error
+import urllib.request
 from dataclasses import dataclass
 from typing import Any, Optional
+
+from . import creds
 
 
 # Schemas owned by the WildlifeStats lane. Engineer creates these via
@@ -122,35 +127,46 @@ def upsert(request: WriteRequest) -> dict:
 
     Returns: the upserted record as Supabase returned it.
 
-    TODO[engineer]: implement against postgrest. Use
-    creds.get_supabase_url() + creds.get_supabase_token(). The auth header
-    is `Authorization: Bearer <token>`, plus `apikey: <token>`. POST to
-    {url}/rest/v1/{table}?on_conflict=... with Prefer: resolution=merge-
-    duplicates. Per-schema routing is via the `Content-Profile` and
-    `Accept-Profile` headers.
-
-    Recommended decomposition:
-
-    1. Validate schema is in WILDLIFESTATS_SCHEMAS; raise CrossLaneViolation
-       otherwise.
-    2. Validate schema does not start with any FORBIDDEN_SCHEMA_PREFIXES.
-    3. Validate record has fetched_at, source_url, content_hash; raise
-       MissingProvenance otherwise.
-    4. If target_schema endswith '_bucket_05_raw_records':
-       - if record.get('rehab_org_ein') == BRWC_EIN: raise
-         CrossLaneViolation('BRWC raw records belong in the BRWC lane')
-    5. Issue the postgrest upsert.
-    6. Return the returned record.
+    Implementation note (Phase 9b.2): the three client-side gates below
+    are the §19 trip wires; only past all three do we read the credential
+    (never at module level) and issue the PostgREST upsert. Per-schema
+    routing is via the Content-Profile / Accept-Profile headers, so the
+    table parameter is the bare table name (no schema-qualified SQL).
+    The server enforces the §19 EIN exclusion independently — a CHECK
+    constraint on the bucket-05 raw_records table that no role, including
+    service_role, can bypass. Both gates required.
     """
     _validate_target_schema(request.target_schema)
     _validate_provenance(request.record)
     _validate_lane_isolation(request.target_schema, request.record)
 
-    raise NotImplementedError(
-        "wildlifestats._pipeline._common.supabase_client.upsert() is a "
-        "Phase 9 scaffold. The validation gates above are live; the "
-        "actual postgrest call is pending engineer implementation."
-    )
+    base = creds.get_supabase_url().rstrip("/")
+    token = creds.get_supabase_token()
+    endpoint = f"{base}/rest/v1/{request.target_table}"
+    if request.on_conflict:
+        endpoint += f"?on_conflict={request.on_conflict}"
+
+    headers = {
+        "apikey": token,
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
+        # Route the write to the owned schema (PostgREST multi-schema).
+        "Content-Profile": request.target_schema,
+        "Accept-Profile": request.target_schema,
+        "Prefer": "resolution=merge-duplicates,return=representation",
+    }
+    body = _json.dumps([request.record]).encode("utf-8")
+    req = urllib.request.Request(endpoint, data=body, headers=headers, method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            rows = _json.loads(resp.read().decode("utf-8") or "[]")
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")[:400]
+        raise RuntimeError(
+            f"Supabase upsert to {request.target_schema}.{request.target_table} "
+            f"failed (HTTP {exc.code}): {detail}"
+        ) from None
+    return rows[0] if rows else {}
 
 
 def _validate_target_schema(schema: str) -> None:
