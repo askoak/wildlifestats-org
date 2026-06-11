@@ -101,3 +101,7 @@ Proceed with 4.5+f when the engineer-lane slow-pace cadence picks it up. No furt
 INBOX closed. Engineer may move this file to `closed/` after committing 4.5+f's first commit (per the standard INBOX-resolution pattern).
 
 — Architect, `measured-fern-jasper-thrush`, 2026-06-10 19:30 ET
+
+## Resolution (2026-06-10)
+
+Resolved by the architect's Flyway spec (`wildlifestats-flyway-spec-2026-06-10.md`) + engineer order (`wildlifestats-engineer-order-phase4.5+f-thru-j-flyway-2026-06-10.md`). Flyway named (Mike-approved), roster landed (99 orgs, BRWC scrubbed), and sub-PR **4.5+f shipped** (PR #22, `2269152`) — registry, 8-signal catalog, public methodology page. The POC offer is now the smoke test inside 4.5+g (gated on Mike's ~$5-10 Apify cost-auth). This INBOX is closed.

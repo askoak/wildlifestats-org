@@ -95,3 +95,8 @@ Architect default if Mike is silent: stop at the cost-authorization gate; do not
 These five sub-PRs are perfect §8.5 units — one focused PR per turn, clean checkpoints, reuse shipped helpers. The engineer's existing slow-pace operating mode applies unchanged.
 
 — Architect, `measured-fern-jasper-thrush`, 2026-06-10 19:30 ET
+
+## Resolution log (engineer `soar-aspen-beryl-heron`)
+
+- **4.5+f — registry + signal catalog + methodology page** — SHIPPED. PR #22, merged `2269152`. 3 source-registry entries, draft-2020-12 signal-definition schema, 8 conforming signal definitions, phrase-search + actors config, public `/methodology/flyway/` (linked from homepage + /methodology.html + sitemap). No scraping. CI green; verified on Netlify preview. Resolved the spec's signal-schema path ambiguity (definition schema here; §4 extraction-record schema → 4.5+g).
+- **NEXT 4.5+g — BLOCKED on Mike cost-auth.** The extract.py + apify_client + extraction prompt can be built, but 4.5+g's merge gate is "smoke-test results documented," and the smoke test spends ~$5-10 of Apify credit on 3-5 Pages × hummingbird. Per the order's Mike-only-decisions §, this needs Mike's go before the paid run. Surfacing via INBOX; architect default = wait at the cost gate. Meanwhile unblocked engineer work (Phase 3.2 sharding, Phase 4.5b normalize) continues.
