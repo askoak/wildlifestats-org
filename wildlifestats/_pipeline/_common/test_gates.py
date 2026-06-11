@@ -384,6 +384,69 @@ def _():
         assert "Unknown artifact_type" in str(e)
 
 
+@case("find_canonical_url ranks host-matched candidates above off-host + dedupes")
+def _():
+    saved_tok = creds.get_exa_token
+    saved_search = exa_client._exa_search
+    creds.get_exa_token = lambda: "test-token"
+
+    def fake_search(query, token, num_results):
+        return [
+            {"url": "https://other-center.com/news", "title": "Off", "score": 0.95,
+             "highlights": ["off host but higher score"]},
+            {"url": "https://blueridge.org/newsletter", "title": "On", "score": 0.50},
+            {"url": "https://blueridge.org/newsletter", "title": "On dup", "score": 0.60},
+        ]
+
+    exa_client._exa_search = fake_search
+    try:
+        cands = exa_client.find_canonical_url(
+            "Blue Ridge", "newsletter_archive", domain_hint="blueridge.org")
+        assert cands, "expected candidates"
+        assert cands[0].url == "https://blueridge.org/newsletter", \
+            f"host match must outrank higher-confidence off-host, got {cands[0].url}"
+        assert cands[0].matched_host is True
+        br = [c for c in cands if c.url == "https://blueridge.org/newsletter"]
+        assert len(br) == 1 and br[0].confidence == 0.60, "dedup must keep highest confidence"
+    finally:
+        creds.get_exa_token = saved_tok
+        exa_client._exa_search = saved_search
+
+
+@case("validate_candidate: False on fetch failure, True on a consistent body")
+def _():
+    saved_fetch = fetch.fetch
+    cand = exa_client.CanonicalCandidate(
+        url="https://x.org/report.pdf", title="", snippet="", confidence=0.9,
+        matched_host=True, artifact_type="annual_report_pdf", source_query="q")
+    try:
+        fetch.fetch = lambda url, **kw: fetch.FetchEnvelope(
+            source_url=url, fetched_at="2026-01-01T00:00:00Z", http_status=200,
+            content_hash="h", body="%PDF-1.7 binary...", source_etag=None)
+        assert exa_client.validate_candidate(cand) is True, "consistent PDF should validate"
+
+        def boom(url, **kw):
+            raise fetch.DisallowedByRobots("robots said no")
+        fetch.fetch = boom
+        assert exa_client.validate_candidate(cand) is False, "fetch failure → False, never raises"
+    finally:
+        fetch.fetch = saved_fetch
+
+
+@case("exa find_canonical_url live [skipped unless WILDLIFESTATS_LIVE_EXA=1]")
+def _():
+    import os
+    if os.environ.get("WILDLIFESTATS_LIVE_EXA") != "1":
+        print("    (skipped — set WILDLIFESTATS_LIVE_EXA=1 to run live)")
+        return
+    cands = exa_client.find_canonical_url(
+        "National Audubon Society", "annual_report_landing",
+        domain_hint="audubon.org", max_candidates=3)
+    assert isinstance(cands, list)
+    for c in cands:
+        assert c.url.startswith("http") and 0.0 <= c.confidence <= 1.0
+
+
 print("\n[claude] source-URL discipline gate")
 
 
