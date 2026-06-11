@@ -35,6 +35,7 @@
           <li><a href="/one-health/">One Health</a></li>
           <li><a href="/parks/">National Parks</a></li>
           <li><a href="/wildlife/">Wildlife</a></li>
+          <li><a href="/wildlife911/">Wildlife911</a></li>
           <li><a href="/data/">Data</a></li>
           <li><a href="/methodology.html">Methodology</a></li>
           <li><a href="/about.html">About</a></li>
@@ -119,14 +120,109 @@
       <p>The model's shapes — admission-reason mix, the spring intake peak,
       latitude effects on seasonality, and regional species composition — are set
       to be consistent with patterns described in the published wildlife
-      rehabilitation and wildlife-health literature, including the peer-reviewed
-      analyses of multi-year rehabilitation admission records (for example,
-      studies in <em>PLOS ONE</em> and the <em>Journal of Wildlife
-      Rehabilitation</em>), U.S. Census population and geography data for the
-      spatial weights, and U.S. Geological Survey National Wildlife Health Center
-      material for disease-related categories. The dataset is calibrated to be
+      rehabilitation and wildlife-health literature. The dataset is calibrated to be
       <em>plausibly shaped</em>; it is not a fit to any single institution's
       records, and no real center's data is incorporated.</p>
+
+      <h3>Parameter provenance</h3>
+      <p>The table below names the source for each set of probability parameters
+      and identifies which are direct estimates from published data, which are
+      judgments consistent with the cited literature, and which are unfitted
+      synthetic priors authored for the framework. This is the canonical record
+      of where every probability in the generator comes from.</p>
+      <table class="provenance-table">
+        <thead>
+          <tr><th>Parameter</th><th>Source</th><th>Fit type</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Admission-reason base distribution
+            (vehicle_strike, window_strike, predation, etc.)</td>
+            <td>Architect judgment consistent with patterns described in <a href="https://doi.org/10.1371/journal.pone.0257675" rel="noopener">Henger et al. 2021, <em>PLOS ONE</em></a>, a peer-reviewed analysis of n=58,185 New York wildlife rehabilitation admissions.</td>
+            <td>Judgment consistent with</td>
+          </tr>
+          <tr>
+            <td>Cat-predation share of admissions in the
+            <code>predation</code> category</td>
+            <td><a href="https://abcbirds.org/wp-content/uploads/2023/01/McRuer-et-al.-2017-Free-roaming-cat-interactions-with-wildlife-admitted-to-a-wildlife-hospital.pdf" rel="noopener">McRuer et al. 2017, <em>Journal of Wildlife Diseases</em></a>. The McRuer paper documents free-roaming cat interactions at one Virginia wildlife hospital; the framework's use is a single-facility study extrapolated for synthetic prior shape, not a national fit.</td>
+            <td>Judgment consistent with (single-facility caveat noted)</td>
+          </tr>
+          <tr>
+            <td>Annual admission volume context</td>
+            <td><a href="https://www.fws.gov/sites/default/files/documents/2024-12/conservation-value-of-wildlife-rehabilitation.pdf" rel="noopener">U.S. Fish &amp; Wildlife Service 2024, <em>Conservation Value of Wildlife Rehabilitation</em></a>. FWS reports 500,000+ annual wildlife rehabilitation contacts in the U.S.; that figure includes informal hotline contacts not captured as formal patient records. The framework's 1,000,000 records over 9 years (~111,000/year) is intentionally calibrated to formal patient-intake-record volume, which is a subset of FWS's broader figure. See "National volume reconciliation" below.</td>
+            <td>Context only, not a parameter fit</td>
+          </tr>
+          <tr>
+            <td>Spatial weights (state-level allocation)</td>
+            <td>U.S. Census 2020 state population (60%), state land area (30%), federally protected land area (10%). The weight blend is an architect choice intended to produce credible per-state coverage without urban dominance; it is not derived from any specific publication.</td>
+            <td>Architect judgment (composite)</td>
+          </tr>
+          <tr>
+            <td>Year-over-year trend weights
+            (including the 2020 pandemic dip and 2021 rebound)</td>
+            <td>Architect estimate. The 2020 dip and 2021 rebound are widely
+            reported in informal wildlife-rehabilitation channels but, at the
+            time of authoring, are not formally documented in a single primary
+            citation that establishes the magnitudes used in the generator. The
+            weights are expert priors pending validation against real
+            multi-center data.</td>
+            <td>Synthetic prior, unfitted</td>
+          </tr>
+          <tr>
+            <td>Seasonality model (peak month and amplitude by latitude band)</td>
+            <td>Architect judgment consistent with broad rehabilitation
+            “baby season” literature. The specific peak-month-by-latitude
+            mapping and the amplitude values are unfitted priors authored for
+            structural realism.</td>
+            <td>Synthetic prior, unfitted</td>
+          </tr>
+          <tr>
+            <td>Regional species archetype tables</td>
+            <td>Architect judgment informed by biogeographic literature and
+            regional species composition broadly. Not fitted to observed
+            rehabilitation intake distributions. See the Hawaii archetype note
+            below for explicit treatment of endemic species.</td>
+            <td>Synthetic prior, unfitted</td>
+          </tr>
+          <tr>
+            <td>Disease category surveillance grounding</td>
+            <td><a href="https://whispers.usgs.gov" rel="noopener">USGS National Wildlife Health Center WHISPers</a> material for context; the framework's <code>infectious_disease</code> category is structural only and does not separate HPAI, rabies, WNV, or other-infectious until the planned schema split (see Phase 4.6 hardening).</td>
+            <td>Schema acknowledged limitation</td>
+          </tr>
+          <tr>
+            <td>Cat-mediated wildlife mortality context (One Health framing)</td>
+            <td><a href="https://doi.org/10.1038/ncomms2380" rel="noopener">Loss, Will &amp; Marra 2013, <em>Nature Communications</em></a>; <a href="https://doi.org/10.1073/pnas.1602480113" rel="noopener">Doherty et al. 2016, <em>PNAS</em></a>. Used for One Health page context, not as a generator parameter.</td>
+            <td>Context only, not a parameter fit</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>National volume reconciliation</h3>
+      <p>The U.S. Fish &amp; Wildlife Service 2024 figure of 500,000+ annual
+      wildlife rehabilitation contacts and the synthetic cube's implied 111,000
+      annual admissions reflect different denominators. FWS includes informal
+      triage and hotline contacts that do not become formal patient intake
+      records. The synthetic cube models formal patient records of the kind
+      tracked in systems like the Wildlife Rehabilitation Medical Database
+      (WRMD), which is the subset that would be normalized into the framework's
+      schema. The factor-of-four-to-five gap between the two figures is not an
+      undercount in the model; it is an explicit scope choice. When real partner
+      data ships, the actual ratio of intake records to broader hotline
+      contacts will become measurable and the framework will document the
+      observed ratio.</p>
+
+      <h3>Hawaii endemic-species archetype note</h3>
+      <p>The framework's Hawaii regional archetype historically referenced
+      endemic honeycreepers including <em>iʻiwi</em> and <em>ʻapapane</em>.
+      These species are ESA-listed (the <em>iʻiwi</em> is federally Threatened
+      per <a href="https://www.federalregister.gov/documents/2017/09/20/2017-20074/endangered-and-threatened-wildlife-and-plants-threatened-species-status-for-the-iiwi-drepanis" rel="noopener">Federal Register 2017</a>) and require U.S. Fish &amp; Wildlife Service
+      Section 10 permitting for any rehabilitation contact, restricted to
+      specialized facilities such as the Maui Forest Bird Recovery Project. The
+      synthetic cube models routine high-volume admissions; rare incidental
+      encounters with endemic Hawaiian honeycreepers are out of scope. Per the
+      Phase 4.6 hardening order, the active probability for these taxa is being
+      reduced to near-zero in the archetype table with this caveat documented in
+      the species-archetypes.json file.</p>
 
       <h2>Reproducibility</h2>
       <p>The build is deterministic. With a fixed master seed of 42, the
@@ -168,6 +264,17 @@
       cycle. Its pipeline, signal catalog, and legal posture (no raw post content
       is stored or republished) are documented on the
       <a href="/methodology/flyway/">Flyway methodology page</a>.</p>
+      <p><strong>Flyway Year 1 disclaimer.</strong> The first operational year
+      (2026–2027) is treated as a data-collection phase, not a detection phase.
+      Anomaly alerts during this period should be interpreted with caution.
+      Validated baselines using three to five years of real signal observations
+      — anchored in <a href="https://ebird.org/science/use-ebird-data" rel="noopener">eBird</a>
+      historical first-of-season records and <a href="https://journeynorth.org" rel="noopener">Journey North</a>
+      hummingbird and monarch arrival data — will become operational in Year 2.
+      Per the Phase 4.6 hardening order, the previously proposed practice of
+      bootstrapping the Flyway baseline from the synthetic cube’s seasonality
+      model has been retracted; real-history baselines are the canonical
+      design.</p>
     </div>
   </main>
 
@@ -179,6 +286,8 @@
       <nav aria-label="Footer">
         <a href="/governance.html">Governance</a> ·
         <a href="/about.html">About</a> ·
+        <a href="/wildlife911/">Wildlife911</a> ·
+        <a href="mailto:wildlifestats@michaeloak.com">Contact</a> ·
         <span>2026</span>
       </nav>
     </div>
