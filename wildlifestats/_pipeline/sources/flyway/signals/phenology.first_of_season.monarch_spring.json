@@ -1,0 +1,33 @@
+{
+  "signal_id": "phenology.first_of_season.monarch_spring",
+  "signal_type": "phenology.first_of_season",
+  "subject_taxa": [
+    "Danaus plexippus"
+  ],
+  "subject_canonical": "monarch_butterfly",
+  "vocabulary": [
+    "first monarch",
+    "monarchs are back",
+    "milkweed is up",
+    "first monarch sighting",
+    "monarch egg on milkweed",
+    "saw a monarch today"
+  ],
+  "anchor_feeds": [
+    "journey-north:monarch-spring",
+    "inaturalist:taxon-48662"
+  ],
+  "geography_resolution": "county",
+  "season_window": {
+    "month_start": 3,
+    "month_end": 6
+  },
+  "baseline_period_years": 5,
+  "trigger_logic": {
+    "early": "first observation week N < baseline mean − 1.5 stddev",
+    "late": "first observation week N > baseline mean + 1.5 stddev",
+    "spike": "weekly post count > rolling 8-week mean × 3"
+  },
+  "active": true,
+  "owner": "architect-curated"
+}

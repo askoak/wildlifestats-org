@@ -1,0 +1,27 @@
+{
+  "description": "Apify actor parameters per Flyway source surface. Consumed by the apify_client wrapper (sub-PR 4.5+g). Token comes from the APIFY_TOKEN env var (no credential committed). All runs are date-filtered to the last 48h and capped to limit cost; see flyway-spec §7.",
+  "facebook_pages": {
+    "actor": "apify/facebook-posts-scraper",
+    "input": {
+      "resultsLimit": 25,
+      "onlyPostsNewerThan": "48 hours",
+      "scrapeComments": false,
+      "scrapePostReactions": false
+    }
+  },
+  "instagram_pages": {
+    "actor": "apify/instagram-post-scraper",
+    "input": {
+      "resultsLimit": 25,
+      "onlyPostsNewerThan": "48 hours"
+    }
+  },
+  "phrase_search": {
+    "actor": "scraper_one/facebook-posts-search",
+    "alternate_actor": "powerai/facebook-post-search-scraper",
+    "input": {
+      "resultsLimit": 50,
+      "recentPostsOnly": true
+    }
+  }
+}

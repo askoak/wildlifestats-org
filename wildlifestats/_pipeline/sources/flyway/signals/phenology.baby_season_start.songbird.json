@@ -1,0 +1,34 @@
+{
+  "signal_id": "phenology.baby_season_start.songbird",
+  "signal_type": "phenology.baby_season_start",
+  "subject_taxa": [
+    "Passeriformes"
+  ],
+  "subject_canonical": "songbird_orphan",
+  "vocabulary": [
+    "baby bird season",
+    "found a baby bird",
+    "nest fell",
+    "orphaned nestling",
+    "fledgling on the ground",
+    "we're getting babies",
+    "baby season is here"
+  ],
+  "anchor_feeds": [
+    "ebird:Passeriformes",
+    "inaturalist:taxon-7251"
+  ],
+  "geography_resolution": "county",
+  "season_window": {
+    "month_start": 3,
+    "month_end": 8
+  },
+  "baseline_period_years": 5,
+  "trigger_logic": {
+    "early": "first observation week N < baseline mean − 1.5 stddev",
+    "late": "first observation week N > baseline mean + 1.5 stddev",
+    "spike": "weekly post count > rolling 8-week mean × 3"
+  },
+  "active": true,
+  "owner": "architect-curated"
+}

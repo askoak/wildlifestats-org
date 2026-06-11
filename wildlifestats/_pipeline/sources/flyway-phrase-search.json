@@ -1,0 +1,11 @@
+{
+  "source_id": "flyway-phrase-search",
+  "display_name": "Flyway — Discovery via public phrase/hashtag search",
+  "actor": "scraper_one/facebook-posts-search",
+  "alternate_actor": "powerai/facebook-post-search-scraper",
+  "refresh_cadence": "weekly",
+  "endpoint_config": "wildlifestats/_pipeline/sources/flyway/phrase-search-queries.json",
+  "tier": "tier1-admin-only",
+  "purpose": "Surface new high-value Pages to consider promoting to the monitored roster. Output reviewed by Mike or delegated admin before any Page enters the social-pages registry.",
+  "notes": "Discovery loop, not a signal source itself."
+}

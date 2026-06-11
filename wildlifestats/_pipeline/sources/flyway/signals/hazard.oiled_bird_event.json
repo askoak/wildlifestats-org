@@ -1,0 +1,33 @@
+{
+  "signal_id": "hazard.oiled_bird_event",
+  "signal_type": "hazard.oiled_bird_event",
+  "subject_taxa": [
+    "Aves"
+  ],
+  "subject_canonical": "oiled_wildlife",
+  "vocabulary": [
+    "oiled bird",
+    "oil-covered",
+    "petroleum on feathers",
+    "tar on wildlife",
+    "oil spill wildlife",
+    "covered in oil"
+  ],
+  "anchor_feeds": [
+    "noaa:marine-mammal-stranding",
+    "inaturalist:place-events"
+  ],
+  "geography_resolution": "county",
+  "season_window": {
+    "month_start": 1,
+    "month_end": 12
+  },
+  "baseline_period_years": 3,
+  "trigger_logic": {
+    "early": "first observation week N < baseline mean − 1.5 stddev",
+    "late": "first observation week N > baseline mean + 1.5 stddev",
+    "spike": "weekly post count > rolling 8-week mean × 3"
+  },
+  "active": true,
+  "owner": "architect-curated"
+}
