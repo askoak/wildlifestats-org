@@ -1,0 +1,746 @@
+{
+  "bats": {
+    "filename": "BATS.docx",
+    "sections": [
+      {
+        "heading": "Overview",
+        "body": [
+          "Bat Rescue Guide (Public-Facing Narrative)",
+          "Natural behavior: Pups sometimes fall during overheating or predator disruptions. In natural roosts, they climb back; in bat boxes or buildings, they often cannot. A pool skimmer can be used to return pups. If pups keep falling, \u201cpup catchers\u201d may be required.",
+          "When orphaned: Thin, dehydrated, or wandering pups likely have no mother and need rehab.",
+          "Adults: Grounded bats are not always rabid \u2014 they may be injured (car strikes, wing tears, storms, predator drops, building entrapment). If rabies exposure is ruled out, they can go to rehab."
+        ]
+      },
+      {
+        "heading": "Emergency triggers",
+        "body": [
+          "Bat found on ground during daylight",
+          "Obvious injury, torn/broken wing",
+          "Contact with humans/pets",
+          "Pup cold, weak, unresponsive, or wandering alone"
+        ]
+      },
+      {
+        "heading": "If safe",
+        "body": [
+          "Always wear thick gloves.",
+          "Move with a cloth or spoon into a ventilated box.",
+          "Add a towel or non-contact heat source if pup.",
+          "Photograph animal and site before moving.",
+          "Keep box in quiet, secure room until transport."
+        ]
+      },
+      {
+        "heading": "Critical warnings",
+        "body": [
+          "Do not handle barehanded. Rabies exposure requires immediate reporting.",
+          "Do not feed or give water.",
+          "If you have COVID-19 or exposure risk, do not handle bats."
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "bird": {
+    "filename": "BIRD.docx",
+    "sections": [
+      {
+        "heading": "Overview",
+        "body": [
+          "Baby Bird Rescue Guide",
+          "Background",
+          "Seasonality: Baby birds are most commonly encountered in spring and summer."
+        ]
+      },
+      {
+        "heading": "Developmental stages",
+        "body": [
+          "Nestlings: few/no feathers, eyes closed or partially open; unable to stand or perch.",
+          "Fledglings: fully feathered, able to hop/perch but not yet fly; spend days to weeks on the ground while parents continue feeding them."
+        ]
+      },
+      {
+        "heading": "Natural behavior",
+        "body": [
+          "Fledglings on the ground are normal and cared for by nearby parents.",
+          "Parent birds are not deterred by human scent \u2014 they will return once the area is clear.",
+          "Common misunderstanding: A bird on the ground is not automatically orphaned. Fledglings especially should usually be left alone.",
+          "Baby Bird Triage",
+          "Step 1: Look for emergency red flags",
+          "Bleeding, broken bone, puncture wound",
+          "Been in a cat\u2019s or dog\u2019s mouth",
+          "Covered in ants or fly eggs",
+          "Lethargic or nonresponsive",
+          "\u27a1\ufe0f If YES: The bird is likely injured. Take to a licensed wildlife rehabilitator or veterinarian immediately. Do not feed or give water.",
+          "Step 2: Identify stage of development",
+          "Is the bird fully feathered and able to hop/perch but not fly?",
+          "YES: This is a fledgling. Leave it alone. Parents are nearby and will continue feeding. Keep children/pets away and observe from a distance.",
+          "NO: This is a nestling (few/no feathers, eyes closed or not fully open, unable to perch). Proceed to Step 3.",
+          "Step 3: Return or substitute nest",
+          "Can you locate and safely reach the nest?",
+          "YES: Ensure the baby is warm to the touch; if cold, warm gently in hands before returning. Place back in nest. Parents will resume care.",
+          "NO: Construct a substitute nest (plastic container with drainage holes or basket). Line with dry material (twigs, straw, grass). Secure to a tree/bush as close as possible to original nest site, sheltered from rain and predators. Place bird inside and monitor from a distance.",
+          "\u27a1\ufe0f If parents do not return within half a day, contact a permitted songbird rehabilitator.",
+          "Safe Handling Guidelines",
+          "Always keep the bird warm, dark, and quiet while intervening.",
+          "If it is already dark: Keep indoors overnight in a dark, quiet, warm container with no food or water. Attempt reunite at dawn.",
+          "Do not attempt to hand-feed or water \u2014 risk of aspiration and death.",
+          "Keep pets and children away.",
+          "Parents will not approach if humans linger nearby. Observe discreetly.",
+          "Adult Birds",
+          "Adult songbirds are fragile. Use a hand towel or net to gently contain in a cardboard box.",
+          "Keep warm, dark, quiet until transfer to a rehabilitator.",
+          "Do not attempt feeding or test flights.",
+          "Window-strike birds and cat-attacked birds should always be evaluated by a rehabilitator, even if they appear to recover.",
+          "Quick Decision Flow (for CustomGPT)",
+          "Did you find a baby bird?",
+          "Injured, lethargic, cold, covered in ants/fly eggs, or in cat/dog\u2019s mouth? \u2192 Rehab immediately.",
+          "Fully feathered, hopping, perching but not flying? \u2192 Fledgling; leave it alone. Parents are caring for it.",
+          "Few/no feathers, unable to perch, eyes closed? \u2192 Nestling; return to original nest if possible.",
+          "Nest reachable? \u2192 Return baby once warm.",
+          "Nest destroyed/unreachable? \u2192 Build substitute nest, place baby, monitor for parents.",
+          "No parental return within half a day? \u2192 Rehab.",
+          "Key Takeaway",
+          "Fledglings on the ground are normal and almost always cared for by their parents. Only intervene for clear injuries or if a nestling is displaced and cannot be returned. Never feed or water \u2014 warmth, safety, and reunite attempts are the priority."
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "deer": {
+    "filename": "DEER.docx",
+    "sections": [
+      {
+        "heading": "Overview",
+        "body": [
+          "White-tailed Deer (Fawn) Rescue Guide",
+          "Background",
+          "Birth season: April\u2013July (peak in June).",
+          "Litter size: 1 fawn for young does; twins/triplets common in older does."
+        ]
+      },
+      {
+        "heading": "Natural behavior",
+        "body": [
+          "Mothers leave fawns alone for long periods to avoid attracting predators.",
+          "Fawns remain hidden in tall grass, bushes, or occasionally open areas (yards).",
+          "Does return at dawn/dusk to nurse and relocate fawns.",
+          "Key misunderstanding: Humans often assume a fawn alone = orphan. Most are not abandoned.",
+          "Chronic Wasting Disease (CWD) Restrictions (Virginia-specific)"
+        ]
+      },
+      {
+        "heading": "Fawn rehabilitation is not permitted in CWD Disease Management Areas (DMAs)",
+        "body": [
+          "Clarke, Frederick, Shenandoah, Warren",
+          "Arlington, Culpeper, Fairfax, Fauquier, Loudoun, Madison, Orange, Page, Prince William, Rappahannock, Rockingham",
+          "Carroll, Floyd, Franklin, Montgomery, Patrick, Pulaski, Roanoke, Wythe",
+          "Bland, Tazewell, Smyth",
+          "\u27a1\ufe0f In these counties: Do not remove fawns. If a fawn is truly orphaned/injured, call the DWR helpline: 1-855-571-9003.",
+          "Baby Deer Triage",
+          "Step 1: Look for emergency red flags",
+          "Bleeding, wound, or broken bone",
+          "Covered in fly eggs (tiny, rice-like specks)",
+          "Cold or wet",
+          "Crying continuously for hours",
+          "Weak AND lying on its side",
+          "\u27a1\ufe0f If YES: Fawn is likely injured/orphaned \u2192 Contact permitted wildlife rehabilitator or veterinarian immediately.\n\u26a0\ufe0f Do not feed, water, or chase fawns. Chasing causes capture myopathy (stress-induced organ failure \u2192 often fatal).",
+          "Step 2: Check location risk",
+          "Is the fawn in a dangerous place (e.g., roadside, backyard with dogs)?",
+          "\u27a1\ufe0f If YES: Move fawn a short distance to safety.",
+          "Face fawn away from your exit path.",
+          "Tap firmly between shoulder blades (signals \u201cstay put\u201d like a mother\u2019s nose tap).",
+          "Leave quickly without lingering.",
+          "Fawn may follow briefly but should settle back down. Observe from afar (binoculars if possible).",
+          "\u27a1\ufe0f If NO: Fawn is safe \u2192 Leave alone.",
+          "Step 3: Monitor",
+          "Keep children/pets away.",
+          "Reassess in 24 hours.",
+          "In nearly all cases, the mother will return.",
+          "Safe Handling Guidelines",
+          "Avoid touching unless necessary for relocation.",
+          "If relocation is essential, minimize handling time.",
+          "Never attempt to bottle-feed.",
+          "Keep quiet, calm, and quick when near the fawn.",
+          "Quick Decision Flow (for CustomGPT)",
+          "Did you find a fawn?",
+          "Injured, cold, wet, covered in fly eggs, weak/lying on side, or crying nonstop? \u2192 Rehab/vet immediately.",
+          "In DMA county? \u2192 Call DWR helpline (1-855-571-9003).",
+          "In dangerous spot (road, yard with dogs)? \u2192 Move short distance, tap shoulders, leave quickly.",
+          "Otherwise: Fawn is healthy and waiting \u2192 Leave alone, monitor from a distance.",
+          "Key Takeaway",
+          "A healthy fawn alone is not abandoned. Its best chance of survival is with its mother. Only intervene when there are clear signs of injury/orphaning, or if the fawn is in immediate danger."
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "fox": {
+    "filename": "FOX.docx",
+    "sections": [
+      {
+        "heading": "Overview",
+        "body": [
+          "Fox Rescue Guide",
+          "Background",
+          "Species in Virginia: Red Fox (Vulpes vulpes) and Gray Fox (Urocyon cinereoargenteus).",
+          "Habitat: Forests, fields, swamps, riparian zones, suburbs, and urban areas. Dens may be under trees, rock crevices, abandoned burrows, or under porches/sheds.",
+          "Breeding season: December\u2013April (varies by species).",
+          "Litters: 2\u20137 kits (average), one litter per year."
+        ]
+      },
+      {
+        "heading": "Development",
+        "body": [
+          "Birth: Eyes closed; stay in den.",
+          "~4 weeks: Begin emerging from den.",
+          "~2 months: Weaning begins; kits start exploring, playing, and eating food provided by parents.",
+          "~3 months: Fully furred, skittish around people, capable of running and jumping.",
+          "Key note: Foxes are a high-risk rabies vector species (RVS). Never handle bare-handed \u2014 even babies can transmit rabies.",
+          "Regional Restrictions (Virginia-specific)",
+          "Rehabilitation of foxes is restricted in Northern Virginia counties due to the Echinococcus multilocularis (parasitic tapeworm).",
+          "Restricted counties: Clarke, Fairfax, Fauquier, Frederick, Loudoun, Warren, Prince William.",
+          "Rule: Injured/orphaned foxes in these counties must be rehabilitated locally. They cannot be moved out of county.",
+          "Baby Fox Triage",
+          "Step 1: Look for emergency red flags",
+          "Covered in flies/fly eggs (tiny rice-like specks)",
+          "Frequent, persistent vocalizing or approaching humans",
+          "Obvious injury or deformity; lethargy/sick appearance",
+          "Found in cat\u2019s or dog\u2019s mouth",
+          "Parent known dead or illegally relocated",
+          "Eyes-closed kit seen outside den for >2 hours",
+          "\u27a1\ufe0f If YES: The fox kit is likely injured/orphaned \u2192 Contact a licensed wildlife rehabilitator immediately. Do not feed or water.",
+          "Step 2: If no red flags"
+        ]
+      },
+      {
+        "heading": "If kit is alert, healthy, and wary of people",
+        "body": [
+          "Leave the kit alone.",
+          "Continue monitoring den from a distance.",
+          "If adult is found dead nearby, consider using a trail camera at the den to confirm if other adults are still feeding the kits.",
+          "Safe Handling Guidelines",
+          "Do not attempt to capture or raise fox kits yourself."
+        ]
+      },
+      {
+        "heading": "If necessary, you may",
+        "body": [
+          "Place a cardboard box or crate over the kit until a rehabilitator/animal control arrives.",
+          "Keep children and pets away.",
+          "Do not provide food or water.",
+          "Hand-feeding may be considered a rabies exposure incident and can have legal/public health consequences.",
+          "Quick Decision Flow (for CustomGPT)",
+          "Did you find a baby fox?",
+          "Injured, lethargic, covered in flies, vocalizing persistently, in cat/dog\u2019s mouth, parent confirmed dead, or eyes closed outside den? \u2192 Rehab immediately.",
+          "If kit appears alert, healthy, and wary of humans: Monitor den area from afar. Do not disturb.",
+          "If adult fox is found dead near den: Place a trail camera at den entrance to check if other adults are feeding. If not, contact rehabilitator.",
+          "Key Takeaway",
+          "Fox kits are often cared for by their parents and should not be handled by humans due to rabies risk. Intervene only if clear red flags are present. In restricted Northern Virginia counties, foxes can only be rehabilitated within their county of origin. When in doubt, safely contain (box/crate) and contact a permitted rehabilitator or local animal control."
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "groundhog": {
+    "filename": "GROUNDHOG.docx",
+    "sections": [
+      {
+        "heading": "Overview",
+        "body": [
+          "Groundhog (Woodchuck) Rescue Guide",
+          "Background",
+          "Breeding season: March (immediately after emerging from hibernation).",
+          "Birth timing: April.",
+          "Litter size: 4\u20136 pups on average.",
+          "Denning: Intricate underground burrow systems (up to 45 feet, with as many as 11 entrances), usually in fields/grasslands."
+        ]
+      },
+      {
+        "heading": "Development",
+        "body": [
+          "~4 weeks: Fully furred with teeth.",
+          "~5\u20136 weeks: Mobile, begin exploring outside den.",
+          "10\u201312 weeks: Independent, though may remain in family groups until late summer dispersal.",
+          "Rabies Consideration",
+          "Woodchucks are a high-risk rabies vector species in Virginia. Even very young kits can transmit rabies. If bitten, scratched, or saliva contacts broken skin, the animal must be tested by health authorities. Avoid direct handling\u2014always wear gloves.",
+          "Baby Groundhog Triage",
+          "Step 1: Look for emergency red flags",
+          "Covered in fly eggs (tiny, rice-like specks).",
+          "Obvious injury or deformity.",
+          "Crying constantly for hours.",
+          "Was in a dog\u2019s/cat\u2019s mouth (even if no visible injuries).",
+          "Cold, wet, slow, or non-defensive when approached.",
+          "Eyes closed / very tiny kit seen outside den for hours without adult present.",
+          "Mother confirmed deceased/relocated.",
+          "\u27a1\ufe0f If YES: Likely orphaned/injured \u2192 Contact a permitted wildlife rehabilitator/vet immediately.\n\u26a0\ufe0f Do not feed or give water.",
+          "Step 2: Assess age & independence",
+          "6\u20138+ inches long, fully furred, mobile, defensive, and avoiding people?",
+          "YES: Baby is weaned and independent \u2192 Leave alone, no intervention needed.",
+          "NO: Likely too young to be outside den. Continue below.",
+          "Step 3: Reunite attempt if disturbance known\nIf burrow disturbance occurred (e.g., construction, dog dug entrance):",
+          "Using leather gloves, place baby in open shoebox with a non-contact heat source (e.g., warm rice sock, hot water bottle wrapped in towel).",
+          "Leave the box outside, near where baby was found, for 1\u20133 daylight hours.",
+          "If mother does not retrieve \u2192 Safely contain baby (lid over box) and contact rehabilitator.",
+          "Step 4: If no disturbance observed\n\u27a1\ufe0f Contact a permitted wildlife rehabilitator for advice before further action.",
+          "Safe Handling Guidelines",
+          "Always use gloves (rabies risk).",
+          "Never chase groundhogs; stress can cause capture myopathy.",
+          "Contain in a ventilated box if transport to rehab is required.",
+          "Keep in a quiet, dark, warm environment until transfer.",
+          "Do not feed or give water.",
+          "Quick Decision Flow (for CustomGPT)",
+          "Did you find a baby groundhog?",
+          "Injured, cold, wet, covered in fly eggs, crying nonstop, or in pet\u2019s mouth? \u2192 Rehab/vet immediately.",
+          "6\u20138+ inches, fully furred, mobile, and avoids people? \u2192 Independent \u2192 Leave alone.",
+          "Younger/smaller, disturbance known (e.g., burrow dug up)? \u2192 Place in heated shoebox outdoors near site for 1\u20133 hrs \u2192 If not retrieved, contact rehab.",
+          "No disturbance observed and still young? \u2192 Contact rehab for guidance.",
+          "Key Takeaway",
+          "A healthy, mobile, and defensive young groundhog is independent by 5\u20136 weeks and does not need intervention. Only intervene when there are clear signs of injury/orphaning, or if the den has been disturbed."
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "opossum": {
+    "filename": "OPOSSUM.docx",
+    "sections": [
+      {
+        "heading": "Overview",
+        "body": [
+          "Virginia Opossum Rescue Guide",
+          "Background",
+          "Breeding season: February\u2013September (2\u20133 litters per year)."
+        ]
+      },
+      {
+        "heading": "Reproduction",
+        "body": [
+          "13-day gestation \u2192 newborns crawl to pouch.",
+          "Pouch life: ~2 months.",
+          "Eyes open after ~2 months; begin riding on mother\u2019s back.",
+          "Independent at ~4 months.",
+          "Litters: Typically 6\u20139 babies, but as many as 13.",
+          "Special note: Mothers rarely return for lost babies. Do not attempt reunite-by-releasing.",
+          "Common Rescue Situations",
+          "Orphaned infants",
+          "Usually found in pouch of road-killed mothers.",
+          "If latched, do not pull off\u2014bring entire body to rehabilitator.",
+          "Search surrounding area for siblings.",
+          "Injured adult or mother",
+          "Collect any nearby babies.",
+          "Transport together to a rehabilitator.",
+          "Dead adult check",
+          "If safe from traffic, wear gloves.",
+          "Check pouch gently for live young.",
+          "If babies are attached, place the mother\u2019s body in a box and bring to rehabilitator.",
+          "Baby Opossum Triage",
+          "Step 1: Look for emergency red flags",
+          "Bleeding, wound, or broken bone",
+          "In cat/dog\u2019s mouth",
+          "Covered in fly eggs (tiny rice-like specks)",
+          "Cold, wet, or crying nonstop",
+          "\u27a1\ufe0f If YES: Contact wildlife rehabilitator immediately. Do not feed or give water.",
+          "Step 2: Measure size",
+          "\u2265 8 inches (nose \u2192 tail base) and \u2265 200 g (7.25 oz) \u2192 Old enough to survive alone \u2192 No intervention needed.",
+          "< 8 inches or < 200 g \u2192 Needs rehabilitator.",
+          "Safe Handling Guidelines",
+          "Always wear gloves.",
+          "Latex/nitrile: for infants.",
+          "Leather: for eyes-open juveniles.",
+          "Avoid contact with saliva.",
+          "Keep warm, dark, quiet until transfer.",
+          "Do not attempt feeding.",
+          "Quick Decision Flow (for CustomGPT)",
+          "Did you find a baby opossum?",
+          "Injured, attacked, cold, wet, crying, or with fly eggs? \u2192 Rehab immediately.",
+          "\u2265 8 inches & 200 g? \u2192 Independent; no help needed.",
+          "< 8 inches or 200 g? \u2192 Rehab.",
+          "Did you find a dead/injured adult opossum?",
+          "Check pouch safely with gloves.",
+          "Babies attached? \u2192 Transport body + babies to rehab.",
+          "Babies wandering nearby? \u2192 Collect all and rehab.",
+          "Key Takeaway",
+          "Virginia opossums are remarkably resilient, but young under 8 inches or 200 grams cannot survive alone. If in doubt, always contact a permitted wildlife rehabilitator."
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "rabbit": {
+    "filename": "RABBIT.docx",
+    "sections": [
+      {
+        "heading": "RABBIT",
+        "body": [
+          "Eastern Cottontail Rabbit Rescue Guide",
+          "Background",
+          "Breeding season: March\u2013September (up to 3\u20134 litters per season).",
+          "Average litter size: 4\u20135, but can range 1\u201312.",
+          "Nesting: Shallow depressions in the ground (not burrows), lined with grasses and tufts of mother\u2019s fur.",
+          "Maternal care: Mother is secretive and feeds kits only twice a day (dawn and dusk). You will rarely see her."
+        ]
+      },
+      {
+        "heading": "Development",
+        "body": [
+          "Kits disperse at 15\u201320 days old.",
+          "By 3 weeks, they are independent but very small (about the size of a softball, >100 g).",
+          "Key misunderstanding: People assume a nest is abandoned if no mother is seen, but this is normal.",
+          "Baby Rabbit Triage",
+          "Step 1: Look for emergency red flags",
+          "Bleeding, wound, or broken bone",
+          "Been in a cat\u2019s or dog\u2019s mouth",
+          "Covered in fly eggs (tiny rice-like specks)",
+          "Cold, wet, or crying nonstop",
+          "\u27a1\ufe0f If YES: Take immediately to a licensed wildlife rehabilitator or veterinarian. Do not chase, feed, or water. Rabbits are prone to capture myopathy (stress-induced organ failure \u2192 often fatal).",
+          "Step 2: Assess independence",
+          "Is the rabbit fully furred, eyes open, and larger than a softball (>100 g / 4 oz)?",
+          "YES: This rabbit is independent and does not need help.",
+          "NO: Continue to Step 3.",
+          "Step 3: Nest check",
+          "Is the rabbit in or near a nest?",
+          "YES: Place the rabbit back in the nest.",
+          "To confirm maternal return: Lay 4 small sticks or pieces of string in a tic-tac-toe pattern over the nest. Leave for 12 hours.",
+          "If disturbed \u2192 Mother has returned.",
+          "If undisturbed and babies are thin, weak, or wrinkled-skinned \u2192 Contact a wildlife rehabilitator.",
+          "NO: If nest is destroyed/unreachable, call a permitted rehabilitator for next steps.",
+          "Safe Handling Guidelines",
+          "Never chase a rabbit \u2014 stress can be fatal.",
+          "Handle as little as possible.",
+          "Do not feed or water \u2014 rabbits have sensitive stomachs.",
+          "Keep warm, dark, and quiet until reaching a rehabilitator if intervention is required.",
+          "Protect nests during mowing by placing an overturned laundry basket over the nest (remove after mowing).",
+          "If pets have access, a weighted basket can be used temporarily during the day (remove before dawn/dusk feeding times).",
+          "Adult Rabbits",
+          "Adults are highly stressed in captivity.",
+          "If weak/injured and must be contained: use a towel, shovel, or scoop to place in a box without direct handling.",
+          "Keep warm, dark, quiet until rehabilitator is reached.",
+          "Do not feed or water.",
+          "Quick Decision Flow (for CustomGPT)",
+          "Did you find a rabbit?",
+          "Injured, in cat/dog\u2019s mouth, cold, wet, covered in fly eggs, or crying nonstop? \u2192 Rehab immediately.",
+          "Fully furred, eyes open, larger than softball (>100 g)? \u2192 Independent; leave it alone.",
+          "If smaller and not independent: Return to nest if possible."
+        ]
+      },
+      {
+        "heading": "Check nest with tic-tac-toe string test",
+        "body": [
+          "Disturbed \u2192 Mother returned \u2192 No action needed.",
+          "Undisturbed after 12 hrs \u2192 Contact rehab.",
+          "Nest destroyed/unreachable? \u2192 Call permitted rehabilitator.",
+          "Key Takeaway",
+          "Most baby rabbits are not orphaned. Mother rabbits are secretive and visit only briefly at dawn/dusk. Independent rabbits are small but capable by three weeks. Intervene only for injuries or confirmed abandonment. Never chase, feed, or water."
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "rabies_fox_skunk_raccoon_bat": {
+    "filename": "RABIES FOX SKUNK RACCOON BAT.docx",
+    "sections": [
+      {
+        "heading": "Overview",
+        "body": [
+          "High-Risk Rabies Vector Species Rescue Guide",
+          "(Raccoon, Fox, Skunk, Bat)",
+          "Safety First",
+          "These species carry the highest risk of rabies in Virginia. Even newborn babies can transmit rabies through bites, scratches, or saliva. Never handle them with bare hands.",
+          "Do not feed or give water \u2013 improper feeding can harm them, and handling can expose you to rabies.",
+          "Keep children and pets away until help arrives.",
+          "If safe, place a box, laundry basket, or crate over the animal to keep it contained until you receive instructions from a wildlife rehabilitator or animal control officer.",
+          "Call a licensed wildlife rehabilitator or local animal control immediately.",
+          "Raccoons",
+          "Breeding: January\u2013March, litters born April\u2013May (3\u20135 kits).",
+          "Behavior: Mothers often move babies between dens at 5\u20138 weeks old.",
+          "Red Flags (injury/orphan): Covered in fly eggs, visible wounds, crying for hours, lethargy, cold/wet, taken by dog/cat, mother confirmed dead."
+        ]
+      },
+      {
+        "heading": "Reunite Attempt",
+        "body": [
+          "If >10 inches and mobile \u2192 place a laundry basket over it overnight. The mother may tip it to retrieve the kit.",
+          "If smaller/less mobile \u2192 place in a warm box or bucket near where found, with a wrapped heat source. Leave overnight.",
+          "If not retrieved by morning \u2192 contact rehab.",
+          "Foxes (Red & Gray)",
+          "Breeding: December\u2013April, 2\u20137 pups per litter.",
+          "Behavior: Kits emerge at ~4 weeks, weaned by 2 months, skittish by 3 months.",
+          "Red Flags (injury/orphan): Covered in fly eggs, vocalizing and approaching people, obvious injury, lethargy, taken by dog/cat, parent confirmed dead, very young kit outside den for >2 hrs."
+        ]
+      },
+      {
+        "heading": "Action",
+        "body": [
+          "If alert, healthy, wary of people \u2192 monitor from a distance.",
+          "If parent suspected dead \u2192 consider using a trail camera to check for other adults feeding kits.",
+          "Special Restriction: In Northern VA counties (Clarke, Fairfax, Fauquier, Frederick, Loudoun, Warren, Prince William) foxes must be rehabilitated in the same county due to parasite regulations (Echinococcus multilocularis).",
+          "Skunks",
+          "Behavior: Often den under porches, sheds, or brush piles.",
+          "Risk: Always considered rabies vector species.",
+          "Action: Do not handle. If young or injured skunks are seen without a mother, safely contain them (cover with a box/crate) and call a rehabilitator or animal control.",
+          "Bats",
+          "Risk: All bat species in Virginia are rabies vectors.",
+          "Special Precaution: If a bat is found in a room with a sleeping person, child, or pet, contact your local health department immediately \u2014 exposure is possible even without a visible bite.",
+          "Action: Contain safely in a room or with a box until a rehabilitator or health official arrives. Never touch with bare hands.",
+          "Key Takeaways",
+          "Do not touch rabies vector species \u2014 even babies.",
+          "Contain safely if possible (box, crate, closed room).",
+          "Contact licensed rehab or animal control immediately.",
+          "Do not feed or water under any circumstances."
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "raccoon": {
+    "filename": "RACCOON.docx",
+    "sections": [
+      {
+        "heading": "Overview",
+        "body": [
+          "Raccoon Rescue Guide",
+          "Background",
+          "Range: Found statewide in Virginia in forests, marshes, farms, suburbs, and cities.",
+          "Dens: Tree cavities, brush piles, abandoned burrows, chimneys, sheds, attics, and other man-made structures.",
+          "Breeding season: January\u2013March. Kits born April\u2013May (late litters possible in summer/fall).",
+          "Litter size: 3\u20135 kits on average (sometimes larger in urban areas)."
+        ]
+      },
+      {
+        "heading": "Development",
+        "body": [
+          "Eyes closed at birth; facial \u201cmask\u201d visible by 1 week.",
+          "At 5\u20138 weeks, mothers often relocate kits to new dens closer to ground.",
+          "By ~3 months, kits are weaned and forage independently.",
+          "Juveniles may stay in family groups until fall or even the following spring.",
+          "Key note: Raccoons are a high-risk rabies vector species (RVS) \u2014 handle with extreme caution. Even babies can transmit rabies.",
+          "Baby Raccoon Triage",
+          "Step 1: Look for emergency red flags",
+          "Obvious injury/deformity",
+          "Covered in fly eggs (tiny grains of rice)",
+          "Crying constantly for hours",
+          "Found in a dog\u2019s/cat\u2019s mouth",
+          "Cold, wet, slow-moving, or silent when disturbed (healthy babies are noisy)",
+          "Eyes closed and outside den for hours with no mother present",
+          "Known that the mother is dead or relocated",
+          "\u27a1\ufe0f If YES: Baby is likely injured or orphaned \u2192 Contact a licensed wildlife rehabilitator immediately. Do not feed or water (risk of illness and rabies exposure).",
+          "Step 2: Attempt reunite (if no red flags)",
+          "Is the baby >10 inches long and mobile?",
+          "YES: Place a laundry basket upside down over the baby in its found location overnight. Mother can lift or tip the basket to retrieve her kit. If still there by morning \u2192 rehab.",
+          "NO: Place baby in a bucket or box with supplemental heat (e.g., warm rice sock, hot water bottle wrapped in towel). Leave outdoors in a safe, quiet area near where found. Monitor for up to 12 hours overnight. If mother does not return \u2192 rehab.",
+          "Safe Handling Guidelines",
+          "Rabies risk: Do not handle directly with bare hands. Always wear thick gloves.",
+          "Cover with a box or crate if you must contain temporarily.",
+          "Keep pets and children away from the area.",
+          "Do not attempt feeding or watering. Hungry babies vocalize loudly, which helps the mother find them."
+        ]
+      },
+      {
+        "heading": "Supplemental heat sources",
+        "body": [
+          "Warm rice/birdseed sock wrapped in towel",
+          "Plastic bottle filled with warm water (wrapped)",
+          "Chemical hand warmers (outside of container)",
+          "Heating pad on low (under box, not direct contact)",
+          "Heated car seat (only during transport to rehab)",
+          "Quick Decision Flow (for CustomGPT)",
+          "Did you find a baby raccoon?",
+          "Injured, in cat/dog\u2019s mouth, covered in fly eggs, crying constantly, cold, silent, eyes closed outside den, or mother known dead? \u2192 Rehab immediately.",
+          "If >10 inches & mobile: Place under laundry basket overnight. If not reunited by morning \u2192 Rehab.",
+          "If <10 inches: Place in warm box/bucket outside overnight near original location. If not retrieved by morning \u2192 Rehab.",
+          "Always: Wear gloves, avoid direct handling, do not feed or water, keep people/pets away.",
+          "Key Takeaway",
+          "Baby raccoons are often noisy and cared for by their mothers. Reuniting attempts should always come first unless red flags are present. Never hand-feed raccoons \u2014 risk of rabies exposure is significant. When in doubt, safely contain with a box, provide warmth, and call a licensed wildlife rehabilitator."
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "reptiles_and_amphibians": {
+    "filename": "Reptiles and Amphibians.docx",
+    "sections": [
+      {
+        "heading": "Overview",
+        "body": [
+          "Reptile & Amphibian Rescue Guide",
+          "Background",
+          "Life strategy: Unlike mammals, reptiles and amphibians are independent from birth. Parents do not provide food, protection, or guidance once eggs are laid or offspring hatch.",
+          "Common species in Virginia: Turtles, snakes, frogs, toads, salamanders, lizards.",
+          "Key misunderstanding: People often assume hatchlings are abandoned and need care. In fact, they are meant to survive on their own.",
+          "Baby Reptiles & Amphibians",
+          "Turtles: Hatchlings leave the nest and begin foraging immediately.",
+          "Frogs/toads/salamanders: Tadpoles and juveniles develop on their own in aquatic/terrestrial environments.",
+          "Snakes/lizards: Young disperse quickly; no parental care.",
+          "\u27a1\ufe0f General rule: Do not intervene unless there are clear signs of injury, predation risk, or the animal is in immediate danger (e.g., road, trapped indoors).",
+          "Turtle-Specific Guidance"
+        ]
+      },
+      {
+        "heading": "If found crossing the road",
+        "body": [
+          "Only intervene if safe for you.",
+          "Move the turtle to the side it was heading toward, never back the way it came.",
+          "Check for injuries to shell (carapace) or underside (plastron).",
+          "If injured: contain in a ventilated box and contact a licensed wildlife rehabilitator.",
+          "If uninjured: place just off the road and leave it be."
+        ]
+      },
+      {
+        "heading": "If you find a nest or hatchlings",
+        "body": [
+          "Leave them where they are. Do not attempt to raise or relocate.",
+          "Intervening can spread disease and reduce survival chances.",
+          "Snake Safety (Venomous & Non-Venomous)",
+          "Do not attempt to handle any snake.",
+          "Venomous snakes in Virginia: Copperhead, Timber Rattlesnake, Cottonmouth.",
+          "Maintain a wide distance.",
+          "Never attempt capture, relocation, or care.",
+          "If a venomous snake is inside a building or threatening immediate safety \u2192 call local Animal Control or a licensed snake removal service.",
+          "Non-venomous snakes: Usually harmless. If indoors, gently encourage out with a broom or contact Animal Control.",
+          "Amphibians (Frogs, Toads, Salamanders)",
+          "Do not handle unless absolutely necessary.",
+          "Human skin oils can damage their delicate skin.",
+          "Never attempt to relocate tadpoles or juveniles \u2014 populations can be destroyed by disease spread.",
+          "Quick Decision Flow",
+          "Did you find a reptile or amphibian?",
+          "Injured (shell cracked, bleeding, deformity, broken limb) OR covered in fly eggs OR lethargic/not moving? \u2192 Contact licensed rehabilitator immediately.",
+          "Turtle in the road? \u2192 Move across road in direction of travel (only if safe).",
+          "Snake (venomous or unknown species)? \u2192 Do not touch. Contact Animal Control if immediate risk.",
+          "Hatchling turtle, frog, toad, salamander, snake, or lizard? \u2192 Leave alone. They are independent from birth.",
+          "Key Takeaway",
+          "Reptiles and amphibians do not need parental care. Most young are independent from the moment they hatch. Human intervention is only necessary if the animal is injured or in immediate danger. Special caution: Never handle venomous snakes."
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "skunk": {
+    "filename": "SKUNK.docx",
+    "sections": [
+      {
+        "heading": "Overview",
+        "body": [
+          "Striped Skunk (Baby) Rescue Guide",
+          "Background",
+          "Breeding season: February\u2013March (peak around Valentine\u2019s Day).",
+          "Birth: May\u2013June; average litter = 4\u20138 babies.",
+          "Den sites: Old burrows, hollow logs, brush/rock piles, under buildings."
+        ]
+      },
+      {
+        "heading": "Development",
+        "body": [
+          "0\u20133 weeks: Eyes closed, furless \u2192 den-bound.",
+          "6\u20138 weeks: Fur fully grown, mobile, ~8\u20139 inches long, begin exploring.",
+          "2 months: Weaned, still follow mother through summer/fall.",
+          "Behavior: Kits can spray at a young age, though scent is milder than adults.",
+          "Baby Skunk Triage",
+          "Step 1: Look for red flags (injured/orphaned)",
+          "Covered in fly eggs (tiny rice-like specks).",
+          "Obvious injury/deformity.",
+          "Cold, wet, lethargic, not reactive.",
+          "Constant crying or seen alone all day/night.",
+          "Taken by cat/dog (even if no wounds).",
+          "Eyes closed, very tiny, outside den for hours without adult.",
+          "Mother confirmed dead/removed.",
+          "\u27a1\ufe0f If YES: Baby is likely orphaned/injured. Do not feed or water. Contact wildlife rehabilitator or veterinarian immediately.",
+          "Step 2: If no red flags, check age/condition",
+          "Fully furred, mobile, reactive?\n\u27a1\ufe0f Yes \u2192 Monitor from a distance. Mom will likely retrieve. Recheck in the morning. If still present \u2192 contact rehab.",
+          "Not fully furred (<4 inches, eyes closed, poor mobility)?\n\u27a1\ufe0f Very rarely outside den unless disturbed."
+        ]
+      },
+      {
+        "heading": "If den disturbed (dog dug, construction, etc.)",
+        "body": [
+          "With leather gloves, place baby in a low-sided shoebox with supplemental heat source (not in direct contact).",
+          "Leave overnight in safe spot near den entrance for mother to retrieve.",
+          "If baby remains by morning \u2192 call rehabilitator.",
+          "Handling & Rabies Precaution",
+          "Always wear gloves. Even very young skunks are rabies vector species.",
+          "If human exposure (bite/scratch/saliva) occurs, health department may require testing \u2192 the animal will not survive testing.",
+          "Best chance of survival is always with its wild mother.",
+          "Quick Decision Flow",
+          "Found a baby skunk?",
+          "Injured, cold, fly eggs, lethargic, crying nonstop, or mother confirmed dead \u2192 Rehab immediately.",
+          "Fully furred, mobile, reactive \u2192 Leave overnight, monitor. If still present by morning \u2192 Rehab.",
+          "Tiny, eyes closed, <4 inches, outside den \u2192 Place in heated low box overnight. If not retrieved \u2192 Rehab."
+        ]
+      }
+    ],
+    "tables": []
+  },
+  "squirrel": {
+    "filename": "SQUIRREL.docx",
+    "sections": [
+      {
+        "heading": "Overview",
+        "body": [
+          "Gray Squirrel Rescue Guide",
+          "Background",
+          "Range & activity: Gray squirrels are found throughout Virginia and are active year-round.",
+          "Nesting: Use tree cavities or dreys (twig/leaf nests built in tree forks).",
+          "Breeding: Twice per year \u2014 late winter and summer.",
+          "Litter size: Commonly 3\u20134 pups."
+        ]
+      },
+      {
+        "heading": "Developmental milestones",
+        "body": [
+          "Eyes open ~4 weeks.",
+          "Begin exploring outside the nest ~6 weeks.",
+          "Weaned and independent ~10 weeks.",
+          "Natural behavior: Healthy young squirrels on the ground may not be true orphans \u2014 mothers often retrieve them by carrying them by the scruff back to the nest.",
+          "Key misunderstanding: People often assume a baby squirrel found alone is abandoned. In many cases, it just needs help reuniting with its mother.",
+          "Baby Squirrel Triage",
+          "Step 1: Look for emergency red flags",
+          "Bleeding, wound, or broken bone",
+          "Been in a cat\u2019s or dog\u2019s mouth",
+          "Covered in fly eggs (tiny rice-like specks)",
+          "Cold, wet, or crying nonstop",
+          "Lethargic or nonresponsive",
+          "\u27a1\ufe0f If YES: The squirrel is likely injured or orphaned \u2192 Contact a permitted wildlife rehabilitator immediately. Do not give food or water.",
+          "Step 2: Identify age / independence",
+          "Does the squirrel have a fluffed \u201cbottle-brush\u201d tail?",
+          "Is the body longer than 6 inches (not including tail)?",
+          "Is it active and approaching humans/pets?",
+          "\u27a1\ufe0f If YES: This is a juvenile squirrel \u2014 independent. No intervention is needed. If it approaches humans or pets, scare it away with loud noises to keep it wild.",
+          "\u27a1\ufe0f If NO: This is an infant/nestling squirrel \u2014 not independent. Proceed to reunite protocol.",
+          "Step 3: Reunite protocol for infants",
+          "Provide gentle supplemental heat (warm rice/birdseed sock wrapped in a towel \u2014 warm, not hot).",
+          "Place baby in an open container (box/basket) with soft cloths at the base of the nest tree (or closest safe tree if the nest is unknown/destroyed).",
+          "If eyes are open: try placing the baby on the tree trunk to climb; if it doesn\u2019t, secure the open container to the tree.",
+          "If eyes are closed: place/secure the container directly on the tree.",
+          "Keep children and pets away.",
+          "Monitor for 6\u20138 hours of daylight; refresh heat every ~2 hours.",
+          "Did the mother return?",
+          "YES: Success \u2014 reunited.",
+          "NO: Contact a permitted small-mammal rehabilitator.",
+          "Safe Handling Guidelines",
+          "Always wear gloves when handling.",
+          "Provide heat only for infants during reunite attempts.",
+          "Do not feed or give fluids.",
+          "Keep children and pets away from the area during reunite attempts.",
+          "At night: If it\u2019s already dark, keep the baby squirrel indoors in a warm, dark, quiet place overnight with no food or water. Attempt reunite the next morning.",
+          "Adult Squirrels",
+          "Adult squirrels can be dangerous due to strong incisors and sharp claws.",
+          "Do not attempt direct handling.",
+          "If weak/injured enough to contain, use a shovel, rake, towel, or similar tool to scoop into a sturdy plastic box (they can chew cardboard quickly).",
+          "Keep in a warm, dark, quiet place until transferred to a rehabilitator.",
+          "Do not provide food or water.",
+          "Quick Decision Flow (for CustomGPT)",
+          "Did you find a squirrel?",
+          "Injured, cold, wet, lethargic, in cat/dog\u2019s mouth, or covered in fly eggs? \u2192 Rehab immediately.",
+          "Does it have a fluffed-out tail and body >6 inches? \u2192 Juvenile \u2014 no intervention.",
+          "If infant (<6 inches, thin tail, eyes closed/partially open)? \u2192 Begin reunite protocol.",
+          "Did the mother return?",
+          "YES: Success \u2014 no further action.",
+          "NO: Contact small-mammal rehabilitator.",
+          "Key Takeaway",
+          "Most baby squirrels found on the ground are not abandoned \u2014 they can often be safely reunited with their mother. Juveniles are typically independent by 10\u201312 weeks. Intervene only for true emergencies, or to assist in safe reunite attempts. Never feed or water."
+        ]
+      }
+    ],
+    "tables": []
+  }
+}
