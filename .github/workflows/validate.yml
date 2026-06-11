@@ -15,6 +15,26 @@ jobs:
       - name: Check for forbidden strings
         run: bash scripts/check-no-brwc.sh
 
+  credentials-leakage-guard:
+    name: Credentials leakage guard
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for bearer tokens and API keys
+        run: bash scripts/check-no-credentials.sh
+
+  common-gates-test:
+    name: _common discipline gates
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run _common gate tests
+        run: PYTHONPATH=. python wildlifestats/_pipeline/_common/test_gates.py
+
   link-check:
     name: Internal link check
     runs-on: ubuntu-latest
