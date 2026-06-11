@@ -2,10 +2,7 @@
 
 [![Live site](https://img.shields.io/badge/live-wildlifestats.netlify.app-2A3F52)](https://wildlifestats.netlify.app)
 [![License: CC-BY-4.0](https://img.shields.io/badge/data%20license-CC--BY--4.0-B96F4D)](https://creativecommons.org/licenses/by/4.0/)
-<!-- DOI badge will be added below once the v1.1.0 GitHub release triggers
-     Zenodo's mint webhook. Expected form:
-     [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.<N>.svg)](https://doi.org/10.5281/zenodo.<N>)
--->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20643065.svg)](https://doi.org/10.5281/zenodo.20643065)
 
 Source repository for **WildlifeStats** — a national research framework for
 wildlife rehabilitation, disease, injury, and One Health data. Live at
@@ -93,9 +90,26 @@ Identifier (DOI). To cite the current release, use the DOI shown on the
 Zenodo badge above (added once the first release archives). The repository
 itself can be cited as:
 
-> Oak, M. and WildlifeStats Consortium (2026). WildlifeStats: a national
+> Oak, M. and WildlifeStats Consortium (2026). *WildlifeStats: a national
 > wildlife rehabilitation research framework — synthetic admissions cube
-> v1.1.0. Zenodo. https://doi.org/10.5281/zenodo.<N>
+> v1.1.0.* Zenodo. <https://doi.org/10.5281/zenodo.20643065>
+
+BibTeX:
+
+```bibtex
+@dataset{wildlifestats_2026_20643065,
+  author       = {Oak, Michael and WildlifeStats Consortium},
+  title        = {{WildlifeStats: a national wildlife
+                   rehabilitation research framework —
+                   synthetic admissions cube v1.1.0}},
+  month        = jun,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {1.1.0},
+  doi          = {10.5281/zenodo.20643065},
+  url          = {https://doi.org/10.5281/zenodo.20643065}
+}
+```
 
 A formal citation snippet is also generated inside every CSV download from
 the [public data interface](https://wildlifestats.netlify.app/data/).
