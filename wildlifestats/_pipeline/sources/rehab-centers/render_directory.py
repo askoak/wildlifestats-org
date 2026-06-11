@@ -15,11 +15,27 @@ WildlifeStats covers the actual US wildlife-rehab universe, not just the
 Mike-curated Flyway roster.
 """
 
+import html
 import json
 import re
 from pathlib import Path
 
 import yaml
+
+
+def esc(value):
+    """HTML-escape any value for safe interpolation into element content or attributes.
+
+    Critical for html-validate CI gate: prose containing bare &, <, > is
+    invalid HTML even when it renders correctly in browsers. The 2026-06-11
+    gate failure was caused by missing escaping on prose like "Fish & Wildlife"
+    and "intake <50 animals/year". This wrapper makes escaping the default;
+    callers must explicitly mark trusted HTML as such.
+    """
+    if value is None:
+        return ""
+    return html.escape(str(value), quote=True)
+
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
 REGISTRY_PATH = REPO_ROOT / "wildlifestats/_pipeline/sources/rehab-centers/centers.yaml"
@@ -107,9 +123,20 @@ def page(title, description, canonical, body):
 
 
 def safe(v, default=""):
+    """Return v as an HTML-escaped string, or default when v is missing.
+
+    Escaping by default is non-negotiable per Standing Orders renderer
+    discipline: every YAML-sourced value flows through here before reaching
+    any HTML template. The 2026-06-11 html-validate gate failure (577 errors,
+    176 files) was caused by passing un-escaped prose like 'Fish & Wildlife'
+    and 'intake <50 animals/year' directly into f-string templates. Bare &,
+    <, and > are invalid HTML even when browsers render them. quote=True is
+    important because some safe() outputs (URLs, addresses) end up inside
+    attribute values, where unescaped quotes would break the markup.
+    """
     if v is None or v == "" or v == "unknown":
         return default
-    return v
+    return html.escape(str(v), quote=True)
 
 
 def render_national_landing(centers):
@@ -326,7 +353,7 @@ def render_org_profile(c):
     # Public-facing pages
     public_links = []
     if wildlife_help_url:
-        public_links.append(("Wildlife help & species guides", wildlife_help_url))
+        public_links.append(("Wildlife help &amp; species guides", wildlife_help_url))
     if about_url:
         public_links.append(("About", about_url))
     if contact_url and contact_url != primary_url:
@@ -344,6 +371,9 @@ def render_org_profile(c):
     if public_links:
         body += '      <section class="org-resources">\n        <h2>Public resources</h2>\n        <ul>\n'
         for label, url in public_links:
+            # label is a trusted-but-may-contain-entity literal authored above (e.g.
+            # "Wildlife help &amp; species guides"). Do NOT esc() it or we double-encode.
+            # url is already safe()-escaped from the YAML source.
             body += f'          <li><a href="{url}" rel="noopener">{label}</a></li>\n'
         body += '        </ul>\n      </section>\n'
 
@@ -355,7 +385,7 @@ def render_org_profile(c):
     if social_links:
         body += '      <section class="org-social">\n        <h2>Social media</h2>\n        <ul class="org-social-list">\n'
         for label, url in social_links:
-            body += f'          <li><a href="{url}" rel="noopener">{label}</a></li>\n'
+            body += f'          <li><a href="{url}" rel="noopener">{esc(label)}</a></li>\n'
         body += '        </ul>\n      </section>\n'
 
     # Services
@@ -382,25 +412,25 @@ def render_org_profile(c):
     if typical_intake:
         intake_year = capacity.get("intake_source_year", "")
         body += f'      <section class="org-capacity">\n        <h2>Capacity</h2>\n'
-        body += f'        <p>Typical annual intake: <strong>{typical_intake:,}</strong>{f" ({intake_year})" if intake_year else ""}</p>\n'
+        body += f'        <p>Typical annual intake: <strong>{typical_intake:,}</strong>{f" ({esc(intake_year)})" if intake_year else ""}</p>\n'
         if capacity.get("licensed_species_count"):
-            body += f'        <p>Licensed species: {capacity["licensed_species_count"]}</p>\n'
+            body += f'        <p>Licensed species: {esc(capacity["licensed_species_count"])}</p>\n'
         body += '      </section>\n'
 
     # Leadership
     if leadership.get("executive_director") or leadership.get("medical_director"):
         body += '      <section class="org-leadership">\n        <h2>Leadership</h2>\n        <ul>\n'
         if leadership.get("executive_director"):
-            body += f"          <li>Executive Director: {leadership['executive_director']}</li>\n"
+            body += f"          <li>Executive Director: {esc(leadership['executive_director'])}</li>\n"
         if leadership.get("medical_director"):
-            body += f"          <li>Medical Director: {leadership['medical_director']}</li>\n"
+            body += f"          <li>Medical Director: {esc(leadership['medical_director'])}</li>\n"
         body += '        </ul>\n      </section>\n'
 
     # Accreditations
     if accreditations:
         body += '      <section class="org-accreditations">\n        <h2>Accreditations &amp; permits</h2>\n        <ul>\n'
         for a in accreditations:
-            body += f"          <li>{a}</li>\n"
+            body += f"          <li>{esc(a)}</li>\n"
         body += '        </ul>\n      </section>\n'
 
     # Financial section (placeholder for Phase 8b)
@@ -420,7 +450,8 @@ def render_org_profile(c):
     if source_urls:
         body += '      <section class="org-sources">\n        <h2>Sources</h2>\n        <ul>\n'
         for s in source_urls:
-            body += f'          <li><a href="{s}" rel="noopener">{s}</a></li>\n'
+            s_esc = esc(s)
+            body += f'          <li><a href="{s_esc}" rel="noopener">{s_esc}</a></li>\n'
         body += '        </ul>\n      </section>\n'
 
     body += '      <p class="org-back"><a href="/centers/{}/">← Back to {} centers</a></p>\n'.format(state.lower(), state_name)
