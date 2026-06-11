@@ -192,6 +192,14 @@
     var csv = rows.map(function (r) {
       return r.map(function (v) { return '"' + String(v).replace(/"/g, '""') + '"'; }).join(",");
     }).join("\n");
+    // Phase 4.6b: synthetic-data header so any downstream user of this CSV
+    // (analyst, screenshot, archive) sees the watermark inline.
+    var version = (cube && cube.meta && cube.meta.version) ? cube.meta.version : "unknown";
+    var generated = (cube && cube.meta && cube.meta.generated_at) ? cube.meta.generated_at : "unknown";
+    var header = "# SYNTHETIC — WildlifeStats v" + version + " — generated " + generated + "\n" +
+                 "# This file contains synthetic data, not measured records.\n" +
+                 "# See https://wildlifestats.org/methodology.html for the parameter provenance table.\n";
+    csv = header + csv;
     var blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
     var url = URL.createObjectURL(blob);
     var a = document.createElement("a");

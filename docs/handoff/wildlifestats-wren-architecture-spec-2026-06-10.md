@@ -128,7 +128,7 @@ This pipeline is Phase 4.5 — see `wildlifestats-data-pipeline-spec-phase4.5-20
 
 - **Primary provider:** Anthropic Claude (Sonnet 4.5 or current default) for plain-language generation and intent classification. Reason: low hallucination rate, strong instruction-following, transparent refusal patterns.
 - **API key location:** per §18, `C:\Users\Hello\OneDrive - Michael Oak Advisors\Credentials\anthropic.env` (architect default — engineer to confirm path with Mike if absent).
-- **Calling pattern for public WREN:** browser calls a Netlify serverless function (Edge Function), which proxies to Anthropic with the API key. No API key in client code.
+- **Calling pattern for public WREN:** browser calls a **Netlify Serverless Function** (NOT an Edge Function), which proxies to Anthropic with the API key. No API key in client code. **Function-type rationale, per Phase 4.6a hardening:** Netlify Edge Functions enforce a 50ms execution limit; Anthropic API calls have a median time-to-first-token of 200ms–3s. Building the WREN proxy as an Edge Function would time out on every request. Serverless Functions provide a 10-second default execution window (extendable to 26 seconds with background mode), which fits the Anthropic latency envelope. The function lives at `netlify/functions/wren.ts`.
 - **Rate limits:** the Netlify function rate-limits per IP to 10 questions per minute. Public WREN is not a free LLM proxy — it's a research assistant for the WildlifeStats dataset specifically.
 - **Cost ceiling:** the function refuses requests if a per-day cost ceiling is exceeded. Ceiling is an env var `WREN_DAILY_COST_USD`, default 10. The site continues to work in cube-only mode (filter UI from Phase 4) when WREN is rate-limited or cost-capped.
 
@@ -138,7 +138,7 @@ Phase 7 is itself multi-stage. Each stage is its own engineer order.
 
 | Stage | Deliverable | Effort |
 |-------|-------------|--------|
-| 7a | Netlify serverless function shell + Anthropic proxy + rate limits + cost ceiling | ~half day |
+| 7a | **Netlify Serverless Function** (not Edge Function — see calling-pattern rationale above) shell + Anthropic proxy + rate limits + cost ceiling | ~half day |
 | 7b | WREN UI shell on `/wren/` — input, answer area, "Show the data" + "How was this computed" affordances, no real engine yet | ~half day |
 | 7c | Intent classification + query-plan generation + cube execution wiring | ~full day |
 | 7d | Triage routing + glossary + safety rails | ~half day |

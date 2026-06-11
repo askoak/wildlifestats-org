@@ -55,6 +55,7 @@
           <li><a href="/one-health/">One Health</a></li>
           <li><a href="/parks/">National Parks</a></li>
           <li><a href="/wildlife/">Wildlife</a></li>
+          <li><a href="/wildlife911/">Wildlife911</a></li>
           <li><a href="/data/">Data</a></li>
           <li><a href="/methodology.html">Methodology</a></li>
           <li><a href="/about.html">About</a></li>
@@ -65,6 +66,13 @@
   <hr class="site-divider">
 
   <main>
+    <div class="synthetic-banner" role="note" aria-label="Data source notice">
+      <div class="container">
+        <strong>Synthetic data</strong> · The values below are generated from a
+        deterministic model, not measured from real wildlife rehabilitation
+        records. See <a href="/methodology.html">Methodology</a>.
+      </div>
+    </div>
     <div class="container">
       <p class="kicker">Research Section</p>
       <h1>Data</h1>
@@ -105,8 +113,10 @@
         <p class="result-total"><span id="result-total">—</span> match the current filters.</p>
 
         <figure class="map-figure">
-          <svg id="us-map" viewBox="0 0 975 610" role="img" aria-label="US states choropleth of admission counts" preserveAspectRatio="xMidYMid meet"></svg>
-          <figcaption>Counties with fewer than 10 records in the current filter are suppressed in downloads. States are shaded by total matching records.</figcaption>
+          <div class="choropleth-wrapper">
+            <svg id="us-map" viewBox="0 0 975 610" role="img" aria-label="US states choropleth of admission counts (synthetic data)" preserveAspectRatio="xMidYMid meet"></svg>
+          </div>
+          <figcaption>Counties with fewer than 10 records in the current filter are suppressed in downloads. States are shaded by total matching records. <strong>Synthetic data — not measured admissions.</strong></figcaption>
         </figure>
 
         <div class="agg-tables">
@@ -170,6 +180,8 @@
       <nav aria-label="Footer">
         <a href="/governance.html">Governance</a> ·
         <a href="/about.html">About</a> ·
+        <a href="/wildlife911/">Wildlife911</a> ·
+        <a href="mailto:wildlifestats@michaeloak.com">Contact</a> ·
         <span>2026</span>
       </nav>
     </div>
