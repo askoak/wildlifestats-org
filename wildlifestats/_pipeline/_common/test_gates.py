@@ -464,6 +464,91 @@ def _():
         assert "source_url" in str(e)
 
 
+@case("extract_structured rejects a non-JSON-Schema output_schema")
+def _():
+    try:
+        claude_client.extract_structured(
+            system_prompt="s", user_content="x",
+            output_schema={"not": "a schema"}, source_urls=["https://x.org"])
+        assert False, "expected ValueError"
+    except ValueError as e:
+        assert "JSON Schema" in str(e)
+
+
+def _stub_claude(record, usage=None):
+    """Stub creds + _call_messages so extraction runs offline. Returns restore()."""
+    saved = (creds.get_anthropic_token, claude_client._call_messages)
+    creds.get_anthropic_token = lambda: "test-token"
+    claude_client._call_messages = lambda body, token: {
+        "id": "msg_test",
+        "usage": usage or {"input_tokens": 10, "output_tokens": 5},
+        "content": [{"type": "tool_use", "name": "emit_record", "input": record}],
+    }
+
+    def restore():
+        creds.get_anthropic_token, claude_client._call_messages = saved
+    return restore
+
+
+@case("extract_structured enforces verbatim quote discipline on mission_statement")
+def _():
+    schema = {"type": "object", "required": ["name"]}
+    restore = _stub_claude({"name": "X", "mission_statement": "A paraphrase absent from source."})
+    try:
+        try:
+            claude_client.extract_structured(
+                system_prompt="s", user_content="totally different source text",
+                output_schema=schema, source_urls=["https://x.org"])
+            assert False, "expected ExtractionError on quote mismatch"
+        except claude_client.ExtractionError as e:
+            assert "Quote discipline" in str(e)
+        # reject_on_quote_mismatch=False downgrades to a note, not a failure.
+        res = claude_client.extract_structured(
+            system_prompt="s", user_content="totally different source text",
+            output_schema=schema, source_urls=["https://x.org"],
+            reject_on_quote_mismatch=False)
+        assert res.notes and "verbatim" in res.notes[0]
+    finally:
+        restore()
+
+
+@case("extract_structured returns a cost-bearing result on a valid extraction")
+def _():
+    schema = {"type": "object", "required": ["name"]}
+    restore = _stub_claude(
+        {"name": "X Center", "mission_statement": "We rescue wildlife.",
+         "sources": ["https://x.org/about"]},
+        usage={"input_tokens": 1_000_000, "output_tokens": 0})
+    try:
+        res = claude_client.extract_structured(
+            system_prompt="s",
+            user_content="About us. We rescue wildlife. More text.",
+            output_schema=schema, source_urls=["https://x.org/about"])
+        assert res.record["name"] == "X Center"
+        assert res.sources == ["https://x.org/about"]
+        assert res.input_tokens == 1_000_000 and res.output_tokens == 0
+        assert abs(res.estimated_usd - 0.25) < 1e-6, f"Haiku 1M-in cost should be $0.25, got {res.estimated_usd}"
+        assert res.model == claude_client.DEFAULT_MODEL
+    finally:
+        restore()
+
+
+@case("claude extract_structured live [skipped unless WILDLIFESTATS_LIVE_CLAUDE=1]")
+def _():
+    import os
+    if os.environ.get("WILDLIFESTATS_LIVE_CLAUDE") != "1":
+        print("    (skipped — set WILDLIFESTATS_LIVE_CLAUDE=1 to run live)")
+        return
+    schema = {"type": "object", "required": ["topic"],
+              "properties": {"topic": {"type": "string"},
+                             "sources": {"type": "array", "items": {"type": "string"}}}}
+    res = claude_client.extract_structured(
+        system_prompt="Extract the main topic as a short string. Cite the source URL.",
+        user_content="This page is about red-tailed hawk rehabilitation and intake.",
+        output_schema=schema, source_urls=["https://example.org/hawks"])
+    assert "topic" in res.record and res.estimated_usd >= 0
+
+
 print("\n[apify] platform validation gate")
 
 
