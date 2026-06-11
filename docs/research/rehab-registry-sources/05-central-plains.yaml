@@ -1,0 +1,1170 @@
+---
+# Central + Plains Region: Texas, Oklahoma, Kansas, Nebraska, South Dakota, North Dakota
+# Generated: 2026-06-11
+
+- slug: wildlife-center-of-texas
+  legal_name: "Wildlife Center of Texas (Houston SPCA affiliate)"
+  common_name: "Wildlife Center of Texas"
+  state: TX
+  city: "Houston"
+  county_fips: "48201"
+  ein: "unknown"
+  primary_url: "https://wildlifecenteroftexas.org"
+  wildlife_help_url: "https://wildlifecenteroftexas.org/need-help/"
+  about_url: "https://wildlifecenteroftexas.org/about/"
+  contact_url: "https://wildlifecenteroftexas.org/contact/"
+  contact_email: "info@wildlifecenteroftexas.org"
+  contact_phone: "713-861-9453"
+  emergency_hotline: "713-861-9453"
+  intake_address: "7007 Old Katy Rd, Houston, TX 77024 (inside Houston SPCA main building)"
+  intake_hours: "Open 7 days a week, 9 am to 6 pm; closed Thanksgiving, Christmas, New Year's Day"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: "https://www.wildlife-rescue.org/financial/"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/HoustonSPCAWildlifeCenter/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 10000
+    intake_source_year: 2024
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "To rescue, rehabilitate, and release native wildlife and to provide sanctuary, individualized care, and a voice for other animals in need."
+  status: active
+  notes: "Affiliate of Houston SPCA operating within Houston SPCA main campus at 7007 Old Katy Rd. Accepts oiled wildlife; specialty oiled wildlife response. The Wildlife Center of Texas brand is now used for the SPCA's wildlife program separate from Wildlife Rescue & Rehabilitation (Kendalia). TPWD lists both as distinct permitted entities for Harris County."
+  source_urls:
+    - "https://wildlifecenteroftexas.org/contact/"
+    - "https://tpwd.texas.gov/huntwild/wild/rehab/list/counties/index.phtml?id=101&county=Harris"
+    - "https://www.charitynavigator.org/ein/742012897"
+    - "https://projects.propublica.org/nonprofits/organizations/742012897"
+
+- slug: austin-wildlife-rescue
+  legal_name: "Austin Wildlife Rescue"
+  common_name: "Austin Wildlife Rescue"
+  state: TX
+  city: "Austin"
+  county_fips: "48453"
+  ein: "74-1951561"
+  primary_url: "https://www.austinwildliferescue.org"
+  wildlife_help_url: "https://www.austinwildliferescue.org/found-an-animal"
+  about_url: "https://www.austinwildliferescue.org/about"
+  contact_url: "https://www.austinwildliferescue.org/contact"
+  contact_email: ""
+  contact_phone: "512-472-9453"
+  emergency_hotline: "512-472-9453"
+  intake_address: "811 E. 13th Street, Austin, TX 78702"
+  intake_hours: "9 am to 4 pm, Monday through Sunday"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: "https://www.linkedin.com/company/austin-wildlife-rescue"
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 9921
+    intake_source_year: 2024
+    licensed_species_count: "300+"
+  accreditations: []
+  leadership:
+    executive_director: "Jules Maron, CWR"
+    medical_director: ""
+  mission_excerpt: "Austin Wildlife Rescue rehabilitates and releases orphaned, injured, and sick wild animals and educates the public to coexist with wildlife."
+  status: active
+  notes: "Founded 1977. Only wildlife rehabilitation center with an intake facility in Austin. Serves 30+ Texas counties. Hotline receives ~14,000 calls/year. Rehabilitation facility in Elgin, TX (111 Elbow Bend, Elgin, TX 78621); intake in Austin."
+  source_urls:
+    - "https://www.austinwildliferescue.org/about"
+    - "https://impala.digital/public/profiles/74-1951561/overview"
+    - "https://projects.propublica.org/nonprofits/organizations/741951561"
+
+- slug: all-things-wild-rehabilitation
+  legal_name: "All Things Wild Rehabilitation, Inc."
+  common_name: "All Things Wild Rehabilitation"
+  state: TX
+  city: "Georgetown"
+  county_fips: "48491"
+  ein: "46-1309620"
+  primary_url: "https://allthingswildrehab.org"
+  wildlife_help_url: "https://allthingswildrehab.org/i-found-an-animal"
+  about_url: "https://allthingswildrehab.org/about"
+  contact_url: "https://allthingswildrehab.org/contact"
+  contact_email: "allthingswildrehab@gmail.com"
+  contact_phone: "512-897-0806"
+  emergency_hotline: "512-897-0806"
+  intake_address: "300 Havelka Road, Georgetown, TX 78626"
+  intake_hours: "9 am to 4 pm, every day"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 3600
+    intake_source_year: 2023
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Dedicated to rehabilitating and releasing injured, orphaned, and sick wild animals and educating the public about local wildlife."
+  status: active
+  notes: "Founded 2012. Central Texas facility a few miles north of downtown Georgetown. Opened Little Red Schoolhouse education facility in 2023. No government funding; relies entirely on donations."
+  source_urls:
+    - "https://allthingswildrehab.org"
+    - "https://allthingswildrehab.org/donate/"
+    - "https://projects.propublica.org/nonprofits/organizations/461309620"
+    - "https://marketspread.com/vendor/65612/all-things-wild-rehabilitation/"
+
+- slug: wild-west-wildlife-rehabilitation-center
+  legal_name: "Wild West Wildlife Rehabilitation Center"
+  common_name: "Wild West Wildlife Rehab"
+  state: TX
+  city: "Amarillo"
+  county_fips: "48375"
+  ein: "81-3303679"
+  primary_url: "https://wildwestwildlife.com"
+  wildlife_help_url: "https://wildwestwildlife.com/i-found-a/"
+  about_url: "https://wildwestwildlife.com/about/"
+  contact_url: "https://wildwestwildlife.com/contact/"
+  contact_email: ""
+  contact_phone: "806-680-2483"
+  emergency_hotline: "806-680-2483"
+  intake_address: "2901 N Soncy Rd, Amarillo, TX 79124"
+  intake_hours: "24-hour emergency line for injured animals"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/wildwestwildliferehabilitation/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: true
+    transport_offered: true
+    field_response: true
+  capacity:
+    typical_annual_intake: 3000
+    intake_source_year: 2021
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: "Stephanie Brady"
+    medical_director: ""
+  mission_excerpt: "To coexist peacefully with wildlife and rehabilitate them so that we can release them back to the wild."
+  status: active
+  notes: "Founded 2016 by Stephanie Brady. Amarillo's first wildlife rehabilitation center. Only state and federally permitted rehab facility across all 26 counties of the Texas Panhandle. Serves Potter County and surrounding 26 counties. Will drive up to 2 hours each way to rescue animals."
+  source_urls:
+    - "https://wildwestwildlife.com/about/"
+    - "https://projects.propublica.org/nonprofits/organizations/813303679"
+    - "https://impala.digital/public/profiles/81-3303679/overview"
+    - "https://brickandelm.com/spotlight-wild-west-wildlife-rehabilitation-center/"
+
+- slug: bat-world-sanctuary
+  legal_name: "Bat World Sanctuary"
+  common_name: "Bat World Sanctuary"
+  state: TX
+  city: "Weatherford"
+  county_fips: "48363"
+  ein: "75-2503642"
+  primary_url: "https://batworld.org"
+  wildlife_help_url: "https://batworld.org/local-rescue/"
+  about_url: "https://batworld.org/about-us/"
+  contact_url: "https://batworld.org/contact/"
+  contact_email: ""
+  contact_phone: "940-325-3404"
+  emergency_hotline: ""
+  intake_address: "Weatherford, TX (near Cool, TX; exact address not published)"
+  intake_hours: "unknown"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/batworld.org/"
+    instagram: "https://www.instagram.com/batworldsanctuary/"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: "bats only"
+  accreditations:
+    - "Global Federation of Animal Sanctuaries (GFAS)"
+  leadership:
+    executive_director: "Amanda Lollar"
+    medical_director: ""
+  mission_excerpt: "On the front line to end the mistreatment of bats. Rescues hundreds of bats annually; provides lifetime sanctuary for non-releasable bats."
+  status: active
+  notes: "Founded 1994 by Amanda Lollar. Bat-specialist rehab only. Accredited by Global Federation of Animal Sanctuaries. Facility houses 400+ permanent residents. Provides workshops to bat rehabilitators worldwide. Partners with Texas Parks and Wildlife, CDC, and universities."
+  source_urls:
+    - "https://batworld.org/about-us/"
+    - "https://batworld.org/faqs/"
+    - "https://impala.digital/public/profiles/75-2503642/overview"
+
+- slug: wildlife-rescue-and-rehabilitation-kendalia
+  legal_name: "Wildlife Rescue and Rehabilitation, Inc."
+  common_name: "Wildlife Rescue & Rehabilitation"
+  state: TX
+  city: "Kendalia"
+  county_fips: "48259"
+  ein: "74-2012897"
+  primary_url: "https://www.wildlife-rescue.org"
+  wildlife_help_url: "https://www.wildlife-rescue.org/what-to-do/"
+  about_url: "https://www.wildlife-rescue.org/about/"
+  contact_url: "https://www.wildlife-rescue.org/contact/"
+  contact_email: "info@wildlife-rescue.org"
+  contact_phone: "830-336-2725"
+  emergency_hotline: "830-336-2725"
+  intake_address: "335 Old Blanco Rd., Kendalia, TX 78027"
+  intake_hours: "Monday–Sunday 6:30 am – 11 pm; after-hours call available"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: "https://www.wildlife-rescue.org/financial/"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/wrrtx/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: true
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 10000
+    intake_source_year: 2024
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "To rescue, rehabilitate, and release native wildlife and to provide sanctuary, individualized care, and a voice for other animals in need."
+  status: active
+  notes: "Founded 1977. 212-acre facility in Texas Hill Country near Austin and San Antonio. Also provides permanent sanctuary for ~600 resident animals including non-native and farmed animals. The Wildlife Center of Texas (Houston) is a separate affiliate org at Houston SPCA. San Antonio intake location (11902 Rustic Ln) consolidated to Kendalia as of Oct 21, 2025. Charity Navigator rated."
+  source_urls:
+    - "https://www.wildlife-rescue.org/contact/"
+    - "https://www.charitynavigator.org/ein/742012897"
+    - "https://impala.digital/public/profiles/74-2012897/overview"
+
+- slug: south-plains-wildlife-rehabilitation-center
+  legal_name: "South Plains Wildlife Rehabilitation Center, Inc."
+  common_name: "SPWRC"
+  state: TX
+  city: "Lubbock"
+  county_fips: "48303"
+  ein: "75-2468445"
+  primary_url: "https://www.spwrc.org"
+  wildlife_help_url: "https://www.spwrc.org/found-an-animal"
+  about_url: "https://www.spwrc.org/about-us-1"
+  contact_url: "https://www.spwrc.org/contact"
+  contact_email: ""
+  contact_phone: "806-799-2142"
+  emergency_hotline: ""
+  intake_address: "3308 95th St, Lubbock, TX 79423"
+  intake_hours: "8:00 AM – 6:00 PM"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: "https://www.instagram.com/southplainswildlife/"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Dedicated to rescuing, rehabilitating, and releasing native wildlife while fostering a deeper understanding and respect for the natural world."
+  status: active
+  notes: "Founded 1988 by Carol Lee. Specializes in songbirds, birds of prey, migratory species, small mammals, and reptiles. Serves West Texas. Affiliated with Texas Tech University OLLI program for education visits."
+  source_urls:
+    - "https://www.spwrc.org/about-us-1"
+    - "https://www.causeiq.com/organizations/south-plains-wildlife-rehabilitation-center,752468445/"
+    - "https://projects.propublica.org/nonprofits/organizations/752468445"
+
+- slug: last-chance-forever
+  legal_name: "Last Chance Forever, The Bird of Prey Conservancy"
+  common_name: "Last Chance Forever"
+  state: TX
+  city: "San Antonio"
+  county_fips: "48029"
+  ein: "unknown"
+  primary_url: "https://lastchanceforever.org"
+  wildlife_help_url: "https://lastchanceforever.org/found-an-injured-bird/"
+  about_url: "https://lastchanceforever.org/our-organization/"
+  contact_url: "https://lastchanceforever.org/contact/"
+  contact_email: "info@lastchanceforever.org"
+  contact_phone: "210-499-4080"
+  emergency_hotline: "210-499-4080"
+  intake_address: "P.O. Box 460993, San Antonio, TX 78246 (Northeast San Antonio; call for directions)"
+  intake_hours: "9:00 AM – 5:00 PM, 7 days a week"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 270
+    intake_source_year: 2024
+    licensed_species_count: "raptors only"
+  accreditations: []
+  leadership:
+    executive_director: "John Karger"
+    medical_director: ""
+  mission_excerpt: "Dedicated to the rehabilitation of sick, injured, and orphaned birds of prey, scientific investigation, and education of the public."
+  status: active
+  notes: "Founded 1978 by Master Falconer and Vet Tech John Karger. Raptors only (hawks, owls, falcons, eagles, vultures). Primary care facility in NE San Antonio houses 80–100 birds at any given time. 62%–80% release rate. Over 200 education programs/year reaching 500,000+ people annually. 501(c)(3); EIN not publicly indexed in standard sources."
+  source_urls:
+    - "https://lastchanceforever.org"
+    - "https://lastchanceforever.org/our-organization/"
+    - "https://lastchanceforever.org/john-karger/"
+    - "https://tpwd.texas.gov/huntwild/wild/rehab/list/counties/index.phtml?county=Bexar&id=15"
+
+- slug: friends-of-texas-wildlife
+  legal_name: "Friends of Texas Wildlife"
+  common_name: "Friends of Texas Wildlife"
+  state: TX
+  city: "Magnolia"
+  county_fips: "48339"
+  ein: "76-0440890"
+  primary_url: "https://ftwl.org"
+  wildlife_help_url: "https://ftwl.org/wildlife-help/"
+  about_url: "https://ftwl.org/about/"
+  contact_url: "https://ftwl.org/contact/"
+  contact_email: "ftwl.help@gmail.com"
+  contact_phone: "281-259-0039"
+  emergency_hotline: ""
+  intake_address: "29615 Highland Boulevard, Magnolia, TX 77354"
+  intake_hours: "Monday–Saturday 10 am–2 pm; closed Sundays"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/SavingTexasWildlife/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Friends of Texas Wildlife is a group of trained and permitted volunteers who provide care for injured, displaced, and orphaned wildlife in Montgomery and surrounding Counties."
+  status: active
+  notes: "Only wildlife rescue group based in Montgomery County with rehabbers permitted by U.S. Fish & Wildlife and Texas Parks & Wildlife. Volunteer-run. Intake center plus education center at 29816 Dobbin-Huffsmith Rd, Magnolia, 77354. No after-hours assistance available."
+  source_urls:
+    - "https://ftwl.org"
+    - "https://www.causeiq.com/organizations/friends-of-texas-wildlife,760440890/"
+    - "https://projects.propublica.org/nonprofits/organizations/760440890"
+    - "https://tpwd.texas.gov/huntwild/wild/rehab/list/counties/index.phtml?id=170&county=Montgomery"
+
+- slug: bay-area-wildlife-rehabilitation
+  legal_name: "Bay Area Wildlife Rehabilitation"
+  common_name: "BAWR"
+  state: TX
+  city: "Friendswood"
+  county_fips: "48167"
+  ein: "20-8246883"
+  primary_url: "https://www.bawr.org"
+  wildlife_help_url: "https://www.bawr.org"
+  about_url: "https://www.bawr.org"
+  contact_url: "https://www.bawr.org"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Friendswood, TX (exact address not published online)"
+  intake_hours: "unknown"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Established to care for injured and orphaned native Texas wildlife in the Clear Lake area."
+  status: active
+  notes: "501(c)(3) established 2007. Operates in Galveston County area, serving Clear Lake and southeast Houston suburbs. Cares for animals under Texas Parks & Wildlife and U.S. Fish & Wildlife guidelines. Limited web presence; contact information not published online."
+  source_urls:
+    - "https://www.bawr.org"
+    - "https://getholdings.com/nonprofits/ein/208246883"
+    - "https://projects.propublica.org/nonprofits/organizations/208246883"
+
+- slug: north-texas-wildlife-center
+  legal_name: "North Texas Wildlife Center"
+  common_name: "North Texas Wildlife Center"
+  state: TX
+  city: "Plano"
+  county_fips: "48085"
+  ein: "61-1725985"
+  primary_url: "https://www.ntxwildlife.org"
+  wildlife_help_url: "https://www.ntxwildlife.org/found-an-animal"
+  about_url: "https://www.ntxwildlife.org/about-us"
+  contact_url: "https://www.ntxwildlife.org/contact"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Plano, TX (new facility in finalization as of late 2025; call for current address)"
+  intake_hours: "unknown"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/ntxwildlife/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 4000
+    intake_source_year: 2025
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Committed to the rescue, rehabilitation, and release of local injured or orphaned wildlife."
+  status: active
+  notes: "Founded 2013 (originally Dallas Wildlife Center). Received 60-day eviction notice from Plano facility in June 2025; secured new location by Oct 2025 and finalizing loan/renovation. Serves North Texas metro. 4,000+ animals assisted in 2025. Texas Parks & Wildlife permitted. EIN listed on website."
+  source_urls:
+    - "https://www.ntxwildlife.org"
+    - "https://www.ntxwildlife.org/about-us"
+    - "https://lakehighlands.advocatemag.com/2025/10/01/north-texas-wildlife-center-4/"
+
+- slug: dfw-wildlife-coalition
+  legal_name: "DFW Wildlife Coalition, Inc."
+  common_name: "DFW Wildlife Coalition"
+  state: TX
+  city: "Richardson"
+  county_fips: "48113"
+  ein: "41-2086081"
+  primary_url: "https://www.dfwwildlife.org"
+  wildlife_help_url: "https://www.dfwwildlife.org/find-help/"
+  about_url: "https://www.dfwwildlife.org/about/"
+  contact_url: "https://www.dfwwildlife.org/contact/"
+  contact_email: ""
+  contact_phone: "972-234-9453"
+  emergency_hotline: "972-234-9453"
+  intake_address: "P.O. Box 833523, Richardson, TX 75083 (hotline/referral only; no physical intake)"
+  intake_hours: "365 days/year, 7 am – 10 pm"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/dfwwildlifehotline/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: "Prudi Koeninger"
+    medical_director: ""
+  mission_excerpt: "To reduce the incidence of orphaned and euthanized native wildlife in the DFW metroplex through public outreach and education."
+  status: active
+  notes: "Hotline/referral organization only; does not itself take in animals. Operating since 2003; 50+ volunteers. Covers 20 DFW-area counties. Refers callers to licensed rehabilitators. Also operates dfwwildlife.org resource website. Budget under $100,000."
+  source_urls:
+    - "https://www.dfwwildlife.org"
+    - "https://www.northtexasgivingday.org/organization/Dfw-Wildlife-Coalition"
+
+- slug: wildcare-oklahoma
+  legal_name: "WildCare Foundation"
+  common_name: "WildCare Oklahoma"
+  state: OK
+  city: "Noble"
+  county_fips: "40027"
+  ein: "73-1461935"
+  primary_url: "https://www.wildcareoklahoma.org"
+  wildlife_help_url: "https://www.wildcareoklahoma.org/help-a-wild-animal"
+  about_url: "https://www.wildcareoklahoma.org/about"
+  contact_url: "https://www.wildcareoklahoma.org/contact"
+  contact_email: ""
+  contact_phone: "405-872-9338"
+  emergency_hotline: "405-872-9338"
+  intake_address: "8505 Wildwood Ln, Noble, OK 73068"
+  intake_hours: "Open 365 days/year, 9 am to 7 pm (extended hours spring/summer)"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/WildCareOklahoma/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: "https://www.linkedin.com/company/wildcareoklahoma"
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: true
+    field_response: false
+  capacity:
+    typical_annual_intake: 9500
+    intake_source_year: 2025
+    licensed_species_count: "240+"
+  accreditations: []
+  leadership:
+    executive_director: "Inger Giuffrida"
+    medical_director: ""
+  mission_excerpt: "To provide people a place to bring native wildlife struggling to survive, with the goal of releasing healthy individuals back to nature."
+  status: active
+  notes: "Founded 1984 (home-based); incorporated as nonprofit 1995. Oldest and largest wildlife rehabilitation center in Oklahoma; sixth largest in the US. Has full veterinary unit (vet, 2 vet techs, vet assistant). Golden Family Wildlife Rehabilitation and Education Center facility. Help desk handles 42,000+ calls/year. Takes in animals from 75 of 77 Oklahoma counties. 36 employees."
+  source_urls:
+    - "https://www.wildcareoklahoma.org"
+    - "https://www.charitynavigator.org/ein/731461935"
+    - "https://givefreely.com/charity-directory/nonprofit/ein-731461935/"
+    - "https://okmag.com/blog/keeping-wildlife-wild/"
+    - "https://nationaltoday.com/us/ok/miami-ok/news/2026/01/28/oklahoma-nonprofit-provides-vital-wildlife-rehabilitation-and-education/"
+
+- slug: wild-heart-ranch
+  legal_name: "Wild Heart Ranch Wildlife Rescue and Rehabilitation"
+  common_name: "Wild Heart Ranch"
+  state: OK
+  city: "Claremore"
+  county_fips: "40131"
+  ein: "05-0541861"
+  primary_url: "https://4thewild.org"
+  wildlife_help_url: "https://4thewild.org/found-a-wild-animal"
+  about_url: "https://4thewild.org/about"
+  contact_url: "https://4thewild.org/contact"
+  contact_email: ""
+  contact_phone: "918-342-9453"
+  emergency_hotline: "918-342-9453"
+  intake_address: "10370 S 4190 Rd, Claremore, OK 74017 (Rogers County, north of Claremore)"
+  intake_hours: "9 am to 5 pm daily; extended hours spring/summer"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 3000
+    intake_source_year: 2022
+    licensed_species_count: "all indigenous Oklahoma species"
+  accreditations: []
+  leadership:
+    executive_director: "Annette King"
+    medical_director: ""
+  mission_excerpt: "To provide medical or infant support to any indigenous wild animal in need of assistance and release it into suitable wild habitat once care is completed."
+  status: active
+  notes: "State and federally licensed. 100-acre facility completed spring 2023. Over 90,000 wild animals released since founding (through end of 2022). Takes in all species—black bear, mountain lion, turtles, snakes, songbirds, deer, raccoons, skunks, opossums. Does not allow public visitors (operates as hospital and infant care center). IRS ruling year 2008."
+  source_urls:
+    - "https://4thewild.org"
+    - "https://www.charitynavigator.org/ein/050541861"
+    - "https://www.causeiq.com/organizations/wild-heart-ranch-wildlife-rescue,050541861/"
+    - "https://sharingpassionandpurpose.com/wildatheartrescue/"
+
+- slug: operation-wildlife-kansas
+  legal_name: "Operation Wildlife, Inc."
+  common_name: "Operation Wildlife (OWL)"
+  state: KS
+  city: "Linwood"
+  county_fips: "20045"
+  ein: "48-1078633"
+  primary_url: "https://owl-online.org"
+  wildlife_help_url: "https://owl-online.org/found-an-animal/"
+  about_url: "https://owl-online.org/about/"
+  contact_url: "https://owl-online.org/contact/"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "23375 Guthrie Road, Linwood, KS 66052"
+  intake_hours: "unknown"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/OperationWildlife/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: "https://www.linkedin.com/company/operation-wildlife"
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Provides rehabilitation and veterinary services to injured and orphaned wild animals in the Kansas City metro and surrounding communities in northeast Kansas."
+  status: active
+  notes: "Founded 1989. Largest publicly funded wildlife rehabilitation in Kansas per KDWPT statistics. 4,000-sq-ft facility with surgical suite, laboratory, isolation room, flight pens, outdoor enclosures. Release rate averages 69% (vs 49% national average). Annual revenue ~$540K. Covers 5,000 sq miles in NE Kansas. Tax-exempt since April 1994."
+  source_urls:
+    - "https://owl-online.org"
+    - "https://getholdings.com/nonprofits/ein/481078633"
+    - "https://impala.digital/public/profiles/48-1078633/overview"
+    - "https://lawrencekstimes.com/2023/08/19/lttv-operation-wildlife/"
+
+- slug: nebraska-wildlife-rehab
+  legal_name: "Nebraska Wildlife Rehab, Inc."
+  common_name: "Nebraska Wildlife Rehab"
+  state: NE
+  city: "Omaha"
+  county_fips: "31055"
+  ein: "47-0829201"
+  primary_url: "https://www.nebraskawildliferehab.org"
+  wildlife_help_url: "https://www.nebraskawildliferehab.org/found-injured-wildlife"
+  about_url: "https://www.nebraskawildliferehab.org/about"
+  contact_url: "https://www.nebraskawildliferehab.org/contact"
+  contact_email: "info@nebraskawildliferehab.org"
+  contact_phone: "402-234-2473"
+  emergency_hotline: "402-234-2473"
+  intake_address: "9777 M Street, Omaha, NE 68127"
+  intake_hours: "unknown"
+  news_or_blog_url: "https://nebraskawildlife.blogspot.com"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/nebraskawildlife/"
+    instagram: "https://www.instagram.com/newildliferehab/"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 8000
+    intake_source_year: 2024
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "To rehabilitate native Nebraska wildlife and migratory birds for return to the wild, to preserve and restore native habitats, and to educate youth and adults about the importance of wildlife and ecosystems."
+  status: active
+  notes: "Founded 1999. Operates under permits from Nebraska Game & Parks Commission and U.S. Fish & Wildlife Service. Over 8,000 patients in 2024 from 174 species. Annual operating budget ~$1.7M. Offers after-school programming in 4 middle schools; 15 summer university internships; High School Science Academy. 25,000+ community wildlife inquiries/year."
+  source_urls:
+    - "https://www.nebraskawildliferehab.org"
+    - "https://impala.digital/public/profiles/47-0829201/overview"
+    - "https://projects.propublica.org/nonprofits/organizations/470829201"
+    - "https://shareomaha.org/nonprofit/nebraska-wildlife-rehab-inc"
+
+- slug: wildlife-rescue-team-nebraska
+  legal_name: "Wildlife Rescue Team, Inc."
+  common_name: "Wildlife Rescue Team"
+  state: NE
+  city: "Lincoln"
+  county_fips: "31109"
+  ein: "47-0635076"
+  primary_url: "https://www.wildliferescueteamincne.org"
+  wildlife_help_url: "https://www.wildliferescueteamincne.org"
+  about_url: "https://www.wildliferescueteamincne.org/about-wrt.html"
+  contact_url: "https://www.wildliferescueteamincne.org/contact-us.html"
+  contact_email: ""
+  contact_phone: "402-473-1951"
+  emergency_hotline: "402-473-1951"
+  intake_address: "P.O. Box 80127, Lincoln, NE 68501 (in-home rehabbers; call for nearest volunteer)"
+  intake_hours: "9 am to 9 pm, 7 days/week including holidays; 24-hour answering service for after-hours messages"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: true
+    transport_offered: true
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Dedicated to the rescue and rehabilitation of Nebraska's orphaned and injured wildlife, and its return to its natural habitat."
+  status: active
+  notes: "Founded 1979 in Lincoln. All-volunteer organization; no salaries paid. In-home rehabbers statewide (NOT a physical facility). State and federal permits. Does NOT accept raptors (refer to Raptor Conservation Alliance at 402-994-2009), skunks, or deer. Monthly meetings at Grace Lutheran Church, Lincoln. No government funding."
+  source_urls:
+    - "https://www.wildliferescueteamincne.org"
+    - "https://www.wildliferescueteamincne.org/about-wrt.html"
+    - "https://www.mightycause.com/organization/Wildlife-Rescue-Team"
+
+- slug: raptor-conservation-alliance
+  legal_name: "Raptor Conservation Alliance Inc."
+  common_name: "Raptor Conservation Alliance"
+  state: NE
+  city: "Elmwood"
+  county_fips: "31025"
+  ein: "85-3538638"
+  primary_url: "https://www.rcabirds.org"
+  wildlife_help_url: "https://www.rcabirds.org/found-a-raptor/"
+  about_url: "https://www.rcabirds.org/about/"
+  contact_url: "https://www.rcabirds.org/contact/"
+  contact_email: ""
+  contact_phone: "402-994-2009"
+  emergency_hotline: "402-994-2009"
+  intake_address: "Elmwood, NE (exact address on contact; statewide volunteer transport network)"
+  intake_hours: "unknown"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: true
+    field_response: false
+  capacity:
+    typical_annual_intake: 500
+    intake_source_year: 2021
+    licensed_species_count: "raptors only"
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "To provide care and support for injured and orphaned raptors in preparation for release; to assist in the management of raptor populations and raptor research; to enlist public support for raptor conservation through educational programs."
+  status: active
+  notes: "Successor to Raptor Recovery Nebraska (founded 1976), merged with Nature's Educators (Colorado). Over 14,000–15,000 raptors admitted in 45+ years — one of top 10 raptor rehab organizations nationally. ~50% release rate. Statewide volunteer transport network. Maintains non-releasable raptors as educational ambassadors. Also serves western Iowa."
+  source_urls:
+    - "https://www.rcabirds.org"
+    - "https://www.rcabirds.org/about/"
+    - "https://www.causeiq.com/organizations/raptor-conservation-alliance,853538638/"
+    - "https://impala.digital/public/profiles/85-3538638/overview"
+
+- slug: fontenelle-forest-raptor-recovery
+  legal_name: "Fontenelle Forest"
+  common_name: "Fontenelle Forest Raptor Recovery"
+  state: NE
+  city: "Bellevue"
+  county_fips: "31055"
+  ein: "47-6026109"
+  primary_url: "https://fontenelleforest.org"
+  wildlife_help_url: "https://fontenelleforest.org/raptor-recovery/"
+  about_url: "https://fontenelleforest.org/about/"
+  contact_url: "https://fontenelleforest.org/contact/"
+  contact_email: "info@fontenelleforest.org"
+  contact_phone: "402-731-3140"
+  emergency_hotline: "866-888-7261"
+  intake_address: "1111 Bellevue Blvd N, Bellevue, NE 68005"
+  intake_hours: "unknown"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: "https://www.linkedin.com/company/fontenelle-forest"
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: true
+    field_response: false
+  capacity:
+    typical_annual_intake: 600
+    intake_source_year: 2019
+    licensed_species_count: "raptors only"
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Provides a place where people can experience and enjoy the quiet wild of nature, and inspires current and future generations to care for the natural world."
+  status: active
+  notes: "Raptor Recovery is a program of Fontenelle Forest (founded 1913). One of Nebraska's oldest conservation organizations; National Natural Landmark. 130+ statewide volunteers. Saves ~600 raptors/year in Nebraska and western Iowa. 25 non-releasable birds of prey as educational ambassadors. Wildlife Rescue Team program director: Denise Lewis. Refer non-raptor birds to Nebraska Wildlife Rehab (402-234-2473)."
+  source_urls:
+    - "https://nebraska.tv/features/ntvs-good-life/raptor-recovery"
+    - "https://projects.propublica.org/nonprofits/organizations/476026109"
+    - "https://shareomaha.org/nonprofit/fontenelle-forest"
+    - "https://www.3newsnow.com/news/local-news/fontenelle-forest-raptor-recovery-group-already-helping-hundreds-of-eagles-hawks-and-owls-this-year"
+
+- slug: dakota-zoo-raptor-rehabilitation
+  legal_name: "Dakota Zoological Society"
+  common_name: "Dakota Zoo Raptor Rehabilitation"
+  state: ND
+  city: "Bismarck"
+  county_fips: "38015"
+  ein: "unknown"
+  primary_url: "https://www.dakotazoo.org"
+  wildlife_help_url: "https://www.dakotazoo.org/education/raptor-rehabilitation/"
+  about_url: "https://www.dakotazoo.org/conservation/"
+  contact_url: "https://www.dakotazoo.org/contact/"
+  contact_email: ""
+  contact_phone: "701-223-7543"
+  emergency_hotline: ""
+  intake_address: "Dakota Zoo, Bismarck, ND (address not specified; call first)"
+  intake_hours: "unknown"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 45
+    intake_source_year: 2023
+    licensed_species_count: "raptors; migratory birds"
+  accreditations: []
+  leadership:
+    executive_director: "Terry Lincoln"
+    medical_director: ""
+  mission_excerpt: "Conducts medical treatment and rehabilitation for numerous raptors each year, specializing in endangered and threatened species, particularly eagles."
+  status: active
+  notes: "One of very few credentialed wildlife rehab facilities in North Dakota. Raptor rehabilitation program active 40+ years. Typically receives 30–65 birds/year. Common causes: power lines, barbed wire, vehicles, shooting, nest falls. X-rays all birds as part of ongoing study. Reports shooting cases to USFWS. Operates under federal USFWS permit. North Dakota has no published statewide rehab directory."
+  source_urls:
+    - "https://www.dakotazoo.org/education/raptor-rehabilitation/"
+    - "https://www.dakotazoo.org/conservation/"
+    - "https://www.internationalowlcenter.org/rehabberlist.html"
+
+# Summary:
+# Total organizations: 21
+# Texas (12): Wildlife Center of Texas (Houston SPCA affiliate), Austin Wildlife Rescue,
+#   All Things Wild Rehabilitation (Georgetown), Wild West Wildlife Rehabilitation Center (Amarillo),
+#   Bat World Sanctuary (Weatherford), Wildlife Rescue & Rehabilitation (Kendalia),
+#   South Plains Wildlife Rehabilitation Center (Lubbock), Last Chance Forever Bird of Prey
+#   Conservancy (San Antonio), Friends of Texas Wildlife (Magnolia),
+#   Bay Area Wildlife Rehabilitation (Friendswood), North Texas Wildlife Center (Plano),
+#   DFW Wildlife Coalition (Richardson)
+# Oklahoma (2): WildCare Oklahoma (Noble), Wild Heart Ranch (Claremore)
+# Kansas (1): Operation Wildlife (Linwood)
+# Nebraska (4): Nebraska Wildlife Rehab (Omaha), Wildlife Rescue Team (Lincoln),
+#   Raptor Conservation Alliance (Elmwood), Fontenelle Forest Raptor Recovery (Bellevue)
+# North Dakota (1): Dakota Zoo Raptor Rehabilitation (Bismarck)
+# South Dakota (0): No credentialed standalone wildlife rehab 501(c)(3) identified with physical
+#   facility and published presence. SD GFP notes very few licensed rehabilitators statewide.
+#   Town & Country TLC Vet (Rapid City) accepts wildlife but is a for-profit vet practice.
+#
+# EXCLUDED:
+# - TWRC Wildlife Center (Texas Wildlife Rehabilitation Coalition): Closed 2023 per IRS records
+#   (filed final 990 indicating termination).
+# - Houston Humane Society Wildlife Center: Paused wildlife rehab services in 2025; planning
+#   future facility. Not currently active for intake.
+# - Solo home rehabbers listed on TPWD county pages (no organizational 501c3 presence).
+# - Lonestar Pets and Wildlife Sanctuary (Houston): Founded 2022; raccoon/fox specialty;
+#   borderline given very limited published presence beyond Facebook.
+#
+# KEY DATA SOURCES:
+# - Texas Parks & Wildlife Department TPWD rehabber list: https://tpwd.texas.gov/huntwild/wild/rehab/
+# - Oklahoma Dept of Wildlife Conservation: https://www.wildlifedepartment.com/law/rehabilitator-list
+# - ProPublica Nonprofit Explorer: https://projects.propublica.org/nonprofits/
+# - International Owl Center rehabber list: https://www.internationalowlcenter.org/rehabberlist.html
+# - HSUS/HumaneWorld state directory: https://www.humaneworld.org/en/resources/find-wildlife-rescue-and
+# - ImpalaDigital / CauseIQ for EIN verification

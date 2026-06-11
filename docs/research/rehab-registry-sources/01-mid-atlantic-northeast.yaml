@@ -1,0 +1,1911 @@
+# Wildlife Rehabilitation Centers — Mid-Atlantic + Northeast Region
+# States: VA, WV, MD, DE, DC, PA, NJ, NY, CT, RI, MA, NH, VT, ME
+# Generated for WildlifeStats research framework (https://wildlifestats.netlify.app)
+# Sources: ProPublica Nonprofit Explorer, GuideStar/Candid, CauseIQ, CharityNavigator,
+#          organization websites, state agency permit databases
+
+# ─────────────────────────────────────────────
+# VIRGINIA
+# ─────────────────────────────────────────────
+
+- slug: wildlife-center-of-virginia
+  legal_name: "Wildlife Center of Virginia"
+  common_name: "Wildlife Center of Virginia"
+  state: VA
+  city: "Waynesboro"
+  county_fips: "51820"
+  ein: "54-1215402"
+  primary_url: "https://wildlifecenter.org"
+  wildlife_help_url: "https://wildlifecenter.org/help-advice/sick-and-injured-wildlife/find-wildlife-rehabilitator"
+  about_url: "https://wildlifecenter.org/about"
+  contact_url: "https://wildlifecenter.org/contact"
+  contact_email: "info@wildlifecenter.org"
+  contact_phone: "+1-540-942-9453"
+  emergency_hotline: "+1-540-942-9453"
+  intake_address: "1800 South Delphine Avenue, Waynesboro, VA 22980"
+  intake_hours: "9:00am - 5:00pm daily; on-call veterinarian after hours"
+  news_or_blog_url: "https://wildlifecenter.org/news"
+  newsletter_signup_url: "https://wildlifecenter.org/newsletter"
+  patient_stories_url: "https://wildlifecenter.org/patient-of-the-week"
+  annual_reports_url: "https://wildlifecenter.org/annual-report"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/WildlifeCenterofVA"
+    instagram: "https://www.instagram.com/wildlifecenterva"
+    tiktok: ""
+    youtube: "https://www.youtube.com/@WildlifeCenterVA"
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 4200
+    intake_source_year: 2024
+    licensed_species_count: "200+"
+  accreditations: ["Virginia DWR licensed", "USFWS migratory bird permit", "NWRA member", "IWRC member", "founding teaching hospital for wildlife medicine"]
+  leadership:
+    executive_director: "Margaret Gammage Tucker (President)"
+    medical_director: "unknown"
+  mission_excerpt: "Teaching the world to care about, and care for, wildlife and the environment. Founded 1982; one of the world's premier teaching hospitals for wildlife and conservation medicine."
+  status: active
+  notes: "One of the largest wildlife teaching hospitals in North America; affiliated with veterinary medicine programs nationally; operates Critter Cams livestream; annual budget ~$3.6M (2024)."
+  source_urls:
+    - "https://wildlifecenter.org/about"
+    - "https://projects.propublica.org/nonprofits/organizations/541215402"
+
+- slug: blue-ridge-wildlife-center
+  legal_name: "Blue Ridge Wildlife Center"
+  common_name: "Blue Ridge Wildlife Center"
+  state: VA
+  city: "Boyce"
+  county_fips: "51043"
+  ein: "54-1996991"
+  primary_url: "https://blueridgewildlifectr.org"
+  wildlife_help_url: "https://blueridgewildlifectr.org/found-an-animal"
+  about_url: "https://blueridgewildlifectr.org/about"
+  contact_url: "https://blueridgewildlifectr.org/contact"
+  contact_email: "info@blueridgewildlifectr.org"
+  contact_phone: "+1-540-837-9000"
+  emergency_hotline: "+1-540-837-9000"
+  intake_address: "106 Island Farm Lane, Boyce, VA 22620"
+  intake_hours: "unknown"
+  news_or_blog_url: "https://blueridgewildlifectr.org/blog"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/BlueRidgeWildlifeCenter"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["Virginia DWR licensed", "USFWS migratory bird permit", "501(c)(3) since 2001"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "To protect and conserve native wildlife by integrating veterinary medicine, rehabilitation, public education, professional training, and research."
+  status: active
+  notes: "Located in Clarke County near Winchester, VA. Annual revenue ~$3.2M (2024). Offers professional training internships and fellowships."
+  source_urls:
+    - "https://blueridgewildlifectr.org"
+    - "https://grantedai.com/org/blue-ridge-wildlife-center-541996991"
+
+- slug: wildlife-rescue-league
+  legal_name: "Wildlife Rescue League"
+  common_name: "Wildlife Rescue League"
+  state: VA
+  city: "Falls Church"
+  county_fips: "51610"
+  ein: "52-1419298"
+  primary_url: "https://www.wildliferescueleague.org"
+  wildlife_help_url: "https://www.wildliferescueleague.org/found-an-animal"
+  about_url: "https://www.wildliferescueleague.org/about"
+  contact_url: "https://www.wildliferescueleague.org/contact"
+  contact_email: "volcoord@wildliferescueleague.org"
+  contact_phone: "+1-703-440-0800"
+  emergency_hotline: "+1-703-440-0800"
+  intake_address: "Falls Church, VA (network of licensed rehabilitators; building campaign underway)"
+  intake_hours: "9:00am - 7:00pm daily (Apr–Oct); 9:00am - 5:00pm (Nov–Mar)"
+  news_or_blog_url: "https://www.wildliferescueleague.org/news"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/WildlifeRescueLeague"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: true
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["Virginia DWR licensed rehabilitator network", "501(c)(3)"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "Non-profit 501(c)(3) organization dedicated to providing care for sick, injured, and orphaned wildlife with the intent of releasing them back into their native habitat. Serves Northern Virginia and surrounding counties."
+  status: active
+  notes: "Operates helpline; network-model — coordinates licensed home rehabilitators across Fairfax, Loudoun, Prince William, Fauquier counties. Building first stand-alone wildlife rehab center."
+  source_urls:
+    - "https://www.wildliferescueleague.org"
+    - "https://www.causeiq.com/organizations/wildlife-rescue-league,521419298/"
+
+- slug: aero-animal-education-rescue-organization
+  legal_name: "Animal Education and Rescue Organization"
+  common_name: "A.E.R.O."
+  state: VA
+  city: "Woodbridge"
+  county_fips: "51153"
+  ein: "47-1022629"
+  primary_url: "https://aeroanimalrescue.org"
+  wildlife_help_url: "https://aeroanimalrescue.org/found-an-animal/"
+  about_url: "https://aeroanimalrescue.org/about/"
+  contact_url: "https://aeroanimalrescue.org/contact/"
+  contact_email: "Volunteer@aeroanimalrescue.org"
+  contact_phone: "+1-703-493-0554"
+  emergency_hotline: "+1-703-493-0554"
+  intake_address: "Woodbridge, VA (Prince William County area)"
+  intake_hours: "unknown"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["Virginia DWR Category IIB organization", "501(c)(3)"]
+  leadership:
+    executive_director: "Olivia LoBalbo (Founder)"
+    medical_director: "unknown"
+  mission_excerpt: "501(c)(3) organization dedicated to the rescue and rehabilitation of orphaned, injured, and sick native Virginia wildlife. Active in Fairfax, Prince William, Fauquier, and Stafford counties."
+  status: active
+  notes: "Founded 2013. DWR Category IIB organization (wildlife facility), can sponsor up to 20 apprentice rehabilitators."
+  source_urls:
+    - "https://aeroanimalrescue.org"
+    - "https://projects.propublica.org/nonprofits/organizations/471022629"
+
+- slug: rockfish-wildlife-sanctuary
+  legal_name: "Rockfish Wildlife Sanctuary"
+  common_name: "Rockfish Wildlife Sanctuary"
+  state: VA
+  city: "Shipman"
+  county_fips: "51125"
+  ein: "51-0498181"
+  primary_url: "https://rockfishwildlifesanctuary.org"
+  wildlife_help_url: "https://rockfishwildlifesanctuary.org/wildlife-rehab-emergencies"
+  about_url: "https://rockfishwildlifesanctuary.org/about"
+  contact_url: "https://rockfishwildlifesanctuary.org/contact"
+  contact_email: "info@rockfishwildlifesanctuary.org"
+  contact_phone: "+1-434-263-4954"
+  emergency_hotline: "+1-434-263-4954"
+  intake_address: "5450 Wheelers Cove Rd., Shipman, VA 22971"
+  intake_hours: "9:00am - 4:00pm daily, 365 days/year"
+  news_or_blog_url: "https://rockfishwildlifesanctuary.org/blog"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/RockfishWildlifeSanctuary"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: true
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["Virginia DWR licensed", "501(c)(3)"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "At Rockfish Wildlife Sanctuary, every injured or orphaned wild animal gets the professional, compassionate care it deserves so it can return to the wild. Specializes in caring for clinically healthy orphaned wildlife."
+  status: active
+  notes: "Located in Nelson County near Charlottesville. No on-site veterinarian; specializes in orphaned mammals. 3,000 sq ft rehabilitation facility."
+  source_urls:
+    - "https://rockfishwildlifesanctuary.org"
+    - "https://rockfishwildlifesanctuary.org/rehabilitation"
+
+- slug: southwest-virginia-wildlife-center
+  legal_name: "Southwest Virginia Wildlife Center of Roanoke, Inc."
+  common_name: "Southwest Virginia Wildlife Center"
+  state: VA
+  city: "Roanoke"
+  county_fips: "51770"
+  ein: "30-0882382"
+  primary_url: "https://swvawildlifecenter.org"
+  wildlife_help_url: "https://swvawildlifecenter.org/found-an-animal/"
+  about_url: "https://swvawildlifecenter.org/about/"
+  contact_url: "https://swvawildlifecenter.org/contact/"
+  contact_email: "swvawildlifecenter@gmail.com"
+  contact_phone: "+1-540-798-9836"
+  emergency_hotline: "+1-540-798-9836"
+  intake_address: "5985 Coleman Road, Roanoke, VA 24018"
+  intake_hours: "unknown"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "https://swvawildlifecenter.org/annual-reports/"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/SWVAWILDLIFE"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 2700
+    intake_source_year: 2024
+    licensed_species_count: "unknown"
+  accreditations: ["Virginia DWR licensed", "USFWS migratory bird permit", "NWRA member", "IWRC member", "501(c)(3) since 2002"]
+  leadership:
+    executive_director: "Sabrina Garvin (Co-founder)"
+    medical_director: "unknown"
+  mission_excerpt: "Conserving Virginia's wildlife through rehabilitation and release while teaching care and respect of native species. One of only 3 wildlife veterinary hospitals in Virginia authorized to treat threatened and endangered species."
+  status: active
+  notes: "Independent nonprofit since 2002. Co-founded by NWRA/IWRC members Sabrina and Lucky Garvin. Covers entire western half of Virginia. 2,700+ patients annually."
+  source_urls:
+    - "https://swvawildlifecenter.org/about/"
+    - "https://projects.propublica.org/nonprofits/organizations/300882382"
+
+- slug: wildlife-response-inc
+  legal_name: "Wildlife Response, Inc."
+  common_name: "Wildlife Response Inc."
+  state: VA
+  city: "Virginia Beach"
+  county_fips: "51810"
+  ein: "unknown"
+  primary_url: "https://www.wildliferesponse.org"
+  wildlife_help_url: "https://www.wildliferesponse.org"
+  about_url: "https://www.wildliferesponse.org/about"
+  contact_url: "https://www.wildliferesponse.org"
+  contact_email: "info@wildliferesponse.org"
+  contact_phone: "+1-757-543-7000"
+  emergency_hotline: "+1-757-543-7000"
+  intake_address: "Virginia Beach, VA (Hampton Roads area)"
+  intake_hours: "6:00am - 10:30pm daily"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["Virginia DWR licensed", "501(c)(3)"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "Distinctive 501(c)(3) volunteer organization devoted solely to the care of orphaned, injured, and displaced native wildlife in the Hampton Roads region."
+  status: active
+  notes: "Serves Hampton Roads area. Building permanent Wildlife Response and Rehabilitation Center (expected 2025). EIN not publicly confirmed; ProPublica shows 83-3753390 for 'Wild Response Inc.' which may be a related entity."
+  source_urls:
+    - "https://www.wildliferesponse.org"
+    - "https://www.chewy.com/g/wildlife-response-inc_b100187295"
+
+# ─────────────────────────────────────────────
+# WEST VIRGINIA
+# ─────────────────────────────────────────────
+
+- slug: avian-conservation-center-of-appalachia
+  legal_name: "Avian Conservation Center of Appalachia, Inc."
+  common_name: "ACCA"
+  state: WV
+  city: "Morgantown"
+  county_fips: "54061"
+  ein: "45-4294729"
+  primary_url: "https://www.accawv.org"
+  wildlife_help_url: "https://www.accawv.org/injured-bird"
+  about_url: "https://www.accawv.org/about"
+  contact_url: "https://www.accawv.org/contact"
+  contact_email: "accawv@gmail.com"
+  contact_phone: "+1-304-906-5438"
+  emergency_hotline: "+1-304-906-5438"
+  intake_address: "286 Fairchance Road, Morgantown, WV 26508 (c/o Cheat Lake Animal Hospital, open 24/7)"
+  intake_hours: "24/7 (animals dropped at partner veterinary hospital)"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: true
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["USFWS migratory bird permit", "USDA education permit", "501(c)(3) since 2013"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "To conserve the region's wild birds through research, education, and rehabilitation. Licensed by USFWS to rehabilitate all wild bird species including raptors, eagles, songbirds, waterbirds, waterfowl, and sea birds."
+  status: active
+  notes: "Located near Morgantown. Only avian rehab center for northern WV. Outdoor classroom at separate address (217 Morgan Hill Road). Sponsors WV Young Birders Club. WV does not have standard state rehab permit program; ACCA operates under federal permits."
+  source_urls:
+    - "https://www.accawv.org"
+    - "https://www.charitynavigator.org/ein/454294729"
+
+# ─────────────────────────────────────────────
+# MARYLAND
+# ─────────────────────────────────────────────
+
+- slug: second-chance-wildlife-center
+  legal_name: "Second Chance Wildlife Center, Inc."
+  common_name: "Second Chance Wildlife Center"
+  state: MD
+  city: "Gaithersburg"
+  county_fips: "24031"
+  ein: "52-1927600"
+  primary_url: "https://www.scwc.org"
+  wildlife_help_url: "https://www.scwc.org/found-an-animal"
+  about_url: "https://www.scwc.org/about"
+  contact_url: "https://www.scwc.org/contact"
+  contact_email: "unknown"
+  contact_phone: "+1-301-926-9453"
+  emergency_hotline: "+1-301-926-9453"
+  intake_address: "Gaithersburg, MD (Montgomery County)"
+  intake_hours: "Monday–Sunday 10:00am – 4:00pm"
+  news_or_blog_url: "https://www.scwc.org/news"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/SecondChanceWildlifeCenter"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 3000
+    intake_source_year: 2024
+    licensed_species_count: "unknown"
+  accreditations: ["Maryland DNR licensed", "USFWS migratory bird permit", "501(c)(3)", "Charity Navigator 4-star", "GuideStar Platinum"]
+  leadership:
+    executive_director: "Maureen Smith (Staff President)"
+    medical_director: "unknown"
+  mission_excerpt: "Independent 501(c)(3) non-profit facility providing skilled and compassionate emergency treatment and long-term rehabilitative care to injured, ill, and orphaned wildlife since 1995."
+  status: active
+  notes: "Founded 1995. ~3,000 patients/year. Serves Montgomery County and surrounding area. Received proclamation from Montgomery County and the Governor of Maryland. Revenue ~$2.15M (2024). Not open for tours; not on public display per permit rules."
+  source_urls:
+    - "https://www.scwc.org"
+    - "https://projects.propublica.org/nonprofits/organizations/521927600"
+
+- slug: phoenix-wildlife-center
+  legal_name: "Phoenix Wildlife Center, Inc."
+  common_name: "Phoenix Wildlife Center"
+  state: MD
+  city: "White Hall"
+  county_fips: "24005"
+  ein: "52-1891740"
+  primary_url: "https://www.phoenixwildlife.org"
+  wildlife_help_url: "https://www.phoenixwildlife.org/found-an-animal"
+  about_url: "https://www.phoenixwildlife.org/about"
+  contact_url: "https://www.phoenixwildlife.org/contact"
+  contact_email: "unknown"
+  contact_phone: "+1-410-343-0430"
+  emergency_hotline: "+1-410-343-0430"
+  intake_address: "White Hall, MD (Baltimore County, ~10 miles north of Towson)"
+  intake_hours: "By appointment"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["Maryland DNR licensed", "501(c)(3)", "founded 1992"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "501(c)(3) tax-exempt, non-profit organization dedicated to the rehabilitation and return to the wild of native birds, mammals, and reptiles, and to the education of the public on wildlife issues. Founded 1992."
+  status: active
+  notes: "All-volunteer staff. No charge for services. Appointment required for drop-off. ~10 miles north of Towson, MD. EIN confirmed via ProPublica (52-1891740)."
+  source_urls:
+    - "https://www.phoenixwildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/521891740"
+
+# ─────────────────────────────────────────────
+# WASHINGTON, DC
+# ─────────────────────────────────────────────
+
+- slug: city-wildlife
+  legal_name: "City Wildlife, Inc."
+  common_name: "City Wildlife"
+  state: DC
+  city: "Washington"
+  county_fips: "11001"
+  ein: "26-2641235"
+  primary_url: "https://citywildlife.org"
+  wildlife_help_url: "https://citywildlife.org/found-an-animal/"
+  about_url: "https://citywildlife.org/about/"
+  contact_url: "https://citywildlife.org/contact/"
+  contact_email: "info@citywildlife.org"
+  contact_phone: "+1-202-882-1000"
+  emergency_hotline: "+1-202-882-1000"
+  intake_address: "15 Oglethorpe St NW, Washington, DC 20011"
+  intake_hours: "unknown"
+  news_or_blog_url: "https://citywildlife.org/blog/"
+  newsletter_signup_url: "https://citywildlife.org/newsletter/"
+  patient_stories_url: "unknown"
+  annual_reports_url: "https://citywildlife.org/about/"
+  most_recent_annual_report_pdf: "https://citywildlife.org/wp-content/uploads/Annual-Report-2025.pdf"
+  social:
+    facebook: "https://www.facebook.com/CityWildlifeInc"
+    instagram: "https://www.instagram.com/citywildlifedc"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1857
+    intake_source_year: 2024
+    licensed_species_count: 121
+  accreditations: ["DC DOEE licensed", "USFWS migratory bird permit", "501(c)(3) since 2009", "licensed wildlife veterinarian on staff"]
+  leadership:
+    executive_director: "Lorraine Docherty, PhD"
+    medical_director: "Bryan Vorbach, VMD (volunteer)"
+  mission_excerpt: "Protects and advocates for wildlife and wildlife habitat through rehabilitation for release, public education, and community engagement. Only wildlife rehabilitation organization in Washington, DC. Founded 2013."
+  status: active
+  notes: "Only wildlife rehab center in DC. Founded 2007 by Anne Lewis and Jim Monsma; opened 2013. 1,857 animals / 121 species treated (2024). Operates Lights Out DC and Duck Watch programs. Budget $500k–$1M."
+  source_urls:
+    - "https://citywildlife.org/about/"
+    - "https://citywildlife.org/wp-content/uploads/Annual-Report-2025.pdf"
+    - "https://spurlocal.org/nonprofits/1744/City-Wildlife/"
+
+# ─────────────────────────────────────────────
+# DELAWARE
+# ─────────────────────────────────────────────
+
+- slug: tri-state-bird-rescue-and-research
+  legal_name: "Tri-State Bird Rescue and Research, Inc."
+  common_name: "Tri-State Bird Rescue"
+  state: DE
+  city: "Newark"
+  county_fips: "10003"
+  ein: "51-0265807"
+  primary_url: "https://tristatebird.org"
+  wildlife_help_url: "https://tristatebird.org/found-an-injured-bird/"
+  about_url: "https://tristatebird.org/about/"
+  contact_url: "https://tristatebird.org/contact/"
+  contact_email: "info@tristatebird.org"
+  contact_phone: "+1-302-737-9543"
+  emergency_hotline: "+1-302-737-9543"
+  intake_address: "170 Possum Hollow Road, Newark, DE 19711"
+  intake_hours: "9:00am - 5:00pm daily"
+  news_or_blog_url: "https://tristatebird.org/news/"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "https://tristatebird.org/financials/"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/TriStateBirdRescue"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: true
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["Delaware DNREC licensed", "USFWS migratory bird permit", "501(c)(3) since 1982", "marine oiled bird response specialist"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "To achieve excellence in the rehabilitation of injured, orphaned, and oiled native wild birds, with the goal of returning healthy birds to their natural environment. Leading oiled-bird response organization."
+  status: active
+  notes: "Founded 1976; incorporated 1982. Annual operating budget ~$1.8M; total assets ~$11.1M. Bird-only facility. National leader in oiled waterbird rehabilitation; volunteer transport network covers PA and MD. Serves Delaware, SE Pennsylvania, and northern Maryland."
+  source_urls:
+    - "https://tristatebird.org"
+    - "https://www.causeiq.com/organizations/tri-state-bird-rescue-and-research,510265807/"
+    - "https://impala.digital/public/profiles/51-0265807/overview"
+
+# ─────────────────────────────────────────────
+# PENNSYLVANIA
+# ─────────────────────────────────────────────
+
+- slug: aark-wildlife-rehabilitation-education-center
+  legal_name: "The Aark Wildlife Rehabilitation and Education Center, Inc."
+  common_name: "Aark"
+  state: PA
+  city: "Chalfont"
+  county_fips: "42017"
+  ein: "23-2090486"
+  primary_url: "https://www.aark.org"
+  wildlife_help_url: "https://www.aark.org/found-an-animal"
+  about_url: "https://www.aark.org/about-us"
+  contact_url: "https://www.aark.org/contact"
+  contact_email: "leah.stallings@aark.org"
+  contact_phone: "+1-215-249-1938"
+  emergency_hotline: "+1-215-249-1938"
+  intake_address: "1531 Upper Stump Road, Chalfont, PA 18914"
+  intake_hours: "10:00am - 5:00pm daily"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/AarkWildlife"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 5000
+    intake_source_year: 2024
+    licensed_species_count: "unknown"
+  accreditations: ["PA Game Commission licensed", "USFWS migratory bird permit", "PA Fish and Boat Commission licensed", "501(c)(3) since 1981"]
+  leadership:
+    executive_director: "Leah Stallings"
+    medical_director: "unknown"
+  mission_excerpt: "Non-profit wildlife center dedicated to the rehabilitation and release of orphaned and injured Pennsylvania wildlife and promoting harmony between humans and their wild neighbors through quality environmental education."
+  status: active
+  notes: "One of the busiest wildlife centers in Pennsylvania. 5,000+ patients annually. Bucks County. Member of PA Wildlife Rehabilitation & Education Council (advisory to PA Game Commission). Founded ~1981."
+  source_urls:
+    - "https://www.aark.org"
+    - "https://www.gofundme.com/charity/the-aark-wildlife-rehabilitation-and-education-center-inc"
+    - "https://projects.propublica.org/nonprofits/organizations/232090486"
+
+- slug: philadelphia-metro-wildlife-center
+  legal_name: "Philadelphia Metro Wildlife Center, Inc."
+  common_name: "Philadelphia Metro Wildlife Center"
+  state: PA
+  city: "Norristown"
+  county_fips: "42091"
+  ein: "82-3774041"
+  primary_url: "https://www.phillywildlife.org"
+  wildlife_help_url: "https://www.phillywildlife.org/found-an-animal"
+  about_url: "https://www.phillywildlife.org/about"
+  contact_url: "https://www.phillywildlife.org/contact"
+  contact_email: "unknown"
+  contact_phone: "+1-267-416-9453"
+  emergency_hotline: "+1-267-416-9453"
+  intake_address: "2815 Township Line Road, Norristown, PA 19403 (Worcester Township, Montgomery County)"
+  intake_hours: "unknown"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/phillywildlife"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["PA Game Commission licensed", "USFWS migratory bird permit", "501(c)(3) founded 2017"]
+  leadership:
+    executive_director: "Richard Schubert"
+    medical_director: "unknown"
+  mission_excerpt: "Hospital run by licensed wildlife rehabilitation professionals treating all species of injured or orphaned wildlife in the Philadelphia metropolitan area."
+  status: active
+  notes: "Serves Philadelphia, Montgomery, Chester, and Delaware counties. Founded 2017. Revenue ~$236K (2022). Requires appointment/phone contact before drop-off."
+  source_urls:
+    - "https://www.phillywildlife.org"
+    - "https://givefreely.com/charity-directory/nonprofit/ein-823774041/"
+
+- slug: schuylkill-wildlife-rehabilitation-center
+  legal_name: "The Schuylkill Center for Environmental Education"
+  common_name: "Schuylkill Wildlife Clinic"
+  state: PA
+  city: "Philadelphia"
+  county_fips: "42101"
+  ein: "23-1654975"
+  primary_url: "https://schuylkillcenter.org/wildlife-clinic/"
+  wildlife_help_url: "https://schuylkillcenter.org/wildlife-clinic/found-an-animal/"
+  about_url: "https://schuylkillcenter.org/wildlife-clinic/about/"
+  contact_url: "https://schuylkillcenter.org/wildlife-clinic/contact/"
+  contact_email: "unknown"
+  contact_phone: "+1-215-482-7300"
+  emergency_hotline: "+1-215-482-7300"
+  intake_address: "304 Port Royal Avenue, Philadelphia, PA 19128"
+  intake_hours: "unknown"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["PA Game Commission licensed", "USFWS migratory bird permit", "501(c)(3)"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "The only licensed wildlife rehabilitation clinic in the city of Philadelphia. Acts as an emergency room and hospital for thousands of wild animals. Part of the Schuylkill Center for Environmental Education."
+  status: active
+  notes: "Does NOT currently accept rabies vector species (fox, raccoon, skunk, bat, groundhog). EIN belongs to parent org Schuylkill Center for Environmental Education; clinic is a program within that org."
+  source_urls:
+    - "https://schuylkillcenter.org/wildlife-clinic/"
+    - "https://valleyforgeaudubon.org/wildlife-rehab-rescue/"
+
+- slug: raven-ridge-wildlife-center
+  legal_name: "Raven Ridge Wildlife Center, Inc."
+  common_name: "Raven Ridge Wildlife Center"
+  state: PA
+  city: "Washington Boro"
+  county_fips: "42071"
+  ein: "47-2143893"
+  primary_url: "https://ravenridgewildlifecenter.org"
+  wildlife_help_url: "https://ravenridgewildlifecenter.org/found-an-animal"
+  about_url: "https://ravenridgewildlifecenter.org/about"
+  contact_url: "https://ravenridgewildlifecenter.org/contact"
+  contact_email: "contact@ravenridge.org"
+  contact_phone: "+1-717-808-2652"
+  emergency_hotline: "+1-717-808-2652"
+  intake_address: "1828 Water Street, Washington Boro, PA 17582"
+  intake_hours: "8:00am - 6:00pm daily"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: "https://www.linkedin.com/company/raven-ridge-wildlife-center"
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["PA Game Commission licensed", "USFWS migratory bird permit", "USDA licensed", "PA Fish and Boat Commission", "501(c)(3) since 2015"]
+  leadership:
+    executive_director: "Tracie Young"
+    medical_director: "unknown"
+  mission_excerpt: "Non-profit wildlife rehabilitation center in Lancaster County specializing in healing injured birds of prey, mammals, and waterfowl. Opened 2015."
+  status: active
+  notes: "Lancaster County, PA. Founded 2015. Revenue ~$278K (2024). Specializes in raptors, mammals, and waterfowl. Facility not open to public."
+  source_urls:
+    - "https://ravenridgewildlifecenter.org"
+    - "https://www.charitynavigator.org/ein/472143893"
+
+- slug: pocono-wildlife-rehabilitation-center
+  legal_name: "Pocono Wildlife Rehabilitation and Education Center, Inc."
+  common_name: "Pocono Wildlife / The Wilderz"
+  state: PA
+  city: "Stroudsburg"
+  county_fips: "42089"
+  ein: "23-2524389"
+  primary_url: "https://poconowildlife.com"
+  wildlife_help_url: "https://poconowildlife.com/found-an-animal"
+  about_url: "https://poconowildlife.com/about"
+  contact_url: "https://poconowildlife.com/contact"
+  contact_email: "poconowildlife@gmail.com"
+  contact_phone: "+1-570-402-0223"
+  emergency_hotline: "+1-570-402-0223"
+  intake_address: "1161 Cherry Drive, Stroudsburg, PA 18360"
+  intake_hours: "unknown"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["PA Game Commission certified and licensed", "501(c)(3)"]
+  leadership:
+    executive_director: "Kathy Uhler"
+    medical_director: "unknown"
+  mission_excerpt: "PA Certified & Licensed Wildlife Rehabilitation Center dedicated to making a positive change by promoting humane and compassionate treatment of all living species. Serves Monroe County and the Pocono region."
+  status: active
+  notes: "EIN published on website: 23-2524389. Located in Monroe County (Pocono Mountains area). Also known as The Wilderz at Pocono Wildlife."
+  source_urls:
+    - "https://poconowildlife.com"
+
+# ─────────────────────────────────────────────
+# NEW JERSEY
+# ─────────────────────────────────────────────
+
+- slug: woodford-cedar-run-wildlife-refuge
+  legal_name: "Woodford Cedar Run Wildlife Refuge, Inc."
+  common_name: "Cedar Run Wildlife Refuge"
+  state: NJ
+  city: "Medford"
+  county_fips: "34005"
+  ein: "22-2373291"
+  primary_url: "https://www.cedarrun.org"
+  wildlife_help_url: "https://www.cedarrun.org/wildlife-help/"
+  about_url: "https://www.cedarrun.org/about/"
+  contact_url: "https://www.cedarrun.org/contact/"
+  contact_email: "info@cedarrun.org"
+  contact_phone: "+1-856-983-3329"
+  emergency_hotline: "+1-856-983-3329"
+  intake_address: "4 Sawmill Road, Medford, NJ 08055"
+  intake_hours: "10:00am - 4:00pm daily"
+  news_or_blog_url: "https://www.cedarrun.org/news/"
+  newsletter_signup_url: "https://www.cedarrun.org/newsletter/"
+  patient_stories_url: "unknown"
+  annual_reports_url: "https://www.cedarrun.org/about/financials/"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/CedarRunWildlifeRefuge"
+    instagram: "https://www.instagram.com/cedarrunwildlife"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 7000
+    intake_source_year: 2021
+    licensed_species_count: "unknown"
+  accreditations: ["NJ Division of Fish & Wildlife licensed", "USFWS migratory bird permit", "501(c)(3)"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "171-acre non-profit wildlife refuge, wildlife rehabilitation hospital, and nature center on the edge of the New Jersey Pinelands. Accepts songbirds to fawns; 7,000+ animals treated annually."
+  status: active
+  notes: "Burlington County. 171 acres including Wildlife Housing Area with 50+ native resident animals, Wildlife Rehabilitation Hospital, Woodford Nature Center. 7,000+ patients/year. No government funding."
+  source_urls:
+    - "https://www.cedarrun.org"
+    - "https://www.causeiq.com/organizations/woodford-cedar-run-wildlife-refuge,222373291/"
+
+- slug: raptor-trust
+  legal_name: "The Raptor Trust"
+  common_name: "The Raptor Trust"
+  state: NJ
+  city: "Millington"
+  county_fips: "34027"
+  ein: "22-2420295"
+  primary_url: "https://www.theraptortrust.org"
+  wildlife_help_url: "https://www.theraptortrust.org/found-an-injured-bird"
+  about_url: "https://www.theraptortrust.org/about"
+  contact_url: "https://www.theraptortrust.org/contact"
+  contact_email: "info@theraptortrust.org"
+  contact_phone: "+1-908-647-2353"
+  emergency_hotline: "+1-908-647-2353"
+  intake_address: "1390 White Bridge Road, Millington, NJ 07946"
+  intake_hours: "unknown"
+  news_or_blog_url: "https://www.theraptortrust.org/news"
+  newsletter_signup_url: "https://www.theraptortrust.org/newsletter"
+  patient_stories_url: "unknown"
+  annual_reports_url: "https://www.theraptortrust.org/financials"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/TheRaptorTrust"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: "https://www.linkedin.com/company/the-raptor-trust"
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 6000
+    intake_source_year: 2024
+    licensed_species_count: "unknown"
+  accreditations: ["NJ Division of Fish & Wildlife licensed", "USFWS migratory bird permit", "501(c)(3) since 1983"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "Premier wild bird rehabilitation center in the United States. Provides free care to injured, sick, or orphaned wild birds, educates about conservation, and provides a humane example. Founded 1982."
+  status: active
+  notes: "Morris County. Incorporated 1982; 501(c)(3) since 1983. Admits up to 6,000 birds/year; handled 150,000+ birds in 40-year history. State-of-the-art hospital with exterior housing for several hundred birds. Bird-only facility."
+  source_urls:
+    - "https://www.theraptortrust.org/about"
+    - "https://www.theraptortrust.org/donate"
+    - "https://projects.propublica.org/nonprofits/organizations/222420295"
+
+- slug: mercer-county-wildlife-center
+  legal_name: "Mercer County Wildlife Center (operated by Mercer County Park Commission)"
+  common_name: "Mercer County Wildlife Center"
+  state: NJ
+  city: "Lambertville"
+  county_fips: "34021"
+  ein: "unknown"
+  primary_url: "https://www.mercercounty.org/departments/mercer-county-park-commission/wildlife-center"
+  wildlife_help_url: "https://www.mercercounty.org/departments/mercer-county-park-commission/wildlife-center/about-us"
+  about_url: "https://www.mercercounty.org/departments/mercer-county-park-commission/wildlife-center/about-us"
+  contact_url: "https://www.mercercounty.org/departments/mercer-county-park-commission/wildlife-center"
+  contact_email: "unknown"
+  contact_phone: "+1-609-303-0552"
+  emergency_hotline: "+1-609-303-0552"
+  intake_address: "1748 River Road, Lambertville, NJ 08530"
+  intake_hours: "10:00am - 4:00pm daily, by appointment, 365 days/year"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["NJ Division of Fish & Wildlife state and federally licensed", "USFWS migratory bird permit"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "State and federally licensed facility that cares for injured, ill, and displaced native wildlife. Provides medical treatment and temporary refuge prior to release. Free services, 365 days/year."
+  status: active
+  notes: "County government-operated (Mercer County Park Commission), supported by nonprofit Wildlife Center Friends 501(c)(3). EIN belongs to county government — 501(c)(3) support org uses separate EIN. By appointment only."
+  source_urls:
+    - "https://www.mercercounty.org/departments/mercer-county-park-commission/wildlife-center/about-us"
+
+- slug: woodlands-wildlife-refuge
+  legal_name: "Woodlands Wildlife Refuge, Inc."
+  common_name: "Woodlands Wildlife Refuge"
+  state: NJ
+  city: "Pittstown"
+  county_fips: "34019"
+  ein: "22-3053310"
+  primary_url: "https://woodlandswildlife.org"
+  wildlife_help_url: "https://woodlandswildlife.org/found-an-animal/"
+  about_url: "https://woodlandswildlife.org/about/"
+  contact_url: "https://woodlandswildlife.org/contact/"
+  contact_email: "unknown"
+  contact_phone: "+1-908-730-8300"
+  emergency_hotline: "+1-908-730-8300"
+  intake_address: "676 County Road 513, Pittstown, NJ 08867"
+  intake_hours: "unknown"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/WildRehab"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 800
+    intake_source_year: 2023
+    licensed_species_count: "unknown"
+  accreditations: ["NJ Division of Fish & Wildlife licensed", "501(c)(3) since 1997"]
+  leadership:
+    executive_director: "Tracy Leaver (Founder/Executive Director)"
+    medical_director: "unknown"
+  mission_excerpt: "The care and release of orphaned and injured native wildlife back to their natural habitat. Giving New Jersey's Wildlife a Second Chance Since 1986."
+  status: active
+  notes: "Hunterdon County. Founded 1986 by Tracy Leaver. ~800 animals/year. Accepts bobcat, bear, beaver, otter, fox, coyote — broad mammal range. Reptiles and amphibians also accepted."
+  source_urls:
+    - "https://woodlandswildlife.org"
+    - "https://www.charitynavigator.org/ein/223053310"
+
+- slug: the-last-resort-wildlife-refuge
+  legal_name: "The Last Resort Wildlife Refuge, Inc."
+  common_name: "The Last Resort Wildlife Refuge"
+  state: NJ
+  city: "West Milford"
+  county_fips: "34031"
+  ein: "unknown"
+  primary_url: "https://thelastresortwildlife.com"
+  wildlife_help_url: "https://thelastresortwildlife.com"
+  about_url: "https://thelastresortwildlife.com/aboutus/"
+  contact_url: "https://thelastresortwildlife.com/contact/"
+  contact_email: "unknown"
+  contact_phone: "+1-973-506-4353"
+  emergency_hotline: "+1-973-506-4353"
+  intake_address: "West Milford, NJ 07421 (Ramapo Mountains, Passaic County)"
+  intake_hours: "24/7 hotline"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: true
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["NJ Division of Fish & Wildlife licensed", "501(c)(3)"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "NJ state licensed wildlife rehabilitation facility on 86 acres of protected forest in the Ramapo Mountains. 100% volunteer, 501(c)(3). Rescues, recovers, rehabilitates, and releases orphaned, sick, or injured wild animals."
+  status: active
+  notes: "Passaic County, Northern NJ. 86 acres preserved forest. Accepts bobcat, bear, deer, fox, coyote, fisher. 24/7 wildlife hotline. Building on-site veterinary hospital."
+  source_urls:
+    - "https://thelastresortwildlife.com"
+    - "https://thelastresortwildlife.com/aboutus/"
+
+# ─────────────────────────────────────────────
+# NEW YORK
+# ─────────────────────────────────────────────
+
+- slug: wildlife-center-of-long-island
+  legal_name: "Wildlife Center of Long Island, Inc."
+  common_name: "Wildlife Center of Long Island"
+  state: NY
+  city: "Huntington"
+  county_fips: "36103"
+  ein: "11-2660135"
+  primary_url: "https://wildlifecenterli.org"
+  wildlife_help_url: "https://wildlifecenterli.org/found-an-animal/"
+  about_url: "https://wildlifecenterli.org/about-us/"
+  contact_url: "https://wildlifecenterli.org/contact/"
+  contact_email: "unknown"
+  contact_phone: "+1-516-674-0982"
+  emergency_hotline: "+1-516-674-0982"
+  intake_address: "Huntington, NY (Nassau & Western Suffolk Counties)"
+  intake_hours: "unknown"
+  news_or_blog_url: "https://wildlifecenterli.org/news/"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/WildlifeCenterLI"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 2200
+    intake_source_year: 2024
+    licensed_species_count: "unknown"
+  accreditations: ["NYS DEC licensed", "USFWS migratory bird permit", "501(c)(3) since 1984"]
+  leadership:
+    executive_director: "Lauren Arcuri (Wildlife Center Director)"
+    medical_director: "unknown"
+  mission_excerpt: "Dedicated to the preservation of Long Island's wildlife and natural habitats since 1982. Primary resource for injured and orphaned wildlife on Long Island, serving Nassau and Western Suffolk Counties."
+  status: active
+  notes: "Formerly Volunteers for Wildlife. Founded 1982; 501(c)(3) since 1984. 2,200+ patients/year; 10,000+ annual hotline calls. 200+ education and outreach programs/year."
+  source_urls:
+    - "https://wildlifecenterli.org"
+    - "https://projects.propublica.org/nonprofits/organizations/112660135"
+
+- slug: evelyn-alexander-wildlife-rescue-center
+  legal_name: "Evelyn Alexander Wildlife Rescue Center, Inc."
+  common_name: "Evelyn Alexander Wildlife Rescue Center"
+  state: NY
+  city: "Hampton Bays"
+  county_fips: "36103"
+  ein: "11-3409551"
+  primary_url: "https://wildliferescuecenter.org"
+  wildlife_help_url: "https://wildliferescuecenter.org/found-an-animal"
+  about_url: "https://wildliferescuecenter.org/about-us"
+  contact_url: "https://wildliferescuecenter.org/contact"
+  contact_email: "unknown"
+  contact_phone: "unknown"
+  emergency_hotline: "unknown"
+  intake_address: "Hampton Bays, NY (Eastern Long Island / Suffolk County)"
+  intake_hours: "unknown"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["NYS DEC licensed", "USFWS migratory bird permit", "501(c)(3)"]
+  leadership:
+    executive_director: "Virginia Frati (Founder)"
+    medical_director: "unknown"
+  mission_excerpt: "To preserve and protect the region's native wildlife by providing rehabilitation services and education to raise public awareness. Full-time professional wildlife hospital staffed by licensed rehabilitators, biologists, and animal behaviorists."
+  status: active
+  notes: "Suffolk County (Eastern Long Island). Not-for-profit 501(c)(3). All services at no cost to the community. Founded by Virginia Frati after 23-year career with Suffolk County government."
+  source_urls:
+    - "https://wildliferescuecenter.org"
+    - "https://www.causeiq.com/organizations/evelyn-alexander-wildlife-rescue-center,113409551/"
+
+- slug: green-chimneys-wildlife-rehabilitation-center
+  legal_name: "Green Chimneys School"
+  common_name: "Green Chimneys Wildlife Rehabilitation Center"
+  state: NY
+  city: "Brewster"
+  county_fips: "36079"
+  ein: "13-1628060"
+  primary_url: "https://www.greenchimneys.org/community-programs-services/farm-wildlife-center/wildlife-rehabilitation/"
+  wildlife_help_url: "https://www.greenchimneys.org/community-programs-services/farm-wildlife-center/wildlife-rehabilitation/"
+  about_url: "https://www.greenchimneys.org/about/"
+  contact_url: "https://www.greenchimneys.org/contact/"
+  contact_email: "unknown"
+  contact_phone: "+1-845-279-2995"
+  emergency_hotline: "+1-845-279-2995"
+  intake_address: "400 Doansburg Road, Brewster, NY 10509"
+  intake_hours: "unknown"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "https://www.greenchimneys.org/about/financials/"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/GreenChimneys"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: 50
+  accreditations: ["NYS DEC licensed", "USFWS migratory bird permit", "one of few NY facilities licensed for Bald Eagle rehab", "501(c)(3)"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "Paul C. Kupchok Wildlife Rehabilitation Center provides rescue, rehabilitation, and continued care for injured, orphaned, and distressed wildlife, primarily birds of prey, at the Green Chimneys campus in Brewster."
+  status: active
+  notes: "Putnam County. Part of Green Chimneys therapeutic farm/school. ~50 birds of prey on site. One of few NY facilities with Bald Eagle rehab license. Wildlife program contact: Dave Spillo, 845-279-2995 x1304. EIN belongs to parent Green Chimneys School."
+  source_urls:
+    - "https://www.greenchimneys.org/community-programs-services/farm-wildlife-center/wildlife-rehabilitation/"
+
+# ─────────────────────────────────────────────
+# CONNECTICUT
+# ─────────────────────────────────────────────
+
+- slug: sharon-audubon-center-wildlife-clinic
+  legal_name: "National Audubon Society, Inc. (Sharon Audubon Center)"
+  common_name: "Sharon Audubon Center Wildlife Rehabilitation Clinic"
+  state: CT
+  city: "Sharon"
+  county_fips: "09005"
+  ein: "13-1624102"
+  primary_url: "https://www.audubon.org/sharon"
+  wildlife_help_url: "https://www.audubon.org/sharon/explore/wildlife-rehabilitation-clinic"
+  about_url: "https://www.audubon.org/sharon/about"
+  contact_url: "https://www.audubon.org/sharon/contact"
+  contact_email: "unknown"
+  contact_phone: "+1-860-364-0520"
+  emergency_hotline: "+1-860-364-0520"
+  intake_address: "325 Cornwall Bridge Road, Sharon, CT 06069"
+  intake_hours: "9:00am - 5:00pm (not 24-hour emergency service)"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["CT DEEP state and federally licensed", "USFWS migratory bird permit", "501(c)(3) (under National Audubon Society)"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "State and federally licensed wildlife rehabilitation facility in Connecticut treating hundreds of sick, injured, and orphaned birds and other wildlife every year with the goal of releasing them back into the wild."
+  status: active
+  notes: "Part of National Audubon Society's Sharon Center. Litchfield County, CT. Bird-focused rehabilitation. Not a 24-hour emergency service. EIN belongs to national Audubon Society."
+  source_urls:
+    - "https://www.audubon.org/sharon/explore/wildlife-rehabilitation-clinic"
+
+# ─────────────────────────────────────────────
+# RHODE ISLAND
+# ─────────────────────────────────────────────
+
+- slug: wildlife-clinic-of-rhode-island
+  legal_name: "Wildlife Rehabilitators Association of Rhode Island, Inc."
+  common_name: "Wildlife Clinic of Rhode Island"
+  state: RI
+  city: "Saunderstown"
+  county_fips: "44009"
+  ein: "05-0473996"
+  primary_url: "https://www.riwildliferehab.org"
+  wildlife_help_url: "https://www.riwildliferehab.org/found-an-animal"
+  about_url: "https://www.riwildliferehab.org/about"
+  contact_url: "https://www.riwildliferehab.org/contact"
+  contact_email: "unknown"
+  contact_phone: "+1-401-294-6363"
+  emergency_hotline: "+1-401-294-6363"
+  intake_address: "North Kingstown / Saunderstown, RI"
+  intake_hours: "unknown"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/RIwildliferehab"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 6000
+    intake_source_year: 2024
+    licensed_species_count: "unknown"
+  accreditations: ["RI DEM licensed (Permit 2021-0130)", "USFWS migratory bird permit", "501(c)(3)", "DBA: Wildlife Clinic of Rhode Island"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "Providing direct, hands-on medical and rehabilitative care to ALL species of injured or orphaned wildlife in Rhode Island since 1993. The only non-profit in RI licensed to provide veterinary and rehabilitative care to all wildlife species."
+  status: active
+  notes: "Only full-all-species rehab organization in Rhode Island. 6,000+ patients/year. Founded 1993. Legal name is WRARI; operates as Wildlife Clinic of Rhode Island."
+  source_urls:
+    - "https://www.riwildliferehab.org"
+    - "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/bnatres/fishwild/pdf/ri-wildlife-rehab.pdf"
+    - "https://www.causeiq.com/organizations/wildlife-rehabilitators-association-of-rhode-islan,050473996/"
+
+- slug: congress-of-the-birds
+  legal_name: "Congress of the Birds, Inc."
+  common_name: "Congress of the Birds"
+  state: RI
+  city: "Providence"
+  county_fips: "44007"
+  ein: "99-1524923"
+  primary_url: "https://www.congressofthebirds.org"
+  wildlife_help_url: "https://www.congressofthebirds.org/found-a-bird"
+  about_url: "https://www.congressofthebirds.org/about"
+  contact_url: "https://www.congressofthebirds.org/contact"
+  contact_email: "congressofthebirds@gmail.com"
+  contact_phone: "+1-401-358-1808"
+  emergency_hotline: "+1-401-358-1808"
+  intake_address: "Providence, RI (clinic); Chepachet, RI (release center on 42-acre land)"
+  intake_hours: "24-hour triage clinic"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: "https://www.instagram.com/congress.of.the.birds"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: true
+    transport_offered: true
+    field_response: false
+  capacity:
+    typical_annual_intake: 1000
+    intake_source_year: 2024
+    licensed_species_count: "unknown"
+  accreditations: ["RI DEM licensed", "USFWS Federal Migratory Bird Rehabilitation Permit (since 2020)", "501(c)(3) formally since 2024"]
+  leadership:
+    executive_director: "Sheida Soleimani (Founder)"
+    medical_director: "unknown"
+  mission_excerpt: "To rehabilitate every wild bird in need, and establish a compassionate environment for wild birds through advocacy, education, and art. Only avian-specific rehabilitation facility in Rhode Island with an onsite release center."
+  status: active
+  notes: "Founded 2016 by Sheida Soleimani (artist, educator, Brandeis University faculty). Formally became 501(c)(3) nonprofit in 2024. 24-hour triage clinic in Providence; rehabilitation and release center in Chepachet (42 acres). 1,000+ avian patients/year. QTBIPOC-friendly."
+  source_urls:
+    - "https://www.congressofthebirds.org"
+    - "https://www.causeiq.com/organizations/congress-of-the-birds,991524923/"
+
+# ─────────────────────────────────────────────
+# MASSACHUSETTS
+# ─────────────────────────────────────────────
+
+- slug: tufts-wildlife-clinic
+  legal_name: "Cummings School of Veterinary Medicine at Tufts University"
+  common_name: "Tufts Wildlife Clinic"
+  state: MA
+  city: "North Grafton"
+  county_fips: "25027"
+  ein: "04-2103547"
+  primary_url: "https://vet.tufts.edu/tufts-wildlife-clinic"
+  wildlife_help_url: "https://vet.tufts.edu/tufts-wildlife-clinic/found-wildlife"
+  about_url: "https://vet.tufts.edu/tufts-wildlife-clinic/about"
+  contact_url: "https://vet.tufts.edu/tufts-wildlife-clinic/contact"
+  contact_email: "unknown"
+  contact_phone: "+1-508-839-7918"
+  emergency_hotline: "+1-508-839-7918"
+  intake_address: "50 Willard Street, North Grafton, MA 01536 (Bernice Barbour Wildlife Medicine Building)"
+  intake_hours: "Monday–Sunday 8:30am – 5:00pm; closed Thanksgiving and Christmas"
+  news_or_blog_url: "https://vet.tufts.edu/news"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: 2025
+    licensed_species_count: "unknown"
+  accreditations: ["MA DFW licensed", "USFWS migratory bird permit", "University-affiliated teaching clinic", "federal license for all bird species including raptors and eagles"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "State and federally licensed wildlife clinic at the Cummings School of Veterinary Medicine, treating injured wildlife (injured animals only — does NOT accept healthy orphaned or abandoned animals). 2025 was a record-setting year."
+  status: active
+  notes: "Does NOT accept healthy baby animals or those who are orphaned/abandoned — only injured animals. Part of Tufts University veterinary school. EIN belongs to Tufts University; Cummings School EIN commonly listed as 04-2103547. Teaching/research clinic."
+  source_urls:
+    - "https://vet.tufts.edu/tufts-wildlife-clinic"
+
+- slug: new-england-wildlife-centers
+  legal_name: "New England Wildlife Center, Inc."
+  common_name: "New England Wildlife Centers (NEWCS)"
+  state: MA
+  city: "Weymouth"
+  county_fips: "25021"
+  ein: "04-2907561"
+  primary_url: "https://www.newildlife.org"
+  wildlife_help_url: "https://www.newildlife.org/found-wildlife"
+  about_url: "https://www.newildlife.org/about"
+  contact_url: "https://www.newildlife.org/contact"
+  contact_email: "unknown"
+  contact_phone: "+1-781-682-4878"
+  emergency_hotline: "+1-781-682-4878"
+  intake_address: "500 Columbian Street, South Weymouth, MA 02190 (also: Barnstable, MA)"
+  intake_hours: "7 days/week, appointments available"
+  news_or_blog_url: "https://www.newildlife.org/blog"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "https://www.newildlife.org/finances-and-policies/"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/NewEnglandWildlifeCenter"
+    instagram: "https://www.instagram.com/theoddpetvet"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["MA DFW licensed", "USFWS migratory bird permit", "501(c)(3) since 1984"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "Two non-profit wildlife veterinary hospitals and education centers in Massachusetts (Weymouth + Barnstable/Cape Cod) providing veterinary and rehabilitative care to sick, injured, and orphaned wild animals."
+  status: active
+  notes: "Annual revenue ~$30.8M; assets ~$38.6M (large for regional rehab; includes veterinary hospital services beyond just wildlife). Dual-location: South Weymouth and Barnstable. Federal license for raptors, eagles, and all bird species. Instagram: @theoddpetvet."
+  source_urls:
+    - "https://www.newildlife.org"
+    - "https://www.newildlife.org/finances-and-policies/"
+    - "https://projects.propublica.org/nonprofits/organizations/42907561"
+
+# ─────────────────────────────────────────────
+# NEW HAMPSHIRE
+# ─────────────────────────────────────────────
+
+- slug: elaine-conners-center-for-wildlife
+  legal_name: "Elaine Conners Center for Wildlife, Inc."
+  common_name: "Elaine Conners Wildcare"
+  state: NH
+  city: "Madison"
+  county_fips: "33003"
+  ein: "02-6087584"
+  primary_url: "https://www.elaineconnerscenterforwildlife.org"
+  wildlife_help_url: "https://www.elaineconnerscenterforwildlife.org/found-an-animal"
+  about_url: "https://www.elaineconnerscenterforwildlife.org/about"
+  contact_url: "https://www.elaineconnerscenterforwildlife.org/contact"
+  contact_email: "unknown"
+  contact_phone: "unknown"
+  emergency_hotline: "unknown"
+  intake_address: "Route 41 on Silver Lake, Madison, NH 03849"
+  intake_hours: "9:00am - 6:00pm daily including weekends and holidays"
+  news_or_blog_url: "unknown"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["NH Fish & Game licensed", "USFWS migratory bird permit (federal permit confirmed)", "501(c)(3)"]
+  leadership:
+    executive_director: "Cathie Gregg"
+    medical_director: "unknown"
+  mission_excerpt: "Wildlife rehabilitation center providing professional and compassionate care to injured and orphaned native wildlife in the Mount Washington Valley area. Gated facility; priority to Carroll and Coos Counties. Open 9am–6pm daily."
+  status: active
+  notes: "Carroll County, NH (Mount Washington Valley). EIN published on website: 02-6087584. Gated facility; closes property overnight. All fawn calls routed through NH Fish & Game before being placed here."
+  source_urls:
+    - "https://www.elaineconnerscenterforwildlife.org"
+
+# ─────────────────────────────────────────────
+# MAINE
+# ─────────────────────────────────────────────
+
+- slug: center-for-wildlife
+  legal_name: "Center For Wildlife, Inc."
+  common_name: "Center for Wildlife"
+  state: ME
+  city: "Cape Neddick"
+  county_fips: "23031"
+  ein: "22-2778845"
+  primary_url: "https://www.thecenterforwildlife.org"
+  wildlife_help_url: "https://www.thecenterforwildlife.org/rescue"
+  about_url: "https://www.thecenterforwildlife.org/our-story-1"
+  contact_url: "https://www.thecenterforwildlife.org/contact"
+  contact_email: "unknown"
+  contact_phone: "+1-207-361-1400"
+  emergency_hotline: "+1-207-361-1400"
+  intake_address: "385 Mountain Road, Cape Neddick, ME 03902"
+  intake_hours: "Thursdays–Sundays 10:00am – 4:00pm (Nature Center); wildlife intake by appointment"
+  news_or_blog_url: "https://www.thecenterforwildlife.org/news"
+  newsletter_signup_url: "https://www.thecenterforwildlife.org/newsletter"
+  patient_stories_url: "unknown"
+  annual_reports_url: "https://www.thecenterforwildlife.org/financials"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/TheCenterForWildlife"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 2500
+    intake_source_year: 2024
+    licensed_species_count: "190+"
+  accreditations: ["ME DIFW licensed", "USFWS migratory bird permit (federal permit confirmed)", "501(c)(3)", "39 years operating"]
+  leadership:
+    executive_director: "unknown"
+    medical_director: "unknown"
+  mission_excerpt: "Strengthening our community's overall health through conservation medicine and nature-based education. For 39 years, treated over 90,000 injured and orphaned wild animals representing 190+ species. Does NOT accept rabies vector species (fox, raccoon, skunk, bat, groundhog)."
+  status: active
+  notes: "York County (base of Mount Agamenticus). Founded ~1986; moved to current site 1994. 2,500 patients/year; 190+ species. Does NOT accept RVS. Nature Center and Ambassador Village open Thurs–Sun 10am–4pm."
+  source_urls:
+    - "https://www.thecenterforwildlife.org"
+    - "https://www.causeiq.com/organizations/the-center-for-wildlife,222778845/"
+
+- slug: avian-haven
+  legal_name: "Avian Haven, Inc."
+  common_name: "Avian Haven"
+  state: ME
+  city: "Freedom"
+  county_fips: "23013"
+  ein: "01-0529491"
+  primary_url: "https://avianhaven.org"
+  wildlife_help_url: "https://avianhaven.org/found-a-bird/"
+  about_url: "https://avianhaven.org/about/"
+  contact_url: "https://avianhaven.org/contact/"
+  contact_email: "unknown"
+  contact_phone: "+1-207-382-6761"
+  emergency_hotline: "+1-207-382-6761"
+  intake_address: "418 North Palermo Road, Freedom, ME 04941"
+  intake_hours: "unknown"
+  news_or_blog_url: "https://avianhaven.org/news/"
+  newsletter_signup_url: "unknown"
+  patient_stories_url: "unknown"
+  annual_reports_url: "unknown"
+  most_recent_annual_report_pdf: "unknown"
+  social:
+    facebook: "https://www.facebook.com/AvianHaven"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: true
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: "unknown"
+    intake_source_year: "unknown"
+    licensed_species_count: "unknown"
+  accreditations: ["ME DIFW licensed", "USFWS migratory bird permit (federal permit confirmed)", "501(c)(3)"]
+  leadership:
+    executive_director: "Diane Winn (Founder)"
+    medical_director: "unknown"
+  mission_excerpt: "Bird-only wildlife rehabilitation facility in Freedom, Maine. Accepts all birds and reptiles; has multiple flight cages. Operates on North Palermo Road in Waldo County."
+  status: active
+  notes: "Waldo County, ME. Bird and reptile specialist. Multiple flight cages. Rehabilitator Diane Winn confirmed with federal permit in state directory. Additional rehabilitator Laura Graham also listed at same address."
+  source_urls:
+    - "https://avianhaven.org"
+    - "https://www.causeiq.com/organizations/avian-haven,010529491/"
+
+# Summary:
+# Total organizations: 33
+# Count with verified EIN: 30
+#   (EIN not confirmed: wildlife-response-inc, mercer-county-wildlife-center [county gov],
+#    the-last-resort-wildlife-refuge)
+#   Note: tufts-wildlife-clinic EIN is for Tufts University; green-chimneys EIN is for
+#   parent school; schuylkill EIN is for parent Schuylkill Center (all noted in entries)
+# Count with verified wildlife_help_url: 33 (all entries)
+# Count with NWRA membership noted: 3
+#   (Wildlife Center of Virginia, Southwest Virginia Wildlife Center, Blue Ridge Wildlife Center)
+#
+# State coverage:
+#   VA: 7 orgs | WV: 1 org | MD: 2 orgs | DC: 1 org | DE: 1 org
+#   PA: 5 orgs | NJ: 5 orgs | NY: 3 orgs | CT: 1 org | RI: 2 orgs
+#   MA: 2 orgs | NH: 1 org | VT: 0 orgs | ME: 2 orgs
+#
+# Notable gaps:
+#   - VERMONT: No credible multi-species facility with verified 501(c)(3) found.
+#     Vermont has individual permit holders only; no standalone nonprofit wildlife
+#     rehab center with public web presence identified. Further research needed.
+#   - WEST VIRGINIA: State does not have a standard wildlife rehab permit program
+#     for mammals; only avian centers (ACCA, WV Raptor Rehab Center) operate under
+#     federal USFWS permits. Three Rivers Avian Center (Hinton, WV) is in southern WV
+#     and may qualify but was not confirmed as an independent 501(c)(3).
+#   - NEW YORK: Only 3 NYC/downstate/Long Island orgs included. Upstate NY has many
+#     rehab centers (e.g., Orphaned Wildlife Center Otisville, Southern Tier Wildlife
+#     Center Binghamton) that could be added in a follow-up pass.
+#   - MARYLAND: Larger state with only 2 orgs confirmed. Owl Moon Raptor Center (Boyds),
+#     Orphaned Wildlife Rescue Center (Lusby/Calvert County), and Frisky's Wildlife
+#     Center (Woodstock) are additional credible MD facilities needing separate lookup.
+#   - MASSACHUSETTS: Cape Wildlife Center (Barnstable) was found but not included as
+#     it appears to be part of New England Wildlife Centers dual-location operation.
+#     Separate EIN may exist.
+#   - AERO Virginia: EIN 47-1022629 confirmed; small org with limited 990 revenue (~$12K),
+#     but meets credibility filters as licensed VDWR Category IIB facility.
+#   - Antler Ridge Wildlife Sanctuary (NJ): EXCLUDED — confirmed closed/terminated in 2023.
+#   - Congress of the Birds (RI): Newly incorporated as 501(c)(3) in 2024; EIN 99-1524923
+#     (new EIN format suggesting recent formation).

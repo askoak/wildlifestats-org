@@ -1,0 +1,955 @@
+# Professional Wildlife Rehabilitation Handbooks, Textbooks, and Standards Documents
+# WildlifeStats National Research Framework — Authoritative Sources Catalog
+# Category: 03-professional-handbooks
+# Generated: 2025
+# Coverage: Standards, textbooks, manuals, journals, regulatory, and online resources
+# Sources: NWRA, IWRC, USGS, USDA, CDC, Elsevier, Wiley-Blackwell, and others
+
+---
+
+# ============================================================
+# SECTION 1: PROFESSIONAL STANDARDS / SOCIETY PUBLICATIONS
+# ============================================================
+
+- slug: nwra-iwrc-standards-2021
+  title: "Standards for Wildlife Rehabilitation, 5th edition"
+  authors: ["National Wildlife Rehabilitators Association (NWRA)", "International Wildlife Rehabilitation Council (IWRC)"]
+  publisher: "National Wildlife Rehabilitators Association / International Wildlife Rehabilitation Council"
+  year: 2021
+  type: "standards_document"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://national-wildlife-rehabilitators-association.myshopify.com/products/standards"
+    isbn: ""
+    pages: null
+  audience: "permitted wildlife rehabilitators, wildlife veterinarians, facility operators — US and Canada"
+  scope: "Defines facility standards, husbandry, housing dimensions by taxon, release evaluation criteria, and ethical standards for wildlife rehabilitation. Supersedes all prior editions of Minimum Standards. Active NWRA/IWRC members may access the electronic edition online."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "The current binding standard for US wildlife rehabilitation facilities. Cite for any discussion of minimum care requirements, housing dimensions, or release criteria. Do not republish wholesale."
+  notes: "Joint NWRA/IWRC publication. Ebook $35, Print $40, Bundle $60. Replaces the 4th edition (2012). Partially funded by USFWS Partners for Wildlife. Referenced explicitly in 50 CFR 21.76 (migratory bird rehabilitation permits)."
+
+- slug: nwra-minimum-standards-2012
+  title: "Minimum Standards for Wildlife Rehabilitation, 4th edition"
+  authors: ["Miller, E.A. (ed.)"]
+  publisher: "National Wildlife Rehabilitators Association / International Wildlife Rehabilitation Council"
+  year: 2012
+  type: "standards_document"
+  access:
+    free_pdf: true
+    free_url: "https://theiwrc.org/wp-content/uploads/2011/05/Standards-4th-Ed-2012-final.pdf"
+    paid_url: ""
+    isbn: "978-1-885667-25-4"
+    pages: 116
+  audience: "permitted wildlife rehabilitators, wildlife veterinarians"
+  scope: "Defines minimum facility standards, husbandry protocols, cage dimension tables by taxon, disease control procedures, and ethical standards for wildlife rehabilitation in the US and Canada."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: false
+  use_for_wildlifestats: "Legacy standard — still widely cited and referenced in many state regulations. Free PDF hosted on IWRC website. Use the 5th edition (2021) for current standards, but this edition remains useful for historical context and is freely available."
+  notes: "Previous editions: 1st ed. 1989, 2nd ed. 1993, 3rd ed. 2000 (ISBN 1-931439-00-1). 4th ed. is freely available as PDF from IWRC."
+
+- slug: nwra-principles-2nd-ed
+  title: "NWRA Principles of Wildlife Rehabilitation: The Essential Guide for Novice and Experienced Rehabilitators, 2nd edition"
+  authors: ["Moore, Adele T.", "Joosten, Sally"]
+  publisher: "National Wildlife Rehabilitators Association"
+  year: 2002
+  type: "handbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://national-wildlife-rehabilitators-association.myshopify.com/products/principles-of-wildlife-rehabilitation-2nd-edition"
+    isbn: "978-1-931439-11-4"
+    pages: 667
+  audience: "novice and experienced wildlife rehabilitators"
+  scope: "Comprehensive operational guide covering intake procedures, handling, veterinary topics, nutrition, species-specific care for birds and mammals, education, and release. First edition 1997; second edition 2002, reprinted 2008."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "The primary operational reference for US rehabilitators — 667 pages, covers virtually every aspect of day-to-day rehab practice. High value for sourcing clinical and husbandry content. Ebook and print versions available from NWRA store."
+  notes: "NWRA member price approx. $64 ebook / $72 print. Nonmember $80/$90. Reprinted 2008 without revision."
+
+- slug: nwra-topics-wildlife-medicine-v1
+  title: "Topics in Wildlife Medicine Volume 1: Cardiovascular and Pulmonary Disorders"
+  authors: ["Miller, R. Eric (ed.)"]
+  publisher: "National Wildlife Rehabilitators Association"
+  year: 2006
+  type: "handbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://national-wildlife-rehabilitators-association.myshopify.com"
+    isbn: ""
+    pages: null
+  audience: "wildlife veterinarians, advanced rehabilitators"
+  scope: "Species-specific cardiovascular and pulmonary disorders in native North American wildlife. Part of a continuing multi-volume series."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Specialized clinical reference for disease-specific content. Useful when covering cardiac or respiratory conditions in wildlife. Member discounts apply."
+  notes: "Multiple volumes in this series covering different organ systems and topics. Available in print and ebook formats from NWRA store."
+
+- slug: nwra-topics-wildlife-medicine-v4
+  title: "Topics in Wildlife Medicine Volume 4: Orthopedics"
+  authors: ["Miller, R. Eric (ed.)"]
+  publisher: "National Wildlife Rehabilitators Association"
+  year: 2020
+  type: "handbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://national-wildlife-rehabilitators-association.myshopify.com/products/topics-in-wildlife-medicine-volume-4-orthopedics"
+    isbn: ""
+    pages: 206
+  audience: "wildlife veterinarians, advanced rehabilitators"
+  scope: "Fracture management and orthopedic care for native North American wildlife species. Covers splinting, pinning, coaptation, and surgical approaches by taxon."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "High-value clinical reference for orthopedic and trauma content. 206 pages. Nonmember price $82 print / $95 ebook."
+  notes: "The most recently confirmed volume in the series. Ebook and print available. NWRA member discount 20%."
+
+- slug: iwrc-foundations-course
+  title: "Foundations of Wildlife Rehabilitation (formerly Basic Wildlife Rehabilitation) — Online and In-Person Course"
+  authors: ["International Wildlife Rehabilitation Council"]
+  publisher: "International Wildlife Rehabilitation Council"
+  year: 2023
+  type: "course"
+  access:
+    free_pdf: false
+    free_url: "https://theiwrc.org/product/foundations-of-wildlife-rehabilitation-online/"
+    paid_url: "https://theiwrc.org/product/foundations-of-wildlife-rehabilitation-online/"
+    isbn: ""
+    pages: null
+  audience: "aspiring and new wildlife rehabilitators; required by many state permit programs"
+  scope: "Core competency curriculum covering natural history, basic pathology, parasitology, zoonoses, anatomy, nutrition, and animal behavior. RACE-approved for 15 CE. Hybrid format (Zoom + lab). Registration ~$180."
+  citation_status: "citation_only"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Primary certification pathway for IWRC-credentialed rehabilitators. Cite when describing professional training standards. Course content and syllabus are not separately publishable."
+  notes: "Required by several states as a prerequisite for wildlife rehabilitation permits. Previously called 'Basic Wildlife Rehabilitation.' Does not confer CWR certification by itself."
+
+- slug: iwrc-skills-standards
+  title: "IWRC Skills Standards / Best Practices for Wildlife Rehabilitation"
+  authors: ["International Wildlife Rehabilitation Council"]
+  publisher: "International Wildlife Rehabilitation Council"
+  year: 2021
+  type: "standards_document"
+  access:
+    free_pdf: false
+    free_url: "https://theiwrc.org/resources/guidelines-for-wildlife-rehabilitation/"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "permitted wildlife rehabilitators, veterinarians, state wildlife agencies"
+  scope: "Best practices and skills standards for wildlife rehabilitation, jointly developed with NWRA. Covers species-specific care, handling, housing, and clinical procedures."
+  citation_status: "citation_only"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Secondary standards reference complementing the joint NWRA/IWRC Standards document. Web-accessible resource page at IWRC."
+  notes: "Online guidelines page; not a standalone published document in the traditional sense. Best accessed via IWRC resources portal."
+
+- slug: journal-wildlife-diseases
+  title: "Journal of Wildlife Diseases"
+  authors: ["Wildlife Disease Association (publisher)"]
+  publisher: "Wildlife Disease Association / BioOne"
+  year: 1965
+  type: "journal"
+  access:
+    free_pdf: false
+    free_url: "https://bioone.org/journals/journal-of-wildlife-diseases"
+    paid_url: "https://bioone.org/journals/journal-of-wildlife-diseases"
+    isbn: ""
+    pages: null
+  audience: "wildlife veterinarians, disease ecologists, epidemiologists, wildlife managers"
+  scope: "Quarterly peer-reviewed journal covering infectious, parasitic, toxic, nutritional, physiologic, developmental, and neoplastic diseases affecting wild animals globally. Premier journal in the field."
+  citation_status: "citation_only"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "The most authoritative peer-reviewed source for wildlife disease epidemiology, case reports, and disease surveillance data. Essential citation source for any disease-specific WildlifeStats content. Institutional access required for full text."
+  notes: "Print ISSN: 0090-3558. Online ISSN: 1943-3700. Quarterly; Vol. 61 as of 2025. Impact factor ~1.4. BioOne member since 2015. WDA institutional membership or subscription required for full access. Some articles open-access after embargo."
+
+- slug: journal-wildlife-rehabilitation
+  title: "Journal of Wildlife Rehabilitation"
+  authors: ["International Wildlife Rehabilitation Council (publisher)"]
+  publisher: "International Wildlife Rehabilitation Council"
+  year: 1977
+  type: "journal"
+  access:
+    free_pdf: false
+    free_url: "https://theiwrc.org/journal-of-wildlife-rehabilitation/"
+    paid_url: "https://theiwrc.org/journal-of-wildlife-rehabilitation/"
+    isbn: ""
+    pages: null
+  audience: "wildlife rehabilitators, wildlife veterinarians, conservation biologists"
+  scope: "Published three times per year. Serves as the primary reference for the wildlife rehabilitation field. Covers clinical cases, husbandry, disease surveillance, and conservation topics relevant to practicing rehabilitators. Distributed to ~1,500 individuals and libraries."
+  citation_status: "citation_only"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "High-value source for clinical practice content — the practitioner-facing journal of the field. IWRC membership ($54+/year) required for access. Special library rates available."
+  notes: "Not to be confused with the NWRA's Wildlife Rehabilitation Bulletin. Acts as a bridge publication between rehabilitation practice and broader science."
+
+- slug: nwra-wildlife-rehabilitation-bulletin
+  title: "Wildlife Rehabilitation Bulletin"
+  authors: ["National Wildlife Rehabilitators Association (publisher)"]
+  publisher: "National Wildlife Rehabilitators Association"
+  year: 1983
+  type: "journal"
+  access:
+    free_pdf: true
+    free_url: "https://www.nwrawildlife.org"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "wildlife rehabilitators, veterinarians, wildlife managers"
+  scope: "Peer-reviewed journal published by NWRA. Covers clinical topics, husbandry, natural history, and rehabilitation techniques. Open-access on the NWRA journal website. NWRA members receive access to 20+ years of archives."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Open-access peer-reviewed content freely citable and quotable. High value for WildlifeStats as a free, citable source for clinical and husbandry content. Archives available to NWRA members. Peer-reviewed."
+  notes: "Formerly known as NWRA Quarterly. Published online; open-access for current issues. NWRA members receive archive access and a 20% discount on publishing fees."
+
+# ============================================================
+# SECTION 2: MAJOR AVIAN / WILDLIFE MEDICINE TEXTBOOKS
+# ============================================================
+
+- slug: hand-rearing-birds-2nd-ed
+  title: "Hand-Rearing Birds, 2nd edition"
+  authors: ["Duerr, Rebecca S. (ed.)", "Gage, Laurie J. (ed.)"]
+  publisher: "Wiley-Blackwell (John Wiley & Sons)"
+  year: 2020
+  type: "textbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://national-wildlife-rehabilitators-association.myshopify.com/products/hand-rearing-birds-2nd-edition"
+    isbn: "978-1-119-16775-4"
+    pages: 816
+  audience: "wildlife rehabilitators, avian veterinarians, zoo keepers"
+  scope: "50 chapters covering hand-rearing techniques for a wide variety of avian species and taxonomic groups. Includes 12 new chapters not in the 1st edition. Species coverage from passerines to ratites. Second edition published 2020."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "The definitive hand-rearing reference for avian rehabilitation. 816 pages. Covers nearly all bird groups encountered in North American rehab. Highly citable for species-specific husbandry protocols."
+  notes: "1st edition (2008) edited by Gage & Duerr (Blackwell). 2nd edition (2020) reverses editor order — Duerr & Gage. ISBN-10: 1119167752. Available from NWRA store and general booksellers."
+
+- slug: fowlers-zoo-wild-animal-medicine-v8
+  title: "Fowler's Zoo and Wild Animal Medicine, Volume 8"
+  authors: ["Miller, R. Eric (ed.)"]
+  publisher: "Elsevier Saunders"
+  year: 2014
+  type: "textbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://shop.elsevier.com/books/fowlers-zoo-and-wild-animal-medicine-volume-8/miller/978-1-4557-7397-8"
+    isbn: "978-1-4557-7397-8"
+    pages: null
+  audience: "zoo veterinarians, wildlife veterinarians, exotic animal practitioners"
+  scope: "Comprehensive taxonomic reference covering amphibians, reptiles, birds, and mammals in zoological and wild settings. Includes chapters on biology, anatomy, restraint, nutrition, surgery, diagnostics, therapeutics, and disease by order/family. Volume 8 of ongoing series."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: false
+  use_for_wildlifestats: "Standard zoo and wild animal medicine reference. Cite for species-specific clinical protocols across a broad range of taxa. Volumes 8 and 9 are current."
+  notes: "Multi-volume series originally edited by Murray E. Fowler (vols. 1–5). Continuing volumes edited by R. Eric Miller. Volume 9 (2019) is the most recent. Earlier volumes cover different taxa and topics and remain in use."
+
+- slug: fowlers-zoo-wild-animal-medicine-v9
+  title: "Fowler's Zoo and Wild Animal Medicine: Current Therapy, Volume 9"
+  authors: ["Miller, R. Eric (ed.)", "Lamberski, Nadine (ed.)", "Calle, Paul P. (ed.)"]
+  publisher: "Elsevier Saunders"
+  year: 2019
+  type: "textbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://shop.elsevier.com/books/miller-fowlers-zoo-and-wild-animal-medicine-current-therapy-volume-9/miller/978-0-323-55228-8"
+    isbn: "978-0-323-55228-8"
+    pages: 734
+  audience: "zoo veterinarians, wildlife veterinarians, exotic animal practitioners"
+  scope: "Current therapy format covering timely topics across zoo and wild animal species. Three co-editors contributing diverse expertise. Broad taxonomic and geographic coverage."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Most current volume in the Fowler's series. 734 pages. Cite for current therapeutic approaches across zoo and wild animal medicine."
+  notes: "ISBN-10: 0323552285. Published November 2018. Standard Elsevier pricing (~$150–200). Part of the definitive veterinary series for zoo and exotic animals."
+
+- slug: olsen-orosz-manual-avian-medicine
+  title: "Manual of Avian Medicine"
+  authors: ["Olsen, Glenn H.", "Orosz, Susan E."]
+  publisher: "Mosby (Elsevier)"
+  year: 2000
+  type: "textbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://www.abebooks.com/9780815184669/Manual-Avian-Medicine-Olsen-DVM-0815184662/plp"
+    isbn: "978-0-8151-8466-9"
+    pages: 622
+  audience: "avian veterinarians, wildlife veterinarians, avian medicine practitioners"
+  scope: "Comprehensive avian medicine reference covering anatomy, physiology, diagnostic techniques, therapeutics, and clinical management across bird orders. 622 pages."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: false
+  most_recent_edition: true
+  use_for_wildlifestats: "Core avian medicine reference. Out of print but widely held in veterinary libraries. Frequently cited in avian wildlife rehabilitation contexts. ISBN: 0815184662."
+  notes: "Published by Mosby (St. Louis). USGS Patuxent Wildlife Research Center contributing office. Out of print; available used. No newer edition has been published."
+
+- slug: mader-reptile-amphibian-medicine-3rd-ed
+  title: "Mader's Reptile and Amphibian Medicine and Surgery, 3rd edition"
+  authors: ["Divers, Stephen J. (ed.)", "Stahl, Scott J. (ed.)"]
+  publisher: "Elsevier Saunders"
+  year: 2019
+  type: "textbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://evolve.elsevier.com/cs/product/9780323482530"
+    isbn: "978-0-323-48253-0"
+    pages: null
+  audience: "reptile/amphibian veterinarians, zoo veterinarians, herpetological rehabilitators"
+  scope: "Definitive reference for reptile and amphibian medicine and surgery. Covers anatomy, physiology, husbandry, diagnostics, anesthesia, surgery, and disease management across chelonians, lizards, snakes, crocodilians, and amphibians."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "The standard herp medicine reference. Cite for any reptile or amphibian clinical content. Previous editions by Douglas Mader; 3rd edition edited by Divers & Stahl."
+  notes: "Originally authored by Douglas Mader. 2nd edition (2006) also widely held. 3rd edition published January 2019. Available via Elsevier Evolve."
+
+- slug: carpenter-exotic-animal-formulary-6th-ed
+  title: "Carpenter's Exotic Animal Formulary, 6th edition"
+  authors: ["Carpenter, James W.", "Harms, Craig A."]
+  publisher: "Elsevier Saunders"
+  year: 2022
+  type: "manual"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://shop.elsevier.com/books/carpenters-exotic-animal-formulary/carpenter/978-0-323-83392-9"
+    isbn: "978-0-323-83392-9"
+    pages: 848
+  audience: "exotic animal veterinarians, zoo veterinarians, wildlife veterinarians"
+  scope: "The only drug formulary created specifically for exotic animals. Covers drug dosages, routes, and frequencies for birds, reptiles, amphibians, fish, small mammals, zoo animals, and wildlife. 848 pages."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Essential dosing reference for wildlife veterinarians. Selected for Doody's Core Titles 2024. 30+ year track record. Ebook also available (ISBN 978-0-323-83395-0, list $66.99)."
+  notes: "Previous editions by Carpenter alone; 6th edition co-edited with Craig Harms. Published October 2022. Prior editions (5th, 2013) also in use. Saunders imprint."
+
+- slug: west-heard-caulkett-immobilization-2nd-ed
+  title: "Zoo Animal and Wildlife Immobilization and Anesthesia, 2nd edition"
+  authors: ["West, Gary (ed.)", "Heard, Darryl (ed.)", "Caulkett, Nigel (ed.)"]
+  publisher: "Wiley-Blackwell (John Wiley & Sons)"
+  year: 2014
+  type: "textbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://onlinelibrary.wiley.com/doi/book/10.1002/9781118792919"
+    isbn: "978-1-118-79291-9"
+    pages: null
+  audience: "zoo veterinarians, wildlife veterinarians, field biologists, wildlife managers"
+  scope: "Fully updated comprehensive reference on anesthetic techniques for captive and free-ranging wildlife. 53 species-specific chapters. Covers monitoring, field anesthesia, CPR, euthanasia, pain management, and emergency therapeutics. Expanded aquatic and avian species coverage."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Standard reference for wildlife immobilization protocols. Cite for field capture, chemical restraint, and anesthesia content in WildlifeStats. Wiley Online Library access."
+  notes: "First edition (2007) also edited by West, Heard, and Caulkett. 2nd edition available via Wiley Online Library and print."
+
+- slug: merck-veterinary-manual-online
+  title: "Merck Veterinary Manual (Online Edition)"
+  authors: ["Merck & Co., Inc."]
+  publisher: "Merck & Co. / MSD Veterinary Manual"
+  year: 2023
+  type: "manual"
+  access:
+    free_pdf: false
+    free_url: "https://www.merckvetmanual.com"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "veterinarians, veterinary students, wildlife rehabilitators, animal health professionals worldwide"
+  scope: "Comprehensive free-access veterinary reference covering all species including extensive wildlife sections. Covers diseases, diagnostics, therapeutics, and management. Updated regularly. Includes chapters on exotic and zoo animals, birds, reptiles, and wildlife disease."
+  citation_status: "citation_only"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "High-value free resource. Freely citable and accessible. Excellent for general clinical reference content, disease descriptions, and species overview pages. Updated regularly by Merck editorial staff."
+  notes: "Available free at merckvetmanual.com. Print editions also available but online version is current. International version marketed as MSD Veterinary Manual."
+
+# ============================================================
+# SECTION 3: DISEASE-SPECIFIC REFERENCES
+# ============================================================
+
+- slug: usgs-field-manual-wildlife-diseases-1999
+  title: "Field Manual of Wildlife Diseases: General Field Procedures and Diseases of Birds"
+  authors: ["Friend, Milton (tech. ed.)", "Franson, J. Christian (tech. ed.)", "Ciganovich, Elizabeth A. (ed.)"]
+  publisher: "U.S. Geological Survey, Biological Resources Division"
+  year: 1999
+  type: "manual"
+  access:
+    free_pdf: true
+    free_url: "https://pubs.usgs.gov/itr/1999/field_manual_of_wildlife_diseases.pdf"
+    paid_url: ""
+    isbn: "0-607-88096-1"
+    pages: 426
+  audience: "field biologists, wildlife managers, disease surveillance personnel, state wildlife agencies"
+  scope: "Comprehensive field manual covering general field procedures (specimen collection, shipment, euthanasia) and diseases of birds including bacterial, fungal, viral, parasitic, toxicological, and environmental disease categories. 51 chapters. U.S. focus with international relevance."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: false
+  use_for_wildlifestats: "Free federal government publication — fully open for citation and quotation (U.S. government works). Essential disease reference for avian wildlife. Free PDF at USGS pubs server."
+  notes: "USGS Information and Technology Report 1999-001. Dedicated to USFWS field biologists. Major funding from USFWS Division of Federal Aid. A 'living' online version (Techniques & Methods Book 15) is being developed at pubs.usgs.gov/tm/15/ and should be checked for updated chapters."
+
+- slug: usgs-field-manual-wildlife-diseases-living-edition
+  title: "Field Manual of Wildlife Diseases (Living Electronic Edition — Techniques & Methods 15)"
+  authors: ["Franson, J. Christian (ed.)", "Friend, Milton (ed.)", "Gibbs, Samantha E.J. (ed.)", "Widd, Margaret A. (ed.)"]
+  publisher: "U.S. Geological Survey, National Wildlife Health Center"
+  year: 2015
+  type: "manual"
+  access:
+    free_pdf: true
+    free_url: "https://pubs.usgs.gov/tm/15/"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "field biologists, wildlife managers, disease surveillance personnel"
+  scope: "Living electronic successor to the 1999 print edition. Chapters posted individually as completed; covers disease concepts, mortality investigation, specimen collection. Links to supplemental data. Ongoing publication."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Free and citable. Use this for the most current USGS disease guidance. Individual chapters can be downloaded as PDFs. First posted January 23, 2015; some chapters updated since."
+  notes: "Designed as a 'never completed' evolving reference. Download revised chapters from USGS pubs server when citing. Contact: Director, USGS National Wildlife Health Center, Madison WI 53711."
+
+- slug: usda-aphis-hpai-red-book
+  title: "USDA APHIS Highly Pathogenic Avian Influenza Response Plan: The Red Book"
+  authors: ["USDA Animal and Plant Health Inspection Service, Veterinary Services"]
+  publisher: "USDA APHIS"
+  year: 2017
+  type: "manual"
+  access:
+    free_pdf: true
+    free_url: "https://www.aphis.usda.gov/sites/default/files/hpai_response_plan.pdf"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "federal and state emergency responders, poultry industry, wildlife agencies, veterinarians"
+  scope: "Strategic guidance document for HPAI outbreak response in domestic poultry. Covers incident command, surveillance, diagnostics, depopulation, quarantine, movement control, cleaning/disinfection, and restocking. Updated through May 2017; additional policy guidance documents available."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: false
+  use_for_wildlifestats: "Free federal document. Cite for HPAI response protocols. Note that current HPAI (H5N1 clade 2.3.4.4b) response guidance is being updated continuously on the APHIS HPAI emergency portal at aphis.usda.gov/animal-emergencies/hpai."
+  notes: "The 2017 Red Book reflects 2014–2015 and 2016 outbreak lessons. Check APHIS for most current version given the ongoing 2022-present HPAI H5N1 situation."
+
+- slug: nasphv-rabies-compendium
+  title: "Compendium of Animal Rabies Prevention and Control (NASPHV)"
+  authors: ["National Association of State Public Health Veterinarians (NASPHV)"]
+  publisher: "National Association of State Public Health Veterinarians / MMWR"
+  year: 2023
+  type: "standards_document"
+  access:
+    free_pdf: true
+    free_url: "http://www.nasphv.org"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "public health veterinarians, animal control officers, wildlife rehabilitators, state public health officials"
+  scope: "Annual compendium covering national standards for rabies vaccination, exposure management, and post-exposure protocols for domestic animals and wildlife. Defines the national standard of practice for rabies control."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Free, authoritative, and regularly updated. The national standard for rabies protocols. Must-cite for any WildlifeStats content on rabies vector species. Annual revision published in MMWR."
+  notes: "Reviewed and revised annually. Previous editions available via CDC MMWR archives. Wildlife rehabilitators are specifically referenced as a distribution audience. Also called the 'NASPHV Rabies Compendium.'"
+
+- slug: who-rabies-compendium
+  title: "WHO Expert Consultation on Rabies: Third Report (WHO Technical Report Series No. 1012)"
+  authors: ["World Health Organization"]
+  publisher: "World Health Organization"
+  year: 2018
+  type: "standards_document"
+  access:
+    free_pdf: true
+    free_url: "https://www.who.int/publications/i/item/9789241210218"
+    paid_url: ""
+    isbn: "978-92-4-121021-8"
+    pages: 195
+  audience: "public health officials, veterinarians, wildlife disease professionals globally"
+  scope: "Global authoritative guidance on rabies prevention, control, elimination, and clinical management. Covers epidemiology, diagnosis, human and animal vaccination, post-exposure protocols, and wildlife reservoir management. Third in the WHO TRS rabies series."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Free WHO publication; authoritative global rabies reference. Cite for international context on rabies in wildlife. Free PDF download from WHO website."
+  notes: "Previous WHO expert consultations: 1st (1992), 2nd (2005). Third report (2018) is current. Covers both domestic animal and wildlife rabies globally."
+
+- slug: usgs-field-manual-wildlife-toxicology
+  title: "Wildlife Toxicology: Emerging Contaminant and Biodiversity Issues"
+  authors: ["Kendall, Ronald J.", "Lacher, Thomas E."]
+  publisher: "CRC Press (Taylor & Francis)"
+  year: 2011
+  type: "textbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: ""
+    isbn: "978-1-4200-8539-5"
+    pages: 400
+  audience: "wildlife toxicologists, ecotoxicologists, wildlife veterinarians, environmental scientists"
+  scope: "Covers lead toxicosis, anticoagulant rodenticides, organophosphates, and emerging contaminants affecting wildlife populations. Biodiversity conservation context."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Cite for lead poisoning, rodenticide toxicosis, and emerging contaminant content. Most USGS toxicology guidance is available as individual peer-reviewed papers and NWHC publications."
+  notes: "Note: The primary USGS source for wildlife toxicology is a series of NWHC publications and the Field Manual of Wildlife Diseases (above), not a single dedicated 'USGS Wildlife Toxicology' manual. This entry covers the major textbook in the field."
+
+# ============================================================
+# SECTION 4: FEDERAL / REGULATORY DOCUMENTS
+# ============================================================
+
+- slug: usfws-mbta-50-cfr-21
+  title: "Migratory Bird Treaty Act Permit Regulations — 50 CFR Part 21"
+  authors: ["U.S. Fish and Wildlife Service"]
+  publisher: "U.S. Government / eCFR"
+  year: 2024
+  type: "regulatory"
+  access:
+    free_pdf: true
+    free_url: "https://www.ecfr.gov/current/title-50/chapter-I/subchapter-B/part-21"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "wildlife rehabilitators, wildlife biologists, attorneys, state wildlife agencies"
+  scope: "Federal regulations governing all permits related to migratory birds, including rehabilitation permits (§21.76), falconry, banding, scientific collection, and educational use. Sets out federal standards for migratory bird rehabilitation including housing criteria referencing NWRA/IWRC Minimum Standards."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Foundational legal authority for all migratory bird rehabilitation in the US. Free and citable. §21.76 specifically governs rehabilitation permits. Must-cite for any content on legal authority for bird rehabilitation."
+  notes: "Updated regularly via Federal Register. Current version always at eCFR.gov. See also the USFWS Migratory Bird Permits Program page at fws.gov/program/migratory-bird-permits."
+
+- slug: usfws-bgepa-regulations
+  title: "Bald and Golden Eagle Protection Act (16 U.S.C. §§ 668–668d) and Implementing Regulations (50 CFR Part 22)"
+  authors: ["U.S. Fish and Wildlife Service"]
+  publisher: "U.S. Government"
+  year: 1940
+  type: "regulatory"
+  access:
+    free_pdf: true
+    free_url: "https://www.fws.gov/law/bald-and-golden-eagle-protection-act"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "wildlife rehabilitators, law enforcement, state agencies, federal land managers"
+  scope: "Prohibits take, possession, sale, or transport of bald or golden eagles without USFWS permit. Governs eagle feather repository, eagle exhibition permits (required for non-releasable education birds), and rehabilitation of injured eagles. Implementing regulations at 50 CFR Part 22."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Cite for legal context around eagle rehabilitation, captive placement, and feather disposal. USFWS BGEPA info page at fws.gov. Statute text at 16 USC 668 (law.cornell.edu)."
+  notes: "Originally enacted June 8, 1940 (bald eagle only). Golden eagle added October 24, 1962. Multiple amendments through 1979. Criminal penalty: up to $100,000 / 1 year imprisonment for first offense."
+
+- slug: usda-aphis-animal-welfare-regulations
+  title: "Animal Welfare Act and Animal Welfare Regulations (USDA APHIS Blue Book)"
+  authors: ["USDA Animal and Plant Health Inspection Service"]
+  publisher: "USDA APHIS"
+  year: 2023
+  type: "regulatory"
+  access:
+    free_pdf: true
+    free_url: "https://www.aphis.usda.gov/animal-welfare/downloads/AC_BlueBook_AWA_508_comp_version.pdf"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "wildlife rehabilitators (marine mammal facilities), zoos, research facilities, dealers"
+  scope: "The AWA generally does not apply to wildlife rehabilitation unless the facility houses marine mammals (covered under MMPA co-regulation). However, facilities caring for AWA-covered species (marine mammals in rehab) must comply. The Blue Book compiles the statute and all regulations."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Cite when discussing regulatory context for marine mammal rehabilitation or research animals. Generally not applicable to terrestrial wildlife rehab. Free PDF from APHIS."
+  notes: "Most wildlife rehabilitation is NOT regulated by the AWA except for facilities housing marine mammals and where wildlife is being used in research. See AVMA model exemption language."
+
+- slug: usfws-mbta-50-cfr-21-76
+  title: "Migratory Bird Rehabilitation Permit Standards — 50 CFR §21.76"
+  authors: ["U.S. Fish and Wildlife Service"]
+  publisher: "U.S. Government / eCFR"
+  year: 2023
+  type: "regulatory"
+  access:
+    free_pdf: true
+    free_url: "https://www.ecfr.gov/current/title-50/chapter-I/subchapter-B/part-21/section-21.76"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "wildlife rehabilitators, USFWS permit staff, state wildlife agencies"
+  scope: "Specific subsection of 50 CFR 21 governing migratory bird rehabilitation permits. Defines who may hold a permit, housing standards (referencing NWRA/IWRC Minimum Standards 3rd edition by name), veterinary agreement requirement, annual reporting, and euthanasia authority."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Key regulatory cite for the legal framework of bird rehab. References NWRA/IWRC standards by name — important link between the regulatory world and professional standards documents."
+  notes: "Part of the larger 50 CFR Part 21 framework. Must be cross-referenced with state-level permits; most states have additional restrictions."
+
+# ============================================================
+# SECTION 5: SPECIES-SPECIFIC AND GENERAL REHABILITATION MANUALS
+# ============================================================
+
+- slug: iwrc-wildlife-rehab-comprehensive-approach
+  title: "Wildlife Rehabilitation: A Comprehensive Approach, 2nd edition"
+  authors: ["Poisson, Kim", "Weiss, Rebekah"]
+  publisher: "International Wildlife Rehabilitation Council"
+  year: 2016
+  type: "handbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://theiwrc.org/product/wildlife-rehabilitation-a-comprehensive-approach-2nd-edition/"
+    isbn: "978-0-470-65511-5"
+    pages: 440
+  audience: "active wildlife rehabilitators, aspiring rehabilitators, biologists, veterinarians"
+  scope: "Foundational text for wildlife rehabilitation practice. 22 original chapters updated plus 2 new chapters (One Health and Animal Welfare). Covers skills and procedures plus ethical and interdisciplinary considerations. 440 pages."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Core introductory text from IWRC. Appropriate cite for foundational rehab practice content and ethical framework. Available from IWRC store."
+  notes: "1st edition authors: Casey & Casey (referenced elsewhere). 2nd edition (2016) by Poisson & Weiss. ISBN listed from CWR Exam Handbook. A 3rd edition may be in preparation."
+
+- slug: stocker-practical-wildlife-care
+  title: "Practical Wildlife Care, 2nd edition"
+  authors: ["Stocker, Les"]
+  publisher: "Blackwell Publishing"
+  year: 2005
+  type: "handbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://onlinelibrary.wiley.com/doi/book/10.1002/9780470751169"
+    isbn: "978-1-4051-2749-3"
+    pages: 335
+  audience: "wildlife rehabilitators, veterinary practitioners, wildlife carers (UK focus)"
+  scope: "Practical care guide covering birds, mammals, reptiles, amphibians, and orphaned young. UK-authored with some global applicability. Covers admission, housing, nutrition, medical care, and release. 335 pages."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Useful reference for species care protocols, especially for European practitioners. UK legal context but husbandry content is broadly applicable. Available used and via Wiley Online Library."
+  notes: "First edition 2000 (reprinted 2001–2004). Second edition 2005. UK focus but widely used internationally. Author Les Stocker is founder of Tiggywinkles Wildlife Hospital."
+
+- slug: dmytryk-wildlife-search-rescue
+  title: "Wildlife Search and Rescue: A Guide for First Responders"
+  authors: ["Dmytryk, Rebecca"]
+  publisher: "Wiley-Blackwell"
+  year: 2012
+  type: "handbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: ""
+    isbn: "978-0-470-65511-5"
+    pages: 228
+  audience: "first responders, wildlife rehabilitators, animal control officers, general public"
+  scope: "Practical field guide covering capture strategies, handling and restraint techniques, and initial aid for wildlife rescues. 228 pages. Aimed at non-specialist responders."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Useful for WildlifeStats content targeting finder/rescuer audience. Covers what to do before professional help arrives. Referenced in CWR Exam Handbook."
+  notes: "ISBN listed in CWR Exam Handbook (2023). Published 2012. Overlaps with public education niche."
+
+- slug: raptor-center-raptors-in-captivity
+  title: "Raptors in Captivity: Guidelines for Care and Management"
+  authors: ["Lierz, Michael"]
+  publisher: "Hancock House"
+  year: 2006
+  type: "handbook"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: ""
+    isbn: "978-0-88839-602-7"
+    pages: 230
+  audience: "raptor rehabilitators, falconers, zoo keepers, raptor veterinarians"
+  scope: "Guidelines for captive management, husbandry, housing, feeding, medical care, and behavioral management of raptors. European-authored, internationally applicable."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: false
+  most_recent_edition: true
+  use_for_wildlifestats: "Useful for raptor-specific content on captive care and management. The Lindsay & Burnham raptor handbook referenced in the task is not confirmed as a currently available standalone publication; this entry covers the closest current equivalent."
+  notes: "Note: 'Lindsay & Burnham raptor handbook' could not be confirmed as a standalone published title. The best-known current raptor rehabilitation reference is The Raptor Center at University of Minnesota publications and Lierz 2006. Raptors: A Field Guide to Survey and Monitoring (2009) is a separate survey-focused text."
+
+# ============================================================
+# SECTION 6: FREE / OPEN ONLINE RESOURCES AND DATABASES
+# ============================================================
+
+- slug: usgs-whispers-database
+  title: "WHISPers — Wildlife Health Information Sharing Partnership Event Reporting System"
+  authors: ["USGS National Wildlife Health Center"]
+  publisher: "U.S. Geological Survey, National Wildlife Health Center"
+  year: 2005
+  type: "manual"
+  access:
+    free_pdf: false
+    free_url: "https://whispers.usgs.gov"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "wildlife disease professionals, state wildlife agencies, researchers, public health officials"
+  scope: "Web-based repository of current and historic wildlife mortality and morbidity events reported by partners nationwide. Species-level disease records with location, date, species affected, cause, and mortality estimates. Portal for requesting USGS NWHC diagnostic services."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Critical database for species-level disease incidence data. Freely accessible public portal at whispers.usgs.gov. Events are citable by event number. High value for WildlifeStats disease content sourcing — can provide location-specific mortality event data."
+  notes: "Also described at usgs.gov/tools/wildlife-health-information-sharing-partnership-event-reporting-system-whispers. Partners report events; NWHC manages database. API access may be available for bulk data."
+
+- slug: usfws-migratory-bird-permits-portal
+  title: "USFWS Migratory Bird Permits Program — Online Resources"
+  authors: ["U.S. Fish and Wildlife Service, Division of Migratory Bird Management"]
+  publisher: "U.S. Fish and Wildlife Service"
+  year: 2024
+  type: "regulatory"
+  access:
+    free_pdf: false
+    free_url: "https://www.fws.gov/program/migratory-bird-permits"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "wildlife rehabilitators, permit applicants, state agencies"
+  scope: "Online portal for applying for and managing migratory bird permits, including rehabilitation permits. Includes permit information, federal and state contacts, FAQs, and links to applicable regulations."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Direct link for rehabilitators seeking permit information. Cite as regulatory reference for the MBTA permit process."
+  notes: "Applications processed via ePermits system. State permit requirements vary — rehabilitators must often hold both federal and state permits."
+
+- slug: nwra-quarterly-member-newsletter
+  title: "NWRA Quarterly"
+  authors: ["National Wildlife Rehabilitators Association (publisher)"]
+  publisher: "National Wildlife Rehabilitators Association"
+  year: 1982
+  type: "journal"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: "https://www.nwrawildlife.org"
+    isbn: ""
+    pages: null
+  audience: "NWRA members — wildlife rehabilitators, wildlife veterinarians"
+  scope: "Member-only newsletter covering organizational news, clinical tips, policy updates, species care articles, and rehabilitation practice. Not peer-reviewed. Member benefit."
+  citation_status: "citation_only"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Lower citation priority due to member-only access and non-peer-reviewed status. Useful for practice notes and organizational context but not primary sourcing for clinical claims."
+  notes: "Distinct from the peer-reviewed Wildlife Rehabilitation Bulletin (also NWRA). NWRA membership required. Quarterly frequency."
+
+- slug: aphis-hpai-current-response-portal
+  title: "USDA APHIS HPAI Current Situation and Response — Online Portal"
+  authors: ["USDA Animal and Plant Health Inspection Service"]
+  publisher: "USDA APHIS"
+  year: 2022
+  type: "regulatory"
+  access:
+    free_pdf: false
+    free_url: "https://www.aphis.usda.gov/animal-emergencies/hpai"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "poultry producers, veterinarians, wildlife rehabilitators, state agencies, general public"
+  scope: "Living online resource covering current HPAI H5N1 situation, case counts, affected premises, biosecurity guidance, testing protocols, response materials, and policy documents. Updated continuously during active outbreaks."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Essential current-events resource for HPAI content. Links to current response protocols, affected species data, and state-level guidance. Far more current than the 2017 Red Book for the ongoing H5N1 situation."
+  notes: "Separate from the FAD PReP documents. Check frequently during active outbreaks. Includes links to CDC guidance on human exposure risk."
+
+- slug: cwr-exam-handbook
+  title: "Certified Wildlife Rehabilitator (CWR) Examination Handbook"
+  authors: ["CWR Examination Committee"]
+  publisher: "CWR Examination Program (National Registry of Wildlife Rehabilitators)"
+  year: 2023
+  type: "standards_document"
+  access:
+    free_pdf: true
+    free_url: "https://cwrexam.org/wp-content/uploads/2023/01/CWR-Handbook-updated-jan-2023.pdf"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "wildlife rehabilitators seeking national CWR certification"
+  scope: "Handbook for the national CWR certification examination. Lists required knowledge domains, recommended reading list of authoritative texts, and examination procedures. The reading list is the de facto canon of professional wildlife rehabilitation textbooks."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "High value as a meta-source: its reading list is the field's own consensus canon. Free PDF. Use to validate which textbooks are considered authoritative by the profession."
+  notes: "Updated January 2023. The CWR is the national competency certification for wildlife rehabilitators, separate from IWRC/NWRA membership. Reading list includes Mader, Hand-Rearing Birds, Fowler's, Carpenter's, and others in this catalog."
+
+# ============================================================
+# SECTION 7: SUPPLEMENTARY SPECIALTY REFERENCES
+# ============================================================
+
+- slug: rupley-manual-avian-practice
+  title: "Manual of Avian Practice"
+  authors: ["Rupley, Amy E."]
+  publisher: "W.B. Saunders"
+  year: 1997
+  type: "manual"
+  access:
+    free_pdf: false
+    free_url: ""
+    paid_url: ""
+    isbn: "978-0-7216-4083-6"
+    pages: 466
+  audience: "avian veterinarians, wildlife veterinarians"
+  scope: "Clinical avian practice guide covering diagnostics, therapeutics, surgery, and disease management in birds. Frequently cited companion to Ritchie, Harrison & Harrison."
+  citation_status: "fair_use_excerpts_allowed"
+  digital_format_available: false
+  most_recent_edition: false
+  use_for_wildlifestats: "Legacy reference; superseded by newer texts (Olsen & Orosz 2000, Hand-Rearing Birds 2020). Still cited for certain clinical topics. Out of print."
+  notes: "Distinct from the Olsen & Orosz Manual of Avian Medicine (2000). Out of print. W.B. Saunders imprint."
+
+- slug: ritchie-harrison-avian-medicine-2nd-ed
+  title: "Avian Medicine: Principles and Application (abridged edition)"
+  authors: ["Ritchie, Branson W.", "Harrison, Greg J.", "Harrison, Linda R."]
+  publisher: "HBD International / Wingers Publishing"
+  year: 1999
+  type: "textbook"
+  access:
+    free_pdf: true
+    free_url: "http://avianmedicine.net"
+    paid_url: ""
+    isbn: "978-0-9636996-0-3"
+    pages: 1384
+  audience: "avian veterinarians, wildlife veterinarians"
+  scope: "The foundational large-format avian medicine reference. First published 1994 (full edition). Abridged edition freely available online at avianmedicine.net. Covers all aspects of avian medicine and surgery."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: false
+  use_for_wildlifestats: "The abridged edition is freely accessible online and citable. Landmark reference in avian medicine. Though dated (1994/1999), foundational content remains valid."
+  notes: "Often called 'Ritchie, Harrison & Harrison.' Full original 1994 edition out of print; abridged version at avianmedicine.net (check current accessibility). Superseded for recent clinical advances by newer texts."
+
+- slug: usfws-conservation-value-wildlife-rehabilitation
+  title: "Conservation Value of Wildlife Rehabilitation: A Literature Review"
+  authors: ["U.S. Fish and Wildlife Service"]
+  publisher: "U.S. Fish and Wildlife Service"
+  year: 2024
+  type: "manual"
+  access:
+    free_pdf: true
+    free_url: "https://www.fws.gov/sites/default/files/documents/2024-12/conservation-value-of-wildlife-rehabilitation.pdf"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "wildlife managers, policy makers, wildlife rehabilitators, conservation biologists"
+  scope: "Systematic literature review of 787 papers (36 meeting inclusion criteria), 1978–2024, examining the conservation value of wildlife rehabilitation. Covers outcomes data, population-level effects, and evidence base for rehabilitation as a conservation tool."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "Free USFWS publication. Directly relevant to WildlifeStats mission — provides the evidence base for the conservation value of the work. Published December 2024. Cite for justifying rehabilitation as data-generating conservation practice."
+  notes: "Recent (December 2024). A useful policy-facing document for the field."
+
+- slug: usgs-nwhc-homepage
+  title: "USGS National Wildlife Health Center — Publications and Resources"
+  authors: ["USGS National Wildlife Health Center"]
+  publisher: "U.S. Geological Survey"
+  year: 2024
+  type: "manual"
+  access:
+    free_pdf: false
+    free_url: "https://www.usgs.gov/centers/nwhc"
+    paid_url: ""
+    isbn: ""
+    pages: null
+  audience: "wildlife disease professionals, state agencies, researchers"
+  scope: "Portal to USGS NWHC publications, disease factsheets, mortality event data, diagnostic services, and ongoing disease research. Includes free factsheets on avian influenza, West Nile virus, CWD, and other major wildlife diseases."
+  citation_status: "open_license"
+  digital_format_available: true
+  most_recent_edition: true
+  use_for_wildlifestats: "High-value free government resource hub. Disease factsheets are citable and current. Use as a supplement to the Field Manual for disease-specific content."
+  notes: "Individual factsheets and technical reports are free PDFs. NWHC is based in Madison, WI. Also the home organization for WHISPers database."
+
+---
+
+# Summary:
+
+## Source Counts
+
+**Free / Open Access sources (free_pdf: true OR free_url with full content):** 14
+  - USGS Field Manual of Wildlife Diseases 1999 (PDF)
+  - USGS Field Manual Living Edition (chapters PDF)
+  - USDA APHIS HPAI Red Book (PDF)
+  - NASPHV Rabies Compendium (PDF)
+  - WHO Rabies Compendium (PDF)
+  - USFWS BGEPA page / 16 USC 668 (statute text)
+  - 50 CFR 21 / §21.76 (eCFR)
+  - USDA APHIS Animal Welfare Regulations (PDF)
+  - NWRA Wildlife Rehabilitation Bulletin (open-access journal)
+  - USGS WHISPers (free web database)
+  - USFWS Migratory Bird Permits Portal
+  - USFWS Conservation Value of Wildlife Rehabilitation (PDF, 2024)
+  - CWR Exam Handbook (PDF)
+  - NWRA Minimum Standards 4th ed. 2012 (hosted as PDF by IWRC)
+  - Merck Veterinary Manual (free online)
+  - Ritchie, Harrison & Harrison Avian Medicine abridged (avianmedicine.net)
+
+**Paywalled / Paid Access sources:** 18
+  - NWRA/IWRC Standards 5th ed. 2021
+  - NWRA Principles of Wildlife Rehabilitation 2nd ed.
+  - NWRA Topics in Wildlife Medicine Vol. 1 and Vol. 4
+  - IWRC Foundations of Wildlife Rehabilitation (paid course)
+  - Journal of Wildlife Diseases (BioOne subscription)
+  - Journal of Wildlife Rehabilitation (IWRC membership)
+  - NWRA Quarterly (member-only)
+  - Hand-Rearing Birds 2nd ed. (Wiley-Blackwell)
+  - Fowler's Zoo and Wild Animal Medicine Vols. 8 & 9 (Elsevier)
+  - Manual of Avian Medicine (Olsen & Orosz, Mosby)
+  - Mader's Reptile and Amphibian Medicine 3rd ed. (Elsevier)
+  - Carpenter's Exotic Animal Formulary 6th ed. (Elsevier)
+  - Zoo Animal and Wildlife Immobilization 2nd ed. (Wiley)
+  - Wildlife Rehabilitation: A Comprehensive Approach 2nd ed.
+  - Stocker Practical Wildlife Care
+  - Wildlife Search and Rescue (Dmytryk)
+  - Rupley Manual of Avian Practice (out of print)
+  - Wildlife Toxicology (Kendall & Lacher)
+
+---
+
+## Top 5–10 Most Useful Sources for WildlifeStats Content Sourcing
+
+1. **NWRA/IWRC Standards for Wildlife Rehabilitation, 5th ed. (2021)** — The current legal-standard-referenced document for US wildlife rehabilitation. Any WildlifeStats clinical guidance on housing, husbandry, or release criteria must align with or cite this. Institutional access needed ($40 print).
+
+2. **USGS Field Manual of Wildlife Diseases (1999 + Living Edition)** — Free federal publication covering all major avian diseases. The single most freely citeable disease reference in the field. Essential for disease-specific WildlifeStats content.
+
+3. **NWRA Wildlife Rehabilitation Bulletin** — Open-access peer-reviewed journal from NWRA. Freely quotable with attribution. Best free peer-reviewed source for clinical and husbandry content.
+
+4. **Merck Veterinary Manual (online)** — Freely accessible, continuously updated, comprehensive. Excellent for species overview pages and disease descriptions. Author organization lends credibility.
+
+5. **WHISPers Database (USGS NWHC)** — Unique source for event-level wildlife mortality data by species and location. High value for any statistical or incidence-based WildlifeStats content. Free web access.
+
+6. **NASPHV Rabies Compendium (annual)** — Free, authoritative, and legally referenced. Must-cite for any content on rabies vector species, exposure protocols, or public health risk to rehabilitators.
+
+7. **50 CFR Part 21 (MBTA Permits) and §21.76** — Free, authoritative legal text. Must-cite for all bird rehabilitation legal framework content. eCFR always current.
+
+8. **Hand-Rearing Birds, 2nd ed. (Duerr & Gage, 2020)** — The definitive avian hand-rearing reference. 816 pages covering nearly all North American bird taxa. High-quality clinical content; worth institutional acquisition (Wiley-Blackwell, ~$120–150).
+
+9. **Carpenter's Exotic Animal Formulary, 6th ed. (2022)** — The only drug formulary specific to exotic/wildlife species. Essential for any pharmacology or treatment dosing content. Elsevier; institutional access via Evolve.
+
+10. **CWR Exam Handbook (2023, free PDF)** — Meta-source: the profession's own reading list. Validates which texts are considered authoritative. Free and citable as evidence of professional consensus.
+
+---
+
+## High-Value Sources Warranting Institutional/Library Access
+
+The following paywalled sources have high return-on-investment for WildlifeStats and are worth pursuing through institutional subscriptions or library access:
+
+- **Journal of Wildlife Diseases** (BioOne) — The premier peer-reviewed journal in the field. WildlifeStats should pursue institutional access; individual article purchase or university library access is the realistic path. ~$1,200–2,000/year institutional.
+- **Journal of Wildlife Rehabilitation** (IWRC membership, $54/year) — Low cost, high value. A $54 IWRC membership unlocks the archive. Strongly recommended.
+- **Fowler's Zoo and Wild Animal Medicine series** (Elsevier) — Vols. 8 & 9 together cover the full zoo/wild animal medicine canon. Elsevier institutional access or volume purchase (~$150 each used).
+- **Hand-Rearing Birds 2nd ed.** (Wiley, ~$120) — Single-purchase reference; worth acquiring for the library.
+- **NWRA/IWRC Standards 5th ed.** (NWRA, $40 print) — Should be a base reference for any WildlifeStats clinical content.
+- **Carpenter's Exotic Animal Formulary 6th ed.** (Elsevier, ~$70 ebook) — Essential for any clinical dosing content.
+
+---
+
+## Gaps and Market Observations
+
+1. **No canonical national wildlife rehabilitation textbook for finders/the general public.** The current literature serves rehabilitators and veterinarians. There is no authoritative, nationally recognized, freely accessible guide for the member of the public who finds an injured animal — explaining what to do in the first hour, when to intervene vs. leave alone, how to safely contain the animal, and who to call. This is a significant content gap that WildlifeStats could fill with evidence-based, species-specific intake guidance pages. No incumbent publisher owns this space.
+
+2. **No single comprehensive US songbird rehabilitation manual.** Hand-rearing protocols for passerines are scattered across Hand-Rearing Birds, the Principles of Wildlife Rehabilitation, and journal articles. A dedicated national songbird rehab manual does not exist. Gap confirmed across all sources reviewed.
+
+3. **Hummingbird and swift rehabilitation is journal-article-only.** There is no book-length treatment of hummingbird or swift rehabilitation. Protocols are held in specialty networks (Hummingbird Society, Denny Inman's swift work) and individual IWRC course materials. This is a significant content gap for WildlifeStats species pages.
+
+4. **Lindsay & Burnham raptor handbook** is frequently cited by older rehabilitators as an out-of-print reference but could not be confirmed as a standalone published title. The most likely candidate is the NWRA/IWRC-era Raptor Rehabilitation pocket guide or content within the older Minimum Standards editions. Raptor rehabilitation best practices are now dispersed across The Raptor Center (U of MN) publications, Lierz (2006), and the CWR reading list.
+
+5. **State-specific regulatory gap.** No single authoritative compilation of state-level wildlife rehabilitation regulations exists in print or online. This is an ongoing maintenance burden for the field and a potential WildlifeStats database product (state-by-state permit requirements, species restrictions, reporting obligations).
+
+6. **Free clinical protocols for marine mammals are notably absent** from the general rehabilitation literature — they exist within NOAA/NMFS network documentation and the Marine Mammal Center, but not in a freely citable public-facing format comparable to the USGS avian field manual.
+
+7. **Outcome data standard does not exist.** There is no nationally standardized outcomes reporting framework analogous to a medical registry. USFWS annual reports collect admission/disposition data but not outcomes by injury type. This is the core WildlifeStats opportunity — building what does not yet exist.

@@ -1,0 +1,1236 @@
+# University Extension + Veterinary School Wildlife Catalog
+# WildlifeStats National Research Framework — Authoritative Sources Tier 2
+# Compiled: 2025
+# Coverage: Cooperative Extension programs, veterinary school wildlife clinics,
+#           federal research institutions, conservation science centers.
+#
+# Quality tier key:
+#   GOLD     — prolific, peer-reviewed, publicly archived, actively updated
+#   SILVER   — solid but narrower scope or smaller catalog
+#   BRONZE   — present and credible but thin offerings or limited public access
+
+---
+
+# ============================================================
+# COOPERATIVE EXTENSION PROGRAMS
+# ============================================================
+
+- slug: uf-ifas-extension-wildlife
+  institution: "University of Florida"
+  program: "UF/IFAS Extension — Wildlife"
+  type: "cooperative_extension"
+  quality_tier: GOLD
+  primary_url: "https://ask.ifas.ufl.edu"
+  publications_url: "https://ask.ifas.ufl.edu/collections/series_wildlife_of_florida"
+  edis_url: "https://edis.ifas.ufl.edu/topic/wildlife"
+  notable_publications:
+    - title: "Wildlife of Florida Factsheets (18-publication series)"
+      url: "https://ask.ifas.ufl.edu/collections/series_wildlife_of_florida"
+      type: "fact_sheet"
+      species_covered: "Florida-specific vertebrates — armadillo, burrowing owl, Florida scrub-jay, manatee, gopher tortoise, and more"
+      year: 2023
+    - title: "Living With Wildlife in Florida"
+      url: "https://ask.ifas.ufl.edu/publication/WC185"
+      type: "bulletin"
+      species_covered: "general human-wildlife conflict, urban wildlife"
+      year: 2022
+    - title: "EDIS Wildlife & Ecology publications archive (1,000+ documents)"
+      url: "https://edis.ifas.ufl.edu/department/wec"
+      type: "fact_sheet"
+      species_covered: "full breadth — reptiles, birds, mammals, invertebrates, aquatic species"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "UF/IFAS Wildlife Ecology and Conservation Department"
+    email: "https://edis.ifas.ufl.edu/contact"
+  notes: >
+    GOLD STANDARD. The largest and most comprehensive open-access wildlife extension
+    publication repository in the United States. EDIS (Electronic Data Information
+    Source) hosts 1,000+ peer-reviewed wildlife documents, all freely downloadable as
+    PDFs. Topics span human-wildlife conflict, species ID, habitat management,
+    disease, venomous species, and exotic/invasive species. Florida's biodiversity
+    (reptiles, subtropical birds, marine mammals) gives this collection unique coverage
+    not found elsewhere. Every wildlife rehab content project should prioritize IFAS.
+  source_urls:
+    - "https://ask.ifas.ufl.edu/collections/series_wildlife_of_florida"
+    - "https://edis.ifas.ufl.edu/topic/wildlife"
+    - "https://ask.ifas.ufl.edu/publications"
+
+- slug: penn-state-extension-wildlife
+  institution: "Penn State University"
+  program: "Penn State Extension — Wildlife"
+  type: "cooperative_extension"
+  quality_tier: GOLD
+  primary_url: "https://extension.psu.edu"
+  publications_url: "https://extension.psu.edu/animals-and-livestock/wildlife"
+  notable_publications:
+    - title: "White-tailed Deer Hide and Seek (video + research brief)"
+      url: "https://extension.psu.edu/white-tailed-deer-hide-and-seek/"
+      type: "video"
+      species_covered: "white-tailed deer"
+      year: 2023
+    - title: "Pennsylvania Wildlife Series (multiple fact sheets)"
+      url: "https://extension.psu.edu/animals-and-livestock/wildlife"
+      type: "fact_sheet"
+      species_covered: "deer, turkey, bear, furbearers, birds, reptiles"
+      year: 2024
+    - title: "Managing White-tailed Deer in Forest Habitats"
+      url: "https://greytowers.org/wp-content/uploads/From-the-Woods_White-Tailed_Deer_PennStateExt.pdf"
+      type: "bulletin"
+      species_covered: "white-tailed deer"
+      year: 2022
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "Sanford S. Smith, Ph.D. (Natural Resources & Youth Education)"
+    email: "extension@psu.edu"
+  notes: >
+    GOLD STANDARD for the Northeast. Penn State's wildlife extension is backed by the
+    USGS Pennsylvania Cooperative Fish and Wildlife Research Unit embedded on campus,
+    giving publications genuine research pedigree. Strong on white-tailed deer biology,
+    PA wildlife management, and forest-dwelling species. Publications are clear, well-
+    illustrated, and freely downloadable. Also produces video content (YouTube/extension
+    site) covering deer, bird habitat, and backyard wildlife. One of the better Northeast
+    extension sources for deer and turkey management.
+  source_urls:
+    - "https://extension.psu.edu/animals-and-livestock/wildlife"
+    - "https://extension.psu.edu/white-tailed-deer-hide-and-seek/"
+
+- slug: uc-anr-extension-wildlife
+  institution: "University of California"
+  program: "UC Agriculture & Natural Resources (ANR) — Wildlife"
+  type: "cooperative_extension"
+  quality_tier: GOLD
+  primary_url: "https://www.ucanr.edu"
+  publications_url: "https://ipm.ucanr.edu/home-and-landscape/"
+  pest_notes_url: "https://ipm.ucanr.edu/PMG/PESTNOTES/"
+  notable_publications:
+    - title: "Pest Notes: Wildlife series (40+ species)"
+      url: "https://ipm.ucanr.edu/PMG/PESTNOTES/"
+      type: "fact_sheet"
+      species_covered: "deer, coyotes, raccoons, skunks, squirrels, gophers, raptors, snakes, black bears, mountain lions"
+      year: 2024
+    - title: "Wildlife Pest Management Notes (professional series)"
+      url: "https://anrcatalog.ucanr.edu/Series.aspx?seriesname=Wildlife+Pest+Management+Notes"
+      type: "bulletin"
+      species_covered: "agricultural and urban wildlife pests — California-specific"
+      year: 2023
+    - title: "California Agriculture Journal — wildlife and natural resources issues"
+      url: "https://calag.ucanr.edu"
+      type: "journal_article"
+      species_covered: "various California wildlife, invasive species, habitat management"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "UC ANR Livestock and Natural Resources Workgroup"
+    email: "https://www.ucanr.edu/contact/"
+  notes: >
+    GOLD STANDARD for the West Coast and California-specific wildlife. The IPM Pest
+    Notes series is exceptionally well-produced — each note is authoritative,
+    peer-reviewed by UC specialists, and covers identification, behavior, damage, and
+    management. Critical for mountain lions, ground squirrels, deer management, and
+    California endemic species not covered by Midwestern/Eastern programs. The ANR
+    catalog also includes professional-grade wildlife pest management handbooks.
+    California Agriculture journal articles are peer-reviewed and open-access.
+  source_urls:
+    - "https://ipm.ucanr.edu/home-and-landscape/"
+    - "https://ucanr.edu/site/livestock-and-natural-resources"
+    - "https://www.ucanr.edu"
+
+- slug: ncstate-extension-wildlife
+  institution: "North Carolina State University"
+  program: "NC State Cooperative Extension — Wildlife"
+  type: "cooperative_extension"
+  quality_tier: GOLD
+  primary_url: "https://content.ces.ncsu.edu"
+  publications_url: "https://content.ces.ncsu.edu/catalog/series/127/working-with-wildlife"
+  notable_publications:
+    - title: "Working With Wildlife series (WWW series, 24+ publications)"
+      url: "https://content.ces.ncsu.edu/catalog/series/127/working-with-wildlife"
+      type: "fact_sheet"
+      species_covered: "black bear, cottontail, gray squirrel, white-tailed deer, wild turkey, bats, bobwhite quail, beavers, Canada geese, coyotes"
+      year: 2023
+    - title: "Urban Wildlife series"
+      url: "https://content.ces.ncsu.edu/catalog/series/114/urban-wildlife"
+      type: "fact_sheet"
+      species_covered: "urban wildlife — native plants, bird feeders, butterflies, hummingbirds, songbird nest boxes"
+      year: 2023
+    - title: "Landscaping for Wildlife with Native Plants"
+      url: "https://content.ces.ncsu.edu/landscaping-for-wildlife-with-native-plants"
+      type: "bulletin"
+      species_covered: "general habitat enhancement, pollinators, birds, mammals"
+      year: 2022
+    - title: "Forestry and Wildlife publications (Extension Forestry)"
+      url: "https://forestry.ces.ncsu.edu/forestry-wildlife/"
+      type: "fact_sheet"
+      species_covered: "bats, black bear, bobwhite quail, gray squirrel, turkey, deer, rabbits, endangered species"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "Christopher Moorman, Ph.D. (Wildlife Extension Specialist)"
+    email: "https://content.ces.ncsu.edu/contact"
+  notes: >
+    GOLD STANDARD for the Southeast. NC State's Working With Wildlife series and Urban
+    Wildlife series are among the most cited wildlife extension publications in the
+    eastern US. Christopher Moorman's team produces genuinely practitioner-grade
+    content. Excellent coverage of Southeastern species — black bear, bobwhite quail,
+    wild turkey, woodland management. Extension Forestry site has species-by-species
+    habitat management guides. Strong on native plant landscaping for wildlife.
+  source_urls:
+    - "https://content.ces.ncsu.edu/catalog/series/127/working-with-wildlife"
+    - "https://content.ces.ncsu.edu/catalog/series/114/urban-wildlife"
+    - "https://forestry.ces.ncsu.edu/forestry-wildlife/"
+
+- slug: texas-am-agrilife-wildlife
+  institution: "Texas A&M University"
+  program: "Texas A&M AgriLife Extension — Wildlife & Fisheries"
+  type: "cooperative_extension"
+  quality_tier: GOLD
+  primary_url: "https://agrilifeextension.tamu.edu/assets/animals-livestock/wildlife/"
+  publications_url: "https://wildlife.tamu.edu/publications/popular-publications/"
+  notable_publications:
+    - title: "White-tailed Deer series (20+ regional publications)"
+      url: "https://wildlife.tamu.edu/publications/popular-publications/deer/"
+      type: "bulletin"
+      species_covered: "white-tailed deer — biology, nutrition, habitat management, census techniques, regional variants"
+      year: 2024
+    - title: "Managing Coyotes on School Grounds"
+      url: "https://agrilifeextension.tamu.edu/assets/animals-livestock/wildlife/"
+      type: "fact_sheet"
+      species_covered: "coyote"
+      year: 2023
+    - title: "Feral Hog Management publications"
+      url: "https://feralhogs.tamu.edu/resources/publications/"
+      type: "bulletin"
+      species_covered: "feral hog (Sus scrofa)"
+      year: 2024
+    - title: "Barn Owl publication"
+      url: "https://agrilifeextension.tamu.edu/assets/animals-livestock/wildlife/"
+      type: "fact_sheet"
+      species_covered: "barn owl (rodent control, conservation)"
+      year: 2023
+    - title: "Habitat Monitoring for Quail on Texas Rangelands"
+      url: "https://wildlife.tamu.edu/publications/popular-publications/"
+      type: "bulletin"
+      species_covered: "bobwhite quail, scaled quail"
+      year: 2023
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "AgriLife Extension Wildlife and Fisheries program"
+    email: "https://agrilifeextension.tamu.edu/contact/"
+  notes: >
+    GOLD STANDARD for Texas and the South-Central US. Texas A&M's wildlife extension
+    is deep on deer management (white-tailed and mule deer), game management, ranch
+    wildlife, quail, and feral hog management. Feral hog content is best-in-class
+    nationally. Regional white-tailed deer guides are highly specific to ecoregion
+    (South Texas, Edwards Plateau, Cross Timbers, East Texas), making them
+    exceptionally useful for Texas rehab practitioners. Also a good source for
+    waterbird, shorebird, and coastal wildlife management content.
+  source_urls:
+    - "https://agrilifeextension.tamu.edu/assets/animals-livestock/wildlife/"
+    - "https://wildlife.tamu.edu/publications/popular-publications/"
+
+- slug: mississippi-state-extension-wildlife
+  institution: "Mississippi State University"
+  program: "MSU Extension — Wildlife"
+  type: "cooperative_extension"
+  quality_tier: SILVER
+  primary_url: "https://extension.msstate.edu/natural-resources/wildlife"
+  publications_url: "https://extension.msstate.edu/publications"
+  fwrc_publications_url: "https://www.fwrc.msstate.edu/publications/"
+  notable_publications:
+    - title: "FWRC Research Publications (Forest and Wildlife Research Center)"
+      url: "https://www.fwrc.msstate.edu/publications/"
+      type: "journal_article"
+      species_covered: "Southeastern wildlife — deer, turkey, bobwhite quail, waterfowl, forest species"
+      year: 2026
+    - title: "Wildlife management and habitat fact sheets"
+      url: "https://extension.msstate.edu/natural-resources/wildlife"
+      type: "fact_sheet"
+      species_covered: "deer, turkey, waterfowl, small game — Mississippi-specific"
+      year: 2023
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "MSU Extension Natural Resources Program"
+    email: "https://extension.msstate.edu/contact"
+  notes: >
+    SILVER. The MSU extension wildlife content is solid and covers Mississippi-specific
+    game species and habitat management, but the public-facing publication catalog is
+    thinner than peers like NC State or UF/IFAS. The Forest and Wildlife Research
+    Center (FWRC) produces high-quality peer-reviewed journal articles but these are
+    more academic than extension-style fact sheets. Note that MSU College of Veterinary
+    Medicine is separate and has a teaching hospital. Extension wildlife coverage is
+    adequate but not exceptional.
+  source_urls:
+    - "https://extension.msstate.edu/natural-resources/wildlife"
+    - "https://www.fwrc.msstate.edu/publications/"
+
+- slug: uga-extension-wildlife
+  institution: "University of Georgia"
+  program: "UGA Cooperative Extension / Warnell School Outreach — Wildlife"
+  type: "cooperative_extension"
+  quality_tier: SILVER
+  primary_url: "https://extension.uga.edu/topic-areas/environment-natural-resources/wildlife.html"
+  publications_url: "https://warnelloutreach.org"
+  notable_publications:
+    - title: "Nuisance Wildlife publications and videos (Warnell Outreach)"
+      url: "https://warnelloutreach.org/nuisance-wildlife/"
+      type: "fact_sheet"
+      species_covered: "nuisance wildlife — exclusion, removal, conflict resolution for Georgia species"
+      year: 2023
+    - title: "UGA Extension Wildlife topic area publications"
+      url: "https://extension.uga.edu/topic-areas/environment-natural-resources/wildlife.html"
+      type: "fact_sheet"
+      species_covered: "birds, mammals, reptiles, habitat management — Georgia context"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "Michel Kohl (Wildlife Extension Specialist, Warnell)"
+    email: "mkohl@uga.edu"
+  notes: >
+    SILVER. UGA Extension and the Warnell School of Forestry and Natural Resources
+    together produce credible wildlife extension content. Warnell Outreach's nuisance
+    wildlife series includes videos, which distinguish it from peers. Michel Kohl is a
+    nationally recognized wildlife extension specialist. The coverage is solid for
+    Southeast/Appalachian species. Not as voluminous as UF/IFAS or NC State but the
+    quality is high. Marcelo Jorge covers wildlife habitat management. Good for
+    Georgia-specific content.
+  source_urls:
+    - "https://extension.uga.edu/topic-areas/environment-natural-resources/wildlife.html"
+    - "https://warnelloutreach.org"
+    - "https://warnelloutreach.org/nuisance-wildlife/"
+
+- slug: cornell-cooperative-extension-wildlife
+  institution: "Cornell University"
+  program: "Cornell Cooperative Extension — Natural Resources"
+  type: "cooperative_extension"
+  quality_tier: SILVER
+  primary_url: "https://cals.cornell.edu/natural-resources-environment/outreach-extension"
+  publications_url: "https://blogs.cornell.edu/ccednrepub/blog/"
+  notable_publications:
+    - title: "Human-Black Bear Conflict Management Guide (48-page practitioner guide)"
+      url: "https://blogs.cornell.edu/ccednrepub/blog/"
+      type: "handbook"
+      species_covered: "American black bear"
+      year: 2022
+    - title: "Community-Based Deer Management Guide"
+      url: "https://blogs.cornell.edu/ccednrepub/blog/"
+      type: "handbook"
+      species_covered: "white-tailed deer, urban deer management"
+      year: 2022
+    - title: "Wildlife Habitat Enhancement Guide"
+      url: "https://blogs.cornell.edu/ccednrepub/blog/"
+      type: "bulletin"
+      species_covered: "general habitat enhancement for birds and mammals"
+      year: 2022
+  rehabilitator_training_program: false
+  wildlife_disease_lab: true  # Cornell Wildlife Health Lab (separate entry)
+  cwd_testing: true  # via Cornell Wildlife Health Lab
+  hpai_testing: true  # via Cornell CAHFS lab
+  contact:
+    program_lead: "Department of Natural Resources & the Environment, Cornell CALS"
+    email: "https://cals.cornell.edu/contact"
+  notes: >
+    SILVER for extension; however Cornell's overall wildlife content ecosystem is
+    exceptional when you include the Cornell Wildlife Health Lab (separate entry). The
+    CCE NR publications catalog has fewer titles than IFAS/NC State/Penn State but
+    what exists is very high quality — practitioner-grade guides for bear and deer
+    management stand out. The Cornell Lab of Ornithology (separate entity) adds bird
+    content depth. CCE serves New York State counties but publications are nationally
+    applicable.
+  source_urls:
+    - "https://cals.cornell.edu/natural-resources-environment/outreach-extension"
+    - "https://blogs.cornell.edu/ccednrepub/blog/"
+
+- slug: university-of-minnesota-extension-wildlife
+  institution: "University of Minnesota"
+  program: "University of Minnesota Extension — Natural Resources & Wildlife"
+  type: "cooperative_extension"
+  quality_tier: SILVER
+  primary_url: "https://extension.umn.edu/natural-resources"
+  publications_url: "https://extension.umn.edu/topic/wildlife"
+  notable_publications:
+    - title: "White-tailed Deer Damage to Orchards and Gardens"
+      url: "https://extension.umn.edu/planting-and-growing-guides/white-tailed-deer-damage"
+      type: "fact_sheet"
+      species_covered: "white-tailed deer"
+      year: 2024
+    - title: "Natural Resources extension education programs (broad catalog)"
+      url: "https://extension.umn.edu/natural-resources"
+      type: "fact_sheet"
+      species_covered: "Minnesota wildlife — deer, bear, wolves, waterfowl, grassland birds, invasive species"
+      year: 2024
+    - title: "Climate and Wildlife adaptation resources"
+      url: "https://extension.umn.edu/natural-resources"
+      type: "bulletin"
+      species_covered: "climate resilience, wildlife habitat"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "UMN Extension Natural Resources Team"
+    email: "https://extension.umn.edu/contact"
+  notes: >
+    SILVER. University of Minnesota Extension covers the full breadth of Minnesota
+    wildlife including wolves, waterfowl, grassland birds, and deer. The climate
+    adaptation content is among the best in the Midwest for wildlife context. The
+    Raptor Center at UMN (separate entry below) is the real gem for wildlife rehab
+    content. Extension natural resources content is solid but smaller in volume than
+    IFAS or Penn State.
+  source_urls:
+    - "https://extension.umn.edu/natural-resources"
+    - "https://extension.umn.edu/topic/wildlife"
+
+- slug: university-of-wisconsin-extension-wildlife
+  institution: "University of Wisconsin-Madison"
+  program: "UW-Madison Extension — Forestry & Wildlife"
+  type: "cooperative_extension"
+  quality_tier: SILVER
+  primary_url: "https://forestandwildlifeecology.wisc.edu/extension-and-outreach/"
+  publications_url: "https://forestry.extension.wisc.edu/publications/"
+  notable_publications:
+    - title: "UW Extension Forestry & Wildlife publications (alphabetical catalog)"
+      url: "https://forestry.extension.wisc.edu/publications/"
+      type: "fact_sheet"
+      species_covered: "Wisconsin wildlife — ruffed grouse, deer, wild turkey, beaver, coyote, songbirds, upland game"
+      year: 2024
+    - title: "Council on Forestry/Extension presentations and fact sheets"
+      url: "https://councilonforestry.wi.gov/Pages/Extension.aspx"
+      type: "bulletin"
+      species_covered: "forest management, wildlife habitat, timber harvesting for wildlife"
+      year: 2025
+  rehabilitator_training_program: false
+  wildlife_disease_lab: true  # UW-Madison School of Vet Med runs wildlife diagnostic work
+  cwd_testing: true  # Wisconsin is CWD-endemic; WVDL does testing
+  hpai_testing: true
+  contact:
+    program_lead: "UW-Madison Forest and Wildlife Ecology — Extension"
+    email: "https://forestandwildlifeecology.wisc.edu/contact/"
+  notes: >
+    SILVER. UW-Madison Extension integrates genuine research from the Department of
+    Forest and Wildlife Ecology. Publications are topical and regionally specific —
+    particularly for ruffed grouse, deer management, beaver conflicts, and forest
+    songbirds. The wildlife rehabilitation program at UW Veterinary Care (see vet school
+    entry) adds clinical depth. CWD is endemic in Wisconsin so the disease content is
+    uniquely informed.
+  source_urls:
+    - "https://forestry.extension.wisc.edu/publications/"
+    - "https://forestandwildlifeecology.wisc.edu/extension-and-outreach/"
+
+- slug: ohio-state-extension-wildlife
+  institution: "The Ohio State University"
+  program: "Ohio State University Extension — Wildlife"
+  type: "cooperative_extension"
+  quality_tier: SILVER
+  primary_url: "https://senr.osu.edu/extension-outreach/wildlife-wildlife-education"
+  publications_url: "https://ohioline.osu.edu/home"
+  ohio_woodland_stewards_url: "https://woodlandstewards.osu.edu/publications"
+  notable_publications:
+    - title: "Ohioline Wildlife fact sheets (searchable database)"
+      url: "https://ohioline.osu.edu/findafactsheet"
+      type: "fact_sheet"
+      species_covered: "deer, turkey, beaver, Canada geese, urban wildlife, backyard birds"
+      year: 2024
+    - title: "Ohio Woodland Stewards publications (forestry/wildlife)"
+      url: "https://woodlandstewards.osu.edu/publications"
+      type: "fact_sheet"
+      species_covered: "forest wildlife habitat, oak woodland, songbirds, spotted lanternfly, beech leaf disease"
+      year: 2025
+    - title: "SENR Wildlife Extension workshops and conference proceedings"
+      url: "https://senr.osu.edu/extension-outreach/wildlife-wildlife-education"
+      type: "bulletin"
+      species_covered: "wildlife habitat management, woodland management"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "SENR Wildlife Extension Program, Ohio State"
+    email: "https://senr.osu.edu/contact"
+  notes: >
+    SILVER. Ohio State's Ohioline is a solid searchable database of fact sheets across
+    all extension topics including wildlife. The Ohio Woodland Stewards program has
+    particularly good wildlife-habitat-forestry integration. Coverage of Great Lakes
+    region species is strong. SENR also offers Wildlife Management Education events
+    (courses, workshops, conferences) that generate quality content. Volume is
+    respectable but depth doesn't match the gold-standard programs.
+  source_urls:
+    - "https://ohioline.osu.edu/home"
+    - "https://senr.osu.edu/extension-outreach/wildlife-wildlife-education"
+    - "https://woodlandstewards.osu.edu/publications"
+
+- slug: michigan-state-extension-wildlife
+  institution: "Michigan State University"
+  program: "MSU Extension — Fisheries & Wildlife"
+  type: "cooperative_extension"
+  quality_tier: SILVER
+  primary_url: "https://www.canr.msu.edu/fisheries_wildlife"
+  publications_url: "https://www.canr.msu.edu/fisheries_wildlife/publications"
+  notable_publications:
+    - title: "Michigan Conservation Stewards Program resources"
+      url: "https://www.canr.msu.edu/fisheries_wildlife"
+      type: "handbook"
+      species_covered: "Michigan wildlife and natural resource stewardship"
+      year: 2026
+    - title: "Aquatic invasive species monitoring (iNaturalist program)"
+      url: "https://www.canr.msu.edu/fisheries_wildlife"
+      type: "bulletin"
+      species_covered: "aquatic invasive species, Great Lakes species"
+      year: 2026
+    - title: "MSU Extension Fisheries & Wildlife publications archive"
+      url: "https://archive.lib.msu.edu/DMC/extension_publications/"
+      type: "fact_sheet"
+      species_covered: "Michigan wildlife, deer, birds, furbearers, waterfowl"
+      year: 2023
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "MSU Extension Fisheries and Wildlife Team"
+    email: "https://www.canr.msu.edu/contact"
+  notes: >
+    SILVER. MSU Extension Fisheries and Wildlife has strong programming around citizen
+    science, conservation stewardship, and Great Lakes ecology. The Michigan Natural
+    Features Inventory (MNFI) publications complement the extension catalog. Known for
+    aquatic species content and invasive species work. The main publication library has
+    respectable depth for Michigan-specific content but is not as large as IFAS or
+    Penn State. The MSU campus is also home to major CWD research programs.
+  source_urls:
+    - "https://www.canr.msu.edu/fisheries_wildlife"
+    - "https://archive.lib.msu.edu/DMC/extension_publications/"
+
+- slug: iowa-state-extension-wildlife
+  institution: "Iowa State University"
+  program: "Iowa State University Extension — Natural Resources & Wildlife"
+  type: "cooperative_extension"
+  quality_tier: SILVER
+  primary_url: "https://naturalresources.extension.iastate.edu/wildlife"
+  publications_url: "https://naturalresources.extension.iastate.edu/resources"
+  notable_publications:
+    - title: "4 Things for Wildlife series (forests, pastures, yards, farms, lawns)"
+      url: "https://naturalresources.extension.iastate.edu/resources"
+      type: "fact_sheet"
+      species_covered: "general habitat improvement for wildlife across land types"
+      year: 2024
+    - title: "Wildlife Conflict Resolution resources"
+      url: "https://naturalresources.extension.iastate.edu/wildlife"
+      type: "fact_sheet"
+      species_covered: "problem wildlife — deer, raccoon, coyote, beaver, Canada geese"
+      year: 2024
+    - title: "Iowa wildlife species information pages"
+      url: "https://naturalresources.extension.iastate.edu/wildlife"
+      type: "fact_sheet"
+      species_covered: "Iowa mammals, birds, reptiles, amphibians"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "Iowa State Extension Natural Resources team"
+    email: "https://naturalresources.extension.iastate.edu/contact"
+  notes: >
+    SILVER. Iowa State's "4 Things for Wildlife" series is a clever, accessible format
+    for habitat improvement content. The wildlife conflict resolution material is
+    practical and well-organized for county-level use. Iowa's agricultural context
+    means strong content on farm wildlife, grassland birds (including pheasant and
+    quail), and agricultural edge habitat. Not as voluminous as top-tier programs but
+    consistently quality.
+  source_urls:
+    - "https://naturalresources.extension.iastate.edu/wildlife"
+    - "https://naturalresources.extension.iastate.edu/resources"
+
+- slug: oklahoma-state-extension-wildlife
+  institution: "Oklahoma State University"
+  program: "Oklahoma State University Cooperative Extension — Wildlife"
+  type: "cooperative_extension"
+  quality_tier: SILVER
+  primary_url: "https://extension.okstate.edu"
+  publications_url: "https://extension.okstate.edu/topic/wildlife.html"
+  notable_publications:
+    - title: "OSU Extension Wildlife fact sheets and circular publications"
+      url: "https://extension.okstate.edu/topic/wildlife.html"
+      type: "fact_sheet"
+      species_covered: "Oklahoma wildlife — deer, turkey, quail, furbearers, waterfowl"
+      year: 2024
+    - title: "E-publications on wildlife management for landowners"
+      url: "https://extension.okstate.edu"
+      type: "bulletin"
+      species_covered: "range wildlife, grassland species, dove, quail"
+      year: 2023
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "OSU Extension Natural Resources Program"
+    email: "https://extension.okstate.edu/contact.html"
+  notes: >
+    SILVER. OSU Extension has a credible fact sheet library but it is smaller than
+    comparable land-grant programs. Strong on Great Plains/Southern Plains species —
+    dove, quail, deer, turkey, and range wildlife. The Oklahoma wildlife content is
+    geographically distinct from most other programs, covering the ecotone between the
+    Southeast, Great Plains, and Texas Hill Country. Quality is sound but volume and
+    accessibility of publications are limited compared to IFAS or Penn State.
+  source_urls:
+    - "https://extension.okstate.edu"
+    - "https://extension.okstate.edu/topic/wildlife.html"
+
+- slug: south-dakota-state-extension-wildlife
+  institution: "South Dakota State University"
+  program: "SDSU Extension — Wildlife"
+  type: "cooperative_extension"
+  quality_tier: BRONZE
+  primary_url: "https://extension.sdstate.edu"
+  publications_url: "https://extension.sdstate.edu/natural-resources"
+  notable_publications:
+    - title: "SDSU Extension natural resources fact sheets (limited wildlife-specific)"
+      url: "https://extension.sdstate.edu"
+      type: "fact_sheet"
+      species_covered: "pheasant, deer, waterfowl, grassland birds — Great Plains focus"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "SDSU Extension Natural Resources"
+    email: "https://extension.sdstate.edu/contact"
+  notes: >
+    BRONZE. SDSU Extension is a credible source but the publicly accessible wildlife
+    publication catalog is thin compared to major land-grant peers. The main extension
+    homepage doesn't prominently feature wildlife-specific content; the most relevant
+    topics (pheasant habitat, grassland bird management) are aligned with South Dakota's
+    major wildlife management priorities. Useful primarily for Great Plains and northern
+    plains species. The SD Game, Fish and Parks has more public wildlife content than
+    the extension program itself.
+  source_urls:
+    - "https://extension.sdstate.edu"
+
+# ============================================================
+# VETERINARY SCHOOLS WITH WILDLIFE CLINICS
+# ============================================================
+
+- slug: cornell-wildlife-health-lab
+  institution: "Cornell University"
+  program: "Cornell Wildlife Health Lab — College of Veterinary Medicine"
+  type: "veterinary_school"
+  quality_tier: GOLD
+  primary_url: "https://cwhl.vet.cornell.edu"
+  publications_url: "https://cwhl.vet.cornell.edu/articles"
+  notable_publications:
+    - title: "Chronic Wasting Disease resource hub"
+      url: "https://cwhl.vet.cornell.edu/resource/chronic-wasting-disease"
+      type: "bulletin"
+      species_covered: "white-tailed deer, mule deer, elk, moose"
+      year: 2024
+    - title: "CWD Testing Process (hunter education video)"
+      url: "https://cwhl.vet.cornell.edu/resource/chronic-wasting-disease-cwd-testing-process-video"
+      type: "video"
+      species_covered: "white-tailed deer, CWD surveillance"
+      year: 2023
+    - title: "Hunter CWD Testing guide"
+      url: "https://cwhl.vet.cornell.edu/article/hunter-cwd-testing"
+      type: "fact_sheet"
+      species_covered: "CWD, deer, hunter surveillance"
+      year: 2024
+    - title: "Wildlife Health Topics series (eDNA, surveillance, disease information)"
+      url: "https://cwhl.vet.cornell.edu"
+      type: "bulletin"
+      species_covered: "surveillance tools, population impacts, HPAI, CWD, eDNA monitoring"
+      year: 2025
+  rehabilitator_training_program: false
+  wildlife_disease_lab: true
+  cwd_testing: true
+  hpai_testing: true
+  contact:
+    program_lead: "Cornell Wildlife Health Lab (Cornell University College of Veterinary Medicine)"
+    email: "https://cwhl.vet.cornell.edu/contact"
+  notes: >
+    GOLD STANDARD for wildlife disease surveillance and diagnostics in the Northeast.
+    The CWHL is a formal partnership with the New York State DEC and conducts statewide
+    wildlife disease surveillance. Their CWD content is among the best-written and most
+    accessible to the public. The eDNA program and surveillance tools content represent
+    cutting-edge wildlife health monitoring. Novel diagnostic tool development makes
+    their publications technically current. Strong science communication approach —
+    resources are written for hunters, managers, and the public.
+  source_urls:
+    - "https://cwhl.vet.cornell.edu"
+    - "https://cwhl.vet.cornell.edu/resource/chronic-wasting-disease"
+    - "https://wildlife.cornell.edu/our-work/cornell-wildlife-health-lab"
+
+- slug: university-minnesota-raptor-center
+  institution: "University of Minnesota"
+  program: "The Raptor Center — College of Veterinary Medicine"
+  type: "veterinary_school"
+  quality_tier: GOLD
+  primary_url: "https://raptor.umn.edu"
+  publications_url: "https://raptor.umn.edu/raptor-resources"
+  training_url: "https://raptor.umn.edu/training-opportunities/raptor-academy"
+  notable_publications:
+    - title: "Raptor Academy — training modules for wildlife rehabilitators and falconers"
+      url: "https://raptor.umn.edu/training-opportunities/raptor-academy"
+      type: "webinar"
+      species_covered: "raptors — handling, medical care, rehabilitation, lead poisoning, HPAI"
+      year: 2024
+    - title: "What to do with an Injured Raptor (public guidance)"
+      url: "https://raptor.umn.edu/injured-bird"
+      type: "fact_sheet"
+      species_covered: "raptors (all North American species)"
+      year: 2024
+    - title: "HPAI Tracking Data and Resources"
+      url: "https://raptor.umn.edu"
+      type: "bulletin"
+      species_covered: "HPAI in raptors, surveillance data"
+      year: 2024
+  rehabilitator_training_program: "https://raptor.umn.edu/training-opportunities/raptor-academy"
+  wildlife_disease_lab: true
+  cwd_testing: false
+  hpai_testing: true
+  contact:
+    program_lead: "The Raptor Center, UMN College of Veterinary Medicine"
+    email: "https://raptor.umn.edu/contact"
+  notes: >
+    GOLD STANDARD for raptor rehabilitation nationally. The Raptor Center is one of
+    the pre-eminent raptor care and rehabilitation institutions in the world — treating
+    approximately 800+ raptors per year. Raptor Academy offers the most comprehensive
+    formal training program for wildlife rehabilitators working with raptors. Their
+    HPAI tracking data has been nationally cited. Lead toxicosis research and
+    publications from The Raptor Center have driven policy changes in ammunition. An
+    essential partnership target for any raptor rehabilitation content.
+  source_urls:
+    - "https://raptor.umn.edu"
+    - "https://raptor.umn.edu/training-opportunities/raptor-academy"
+
+- slug: tufts-wildlife-clinic
+  institution: "Tufts University"
+  program: "Wildlife Medicine Program — Cummings School of Veterinary Medicine"
+  type: "veterinary_school"
+  quality_tier: SILVER
+  primary_url: "https://vet.tufts.edu/special-programs/wildlife-and-conservation-medicine-signature-opportunity/wildlife-medicine-program"
+  publications_url: "https://vet.tufts.edu"
+  notable_publications:
+    - title: "Wildlife and Conservation Medicine curriculum resources"
+      url: "https://vet.tufts.edu/special-programs/wildlife-and-conservation-medicine-signature-opportunity/wildlife-medicine-program"
+      type: "bulletin"
+      species_covered: "amphibians, reptiles, birds, mammals — native New England species"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: true
+  cwd_testing: false
+  hpai_testing: true
+  contact:
+    program_lead: "Wildlife Medicine Program, Cummings School of Veterinary Medicine"
+    email: "https://vet.tufts.edu/contact"
+  notes: >
+    SILVER. Tufts Wildlife Medicine Program is a respected academic training program —
+    the curriculum signature opportunity trains DVM students in wildlife medicine. The
+    school has a public-facing wildlife clinic presence but the publicly available
+    publications are limited compared to Cornell CWHL or UMN Raptor Center. Strong
+    reputation in wildlife-exotic medicine education. New England wildlife context.
+    Greater content depth exists in research publications than public extension material.
+  source_urls:
+    - "https://vet.tufts.edu/special-programs/wildlife-and-conservation-medicine-signature-opportunity/wildlife-medicine-program"
+
+- slug: uc-davis-california-raptor-center
+  institution: "University of California, Davis"
+  program: "California Raptor Center — One Health Institute, UC Davis"
+  type: "veterinary_school"
+  quality_tier: SILVER
+  primary_url: "https://ohi.vetmed.ucdavis.edu/centers/california-raptor-center"
+  publications_url: "https://ohi.vetmed.ucdavis.edu/centers/california-raptor-center"
+  notable_publications:
+    - title: "California Raptor Center rehabilitation guidelines"
+      url: "https://ohi.vetmed.ucdavis.edu/centers/california-raptor-center"
+      type: "bulletin"
+      species_covered: "raptors — primarily California species including golden eagle, peregrine falcon, red-tailed hawk"
+      year: 2024
+  rehabilitator_training_program: true  # https://ohi.vetmed.ucdavis.edu/centers/california-raptor-center
+  wildlife_disease_lab: true
+  cwd_testing: false
+  hpai_testing: true
+  contact:
+    program_lead: "California Raptor Center, UC Davis School of Veterinary Medicine"
+    email: "https://ohi.vetmed.ucdavis.edu/contact"
+  notes: >
+    SILVER. The CRC treats 100-200 raptors annually, integrating with the UC Davis VMTH
+    for complex cases. About 60% of treated birds are released. Volunteers receive
+    training in raptor care. The One Health Institute framing positions the center in
+    the broader ecology/public health nexus. Limited public-facing publications but
+    strong clinical expertise. Good partnership target for California raptor rehab
+    content.
+  source_urls:
+    - "https://ohi.vetmed.ucdavis.edu/centers/california-raptor-center"
+    - "https://en.wikipedia.org/wiki/California_Raptor_Center"
+
+- slug: colorado-state-veterinary-diagnostic-lab
+  institution: "Colorado State University"
+  program: "Veterinary Diagnostic Laboratories — CSU College of Veterinary Medicine"
+  type: "veterinary_school"
+  quality_tier: SILVER
+  primary_url: "https://vdlexternal.cvmbs.colostate.edu"
+  publications_url: "https://csuveterinaryhealth.org/veterinary-diagnostic-laboratories/"
+  notable_publications:
+    - title: "CWD diagnostic testing protocols and test information"
+      url: "https://vdlexternal.cvmbs.colostate.edu/PriceList/TestInfo?TestOfferingKey=6d6b8758-ec2a-48a5-817b-9af1ea853dcc&Species=Standard"
+      type: "bulletin"
+      species_covered: "CWD — deer, elk, moose"
+      year: 2024
+    - title: "NAHLN-approved laboratory test catalog"
+      url: "https://vdlexternal.cvmbs.colostate.edu/pricelist/pricelistview"
+      type: "fact_sheet"
+      species_covered: "multiple wildlife diseases — CWD, HPAI, brucellosis"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: true
+  cwd_testing: true
+  hpai_testing: true
+  contact:
+    program_lead: "CSU Veterinary Diagnostic Laboratories"
+    email: "https://csuveterinaryhealth.org/contact"
+  notes: >
+    SILVER. CSU VDL is a USDA NAHLN-approved laboratory for CWD and HPAI testing —
+    critical infrastructure for Colorado, which is heavily affected by CWD in mule deer
+    and white-tailed deer. The diagnostic lab is one of the national reference labs for
+    CWD, making it strategically important for any CWD-related content. Less of a
+    public-facing extension/publication operation and more of a diagnostic services
+    provider, but an essential institutional partner for disease surveillance data.
+  source_urls:
+    - "https://vdlexternal.cvmbs.colostate.edu"
+    - "https://csuveterinaryhealth.org/veterinary-diagnostic-laboratories/"
+    - "https://www.aphis.usda.gov/labs/nahln/approved-labs/cwd"
+
+- slug: auburn-southeastern-raptor-center
+  institution: "Auburn University"
+  program: "Southeastern Raptor Center — College of Veterinary Medicine"
+  type: "veterinary_school"
+  quality_tier: SILVER
+  primary_url: "https://www.vetmed.auburn.edu"
+  publications_url: "https://www.vetmed.auburn.edu/clinical-services/au-veterinary-clinic/"
+  notable_publications:
+    - title: "Auburn University Veterinary Clinic wildlife clinical resources"
+      url: "https://www.vetmed.auburn.edu/clinical-services/au-veterinary-clinic/"
+      type: "bulletin"
+      species_covered: "raptors, Southeastern wildlife species"
+      year: 2024
+  rehabilitator_training_program: true  # Raptor Center has rehabilitation programs
+  wildlife_disease_lab: true
+  cwd_testing: false
+  hpai_testing: true
+  contact:
+    program_lead: "Southeastern Raptor Center, Auburn University CVM"
+    email: "https://www.vetmed.auburn.edu/contact"
+  notes: >
+    SILVER. The Southeastern Raptor Center at Auburn is a significant raptor
+    rehabilitation facility in the Deep South, receiving birds from across the
+    southeastern US. The center trains student veterinarians and may accept volunteers.
+    Public-facing publication content is limited — the center is primarily a clinical
+    operation rather than an extension program. Strong partnership value for Alabama and
+    Gulf Coast raptor rehabilitation. Auburn CVM also has broader wildlife clinical
+    services.
+  source_urls:
+    - "https://www.vetmed.auburn.edu"
+    - "https://calendar.auburn.edu/southeastern_raptor_center"
+
+- slug: lsu-wildlife-hospital
+  institution: "Louisiana State University"
+  program: "Wildlife Hospital — LSU School of Veterinary Medicine"
+  type: "veterinary_school"
+  quality_tier: SILVER
+  primary_url: "https://www.lsu.edu/vetmed/veterinary_hospital/wildlife.php"
+  publications_url: "https://www.lsu.edu/vetmed/veterinary_hospital/wildlife.php"
+  notable_publications:
+    - title: "LSU Wildlife Hospital — caseload and expansion information"
+      url: "https://www.lsu.edu/vetmed/blog/2026/wildlife_expansion.php"
+      type: "bulletin"
+      species_covered: "Louisiana wildlife — waterbirds, turtles, raptors, mammals"
+      year: 2026
+  rehabilitator_training_program: false
+  wildlife_disease_lab: false
+  cwd_testing: false
+  hpai_testing: true
+  contact:
+    program_lead: "LSU School of Veterinary Medicine Wildlife Hospital"
+    email: "https://www.lsu.edu/vetmed/contact.php"
+  notes: >
+    SILVER. The LSU Wildlife Hospital is a significant clinical operation — receiving
+    approximately 1,600 wildlife cases annually with a ~73% release rate for treatable
+    cases. Strong in Gulf Coast waterbirds, turtles, Louisiana-specific species. The
+    2026 expansion announcement signals growth. Conservation medicine mission includes
+    research, education, and community engagement. Limited public-facing educational
+    publications but strong clinical expertise and unique Gulf Coast specialization.
+  source_urls:
+    - "https://www.lsu.edu/vetmed/veterinary_hospital/wildlife.php"
+    - "https://www.lsu.edu/vetmed/blog/2026/wildlife_expansion.php"
+
+- slug: university-tennessee-wildlife-exotic
+  institution: "University of Tennessee"
+  program: "Zoological Companion Animal Services — UT Veterinary Medical Center"
+  type: "veterinary_school"
+  quality_tier: BRONZE
+  primary_url: "https://vetmed.tennessee.edu/vmc/aezanimalhospital/"
+  publications_url: "https://vetmed.tennessee.edu"
+  notable_publications:
+    - title: "RHDV2 advisory — wild rabbit handling restrictions"
+      url: "https://vetmed.tennessee.edu/vmc/aezanimalhospital/"
+      type: "bulletin"
+      species_covered: "eastern cottontail rabbit (RHDV2 risk)"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: true
+  cwd_testing: false
+  hpai_testing: true
+  contact:
+    program_lead: "Zoological Companion Animal Service, UT College of Veterinary Medicine"
+    email: "https://vetmed.tennessee.edu/contact"
+  notes: >
+    BRONZE. UT's program is primarily exotic/zoological companion animal focused rather
+    than free-living wildlife rehabilitation. The RHDV2 advisory (no wild rabbits
+    accepted) is notable — directly relevant to rehabilitation intake policies. The
+    program covers birds, reptiles, ferrets, and other exotics but is not a major
+    wildlife rehabilitation or extension publication source. Useful primarily for
+    Tennessee practitioners needing referral guidance.
+  source_urls:
+    - "https://vetmed.tennessee.edu/vmc/aezanimalhospital/"
+
+- slug: uw-madison-wildlife-rehabilitation
+  institution: "University of Wisconsin-Madison"
+  program: "Special Species Service / Wild Work Program — UW Veterinary Care"
+  type: "veterinary_school"
+  quality_tier: SILVER
+  primary_url: "https://www.vetmed.wisc.edu/wild-work/"
+  publications_url: "https://uwveterinarycare.wisc.edu"
+  notable_publications:
+    - title: "Wild Work: Partnership wildlife rehabilitation program description"
+      url: "https://www.vetmed.wisc.edu/wild-work/"
+      type: "bulletin"
+      species_covered: "snapping turtle, fox, owl, songbirds — Wisconsin native wildlife"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: true
+  cwd_testing: true
+  hpai_testing: true
+  contact:
+    program_lead: "Special Species Service, UW Veterinary Care"
+    email: "https://uwveterinarycare.wisc.edu/contact/"
+  notes: >
+    SILVER. The UW Wild Work program is a formal partnership between UW Veterinary Care's
+    Special Species Service and the Dane County Humane Society Wildlife Center, together
+    serving nearly 4,000 animals annually. This is a well-documented public-facing
+    model for vet school-rehabilitator collaboration. Wisconsin WVDL is an important
+    CWD diagnostic resource given Wisconsin's endemic CWD situation. Limited stand-alone
+    publications but strong clinical model.
+  source_urls:
+    - "https://www.vetmed.wisc.edu/wild-work/"
+
+- slug: vmrcvm-wildlife-poultry
+  institution: "Virginia-Maryland Regional College of Veterinary Medicine"
+  program: "VMRCVM — Wildlife & Poultry Health"
+  type: "veterinary_school"
+  quality_tier: BRONZE
+  primary_url: "https://vetmed.vt.edu/index.html"
+  publications_url: "https://vetmed.vt.edu"
+  notable_publications:
+    - title: "VMRCVM clinical services and research publications"
+      url: "https://vetmed.vt.edu"
+      type: "bulletin"
+      species_covered: "poultry health, wildlife health, One Health"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: true
+  cwd_testing: false
+  hpai_testing: true
+  contact:
+    program_lead: "VMRCVM College of Veterinary Medicine"
+    email: "https://vetmed.vt.edu/contact.html"
+  notes: >
+    BRONZE for public wildlife extension content specifically — VMRCVM is a regional
+    college (Virginia Tech + University of Maryland) with strong poultry health and One
+    Health research. HPAI content is a particular strength given poultry-wildlife
+    interface. The Virginia-Maryland regional focus covers Appalachian, Chesapeake Bay,
+    and Mid-Atlantic wildlife. Public-facing wildlife extension publications are limited;
+    the institution is more research/clinical in orientation. Worth monitoring for HPAI
+    and poultry interface publications.
+  source_urls:
+    - "https://vetmed.vt.edu/index.html"
+
+# ============================================================
+# FEDERAL / PROFESSIONAL RESEARCH INSTITUTIONS
+# ============================================================
+
+- slug: usgs-national-wildlife-health-center
+  institution: "U.S. Geological Survey"
+  program: "National Wildlife Health Center (NWHC)"
+  type: "federal_research"
+  quality_tier: GOLD
+  primary_url: "https://www.usgs.gov/centers/nwhc"
+  publications_url: "https://www.usgs.gov/national-wildlife-health-center/publications"
+  notable_publications:
+    - title: "Wildlife Health Bulletins (distributed to resource agencies)"
+      url: "https://www.usgs.gov/national-wildlife-health-center/publications"
+      type: "bulletin"
+      species_covered: "all North American wildlife — disease threats of national significance"
+      year: 2024
+    - title: "Wildlife Disease Case Definitions Manual"
+      url: "https://www.usgs.gov/national-wildlife-health-center/publications"
+      type: "handbook"
+      species_covered: "standardized criteria for US/Canada wildlife disease diagnosis"
+      year: 2023
+    - title: "NWHC Disease Information pages (HPAI, CWD, WNS, plague, TPVD, etc.)"
+      url: "https://www.usgs.gov/centers/nwhc/science/disease-information"
+      type: "fact_sheet"
+      species_covered: "HPAI, CWD, white-nose syndrome in bats, plague, avian cholera, duck virus enteritis"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: true
+  cwd_testing: true
+  hpai_testing: true
+  contact:
+    program_lead: "USGS National Wildlife Health Center, Madison, WI"
+    email: "https://www.usgs.gov/centers/nwhc/connect"
+  notes: >
+    GOLD STANDARD for federal wildlife disease surveillance and diagnostics. NWHC is
+    the only federal laboratory dedicated to understanding and helping prevent the
+    effects of disease on North American wildlife populations. Publishes Wildlife Health
+    Bulletins that are essential reading for disease surveillance, and the Wildlife
+    Disease Case Definitions Manual is the authoritative reference for diagnosticians.
+    NWHC has been leading US response to CWD, HPAI H5N1, white-nose syndrome, and
+    other major wildlife disease events since 1975. The most authoritative single
+    federal source for wildlife disease content.
+  source_urls:
+    - "https://www.usgs.gov/centers/nwhc/about"
+    - "https://www.usgs.gov/national-wildlife-health-center/publications"
+
+- slug: usda-aphis-national-wildlife-research-center
+  institution: "USDA APHIS"
+  program: "National Wildlife Research Center (NWRC)"
+  type: "federal_research"
+  quality_tier: GOLD
+  primary_url: "https://www.aphis.usda.gov/national-wildlife-programs/nwrc"
+  publications_url: "https://www.aphis.usda.gov/national-wildlife-programs/nwrc"
+  notable_publications:
+    - title: "NWRC Research Areas publications (multiple topics)"
+      url: "https://www.aphis.usda.gov/national-wildlife-programs/nwrc/research-areas"
+      type: "journal_article"
+      species_covered: "CWD, feral swine, invasive species, birds (aviation safety, avian damage), aquaculture conflicts"
+      year: 2026
+    - title: "CWD Research Publications (Fort Collins team)"
+      url: "https://www.aphis.usda.gov/national-wildlife-programs/nwrc/research-areas"
+      type: "journal_article"
+      species_covered: "CWD in deer, elk, moose — epidemiology, management"
+      year: 2024
+    - title: "Feral Swine and Ungulates research series"
+      url: "https://www.aphis.usda.gov/national-wildlife-programs/nwrc/research-areas"
+      type: "journal_article"
+      species_covered: "feral hog (Sus scrofa), wildlife-livestock disease interface"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: true
+  cwd_testing: true
+  hpai_testing: true
+  contact:
+    program_lead: "USDA APHIS National Wildlife Research Center, Fort Collins, CO"
+    email: "https://www.aphis.usda.gov/contact"
+  notes: >
+    GOLD STANDARD for applied wildlife damage management and human-wildlife conflict
+    research. NWRC is the research arm of USDA Wildlife Services and is the leading
+    federal authority on wildlife damage management. Research areas include CWD, feral
+    swine, invasive species, aviation safety (bird strikes), agricultural damage,
+    aquaculture conflicts, and ecosystem health. Multiple satellite stations (Gainesville
+    FL for avian/invasive, Fargo ND for bird damage, Sandusky OH for aviation safety,
+    Starkville MS for aquaculture, Hilo HI for island species). Highly applied, policy-
+    relevant publications.
+  source_urls:
+    - "https://www.aphis.usda.gov/national-wildlife-programs/nwrc"
+    - "https://www.aphis.usda.gov/national-wildlife-programs/nwrc/research-areas"
+
+- slug: smithsonian-conservation-biology-institute
+  institution: "Smithsonian Institution"
+  program: "Smithsonian Conservation Biology Institute (SCBI)"
+  type: "conservation_research"
+  quality_tier: GOLD
+  primary_url: "https://nationalzoo.si.edu/conservation/about-scbi"
+  publications_url: "https://nationalzoo.si.edu/conservation"
+  notable_publications:
+    - title: "SCBI research publications — genomics, reproductive biology, epidemiology"
+      url: "https://nationalzoo.si.edu/conservation"
+      type: "journal_article"
+      species_covered: "endangered species — giant panda, black-footed ferret, cheetah, Asian elephant, clouded leopard, various North American endangered species"
+      year: 2024
+    - title: "Center for Species Survival resources"
+      url: "https://nationalzoo.si.edu/conservation/centers-species-survival"
+      type: "journal_article"
+      species_covered: "multiple taxonomic groups — mammals, birds, reptiles, amphibians"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: true
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "Smithsonian Conservation Biology Institute, Front Royal, VA"
+    email: "https://nationalzoo.si.edu/about/contact-us"
+  notes: >
+    GOLD STANDARD for captive management, reproductive science, and conservation
+    genomics. SCBI's 3,200-acre facility in Front Royal, VA is one of the world's
+    premier wildlife conservation research institutions. Focus is on endangered species,
+    ex-situ conservation, genome resource banks, and translocation science. Less
+    relevant for common species rehabilitation but essential for endangered species
+    management protocols, advanced reproductive technology, and conservation genetics
+    context. Publications are peer-reviewed, high-impact, and freely available through
+    the Smithsonian repository.
+  source_urls:
+    - "https://nationalzoo.si.edu/conservation/about-scbi"
+    - "https://nationalzoo.si.edu/conservation"
+
+- slug: san-diego-zoo-wildlife-alliance
+  institution: "San Diego Zoo Wildlife Alliance"
+  program: "SDZWA Research & Conservation Science"
+  type: "conservation_research"
+  quality_tier: GOLD
+  primary_url: "https://science.sandiegozoo.org"
+  publications_url: "https://science.sandiegozoo.org/publications"
+  notable_publications:
+    - title: "SDZWA Publications database (extensive peer-reviewed catalog)"
+      url: "https://science.sandiegozoo.org/publications"
+      type: "journal_article"
+      species_covered: "global wildlife — primates, carnivores, ungulates, birds, reptiles, amphibians; biobank research, genome sequencing"
+      year: 2024
+    - title: "Mountain Yellow-Legged Frog recovery program publications"
+      url: "https://science.sandiegozoo.org"
+      type: "journal_article"
+      species_covered: "mountain yellow-legged frog (Rana muscosa, R. sierrae) — ex-situ breeding"
+      year: 2024
+    - title: "131 Placental Mammal Genome sequencing project"
+      url: "https://science.sandiegozoo.org"
+      type: "journal_article"
+      species_covered: "global mammal species — genomics for conservation"
+      year: 2023
+    - title: "San Diego Zoo Global Biobanking publications"
+      url: "https://science.sandiegozoo.org/publications"
+      type: "journal_article"
+      species_covered: "biobanking, cryopreservation, wildlife medicine"
+      year: 2024
+  rehabilitator_training_program: false
+  wildlife_disease_lab: true
+  cwd_testing: false
+  hpai_testing: false
+  contact:
+    program_lead: "SDZWA Science Division"
+    email: "https://science.sandiegozoo.org/contact"
+  notes: >
+    GOLD STANDARD for zoological conservation science. SDZWA's publications catalog is
+    substantial — hundreds of peer-reviewed articles across conservation genomics,
+    reproductive biology, ecology, and species-specific recovery programs. The biobank
+    (Frozen Zoo) is globally unique. Less directly applicable to common North American
+    wildlife rehabilitation than USGS NWHC or NWRC, but essential for endangered
+    species context, captive breeding protocols, and One Health research. The
+    institution library at San Diego Zoo is a valuable secondary resource.
+  source_urls:
+    - "https://science.sandiegozoo.org/publications"
+    - "https://science.sandiegozoo.org"
+    - "https://library.sandiegozoo.org"
+
+# ============================================================
+# Summary
+# ============================================================
+
+# Summary:
+#
+# Total programs cataloged: 29
+#   - Cooperative Extension: 15
+#   - Veterinary School Wildlife Clinics: 10
+#   - Federal Research Institutions: 2
+#   - Conservation Research: 2
+#
+# Quality Distribution:
+#   GOLD:   11 programs (38%)
+#   SILVER: 14 programs (48%)
+#   BRONZE:  4 programs (14%)
+#
+# ---
+# Best-in-Class by Region:
+#
+#   NORTHEAST:    Cornell Wildlife Health Lab (disease surveillance) +
+#                 Penn State Extension (wildlife extension content)
+#   SOUTHEAST:    UF/IFAS Extension (national gold standard for breadth) +
+#                 NC State Extension (Working With Wildlife series)
+#   SOUTH-CENTRAL: Texas A&M AgriLife Extension (deer, game, feral hog) +
+#                  LSU Wildlife Hospital (Gulf Coast species)
+#   MIDWEST:      University of Minnesota Raptor Center (raptors nationally) +
+#                 Ohio State / MSU Extension (Great Lakes)
+#   WEST:         UC ANR (California Pest Notes — definitive for West Coast) +
+#                 UC Davis California Raptor Center
+#   GREAT PLAINS: Texas A&M (southern plains) / Iowa State (northern plains)
+#   NATIONAL/FEDERAL: USGS NWHC (disease surveillance) + USDA NWRC (damage mgmt)
+#
+# ---
+# Most Useful Single Publication:
+#
+#   UF/IFAS EDIS Wildlife of Florida Factsheets series
+#   https://ask.ifas.ufl.edu/collections/series_wildlife_of_florida
+#   Rationale: 18 peer-reviewed, open-access, illustrated species fact sheets
+#   covering Florida's unique biodiversity. Each follows a consistent structure
+#   (description, biology, behavior, management, conservation status) making
+#   them ideal templates for a national wildlife rehabilitation content library.
+#   Second choice: NC State's Working With Wildlife series (WWW series, 24+
+#   publications, strong practical content, excellent illustrations, free).
+#
+# ---
+# Strategic Partnership Priorities:
+#
+#   TIER 1 — Immediate outreach (deep content libraries, open licensing):
+#     1. UF/IFAS Extension — largest open wildlife fact sheet archive nationally;
+#        EDIS publications are explicitly designed for broad public dissemination
+#     2. USGS National Wildlife Health Center — federal authority on wildlife
+#        disease; Wildlife Health Bulletins define national disease content
+#     3. University of Minnesota Raptor Center — definitive national raptor rehab
+#        training program (Raptor Academy); HPAI tracking data
+#     4. Cornell Wildlife Health Lab — CWD and surveillance leadership;
+#        New York DEC partnership gives real-world validation
+#     5. NC State Extension — Working With Wildlife series is best-in-class for
+#        accessible Southeastern species content; actively updated
+#
+#   TIER 2 — Strong regional content value:
+#     6. Texas A&M AgriLife — irreplaceable for Texas/Gulf/southern plains
+#        species especially deer and feral hog content
+#     7. Penn State Extension — Northeastern deer, turkey, PA wildlife
+#     8. UC ANR — California and western US IPM Pest Notes wildlife content
+#     9. USDA APHIS NWRC — federal applied damage management research
+#    10. UGA/Warnell Outreach — nuisance wildlife specialist expertise
+#
+#   TIER 3 — Watch and develop:
+#    11. LSU Wildlife Hospital — growing program, unique Gulf Coast expertise
+#    12. San Diego Zoo Wildlife Alliance — genomics/endangered species
+#    13. Smithsonian SCBI — conservation biology depth
+#    14. UW-Madison Extension/Vet — CWD-endemic state, good Midwest content
+#
+# ---
+# Critical Content Gaps (programs thin for public wildlife rehabilitation content):
+#   - South Dakota State Extension (BRONZE — minimal public wildlife publications)
+#   - University of Tennessee vet program (BRONZE — primarily exotic animals)
+#   - VMRCVM (BRONZE — research/poultry focus, limited public wildlife content)
+#   - Oklahoma State Extension (SILVER trending Bronze — publications not prominently accessible)

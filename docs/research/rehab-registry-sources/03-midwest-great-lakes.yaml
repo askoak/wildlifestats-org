@@ -1,0 +1,1920 @@
+# Midwest + Great Lakes Wildlife Rehabilitation Registry
+# Region: Ohio (OH), Indiana (IN), Illinois (IL), Michigan (MI),
+#         Wisconsin (WI), Minnesota (MN), Iowa (IA), Missouri (MO)
+# Generated from: ProPublica Nonprofit Explorer, CauseIQ, state DNR directories,
+#                 org websites, Charity Navigator, AnimalHelpNow
+
+# ─────────────────────────────────────────────
+# OHIO
+# ─────────────────────────────────────────────
+
+- slug: ohio-wildlife-center
+  legal_name: "Ohio Wildlife Center"
+  common_name: "Ohio Wildlife Center"
+  state: OH
+  city: "Powell"
+  county_fips: "39041"
+  ein: "31-1182372"
+  primary_url: "https://www.ohiowildlifecenter.org"
+  wildlife_help_url: "https://ohiowildlifecenter.org/found-an-animal/"
+  about_url: "https://www.ohiowildlifecenter.org/about/"
+  contact_url: "https://www.ohiowildlifecenter.org/contact/"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "6245 Cook Rd, Powell, OH 43065"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/OhioWildlifeCenter/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Ohio Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Ohio Wildlife Center is dedicated to fostering awareness and appreciation of Ohio's native wildlife through rehabilitation, education and wildlife health studies."
+  status: active
+  notes: "State's largest wildlife rehabilitation center per org website. Operating since 1984. Revenue ~$2.7M (FY2024 Form 990). Moved consolidated campus to Powell Dec 2025."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/311182372"
+    - "https://www.ohiowildlifecenter.org/about/"
+
+- slug: lake-erie-nature-science-center
+  legal_name: "Lake Erie Junior Nature & Science Center"
+  common_name: "Lake Erie Nature & Science Center"
+  state: OH
+  city: "Bay Village"
+  county_fips: "39035"
+  ein: "34-0845030"
+  primary_url: "https://www.lensc.org"
+  wildlife_help_url: "https://www.lensc.org/wildlife-rehabilitation/"
+  about_url: "https://www.lensc.org/about/"
+  contact_url: "https://www.lensc.org/contact/"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "28728 Wolf Rd, Bay Village, OH 44140"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: "https://www.lensc.org/wp-content/uploads/2024/01/Lake-Erie-Nature-Science-Center-2022-IRS-Form-990.pdf"
+  social:
+    facebook: "https://www.facebook.com/LakeErieNatureandScienceCenter/"
+    instagram: "https://www.instagram.com/lakeerienature/"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: unknown
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Educate and inspire people of all ages to value and protect the natural world."
+  status: active
+  notes: "Nature center and wildlife rehab facility on Lake Erie shoreline. Revenue ~$2.8M (FY2025). Serves Cuyahoga, Lorain and surrounding counties."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/340845030"
+    - "https://www.lensc.org"
+
+- slug: medina-raptor-center
+  legal_name: "Medina Raptor Center"
+  common_name: "Medina Raptor Center"
+  state: OH
+  city: "Spencer"
+  county_fips: "39103"
+  ein: "31-1498428"
+  primary_url: "https://www.medinaraptorcenter.org"
+  wildlife_help_url: "https://www.medinaraptorcenter.org/rescue-contacts"
+  about_url: ""
+  contact_url: ""
+  contact_email: ""
+  contact_phone: "330-591-7300"
+  emergency_hotline: "330-591-7300"
+  intake_address: "Spencer, OH"
+  intake_hours: "By appointment; private facility not open to public"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Ohio Wildlife Rehabilitation Permit (raptors only)"]
+  leadership:
+    executive_director: "Melissa Jordan"
+    medical_director: ""
+  mission_excerpt: "Dedicated to the care and rehabilitation of sick, injured, or orphaned birds of prey in Northeast Ohio."
+  status: active
+  notes: "Raptors only; does not accept waterfowl or mammals. Volunteer-operated private facility. Revenue ~$131K (FY2025). Founder William Jordan passed away; center continues under Melissa Jordan."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/311498428"
+    - "https://www.causeiq.com/organizations/medina-raptor-center,311498428/"
+    - "https://www.medinaraptorcenter.org"
+
+- slug: raptor-inc-ohio
+  legal_name: "Raptor Inc."
+  common_name: "RAPTOR Inc."
+  state: OH
+  city: "Milford"
+  county_fips: "39025"
+  ein: "31-0955114"
+  primary_url: "https://raptorinc.org"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: "https://raptorinc.org/contact-us"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Milford, OH"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/RAPTOR.Inc.OH/"
+    instagram: "https://www.instagram.com/raptor_inc/"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: "Steve Wesselkamper"
+    medical_director: ""
+  mission_excerpt: "Education and rehabilitation of raptors in the Cincinnati/Clermont County region of Ohio."
+  status: active
+  notes: "Raptor education and rehabilitation center in Clermont County, SW Ohio. Revenue ~$280K (FY2024). Free monthly open houses Mar–Nov. Received $100K grant from Landen Family Foundation."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/310955114"
+    - "https://www.causeiq.com/organizations/raptor-inc,310955114/"
+    - "https://raptorinc.org"
+
+- slug: ohio-bird-sanctuary
+  legal_name: "Ohio Bird Sanctuary"
+  common_name: "Ohio Bird Sanctuary"
+  state: OH
+  city: "Mansfield"
+  county_fips: "39139"
+  ein: "34-1691325"
+  primary_url: "https://www.ohiobirdsanctuary.com"
+  wildlife_help_url: "https://www.ohiobirdsanctuary.com/i-have-an-injured-or-orphaned-bird-2"
+  about_url: ""
+  contact_url: "https://www.ohiobirdsanctuary.com/surveys/contact-us"
+  contact_email: ""
+  contact_phone: "419-884-4295"
+  emergency_hotline: "419-884-4295"
+  intake_address: "3774 Orweiler Road, Mansfield, OH 44903"
+  intake_hours: "Tue–Fri 10AM–4PM, Sat 10AM–4PM, Sun 12–4PM, Mon closed"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: "Julie Schwartz"
+    medical_director: ""
+  mission_excerpt: "Wildlife rehabilitation and conservation education focusing on native Ohio birds."
+  status: active
+  notes: "Located in Richland County, north-central Ohio. Revenue ~$1.3M (FY2024). Received $100K supporting org grant from Ashland County Community Foundation."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/341691325"
+    - "https://www.causeiq.com/organizations/ohio-bird-sanctuary,341691325/"
+    - "https://www.ohiobirdsanctuary.com/surveys/contact-us"
+
+# ─────────────────────────────────────────────
+# INDIANA
+# ─────────────────────────────────────────────
+
+- slug: rewilding-indiana
+  legal_name: "Hancock Wildlife Rescue & Rehabilitation dba Re-Wilding Indiana"
+  common_name: "Re-Wilding Indiana"
+  state: IN
+  city: "Greenfield"
+  county_fips: "18059"
+  ein: "92-0813045"
+  primary_url: "https://www.rewildingindiana.org"
+  wildlife_help_url: "https://www.rewildingindiana.org/rehabilitation-center"
+  about_url: "https://www.rewildingindiana.org/about-us"
+  contact_url: "https://www.rewildingindiana.org/contact"
+  contact_email: "info@rewildingindiana.org"
+  contact_phone: "317-245-8893"
+  emergency_hotline: "317-245-8893"
+  intake_address: "Greenfield, IN (Hancock County)"
+  intake_hours: "9 AM – 8 PM"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1100
+    intake_source_year: 2025
+    licensed_species_count: ""
+  accreditations: ["Indiana DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Providing guidance and rescue help for orphaned, injured, or ill wildlife and giving them the care they need to return to the wild."
+  status: active
+  notes: "Founded 2024 as formal nonprofit; predecessor Avian & Exotic Animal Clinic provided 30 years pro bono wildlife care. Over 1,100 patients in first year. EIN from Impala/CharityNavigator profile."
+  source_urls:
+    - "https://impala.digital/public/profiles/92-0813045/overview"
+    - "https://www.rewildingindiana.org/about-us"
+    - "https://www.charitynavigator.org/ein/920813045"
+
+- slug: humane-indiana-wildlife
+  legal_name: "Humane Indiana Inc."
+  common_name: "Humane Indiana Wildlife Rehabilitation and Education Center"
+  state: IN
+  city: "Munster"
+  county_fips: "18089"
+  ein: "35-0895837"
+  primary_url: "https://www.humaneindiana.org"
+  wildlife_help_url: "https://www.humaneindiana.org/wildlife-about"
+  about_url: "https://www.humaneindiana.org/wildlife-about"
+  contact_url: "https://www.humaneindiana.org/contact"
+  contact_email: ""
+  contact_phone: "219-922-3811"
+  emergency_hotline: "219-922-3811"
+  intake_address: "421 45th Avenue, Munster, IN 46321"
+  intake_hours: "11 AM – 5 PM (hours may vary)"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Indiana DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Wildlife Rehabilitation and Education Center preserves and protects native wildlife from 26 Indiana counties."
+  status: active
+  notes: "Wildlife component on Valparaiso property acquired 2014; serves 26 Indiana counties. Separate from main shelter in Munster. ProPublica filing for Humane Indiana Inc. umbrella org."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/350895837"
+    - "https://www.humaneindiana.org/wildlife-about"
+    - "https://www.humaneindiana.org/contact"
+
+- slug: indiana-raptor-center
+  legal_name: "Indiana Raptor Center"
+  common_name: "Indiana Raptor Center"
+  state: IN
+  city: "Nashville"
+  county_fips: "18013"
+  ein: "83-1716754"
+  primary_url: "https://www.indianaraptorcenter.com"
+  wildlife_help_url: ""
+  about_url: "https://www.indianaraptorcenter.com/about-us/mission-statement/"
+  contact_url: "https://www.indianaraptorcenter.com/contact/"
+  contact_email: ""
+  contact_phone: "812-988-8990"
+  emergency_hotline: "812-988-8990"
+  intake_address: "Nashville, IN (Brown County)"
+  intake_hours: "24/7 intake by phone"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: true
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Indiana DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "A hospital for birds of prey in the hills of Brown County, Indiana."
+  status: active
+  notes: "Raptors only; accepts injured/orphaned birds of prey 24/7 by phone. Located in scenic Brown County in south-central Indiana."
+  source_urls:
+    - "https://www.indianaraptorcenter.com/contact/"
+    - "https://www.indianaraptorcenter.com"
+
+# ─────────────────────────────────────────────
+# ILLINOIS
+# ─────────────────────────────────────────────
+
+- slug: dupage-wildlife-conservation-center
+  legal_name: "Forest Preserve District of DuPage County"
+  common_name: "DuPage Wildlife Conservation Center"
+  state: IL
+  city: "Glen Ellyn"
+  county_fips: "17043"
+  ein: ""
+  primary_url: "https://www.dupageforest.org/places-to-go/centers/wildlife-conservation"
+  wildlife_help_url: "https://www.dupageforest.org/places-to-go/centers/wildlife-conservation"
+  about_url: "https://www.dupageforest.org/places-to-go/centers/wildlife-conservation"
+  contact_url: ""
+  contact_email: ""
+  contact_phone: "630-942-6200"
+  emergency_hotline: "630-942-6200"
+  intake_address: "525 S Park Blvd, Glen Ellyn, IL 60137"
+  intake_hours: "Wed 9AM–noon; Thu–Tue 9AM–4PM; closed major holidays"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Illinois DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Provides care and medical treatment to injured, orphaned, and sick native wild animals with the goal of rehabilitation and release."
+  status: active
+  notes: "Successor to Willowbrook Wildlife Center; government agency (Forest Preserve District), no separate 501(c)(3)/EIN. Call before arriving. Received $2M capital investment for new facility."
+  source_urls:
+    - "https://www.dupageforest.org/places-to-go/centers/wildlife-conservation"
+
+- slug: flint-creek-wildlife-rehabilitation
+  legal_name: "Flint Creek Wildlife Rehabilitation"
+  common_name: "Flint Creek Wildlife"
+  state: IL
+  city: "Barrington"
+  county_fips: "17031"
+  ein: "02-0710988"
+  primary_url: "https://www.flintcreekwildlife.org"
+  wildlife_help_url: "https://flintcreekwildlife.org/found-an-animal/"
+  about_url: ""
+  contact_url: "https://flintcreekwildlife.org/contact-us/"
+  contact_email: ""
+  contact_phone: "847-842-8000"
+  emergency_hotline: "847-842-8000"
+  intake_address: "Barrington, IL (by appointment)"
+  intake_hours: "By appointment only"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/flintcreek/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Illinois DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: "Dawn Keller"
+    medical_director: ""
+  mission_excerpt: "Wildlife rehabilitation and education since 2003, promoting habitat and species conservation."
+  status: active
+  notes: "Established 2003. Revenue ~$229K (FY2024). Located in Lake/Cook/McHenry county border area northwest of Chicago."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/20710988"
+    - "https://www.causeiq.com/organizations/flint-creek-wildlife-rehabilitation,020710988/"
+    - "https://flintcreekwildlife.org/contact-us/"
+
+- slug: chicago-bird-collision-monitors
+  legal_name: "Chicago Bird Collision Monitors"
+  common_name: "Chicago Bird Collision Monitors"
+  state: IL
+  city: "Villa Park"
+  county_fips: "17043"
+  ein: "83-4037413"
+  primary_url: "https://www.birdmonitors.net"
+  wildlife_help_url: "https://www.birdmonitors.net/InjuredBird.php"
+  about_url: ""
+  contact_url: ""
+  contact_email: ""
+  contact_phone: "773-988-1867"
+  emergency_hotline: "773-988-1867"
+  intake_address: "Villa Park, IL (downtown Chicago rescue operations)"
+  intake_hours: "Spring and fall migration seasons"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/ChicagoBirdCollisionMonitors/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: true
+    field_response: true
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Illinois DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Volunteer conservation project dedicated to the protection of migratory birds through rescue, advocacy and outreach in downtown Chicago."
+  status: active
+  notes: "Focuses on window-collision rescue of migratory songbirds in Chicago Loop/lakefront each spring and fall. EIN confirmed from fundraising profiles."
+  source_urls:
+    - "https://www.birdmonitors.net"
+    - "https://www.birdmonitors.net/SupportUs.php"
+
+- slug: fox-valley-wildlife-center
+  legal_name: "Fox Valley Wildlife Center Inc."
+  common_name: "Fox Valley Wildlife Center"
+  state: IL
+  city: "South Elgin"
+  county_fips: "17089"
+  ein: "36-4358670"
+  primary_url: ""
+  wildlife_help_url: "https://ahconnects.org/wildlife-2/"
+  about_url: ""
+  contact_url: ""
+  contact_email: ""
+  contact_phone: "847-697-2880"
+  emergency_hotline: "847-697-2880"
+  intake_address: "South Elgin, IL (Kane County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: unknown
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Providing rescue guidance, medical treatment, and rehabilitation for injured and orphaned animals throughout the Fox Valley region."
+  status: active
+  notes: "ProPublica shows most recent filing FY2018 (~$166K revenue); operates through Animal House Shelter (AHConnects). Verify active status. Phone from AHConnects wildlife page."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/364358670"
+    - "https://ahconnects.org/wildlife-2/"
+
+- slug: illinois-raptor-center
+  legal_name: "Illinois Raptor Center"
+  common_name: "Illinois Raptor Center"
+  state: IL
+  city: "Decatur"
+  county_fips: "17115"
+  ein: "37-1287919"
+  primary_url: ""
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: ""
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "5695 W. Hill Road, Decatur, IL 62522"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Illinois DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: "D. Jane Seitz"
+    medical_director: "Jacques Nuzzo"
+  mission_excerpt: "Ensures the well-being of native animals through wildlife rehabilitation; increases conservation awareness; contributes expertise to conservation partners."
+  status: active
+  notes: "25-acre wildlife rehabilitation facility on Sangamon River west of Decatur. Revenue ~$145K (FY2024). Website appears inactive/down; verify current status."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/371287919"
+    - "https://www.causeiq.com/organizations/illinois-raptor-center,371287919/"
+    - "https://www.enjoyillinois.com/explore/listing/illinois-raptor-center/"
+
+- slug: northern-illinois-raptor-rehab
+  legal_name: "Northern Illinois Raptor Rehab & Education"
+  common_name: "NIRRE"
+  state: IL
+  city: "Loves Park"
+  county_fips: "17201"
+  ein: ""
+  primary_url: "https://www.northernillinoisraptor.org"
+  wildlife_help_url: "https://www.northernillinoisraptor.org"
+  about_url: ""
+  contact_url: ""
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Loves Park, IL (Winnebago County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/NorthernIllinoisRaptor/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Illinois DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Raptor rescue, rehabilitation, and education in northern Illinois."
+  status: active
+  notes: "EIN not found in ProPublica/CauseIQ under this name; may operate as DBA or very small filer. Based in Rockford metro area (Winnebago County). Has PayPal fundraiser account. Verify 501c3 status."
+  source_urls:
+    - "https://www.northernillinoisraptor.org"
+    - "https://www.facebook.com/NorthernIllinoisRaptor/"
+
+- slug: treehouse-wildlife-center
+  legal_name: "TreeHouse Wildlife Center Inc."
+  common_name: "TreeHouse Wildlife Center"
+  state: IL
+  city: "Dow"
+  county_fips: "17119"
+  ein: "37-1093617"
+  primary_url: "https://www.treehousewildlifecenter.com"
+  wildlife_help_url: "https://www.treehousewildlifecenter.com/i-found-an-animal"
+  about_url: ""
+  contact_url: ""
+  contact_email: ""
+  contact_phone: "618-466-2990"
+  emergency_hotline: "618-466-2990"
+  intake_address: "23956 Green Acres Rd, Dow, IL 62022"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Illinois DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "501(c)(3) nonprofit established in 1979 dedicated to the rescue, rehabilitation, and release of native wildlife while promoting environmental awareness through education."
+  status: active
+  notes: "8.5-acre facility between Alton and Grafton, IL. One of Illinois' oldest wildlife rehab orgs (est. 1979). Serves central and southern Illinois. Revenue ~$201K (FY2024)."
+  source_urls:
+    - "https://www.causeiq.com/organizations/treehouse-wildlife-center,371093617/"
+    - "https://www.treehousewildlifecenter.com"
+
+# ─────────────────────────────────────────────
+# MICHIGAN
+# ─────────────────────────────────────────────
+
+- slug: howell-nature-center
+  legal_name: "Howell Nature Center LLC"
+  common_name: "Howell Nature Center"
+  state: MI
+  city: "Howell"
+  county_fips: "26093"
+  ein: "47-4324628"
+  primary_url: "https://www.howellnaturecenter.org"
+  wildlife_help_url: "https://www.howellnaturecenter.org/wildlife-rehab/"
+  about_url: "https://www.howellnaturecenter.org/about/"
+  contact_url: ""
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Livingston County, MI"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: unknown
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Michigan DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Through mutual love and respect, we teach people to be faithful caretakers of one another and the world around us."
+  status: active
+  notes: "230-acre nature center with wildlife rehab program. Revenue ~$3.25M (FY2021, most recent ProPublica). MSU Vet Medicine refers wildlife cases to Wildside and ARK; Howell remains active independently."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/474324628"
+    - "https://www.howellnaturecenter.org"
+
+- slug: wildside-rehabilitation-education-center
+  legal_name: "Wildside Rehabilitation And Education Center"
+  common_name: "Wildside Rehabilitation Center"
+  state: MI
+  city: "Eaton Rapids"
+  county_fips: "26045"
+  ein: "38-3249187"
+  primary_url: "https://wildsidemi.wordpress.com"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: ""
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Eaton Rapids, MI (Eaton County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Michigan DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: "Louise Sagaert"
+    medical_director: ""
+  mission_excerpt: "Wildlife rehabilitation and education serving mid-Michigan."
+  status: active
+  notes: "MSU Vet Medicine refers wildlife cases here. Covers thousands of critters annually per Lansing City Pulse profile. Revenue ~$59K (FY2025 990-EZ)."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/383249187"
+    - "https://www.causeiq.com/organizations/wildside-rehabilitation-and-education-center,383249187/"
+    - "https://cvm.msu.edu/hospital/services/zoo-and-wildlife-service/injured-wildlife"
+
+- slug: bird-center-of-michigan
+  legal_name: "Bird Center Of Michigan Inc."
+  common_name: "Bird Center of Michigan"
+  state: MI
+  city: "Ann Arbor"
+  county_fips: "26161"
+  ein: "83-0406863"
+  primary_url: "https://birdcentermi.org"
+  wildlife_help_url: "https://birdcentermi.org/bird-help/"
+  about_url: ""
+  contact_url: "https://birdcentermi.org/contact-us/"
+  contact_email: "clinic@birdcentermi.org"
+  contact_phone: "734-761-9640"
+  emergency_hotline: "734-761-9640"
+  intake_address: "Ann Arbor, MI (Washtenaw County)"
+  intake_hours: "Apr 1 – seasonal: 9 AM – 7 PM, 7 days/week"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Michigan DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Saving songbirds since 2004 through rehabilitation and education in southeast Michigan."
+  status: active
+  notes: "Birds only (songbirds focus). Revenue ~$280K (FY2024). Intake by text with photo first. Formerly known as Bird Center of Washtenaw County."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/830406863"
+    - "https://www.causeiq.com/organizations/bird-center-of-michigan,830406863/"
+    - "https://birdcentermi.org/contact-us/"
+
+- slug: ark-association-rescue-kritters
+  legal_name: "A.R.K. Association To Rescue Kritters"
+  common_name: "The A.R.K."
+  state: MI
+  city: "Saint Helen"
+  county_fips: "26131"
+  ein: "73-1636166"
+  primary_url: "https://www.arkritters.org"
+  wildlife_help_url: "https://www.arkritters.org"
+  about_url: "https://www.arkritters.org/about"
+  contact_url: "https://www.arkritters.org/contact"
+  contact_email: ""
+  contact_phone: "989-389-3305"
+  emergency_hotline: "989-389-3305"
+  intake_address: "Saint Helen, MI (Roscommon County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Michigan DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: "Ruth A. Fruehauf"
+    medical_director: ""
+  mission_excerpt: "A second chance for injured and orphaned wildlife through rehabilitation, education, and release."
+  status: active
+  notes: "Founded 2001. Cannot take skunks, bats, or certain county-restricted raccoon/fawn. Revenue ~$102K (FY2024). MSU Vet Medicine referred cases here. No state/federal funding."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/731636166"
+    - "https://www.causeiq.com/organizations/a-r-k-association-to-rescue-kritters,731636166/"
+    - "https://www.arkritters.org/about"
+
+- slug: wildlife-recovery-association
+  legal_name: "Wildlife Recovery Association"
+  common_name: "Wildlife Recovery Association"
+  state: MI
+  city: "Shepherd"
+  county_fips: "26073"
+  ein: "38-2240042"
+  primary_url: "https://www.wildliferecovery.org"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: "https://www.wildliferecovery.org/contact/"
+  contact_email: ""
+  contact_phone: "989-772-1538"
+  emergency_hotline: "989-772-1538"
+  intake_address: "531 S. Coleman Rd, Shepherd, MI 48883"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: unknown
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Michigan DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Education and wildlife rehabilitation serving mid-Michigan with a wetland sanctuary focus."
+  status: active
+  notes: "Operates significant wetland sanctuary habitat; currently contesting utility power line permit through their property. Revenue ~$86K (FY2025). Located Isabella County (near Mt. Pleasant)."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/382240042"
+    - "https://www.wildliferecovery.org/contact/"
+
+# ─────────────────────────────────────────────
+# WISCONSIN
+# ─────────────────────────────────────────────
+
+- slug: raptor-education-group
+  legal_name: "Raptor Education Group Inc."
+  common_name: "REGI"
+  state: WI
+  city: "Antigo"
+  county_fips: "55073"
+  ein: "39-1772318"
+  primary_url: "https://www.raptoreducationgroup.org"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: "https://www.raptoreducationgroup.org/contact"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Antigo, WI (Langlade County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Wisconsin DNR Wildlife Rehabilitation License", "USFWS Eagle Permit"]
+  leadership:
+    executive_director: "Marge Gibson"
+    medical_director: ""
+  mission_excerpt: "Dedicated to the care and rehabilitation of sick, injured, or orphaned native bird species and public education of wildlife issues."
+  status: active
+  notes: "Nationally known eagle rehabilitation and raptor education center in northern Wisconsin. Founded by Marge Gibson. Revenue ~$431K (FY2025). Wikipedia article confirms long track record."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/391772318"
+    - "https://www.causeiq.com/organizations/raptor-education-group,391772318/"
+    - "https://en.wikipedia.org/wiki/Raptor_Education_Group"
+
+- slug: wisconsin-humane-society-wildlife
+  legal_name: "Wisconsin Humane Society"
+  common_name: "Wisconsin Humane Society Wildlife Rehabilitation Center"
+  state: WI
+  city: "Milwaukee"
+  county_fips: "55079"
+  ein: "39-0810533"
+  primary_url: "https://www.wihumane.org/services/wildlife/"
+  wildlife_help_url: "https://www.wihumane.org/services/wildlife/what-to-do-with-sick-injured-or-orphaned-wild-animals/"
+  about_url: "https://www.wihumane.org/about-us/"
+  contact_url: "https://www.wihumane.org/services/wildlife/"
+  contact_email: ""
+  contact_phone: "414-431-6204"
+  emergency_hotline: "414-431-6204"
+  intake_address: "Milwaukee, WI"
+  intake_hours: "Call during open hours"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/WiscHumaneWildlife/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: "150+"
+  accreditations: ["Wisconsin DNR Wildlife Rehabilitation License"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Care for more than 150 different species of animals, including all species of native birds, reptiles, and amphibians, as well as most mammals."
+  status: active
+  notes: "Wildlife center is a program of WHS, serving Milwaukee, Ozaukee, and Racine counties. Cannot take bears, skunks, Norway rats, white-tailed deer, or non-native birds per DNR restrictions."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/390810533"
+    - "https://www.wihumane.org/services/wildlife/"
+
+- slug: dane-county-humane-society-wildlife
+  legal_name: "Dane County Humane Society"
+  common_name: "DCHS Wildlife Center"
+  state: WI
+  city: "Madison"
+  county_fips: "55025"
+  ein: "39-0806335"
+  primary_url: "https://www.giveshelter.org/wildlife-center"
+  wildlife_help_url: "https://www.giveshelter.org/wildlife-center/injured-or-ill-wild-animal"
+  about_url: "https://www.giveshelter.org/wildlife-center"
+  contact_url: ""
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Madison, WI (Dane County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/dchswc/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: unknown
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Wisconsin DNR Wildlife Rehabilitation License"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Wildlife Center of Dane County Humane Society, formerly Four Lakes Wildlife Center, founded 2002 to provide wildlife rehabilitation in the Madison area."
+  status: active
+  notes: "Wildlife program of DCHS. Founded 2002. 4-star Charity Navigator rating. EIN is for parent org Dane County Humane Society."
+  source_urls:
+    - "https://www.charitynavigator.org/ein/390806335"
+    - "https://www.giveshelter.org/wildlife-center"
+
+- slug: hoos-woods-raptor-center
+  legal_name: "Hoos Woods Inc."
+  common_name: "Hoo's Woods Raptor Center"
+  state: WI
+  city: "Milton"
+  county_fips: "55021"
+  ein: "03-0491352"
+  primary_url: "https://hooswoods.org"
+  wildlife_help_url: ""
+  about_url: "https://hooswoods.org/about-us-1"
+  contact_url: "https://hooswoods.org/contact-us-1"
+  contact_email: "falco5@ticon.net"
+  contact_phone: "608-883-2795"
+  emergency_hotline: "608-883-2795"
+  intake_address: "P.O. Box 21, Milton, WI 53563"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Wisconsin DNR Wildlife Rehabilitation License"]
+  leadership:
+    executive_director: "Diane Moller"
+    medical_director: ""
+  mission_excerpt: "Help birds of prey through education, rehabilitation and conservation."
+  status: active
+  notes: "Non-profit 501(c)(3) raptor center founded 1998, located near Milton in southern Wisconsin. Volunteer-run. Supported by We Energies Foundation, Alliant Energy Foundation, MGE Foundation."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/030491352"
+    - "https://www.causeiq.com/organizations/hoos-woods-raptor-center,030491352/"
+    - "https://hooswoods.org/contact-us-1"
+
+# ─────────────────────────────────────────────
+# MINNESOTA
+# ─────────────────────────────────────────────
+
+- slug: the-raptor-center-umn
+  legal_name: "The Raptor Center – University of Minnesota"
+  common_name: "The Raptor Center"
+  state: MN
+  city: "Saint Paul"
+  county_fips: "27123"
+  ein: ""
+  primary_url: "https://raptor.umn.edu"
+  wildlife_help_url: "https://raptor.umn.edu/injured-bird"
+  about_url: "https://raptor.umn.edu/about-us"
+  contact_url: "https://raptor.umn.edu/contact"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "1920 Fitch Ave, Saint Paul, MN 55108"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/TheRaptorCenter/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: "https://www.linkedin.com/company/the-raptor-center"
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1285
+    intake_source_year: 2025
+    licensed_species_count: ""
+  accreditations: ["USFWS Migratory Bird Permit", "MN DNR Falconry/Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "World-renowned raptor rehabilitation, research, and education center at the University of Minnesota College of Veterinary Medicine."
+  status: active
+  notes: "FLAGSHIP ORG. Part of UMN CVM; not a separate 501c3. 2025 total 1,285 patients (record). 2024: 1,105. Partners for Wildlife program. Call before bringing birds. No EIN as university unit."
+  source_urls:
+    - "https://raptor.umn.edu/clinic-information"
+    - "https://raptor.umn.edu"
+
+- slug: wildlife-rehabilitation-center-minnesota
+  legal_name: "Wildlife Rehabilitation Center"
+  common_name: "Wildlife Rehabilitation Center of Minnesota"
+  state: MN
+  city: "Roseville"
+  county_fips: "27123"
+  ein: "41-1588791"
+  primary_url: "https://www.wrcmn.org"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: ""
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Roseville, MN"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/WRCMN/"
+    instagram: "https://www.instagram.com/wrcmn/"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: "https://www.linkedin.com/company/wildlife-rehabilitation-center-of-minnesota"
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["MN DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Comprehensive wildlife rehabilitation serving the Twin Cities metro and surrounding region."
+  status: active
+  notes: "FLAGSHIP ORG. Revenue ~$2.6M (FY2024). Executive compensation ~$363K reported (likely leadership team). Website wrcmn.org appears to be offline/redirecting; Facebook/Instagram active."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/411588791"
+    - "https://impala.digital/public/profiles/41-1588791/overview"
+    - "https://www.causeiq.com/organizations/wildlife-rehabilitation-center-of-minnesota,411588791/"
+
+- slug: wildwoods-duluth
+  legal_name: "Wildwoods"
+  common_name: "Wildwoods Wildlife Rehabilitation"
+  state: MN
+  city: "Duluth"
+  county_fips: "27137"
+  ein: "80-0698285"
+  primary_url: "https://wildwoodsrehab.org"
+  wildlife_help_url: "https://wildwoodsrehab.org"
+  about_url: "https://wildwoodsrehab.org/about/"
+  contact_url: "https://wildwoodsrehab.org/contact/"
+  contact_email: "update@wildwoodsrehab.org"
+  contact_phone: "218-491-3604"
+  emergency_hotline: "218-491-3604"
+  intake_address: "Duluth, MN (St. Louis County)"
+  intake_hours: ""
+  news_or_blog_url: "https://wildwoodsrehab.org/news/wildwoods-enewsletter/"
+  newsletter_signup_url: "https://wildwoodsrehab.org/news/wildwoods-enewsletter/"
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["MN DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: "Jessica Labumbard"
+    medical_director: ""
+  mission_excerpt: "To promote understanding, appreciation, and well being of wildlife and the world we share through compassion, care, and community involvement."
+  status: active
+  notes: "501(c)(3) in Duluth, MN. Revenue ~$601K (FY2025). Cannot accept animals from Wisconsin per MN DNR rules. Separate from Wisconsin rehab networks."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/800698285"
+    - "https://www.causeiq.com/organizations/wildwoods,800698285/"
+    - "https://wildwoodsrehab.org/contact/"
+
+- slug: wildlife-rehabilitation-release-mn
+  legal_name: "Wildlife Rehabilitation & Release, Inc."
+  common_name: "WRR-MN"
+  state: MN
+  city: ""
+  county_fips: ""
+  ein: ""
+  primary_url: "https://wrr-mn.org"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: "https://wrr-mn.org/contact/"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: ""
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/WRRMN/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["MN DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Support wildlife rehabilitation efforts in the region through education, recruitment, and direct rehabilitation support."
+  status: active
+  notes: "All-volunteer organization; no paid staff. Supports rehabilitators in greater MN region. EIN not found under this name in ProPublica — may file under different legal entity or may be small filer. CauseIQ EIN 91-1967756 unconfirmed."
+  source_urls:
+    - "https://wrr-mn.org"
+    - "https://wrr-mn.org/contact/"
+
+# ─────────────────────────────────────────────
+# IOWA
+# ─────────────────────────────────────────────
+
+- slug: iowa-wildlife-center
+  legal_name: "Iowa Wildlife Center"
+  common_name: "Iowa Wildlife Center"
+  state: IA
+  city: "Grinnell"
+  county_fips: "19137"
+  ein: "26-1886495"
+  primary_url: "https://iowawildlifecenter.org"
+  wildlife_help_url: ""
+  about_url: "https://iowawildlifecenter.org/Pages/About.aspx"
+  contact_url: "https://iowawildlifecenter.org/Pages/Contact.aspx"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Poweshiek County, IA"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Iowa DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: "Marlene Ehresman"
+    medical_director: "Derrick Grimmer, PhD"
+  mission_excerpt: "Wildlife rehabilitation in central Iowa, providing care for injured and orphaned native wildlife."
+  status: active
+  notes: "Revenue ~$322K (FY2023). Website does not load; verify active status. Received $240K grant from Margaret Ruth Boys Charitable Foundation. Located in Poweshiek County (Grinnell area)."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/261886495"
+    - "https://www.causeiq.com/organizations/iowa-wildlife-center,261886495/"
+
+- slug: iowa-bird-rehabilitation
+  legal_name: "Iowa Bird Rehabilitation"
+  common_name: "Iowa Bird Rehabilitation"
+  state: IA
+  city: "Des Moines"
+  county_fips: "19153"
+  ein: "82-5080219"
+  primary_url: "https://www.iowabirdrehab.org"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: "https://www.iowabirdrehab.org/contact.html"
+  contact_email: "ibrnest@iowabirdrehab.org"
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "3108 49th St, Des Moines, IA 50310"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Iowa DNR Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: "Jenni Boonjakuakul, Ph.D."
+    medical_director: ""
+  mission_excerpt: "Rescue, rehabilitate, and release injured and orphaned wild birds across Iowa."
+  status: active
+  notes: "Birds only. Revenue ~$279K (FY2024). Home-based urban operation in Des Moines. Runs annual garage sale fundraiser. Separate from Iowa Wildlife Center."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/825080219"
+    - "https://www.causeiq.com/organizations/iowa-bird-rehabilitation,825080219/"
+    - "https://www.iowabirdrehab.org/contact.html"
+
+# ─────────────────────────────────────────────
+# MISSOURI
+# ─────────────────────────────────────────────
+
+- slug: world-bird-sanctuary
+  legal_name: "World Bird Sanctuary"
+  common_name: "World Bird Sanctuary"
+  state: MO
+  city: "Valley Park"
+  county_fips: "29189"
+  ein: "43-1184675"
+  primary_url: "https://www.worldbirdsanctuary.org"
+  wildlife_help_url: ""
+  about_url: "https://www.worldbirdsanctuary.org/about/"
+  contact_url: "https://www.worldbirdsanctuary.org/contact/"
+  contact_email: "info@worldbirdsanctuary.org"
+  contact_phone: "636-225-4390"
+  emergency_hotline: ""
+  intake_address: "125 Bald Eagle Ridge Road, Valley Park, MO 63088"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: "https://www.worldbirdsanctuary.org/wp-content/uploads/2025/06/2024World-Bird-Sanctuary-Form-990.pdf"
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: "200+"
+  accreditations: ["Missouri MDC Wildlife Rehabilitation Permit", "AZA"]
+  leadership:
+    executive_director: "Roger Holloway"
+    medical_director: ""
+  mission_excerpt: "Founded in 1977 to provide the St. Louis area with a hospital for sick or injured raptors; now internationally renowned raptor rehab and education center on 305 acres."
+  status: active
+  notes: "305-acre facility in partnership with MO DNR. 200+ animals, 60+ species. Revenue ~$1.7M (FY2024). Originally founded by Walter C. Crawford Jr. in 1977."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/431184675"
+    - "https://www.causeiq.com/organizations/world-bird-sanctuary,431184675/"
+    - "https://www.worldbirdsanctuary.org/contact/"
+
+- slug: missouri-wildlife-rescue-center
+  legal_name: "Missouri Wildlife Rescue Center"
+  common_name: "Wildlife Rescue Center"
+  state: MO
+  city: "Ballwin"
+  county_fips: "29189"
+  ein: "43-1175745"
+  primary_url: "https://www.mowildlife.org"
+  wildlife_help_url: "https://www.mowildlife.org"
+  about_url: "https://www.mowildlife.org/about-us"
+  contact_url: "https://www.mowildlife.org/contact-us"
+  contact_email: ""
+  contact_phone: "636-394-1880"
+  emergency_hotline: "636-394-1880"
+  intake_address: "Ballwin, MO (St. Louis County)"
+  intake_hours: "Mon–Fri 9 AM–7 PM; Sat–Sun 9 AM–5 PM"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["Missouri MDC Wildlife Rehabilitation Permit"]
+  leadership:
+    executive_director: "Kimberli Rutledge"
+    medical_director: ""
+  mission_excerpt: "Rehabilitates injured, sick and orphaned native wildlife and releases healthy animals to their natural habitat while providing environmental awareness through educational outreach."
+  status: active
+  notes: "Revenue ~$761K (FY2024). Located in St. Louis County (Ballwin). Call ext. 201 before bringing animal."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/431175745"
+    - "https://www.causeiq.com/organizations/wildlife-rescue-center,431175745/"
+    - "https://www.mowildlife.org/contact-us"
+
+- slug: endangered-wolf-center
+  legal_name: "Endangered Wolf Center"
+  common_name: "Endangered Wolf Center"
+  state: MO
+  city: "Eureka"
+  county_fips: "29099"
+  ein: "43-1176039"
+  primary_url: "https://www.endangeredwolfcenter.org"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: "https://www.endangeredwolfcenter.org/contactus/"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Eureka, MO (Jefferson County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/EndangeredWolfCenter/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["USFWS Mexican Gray Wolf SSP", "Missouri MDC Permit", "AZA SSP"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Breeding, conservation, and education for critically endangered wolves; every Mexican gray wolf in the wild traces lineage to this center."
+  status: active
+  notes: "Specializes in Mexican gray wolf, red wolf, and maned wolf SSP breeding. Not a general wildlife rehab center but included as nationally significant credentialed wildlife facility in MO. Top-rated nonprofit (Great Nonprofits). 1% for the Planet partner."
+  source_urls:
+    - "https://en.wikipedia.org/wiki/Endangered_Wolf_Center"
+    - "https://www.endangeredwolfcenter.org/financials/"
+
+# ─────────────────────────────────────────────
+# Summary
+# ─────────────────────────────────────────────
+# Summary:
+#   Total organizations: 33
+#
+#   By state:
+#     OH: 5  (Ohio Wildlife Center, Lake Erie Nature & Science Center,
+#             Medina Raptor Center, RAPTOR Inc., Ohio Bird Sanctuary)
+#             NOTE: Ohio count may be 5; verify final count.
+#     IN: 3  (Re-Wilding Indiana, Humane Indiana, Indiana Raptor Center)
+#     IL: 7  (DuPage Wildlife Conservation Center, Flint Creek Wildlife,
+#             Chicago Bird Collision Monitors, Fox Valley Wildlife Center,
+#             Illinois Raptor Center, Northern Illinois Raptor Rehab, TreeHouse)
+#     MI: 5  (Howell Nature Center, Wildside Rehab, Bird Center of Michigan,
+#             A.R.K., Wildlife Recovery Association)
+#     WI: 4  (REGI, Wisconsin Humane Society Wildlife, DCHS Wildlife, Hoo's Woods)
+#     MN: 4  (The Raptor Center UMN, WRC Minnesota, Wildwoods, WRR-MN)
+#     IA: 2  (Iowa Wildlife Center, Iowa Bird Rehabilitation)
+#     MO: 3  (World Bird Sanctuary, Missouri Wildlife Rescue Center,
+#             Endangered Wolf Center)
+#
+#   EINs captured: 29/33
+#   EINs missing/unknown:
+#     - The Raptor Center UMN (university unit, no separate EIN)
+#     - DuPage Wildlife Conservation Center (government agency, no EIN)
+#     - Northern Illinois Raptor Rehab & Education (not found in IRS database)
+#     - WRR-MN (not confirmed; may be very small filer or DBA)
+#
+#   Known data gaps:
+#     - Intake addresses incomplete for: Wildside MI, Howell MI, WRC MN,
+#       Iowa Wildlife Center, Endangered Wolf Center, several IL orgs
+#     - Phone numbers missing for: Ohio Wildlife Center (main line),
+#       REGI, Illinois Raptor Center, Fox Valley Wildlife Center,
+#       Northern Illinois Raptor Rehab, WRR-MN, Iowa Wildlife Center
+#     - Contact emails missing for most orgs (prefer phone)
+#     - Social media (Instagram, TikTok, YouTube) not comprehensively verified
+#     - Intake hours not fully documented for most orgs
+#     - Fox Valley Wildlife Center: last ProPublica filing FY2018 — active status
+#       should be reverified; currently operates through AHConnects/Animal House Shelter
+#     - WRR-MN: all-volunteer support network rather than direct intake facility
+#     - Endangered Wolf Center: SSP breeding facility rather than typical rehab;
+#       included for completeness as significant credentialed MO wildlife org
+#
+#   Additional orgs not included (verify before adding):
+#     - MSU Zoo & Wildlife Service (no longer inpatient wildlife per website)
+#     - Treehouse Wildlife Center IL: included (est. 1979, EIN 37-1093617)
+#     - Ohio Bird Sanctuary included under Ohio (5 orgs total OH)
+#     - Indiana: additional smaller permitted rehab facilities exist per IN DNR list
+#     - Iowa: ISU Wildlife Care program is education/career-path, not direct intake
+#     - Missouri: additional county-level permitted rehabbers exist per MDC list

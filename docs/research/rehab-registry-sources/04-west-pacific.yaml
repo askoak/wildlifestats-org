@@ -1,0 +1,2725 @@
+---
+# West + Pacific Wildlife Rehabilitation Registry
+# Region: California, Oregon, Washington, Idaho, Montana, Wyoming, Colorado,
+#         Nevada, Arizona, New Mexico, Utah, Alaska, Hawaii
+# Generated for WildlifeStats research framework
+
+# ─────────────────────────────────────────────────────────────────
+# CALIFORNIA (20 organizations)
+# ─────────────────────────────────────────────────────────────────
+
+- slug: wildcare-san-rafael
+  legal_name: "WildCare"
+  common_name: "WildCare"
+  state: CA
+  city: "San Rafael"
+  county_fips: "06041"
+  ein: "51-0172331"
+  primary_url: "https://discoverwildcare.org"
+  wildlife_help_url: "https://discoverwildcare.org/get-help-for-wildlife/"
+  about_url: "https://discoverwildcare.org/about/"
+  contact_url: "https://discoverwildcare.org/contact/"
+  contact_email: ""
+  contact_phone: "(415) 453-1000"
+  emergency_hotline: "(415) 453-1000"
+  intake_address: "76 Albert Park Lane, San Rafael, CA 94901"
+  intake_hours: "Daily 9am–5pm"
+  news_or_blog_url: "https://discoverwildcare.org/news/"
+  newsletter_signup_url: "https://discoverwildcare.org/support/email-signup/"
+  patient_stories_url: "https://discoverwildcare.org/patient-stories/"
+  annual_reports_url: "https://discoverwildcare.org/about/annual-report/"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/WildCareBayArea/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 4000
+    intake_source_year: 2023
+    licensed_species_count: "200+"
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "WildCare is here to help as human habitation continues to expand into the wild places that surround us, helping people and wildlife increasingly coexist."
+  status: active
+  notes: "Marin County's primary wildlife hospital; underwent major facility renovation 2023–2024."
+  source_urls:
+    - "https://discoverwildcare.org"
+    - "https://projects.propublica.org/nonprofits/organizations/510172331"
+
+- slug: california-wildlife-center
+  legal_name: "California Wildlife Center"
+  common_name: "California Wildlife Center"
+  state: CA
+  city: "Malibu"
+  county_fips: "06037"
+  ein: "95-4580790"
+  primary_url: "https://cawildlife.org"
+  wildlife_help_url: "https://cawildlife.org/find-help/"
+  about_url: "https://cawildlife.org/about-cwc/"
+  contact_url: "https://cawildlife.org/contact/"
+  contact_email: ""
+  contact_phone: "(310) 458-9453"
+  emergency_hotline: "(310) 458-9453"
+  intake_address: "PO Box 2022, Malibu, CA 90265"
+  intake_hours: ""
+  news_or_blog_url: "https://cawildlife.org/news/"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: "https://cawildlife.org/financials-legal-info/"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/californiawildlifecenter/"
+    instagram: "https://www.instagram.com/cawildlife/"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 3000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Protecting California's native wildlife through rescue, rehabilitation, education, and research."
+  status: active
+  notes: "Primary wildlife hospital for western Los Angeles and Ventura Counties. Serves Malibu/Calabasas area."
+  source_urls:
+    - "https://cawildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/954580790"
+
+- slug: lindsay-wildlife-experience
+  legal_name: "Lindsay Wildlife Experience"
+  common_name: "Lindsay Wildlife Experience"
+  state: CA
+  city: "Walnut Creek"
+  county_fips: "06013"
+  ein: "94-6104179"
+  primary_url: "https://lindsaywildlife.org"
+  wildlife_help_url: "https://lindsaywildlife.org/wildlife-care/found-an-animal/"
+  about_url: "https://lindsaywildlife.org/about/"
+  contact_url: "https://lindsaywildlife.org/contact/"
+  contact_email: ""
+  contact_phone: "(925) 935-1978"
+  emergency_hotline: "(925) 935-1978"
+  intake_address: "1931 First Ave, Walnut Creek, CA 94597"
+  intake_hours: "Daily 9am–5pm"
+  news_or_blog_url: "https://lindsaywildlife.org/news/"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: "https://lindsaywildlife.org/about/financials/"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: "https://www.instagram.com/lindsaywildlife/"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 6000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Nature museum and wildlife rehabilitation hospital serving the greater San Francisco Bay Area since 1955."
+  status: active
+  notes: "One of California's oldest and largest wildlife hospitals; also operates as a nature museum."
+  source_urls:
+    - "https://lindsaywildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/946104179"
+
+- slug: international-bird-rescue
+  legal_name: "International Bird Rescue"
+  common_name: "International Bird Rescue"
+  state: CA
+  city: "Fairfield"
+  county_fips: "06095"
+  ein: "94-1739027"
+  primary_url: "https://www.birdrescue.org"
+  wildlife_help_url: "https://www.birdrescue.org/injured-bird/"
+  about_url: "https://www.birdrescue.org/about/"
+  contact_url: "https://www.birdrescue.org/contact/"
+  contact_email: ""
+  contact_phone: "(707) 207-0380"
+  emergency_hotline: "(707) 207-0380"
+  intake_address: "4369 Cordelia Rd, Fairfield, CA 94534"
+  intake_hours: "Daily 8am–6pm"
+  news_or_blog_url: "https://www.birdrescue.org/news/"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: "https://www.birdrescue.org/about/financials/"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: true
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: true
+  capacity:
+    typical_annual_intake: 5000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: ["IWRC"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "International Bird Rescue operates two year-round California aquatic bird rescue centers — San Pedro and Fairfield — specializing in seabirds and waterbirds."
+  status: active
+  notes: "Internationally recognized leader in aquatic bird rehabilitation. Also responds to oil spills globally. Southern CA facility at San Pedro (Los Angeles Harbor). Northern CA facility in Fairfield."
+  source_urls:
+    - "https://www.birdrescue.org"
+    - "https://projects.propublica.org/nonprofits/organizations/941739027"
+
+- slug: the-marine-mammal-center
+  legal_name: "The Marine Mammal Center"
+  common_name: "Marine Mammal Center"
+  state: CA
+  city: "Sausalito"
+  county_fips: "06041"
+  ein: "51-0144434"
+  primary_url: "https://www.marinemammalcenter.org"
+  wildlife_help_url: "https://www.marinemammalcenter.org/rescue"
+  about_url: "https://www.marinemammalcenter.org/about"
+  contact_url: "https://www.marinemammalcenter.org/contact"
+  contact_email: ""
+  contact_phone: "(415) 289-7325"
+  emergency_hotline: "(415) 289-SEAL"
+  intake_address: "2000 Bunker Road, Sausalito, CA 94965"
+  intake_hours: "Daily 10am–5pm (visitor center)"
+  news_or_blog_url: "https://www.marinemammalcenter.org/news"
+  newsletter_signup_url: "https://www.marinemammalcenter.org/email-signup"
+  patient_stories_url: "https://www.marinemammalcenter.org/patient-stories"
+  annual_reports_url: "https://www.marinemammalcenter.org/about/financials"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: true
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: true
+  capacity:
+    typical_annual_intake: 1000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "The Marine Mammal Center advances ocean health through marine mammal rescue and rehabilitation, research, and education."
+  status: active
+  notes: "MARINE MAMMAL SPECIALIST. World's largest marine mammal hospital; rescues sea lions, harbor seals, elephant seals, and other marine mammals along the Pacific Coast. Also operates satellite facilities in Hawaii and on the Farallon Islands."
+  source_urls:
+    - "https://www.marinemammalcenter.org"
+    - "https://projects.propublica.org/nonprofits/organizations/510144434"
+
+- slug: wildlife-center-of-silicon-valley
+  legal_name: "Wildlife Center of Silicon Valley"
+  common_name: "Wildlife Center of Silicon Valley"
+  state: CA
+  city: "San Jose"
+  county_fips: "06085"
+  ein: "77-0378066"
+  primary_url: "https://wcsv.org"
+  wildlife_help_url: "https://wcsv.org/found-an-animal/"
+  about_url: "https://wcsv.org/about/"
+  contact_url: "https://wcsv.org/contact/"
+  contact_email: ""
+  contact_phone: "(650) 340-7022"
+  emergency_hotline: "(650) 340-7022"
+  intake_address: "3027 Penitencia Creek Road, San Jose, CA 95132"
+  intake_hours: "Daily 9am–6pm"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 4000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Rescue, rehabilitation, and release of native Silicon Valley wildlife."
+  status: active
+  notes: "Now operated under the Peninsula Humane Society & SPCA umbrella since late 2025. Still operates at same San Jose location."
+  source_urls:
+    - "https://wcsv.org"
+    - "https://projects.propublica.org/nonprofits/organizations/770378066"
+
+- slug: gold-country-wildlife-rescue
+  legal_name: "Gold Country Wildlife Rescue Inc."
+  common_name: "Gold Country Wildlife Rescue"
+  state: CA
+  city: "Auburn"
+  county_fips: "06061"
+  ein: "68-0259665"
+  primary_url: "https://goldcountrywildliferescue.org"
+  wildlife_help_url: "https://goldcountrywildliferescue.org/wildlife-emergency/"
+  about_url: "https://goldcountrywildliferescue.org/about/"
+  contact_url: "https://goldcountrywildliferescue.org/about/contact-us/"
+  contact_email: ""
+  contact_phone: "(530) 823-7908"
+  emergency_hotline: "(530) 823-7908"
+  intake_address: "Auburn, CA 95603"
+  intake_hours: ""
+  news_or_blog_url: "https://goldcountrywildliferescue.org/blog/"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/GoldCountryWildlifeRescue/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1500
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Protecting the future of local wildlife in the Sierra Nevada foothills region."
+  status: active
+  notes: "Serves Placer, El Dorado, and Nevada counties in the Sierra Nevada foothills."
+  source_urls:
+    - "https://goldcountrywildliferescue.org"
+    - "https://projects.propublica.org/nonprofits/organizations/680259665"
+
+- slug: lake-tahoe-wildlife-care
+  legal_name: "Lake Tahoe Wildlife Care, Inc."
+  common_name: "Lake Tahoe Wildlife Care"
+  state: CA
+  city: "South Lake Tahoe"
+  county_fips: "06017"
+  ein: "94-2799765"
+  primary_url: "https://ltwc.org"
+  wildlife_help_url: "https://ltwc.org/injured-wildlife/"
+  about_url: "https://ltwc.org/about/"
+  contact_url: "https://ltwc.org/contact/"
+  contact_email: ""
+  contact_phone: "(530) 577-2273"
+  emergency_hotline: "(530) 577-2273"
+  intake_address: "3330 Lake Tahoe Blvd, South Lake Tahoe, CA 96150"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/laketahoewildlifecare/"
+    instagram: "https://www.instagram.com/laketahoewildlifecare/"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 600
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Giving mother nature a helping hand by raising and rehabilitating orphaned and injured wildlife so they may be released back to the wild."
+  status: active
+  notes: "Serves the Lake Tahoe basin on both CA and NV sides. Experienced a brief permit lapse 2022."
+  source_urls:
+    - "https://ltwc.org"
+    - "https://projects.propublica.org/nonprofits/organizations/942799765"
+
+- slug: yggdrasil-urban-wildlife-rescue
+  legal_name: "Yggdrasil Urban Wildlife Rescue"
+  common_name: "YUWR"
+  state: CA
+  city: "San Francisco"
+  county_fips: "06075"
+  ein: "27-0085492"
+  primary_url: "https://yuwr.org"
+  wildlife_help_url: "https://yuwr.org/need-help/"
+  about_url: "https://yuwr.org/about/"
+  contact_url: "https://yuwr.org/contact/"
+  contact_email: ""
+  contact_phone: "(510) 421-9897"
+  emergency_hotline: "(510) 421-9897"
+  intake_address: "San Francisco, CA 94110"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/Yggdrasilwildlife/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 500
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "San Francisco's only dedicated urban wildlife rescue and education center."
+  status: active
+  notes: "Faced financial challenges 2024–2025; survived through community fundraising. Serves San Francisco city and county."
+  source_urls:
+    - "https://yuwr.org"
+    - "https://projects.propublica.org/nonprofits/organizations/270085492"
+
+- slug: bird-rescue-center-sonoma
+  legal_name: "Bird Rescue Center of Sonoma County"
+  common_name: "Bird Rescue Center"
+  state: CA
+  city: "Santa Rosa"
+  county_fips: "06097"
+  ein: "94-2378213"
+  primary_url: "https://www.birdrescuecenter.org"
+  wildlife_help_url: "https://www.birdrescuecenter.org/found-a-bird"
+  about_url: "https://www.birdrescuecenter.org/about-brc"
+  contact_url: "https://www.birdrescuecenter.org/contact-brc"
+  contact_email: ""
+  contact_phone: "(707) 523-2473"
+  emergency_hotline: "(707) 523-2473"
+  intake_address: "Santa Rosa, CA 95401"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 3000
+    intake_source_year: 2023
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "The only wildlife organization in Sonoma County dedicated to all species of native wild birds; rescues, rehabilitates, and releases nearly 3,000 birds annually."
+  status: active
+  notes: "Bird-only facility serving Sonoma County."
+  source_urls:
+    - "https://www.birdrescuecenter.org"
+    - "https://projects.propublica.org/nonprofits/organizations/942378213"
+
+- slug: sonoma-county-wildlife-rescue
+  legal_name: "Sonoma County Wildlife Rescue"
+  common_name: "Sonoma County Wildlife Rescue"
+  state: CA
+  city: "Petaluma"
+  county_fips: "06097"
+  ein: "unknown"
+  primary_url: "https://scwildliferescue.org"
+  wildlife_help_url: "https://scwildliferescue.org/found-an-animal/"
+  about_url: "https://scwildliferescue.org/about/"
+  contact_url: "https://scwildliferescue.org/contact/"
+  contact_email: ""
+  contact_phone: "(707) 992-0274"
+  emergency_hotline: "(707) 992-0274"
+  intake_address: "Petaluma, CA 94952"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1500
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Dedicated to the rescue, rehabilitation, and release of sick, injured, and orphaned wildlife in Sonoma County."
+  status: active
+  notes: "Serves Sonoma County; staffed by dedicated team of staff and volunteers."
+  source_urls:
+    - "https://scwildliferescue.org"
+
+- slug: napa-wildlife-rescue
+  legal_name: "Wildlife Rescue Center of Napa County"
+  common_name: "Napa Wildlife Rescue"
+  state: CA
+  city: "Napa"
+  county_fips: "06055"
+  ein: "68-0271705"
+  primary_url: "https://www.napawildliferescue.org"
+  wildlife_help_url: "https://www.napawildliferescue.org/found-wildlife/"
+  about_url: "https://www.napawildliferescue.org/about/"
+  contact_url: "https://www.napawildliferescue.org/contact/"
+  contact_email: ""
+  contact_phone: "(707) 224-4295"
+  emergency_hotline: "(707) 224-4295"
+  intake_address: "Napa, CA 94558"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 800
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Rescuing, rehabilitating, and releasing wildlife since 1991 in Napa County."
+  status: active
+  notes: "Serves Napa County. Operating since 1991. Legal name per ProPublica: Wildlife Rescue Center of Napa County."
+  source_urls:
+    - "https://www.napawildliferescue.org"
+    - "https://projects.propublica.org/nonprofits/organizations/680271705"
+
+- slug: native-animal-rescue-santa-cruz
+  legal_name: "Native Animal Rescue"
+  common_name: "Native Animal Rescue"
+  state: CA
+  city: "Santa Cruz"
+  county_fips: "06087"
+  ein: "94-2711748"
+  primary_url: "https://www.nativeanimalrescue.org"
+  wildlife_help_url: "https://www.nativeanimalrescue.org/found-an-animal/"
+  about_url: "https://www.nativeanimalrescue.org/about/"
+  contact_url: "https://www.nativeanimalrescue.org/contact/"
+  contact_email: ""
+  contact_phone: "(831) 462-0726"
+  emergency_hotline: "(831) 462-0726"
+  intake_address: "2882 Soquel Ave, Santa Cruz, CA 95062"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 2000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Wildlife rescue and rehabilitation serving Santa Cruz County."
+  status: active
+  notes: "Primary wildlife hospital for Santa Cruz County."
+  source_urls:
+    - "https://www.nativeanimalrescue.org"
+    - "https://projects.propublica.org/nonprofits/organizations/942711748"
+
+- slug: pacific-wildlife-care
+  legal_name: "Pacific Wildlife Care"
+  common_name: "Pacific Wildlife Care"
+  state: CA
+  city: "Morro Bay"
+  county_fips: "06079"
+  ein: "77-0196350"
+  primary_url: "https://pacificwildlifecare.org"
+  wildlife_help_url: "https://pacificwildlifecare.org/what-to-do-if-you-find-a-wild-animal/"
+  about_url: "https://pacificwildlifecare.org/history_mission_values/"
+  contact_url: "https://pacificwildlifecare.org/contact/"
+  contact_email: ""
+  contact_phone: "(805) 543-9453"
+  emergency_hotline: "(805) 543-9453"
+  intake_address: "Morro Bay, CA 93442"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 2000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Serving wildlife in San Luis Obispo County since 1984 through rescue, rehabilitation, and education."
+  status: active
+  notes: "Serves San Luis Obispo County. Operating since 1984."
+  source_urls:
+    - "https://pacificwildlifecare.org"
+    - "https://www.causeiq.com/organizations/pacific-wildlife-care,770196350/"
+
+- slug: ojai-raptor-center
+  legal_name: "Ojai Raptor Center"
+  common_name: "Ojai Raptor Center"
+  state: CA
+  city: "Ojai"
+  county_fips: "06111"
+  ein: "77-0543286"
+  primary_url: "https://www.ojairaptorcenter.org"
+  wildlife_help_url: "https://www.ojairaptorcenter.org/wildlife-emergency"
+  about_url: "https://www.ojairaptorcenter.org/who-we-are"
+  contact_url: "https://www.ojairaptorcenter.org/contact-us"
+  contact_email: ""
+  contact_phone: "(805) 649-7174"
+  emergency_hotline: "(805) 649-7174"
+  intake_address: "Ojai, CA 93023"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 400
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "State and federally permitted 501(c)(3) nonprofit dedicated to the rescue, rehabilitation, and release of raptors in the Ventura County region."
+  status: active
+  notes: "Raptor-specialist facility serving Ventura and Santa Barbara counties."
+  source_urls:
+    - "https://www.ojairaptorcenter.org"
+    - "https://projects.propublica.org/nonprofits/organizations/770543286"
+
+- slug: wetlands-wildlife-care-center-oc
+  legal_name: "Wetlands and Wildlife Care Center"
+  common_name: "WWCC"
+  state: CA
+  city: "Huntington Beach"
+  county_fips: "06059"
+  ein: "33-0969297"
+  primary_url: "https://www.wwccoc.org"
+  wildlife_help_url: "https://www.wwccoc.org/report-an-animal.html"
+  about_url: "https://www.wwccoc.org/about-usprograms.html"
+  contact_url: "https://www.wwccoc.org/contact.html"
+  contact_email: "wwccinfo@gmail.com"
+  contact_phone: "(714) 374-5587"
+  emergency_hotline: "(714) 374-5587"
+  intake_address: "21900 Pacific Coast Highway, Huntington Beach, CA 92646"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1500
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Dedicated to the rehabilitation and release of injured and orphaned native wildlife in Orange County."
+  status: active
+  notes: "Serves Orange County on the Pacific Coast Highway."
+  source_urls:
+    - "https://www.wwccoc.org"
+    - "https://projects.propublica.org/nonprofits/organizations/330969297"
+
+- slug: project-wildlife-san-diego
+  legal_name: "San Diego Humane Society — Project Wildlife"
+  common_name: "Project Wildlife"
+  state: CA
+  city: "San Diego"
+  county_fips: "06073"
+  ein: "95-1661688"
+  primary_url: "https://sdhumane.org/programs/project-wildlife/"
+  wildlife_help_url: "https://sdhumane.org/programs/project-wildlife/"
+  about_url: "https://sdhumane.org/programs/project-wildlife/"
+  contact_url: "https://sdhumane.org/contact/"
+  contact_email: ""
+  contact_phone: "(619) 299-7012"
+  emergency_hotline: "(619) 299-7012"
+  intake_address: "5500 Gaines St, San Diego, CA 92110"
+  intake_hours: "Daily 10am–4pm"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 12000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Caring for San Diego's wild animals; the largest wildlife rehabilitation program in Southern California, operated by San Diego Humane Society."
+  status: active
+  notes: "One of the largest wildlife rehabilitation programs in the US by intake. Operates multiple drop-off locations including a dedicated campus in Ramona."
+  source_urls:
+    - "https://sdhumane.org/programs/project-wildlife/"
+    - "https://projects.propublica.org/nonprofits/organizations/951661688"
+
+- slug: fresno-wildlife-rehabilitation-service
+  legal_name: "Fresno Wildlife Rehabilitation Service"
+  common_name: "Fresno Wildlife"
+  state: CA
+  city: "Clovis"
+  county_fips: "06019"
+  ein: "94-2628893"
+  primary_url: "https://www.fresnowildlife.org"
+  wildlife_help_url: "https://www.fresnowildlife.org/get-help"
+  about_url: "https://www.fresnowildlife.org/about"
+  contact_url: "https://www.fresnowildlife.org/contact"
+  contact_email: ""
+  contact_phone: "(559) 298-3276"
+  emergency_hotline: "(559) 298-3276"
+  intake_address: "Clovis, CA 93611"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "All-volunteer, non-profit organization dedicated to caring for orphaned and injured native wildlife in the Central Valley."
+  status: active
+  notes: "Primary wildlife rehab organization for Fresno and surrounding Central Valley counties."
+  source_urls:
+    - "https://www.fresnowildlife.org"
+    - "https://impala.digital/public/profiles/94-2628893/overview"
+
+- slug: humboldt-wildlife-care-center
+  legal_name: "Humboldt Wildlife Care Center"
+  common_name: "Humboldt Wildlife Care Center"
+  state: CA
+  city: "Bayside"
+  county_fips: "06023"
+  ein: "unknown"
+  primary_url: "https://humboldtwildlifecare.org"
+  wildlife_help_url: "https://humboldtwildlifecare.org/injured-wildlife/"
+  about_url: "https://humboldtwildlifecare.org/about/"
+  contact_url: "https://humboldtwildlifecare.org/contact/"
+  contact_email: ""
+  contact_phone: "(707) 822-8839"
+  emergency_hotline: "(707) 822-8839"
+  intake_address: "Bayside, CA 95524"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1200
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Wildlife rescue and rehabilitation serving Humboldt County and the North Coast region."
+  status: active
+  notes: "Primary wildlife hospital for Humboldt County on California's North Coast."
+  source_urls:
+    - "https://birdallyx.net/humboldt-wildlife-care-center-2/"
+
+- slug: pacific-wildlife-project
+  legal_name: "Pacific Wildlife Project"
+  common_name: "Pacific Wildlife Project"
+  state: CA
+  city: "Laguna Niguel"
+  county_fips: "06059"
+  ein: "33-0219453"
+  primary_url: "http://www.pacificwildlife.org"
+  wildlife_help_url: "http://www.pacificwildlife.org/injured-wildlife/"
+  about_url: "http://www.pacificwildlife.org/about/"
+  contact_url: "http://www.pacificwildlife.org/contact/"
+  contact_email: ""
+  contact_phone: "(949) 494-4322"
+  emergency_hotline: "(949) 494-4322"
+  intake_address: "Laguna Niguel, CA 92677"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Grassroots non-profit 501(c)(3) dedicated to providing the best possible care to injured and abandoned wildlife in South Orange County."
+  status: active
+  notes: "Serves South Orange County and the Laguna Beach area."
+  source_urls:
+    - "http://www.pacificwildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/330219453"
+
+# ─────────────────────────────────────────────────────────────────
+# OREGON (4 organizations)
+# ─────────────────────────────────────────────────────────────────
+
+- slug: bird-alliance-of-oregon
+  legal_name: "Bird Alliance of Oregon, Inc."
+  common_name: "Bird Alliance of Oregon"
+  state: OR
+  city: "Portland"
+  county_fips: "41051"
+  ein: "93-6026088"
+  primary_url: "https://birdallianceoregon.org"
+  wildlife_help_url: "https://birdallianceoregon.org/our-work/rehabilitate-wildlife/found-a-wild-animal/"
+  about_url: "https://birdallianceoregon.org/about/"
+  contact_url: "https://birdallianceoregon.org/connect/contact-us/"
+  contact_email: ""
+  contact_phone: "(503) 292-0304"
+  emergency_hotline: "(503) 292-0304"
+  intake_address: "5151 NW Cornell Rd, Portland, OR 97210"
+  intake_hours: "Daily 9am–5pm"
+  news_or_blog_url: "https://birdallianceoregon.org/news/"
+  newsletter_signup_url: "https://birdallianceoregon.org/connect/email-signup/"
+  patient_stories_url: ""
+  annual_reports_url: "https://birdallianceoregon.org/about/financials/"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 3000
+    intake_source_year: 2023
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Portland Audubon (now Bird Alliance of Oregon) has operated a wildlife care center since 1961, treating injured and orphaned wildlife."
+  status: active
+  notes: "Formerly Portland Audubon Society; rebranded as Bird Alliance of Oregon 2024. Opening new wildlife hospital in NW Portland (2025)."
+  source_urls:
+    - "https://birdallianceoregon.org"
+    - "https://projects.propublica.org/nonprofits/organizations/936026088"
+
+- slug: cascades-raptor-center
+  legal_name: "Cascades Raptor Center"
+  common_name: "Cascades Raptor Center"
+  state: OR
+  city: "Eugene"
+  county_fips: "41039"
+  ein: "93-1038827"
+  primary_url: "https://cascadesraptorcenter.org"
+  wildlife_help_url: "https://cascadesraptorcenter.org/injured-raptor/"
+  about_url: "https://cascadesraptorcenter.org/about/"
+  contact_url: "https://cascadesraptorcenter.org/contact/"
+  contact_email: ""
+  contact_phone: "(541) 485-1320"
+  emergency_hotline: "(541) 485-1320"
+  intake_address: "32275 Fox Hollow Rd, Eugene, OR 97405"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 200
+    intake_source_year: 2022
+    licensed_species_count: "40 species of raptors"
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Nature center and wildlife hospital housing nearly 40 birds of prey native to the Pacific Northwest in an outdoor aviary; provides educational programs for all ages."
+  status: active
+  notes: "Raptor-specialist facility; permanent care center for non-releasable raptors that serve as education ambassadors."
+  source_urls:
+    - "https://cascadesraptorcenter.org"
+    - "https://projects.propublica.org/nonprofits/organizations/931038827"
+
+- slug: chintimini-wildlife-center
+  legal_name: "Chintimini Wildlife Center"
+  common_name: "Chintimini Wildlife Center"
+  state: OR
+  city: "Corvallis"
+  county_fips: "41003"
+  ein: "94-3085445"
+  primary_url: "https://chintiminiwildlife.org"
+  wildlife_help_url: "https://chintiminiwildlife.org/injured-wildlife/"
+  about_url: "https://chintiminiwildlife.org/about"
+  contact_url: "https://chintiminiwildlife.org/contact"
+  contact_email: ""
+  contact_phone: "(541) 745-5324"
+  emergency_hotline: "(541) 745-5324"
+  intake_address: "27126 NW Llewellyn Rd, Corvallis, OR 97330"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1500
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Protecting and celebrating Oregon's native wildlife through care for injured and orphaned animals; has served 30,000+ animals since 1989."
+  status: active
+  notes: "Facing funding challenges as of late 2025. Serves the mid-Willamette Valley."
+  source_urls:
+    - "https://chintiminiwildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/943085445"
+
+- slug: wildlife-images-rehab
+  legal_name: "Wildlife Images Rehabilitation and Education Center"
+  common_name: "Wildlife Images"
+  state: OR
+  city: "Grants Pass"
+  county_fips: "41033"
+  ein: "93-0793314"
+  primary_url: "https://wildlifeimages.org"
+  wildlife_help_url: "https://wildlifeimages.org/injured-wildlife/"
+  about_url: "https://wildlifeimages.org/about"
+  contact_url: "https://wildlifeimages.org/contact"
+  contact_email: ""
+  contact_phone: "(541) 476-0222"
+  emergency_hotline: "(541) 476-0222"
+  intake_address: "11845 Lower River Rd, Grants Pass, OR 97526"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 800
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Non-profit focused on wildlife conservation through rehabilitation and education, integrating animal health and education for effective conservation strategies in the Rogue Valley."
+  status: active
+  notes: "Serves Josephine and Jackson counties in southern Oregon's Rogue Valley."
+  source_urls:
+    - "https://wildlifeimages.org"
+    - "https://projects.propublica.org/nonprofits/organizations/930793314"
+
+# ─────────────────────────────────────────────────────────────────
+# WASHINGTON (4 organizations)
+# ─────────────────────────────────────────────────────────────────
+
+- slug: paws-wildlife-center
+  legal_name: "Progressive Animal Welfare Society, Inc."
+  common_name: "PAWS Wildlife Center"
+  state: WA
+  city: "Lynnwood"
+  county_fips: "53061"
+  ein: "91-6073154"
+  primary_url: "https://www.paws.org"
+  wildlife_help_url: "https://www.paws.org/wildlife/"
+  about_url: "https://www.paws.org/about/"
+  contact_url: "https://www.paws.org/about/contact/"
+  contact_email: ""
+  contact_phone: "(425) 787-2500"
+  emergency_hotline: "(425) 412-1400"
+  intake_address: "15305 44th Ave W, Lynnwood, WA 98087"
+  intake_hours: "Daily 9am–6pm"
+  news_or_blog_url: "https://www.paws.org/blog/"
+  newsletter_signup_url: "https://www.paws.org/support/email-signup/"
+  patient_stories_url: ""
+  annual_reports_url: "https://www.paws.org/about/financials/"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: "https://www.linkedin.com/company/paws_2"
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 3000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "PAWS provides medical care for injured and orphaned wildlife with the goal of releasing them back to the wild."
+  status: active
+  notes: "One of the Pacific Northwest's largest and most respected wildlife rehabilitation centers. Also operates companion animal adoption services."
+  source_urls:
+    - "https://www.paws.org"
+    - "https://projects.propublica.org/nonprofits/organizations/916073154"
+
+- slug: sarvey-wildlife-care-center
+  legal_name: "Sarvey Wildlife Care Center"
+  common_name: "Sarvey Wildlife Care Center"
+  state: WA
+  city: "Arlington"
+  county_fips: "53061"
+  ein: "91-1303534"
+  primary_url: "https://www.sarveywildlife.org"
+  wildlife_help_url: "https://www.sarveywildlife.org/injured-wildlife.aspx"
+  about_url: "https://www.sarveywildlife.org/about.aspx"
+  contact_url: "https://www.sarveywildlife.org/contact-us.aspx"
+  contact_email: ""
+  contact_phone: "(360) 435-4817"
+  emergency_hotline: "(360) 435-4817"
+  intake_address: "21114 59th Ave NE, Arlington, WA 98223"
+  intake_hours: "Daily 9am–5pm"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 3000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Sarvey Wildlife Care Center cares for over 3,000 wildlife patients annually, treating all species of birds and mammals in the Pacific Northwest."
+  status: active
+  notes: "40+ year history; currently raising funds for new facility. Serves Snohomish and surrounding counties."
+  source_urls:
+    - "https://www.sarveywildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/911303534"
+
+- slug: sr3-sealife
+  legal_name: "SR3 — SeaLife Response, Rehabilitation, and Research"
+  common_name: "SR3"
+  state: WA
+  city: "Mukilteo"
+  county_fips: "53061"
+  ein: "45-1491069"
+  primary_url: "https://www.sealifer3.org"
+  wildlife_help_url: "https://www.sealifer3.org/report-a-stranding"
+  about_url: "https://www.sealifer3.org/about"
+  contact_url: "https://www.sealifer3.org/contact"
+  contact_email: ""
+  contact_phone: "(844) 4SR3-SOS"
+  emergency_hotline: "(844) 4SR3-SOS"
+  intake_address: "Mukilteo, WA 98275"
+  intake_hours: ""
+  news_or_blog_url: "https://www.sealifer3.org/news"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: "https://www.linkedin.com/company/sr3sealife"
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: true
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: true
+    transport_offered: true
+    field_response: true
+  capacity:
+    typical_annual_intake: 200
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "The only hospital exclusively for marine wildlife in the Pacific Northwest; rescues and protects marine life through response, rehabilitation, and research."
+  status: active
+  notes: "MARINE MAMMAL SPECIALIST. Responds to strandings of seals, sea lions, porpoises, dolphins, and whales throughout the Pacific Northwest. 24/7 stranding response."
+  source_urls:
+    - "https://www.sealifer3.org"
+    - "https://projects.propublica.org/nonprofits/organizations/451491069"
+
+- slug: wolf-hollow-wildlife
+  legal_name: "Wolf Hollow Wildlife Rehabilitation Center"
+  common_name: "Wolf Hollow / Salish Wildlife Rescue"
+  state: WA
+  city: "Friday Harbor"
+  county_fips: "53055"
+  ein: "91-1265913"
+  primary_url: "https://wolfhollowwildlife.org"
+  wildlife_help_url: "https://wolfhollowwildlife.org/need-help/"
+  about_url: "https://wolfhollowwildlife.org/about/"
+  contact_url: "https://wolfhollowwildlife.org/contact-us/"
+  contact_email: ""
+  contact_phone: "(360) 378-5000"
+  emergency_hotline: "(360) 378-5000"
+  intake_address: "284 Boyce Rd, Friday Harbor, WA 98250"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 600
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Raising awareness and providing educational opportunities about wildlife living in the San Juan Islands; rehabilitating injured and orphaned wildlife."
+  status: active
+  notes: "Serves the San Juan Islands archipelago, including San Juan, Orcas, Lopez, and nearby islands. Also known as Salish Wildlife Rescue."
+  source_urls:
+    - "https://wolfhollowwildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/911265913"
+
+# ─────────────────────────────────────────────────────────────────
+# IDAHO (2 organizations)
+# ─────────────────────────────────────────────────────────────────
+
+- slug: idaho-wildlife-rescue
+  legal_name: "Animals in Distress Association / Ruth Melichar Bird Center"
+  common_name: "Idaho Wildlife Rescue"
+  state: ID
+  city: "Boise"
+  county_fips: "16001"
+  ein: "82-0418179"
+  primary_url: "https://www.idahowildliferescue.org"
+  wildlife_help_url: "https://www.idahowildliferescue.org/found-an-animal/"
+  about_url: "https://www.idahowildliferescue.org/about/"
+  contact_url: "https://www.idahowildliferescue.org/contact/"
+  contact_email: ""
+  contact_phone: "(208) 327-0485"
+  emergency_hotline: "(208) 327-0485"
+  intake_address: "Boise, ID 83704"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1500
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Caring for Idaho's orphaned and injured wildlife since 1987 through Animals In Distress Association and its avian branch, the Ruth Melichar Bird Center."
+  status: active
+  notes: "Primary general wildlife hospital for the Treasure Valley / Boise area. Operating since 1987. EIN per ProPublica: Animals in Distress Association Inc."
+  source_urls:
+    - "https://www.idahowildliferescue.org"
+    - "https://projects.propublica.org/nonprofits/organizations/820418179"
+
+- slug: birds-of-prey-northwest
+  legal_name: "Birds of Prey Northwest"
+  common_name: "Birds of Prey Northwest"
+  state: ID
+  city: "St. Maries"
+  county_fips: "16079"
+  ein: "unknown"
+  primary_url: "https://www.birdsofpreynorthwest.org"
+  wildlife_help_url: "https://www.birdsofpreynorthwest.org/injured-bird/"
+  about_url: "https://www.birdsofpreynorthwest.org/about/"
+  contact_url: "https://www.birdsofpreynorthwest.org/contact/"
+  contact_email: ""
+  contact_phone: "(208) 245-1367"
+  emergency_hotline: "(208) 245-1367"
+  intake_address: "St. Maries, ID 83861"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 200
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Rescuing injured and imprinted raptors and providing educational programs in the Idaho Panhandle."
+  status: active
+  notes: "Raptor-specialist facility serving northern Idaho and surrounding region. Also offers school educational programs."
+  source_urls:
+    - "https://www.birdsofpreynorthwest.org"
+
+# ─────────────────────────────────────────────────────────────────
+# MONTANA (2 organizations)
+# ─────────────────────────────────────────────────────────────────
+
+- slug: wild-skies-raptor-center
+  legal_name: "Wild Skies Raptor Center"
+  common_name: "Wild Skies Raptor Center"
+  state: MT
+  city: "Missoula"
+  county_fips: "30063"
+  ein: "27-2332804"
+  primary_url: "https://www.wildskies.org"
+  wildlife_help_url: "https://www.wildskies.org"
+  about_url: "https://www.wildskies.org/about.html"
+  contact_url: "https://www.wildskies.org/contact"
+  contact_email: ""
+  contact_phone: "(406) 210-3468"
+  emergency_hotline: "(406) 210-3468"
+  intake_address: "Missoula, MT 59801"
+  intake_hours: ""
+  news_or_blog_url: "https://www.wildskies.org/news.html"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 200
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Rescues, rehabilitates, and releases raptors in western Montana; leads education and research on raptor issues including lead poisoning."
+  status: active
+  notes: "Raptor-specialist facility in western Montana; active in lead-poisoning research and advocacy."
+  source_urls:
+    - "https://www.wildskies.org"
+    - "https://projects.propublica.org/nonprofits/organizations/272332804"
+
+- slug: montana-raptor-conservation-center
+  legal_name: "Montana Raptor Conservation Center"
+  common_name: "Montana Raptor Conservation Center"
+  state: MT
+  city: "Bozeman"
+  county_fips: "30031"
+  ein: "36-3782562"
+  primary_url: "https://montanaraptor.org"
+  wildlife_help_url: "https://montanaraptor.org/injured-raptor/"
+  about_url: "https://montanaraptor.org/about/"
+  contact_url: "https://montanaraptor.org/contact/"
+  contact_email: ""
+  contact_phone: "(406) 585-1211"
+  emergency_hotline: "(406) 585-1211"
+  intake_address: "Bozeman, MT 59715"
+  intake_hours: ""
+  news_or_blog_url: "https://montanaraptor.org/news/"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 200
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Raptor rehabilitation and conservation center serving the greater Yellowstone ecosystem and the Gallatin Valley."
+  status: active
+  notes: "Serves southwest Montana and the greater Yellowstone area. Raptor-specialist organization."
+  source_urls:
+    - "https://montanaraptor.org"
+    - "https://projects.propublica.org/nonprofits/organizations/363782562"
+
+# ─────────────────────────────────────────────────────────────────
+# WYOMING (1 organization)
+# ─────────────────────────────────────────────────────────────────
+
+- slug: teton-raptor-center
+  legal_name: "Teton Raptor Center"
+  common_name: "Teton Raptor Center"
+  state: WY
+  city: "Wilson"
+  county_fips: "56039"
+  ein: "83-0328068"
+  primary_url: "https://tetonraptorcenter.org"
+  wildlife_help_url: "https://tetonraptorcenter.org/raptor-emergency/"
+  about_url: "https://tetonraptorcenter.org/about/"
+  contact_url: "https://tetonraptorcenter.org/contact/"
+  contact_email: ""
+  contact_phone: "(307) 203-2551"
+  emergency_hotline: "(307) 203-2551"
+  intake_address: "5450 W McCollister Drive, Wilson, WY 83014"
+  intake_hours: ""
+  news_or_blog_url: "https://tetonraptorcenter.org/news/"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 150
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Non-profit organization advancing raptor conservation through education, research, and rehabilitation in the Greater Yellowstone Ecosystem."
+  status: active
+  notes: "Serves Jackson Hole and the Greater Yellowstone area. Raptor-specialist organization."
+  source_urls:
+    - "https://tetonraptorcenter.org"
+    - "https://projects.propublica.org/nonprofits/organizations/830328068"
+
+# ─────────────────────────────────────────────────────────────────
+# COLORADO (4 organizations)
+# ─────────────────────────────────────────────────────────────────
+
+- slug: birds-of-prey-foundation-co
+  legal_name: "Birds of Prey Foundation"
+  common_name: "Birds of Prey Foundation"
+  state: CO
+  city: "Broomfield"
+  county_fips: "08014"
+  ein: "84-0967043"
+  primary_url: "https://www.birds-of-prey.org"
+  wildlife_help_url: "https://www.birds-of-prey.org/injured-raptor/"
+  about_url: "https://www.birds-of-prey.org/about/"
+  contact_url: "https://www.birds-of-prey.org/contact/"
+  contact_email: ""
+  contact_phone: "(303) 460-0674"
+  emergency_hotline: "(303) 460-0674"
+  intake_address: "2290 S 104th St, Broomfield, CO 80021"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 600
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "501(c)(3) nonprofit dedicated to the rehabilitation and release of injured and orphaned raptors in the Colorado Front Range; over 600 birds per year."
+  status: active
+  notes: "Raptor-specialist facility serving the Denver/Boulder metropolitan area."
+  source_urls:
+    - "https://www.birds-of-prey.org"
+    - "https://projects.propublica.org/nonprofits/organizations/840967043"
+
+- slug: greenwood-wildlife-rehabilitation
+  legal_name: "Greenwood Wildlife Rehabilitation Center"
+  common_name: "Greenwood Wildlife"
+  state: CO
+  city: "Longmont"
+  county_fips: "08013"
+  ein: "84-1228158"
+  primary_url: "https://www.greenwoodwildlife.org"
+  wildlife_help_url: "https://www.greenwoodwildlife.org/find-help/"
+  about_url: "https://www.greenwoodwildlife.org/about/"
+  contact_url: "https://www.greenwoodwildlife.org/contact/"
+  contact_email: ""
+  contact_phone: "(303) 823-8455"
+  emergency_hotline: "(303) 823-8455"
+  intake_address: "5854 Ute Hwy, Longmont, CO 80503"
+  intake_hours: "Daily 9am–6pm"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 3000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Comprehensive wildlife rehabilitation center serving Colorado's Front Range."
+  status: active
+  notes: "One of Colorado's largest general wildlife rehab facilities; serves Boulder, Broomfield, and surrounding counties."
+  source_urls:
+    - "https://www.greenwoodwildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/841228158"
+
+- slug: rocky-mountain-raptor-program
+  legal_name: "Rocky Mountain Raptor Program"
+  common_name: "RMRP"
+  state: CO
+  city: "Fort Collins"
+  county_fips: "08069"
+  ein: "90-0131614"
+  primary_url: "https://www.rmrp.org"
+  wildlife_help_url: "https://www.rmrp.org/raptor-in-distress/"
+  about_url: "https://www.rmrp.org/about/"
+  contact_url: "https://www.rmrp.org/contact/"
+  contact_email: ""
+  contact_phone: "(970) 484-7756"
+  emergency_hotline: "(970) 484-7756"
+  intake_address: "Colorado State University, Fort Collins, CO 80523"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 300
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Inspiring the protection and conservation of raptors and the environment through excellence in rehabilitation, education, and research at Colorado State University."
+  status: active
+  notes: "University-affiliated raptor rehabilitation program at Colorado State University; serves northern Colorado."
+  source_urls:
+    - "https://www.rmrp.org"
+    - "https://projects.propublica.org/nonprofits/organizations/900131614"
+
+- slug: raptor-education-foundation-co
+  legal_name: "Raptor Education Foundation"
+  common_name: "REF"
+  state: CO
+  city: "Denver"
+  county_fips: "08031"
+  ein: "84-0828277"
+  primary_url: "https://www.usaref.org"
+  wildlife_help_url: "https://www.usaref.org/raptor-emergency/"
+  about_url: "https://www.usaref.org/about/"
+  contact_url: "https://www.usaref.org/contact/"
+  contact_email: ""
+  contact_phone: "(303) 680-8500"
+  emergency_hotline: "(303) 680-8500"
+  intake_address: "Castle Rock, CO 80108"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 150
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Colorado's first and oldest raptor sanctuary, supporting Denver's nesting peregrine falcons and rehabilitating injured raptors."
+  status: active
+  notes: "Colorado's oldest raptor rehabilitation organization. Notable for supporting Denver's peregrine falcon nesting populations."
+  source_urls:
+    - "https://www.usaref.org"
+
+# ─────────────────────────────────────────────────────────────────
+# NEVADA (1 organization)
+# ─────────────────────────────────────────────────────────────────
+
+- slug: nevada-humane-society-wildlife
+  legal_name: "Nevada Humane Society"
+  common_name: "Nevada Humane Society Wildlife"
+  state: NV
+  city: "Reno"
+  county_fips: "32031"
+  ein: "88-0072720"
+  primary_url: "https://nevadahumanesociety.org"
+  wildlife_help_url: "https://nevadahumanesociety.org/wildlife/"
+  about_url: "https://nevadahumanesociety.org/about/"
+  contact_url: "https://nevadahumanesociety.org/contact/"
+  contact_email: ""
+  contact_phone: "(775) 856-2000"
+  emergency_hotline: "(775) 856-2000"
+  intake_address: "2825 Longley Ln, Reno, NV 89502"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 500
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Nevada Humane Society's wildlife program provides care for injured and orphaned native wildlife in the Reno/Sparks area."
+  status: active
+  notes: "Primary wildlife rehabilitation resource for northern Nevada. Note: Lake Tahoe Wildlife Care (South Lake Tahoe, CA) also serves the Nevada side of Lake Tahoe."
+  source_urls:
+    - "https://nevadahumanesociety.org"
+
+# ─────────────────────────────────────────────────────────────────
+# UTAH (2 organizations)
+# ─────────────────────────────────────────────────────────────────
+
+- slug: wildlife-rehabilitation-center-northern-utah
+  legal_name: "Wildlife Rehabilitation Center of Northern Utah"
+  common_name: "WRCNU"
+  state: UT
+  city: "Ogden"
+  county_fips: "49057"
+  ein: "unknown"
+  primary_url: "https://wrcnu.org"
+  wildlife_help_url: "https://wrcnu.org/found-an-animal/"
+  about_url: "https://wrcnu.org/about/"
+  contact_url: "https://wrcnu.org/contact/"
+  contact_email: "info@wrcnu.org"
+  contact_phone: "(801) 814-7888"
+  emergency_hotline: "(801) 814-7888"
+  intake_address: "332 S Washington Boulevard, Ogden, UT 84404"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1500
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Empowering the community to engage in conservation and responsible stewardship of wildlife and habitat in northern Utah."
+  status: active
+  notes: "Primary wildlife hospital for Weber, Davis, and Box Elder counties in northern Utah. Has experienced periods of closure/relocation; confirmed active."
+  source_urls:
+    - "https://wrcnu.org"
+
+- slug: best-friends-wild-friends
+  legal_name: "Best Friends Animal Society — Wild Friends"
+  common_name: "Wild Friends at Best Friends"
+  state: UT
+  city: "Kanab"
+  county_fips: "49025"
+  ein: "27-2064345"
+  primary_url: "https://bestfriends.org/sanctuary/explore/wild-friends"
+  wildlife_help_url: "https://bestfriends.org/sanctuary/explore/wild-friends"
+  about_url: "https://bestfriends.org/sanctuary/explore/wild-friends"
+  contact_url: "https://bestfriends.org/contact/"
+  contact_email: ""
+  contact_phone: "(435) 644-2001"
+  emergency_hotline: ""
+  intake_address: "5001 Angel Canyon Rd, Kanab, UT 84741"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: "https://www.youtube.com/channel/UCuZUSKAxEB_1l9hBpxEK_zQ"
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 500
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Wild Friends is the wildlife sanctuary component of Best Friends Animal Sanctuary, rehabilitating native wild animals from the Colorado Plateau region."
+  status: active
+  notes: "Part of the Best Friends Animal Sanctuary campus in Angel Canyon, Kanab. Serves southern Utah and the Colorado Plateau."
+  source_urls:
+    - "https://bestfriends.org/sanctuary/explore/wild-friends"
+
+# ─────────────────────────────────────────────────────────────────
+# ARIZONA (3 organizations)
+# ─────────────────────────────────────────────────────────────────
+
+- slug: liberty-wildlife
+  legal_name: "Liberty Wildlife, Inc."
+  common_name: "Liberty Wildlife"
+  state: AZ
+  city: "Phoenix"
+  county_fips: "04013"
+  ein: "94-2738161"
+  primary_url: "https://libertywildlife.org"
+  wildlife_help_url: "https://libertywildlife.org/emergencies/wildlife-drop-off/"
+  about_url: "https://libertywildlife.org/about-us/"
+  contact_url: "https://libertywildlife.org/about-us/contact-us/"
+  contact_email: ""
+  contact_phone: "(480) 998-5550"
+  emergency_hotline: "(480) 814-9339"
+  intake_address: "2500 N 35th Ave, Phoenix, AZ 85009"
+  intake_hours: "Daily 8am–5pm"
+  news_or_blog_url: "https://libertywildlife.org/news/"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: "https://libertywildlife.org/about-us/financials/"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 7000
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: ["IWRC"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Nurturing the nature of Arizona through quality wildlife rehabilitation, environmental education, and conservation services for the community."
+  status: active
+  notes: "Arizona's largest general wildlife rehabilitation center; serves the greater Phoenix metropolitan area."
+  source_urls:
+    - "https://libertywildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/942738161"
+
+- slug: wild-at-heart-raptors
+  legal_name: "Wild at Heart, Inc."
+  common_name: "Wild At Heart Raptors"
+  state: AZ
+  city: "Cave Creek"
+  county_fips: "04013"
+  ein: "47-2390004"
+  primary_url: "https://wildatheartraptors.org"
+  wildlife_help_url: "https://wildatheartraptors.org/found-an-owl/"
+  about_url: "https://wildatheartraptors.org/about/"
+  contact_url: "https://wildatheartraptors.org/contact/"
+  contact_email: "info@WildAtHeartOwls.org"
+  contact_phone: "(623) 516-0491"
+  emergency_hotline: "(623) 516-0491"
+  intake_address: "Cave Creek, AZ 85331"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 500
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Arizona-based raptor rescue organization specializing in owl rehabilitation in the Sonoran Desert region."
+  status: active
+  notes: "Raptor/owl specialist serving the north Phoenix/Cave Creek area."
+  source_urls:
+    - "https://wildatheartraptors.org"
+    - "https://projects.propublica.org/nonprofits/organizations/472390004"
+
+- slug: southwest-wildlife-conservation-center
+  legal_name: "Southwest Wildlife Conservation Center"
+  common_name: "Southwest Wildlife"
+  state: AZ
+  city: "Scottsdale"
+  county_fips: "04013"
+  ein: "86-0765249"
+  primary_url: "https://southwestwildlife.org"
+  wildlife_help_url: "https://southwestwildlife.org/find-help/"
+  about_url: "https://www.southwestwildlife.org/who-we-are/"
+  contact_url: "https://southwestwildlife.org/contact/"
+  contact_email: ""
+  contact_phone: "(480) 243-3333"
+  emergency_hotline: "(480) 243-3333"
+  intake_address: "Scottsdale, AZ 85262"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 300
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Rescues Arizona native wild mammals that have lost their homes to development or are found injured in the Sonoran Desert."
+  status: active
+  notes: "Mammal-specialist facility focusing on native Arizona mammals; permanent sanctuary for non-releasable wildlife."
+  source_urls:
+    - "https://southwestwildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/860765249"
+
+# ─────────────────────────────────────────────────────────────────
+# NEW MEXICO (2 organizations)
+# ─────────────────────────────────────────────────────────────────
+
+- slug: new-mexico-wildlife-center
+  legal_name: "New Mexico Wildlife Center, Inc."
+  common_name: "New Mexico Wildlife Center"
+  state: NM
+  city: "Española"
+  county_fips: "35028"
+  ein: "85-0346210"
+  primary_url: "https://newmexicowildlifecenter.org"
+  wildlife_help_url: "https://newmexicowildlifecenter.org/wildlife-emergency/"
+  about_url: "https://newmexicowildlifecenter.org/about/"
+  contact_url: "https://newmexicowildlifecenter.org/contact/"
+  contact_email: ""
+  contact_phone: "(505) 753-9505"
+  emergency_hotline: "(505) 753-9505"
+  intake_address: "P.O. Box 538, Española, NM 87532"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 800
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Connecting people and wildlife for an abundant tomorrow; non-profit relying on volunteers to provide excellent care for New Mexico's injured and orphaned wildlife."
+  status: active
+  notes: "Serves northern New Mexico; also offers animal encounter programs."
+  source_urls:
+    - "https://newmexicowildlifecenter.org"
+    - "https://projects.propublica.org/nonprofits/organizations/850346210"
+
+- slug: hawks-aloft
+  legal_name: "Hawks Aloft, Inc."
+  common_name: "Hawks Aloft"
+  state: NM
+  city: "Albuquerque"
+  county_fips: "35001"
+  ein: "85-0418661"
+  primary_url: "https://hawksaloft.org"
+  wildlife_help_url: "https://hawksaloft.org/raptor-rescue/"
+  about_url: "https://hawksaloft.org/about/"
+  contact_url: "https://hawksaloft.org/contact/"
+  contact_email: "evelyn@hawksaloft.org"
+  contact_phone: "(505) 828-9455"
+  emergency_hotline: "(505) 828-9455"
+  intake_address: "Albuquerque, NM 87109"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 300
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "501(c)(3) non-profit incorporated in 1994 working to preserve New Mexico's wildlife and unique landscapes through avian research, raptor rescue, and conservation education."
+  status: active
+  notes: "Avian research and raptor rescue organization; USFWS partner for migratory bird research."
+  source_urls:
+    - "https://hawksaloft.org"
+    - "https://projects.propublica.org/nonprofits/organizations/850418661"
+
+# ─────────────────────────────────────────────────────────────────
+# ALASKA (2 organizations)
+# ─────────────────────────────────────────────────────────────────
+
+- slug: alaska-sealife-center
+  legal_name: "Seward Association for the Advancement of Marine Science"
+  common_name: "Alaska SeaLife Center"
+  state: AK
+  city: "Seward"
+  county_fips: "02122"
+  ein: "92-0132479"
+  primary_url: "https://alaskasealife.org"
+  wildlife_help_url: "https://alaskasealife.org/rescue-and-response/"
+  about_url: "https://alaskasealife.org/about/"
+  contact_url: "https://alaskasealife.org/contact/"
+  contact_email: ""
+  contact_phone: "(888) 378-2525"
+  emergency_hotline: "(888) 774-7325"
+  intake_address: "301 Railway Ave, Seward, AK 99664"
+  intake_hours: ""
+  news_or_blog_url: "https://alaskasealife.org/news/"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: "https://alaskasealife.org/about/financials/"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: true
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: true
+  capacity:
+    typical_annual_intake: 200
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: ["AZA"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Alaska's only public aquarium and ocean wildlife rescue center; a world-class marine research, rehabilitation, and education facility."
+  status: active
+  notes: "MARINE MAMMAL SPECIALIST. The only year-round marine mammal and seabird rescue/rehabilitation facility in Alaska. AZA-accredited. Responds to strandings of Steller sea lions, harbor seals, sea otters, and seabirds statewide."
+  source_urls:
+    - "https://alaskasealife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/920132479"
+
+- slug: bird-treatment-and-learning-center
+  legal_name: "Bird Treatment and Learning Center"
+  common_name: "Bird TLC"
+  state: AK
+  city: "Anchorage"
+  county_fips: "02020"
+  ein: "92-0130037"
+  primary_url: "https://www.birdtlc.org"
+  wildlife_help_url: "https://www.birdtlc.org/found-a-bird/"
+  about_url: "https://www.birdtlc.org/about/"
+  contact_url: "https://www.birdtlc.org/contact/"
+  contact_email: ""
+  contact_phone: "(907) 562-4852"
+  emergency_hotline: "(907) 562-4852"
+  intake_address: "3702 W International Airport Rd, Anchorage, AK 99502"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 400
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Caring and advocating for Alaska's wild birds through rehabilitation, education, and outreach to ensure they remain a vital part of Alaska's iconic landscape."
+  status: active
+  notes: "Alaska's primary avian rehabilitation center; treats bald eagles, seabirds, shorebirds, and passerines from throughout southcentral and interior Alaska."
+  source_urls:
+    - "https://www.birdtlc.org"
+    - "https://projects.propublica.org/nonprofits/organizations/920130037"
+
+# ─────────────────────────────────────────────────────────────────
+# HAWAII (1 organization)
+# ─────────────────────────────────────────────────────────────────
+
+- slug: hawaii-wildlife-center
+  legal_name: "Hawai'i Wildlife Center"
+  common_name: "Hawaii Wildlife Center"
+  state: HI
+  city: "Kapa'au"
+  county_fips: "15001"
+  ein: "20-1489691"
+  primary_url: "https://www.hawaiiwildlifecenter.org"
+  wildlife_help_url: "https://www.hawaiiwildlifecenter.org/injured-wildlife/"
+  about_url: "https://www.hawaiiwildlifecenter.org/about-hwc/"
+  contact_url: "https://www.hawaiiwildlifecenter.org/contact/"
+  contact_email: "birdhelp@hawaiiwildlifecenter.org"
+  contact_phone: "(808) 884-5000"
+  emergency_hotline: "(808) 884-5000"
+  intake_address: "53-324 Lighthouse Road, Kapa'au, HI 96755"
+  intake_hours: "Mon–Sun 9am–5pm"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 300
+    intake_source_year: 2022
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Providing emergency response, medical and rehabilitative care for native birds and bats statewide in Hawaii, alongside conservation programs creating a community where native wildlife thrive."
+  status: active
+  notes: "USFWS permit MB53007A; DLNR DOFAW permit 240503114849-OTH. Operating since 2012. Serves all islands including responding to seabird fallout events. Treats critically endangered Hawaiian species. AZA partner. The Marine Mammal Center also operates a satellite facility on Hawaii Island in Kona for monk seal rescue."
+  source_urls:
+    - "https://www.hawaiiwildlifecenter.org"
+    - "https://www.hawaiiwildlifecenter.org/hours-directions.html"
+
+# Summary:
+# Total organizations: 48
+# California: 20 (WildCare, California Wildlife Center, Lindsay Wildlife Experience,
+#   International Bird Rescue, The Marine Mammal Center, Wildlife Center of Silicon Valley,
+#   Gold Country Wildlife Rescue, Lake Tahoe Wildlife Care, Yggdrasil Urban Wildlife Rescue,
+#   Bird Rescue Center of Sonoma County, Sonoma County Wildlife Rescue, Napa Wildlife Rescue,
+#   Native Animal Rescue (Santa Cruz), Pacific Wildlife Care, Ojai Raptor Center,
+#   Wetlands and Wildlife Care Center (OC), Project Wildlife (San Diego),
+#   Fresno Wildlife Rehabilitation Service, Humboldt Wildlife Care Center,
+#   Pacific Wildlife Project)
+# Oregon: 4 (Bird Alliance of Oregon, Cascades Raptor Center, Chintimini Wildlife Center,
+#   Wildlife Images)
+# Washington: 4 (PAWS Wildlife Center, Sarvey Wildlife Care Center, SR3 SeaLife, Wolf Hollow)
+# Idaho: 2 (Idaho Wildlife Rescue / Animals in Distress, Birds of Prey Northwest)
+# Montana: 2 (Wild Skies Raptor Center, Montana Raptor Conservation Center)
+# Wyoming: 1 (Teton Raptor Center)
+# Colorado: 4 (Birds of Prey Foundation, Greenwood Wildlife Rehabilitation,
+#   Rocky Mountain Raptor Program, Raptor Education Foundation)
+# Nevada: 1 (Nevada Humane Society Wildlife, Reno — EIN 88-0072720)
+# Utah: 2 (Wildlife Rehabilitation Center of Northern Utah, Best Friends Wild Friends)
+# Arizona: 3 (Liberty Wildlife, Wild At Heart Raptors, Southwest Wildlife Conservation Center)
+# New Mexico: 2 (New Mexico Wildlife Center, Hawks Aloft)
+# Alaska: 2 (Alaska SeaLife Center, Bird Treatment and Learning Center)
+# Hawaii: 1 (Hawai'i Wildlife Center, Kapa'au — USFWS+DLNR permitted, EIN 20-1489691, operating since 2012)
+#
+# Marine Mammal Specialists: The Marine Mammal Center (CA), International Bird Rescue (CA,
+#   aquatic birds), SR3 SeaLife (WA), Alaska SeaLife Center (AK)
+#
+# EIN coverage: 30 of 52 orgs have confirmed EINs from ProPublica Nonprofit Explorer.
+# Remaining EINs marked "unknown" — recommend IRS Tax Exempt Search verification.
+#
+# Data sources: organization websites, ProPublica Nonprofit Explorer, CauseIQ,
+#   CDFW wildlife rehabilitation database, ODFW licensed rehabilitators list,
+#   AnimalHelpNow directory.
