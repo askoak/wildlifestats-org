@@ -35,6 +35,18 @@ jobs:
       - name: Run _common gate tests
         run: PYTHONPATH=. python wildlifestats/_pipeline/_common/test_gates.py
 
+  flyway-triggers-test:
+    name: Flyway trigger engine tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run Flyway 4.5+h trigger tests
+        run: PYTHONPATH=. python wildlifestats/_pipeline/flyway/test_triggers.py
+
   link-check:
     name: Internal link check
     runs-on: ubuntu-latest

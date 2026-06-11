@@ -1,0 +1,79 @@
+{
+  "run_id": "smoke-2026-W24",
+  "thresholds": {
+    "volume_sigma": 2.0,
+    "volume_baseline_weeks": 8,
+    "min_baseline_weeks": 4,
+    "presence_min_centers": 3,
+    "presence_window_days": 7
+  },
+  "n_evaluated": 3,
+  "n_fired": 0,
+  "fired": [],
+  "evaluated": [
+    {
+      "signal_id": "phenology.baby_season_start.songbird",
+      "trigger_type": "volume_spike",
+      "scope": "state=NY",
+      "fired": false,
+      "observed": 2,
+      "baseline_mean": null,
+      "baseline_stddev": null,
+      "threshold": null,
+      "window": "2026-W24",
+      "reason": "insufficient_baseline_history: 1 prior week(s), need >= 4",
+      "provenance": {
+        "weeks_present": [
+          "2026-W23",
+          "2026-W24"
+        ],
+        "record_ids": [
+          "3fb8cac77648e5cd1c0123667ec136116d7b8ca3a5aa7bd68ba66863fcfd2798",
+          "b705a7069eb1378da0e1126c7496538949c490f0420ff5018cc41148c9a08c7a"
+        ]
+      }
+    },
+    {
+      "signal_id": "phenology.baby_season_start.songbird",
+      "trigger_type": "volume_spike",
+      "scope": "state=TN",
+      "fired": false,
+      "observed": 2,
+      "baseline_mean": null,
+      "baseline_stddev": null,
+      "threshold": null,
+      "window": "2026-W21",
+      "reason": "insufficient_baseline_history: 0 prior week(s), need >= 4",
+      "provenance": {
+        "weeks_present": [
+          "2026-W21"
+        ],
+        "record_ids": [
+          "f5d24f4613e53b2819db683341e6d3389ab298e2c94a0f18a25cf82890a6d94d",
+          "f404780ca7e7c0b5a97a2c133319ba4b5ba1ce4edbced5ef4995f9589ca4bf46"
+        ]
+      }
+    },
+    {
+      "signal_id": "phenology.baby_season_start.songbird",
+      "trigger_type": "presence",
+      "scope": "national",
+      "fired": false,
+      "observed": 1,
+      "baseline_mean": null,
+      "baseline_stddev": null,
+      "threshold": 3,
+      "window": "2026-05-20..2026-05-26",
+      "reason": "below_threshold: max 1 distinct center(s) in any 7d window, need >= 3",
+      "provenance": {
+        "centers": [
+          "https://www.facebook.com/waldenspuddle"
+        ],
+        "record_ids": [
+          "f5d24f4613e53b2819db683341e6d3389ab298e2c94a0f18a25cf82890a6d94d",
+          "f404780ca7e7c0b5a97a2c133319ba4b5ba1ce4edbced5ef4995f9589ca4bf46"
+        ]
+      }
+    }
+  ]
+}
