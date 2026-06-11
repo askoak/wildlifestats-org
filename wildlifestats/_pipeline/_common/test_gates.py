@@ -568,6 +568,79 @@ def _():
         assert "Unknown platform" in str(e)
 
 
+@case("_build_actor_input: facebook carries date filter, no caption text")
+def _():
+    req = apify_client.ActorRunRequest(
+        platform="facebook", target_url="https://facebook.com/center",
+        org_slug="center", org_ein=None, tier=2, since_date="90 days", max_posts=15)
+    inp = apify_client._build_actor_input(req)
+    assert inp["startUrls"] == [{"url": "https://facebook.com/center"}]
+    assert inp["resultsLimit"] == 15
+    assert inp["onlyPostsNewerThan"] == "90 days"
+    assert inp["captionText"] is False
+    # every registered platform builds an input without raising
+    for plat in ("instagram", "x", "tiktok", "youtube"):
+        apify_client._build_actor_input(apify_client.ActorRunRequest(
+            platform=plat, target_url="https://x/y", org_slug="s", org_ein=None, tier=1))
+
+
+@case("estimate_cost returns a positive ceiling that grows with the batch")
+def _():
+    one = [apify_client.ActorRunRequest("facebook", "https://x/y", "s", None, 1, max_posts=100)]
+    two = one + [apify_client.ActorRunRequest("instagram", "https://x/z", "s", None, 1, max_posts=100)]
+    c1, c2 = apify_client.estimate_cost(one), apify_client.estimate_cost(two)
+    assert c1 > 0 and c2 > c1, f"cost ceiling must grow with batch size ({c1} -> {c2})"
+
+
+@case("run_actor writes a no-raw-text audit and drops posts (HTTP stubbed)")
+def _():
+    import tempfile
+    from pathlib import Path
+    import json as _json
+    saved = (creds.get_apify_token, apify_client._start_run, apify_client._poll_run,
+             apify_client._fetch_items, apify_client.AUDIT_ROOT)
+    creds.get_apify_token = lambda: "test-token"
+    apify_client._start_run = lambda actor, run_input, token: {"id": "run_1", "defaultDatasetId": "ds_1"}
+    apify_client._poll_run = lambda run_id, token: {"id": "run_1", "status": "SUCCEEDED",
+        "defaultDatasetId": "ds_1", "usageTotalUsd": 0.30}
+    # Raw posts WITH text/caption — must never reach disk.
+    apify_client._fetch_items = lambda ds, token, limit: [
+        {"url": "https://fb.com/p/1", "text": "SECRET POST BODY ONE", "caption": "secret"},
+        {"postUrl": "https://fb.com/p/2", "message": "SECRET POST BODY TWO"},
+    ]
+    apify_client.AUDIT_ROOT = Path(tempfile.mkdtemp())
+    try:
+        req = apify_client.ActorRunRequest("facebook", "https://facebook.com/c", "c", None, 1, max_posts=50)
+        res = apify_client.run_actor(req)
+        assert res.succeeded and res.posts_scraped == 2
+        assert res.apify_cost_usd == 0.30 and res.apify_run_id == "run_1"
+        audit_text = Path(res.audit_log_path).read_text(encoding="utf-8")
+        assert "SECRET POST BODY" not in audit_text, "raw post text leaked into the audit log"
+        lines = [l for l in audit_text.splitlines() if l.strip()]
+        assert len(lines) == 2
+        rec = _json.loads(lines[0])
+        assert rec["post_text_NOT_STORED"] is True and rec["source_url"] == "https://fb.com/p/1"
+        assert "text" not in rec and "caption" not in rec and "message" not in rec
+    finally:
+        (creds.get_apify_token, apify_client._start_run, apify_client._poll_run,
+         apify_client._fetch_items, apify_client.AUDIT_ROOT) = saved
+
+
+@case("apify run_actor live [skipped unless WILDLIFESTATS_LIVE_APIFY=1]")
+def _():
+    import os
+    if os.environ.get("WILDLIFESTATS_LIVE_APIFY") != "1":
+        print("    (skipped — set WILDLIFESTATS_LIVE_APIFY=1 to run live)")
+        return
+    req = apify_client.ActorRunRequest(
+        platform="facebook", target_url="https://www.facebook.com/lindsaywildlife",
+        org_slug="lindsay-wildlife", org_ein=None, tier=1, since_date="120 days", max_posts=5)
+    est = apify_client.estimate_cost([req])
+    assert est <= 1.0, f"single live run estimate should be small, got ${est}"
+    res = apify_client.run_actor(req)
+    assert res.succeeded and res.posts_scraped >= 0
+
+
 print()
 print("=" * 64)
 print(f"Result: {PASSED} passed, {FAILED} failed")
