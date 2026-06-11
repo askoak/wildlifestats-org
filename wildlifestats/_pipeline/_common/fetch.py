@@ -44,6 +44,9 @@ from __future__ import annotations
 import hashlib
 import json
 import time
+import urllib.error
+import urllib.request
+import urllib.robotparser
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
@@ -58,6 +61,11 @@ USER_AGENT = (
 
 DEFAULT_RATE_LIMIT_SECONDS = 2.0
 DEFAULT_CACHE_TTL_SECONDS = 7 * 24 * 3600  # 7 days
+ROBOTS_TTL_SECONDS = 24 * 3600  # robots decision cached 24h per host
+
+# Per-host timestamp of the last network hit, for in-process rate limiting.
+# Cross-process politeness is handled by the on-disk response cache.
+_LAST_HIT: dict[str, float] = {}
 
 FORBIDDEN_PATH_PREFIXES = (
     "/admin",
@@ -167,13 +175,146 @@ def fetch(
     if _forbidden(url):
         raise ForbiddenPath(f"Path forbidden by framework policy: {url}")
 
-    # Scaffold raises NotImplementedError so any caller that drops in before
-    # engineer fills this in fails loudly rather than silently bypassing
-    # the contract.
-    raise NotImplementedError(
-        "wildlifestats._pipeline._common.fetch.fetch() is a Phase 9 scaffold. "
-        "See the TODO[engineer] block for the implementation contract."
+    parsed = urlparse(url)
+    host = parsed.hostname or "unknown"
+    scheme = parsed.scheme or "https"
+
+    # (2) robots — disallowed paths never reach the network.
+    parser, crawl_delay = _load_robots(host, scheme)
+    if not parser.can_fetch(USER_AGENT, url):
+        raise DisallowedByRobots(
+            f"robots.txt for {host} disallows {USER_AGENT.split('/')[0]} on {url}"
+        )
+
+    # (3) cache — a fresh hit short-circuits before any rate-limit wait.
+    if not force_refresh:
+        cached = _cache_lookup(url, cache_ttl_seconds)
+        if cached is not None:
+            return cached
+
+    # (2b) rate limit — honor the host's Crawl-Delay when it exceeds our floor.
+    interval = max(rate_limit_seconds, crawl_delay or 0.0)
+    _rate_limit_wait(host, interval)
+
+    # (5) actual GET with the identifying User-Agent.
+    try:
+        status, body, etag = _http_get(url)
+    except urllib.error.HTTPError as exc:
+        raise FetchError(f"HTTP {exc.code} fetching {url}") from None
+    except urllib.error.URLError as exc:
+        raise FetchError(f"Network error fetching {url}: {exc.reason}") from None
+
+    # (4) dating envelope + cache write.
+    envelope = FetchEnvelope(
+        source_url=url,
+        fetched_at=_now_iso(),
+        http_status=status,
+        content_hash=hashlib.sha256(body.encode("utf-8")).hexdigest(),
+        body=body,
+        source_etag=etag,
+        from_cache=False,
+        cache_key=_cache_key(url),
     )
+    _cache_write(url, envelope)
+    return envelope
+
+
+# ---- HTTP + robots + cache helpers (Phase 9c.1 implementation) ----
+def _http_get(url: str, timeout: int = 30) -> tuple[int, str, Optional[str]]:
+    """Raw GET with the framework User-Agent. Raises urllib HTTPError /
+    URLError to the caller, which decides how to surface them."""
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        raw = resp.read()
+        charset = resp.headers.get_content_charset() or "utf-8"
+        body = raw.decode(charset, errors="replace")
+        return getattr(resp, "status", resp.getcode()), body, resp.headers.get("ETag")
+
+
+def _robots_cache_path(host: str) -> Path:
+    return CACHE_ROOT / host / "robots.json"
+
+
+def _read_json(path: Path) -> Optional[dict]:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+
+
+def _load_robots(host: str, scheme: str) -> tuple[urllib.robotparser.RobotFileParser, Optional[float]]:
+    """Return (parser, crawl_delay). robots.txt cached on disk per host for
+    24h. Conservative on failure: a 5xx (server trouble) disallows all until
+    it recovers; a 404/4xx (no policy) allows all; a network error refuses to
+    proceed rather than guess."""
+    path = _robots_cache_path(host)
+    cached = _read_json(path)
+    fresh = bool(cached) and (time.time() - cached.get("_cached_at", 0) < ROBOTS_TTL_SECONDS)
+    if fresh:
+        status, body = cached["status"], cached["body"]
+    else:
+        robots_url = f"{scheme}://{host}/robots.txt"
+        try:
+            status, body, _ = _http_get(robots_url)
+        except urllib.error.HTTPError as exc:
+            status, body = exc.code, ""
+        except urllib.error.URLError as exc:
+            raise FetchError(
+                f"Could not reach {robots_url} to verify robots policy: {exc.reason}"
+            ) from None
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(
+            json.dumps({"_cached_at": time.time(), "fetched_at": _now_iso(),
+                        "status": status, "body": body}),
+            encoding="utf-8",
+        )
+    parser = urllib.robotparser.RobotFileParser()
+    if status >= 500:
+        parser.disallow_all = True
+    elif status >= 400:
+        parser.allow_all = True
+    else:
+        parser.parse(body.splitlines())
+    delay = parser.crawl_delay(USER_AGENT)
+    return parser, (float(delay) if delay is not None else None)
+
+
+def _cache_lookup(url: str, ttl_seconds: int) -> Optional[FetchEnvelope]:
+    """Return a fresh cached envelope (from_cache=True) or None."""
+    data = _read_json(CACHE_ROOT / _cache_key(url))
+    if not data:
+        return None
+    if time.time() - data.get("_cached_at", 0) >= ttl_seconds:
+        return None
+    return FetchEnvelope(
+        source_url=data["source_url"],
+        fetched_at=data["fetched_at"],
+        http_status=data["http_status"],
+        content_hash=data["content_hash"],
+        body=data.get("body", ""),
+        source_etag=data.get("source_etag"),
+        from_cache=True,
+        cache_key=data.get("cache_key"),
+        notes=list(data.get("notes", [])),
+    )
+
+
+def _cache_write(url: str, envelope: FetchEnvelope) -> None:
+    path = CACHE_ROOT / _cache_key(url)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = envelope.to_dict()
+    payload["body"] = envelope.body
+    payload["_cached_at"] = time.time()
+    path.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+
+
+def _rate_limit_wait(host: str, min_interval: float) -> None:
+    last = _LAST_HIT.get(host)
+    if last is not None:
+        elapsed = time.time() - last
+        if elapsed < min_interval:
+            time.sleep(min_interval - elapsed)
+    _LAST_HIT[host] = time.time()
 
 
 def assert_robots_cached(url: str) -> None:
@@ -181,10 +322,12 @@ def assert_robots_cached(url: str) -> None:
     host within the last 24 hours. Used by bucket pipelines that want to
     verify a host's policy is current before a batch run.
 
-    TODO[engineer]: implement against the same cache structure used by
-    fetch().
+    Implemented against the same on-disk robots cache fetch() writes.
     """
-    raise NotImplementedError(
-        "wildlifestats._pipeline._common.fetch.assert_robots_cached() is a "
-        "Phase 9 scaffold."
-    )
+    host = urlparse(url).hostname or "unknown"
+    data = _read_json(_robots_cache_path(host))
+    if not data or time.time() - data.get("_cached_at", 0) >= ROBOTS_TTL_SECONDS:
+        raise FetchError(
+            f"robots.txt for {host} is not cached within the last 24h. "
+            f"Call fetch() against this host first, or refresh the robots cache."
+        )

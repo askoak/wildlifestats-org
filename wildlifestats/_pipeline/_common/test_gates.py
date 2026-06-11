@@ -103,6 +103,116 @@ def _():
         pass
 
 
+print("\n[fetch] implementation — robots, cache, dating (offline, monkeypatched)")
+
+
+def _with_fetch_sandbox(fake_get):
+    """Context helper: isolate CACHE_ROOT to a temp dir + stub _http_get +
+    clear the rate-limit clock. Returns a restore() callable."""
+    import tempfile
+    from pathlib import Path
+    saved = (fetch.CACHE_ROOT, fetch._http_get, dict(fetch._LAST_HIT))
+    fetch.CACHE_ROOT = Path(tempfile.mkdtemp())
+    fetch._http_get = fake_get
+    fetch._LAST_HIT.clear()
+
+    def restore():
+        fetch.CACHE_ROOT, fetch._http_get, hits = saved
+        fetch._LAST_HIT.clear()
+        fetch._LAST_HIT.update(hits)
+    return restore
+
+
+@case("fetch returns a dated envelope, then serves the second call from cache")
+def _():
+    import hashlib
+    calls = {"page": 0}
+
+    def fake_get(u, timeout=30):
+        if u.endswith("/robots.txt"):
+            return 200, "User-agent: *\nAllow: /", None
+        calls["page"] += 1
+        return 200, "<html>hi</html>", '"etag-1"'
+
+    restore = _with_fetch_sandbox(fake_get)
+    try:
+        e1 = fetch.fetch("https://example.org/page", rate_limit_seconds=0)
+        assert e1.from_cache is False and e1.http_status == 200
+        assert e1.fetched_at.endswith("Z"), "dating envelope must be ISO-Z"
+        assert e1.content_hash == hashlib.sha256(b"<html>hi</html>").hexdigest()
+        assert e1.source_etag == '"etag-1"'
+        e2 = fetch.fetch("https://example.org/page", rate_limit_seconds=0)
+        assert e2.from_cache is True, "second call must be served from cache"
+        assert calls["page"] == 1, "page must be fetched over the network only once"
+    finally:
+        restore()
+
+
+@case("fetch honors a robots Disallow with DisallowedByRobots (no network GET)")
+def _():
+    def fake_get(u, timeout=30):
+        if u.endswith("/robots.txt"):
+            return 200, "User-agent: *\nDisallow: /", None
+        assert False, "page must NOT be fetched when robots disallows"
+
+    restore = _with_fetch_sandbox(fake_get)
+    try:
+        fetch.fetch("https://example.org/private", rate_limit_seconds=0)
+        assert False, "expected DisallowedByRobots"
+    except fetch.DisallowedByRobots:
+        pass
+    finally:
+        restore()
+
+
+@case("fetch refuses to proceed when robots.txt cannot be verified")
+def _():
+    import urllib.error
+
+    def fake_get(u, timeout=30):
+        if u.endswith("/robots.txt"):
+            raise urllib.error.URLError("network down")
+        assert False, "page must NOT be fetched when robots is unverifiable"
+
+    restore = _with_fetch_sandbox(fake_get)
+    try:
+        fetch.fetch("https://example.org/page", rate_limit_seconds=0)
+        assert False, "expected FetchError (robots unverifiable)"
+    except fetch.DisallowedByRobots:
+        assert False, "should be a generic FetchError, not a robots-disallow"
+    except fetch.FetchError:
+        pass
+    finally:
+        restore()
+
+
+@case("assert_robots_cached raises for a host with no cached robots")
+def _():
+    import tempfile
+    from pathlib import Path
+    saved = fetch.CACHE_ROOT
+    fetch.CACHE_ROOT = Path(tempfile.mkdtemp())
+    try:
+        fetch.assert_robots_cached("https://never-fetched.example/x")
+        assert False, "expected FetchError for uncached host"
+    except fetch.FetchError:
+        pass
+    finally:
+        fetch.CACHE_ROOT = saved
+
+
+@case("fetch live round-trip [skipped unless WILDLIFESTATS_LIVE_FETCH=1]")
+def _():
+    import os
+    if os.environ.get("WILDLIFESTATS_LIVE_FETCH") != "1":
+        print("    (skipped — set WILDLIFESTATS_LIVE_FETCH=1 to run live)")
+        return
+    env = fetch.fetch("https://example.com/", rate_limit_seconds=0, force_refresh=True)
+    assert env.http_status == 200 and env.body, "expected a live 200 with a body"
+    assert env.content_hash and env.fetched_at.endswith("Z")
+    fetch.assert_robots_cached("https://example.com/")  # must not raise post-fetch
+
+
 print("\n[supabase] §19 RLS gates fire client-side")
 
 
