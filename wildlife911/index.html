@@ -4,18 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Wildlife911 Virginia — find help for injured wildlife</title>
-  <meta name="description" content="Triage and referral assistant for finders of sick, injured, or orphaned wildlife in Virginia. Static dispatcher flow with species-specific guidance and licensed rehabilitator directory.">
+  <meta name="description" content="Calm, evidence-based triage for finders of sick, injured, or orphaned wildlife. Virginia edition: species guides, infographics, flow charts, and the Virginia licensed rehabilitator directory.">
   <link rel="canonical" href="https://wildlifestats.org/wildlife911/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="WildlifeStats">
   <meta property="og:title" content="Wildlife911 Virginia — find help for injured wildlife">
-  <meta property="og:description" content="Triage and referral assistant for finders of sick, injured, or orphaned wildlife in Virginia. Static dispatcher flow with species-specific guidance and licensed rehabilitator directory.">
+  <meta property="og:description" content="Calm, evidence-based triage for finders of sick, injured, or orphaned wildlife. Virginia edition: species guides, infographics, flow charts, and the Virginia licensed rehabilitator directory.">
   <meta property="og:url" content="https://wildlifestats.org/wildlife911/">
   <meta property="og:image" content="https://wildlifestats.org/assets/img/og-default.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Wildlife911 Virginia — find help for injured wildlife">
-  <meta name="twitter:description" content="Triage and referral assistant for finders of sick, injured, or orphaned wildlife in Virginia. Static dispatcher flow with species-specific guidance and licensed rehabilitator directory.">
-  <meta name="twitter:image" content="https://wildlifestats.org/assets/img/og-default.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap">
@@ -50,66 +47,130 @@
     <div class="container">
       <p class="kicker">Wildlife911 Virginia</p>
       <h1 class="w911-h1">Found a sick, injured, or orphaned wild animal?</h1>
-      <p class="w911-lead">Wildlife911 is a triage and referral guide. It does not provide care, feeding, or treatment advice — those are decisions for a licensed wildlife rehabilitator. The Virginia edition below is curated to Virginia law and referral options. For other states, scroll down for the national fallback.</p>
-
+      <p class="w911-lead">Wildlife911 is your calm, evidence-based first step. It will help you decide whether the animal actually needs rescue (many don't), how to safely contain it if it does, and which licensed rehabilitator to contact. It will never tell you to feed it, water it, or treat it yourself — those are decisions for a professional.</p>
       <div class="w911-cta-row">
         <a href="/wildlife911/start/" class="w911-cta-primary">🚨🐾 Start Wildlife 911 Virginia</a>
       </div>
 
-      <aside class="w911-safety">
-        <h2 class="w911-safety__title">🚨 Two situations are always emergencies</h2>
+      <aside class="w911-safety" role="alert">
+        <h2 class="w911-safety__title">Two situations are always emergencies</h2>
         <div class="w911-safety__row">
-          <p><strong>1. Any bird that hits a window, vehicle, or building.</strong> Internal injuries and concussion are likely even when the bird flies away or appears alert. Do not advise "monitor and see." Place the bird in a ventilated box in a quiet, dark place and contact a licensed rehabilitator immediately.</p>
+          <span class="w911-safety__num">1</span>
+          <p><strong>Any bird that hits a window, vehicle, or building.</strong> Internal injuries and concussion are likely even when the bird flies away or appears alert. Do not advise "monitor and see." Place the bird in a ventilated cardboard box in a quiet, dark place and contact a licensed rehabilitator immediately.</p>
         </div>
         <div class="w911-safety__row">
-          <p><strong>2. Any wild animal that has been in a cat's or dog's mouth.</strong> Bacterial infections from cat saliva are frequently fatal within 24-48 hours, even when no injury is visible. Referral is always required.</p>
+          <span class="w911-safety__num">2</span>
+          <p><strong>Any wild animal that has been in a cat's or dog's mouth.</strong> Bacterial infections from pet saliva are frequently fatal within 24 to 48 hours, even when no injury is visible. Referral is always required.</p>
         </div>
       </aside>
 
-      <section class="w911-prep">
-        <h2>Before you do anything else</h2>
-<ul class="w911-checklist">
-        <li>✅ <strong>Observe</strong> – check for visible injuries or abnormal behavior.</li>
-        <li>📍 <strong>Note location</strong> – exact address, landmark, or GPS.</li>
-        <li>📞 <strong>Call a professional</strong> – Virginia DWR licensed rehabilitators: <a href="https://dwr.virginia.gov/wildlife/injured/rehabilitators/" rel="noopener">https://dwr.virginia.gov/wildlife/injured/rehabilitators/</a> • Nationwide: <a href="https://animalhelpnow.org" rel="noopener">https://animalhelpnow.org</a> • Local Animal Control (for rabies-vector species).</li>
-        <li>🧤 <strong>Do not touch directly</strong> – if containment is unavoidable, use gloves/towel and place the animal in a ventilated box.</li>
-        <li>🚫 <strong>Do not give food or water</strong>.</li>
-        <li>🌙 <strong>Keep in a quiet, dark place</strong> until transfer.</li>
-      </ul>
+      <section class="w911-chat" aria-label="Ask Wildlife911">
+        <div class="w911-chat__avatar">🐾</div>
+        <div class="w911-chat__body">
+          <h2 class="w911-chat__title">Ask Wildlife911</h2>
+          <p class="w911-chat__intro">A conversational AI assistant trained on the Wildlife911 Virginia knowledge base, live wildlife rehabilitation literature, and the national rehab-center directory. Describe what you've found in plain language — Wildlife911 will guide you through triage and connect you to a licensed rehabilitator near you.</p>
+          <form class="w911-chat__form" onsubmit="return false;">
+            <label for="w911-chat-input" class="visually-hidden">Describe what you've found</label>
+            <input id="w911-chat-input" type="text" class="w911-chat__input" placeholder="Describe what you've found — for example, 'a fledgling bird hopping in my yard'" disabled>
+            <button type="submit" class="w911-chat__send" disabled aria-label="Send (coming soon)">Send</button>
+          </form>
+          <p class="w911-chat__status">Live AI assistant coming soon (Phase 7g of the WildlifeStats build). In the meantime, use the species pages below or the dispatcher — both deliver the same triage decision tree Wildlife911 will use.</p>
+        </div>
       </section>
 
-      <section class="w911-calls">
-        <h2>Who to call</h2>
-        <ul class="w911-calls__list">
-          <li><strong>Virginia DWR licensed rehabilitators</strong> — <a href="https://dwr.virginia.gov/wildlife/injured/rehabilitators/" rel="noopener">dwr.virginia.gov/wildlife/injured/rehabilitators</a></li>
-          <li><strong>Animal Help Now (nationwide)</strong> — <a href="https://animalhelpnow.org" rel="noopener">animalhelpnow.org</a></li>
-          <li><strong>Local animal control</strong> (especially for any rabies-vector species: fox, skunk, raccoon, bat, groundhog)</li>
-        </ul>
-        <p class="w911-calls__tip">Call two or three rehabilitators — availability varies. If you reach voicemail, leave a detailed message with your name, callback number, exact location, species (or description), the animal's condition, and what containment steps you have taken.</p>
-      </section>
-
-      <section class="w911-species-grid">
-        <h2>Or jump straight to your species</h2>
-        <p class="w911-species-grid__intro">Tap a species below for triage criteria specific to that animal.</p>
+      <section class="w911-species-grid" aria-label="Species selector">
+        <h2>Jump to your species</h2>
+        <p class="w911-species-grid__intro">Tap a species below for triage criteria, flow charts, and detailed clinical reference.</p>
         <ul class="w911-species-grid__list">
-          <li><a href="/wildlife911/species/bird/">Bird</a></li>
-          <li><a href="/wildlife911/species/rabbit/">Rabbit</a></li>
-          <li><a href="/wildlife911/species/squirrel/">Squirrel</a></li>
-          <li><a href="/wildlife911/species/fox/">Fox</a></li>
-          <li><a href="/wildlife911/species/raccoon/">Raccoon</a></li>
-          <li><a href="/wildlife911/species/skunk/">Skunk</a></li>
-          <li><a href="/wildlife911/species/groundhog/">Groundhog</a></li>
-          <li><a href="/wildlife911/species/bat/">Bat</a></li>
-          <li><a href="/wildlife911/species/reptiles-amphibians/">Turtle / Snake / Frog (Reptiles & Amphibians)</a></li>
-          <li><a href="/wildlife911/species/deer-fawn/">Deer (Fawn)</a></li>
+          <li>
+            <a href="/wildlife911/species/bird/">
+              <strong>Bird</strong>
+              <span class="w911-species-grid__tagline">Window strikes are emergencies. Fledglings on the ground are usually fine. Cat-caught birds always need help.</span>
+            </a>
+          </li>
+          <li>
+            <a href="/wildlife911/species/rabbit/">
+              <strong>Rabbit</strong>
+              <span class="w911-species-grid__tagline">Mothers visit only at dawn and dusk. A baby alone in a nest is almost never orphaned.</span>
+            </a>
+          </li>
+          <li>
+            <a href="/wildlife911/species/squirrel/">
+              <strong>Squirrel</strong>
+              <span class="w911-species-grid__tagline">Fallen babies can often be reunited with mom. Warm them up and give her time to retrieve them.</span>
+            </a>
+          </li>
+          <li>
+            <a href="/wildlife911/species/fox/">
+              <strong>Fox</strong>
+              <span class="w911-species-grid__tagline">Rabies-vector species. Do not handle. Call animal control or a licensed rehabber first.</span>
+            </a>
+          </li>
+          <li>
+            <a href="/wildlife911/species/raccoon/">
+              <strong>Raccoon</strong>
+              <span class="w911-species-grid__tagline">Rabies-vector species. Do not handle. Look for mom before assuming orphan.</span>
+            </a>
+          </li>
+          <li>
+            <a href="/wildlife911/species/skunk/">
+              <strong>Skunk</strong>
+              <span class="w911-species-grid__tagline">Rabies-vector species. Daytime activity or unsteadiness needs immediate animal control.</span>
+            </a>
+          </li>
+          <li>
+            <a href="/wildlife911/species/groundhog/">
+              <strong>Groundhog</strong>
+              <span class="w911-species-grid__tagline">Rabies-vector species in Virginia. Day-active is normal; staggering is not.</span>
+            </a>
+          </li>
+          <li>
+            <a href="/wildlife911/species/bat/">
+              <strong>Bat</strong>
+              <span class="w911-species-grid__tagline">Rabies-vector species. Any bat in living space requires animal control and rabies-exposure evaluation.</span>
+            </a>
+          </li>
+          <li>
+            <a href="/wildlife911/species/reptiles-amphibians/">
+              <strong>Turtle / Snake / Frog (Reptiles & Amphibians)</strong>
+              <span class="w911-species-grid__tagline">Do not relocate. Help across the road in the direction it was heading. Reptiles travel known territories.</span>
+            </a>
+          </li>
+          <li>
+            <a href="/wildlife911/species/deer-fawn/">
+              <strong>Deer (Fawn)</strong>
+              <span class="w911-species-grid__tagline">Does leave fawns alone for hours. A lone fawn is almost never an orphan — leave it.</span>
+            </a>
+          </li>
         </ul>
+      </section>
+
+      <section class="w911-calls" aria-label="Who to call">
+        <h2>Who to call</h2>
+        <div class="w911-calls__grid">
+          <div class="w911-calls__card">
+            <h3>Virginia DWR licensed rehabilitators</h3>
+            <p>The official Virginia Department of Wildlife Resources directory of permitted wildlife rehabilitators.</p>
+            <p><a href="https://dwr.virginia.gov/wildlife/injured/rehabilitators/" rel="noopener" class="w911-link">dwr.virginia.gov/wildlife/injured/rehabilitators</a></p>
+          </div>
+          <div class="w911-calls__card">
+            <h3>Animal Help Now (nationwide)</h3>
+            <p>ZIP-code-based directory of wildlife rehabilitators and animal control nationwide.</p>
+            <p><a href="https://animalhelpnow.org" rel="noopener" class="w911-link">animalhelpnow.org</a></p>
+          </div>
+          <div class="w911-calls__card">
+            <h3>Local animal control</h3>
+            <p>For rabies-vector species (fox, skunk, raccoon, bat, groundhog), and for any animal in your home, contact local animal control first.</p>
+          </div>
+        </div>
+        <p class="w911-calls__tip">Call two or three rehabilitators — availability varies. If you reach voicemail, leave a detailed message with your name and callback number, exact location, species (or description), the animal's condition, and what containment steps you have taken.</p>
       </section>
 
       <section class="w911-disclaimer">
         <h2>What Wildlife911 is — and is not</h2>
-        <p><strong>Is:</strong> a triage assistant for finders of sick, injured, or orphaned wildlife. Tells you what to observe, what containment is safe, and who to call.</p>
-        <p><strong>Is not:</strong> a substitute for a licensed wildlife rehabilitator. Wildlife911 never provides feeding, watering, rearing, or medical treatment guidance. Wildlife911 cannot dispatch a rehabilitator to your location.</p>
-        <p>Wildlife911 Virginia is a curated extension of the original Wildlife911 CustomGPT authored by Michael Oak. Its content is calibrated to Virginia law and Virginia rehab options. <a href="/wildlife911/state/">For other states, see the state directory.</a></p>
+        <p><strong>Is:</strong> a triage assistant for finders of sick, injured, or orphaned wildlife. Built around the principle that most situations look more urgent than they are — and that when an animal does need help, the right answer is a licensed wildlife rehabilitator, not a layperson.</p>
+        <p><strong>Is not:</strong> a substitute for a licensed wildlife rehabilitator. Wildlife911 never provides feeding, watering, rearing, or medical treatment guidance.</p>
+        <p>Wildlife911 Virginia is curated to Virginia law, Virginia rabies regulations, Virginia chronic wasting disease counties, and the active Virginia wildlife rehabilitation community (Blue Ridge Wildlife Center, Wildlife Center of Virginia, Southwest Virginia Wildlife Center, and others). <a href="/wildlife911/state/" class="w911-link">For other states, see the state directory.</a></p>
       </section>
     </div>
   </main>
@@ -122,6 +183,7 @@
         <a href="/governance.html">Governance</a> ·
         <a href="/about.html">About</a> ·
         <a href="/wildlife911/">Wildlife911</a> ·
+        <a href="mailto:wildlifestats@michaeloak.com">Contact</a> ·
         <span>2026</span>
       </nav>
     </div>

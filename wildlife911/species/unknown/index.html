@@ -13,9 +13,6 @@
   <meta property="og:url" content="https://wildlifestats.org/wildlife911/species/unknown/">
   <meta property="og:image" content="https://wildlifestats.org/assets/img/og-default.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Wildlife911 Virginia — Species unknown">
-  <meta name="twitter:description" content="Universal triage steps for finders of sick, injured, or orphaned wildlife of unknown species in Virginia.">
-  <meta name="twitter:image" content="https://wildlifestats.org/assets/img/og-default.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap">
@@ -48,31 +45,58 @@
 
   <main>
     <div class="container prose">
-      <p class="kicker">Wildlife911 Virginia</p>
-      <h1>Not sure what species you found?</h1>
-      <p>That is fine. Skip the species-specific page and use the universal triage steps below. The licensed rehabilitator you call will help identify the animal from your description over the phone.</p>
+      <p class="kicker"><a href="/wildlife911/" class="w911-link-soft">Wildlife911 Virginia</a> · Species unknown</p>
+      <h1 class="w911-h1">Not sure what species you found?</h1>
+      <p class="w911-lead">That's fine. The licensed rehabilitator you call will help identify the animal from your description. Use the universal steps below.</p>
 
-      <aside class="w911-safety">
-        <h2 class="w911-safety__title">🚨 Two situations are always emergencies</h2>
+      <aside class="w911-safety" role="alert">
+        <h2 class="w911-safety__title">Two situations are always emergencies</h2>
         <div class="w911-safety__row">
-          <p><strong>1. Any bird that hits a window, vehicle, or building.</strong> Internal injuries and concussion are likely even when the bird flies away or appears alert. Do not advise "monitor and see." Place the bird in a ventilated box in a quiet, dark place and contact a licensed rehabilitator immediately.</p>
+          <span class="w911-safety__num">1</span>
+          <p><strong>Any bird that hits a window, vehicle, or building.</strong> Internal injuries and concussion are likely even when the bird flies away or appears alert. Do not advise "monitor and see." Place the bird in a ventilated cardboard box in a quiet, dark place and contact a licensed rehabilitator immediately.</p>
         </div>
         <div class="w911-safety__row">
-          <p><strong>2. Any wild animal that has been in a cat's or dog's mouth.</strong> Bacterial infections from cat saliva are frequently fatal within 24-48 hours, even when no injury is visible. Referral is always required.</p>
+          <span class="w911-safety__num">2</span>
+          <p><strong>Any wild animal that has been in a cat's or dog's mouth.</strong> Bacterial infections from pet saliva are frequently fatal within 24 to 48 hours, even when no injury is visible. Referral is always required.</p>
         </div>
       </aside>
 
-      <section class="w911-calls">
-        <h2>Who to call</h2>
-        <ul class="w911-calls__list">
-          <li><strong>Virginia DWR licensed rehabilitators</strong> — <a href="https://dwr.virginia.gov/wildlife/injured/rehabilitators/" rel="noopener">dwr.virginia.gov/wildlife/injured/rehabilitators</a></li>
-          <li><strong>Animal Help Now (nationwide)</strong> — <a href="https://animalhelpnow.org" rel="noopener">animalhelpnow.org</a></li>
-          <li><strong>Local animal control</strong> (especially for any rabies-vector species: fox, skunk, raccoon, bat, groundhog)</li>
-        </ul>
-        <p class="w911-calls__tip">Call two or three rehabilitators — availability varies. If you reach voicemail, leave a detailed message with your name, callback number, exact location, species (or description), the animal's condition, and what containment steps you have taken.</p>
+      <section class="w911-chat" aria-label="Ask Wildlife911">
+        <div class="w911-chat__avatar">🐾</div>
+        <div class="w911-chat__body">
+          <h2 class="w911-chat__title">Ask Wildlife911</h2>
+          <p class="w911-chat__intro">A conversational AI assistant trained on the Wildlife911 Virginia knowledge base, live wildlife rehabilitation literature, and the national rehab-center directory. Describe what you've found in plain language — Wildlife911 will guide you through triage and connect you to a licensed rehabilitator near you.</p>
+          <form class="w911-chat__form" onsubmit="return false;">
+            <label for="w911-chat-input" class="visually-hidden">Describe what you've found</label>
+            <input id="w911-chat-input" type="text" class="w911-chat__input" placeholder="Describe what you've found — for example, 'a fledgling bird hopping in my yard'" disabled>
+            <button type="submit" class="w911-chat__send" disabled aria-label="Send (coming soon)">Send</button>
+          </form>
+          <p class="w911-chat__status">Live AI assistant coming soon (Phase 7g of the WildlifeStats build). In the meantime, use the species pages below or the dispatcher — both deliver the same triage decision tree Wildlife911 will use.</p>
+        </div>
       </section>
 
-      <p class="w911-back"><a href="/wildlife911/start/">← Back to dispatcher</a></p>
+      <section class="w911-calls" aria-label="Who to call">
+        <h2>Who to call</h2>
+        <div class="w911-calls__grid">
+          <div class="w911-calls__card">
+            <h3>Virginia DWR licensed rehabilitators</h3>
+            <p>The official Virginia Department of Wildlife Resources directory of permitted wildlife rehabilitators.</p>
+            <p><a href="https://dwr.virginia.gov/wildlife/injured/rehabilitators/" rel="noopener" class="w911-link">dwr.virginia.gov/wildlife/injured/rehabilitators</a></p>
+          </div>
+          <div class="w911-calls__card">
+            <h3>Animal Help Now (nationwide)</h3>
+            <p>ZIP-code-based directory of wildlife rehabilitators and animal control nationwide.</p>
+            <p><a href="https://animalhelpnow.org" rel="noopener" class="w911-link">animalhelpnow.org</a></p>
+          </div>
+          <div class="w911-calls__card">
+            <h3>Local animal control</h3>
+            <p>For rabies-vector species (fox, skunk, raccoon, bat, groundhog), and for any animal in your home, contact local animal control first.</p>
+          </div>
+        </div>
+        <p class="w911-calls__tip">Call two or three rehabilitators — availability varies. If you reach voicemail, leave a detailed message with your name and callback number, exact location, species (or description), the animal's condition, and what containment steps you have taken.</p>
+      </section>
+
+      <p class="w911-back"><a href="/wildlife911/start/" class="w911-link">← Back to dispatcher</a></p>
     </div>
   </main>
   <footer class="site-footer">
@@ -84,6 +108,7 @@
         <a href="/governance.html">Governance</a> ·
         <a href="/about.html">About</a> ·
         <a href="/wildlife911/">Wildlife911</a> ·
+        <a href="mailto:wildlifestats@michaeloak.com">Contact</a> ·
         <span>2026</span>
       </nav>
     </div>

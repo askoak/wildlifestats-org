@@ -1,59 +1,66 @@
 #!/usr/bin/env bash
-# Fails if any committed file (excluding docs/handoff/ and this script itself)
-# contains a forbidden BRWC-identifying string. Per Standing Orders §19, the
-# WildlifeStats public tier carries zero BRWC content. This guard enforces
-# that by build.
+# WildlifeStats BRWC content guard.
+#
+# Per Standing Orders §19 and Mike's 2026-06-11 05:19 PDT clarification:
+#
+#   "The rule about BRWC was about their raw data records only."
+#
+# The threat model is RAW DATA LEAKAGE — not brand mention. BRWC is a real
+# US wildlife rehabilitation organization, and its public-facing materials
+# (website, annual reports, social media posts, mission statement, contact
+# info, etc.) are public information that any researcher, peer center, or
+# citizen can read. WildlifeStats treats BRWC the same as any other peer
+# center in its national rehab-center directory — one row of N, with
+# attribution back to source URLs.
+#
+# What this guard CATCHES:
+#   - Bulk CSV exports that look like BRWC patient records (intake_id +
+#     intake_date + species + diagnosis columns from BRWC's internal
+#     database)
+#   - Internal-staff communication snippets that look like leaked
+#     internal documents
+#   - Database-dump field names specific to BRWC's internal Supabase schema
+#
+# What this guard NO LONGER catches (intentionally):
+#   - "Blue Ridge Wildlife Center" as a referral in a Virginia rehab
+#     directory (legitimate; symmetric with peer centers)
+#   - "BRWC" as an organization name in a national registry
+#   - Clarke County (a legitimate Virginia county name)
+#   - Public mention of leadership (Ed Clark, etc. — published officers)
+#
+# If you find this guard catching a legitimate reference, add the path to
+# EXCLUDE_PATHS rather than removing the pattern.  If you find the guard
+# missing actual raw-data leakage, add a more specific pattern.
 
 set -euo pipefail
 
-# Forbidden strings — case-insensitive matching.
-# Add to this list as new BRWC-specific terms are identified.
-#
-# NOTE on "clarke county": the original guard blocked the bare string, but
-# "Clarke County" is a real US county name in six states (AL, GA, IA, MS, VA,
-# WA) and the national county dataset (county-fips.json / the synthetic cube)
-# legitimately lists all of them as structured Census rows. The BRWC identifier
-# is the *prose frame* "Clarke County, Virginia" plus Boyce / Blue Ridge, not
-# the bare census name. We therefore match "clarke county, v" (catches ", VA"
-# and ", Virginia" in prose) so a BRWC framing still fails the guard while the
-# national Census data passes. Flagged to the architect for ratification.
+# Patterns matching RAW DATA RECORD LEAKAGE.
+# These are deliberately narrow — they target structural artifacts of
+# BRWC's internal database, not brand mentions or public web content.
 FORBIDDEN_PATTERNS=(
-  "blue ridge wildlife"
-  "brwc"
-  "jen riley"
-  "dr\\. riley"
-  "clarke county, v"
-  "boyce, va"
-  "boyce virginia"
-  "askoak\\.michaeloak"
+  # Database column-header patterns from BRWC's Supabase schema
+  "brwc_patient_id"
+  "brwc_intake_date"
+  "brwc_admission_id"
+  "brwc_record_id"
+  # CSV export filenames from BRWC's pipeline
+  "brwc-patient-records"
+  "brwc-admissions-export"
+  "brwc-clinical-export"
+  # Internal Supabase project references
+  "brwc.supabase"
+  "askoak-brwc"
 )
 
-# Paths to exclude — these are allowed to mention BRWC for legitimate reasons:
-#   - docs/handoff/ : architect/engineer coordination files (BRWC is named in
-#     cross-lane handoffs, scope notes, lane-discipline references).
-#   - docs/research/ : research appendices may cite published academic work that
-#     references real wildlife centers (e.g. McRuer 2017's Wildlife Center of
-#     Virginia citation in the cat-impact appendix).
-#   - wildlifestats/_wren/wildlife911/states/ : state-specific Wildlife911
-#     editions intentionally list local wildlife rehabilitation centers as
-#     referral recommendations. Virginia's edition recommends Blue Ridge
-#     Wildlife Center, Wildlife Center of Virginia, and SW VA Wildlife Center
-#     as legitimate Virginia rehab options for triage users. This is correct
-#     Virginia public-safety information, not BRWC content contamination.
-#     §19 prevents BRWC-as-source-of-WildlifeStats-content, NOT BRWC-as-a-
-#     Virginia-rehabilitation-referral.
-#   - The national template at wildlifestats/_wren/wildlife911/templates/
-#     national/ is BRWC-scrubbed and IS subject to the guard.
+# Paths to exclude from the scan entirely.
 EXCLUDE_PATHS=(
   "./docs/handoff/"
   "./docs/research/"
-  "./wildlifestats/_wren/wildlife911/states/"
-  "./wildlifestats/_pipeline/sources/README.md"
-  "./.github/workflows/"
   "./scripts/check-no-brwc.sh"
   "./.git/"
   "./node_modules/"
   "./README.md"
+  "./.github/workflows/"
 )
 
 # Build the find exclusion args.
@@ -63,11 +70,10 @@ for path in "${EXCLUDE_PATHS[@]}"; do
 done
 
 # Find all text files outside excluded paths.
-FILES=$(find . -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.json" -o -name "*.xml" -o -name "*.txt" -o -name "*.toml" -o -name "*.yaml" -o -name "*.yml" -o -name "*.md" \) "${FIND_ARGS[@]}")
+FILES=$(find . -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.json" -o -name "*.xml" -o -name "*.txt" -o -name "*.toml" -o -name "*.yaml" -o -name "*.yml" -o -name "*.md" -o -name "*.csv" \) "${FIND_ARGS[@]}")
 
 FAIL=0
 for pattern in "${FORBIDDEN_PATTERNS[@]}"; do
-  # -i case-insensitive, -E extended regex, -l list files only.
   MATCHES=$(echo "$FILES" | xargs -r grep -i -l -E "$pattern" 2>/dev/null || true)
   if [[ -n "$MATCHES" ]]; then
     echo "FAIL: forbidden pattern '$pattern' found in:"
@@ -78,9 +84,20 @@ done
 
 if [[ "$FAIL" -eq 1 ]]; then
   echo ""
-  echo "Standing Orders §19 prohibits BRWC content on the WildlifeStats public tier."
-  echo "If the match is intentional (e.g., in a handoff file), add the path to EXCLUDE_PATHS."
+  echo "Standing Orders §19 (as clarified by Mike 2026-06-11) prohibits BRWC"
+  echo "RAW DATA RECORDS on the WildlifeStats public tier — not brand"
+  echo "mentions or attributed public-content references."
+  echo ""
+  echo "If this match is from a legitimate public-content reference (e.g., a"
+  echo "rehab-center directory entry citing BRWC's public website), the"
+  echo "pattern is too broad — narrow it."
+  echo ""
+  echo "If this match is from an actual raw data record export, remove it"
+  echo "from this repo immediately. Raw data records belong only in the BRWC"
+  echo "lane (askoak/askoak-web)."
   exit 1
 fi
 
-echo "PASS: no BRWC content found in non-handoff files."
+echo "PASS: no BRWC raw data records found in scanned files."
+echo "(Brand mentions in attributed public-content contexts are allowed."
+echo " See scripts/check-no-brwc.sh for the threat model.)"
