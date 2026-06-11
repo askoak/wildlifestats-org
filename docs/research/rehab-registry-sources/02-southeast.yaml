@@ -1,0 +1,2432 @@
+# Southeast Wildlife Rehabilitation Centers Registry
+# Region: NC, SC, GA, FL, AL, MS, LA, AR, TN, KY
+# Generated: 2026-06-11
+# Sources: ProPublica Nonprofit Explorer, org websites, state wildlife agency lists
+
+- slug: crow-clinic-rehabilitation-wildlife
+  legal_name: "Clinic for the Rehabilitation of Wildlife, Inc."
+  common_name: "CROW"
+  state: FL
+  city: "Sanibel"
+  county_fips: "12071"
+  ein: "23-7271040"
+  primary_url: "https://crowclinic.org"
+  wildlife_help_url: "https://crowclinic.org/find-an-animal/"
+  about_url: "https://crowclinic.org/about-crow/"
+  contact_url: "https://crowclinic.org/contact-us/"
+  contact_email: "info@crowclinic.org"
+  contact_phone: "(239) 472-3644"
+  emergency_hotline: "(239) 472-3644 ext. 222"
+  intake_address: "3883 Sanibel Captiva Rd, Sanibel, FL 33957"
+  intake_hours: "7 days/week, 8am–5pm"
+  news_or_blog_url: "https://crowclinic.org/news/"
+  newsletter_signup_url: "https://crowclinic.org/newsletter/"
+  patient_stories_url: ""
+  annual_reports_url: "https://crowclinic.org/annual-reports/"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/CROWwildlife"
+    instagram: "https://www.instagram.com/crowwildlife/"
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: true
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 4500
+    intake_source_year: 2023
+    licensed_species_count: ""
+  accreditations: ["AAZV", "teaching hospital"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Dedicated to saving wildlife through state-of-the-art veterinary care, research, education, and conservation medicine."
+  status: active
+  notes: "Teaching hospital and visitor education center. One of the largest wildlife hospitals in the US."
+  source_urls:
+    - "https://crowclinic.org"
+    - "https://projects.propublica.org/nonprofits/organizations/237271040"
+
+- slug: florida-keys-wild-bird-rehabilitation-center
+  legal_name: "Florida Keys Wild Bird Rehabilitation Center, Inc."
+  common_name: "Florida Keys Wild Bird Center"
+  state: FL
+  city: "Tavernier"
+  county_fips: "12087"
+  ein: "65-0020988"
+  primary_url: "https://keepthemflying.org"
+  wildlife_help_url: "https://keepthemflying.org/find-injured-bird/"
+  about_url: "https://keepthemflying.org/about/"
+  contact_url: "https://keepthemflying.org/contact/"
+  contact_email: ""
+  contact_phone: "(305) 852-4486"
+  emergency_hotline: "(305) 852-4486"
+  intake_address: "93600 Overseas Hwy, Tavernier, FL 33070"
+  intake_hours: "Daily, sunrise to sunset"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: true
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Dedicated to the rescue, rehabilitation, and release of native wild birds in the Florida Keys."
+  status: active
+  notes: "Established 1978 by Laura Quinn. Sanctuary and rehabilitation facility in the Upper Keys."
+  source_urls:
+    - "https://keepthemflying.org"
+    - "https://projects.propublica.org/nonprofits/organizations/650020988"
+
+- slug: pelican-harbor-seabird-station
+  legal_name: "Pelican Harbor Seabird Station, Inc."
+  common_name: "Pelican Harbor Seabird Station"
+  state: FL
+  city: "Miami"
+  county_fips: "12086"
+  ein: "59-2137331"
+  primary_url: "https://pelicanharbor.org"
+  wildlife_help_url: "https://pelicanharbor.org/found-an-animal"
+  about_url: "https://pelicanharbor.org/about-us"
+  contact_url: "https://pelicanharbor.org/contact-us"
+  contact_email: ""
+  contact_phone: "305-751-9840"
+  emergency_hotline: "305-751-9840"
+  intake_address: "1279 NE 79th Street Causeway, Miami, FL 33138"
+  intake_hours: "Daily 9am–5pm (after-hours drop-off available)"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: false
+    accepts_marine: true
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Miami's premier native wildlife hospital dedicated to improving the lives of sick, injured, and orphaned native wildlife."
+  status: active
+  notes: "Founded 1980. Miami-Dade and Broward service area."
+  source_urls:
+    - "https://pelicanharbor.org"
+    - "https://projects.propublica.org/nonprofits/organizations/592137331"
+
+- slug: south-florida-wildlife-center
+  legal_name: "South Florida Wildlife Center, Inc."
+  common_name: "South Florida Wildlife Center"
+  state: FL
+  city: "Fort Lauderdale"
+  county_fips: "12011"
+  ein: "23-7086391"
+  primary_url: "https://southfloridawildlifecenter.org"
+  wildlife_help_url: "https://southfloridawildlifecenter.org/found-an-animal/"
+  about_url: "https://southfloridawildlifecenter.org/about-us/"
+  contact_url: "https://southfloridawildlifecenter.org/contact-us/"
+  contact_email: ""
+  contact_phone: "(954) 524-4302"
+  emergency_hotline: "(954) 524-4302"
+  intake_address: "3200 SW 4th Ave, Fort Lauderdale, FL 33315"
+  intake_hours: ""
+  news_or_blog_url: "https://southfloridawildlifecenter.org/blog/"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: "https://southfloridawildlifecenter.org/financials/"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: true
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 8000
+    intake_source_year: 2023
+    licensed_species_count: "~250 species"
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Founded 1969. Highest-volume wildlife care facility in Florida treating nearly 8,000 animals/year from ~250 species."
+  status: active
+  notes: "Independently operated 501(c)(3); not affiliated with any government or humane agency."
+  source_urls:
+    - "https://southfloridawildlifecenter.org"
+    - "https://projects.propublica.org/nonprofits/organizations/237086391"
+
+- slug: conservancy-of-southwest-florida
+  legal_name: "The Conservancy of Southwest Florida, Inc."
+  common_name: "Conservancy of Southwest Florida"
+  state: FL
+  city: "Naples"
+  county_fips: "12021"
+  ein: "59-1157084"
+  primary_url: "https://conservancy.org"
+  wildlife_help_url: "https://conservancy.org/wildlife/"
+  about_url: "https://conservancy.org/about/"
+  contact_url: "https://conservancy.org/contact"
+  contact_email: "info@conservancy.org"
+  contact_phone: "239-262-0304"
+  emergency_hotline: ""
+  intake_address: "1495 Smith Preserve Way, Naples, FL 34102"
+  intake_hours: ""
+  news_or_blog_url: "https://conservancy.org/news/"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: "https://conservancy.org/annual-reports/"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: true
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Protecting Southwest Florida's natural environment through science, advocacy, education, and wildlife rehabilitation."
+  status: active
+  notes: "Major conservation organization with wildlife hospital; tax-exempt since 1971."
+  source_urls:
+    - "https://conservancy.org"
+    - "https://projects.propublica.org/nonprofits/organizations/591157084"
+
+- slug: peace-river-wildlife-center
+  legal_name: "Peace River Wildlife Center, Inc."
+  common_name: "Peace River Wildlife Center"
+  state: FL
+  city: "Punta Gorda"
+  county_fips: "12015"
+  ein: "59-2535665"
+  primary_url: "https://prwildlife.org"
+  wildlife_help_url: "https://prwildlife.org/found-animal"
+  about_url: "https://prwildlife.org/about"
+  contact_url: "https://prwildlife.org/contact"
+  contact_email: ""
+  contact_phone: "(941) 637-3830"
+  emergency_hotline: "(941) 637-3857"
+  intake_address: "3400 Ponce de Leon Pkwy, Punta Gorda, FL 33982"
+  intake_hours: "Daily"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: true
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "501(c)(3) non-profit wildlife rehabilitation and education center in Charlotte County."
+  status: active
+  notes: "Located at Ponce de Leon Park along the Peace River."
+  source_urls:
+    - "https://prwildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/592535665"
+
+- slug: save-our-seabirds
+  legal_name: "Save Our Seabirds, Inc."
+  common_name: "Save Our Seabirds"
+  state: FL
+  city: "Sarasota"
+  county_fips: "12115"
+  ein: "59-3078536"
+  primary_url: "https://saveourseabirds.org"
+  wildlife_help_url: "https://saveourseabirds.org/found-an-animal/"
+  about_url: "https://saveourseabirds.org/about"
+  contact_url: "https://saveourseabirds.org/contact"
+  contact_email: "info@saveourseabirds.org"
+  contact_phone: "(941) 388-3010"
+  emergency_hotline: "(941) 388-3010"
+  intake_address: "1708 Ken Thompson Pkwy, Sarasota, FL 34236"
+  intake_hours: "Daily"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: true
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1200
+    intake_source_year: 2023
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Non-profit wildlife conservation and education organization dedicated to rescue and rehabilitation of sick and injured birds."
+  status: active
+  notes: "Located on former site of The Pelican Man's Bird Sanctuary on City Island, Sarasota. ~100 resident birds."
+  source_urls:
+    - "https://saveourseabirds.org"
+    - "https://projects.propublica.org/nonprofits/organizations/593078536"
+
+- slug: suncoast-seabird-sanctuary
+  legal_name: "Suncoast Seabird Sanctuary, Inc."
+  common_name: "Suncoast Seabird Sanctuary"
+  state: FL
+  city: "Indian Shores"
+  county_fips: "12103"
+  ein: "23-7271061"
+  primary_url: "https://www.seabirdsanctuary.org"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: ""
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "18328 Gulf Blvd, Indian Shores, FL 33785"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: true
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "One of the largest wild bird hospitals in the world, dedicated to the rescue and rehabilitation of injured birds."
+  status: active
+  notes: "Founded 1971 by Ralph Heath. Pinellas County. Underwent significant restructuring ~2017-2019."
+  source_urls:
+    - "https://projects.propublica.org/nonprofits/organizations/237271061"
+
+- slug: wildlife-center-of-southwest-florida
+  legal_name: "Wildlife Center of Venice, Inc. d/b/a Paul A. & Veronica H. Gross Wildlife Center of Southwest Florida"
+  common_name: "Wildlife Center of Southwest Florida"
+  state: FL
+  city: "Venice"
+  county_fips: "12115"
+  ein: "20-1065695"
+  primary_url: "https://wildlifeswfl.org"
+  wildlife_help_url: "https://wildlifeswfl.org/found-an-animal"
+  about_url: "https://wildlifeswfl.org/about"
+  contact_url: "https://wildlifeswfl.org/contact"
+  contact_email: ""
+  contact_phone: "(941) 484-9657"
+  emergency_hotline: "(941) 484-9657"
+  intake_address: "925 N Jackson Rd, Venice, FL 34292"
+  intake_hours: "7 days/week 8am–6pm"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: "https://wildlifeswfl.org/taxinformation"
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: true
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: true
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 70000
+    intake_source_year: 2024
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Saving wildlife since 2004. 24/7 emergency intake. 70,000+ total animals rehabilitated. Zero government funding."
+  status: active
+  notes: "Serves Manatee, Sarasota, Charlotte, and Lee Counties. Also known as WildlifeSWFL."
+  source_urls:
+    - "https://wildlifeswfl.org"
+
+- slug: st-francis-wildlife-association
+  legal_name: "St. Francis of Assisi Wildlife Association, Inc."
+  common_name: "St. Francis Wildlife"
+  state: FL
+  city: "Tallahassee"
+  county_fips: "12073"
+  ein: "59-1888022"
+  primary_url: "https://stfranciswildlife.org"
+  wildlife_help_url: "https://stfranciswildlife.org/wildlife-assistance"
+  about_url: "https://stfranciswildlife.org/about-us"
+  contact_url: "https://stfranciswildlife.org/contact"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Tallahassee, FL"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Non-profit dedicated to conservation of native wildlife in north Florida through rescue, rehabilitation, and education."
+  status: active
+  notes: "Serves north Florida (Leon County area)."
+  source_urls:
+    - "https://stfranciswildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/591888022"
+
+- slug: florida-wildlife-hospital-and-sanctuary
+  legal_name: "Florida Wildlife Hospital and Sanctuary, Inc."
+  common_name: "Florida Wildlife Hospital"
+  state: FL
+  city: "Palm Bay"
+  county_fips: "12009"
+  ein: "23-7292826"
+  primary_url: "https://floridawildlifecare.org"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: "https://floridawildlifecare.org/contact.htm"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Melbourne area, Brevard County, FL"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Nonprofit dedicated to care and conservation of native wildlife and habitat through rehabilitation, education, and study."
+  status: active
+  notes: "Listed as Melbourne in ProPublica; floridawildlifecare.org copyright 2004-2007, may have limited web presence."
+  source_urls:
+    - "https://floridawildlifecare.org"
+    - "https://projects.propublica.org/nonprofits/organizations/237292826"
+
+- slug: key-west-wildlife-center
+  legal_name: "Key West Wildlife Center, Inc."
+  common_name: "Key West Wildlife Center"
+  state: FL
+  city: "Key West"
+  county_fips: "12087"
+  ein: "27-1565877"
+  primary_url: "https://keywestwildlifecenter.org"
+  wildlife_help_url: ""
+  about_url: "https://keywestwildlifecenter.org/about/"
+  contact_url: "https://keywestwildlifecenter.org/contact/"
+  contact_email: ""
+  contact_phone: "305-292-1008"
+  emergency_hotline: "305-292-1008"
+  intake_address: "1801 White St, Key West, FL 33040"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: false
+    accepts_marine: true
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Wildlife rehabilitation center serving Key West and Monroe County."
+  status: active
+  notes: "Monroe County's southernmost wildlife rehab facility."
+  source_urls:
+    - "https://keywestwildlifecenter.org"
+    - "https://projects.propublica.org/nonprofits/organizations/271565877"
+
+- slug: marathon-wild-bird-center
+  legal_name: "Marathon Wild Bird Center, Inc."
+  common_name: "Marathon Wild Bird Center"
+  state: FL
+  city: "Marathon"
+  county_fips: "12087"
+  ein: "65-1014801"
+  primary_url: "https://marathonwildbirdcenter.org"
+  wildlife_help_url: ""
+  about_url: "https://marathonwildbirdcenter.org/about/"
+  contact_url: "https://marathonwildbirdcenter.org/contact/"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "5550 Overseas Hwy (Crane Point Hammock), Marathon, FL 33050"
+  intake_hours: "24/7, 365 days"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: true
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: true
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 16000
+    intake_source_year: 2024
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "All-volunteer premier wild bird sanctuary in the Florida Keys; 16,000+ birds rehabilitated since 1995."
+  status: active
+  notes: "Located at Crane Point Hammock in Marathon. Dedicated to wild birds in Monroe County."
+  source_urls:
+    - "https://marathonwildbirdcenter.org"
+    - "https://projects.propublica.org/nonprofits/organizations/651014801"
+
+- slug: audubon-center-for-birds-of-prey
+  legal_name: "Florida Audubon Society"
+  common_name: "Audubon Center for Birds of Prey"
+  state: FL
+  city: "Maitland"
+  county_fips: "12095"
+  ein: "59-0245495"
+  primary_url: "https://www.audubon.org/conservation/center-birds-prey"
+  wildlife_help_url: ""
+  about_url: "https://www.audubon.org/conservation/center-birds-prey"
+  contact_url: ""
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "1101 Audubon Way, Maitland, FL 32751"
+  intake_hours: "Tue–Sun 10am–4pm"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/AudubonCenterforBirdsofPrey/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Established 1979; focuses on rescue, rehabilitation, and conservation of Florida's raptors. Program of Florida Audubon Society."
+  status: active
+  notes: "Operated under Florida Audubon Society (EIN 59-0245495). Located near Orlando."
+  source_urls:
+    - "https://www.audubon.org/conservation/center-birds-prey"
+    - "https://projects.propublica.org/nonprofits/organizations/590245495"
+
+- slug: wildlife-rehabilitation-center-central-florida
+  legal_name: "Wildlife Rehabilitation Center of Central Florida"
+  common_name: "Wildlife Rehabilitation Center of Central Florida"
+  state: FL
+  city: "Christmas"
+  county_fips: "12095"
+  ein: "59-3130779"
+  primary_url: "https://wildlifecenterflorida.org"
+  wildlife_help_url: ""
+  about_url: "https://wildlifecenterflorida.org/about/"
+  contact_url: "https://wildlifecenterflorida.org/contact"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Christmas, FL (Orange County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Wildlife rehabilitation center serving central Florida (Orange County area)."
+  status: active
+  notes: "Tax-exempt organization. Partially funded by Alachua County Tourist Development Tax per one reference."
+  source_urls:
+    - "https://wildlifecenterflorida.org"
+    - "https://projects.propublica.org/nonprofits/organizations/593130779"
+
+# ─── NORTH CAROLINA ───────────────────────────────────────────────────────────
+
+- slug: carolina-raptor-center
+  legal_name: "Carolina Raptor Center, Inc."
+  common_name: "Carolina Raptor Center"
+  state: NC
+  city: "Huntersville"
+  county_fips: "37119"
+  ein: "56-1349170"
+  primary_url: "https://carolinaraptorcenter.org"
+  wildlife_help_url: "https://carolinaraptorcenter.org/found-an-injured-animal/"
+  about_url: "https://carolinaraptorcenter.org/about/"
+  contact_url: "https://carolinaraptorcenter.org/contact/"
+  contact_email: ""
+  contact_phone: "(704) 875-6521"
+  emergency_hotline: "(704) 875-6521"
+  intake_address: "6000 Sample Rd, Huntersville, NC 28078"
+  intake_hours: "Open 7 days/week"
+  news_or_blog_url: "https://carolinaraptorcenter.org/news/"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["501(c)(3)"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Dedicated to raptor rehabilitation, education, and conservation in Huntersville, NC. Raptor Trail at Latta Nature Preserve."
+  status: active
+  notes: "Located within Latta Nature Preserve. One of the largest raptor centers in the Southeast."
+  source_urls:
+    - "https://carolinaraptorcenter.org"
+    - "https://projects.propublica.org/nonprofits/organizations/561349170"
+
+- slug: carolina-wildlife-conservation-center
+  legal_name: "Carolina Wildlife Conservation Center"
+  common_name: "Carolina Wildlife Conservation Center"
+  state: NC
+  city: "Iron Station"
+  county_fips: "37109"
+  ein: "83-2040636"
+  primary_url: "https://carolinaconservation.org"
+  wildlife_help_url: "https://carolinaconservation.org/found-animal"
+  about_url: "https://carolinaconservation.org"
+  contact_url: "https://carolinaconservation.org/contact"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Iron Station, NC (Lincoln County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 1500
+    intake_source_year: 2024
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Rescued and rehabilitated over 11,000 injured and orphaned animals. 140-acre conservation land near Charlotte, NC."
+  status: active
+  notes: "State-of-the-art clinic with full surgery capabilities. Serves entire state of NC."
+  source_urls:
+    - "https://carolinaconservation.org"
+    - "https://projects.propublica.org/nonprofits/organizations/832040636"
+
+- slug: carolina-wildlife-rehabilitation-center
+  legal_name: "Carolina Wildlife Rehabilitation Center"
+  common_name: "CWRC"
+  state: NC
+  city: "Charlotte"
+  county_fips: "37119"
+  ein: "84-2754585"
+  primary_url: "https://cwrcwildlife.org"
+  wildlife_help_url: "https://cwrcwildlife.org/found-an-animal"
+  about_url: "https://cwrcwildlife.org/about-cwrc"
+  contact_url: "https://cwrcwildlife.org/contact"
+  contact_email: ""
+  contact_phone: "1-800-388-2972"
+  emergency_hotline: "1-800-388-CWRC (2972)"
+  intake_address: "Charlotte, NC area"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/CWRCWildlife"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["501(c)(3)"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "501(c)(3) nonprofit mitigating human impacts on native wildlife through medical treatment, education, and scientific research."
+  status: active
+  notes: "100% volunteer staff. Tax-exempt since Nov. 2019."
+  source_urls:
+    - "https://cwrcwildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/842754585"
+
+- slug: outer-banks-wildlife-shelter
+  legal_name: "Outer Banks Wildlife Shelter, Inc."
+  common_name: "OWLS"
+  state: NC
+  city: "Newport"
+  county_fips: "37031"
+  ein: "56-1592963"
+  primary_url: "https://www.outerbankswildlifeshelter.com"
+  wildlife_help_url: ""
+  about_url: "https://www.outerbankswildlifeshelter.com/owls"
+  contact_url: "https://www.outerbankswildlifeshelter.com/contact"
+  contact_email: "owlssaves@gmail.com"
+  contact_phone: "252-240-1200"
+  emergency_hotline: "252-240-1200"
+  intake_address: "Newport, NC (Carteret County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Wildlife shelter serving the Outer Banks and eastern North Carolina."
+  status: active
+  notes: "Primarily serves Carteret County and the Outer Banks region."
+  source_urls:
+    - "https://www.outerbankswildlifeshelter.com"
+    - "https://projects.propublica.org/nonprofits/organizations/561592963"
+
+- slug: piedmont-wildlife-center
+  legal_name: "Piedmont Wildlife Center"
+  common_name: "Piedmont Wildlife Center"
+  state: NC
+  city: "Durham"
+  county_fips: "37063"
+  ein: "47-0890261"
+  primary_url: "https://piedmontwildlifecenter.org"
+  wildlife_help_url: ""
+  about_url: "https://piedmontwildlifecenter.org/about"
+  contact_url: "https://piedmontwildlifecenter.org/contact"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Durham, NC"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Wildlife rehabilitation center serving the Durham/Triangle area of North Carolina."
+  status: active
+  notes: "Tax-exempt since 2017."
+  source_urls:
+    - "https://piedmontwildlifecenter.org"
+    - "https://projects.propublica.org/nonprofits/organizations/470890261"
+
+- slug: carolina-tiger-rescue
+  legal_name: "Carolina Tiger Rescue"
+  common_name: "Carolina Tiger Rescue"
+  state: NC
+  city: "Pittsboro"
+  county_fips: "37037"
+  ein: "56-1522499"
+  primary_url: "https://carolinatigerrescue.org"
+  wildlife_help_url: ""
+  about_url: "https://carolinatigerrescue.org/about/"
+  contact_url: "https://carolinatigerrescue.org/contact/"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "1940 Hanks Chapel Rd, Pittsboro, NC 27312"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Sanctuary and rescue for wild and exotic cats (tigers, lions, cougars, leopards, etc.)."
+  status: active
+  notes: "Focuses on captive exotic cats rather than native wildlife rehabilitation; included due to USDA licensed facility with published presence."
+  source_urls:
+    - "https://carolinatigerrescue.org"
+    - "https://projects.propublica.org/nonprofits/organizations/561522499"
+
+# ─── SOUTH CAROLINA ───────────────────────────────────────────────────────────
+
+- slug: avian-conservation-center-sc
+  legal_name: "Avian Conservation Center"
+  common_name: "Center for Birds of Prey"
+  state: SC
+  city: "Awendaw"
+  county_fips: "45019"
+  ein: "57-0966813"
+  primary_url: "https://thecenterforbirdsofprey.org"
+  wildlife_help_url: "https://thecenterforbirdsofprey.org/found-an-animal/"
+  about_url: "https://thecenterforbirdsofprey.org/about-the-avian-conservation-center/"
+  contact_url: "https://thecenterforbirdsofprey.org/support/"
+  contact_email: ""
+  contact_phone: "843-971-7474"
+  emergency_hotline: "843-971-7474"
+  intake_address: "4872 Seewee Rd, Awendaw, SC 29429"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 15000
+    intake_source_year: 2024
+    licensed_species_count: ""
+  accreditations: ["501(c)(3)"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Providing medical care for injured birds of prey and shorebirds; education, research, and conservation. 15,000+ cases since founding."
+  status: active
+  notes: "Incorporated 1991 as Charleston Raptor Center; renamed SC Center for Birds of Prey 1995; Avian Conservation Center umbrella org 2004. Revenue ~$1.5M/yr."
+  source_urls:
+    - "https://thecenterforbirdsofprey.org"
+    - "https://projects.propublica.org/nonprofits/organizations/570966813"
+
+- slug: carolina-wildlife-center-sc
+  legal_name: "Carolina Wildlife Center"
+  common_name: "Carolina Wildlife Center"
+  state: SC
+  city: "Columbia"
+  county_fips: "45079"
+  ein: "57-0932809"
+  primary_url: "https://carolinawildlife.org"
+  wildlife_help_url: "https://carolinawildlife.org/found-animal"
+  about_url: "https://carolinawildlife.org/about"
+  contact_url: "https://carolinawildlife.org/contact"
+  contact_email: "info@carolinawildlife.org"
+  contact_phone: "(803) 772-3994"
+  emergency_hotline: "(803) 772-3994"
+  intake_address: "5551 Bush River Rd, Columbia, SC 29212"
+  intake_hours: "8am–8pm daily (closed Christmas Day)"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Founded 1989. Devoted to rehabilitation of injured and orphaned native wildlife and preservation of wildlife through education."
+  status: active
+  notes: "Serves Columbia, SC area. Ruling date 1991-06-01 per IRS."
+  source_urls:
+    - "https://carolinawildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/570932809"
+
+- slug: wildlife-rehab-group-of-south-carolina
+  legal_name: "Wildlife Rehab Group of South Carolina"
+  common_name: "Wildlife Rehab Group SC"
+  state: SC
+  city: "Greenville"
+  county_fips: "45045"
+  ein: ""
+  primary_url: "https://wildlife-rehab.com"
+  wildlife_help_url: "https://wildlife-rehab.com/found-an-animal.htm"
+  about_url: ""
+  contact_url: ""
+  contact_email: ""
+  contact_phone: "864-233-0339"
+  emergency_hotline: "864-233-0339"
+  intake_address: "Greenville, SC"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/WildlifeGreenville/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Animal rehabilitation organization in the Upstate South Carolina region."
+  status: active
+  notes: "EIN not found in ProPublica; may be a DBA or small org filing 990-N. State permit verified via SC DNR registry."
+  source_urls:
+    - "https://wildlife-rehab.com"
+
+# ─── GEORGIA ──────────────────────────────────────────────────────────────────
+
+- slug: chattahoochee-nature-center
+  legal_name: "Chattahoochee Nature Center, Inc."
+  common_name: "Chattahoochee Nature Center"
+  state: GA
+  city: "Roswell"
+  county_fips: "13067"
+  ein: "58-1275604"
+  primary_url: "https://chattnaturecenter.org"
+  wildlife_help_url: "https://chattnaturecenter.org/wildlife"
+  about_url: "https://chattnaturecenter.org/about/"
+  contact_url: "https://chattnaturecenter.org/contact/"
+  contact_email: ""
+  contact_phone: "(770) 992-2055"
+  emergency_hotline: ""
+  intake_address: "9135 Willeo Rd, Roswell, GA 30075"
+  intake_hours: "Mon–Sat 10am–5pm, Sun 12pm–5pm"
+  news_or_blog_url: "https://chattnaturecenter.org/news/"
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 3500
+    intake_source_year: 2023
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Wildlife rehabilitation and education with 75+ resident non-releasable animals; 3,500+ wildlife calls/year."
+  status: active
+  notes: "Major nature center with wildlife rehab component. Revenue ~$4.7M (FY2023). Roswell, Fulton County."
+  source_urls:
+    - "https://chattnaturecenter.org"
+    - "https://projects.propublica.org/nonprofits/organizations/581275604"
+
+- slug: aware-wildlife-center-georgia
+  legal_name: "Atlanta Wild Animal Rescue Effort, Inc."
+  common_name: "AWARE Wildlife Center"
+  state: GA
+  city: "Decatur"
+  county_fips: "13089"
+  ein: "58-2433175"
+  primary_url: "https://www.awarewildlife.org"
+  wildlife_help_url: "https://www.awarewildlife.org/help"
+  about_url: "https://www.awarewildlife.org/about"
+  contact_url: "https://www.awarewildlife.org/contact"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "4158 Willeo Rd, Roswell, GA 30075"
+  intake_hours: "365 days/year, 10am–7pm"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Atlanta's wildlife rehabilitation nonprofit. Help desk staffed 365 days/year."
+  status: active
+  notes: "Revenue ~$1.1M (FY2023). One of metro Atlanta's primary wildlife rehabilitation resources."
+  source_urls:
+    - "https://www.awarewildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/582433175"
+
+- slug: wildlife-center-of-north-georgia
+  legal_name: "Wildlife Center of North Georgia, Inc."
+  common_name: "Wildlife Center of North Georgia"
+  state: GA
+  city: "Acworth"
+  county_fips: "13057"
+  ein: "92-2652390"
+  primary_url: "https://www.wcnga.org"
+  wildlife_help_url: ""
+  about_url: "https://www.wcnga.org/about"
+  contact_url: ""
+  contact_email: ""
+  contact_phone: "678-386-9116"
+  emergency_hotline: ""
+  intake_address: "Acworth, GA (Cherokee County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["501(c)(3)"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "501(c)(3) dedicated to care for wild songbirds; volunteer-managed nonprofit in Cherokee County, GA."
+  status: active
+  notes: "Focuses specifically on wild songbirds in North Georgia."
+  source_urls:
+    - "https://www.wcnga.org"
+    - "https://projects.propublica.org/nonprofits/organizations/922652390"
+
+# ─── ALABAMA ──────────────────────────────────────────────────────────────────
+
+- slug: alabama-wildlife-center
+  legal_name: "Alabama Wildlife Center"
+  common_name: "Alabama Wildlife Center"
+  state: AL
+  city: "Pelham"
+  county_fips: "01117"
+  ein: "63-0813173"
+  primary_url: "https://alabamawildlifecenter.org"
+  wildlife_help_url: "https://alabamawildlifecenter.org/injured-birds"
+  about_url: "https://alabamawildlifecenter.org/about"
+  contact_url: "https://alabamawildlifecenter.org/contact/"
+  contact_email: "office@alabamawildlifecenter.org"
+  contact_phone: "205-663-7930"
+  emergency_hotline: "205-663-7930 ext. 1"
+  intake_address: "100 Terrace Dr, Oak Mountain State Park, Pelham, AL 35124"
+  intake_hours: "Bird Admission 11am–4pm; Visitors 9am–5pm; open every day"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/AlabamaWildlifeCenter"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Alabama's premier bird rehabilitation center in Oak Mountain State Park, serving injured wild birds statewide."
+  status: active
+  notes: "Tax-exempt since Oct. 1981. Revenue ~$604K (FY2024). Focus is wild birds only."
+  source_urls:
+    - "https://alabamawildlifecenter.org"
+    - "https://projects.propublica.org/nonprofits/organizations/630813173"
+
+- slug: auburn-university-raptor-center
+  legal_name: "Auburn University College of Veterinary Medicine"
+  common_name: "Auburn University Raptor Center"
+  state: AL
+  city: "Auburn"
+  county_fips: "01081"
+  ein: ""
+  primary_url: "https://www.vetmed.auburn.edu/raptor/"
+  wildlife_help_url: "https://www.vetmed.auburn.edu/raptor/about/"
+  about_url: "https://www.vetmed.auburn.edu/raptor/history/"
+  contact_url: ""
+  contact_email: ""
+  contact_phone: "(334) 844-6347"
+  emergency_hotline: "(334) 844-6347"
+  intake_address: "1350 Pratt-Carden Dr, Auburn, AL 36849"
+  intake_hours: "Daily by phone authorization; close at 4:30pm CT"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/auraptorcenter/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Five decades of raptor rehabilitation and release at Auburn University College of Veterinary Medicine; accepts raptors from Alabama only."
+  status: active
+  notes: "University program, not independent 501(c)(3). Accepts injured/orphaned raptors from Alabama only with prior phone authorization."
+  source_urls:
+    - "https://www.vetmed.auburn.edu/raptor/"
+
+# ─── TENNESSEE ────────────────────────────────────────────────────────────────
+
+- slug: waldens-puddle
+  legal_name: "Walden's Puddle, Inc."
+  common_name: "Walden's Puddle"
+  state: TN
+  city: "Joelton"
+  county_fips: "47037"
+  ein: "62-1471146"
+  primary_url: "https://waldenspuddle.org"
+  wildlife_help_url: "https://waldenspuddle.org/found-an-animal/"
+  about_url: "https://waldenspuddle.org/about"
+  contact_url: "https://waldenspuddle.org/contact"
+  contact_email: ""
+  contact_phone: "615-559-9453"
+  emergency_hotline: "615-559-WILD (9453)"
+  intake_address: "Joelton, TN (Davidson County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/WaldensPuddle/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Professionally-staffed wildlife rehabilitation facility serving middle Tennessee sick, injured, and orphaned native wildlife."
+  status: active
+  notes: "Tax-exempt since Jan. 1992. Revenue ~$645K (FY2024). No federal or state funding."
+  source_urls:
+    - "https://waldenspuddle.org"
+    - "https://projects.propublica.org/nonprofits/organizations/621471146"
+
+- slug: harmony-wildlife-nashville
+  legal_name: "Harmony Wildlife Rehabilitation Center"
+  common_name: "Harmony Wildlife"
+  state: TN
+  city: "Nashville"
+  county_fips: "47037"
+  ein: "62-1483517"
+  primary_url: "https://www.harmonywildlife.org"
+  wildlife_help_url: "https://www.harmonywildlife.org/found-animal"
+  about_url: "https://www.harmonywildlife.org/about-us"
+  contact_url: ""
+  contact_email: "contact@harmonywildlife.org"
+  contact_phone: "(615) 266-5701"
+  emergency_hotline: "(615) 266-5701"
+  intake_address: "P.O. Box 58586, Nashville, TN 37205"
+  intake_hours: "By appointment; Mon–Fri 10am–6pm"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["501(c)(3)"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Cares for Tennessee's orphaned and injured native wildlife; helps neighbors understand and coexist with wildlife."
+  status: active
+  notes: "TWRA licensed. Nashville/West Nashville area. Text line for animal help."
+  source_urls:
+    - "https://www.harmonywildlife.org"
+
+- slug: for-fox-sake-wildlife-rescue
+  legal_name: "For Fox Sake Wildlife Rescue"
+  common_name: "For Fox Sake"
+  state: TN
+  city: "Chattanooga"
+  county_fips: "47065"
+  ein: "85-0724061"
+  primary_url: "https://forfoxsakewildlife.com"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: "https://forfoxsakewildlife.com/contact"
+  contact_email: "forfoxsakewildliferescue@gmail.com"
+  contact_phone: "(855) 252-9683"
+  emergency_hotline: "(855) 252-9683"
+  intake_address: "Chattanooga, TN (Hamilton County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/forfoxsakewildlife/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["IWRC certified", "NWRA standards"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Non-profit wildlife rehabilitation in Chattanooga focused on under-served species: skunks, foxes, raccoons, bobcats, reptiles, and amphibians."
+  status: active
+  notes: "TWRA permitted with special authorization for rabies-vector species. USDA licensed. IWRC certified, NWRA standards."
+  source_urls:
+    - "https://forfoxsakewildlife.com"
+    - "https://projects.propublica.org/nonprofits/organizations/850724061"
+
+- slug: out-of-the-woods-wildlife-rescue
+  legal_name: "Out of the Woods Wildlife Rescue & Rehab"
+  common_name: "Out of the Woods"
+  state: TN
+  city: "Millington"
+  county_fips: "47157"
+  ein: "85-1519289"
+  primary_url: "https://www.outofthewoodswildlife.org"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: ""
+  contact_email: ""
+  contact_phone: "901-340-6534"
+  emergency_hotline: "901-340-6534"
+  intake_address: "Millington, TN (Shelby County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["501(c)(3)"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Protects wildlife of West Tennessee; rehabilitates raccoons, squirrels, opossums, turtles, and other wild species."
+  status: active
+  notes: "Tax-exempt since March 2021. Shelby County. No government funding."
+  source_urls:
+    - "https://www.outofthewoodswildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/851519289"
+
+- slug: mid-south-raptor-center
+  legal_name: "Mid South Raptor Center"
+  common_name: "Mid-South Raptor Center"
+  state: TN
+  city: "Memphis"
+  county_fips: "47157"
+  ein: "38-3704653"
+  primary_url: "http://midsouthraptorcenter.com"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: ""
+  contact_email: ""
+  contact_phone: "901-685-8827"
+  emergency_hotline: "901-685-8827"
+  intake_address: "Memphis, TN (Shelby County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: false
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Raptor rehabilitation center serving West Tennessee and the Memphis metropolitan area."
+  status: active
+  notes: "Listed as raptor specialist on TN TWRA licensed rehabilitator list."
+  source_urls:
+    - "http://midsouthraptorcenter.com"
+    - "https://projects.propublica.org/nonprofits/organizations/383704653"
+
+# ─── MISSISSIPPI ──────────────────────────────────────────────────────────────
+
+- slug: mississippi-wildlife-rehabilitation
+  legal_name: "Mississippi Wildlife Rehabilitation, Inc."
+  common_name: "Mississippi Wildlife Rehabilitation"
+  state: MS
+  city: "Coldwater"
+  county_fips: "28137"
+  ein: "58-2211254"
+  primary_url: "https://mswildliferehab.org"
+  wildlife_help_url: ""
+  about_url: "https://mswildliferehab.org/about"
+  contact_url: "https://mswildliferehab.org/contact"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Coldwater, MS (Tate County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: false
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Founded 1995 to meet the growing need for wildlife assistance in north Mississippi. Education programs for schools and civic orgs."
+  status: active
+  notes: "Non-profit assisting injured and orphaned wild birds. North Mississippi focus. Revenue ~$99K (FY2023)."
+  source_urls:
+    - "https://mswildliferehab.org"
+    - "https://projects.propublica.org/nonprofits/organizations/582211254"
+
+- slug: woodside-wildlife-rescue
+  legal_name: "Woodside Wildlife Rescue, Ltd."
+  common_name: "Woodside Wildlife Rescue"
+  state: MS
+  city: "Pass Christian"
+  county_fips: "28047"
+  ein: "84-3428740"
+  primary_url: "https://woodsidewildliferescue.org"
+  wildlife_help_url: ""
+  about_url: "https://woodsidewildliferescue.org/about"
+  contact_url: "https://woodsidewildliferescue.org/contact"
+  contact_email: ""
+  contact_phone: "228-223-0430"
+  emergency_hotline: "228-223-0430"
+  intake_address: "Pass Christian, MS (Harrison County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Dedicated to rescue and rehabilitation of Mississippi's wildlife and educating the community on coexistence with wildlife."
+  status: active
+  notes: "Harrison County / Gulf Coast area. Phone on website: 228-223-0430."
+  source_urls:
+    - "https://woodsidewildliferescue.org"
+    - "https://projects.propublica.org/nonprofits/organizations/843428740"
+
+- slug: wild-again-in-mississippi
+  legal_name: "Wild Again in Mississippi, Inc."
+  common_name: "Wild Again in Mississippi"
+  state: MS
+  city: "Enid"
+  county_fips: "28115"
+  ein: "85-2046155"
+  primary_url: "https://www.wildagaininmississippi.org"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: "https://www.wildagaininmississippi.org/contact-us"
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Enid, MS (Yalobusha County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["501(c)(3)"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Wildlife rescue and rehabilitation serving Mississippi with focus on native mammals."
+  status: active
+  notes: "501(c)(3) status. Tax-exempt since approximately 2020."
+  source_urls:
+    - "https://www.wildagaininmississippi.org"
+    - "https://projects.propublica.org/nonprofits/organizations/852046155"
+
+# ─── LOUISIANA ────────────────────────────────────────────────────────────────
+
+- slug: acadiana-wildlife-education-rehabilitation
+  legal_name: "Acadiana Wildlife Education and Rehabilitation"
+  common_name: "Acadiana Wildlife"
+  state: LA
+  city: "Youngsville"
+  county_fips: "22055"
+  ein: "72-1431056"
+  primary_url: "https://acadianawildlife.org"
+  wildlife_help_url: "https://acadianawildlife.org/i-found-an-injured-animal"
+  about_url: "https://acadianawildlife.org/about"
+  contact_url: "https://acadianawildlife.org/contact"
+  contact_email: "letitialabbie@gmail.com"
+  contact_phone: "337-288-5146"
+  emergency_hotline: "337-288-5146"
+  intake_address: "502 Mermentau Rd, Youngsville, LA 70592"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: []
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Wildlife education and rehabilitation nonprofit serving the Acadiana / Lafayette Parish region of Louisiana."
+  status: active
+  notes: "WLF-permitted rehabilitator serving Lafayette Parish. Listed on Louisiana LandCAN."
+  source_urls:
+    - "https://acadianawildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/724310560"
+
+- slug: werla-wildlife-education-rehabilitation-louisiana
+  legal_name: "Wildlife Education and Rehabilitation of Louisiana, Inc."
+  common_name: "WERLA"
+  state: LA
+  city: "Shreveport"
+  county_fips: "22017"
+  ein: "46-4035568"
+  primary_url: "https://werla.net"
+  wildlife_help_url: "https://werla.net/found-animal"
+  about_url: "https://werla.net/about"
+  contact_url: "https://werla.net/contact"
+  contact_email: ""
+  contact_phone: "(318) 405-2282"
+  emergency_hotline: "(318) 405-2282"
+  intake_address: "P.O. Box 7462, Shreveport, LA 71137"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["501(c)(3)"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Rehabilitation of injured and orphaned native wildlife and education about wildlife in northwest Louisiana."
+  status: active
+  notes: "Serves Caddo, Bossier, and surrounding parishes. Operating budget under $100K. GiveForGoodNLA listed."
+  source_urls:
+    - "https://werla.net"
+    - "https://projects.propublica.org/nonprofits/organizations/464035568"
+
+- slug: clearwater-sanctuary-louisiana
+  legal_name: "Clear Water Wildlife Sanctuary"
+  common_name: "Clearwater Sanctuary"
+  state: LA
+  city: "Covington"
+  county_fips: "22103"
+  ein: "72-1162121"
+  primary_url: "https://clearwatersanctuary.org"
+  wildlife_help_url: ""
+  about_url: "https://clearwatersanctuary.org/how-we-help"
+  contact_url: ""
+  contact_email: "info@clearwatersanctuary.org"
+  contact_phone: "(985) 630-1009"
+  emergency_hotline: "(985) 630-1009"
+  intake_address: "24 Holly Dr, Covington, LA 70435"
+  intake_hours: "M–F 9am–5:30pm, Sat 9am–1pm"
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["501(c)(3)"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "501(c)(3) sanctuary on 100 acres rehabilitating injured and orphaned Louisiana wildlife. In service since 1989."
+  status: active
+  notes: "St. Tammany Parish. Works in conjunction with Abita Veterinary Clinic. Spring-fed river setting."
+  source_urls:
+    - "https://clearwatersanctuary.org"
+    - "https://projects.propublica.org/nonprofits/organizations/721162121"
+
+# ─── ARKANSAS ─────────────────────────────────────────────────────────────────
+
+- slug: central-arkansas-wildlife-rehabilitation
+  legal_name: "Central Arkansas Wildlife Rehabilitation, Inc."
+  common_name: "Central Arkansas Wildlife Rehab"
+  state: AR
+  city: "Benton"
+  county_fips: "05125"
+  ein: "99-3047394"
+  primary_url: "https://www.facebook.com/cawrr/"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: ""
+  contact_email: ""
+  contact_phone: ""
+  emergency_hotline: ""
+  intake_address: "Benton, AR (Saline County)"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/cawrr/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["501(c)(3)"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Wildlife rehabilitation center serving central Arkansas; state and federally licensed."
+  status: active
+  notes: "New in IRS database (EIN 99-3047394). AGFC-permitted. Primary web presence appears to be Facebook."
+  source_urls:
+    - "https://www.facebook.com/cawrr/"
+    - "https://projects.propublica.org/nonprofits/organizations/993047394"
+
+# ─── KENTUCKY ─────────────────────────────────────────────────────────────────
+
+- slug: second-chances-wildlife-center
+  legal_name: "Second Chances Wildlife Center"
+  common_name: "Second Chances Wildlife Center"
+  state: KY
+  city: "Mt. Washington"
+  county_fips: "21029"
+  ein: "27-0550327"
+  primary_url: "https://secondchanceswildlife.org"
+  wildlife_help_url: "https://secondchanceswildlife.org/found-animal"
+  about_url: "https://secondchanceswildlife.org/about"
+  contact_url: "https://secondchanceswildlife.org/contact-us/"
+  contact_email: "brigette@secondchanceswildlife.org"
+  contact_phone: "502-888-5470"
+  emergency_hotline: "502-888-5470"
+  intake_address: "487 Gentry Lane, Mt. Washington, KY 40047"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: ""
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: true
+    accepts_mammals: true
+    accepts_reptiles: true
+    accepts_amphibians: true
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["501(c)(3)"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "501(c)(3) conserving wildlife through rehabilitation and education. Founded 2009. Louisville metro area."
+  status: active
+  notes: "Bullitt County, south of Louisville. Mammal emergency hotline prominently listed."
+  source_urls:
+    - "https://secondchanceswildlife.org"
+    - "https://projects.propublica.org/nonprofits/organizations/270550327"
+
+- slug: grit-grace-wildlife-rehabilitation
+  legal_name: "Grit & Grace Wildlife Rehabilitation, Inc."
+  common_name: "Grit and Grace Wildlife Rehab"
+  state: KY
+  city: "Cynthiana"
+  county_fips: "21097"
+  ein: "83-3416793"
+  primary_url: "https://gritgracewildliferehab.com"
+  wildlife_help_url: ""
+  about_url: ""
+  contact_url: "https://gritgracewildliferehab.com/how-to-help%2Fcontact-us"
+  contact_email: ""
+  contact_phone: "(859) 954-0788"
+  emergency_hotline: "(859) 954-0788"
+  intake_address: "2383 Hicks Pike, Cynthiana, KY 41031"
+  intake_hours: ""
+  news_or_blog_url: ""
+  newsletter_signup_url: ""
+  patient_stories_url: ""
+  annual_reports_url: ""
+  most_recent_annual_report_pdf: ""
+  social:
+    facebook: "https://www.facebook.com/gritgracefarmwildlife/"
+    instagram: ""
+    tiktok: ""
+    youtube: ""
+    twitter: ""
+    linkedin: ""
+    bluesky: ""
+  services:
+    accepts_birds: false
+    accepts_mammals: true
+    accepts_reptiles: false
+    accepts_amphibians: false
+    accepts_marine: false
+    accepts_rabies_vector: true
+    accepts_orphaned_only: false
+    accepts_24_7: false
+    transport_offered: false
+    field_response: false
+  capacity:
+    typical_annual_intake: 0
+    intake_source_year: 0
+    licensed_species_count: ""
+  accreditations: ["501(c)(3)"]
+  leadership:
+    executive_director: ""
+    medical_director: ""
+  mission_excerpt: "Native Kentucky wildlife mammal rehabilitation; licensed 2017, became 501(c)(3) 2019. 100% volunteer, no government funding."
+  status: active
+  notes: "Harrison County. Focuses on native wild mammals of all ages and species. ~90% of intakes are newborns/young."
+  source_urls:
+    - "https://gritgracewildliferehab.com"
+    - "https://projects.propublica.org/nonprofits/organizations/833416793"
+
+# Summary:
+# Total organizations: 43
+# States covered:
+#   FL: 15 (CROW, FL Keys Wild Bird Center, Pelican Harbor, South FL Wildlife Center,
+#           Conservancy SW FL, Peace River, Save Our Seabirds, Suncoast Seabird,
+#           Wildlife Center of SW FL [EIN 20-1065695, d/b/a Wildlife Center of Venice],
+#           St Francis Wildlife, FL Wildlife Hospital, Key West WC, Marathon Wild Bird,
+#           Audubon Center Birds of Prey, Wildlife Rehab Ctr Central FL)
+#   NC: 6  (Carolina Raptor Center, Carolina Wildlife Conservation Center,
+#           Carolina Wildlife Rehab Center [CWRC], Outer Banks Wildlife Shelter,
+#           Piedmont Wildlife Center, Carolina Tiger Rescue)
+#   SC: 3  (Avian Conservation Center / Center for Birds of Prey, Carolina Wildlife Center,
+#           Wildlife Rehab Group SC)
+#   GA: 3  (Chattahoochee Nature Center, AWARE Wildlife Center,
+#           Wildlife Center of North Georgia)
+#   AL: 2  (Alabama Wildlife Center, Auburn University Raptor Center)
+#   TN: 5  (Walden's Puddle, Harmony Wildlife, For Fox Sake,
+#           Out of the Woods, Mid-South Raptor Center)
+#   MS: 3  (MS Wildlife Rehabilitation, Woodside Wildlife Rescue,
+#           Wild Again in Mississippi)
+#   LA: 3  (Acadiana Wildlife, WERLA, Clearwater Sanctuary)
+#   AR: 1  (Central Arkansas Wildlife Rehabilitation)
+#   KY: 2  (Second Chances Wildlife Center, Grit & Grace Wildlife Rehab)
+#
+# EIN coverage: 41 of 43 orgs have verified EINs (95%); missing EINs:
+#   - Wildlife Rehab Group SC (small org, likely files 990-N)
+#   - Auburn University Raptor Center (university program, no independent EIN)
+#
+# Gaps:
+#   - Suncoast Seabird Sanctuary domain uncertain (historic org, website may have changed)
+#   - Additional small licensed rehabbers in every state excluded (solo/home-based, no published presence)
+#   - Arkansas has limited coverage; AGFC licensed rehabber list not fully accessible online
+#   - Florida likely has 10-20 more mid-size facilities; state FWC list requires PDF download
+#   - Social media handles not fully captured (JS-rendered links on most sites)
+#   - Several phone/email fields require direct page access beyond what was fetchable
+#   - Flint Creek Wildlife Rehabilitation (flintcreekwildlife.org) is in Illinois — excluded
+#   - iJams Nature Center (Knoxville) is not a rehab facility — excluded
+#
+# Gaps and notes:
+#   - Suncoast Seabird Sanctuary website unclear/may have changed domain
+#   - Suncoast Wildlife Center (Clearwater area) may be separate from Suncoast Seabird
+#   - Auburn Raptor Center is a university program, no independent 501(c)(3)
+#   - Additional small Arkansas orgs may exist; AGFC list not fully accessible
+#   - Several FL phone/email fields require direct site access to populate fully
+#   - Social media handles not captured for most orgs (sites use JS-rendered links)
+#   - Florida has many more small licensed rehabbers not included (solo/home-based, excluded per criteria)
+#   - Make Ripples (NW Arkansas) appears to be a facilitator/referral org, not a physical facility
+#   - Flint Creek Wildlife (flintcreekwildlife.org) is in Illinois, excluded
+#   - iJams Nature Center (Knoxville) is not a rehab facility, excluded

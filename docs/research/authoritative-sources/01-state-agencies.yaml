@@ -1,0 +1,1718 @@
+# State Wildlife Agency Materials Catalog
+# WildlifeStats National Research Framework
+# Cataloging authoritative wildlife rehabilitation public-education materials
+# published by state wildlife agencies for all 50 US states + DC
+# Last updated: 2025
+
+---
+
+- state: AL
+  state_name: "Alabama"
+  agency_name: "Division of Wildlife and Freshwater Fisheries"
+  agency_acronym: "DWFF"
+  agency_url: "https://www.outdooralabama.com"
+  rehabber_licensing_url: "https://www.outdooralabama.com/wildlife/wildlife-rehabilitation"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.outdooralabama.com/wildlife/wildlife-rehabilitation"
+  cwd_program_url: "https://www.outdooralabama.com/cwd-chronic-wasting-disease/cwd-alabama"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation Application 2022"
+      url: "https://www.outdooralabama.com/sites/default/files/Wildlife%20Rehab/Wildlife%20Rehabiliation%20APPLICATION%202022.pdf"
+    - title: "CWD Sampling in Alabama"
+      url: "https://www.outdooralabama.com/cwd-chronic-wasting-disease/cwd-sampling"
+  notes: "Alabama's wildlife rehabilitation page is relatively sparse. Rehabilitation permits are issued by the Division of Wildlife and Freshwater Fisheries; no public rehabber directory found. CWD detected in Alabama; active sampling program. No state-published rehab handbook identified."
+  source_urls:
+    - "https://www.outdooralabama.com/wildlife/wildlife-rehabilitation"
+    - "https://www.outdooralabama.com/cwd-chronic-wasting-disease/cwd-alabama"
+
+- state: AK
+  state_name: "Alaska"
+  agency_name: "Department of Fish and Game"
+  agency_acronym: "ADF&G"
+  agency_url: "https://www.adfg.alaska.gov"
+  rehabber_licensing_url: "https://www.adfg.alaska.gov/index.cfm?adfg=otherlicense.possession"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.adfg.alaska.gov/index.cfm?adfg=livingwithwildlife.main"
+  cwd_program_url: ""
+  hpai_program_url: "https://www.fws.gov/story/highly-pathogenic-avian-influenza-and-migratory-birds-alaska"
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Possession, Licenses and Permits"
+      url: "https://www.adfg.alaska.gov/index.cfm?adfg=otherlicense.possession"
+  notes: "Alaska's wildlife rehabilitation framework is integrated into the broader 'other licenses' category. No state-published standalone rehab handbook found. HPAI is a major concern in Alaska given migratory flyways; ADF&G coordinates with USFWS. CWD has not been detected in Alaska as of 2025."
+  source_urls:
+    - "https://www.adfg.alaska.gov/index.cfm?adfg=otherlicense.possession"
+
+- state: AZ
+  state_name: "Arizona"
+  agency_name: "Game and Fish Department"
+  agency_acronym: "AZGFD"
+  agency_url: "https://www.azgfd.com"
+  rehabber_licensing_url: "https://www.azgfd.com/hunting/hunt-draw-and-licenses/special-licenses-2/wildlife-rehabilitation-license/"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.azgfd.com/wildlife/livingwithwildlife/"
+  cwd_program_url: "https://www.azgfd.com/wildlife-conservation/wildlife-diseases-2/chronic-wasting-disease-what-hunters-should-know/"
+  hpai_program_url: "https://www.azgfd.com/wildlife-conservation/wildlife-diseases-2/"
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation License Information"
+      url: "https://www.azgfd.com/hunting/hunt-draw-and-licenses/special-licenses-2/wildlife-rehabilitation-license/"
+    - title: "Wildlife Diseases"
+      url: "https://www.azgfd.com/wildlife-conservation/wildlife-diseases-2/"
+  notes: "Arizona has active CWD surveillance given proximity to affected states. AZGFD issues wildlife rehabilitation licenses. No publicly available rehabber directory or state-published handbook found."
+  source_urls:
+    - "https://www.azgfd.com/hunting/hunt-draw-and-licenses/special-licenses-2/wildlife-rehabilitation-license/"
+    - "https://www.azgfd.com/wildlife-conservation/wildlife-diseases-2/"
+
+- state: AR
+  state_name: "Arkansas"
+  agency_name: "Game and Fish Commission"
+  agency_acronym: "AGFC"
+  agency_url: "https://www.agfc.com"
+  rehabber_licensing_url: "https://www.agfc.com/education/wildlife-rehabilitation/"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.agfc.com/education/wildlife-rehabilitation/"
+  cwd_program_url: ""
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation Education"
+      url: "https://www.agfc.com/education/wildlife-rehabilitation/"
+  notes: "Arkansas AGFC has a dedicated wildlife rehabilitation page with education resources. No public rehabber directory or standalone state handbook identified. CWD has been detected in Arkansas; AGFC runs a surveillance program but no dedicated CWD-for-rehabbers page was identified."
+  source_urls:
+    - "https://www.agfc.com/education/wildlife-rehabilitation/"
+
+- state: CA
+  state_name: "California"
+  agency_name: "Department of Fish and Wildlife"
+  agency_acronym: "CDFW"
+  agency_url: "https://wildlife.ca.gov"
+  rehabber_licensing_url: "https://wildlife.ca.gov/wildliferehab"
+  rehabber_directory_url: "https://wildlife.ca.gov/Conservation/Laboratories/Wildlife-Health/Rehab/Permitted-Rehabilitators"
+  rehab_handbook_pdf: "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=223756"
+  public_wildlife_help_url: "https://wildlife.ca.gov/Conservation/Laboratories/Wildlife-Health/Rehab"
+  cwd_program_url: ""
+  hpai_program_url: "https://wildlife.ca.gov/Conservation/Laboratories/Wildlife-Health/Monitoring/HPAI"
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: "Wildlife Rehabilitation Program"
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Native Wildlife Rehabilitation 679 Regulations Manual"
+      url: "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=223756"
+    - title: "Wildlife Rehabilitation Laws and Regulations"
+      url: "https://wildlife.ca.gov/Conservation/Laboratories/Wildlife-Health/Rehab/Regulations"
+    - title: "Wildlife Rehabilitation Training and Resources"
+      url: "https://wildlife.ca.gov/Conservation/Laboratories/Wildlife-Health/Rehab/Resources"
+    - title: "HPAI Surveillance"
+      url: "https://wildlife.ca.gov/Conservation/Laboratories/Wildlife-Health/Monitoring/HPAI"
+  notes: "California has one of the most developed state wildlife rehabilitation frameworks. CDFW publishes a Native Wildlife Rehabilitation regulations manual, maintains a permitted rehabilitator directory, and has active HPAI monitoring. CWD has not been detected in wild California deer as of 2025. The state requires CDFW Native Wildlife Rehabilitation Permit. Strong public-facing resources."
+  source_urls:
+    - "https://wildlife.ca.gov/wildliferehab"
+    - "https://wildlife.ca.gov/Conservation/Laboratories/Wildlife-Health/Rehab/Regulations"
+    - "https://wildlife.ca.gov/Conservation/Laboratories/Wildlife-Health/Monitoring/HPAI"
+
+- state: CO
+  state_name: "Colorado"
+  agency_name: "Parks and Wildlife"
+  agency_acronym: "CPW"
+  agency_url: "https://cpw.state.co.us"
+  rehabber_licensing_url: "https://cpw.state.co.us/wildlife-rehabilitation-licenses"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://cpw.state.co.us/learn/Pages/LivingwithWildlifeRehabilitation.aspx"
+  cwd_program_url: "https://cpw.state.co.us/activities/hunting/big-game/chronic-wasting-disease"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation Licenses"
+      url: "https://cpw.state.co.us/wildlife-rehabilitation-licenses"
+    - title: "Chronic Wasting Disease in Colorado"
+      url: "https://cpw.state.co.us/activities/hunting/big-game/chronic-wasting-disease"
+  notes: "Colorado is the state where CWD was first identified and has a robust CWD surveillance program. CPW issues wildlife rehabilitation licenses. No publicly available rehabber directory or state-published standalone handbook identified. Colorado has extensive public CWD education materials given the state's long history with the disease."
+  source_urls:
+    - "https://cpw.state.co.us/wildlife-rehabilitation-licenses"
+    - "https://cpw.state.co.us/activities/hunting/big-game/chronic-wasting-disease"
+
+- state: CT
+  state_name: "Connecticut"
+  agency_name: "Department of Energy and Environmental Protection"
+  agency_acronym: "DEEP"
+  agency_url: "https://portal.ct.gov/DEEP"
+  rehabber_licensing_url: "https://portal.ct.gov/deep/wildlife/rehabilitator/how-to-become-a-wildlife-rehabilitator"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://portal.ct.gov/DEEP/Wildlife/Wildlife-In-Connecticut"
+  cwd_program_url: ""
+  hpai_program_url: "https://portal.ct.gov/DEEP/Wildlife/Avian-Influenza"
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "How to Become a Wildlife Rehabilitator"
+      url: "https://portal.ct.gov/deep/wildlife/rehabilitator/how-to-become-a-wildlife-rehabilitator"
+    - title: "Avian Influenza (DEEP)"
+      url: "https://portal.ct.gov/DEEP/Wildlife/Avian-Influenza"
+  notes: "Connecticut DEEP manages wildlife rehabilitation permits. Main rehabilitation portal URL changed (old URL returns 404); new page is at the 'how-to-become' URL. Active HPAI monitoring page. No CWD detected in Connecticut deer as of 2025. No standalone state handbook found."
+  source_urls:
+    - "https://portal.ct.gov/deep/wildlife/rehabilitator/how-to-become-a-wildlife-rehabilitator"
+    - "https://portal.ct.gov/DEEP/Wildlife/Avian-Influenza"
+
+- state: DE
+  state_name: "Delaware"
+  agency_name: "Division of Fish and Wildlife"
+  agency_acronym: "DFW"
+  agency_url: "https://dnrec.delaware.gov/fish-wildlife/"
+  rehabber_licensing_url: "https://dnrec.delaware.gov/fish-wildlife/conservation/sick-dead-wildlife/"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://dnrec.delaware.gov/fish-wildlife/conservation/sick-dead-wildlife/"
+  cwd_program_url: ""
+  hpai_program_url: "https://dnrec.delaware.gov/fish-wildlife/wildlife/avian-influenza/"
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Reporting Sick or Dead Wildlife"
+      url: "https://dnrec.delaware.gov/fish-wildlife/conservation/sick-dead-wildlife/"
+    - title: "Avian Influenza"
+      url: "https://dnrec.delaware.gov/fish-wildlife/wildlife/avian-influenza/"
+  notes: "Delaware's wildlife rehabilitation program is administered through DNREC. Rehabilitation permit regulations exist in Delaware Administrative Code (7 Del. Admin. Code § 3900-13.0). The public rehabber organization Delaware Council of Wildlife Rehabilitators and Educators (DCWRE) supplements state resources. No state-published handbook found."
+  source_urls:
+    - "https://dnrec.delaware.gov/fish-wildlife/conservation/sick-dead-wildlife/"
+    - "https://dnrec.delaware.gov/fish-wildlife/wildlife/avian-influenza/"
+
+- state: FL
+  state_name: "Florida"
+  agency_name: "Fish and Wildlife Conservation Commission"
+  agency_acronym: "FWC"
+  agency_url: "https://myfwc.com"
+  rehabber_licensing_url: "https://myfwc.com/license/captive-wildlife/rehabilitation-permit/"
+  rehabber_directory_url: "https://myfwc.com/conservation/you-conserve/wildlife/injured-orphaned/"
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://myfwc.com/conservation/you-conserve/wildlife/injured-orphaned/"
+  cwd_program_url: "https://myfwc.com/hunting/regulations/deer/cwd/"
+  hpai_program_url: "https://myfwc.com/research/wildlife/health/avian/influenza/"
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Rehabilitation of Native Wildlife"
+      url: "https://myfwc.com/license/captive-wildlife/rehabilitation-permit/"
+    - title: "Injured and Orphaned Wildlife"
+      url: "https://myfwc.com/conservation/you-conserve/wildlife/injured-orphaned/"
+    - title: "FWC Wildlife Health Program"
+      url: "https://myfwc.com/research/wildlife/health/program/"
+    - title: "Avian Influenza"
+      url: "https://myfwc.com/research/wildlife/health/avian/influenza/"
+  notes: "Florida has a well-developed rehabilitation program via FWC. CWD was detected in Florida in 2024-2025 (farmed deer); FWC has issued Executive Orders affecting rehabilitators and a CWD hotline (866-CWD-WATCH). Active HPAI monitoring. FWC publishes lists of licensed wildlife rehabilitators. Strong public education materials for injured/orphaned wildlife."
+  source_urls:
+    - "https://myfwc.com/license/captive-wildlife/rehabilitation-permit/"
+    - "https://myfwc.com/conservation/you-conserve/wildlife/injured-orphaned/"
+    - "https://myfwc.com/research/wildlife/health/program/"
+
+- state: GA
+  state_name: "Georgia"
+  agency_name: "Department of Natural Resources — Wildlife Resources Division"
+  agency_acronym: "DNR-WRD"
+  agency_url: "https://georgiawildlife.com"
+  rehabber_licensing_url: "https://gadnrle.org/wildlife-rehabilitator"
+  rehabber_directory_url: "https://georgiawildlife.com/wildlife-rehabilitator"
+  rehab_handbook_pdf: "https://gadnrle.org/sites/default/files/le/pdf/Special-Permits/Wildlife%20Rehabilitation%20Application%20and%20Study%20Guide%20Information%20Packet.pdf"
+  public_wildlife_help_url: "https://georgiawildlife.com/sick-injured-or-orphaned-wildlife"
+  cwd_program_url: "https://georgiawildlife.com/cwd"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: "770-918-6408"
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation Application and Study Guide Information Packet"
+      url: "https://gadnrle.org/sites/default/files/le/pdf/Special-Permits/Wildlife%20Rehabilitation%20Application%20and%20Study%20Guide%20Information%20Packet.pdf"
+    - title: "Wildlife Rehabilitation Permit Application"
+      url: "https://gadnr.org/sites/default/files/le/pdf/Special-Permits/Wildlife_Rehabilitation_Application.pdf"
+    - title: "Sick, Injured or Orphaned Wildlife"
+      url: "https://georgiawildlife.com/sick-injured-or-orphaned-wildlife"
+    - title: "Chronic Wasting Disease (CWD)"
+      url: "https://georgiawildlife.com/cwd"
+  notes: "Georgia requires a 100-question exam (80% pass rate) for rehabilitator licensing. Exam taken at DNR Special Permit Unit in Social Circle or at regional offices (770-918-6408). Georgia confirmed its first CWD case. The Application and Study Guide PDF serves as the closest thing to a state rehabilitator handbook. A public-facing rehabber directory exists."
+  source_urls:
+    - "https://gadnrle.org/wildlife-rehabilitator"
+    - "https://georgiawildlife.com/cwd"
+
+- state: HI
+  state_name: "Hawaii"
+  agency_name: "Division of Forestry and Wildlife"
+  agency_acronym: "DOFAW"
+  agency_url: "https://dlnr.hawaii.gov/dofaw"
+  rehabber_licensing_url: "https://dlnr.hawaii.gov/dofaw/permits/"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: "https://dlnr.hawaii.gov/dofaw/files/2021/08/Wildlife-Rehabilitation-Overview.pdf"
+  public_wildlife_help_url: "https://dlnr.hawaii.gov/dofaw/"
+  cwd_program_url: ""
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "A Guide to Wildlife Rehabilitation in Hawaii"
+      url: "https://dlnr.hawaii.gov/dofaw/files/2021/08/Wildlife-Rehabilitation-Overview.pdf"
+    - title: "Wildlife Rehabilitation Permit Application"
+      url: "https://dlnr.hawaii.gov/dofaw/files/2021/08/Wildlife-Rehabilitation-Permit-Application.pdf"
+  notes: "Hawaii publishes a standalone 'Guide to Wildlife Rehabilitation in Hawaii' PDF as well as a permit application. CWD does not occur in Hawaii. No deer in the wild (limited species context). Hawaii's endangered species program is particularly important given native bird conservation. Rabies does not exist in Hawaii. HPAI is a concern for seabirds and endemic Hawaiian birds."
+  source_urls:
+    - "https://dlnr.hawaii.gov/dofaw/files/2021/08/Wildlife-Rehabilitation-Overview.pdf"
+    - "https://dlnr.hawaii.gov/dofaw/files/2021/08/Wildlife-Rehabilitation-Permit-Application.pdf"
+
+- state: ID
+  state_name: "Idaho"
+  agency_name: "Department of Fish and Game"
+  agency_acronym: "IDFG"
+  agency_url: "https://idfg.idaho.gov"
+  rehabber_licensing_url: "https://idfg.idaho.gov/licenses"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://idfg.idaho.gov/blog/2017/07/injured-or-orphaned-wildlife"
+  cwd_program_url: "https://idfg.idaho.gov/cwd"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Injured or Orphaned Wildlife: What to Do"
+      url: "https://idfg.idaho.gov/blog/2017/07/injured-or-orphaned-wildlife"
+    - title: "Chronic Wasting Disease"
+      url: "https://idfg.idaho.gov/cwd"
+  notes: "Idaho has a notably restrictive wildlife rehabilitation program; IDFG has reportedly banned private individuals from rehabilitating wildlife without specific authorization. Very limited public-facing rehabilitation pages. The 2017 blog post about injured wildlife is the primary public resource. CWD surveillance active. No state handbook found."
+  source_urls:
+    - "https://idfg.idaho.gov/blog/2017/07/injured-or-orphaned-wildlife"
+    - "https://idfg.idaho.gov/cwd"
+
+- state: IL
+  state_name: "Illinois"
+  agency_name: "Department of Natural Resources"
+  agency_acronym: "IDNR"
+  agency_url: "https://dnr.illinois.gov"
+  rehabber_licensing_url: "https://dnr.illinois.gov/lawenforcement/permitslicensesapplications.html"
+  rehabber_directory_url: "https://dnr.illinois.gov/content/dam/soi/en/web/dnr/lawenforcement/documents/illinoiswildliferehabilitationlist.pdf"
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://wildlifeillinois.org/get-help-for-injured-wildlife/sick-or-injured-wildlife/"
+  cwd_program_url: "https://dnr.illinois.gov/programs/cwd.html"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Illinois Wildlife Rehabilitator List (PDF)"
+      url: "https://dnr.illinois.gov/content/dam/soi/en/web/dnr/lawenforcement/documents/illinoiswildliferehabilitationlist.pdf"
+    - title: "CWD Program"
+      url: "https://dnr.illinois.gov/programs/cwd.html"
+    - title: "Illinois Endangered and Threatened Species Rehabilitation Grants"
+      url: "https://dnr.illinois.gov/grants/il-wildlife-preservation-fund-rehab-grants.html"
+  notes: "Illinois publishes a PDF list of licensed rehabilitators. IDNR issues permits via the Permits-Licenses-Applications portal. Illinois has a unique grant program for endangered species rehabilitation. Active CWD surveillance and reporting program. No state-published standalone rehab handbook found."
+  source_urls:
+    - "https://dnr.illinois.gov/lawenforcement/permitslicensesapplications.html"
+    - "https://dnr.illinois.gov/programs/cwd.html"
+
+- state: IN
+  state_name: "Indiana"
+  agency_name: "Division of Fish and Wildlife"
+  agency_acronym: "IDFW"
+  agency_url: "https://www.in.gov/dnr/fish-and-wildlife/"
+  rehabber_licensing_url: "https://www.in.gov/dnr/fish-and-wildlife/licenses-and-permits/wildlife-rehabilitation/"
+  rehabber_directory_url: "https://www.in.gov/dnr/fish-and-wildlife/wildlife-resources/orphaned-and-injured-animals/wildlife-rehabilitators/"
+  rehab_handbook_pdf: "https://www.in.gov/dnr/fish-and-wildlife/files/fw-Rehab_Permit_Instructions.pdf"
+  public_wildlife_help_url: "https://www.in.gov/dnr/fish-and-wildlife/wildlife-resources/orphaned-and-injured-animals/"
+  cwd_program_url: "https://www.in.gov/dnr/fish-and-wildlife/wildlife-resources/wildlife-diseases-in-indiana/chronic-wasting-disease-cwd/"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wild Animal Rehabilitation Permit Information"
+      url: "https://www.in.gov/dnr/fish-and-wildlife/files/fw-Rehab_Permit_Instructions.pdf"
+    - title: "Permitted Wildlife Rehabilitators Directory"
+      url: "https://www.in.gov/dnr/fish-and-wildlife/wildlife-resources/orphaned-and-injured-animals/wildlife-rehabilitators/"
+    - title: "Chronic Wasting Disease (CWD)"
+      url: "https://www.in.gov/dnr/fish-and-wildlife/wildlife-resources/wildlife-diseases-in-indiana/chronic-wasting-disease-cwd/"
+  notes: "Indiana has a relatively complete set of public-facing materials: permit instructions PDF, a licensed rehabilitator directory, and CWD disease information. The permit instructions PDF serves as the closest equivalent to a state handbook."
+  source_urls:
+    - "https://www.in.gov/dnr/fish-and-wildlife/licenses-and-permits/wildlife-rehabilitation/"
+    - "https://www.in.gov/dnr/fish-and-wildlife/wildlife-resources/orphaned-and-injured-animals/wildlife-rehabilitators/"
+
+- state: IA
+  state_name: "Iowa"
+  agency_name: "Department of Natural Resources"
+  agency_acronym: "IDNR"
+  agency_url: "https://www.iowadnr.gov"
+  rehabber_licensing_url: "https://www.iowadnr.gov/programs-services/wildlife-rehabilitation"
+  rehabber_directory_url: "https://www.iowadnr.gov/programs-services/wildlife-rehabilitation"
+  rehab_handbook_pdf: "https://www.iowadnr.gov/media/5556/download?inline"
+  public_wildlife_help_url: "https://www.iowadnr.gov/programs-services/wildlife-rehabilitation"
+  cwd_program_url: "https://www.iowadnr.gov/things-do/hunting-trapping/types-hunting-trapping/deer-hunting/deer-health/chronic-wasting-disease"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Application for Wildlife Rehabilitation Permit"
+      url: "https://www.iowadnr.gov/media/5556/download?inline"
+    - title: "Chronic Wasting Disease"
+      url: "https://www.iowadnr.gov/things-do/hunting-trapping/types-hunting-trapping/deer-hunting/deer-health/chronic-wasting-disease"
+  notes: "Iowa DNR has a dedicated wildlife rehabilitation page with permit application PDF. Active CWD surveillance. Iowa has detected CWD in wild deer. No standalone state handbook found beyond the permit application."
+  source_urls:
+    - "https://www.iowadnr.gov/programs-services/wildlife-rehabilitation"
+    - "https://www.iowadnr.gov/things-do/hunting-trapping/types-hunting-trapping/deer-hunting/deer-health/chronic-wasting-disease"
+
+- state: KS
+  state_name: "Kansas"
+  agency_name: "Department of Wildlife and Parks"
+  agency_acronym: "KDWP"
+  agency_url: "https://www.ksoutdoors.gov"
+  rehabber_licensing_url: "https://www.ksoutdoors.gov/licenses-permits-fees/special-licenses-permits"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.ksoutdoors.gov/discover-learn/wildlife-of-kansas/keep-wildlife-wild"
+  cwd_program_url: ""
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Keep Wildlife Wild"
+      url: "https://www.ksoutdoors.gov/discover-learn/wildlife-of-kansas/keep-wildlife-wild"
+    - title: "Special Licenses and Permits"
+      url: "https://www.ksoutdoors.gov/licenses-permits-fees/special-licenses-permits"
+  notes: "Kansas wildlife rehabilitation permits are listed under Special Licenses. Public-facing guidance is limited to 'Keep Wildlife Wild' messaging. No public rehabber directory or state handbook found. CWD detected in Kansas; surveillance underway."
+  source_urls:
+    - "https://www.ksoutdoors.gov/licenses-permits-fees/special-licenses-permits"
+    - "https://www.ksoutdoors.gov/discover-learn/wildlife-of-kansas/keep-wildlife-wild"
+
+- state: KY
+  state_name: "Kentucky"
+  agency_name: "Department of Fish and Wildlife Resources"
+  agency_acronym: "KDFWR"
+  agency_url: "https://fw.ky.gov"
+  rehabber_licensing_url: "https://fw.ky.gov/Wildlife/Pages/Wildlife-Rehabilitation.aspx"
+  rehabber_directory_url: "https://fw.ky.gov/Wildlife/Pages/wildlife-rehabilitators.aspx"
+  rehab_handbook_pdf: "https://fw.ky.gov/Wildlife/Documents/WILDLIFE-REHABILITATION-PERMIT-APPLICATION_2022.pdf"
+  public_wildlife_help_url: "https://fw.ky.gov/Wildlife/Pages/Wildlife-Rehabilitation.aspx"
+  cwd_program_url: "https://fw.ky.gov/Wildlife/Pages/Chronic-Wasting-Disease.aspx"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation Permit Application 2022"
+      url: "https://fw.ky.gov/Wildlife/Documents/WILDLIFE-REHABILITATION-PERMIT-APPLICATION_2022.pdf"
+    - title: "Wildlife Rehabilitators Directory"
+      url: "https://fw.ky.gov/Wildlife/Pages/wildlife-rehabilitators.aspx"
+    - title: "Chronic Wasting Disease"
+      url: "https://fw.ky.gov/Wildlife/Pages/Chronic-Wasting-Disease.aspx"
+    - title: "CWD Surveillance Zone"
+      url: "https://fw.ky.gov/Wildlife/Pages/CWD-SurveillanceZone.aspx"
+  notes: "Kentucky maintains a public rehabilitator directory and dedicated rehabilitation pages. CWD has been detected in Kentucky; active surveillance zone established. The 2022 permit application PDF is the primary official document for prospective rehabbers."
+  source_urls:
+    - "https://fw.ky.gov/Wildlife/Pages/Wildlife-Rehabilitation.aspx"
+    - "https://fw.ky.gov/Wildlife/Pages/wildlife-rehabilitators.aspx"
+
+- state: LA
+  state_name: "Louisiana"
+  agency_name: "Department of Wildlife and Fisheries"
+  agency_acronym: "LDWF"
+  agency_url: "https://www.wlf.louisiana.gov"
+  rehabber_licensing_url: "https://www.wlf.louisiana.gov/page/wildlife-rehabilitation"
+  rehabber_directory_url: "https://www.wlf.louisiana.gov/page/permitted-wildlife-rehabilitators"
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.wlf.louisiana.gov/page/wildlife-rehabilitation"
+  cwd_program_url: ""
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Permitted Wildlife Rehabilitators"
+      url: "https://www.wlf.louisiana.gov/page/permitted-wildlife-rehabilitators"
+    - title: "Approved Wildlife Rehabilitation Courses"
+      url: "https://www.wlf.louisiana.gov/page/approved-wildlife-rehabilitation-courses"
+  notes: "Louisiana LDWF publishes a permitted rehabilitators directory and approved training courses list. No CWD detected in Louisiana as of 2025. No state-published standalone handbook found. LDWF requires completion of approved training courses for permit issuance."
+  source_urls:
+    - "https://www.wlf.louisiana.gov/page/wildlife-rehabilitation"
+    - "https://www.wlf.louisiana.gov/page/permitted-wildlife-rehabilitators"
+    - "https://www.wlf.louisiana.gov/page/approved-wildlife-rehabilitation-courses"
+
+- state: ME
+  state_name: "Maine"
+  agency_name: "Department of Inland Fisheries and Wildlife"
+  agency_acronym: "MDIFW"
+  agency_url: "https://www.maine.gov/ifw"
+  rehabber_licensing_url: "https://www.maine.gov/ifw/fish-wildlife/wildlife/living-with-wildlife/orphaned-injured-wildlife/rehabilitation.html"
+  rehabber_directory_url: "https://www.maine.gov/ifw/fish-wildlife/wildlife/living-with-wildlife/orphaned-injured-wildlife/rehabilitation.html"
+  rehab_handbook_pdf: "https://www.maine.gov/ifw/docs/Application%20for%20Wildlife%20Rehabilitation%20Permit.pdf"
+  public_wildlife_help_url: "https://www.maine.gov/ifw/fish-wildlife/wildlife/living-with-wildlife/orphaned-injured-wildlife/index.html"
+  cwd_program_url: ""
+  hpai_program_url: "https://www.maine.gov/ifw/fish-wildlife/wildlife/living-with-wildlife/diseases/avian-influenza.html"
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Application for Wildlife Rehabilitation Permit"
+      url: "https://www.maine.gov/ifw/docs/Application%20for%20Wildlife%20Rehabilitation%20Permit.pdf"
+    - title: "Avian Influenza"
+      url: "https://www.maine.gov/ifw/fish-wildlife/wildlife/living-with-wildlife/diseases/avian-influenza.html"
+    - title: "Orphaned and Injured Wildlife"
+      url: "https://www.maine.gov/ifw/fish-wildlife/wildlife/living-with-wildlife/orphaned-injured-wildlife/index.html"
+  notes: "Maine MDIFW has dedicated injured wildlife pages and publishes the permit application. Active HPAI monitoring. No CWD detected in Maine deer as of 2025. No standalone state rehab handbook found."
+  source_urls:
+    - "https://www.maine.gov/ifw/fish-wildlife/wildlife/living-with-wildlife/orphaned-injured-wildlife/rehabilitation.html"
+    - "https://www.maine.gov/ifw/fish-wildlife/wildlife/living-with-wildlife/diseases/avian-influenza.html"
+
+- state: MD
+  state_name: "Maryland"
+  agency_name: "Department of Natural Resources"
+  agency_acronym: "DNR"
+  agency_url: "https://dnr.maryland.gov"
+  rehabber_licensing_url: "https://dnr.maryland.gov/wildlife/pages/licenses/rehab_permit.aspx"
+  rehabber_directory_url: "https://dnr.maryland.gov/wildlife/pages/plants_wildlife/rehabilitators.aspx"
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://dnr.maryland.gov/wildlife/pages/plants_wildlife/rehabilitators.aspx"
+  cwd_program_url: "https://dnr.maryland.gov/wildlife/pages/hunt_trap/cwd_in_maryland.aspx"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitator Permit/License"
+      url: "https://dnr.maryland.gov/wildlife/pages/licenses/rehab_permit.aspx"
+    - title: "Wildlife Rehabilitators Directory"
+      url: "https://dnr.maryland.gov/wildlife/pages/plants_wildlife/rehabilitators.aspx"
+    - title: "Chronic Wasting Disease (CWD) In Maryland"
+      url: "https://dnr.maryland.gov/wildlife/pages/hunt_trap/cwd_in_maryland.aspx"
+  notes: "Maryland DNR maintains a public rehabilitator directory and dedicated permit page. Active CWD surveillance; CWD has been detected in multiple Maryland counties. No standalone state rehab handbook found. Maryland participates in the USFWS Atlantic Flyway for migratory bird coordination."
+  source_urls:
+    - "https://dnr.maryland.gov/wildlife/pages/licenses/rehab_permit.aspx"
+    - "https://dnr.maryland.gov/wildlife/pages/plants_wildlife/rehabilitators.aspx"
+
+- state: MA
+  state_name: "Massachusetts"
+  agency_name: "Division of Fisheries and Wildlife (MassWildlife)"
+  agency_acronym: "MassWildlife"
+  agency_url: "https://www.mass.gov/masswildlife"
+  rehabber_licensing_url: "https://www.mass.gov/how-to/apply-to-become-a-licensed-wildlife-rehabilitator"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.mass.gov/wildlife-rehabilitation"
+  cwd_program_url: ""
+  hpai_program_url: "https://www.mass.gov/info-details/avian-influenza"
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Apply to Become a Licensed Wildlife Rehabilitator"
+      url: "https://www.mass.gov/how-to/apply-to-become-a-licensed-wildlife-rehabilitator"
+    - title: "Avian Influenza"
+      url: "https://www.mass.gov/info-details/avian-influenza"
+  notes: "MassWildlife issues wildlife rehabilitation licenses. No CWD detected in Massachusetts deer as of 2025. Active HPAI monitoring. The Wildlife Rehabilitators Association of Massachusetts (WRAM) provides supplemental training resources. No state-published standalone rehab handbook found from MassWildlife directly."
+  source_urls:
+    - "https://www.mass.gov/how-to/apply-to-become-a-licensed-wildlife-rehabilitator"
+    - "https://www.mass.gov/info-details/avian-influenza"
+
+- state: MI
+  state_name: "Michigan"
+  agency_name: "Department of Natural Resources"
+  agency_acronym: "MDNR"
+  agency_url: "https://www.michigan.gov/dnr"
+  rehabber_licensing_url: "https://www.michigan.gov/dnr/managing-resources/wildlife/wildlife-permits/wildlife-rehabilitation-permit-information"
+  rehabber_directory_url: "https://www.michigan.gov/dnr/managing-resources/wildlife/wildlife-permits/wildlife-rehabilitation-permit-information/directory-of-licensed-wildlife-rehabilitators"
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.michigan.gov/dnr/managing-resources/wildlife/keep-wild"
+  cwd_program_url: "https://www.michigan.gov/dnr/managing-resources/wildlife/wildlife-disease"
+  hpai_program_url: "https://www.michigan.gov/dnr/managing-resources/wildlife/wildlife-disease/disease-monitoring/avian-influenza-updates"
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation Permit Information"
+      url: "https://www.michigan.gov/dnr/managing-resources/wildlife/wildlife-permits/wildlife-rehabilitation-permit-information"
+    - title: "Directory of Licensed Wildlife Rehabilitators"
+      url: "https://www.michigan.gov/dnr/managing-resources/wildlife/wildlife-permits/wildlife-rehabilitation-permit-information/directory-of-licensed-wildlife-rehabilitators"
+    - title: "Keep Wildlife Wild"
+      url: "https://www.michigan.gov/dnr/managing-resources/wildlife/keep-wild"
+    - title: "HPAI Updates"
+      url: "https://www.michigan.gov/dnr/managing-resources/wildlife/wildlife-disease/disease-monitoring/avian-influenza-updates"
+    - title: "HPAI FAQs"
+      url: "https://www.michigan.gov/dnr/managing-resources/wildlife/wildlife-disease/disease-monitoring/avian-influenza-updates/hpai-faqs"
+  notes: "Michigan has a comprehensive wildlife rehabilitation framework including a detailed permit information page covering permit types, care standards, disease requirements, and species-specific rules. A public licensed rehabilitator directory is maintained. Active CWD and HPAI monitoring programs. The permit information page covers disease surveillance requirements for rehabbers."
+  source_urls:
+    - "https://www.michigan.gov/dnr/managing-resources/wildlife/wildlife-permits/wildlife-rehabilitation-permit-information"
+    - "https://www.michigan.gov/dnr/managing-resources/wildlife/wildlife-disease/disease-monitoring/avian-influenza-updates"
+
+- state: MN
+  state_name: "Minnesota"
+  agency_name: "Department of Natural Resources"
+  agency_acronym: "MN DNR"
+  agency_url: "https://www.dnr.state.mn.us"
+  rehabber_licensing_url: "https://www.dnr.state.mn.us/eco/nongame/rehabilitation/permits.html"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: "https://www.dnr.state.mn.us/eco/nongame/rehabilitation/studyguide.html"
+  public_wildlife_help_url: "https://www.dnr.state.mn.us/eco/nongame/rehabilitation/injured-orphaned-wildlife.html"
+  cwd_program_url: "https://www.dnr.state.mn.us/cwd/index.html"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: "dnr.wildlife.rehabpermit@state.mn.us"
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation Permits"
+      url: "https://www.dnr.state.mn.us/eco/nongame/rehabilitation/permits.html"
+    - title: "Study Guide and Exam Book"
+      url: "https://www.dnr.state.mn.us/eco/nongame/rehabilitation/studyguide.html"
+    - title: "Sick, Injured or Orphaned Wildlife"
+      url: "https://www.dnr.state.mn.us/eco/nongame/rehabilitation/injured-orphaned-wildlife.html"
+    - title: "Chronic Wasting Disease Management"
+      url: "https://www.dnr.state.mn.us/cwd/index.html"
+  notes: "Minnesota publishes a standalone study guide and exam book for rehabilitation permit applicants. To apply, applicants email dnr.wildlife.rehabpermit@state.mn.us. Active CWD surveillance with CWD confirmed in multiple deer permit areas. Strong public-facing injured wildlife guidance. Nongame Wildlife Program administers rehabilitation."
+  source_urls:
+    - "https://www.dnr.state.mn.us/eco/nongame/rehabilitation/permits.html"
+    - "https://www.dnr.state.mn.us/cwd/index.html"
+
+- state: MS
+  state_name: "Mississippi"
+  agency_name: "Department of Wildlife, Fisheries, and Parks"
+  agency_acronym: "MDWFP"
+  agency_url: "https://www.mdwfp.com"
+  rehabber_licensing_url: "https://www.mdwfp.com/wildlife-hunting/wildlife-rehabilitation"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.mdwfp.com/wildlife-hunting/wildlife-rehabilitation"
+  cwd_program_url: ""
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation"
+      url: "https://www.mdwfp.com/wildlife-hunting/wildlife-rehabilitation"
+  notes: "Mississippi MDWFP has a wildlife rehabilitation page with limited public-facing content. No rehabber directory, state handbook, or major disease reporting pages identified. Minimal public materials compared to neighboring states."
+  source_urls:
+    - "https://www.mdwfp.com/wildlife-hunting/wildlife-rehabilitation"
+
+- state: MO
+  state_name: "Missouri"
+  agency_name: "Department of Conservation"
+  agency_acronym: "MDC"
+  agency_url: "https://mdc.mo.gov"
+  rehabber_licensing_url: "https://mdc.mo.gov/about-us/about-regulations/wildlife-code-missouri/3-csr-10-9415-wildlife-rehabilitation-permit"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://mdc.mo.gov/wildlife/wild-animal-safety-health-management/wildlife-rehabilitators"
+  cwd_program_url: "https://mdc.mo.gov/hunting-trapping/species/deer/chronic-wasting-disease"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitators"
+      url: "https://mdc.mo.gov/wildlife/wild-animal-safety-health-management/wildlife-rehabilitators"
+    - title: "Chronic Wasting Disease"
+      url: "https://mdc.mo.gov/hunting-trapping/species/deer/chronic-wasting-disease"
+    - title: "CWD Sampling Results"
+      url: "https://mdc.mo.gov/hunting-trapping/species/deer/chronic-wasting-disease/cwd-sampling-results"
+    - title: "Wildlife Rehabilitation Permit Regulation (3 CSR 10-9.415)"
+      url: "https://mdc.mo.gov/about-us/about-regulations/wildlife-code-missouri/3-csr-10-9415-wildlife-rehabilitation-permit"
+  notes: "Missouri MDC has a notable CWD program — Missouri has one of the largest CWD-affected deer populations in the country. Rehabilitation permit regulations are codified at 3 CSR 10-9.415. No publicly available standalone handbook or rehabber directory found."
+  source_urls:
+    - "https://mdc.mo.gov/wildlife/wild-animal-safety-health-management/wildlife-rehabilitators"
+    - "https://mdc.mo.gov/hunting-trapping/species/deer/chronic-wasting-disease"
+
+- state: MT
+  state_name: "Montana"
+  agency_name: "Fish, Wildlife and Parks"
+  agency_acronym: "MFWP"
+  agency_url: "https://fwp.mt.gov"
+  rehabber_licensing_url: "https://fwp.mt.gov/buyandapply/commercialwildlifeandscientificpermits/scientific"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: "https://myfwp.mt.gov/getRepositoryFile?objectID=65998"
+  public_wildlife_help_url: "https://fwp.mt.gov/conservation/living-with-wildlife/injured-orphaned-wildlife"
+  cwd_program_url: "https://fwp.mt.gov/CWD"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation Application"
+      url: "https://myfwp.mt.gov/getRepositoryFile?objectID=65998"
+    - title: "Injured and Orphaned Wildlife"
+      url: "https://fwp.mt.gov/conservation/living-with-wildlife/injured-orphaned-wildlife"
+    - title: "Chronic Wasting Disease"
+      url: "https://fwp.mt.gov/CWD"
+    - title: "CWD Sampling Locations"
+      url: "https://fwp.mt.gov/conservation/chronic-wasting-disease/get-your-animal-sampled"
+  notes: "Montana FWP publishes a rehabilitation application form and dedicated injured/orphaned wildlife pages. Active CWD surveillance program with sampling locations. No standalone state rehabilitation handbook found beyond the application."
+  source_urls:
+    - "https://myfwp.mt.gov/getRepositoryFile?objectID=65998"
+    - "https://fwp.mt.gov/conservation/living-with-wildlife/injured-orphaned-wildlife"
+    - "https://fwp.mt.gov/CWD"
+
+- state: NE
+  state_name: "Nebraska"
+  agency_name: "Game and Parks Commission"
+  agency_acronym: "NGPC"
+  agency_url: "https://outdoornebraska.gov"
+  rehabber_licensing_url: "https://outdoornebraska.gov/permits/other-permits/captive-wildlife-permits/"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://outdoornebraska.gov/permits/other-permits/captive-wildlife-permits/"
+  cwd_program_url: "https://outdoornebraska.gov/conservation/conservation-challenges/wildlife-diseases/chronic-wasting-disease/"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Captive Wildlife Permits"
+      url: "https://outdoornebraska.gov/permits/other-permits/captive-wildlife-permits/"
+    - title: "Chronic Wasting Disease"
+      url: "https://outdoornebraska.gov/conservation/conservation-challenges/wildlife-diseases/chronic-wasting-disease/"
+    - title: "CWD Management Plan"
+      url: "https://outdoornebraska.gov/conservation/wildlife-management/wildlife-management-plans/cwd-plan/"
+  notes: "Nebraska wildlife rehabilitation permits are administered under captive wildlife permits. Active CWD program with a management plan. No public rehabber directory or standalone state handbook found. Limited public-facing rehabilitation-specific materials."
+  source_urls:
+    - "https://outdoornebraska.gov/permits/other-permits/captive-wildlife-permits/"
+    - "https://outdoornebraska.gov/conservation/conservation-challenges/wildlife-diseases/chronic-wasting-disease/"
+
+- state: NV
+  state_name: "Nevada"
+  agency_name: "Department of Wildlife"
+  agency_acronym: "NDOW"
+  agency_url: "https://www.ndow.org"
+  rehabber_licensing_url: "https://www.ndow.org/wildlife/care/rehabilitation/"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.ndow.org/wildlife/care/"
+  cwd_program_url: ""
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation (NDOW)"
+      url: "https://www.ndow.org/wildlife/care/rehabilitation/"
+  notes: "Nevada NDOW administers wildlife rehabilitation permits. NAC 504-492/496 contains the regulatory framework. No CWD detected in Nevada deer as of 2025. NDOW website provides minimal public-facing rehabilitation content; no directory or handbook found. Nevada Audubon supplements NDOW information for birds."
+  source_urls:
+    - "https://www.ndow.org/wildlife/care/rehabilitation/"
+    - "https://www.law.cornell.edu/regulations/nevada/NAC-504-492"
+
+- state: NH
+  state_name: "New Hampshire"
+  agency_name: "Fish and Game Department"
+  agency_acronym: "NHFGD"
+  agency_url: "https://www.nhfishandgame.com"
+  rehabber_licensing_url: "https://www.nhfishandgame.com/wildlife/wildlife-management/wildlife-rehabilitation/"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.nhfishandgame.com/wildlife/wildlife-management/wildlife-rehabilitation/"
+  cwd_program_url: "https://nhfishgame.com/2025/09/25/help-prevent-chronic-wasting-disease-in-new-hampshire-3/"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation"
+      url: "https://www.nhfishandgame.com/wildlife/wildlife-management/wildlife-rehabilitation/"
+    - title: "Help Prevent CWD in New Hampshire"
+      url: "https://nhfishgame.com/2025/09/25/help-prevent-chronic-wasting-disease-in-new-hampshire-3/"
+  notes: "New Hampshire Fish and Game Department issues wildlife rehabilitation permits per N.H. Admin. Code § Fis 812.01. CWD has not been detected in NH deer but active prevention messaging exists. No public rehabber directory or standalone handbook found."
+  source_urls:
+    - "https://www.nhfishandgame.com"
+    - "https://nhfishgame.com/2025/09/25/help-prevent-chronic-wasting-disease-in-new-hampshire-3/"
+
+- state: NJ
+  state_name: "New Jersey"
+  agency_name: "Division of Fish and Wildlife"
+  agency_acronym: "NJDFW"
+  agency_url: "https://www.nj.gov/dep/fgw/"
+  rehabber_licensing_url: "https://dep.nj.gov/njfw/wildlife/rehabilitator-information/"
+  rehabber_directory_url: "https://dep.nj.gov/njfw/wildlife/rehabilitator-information/"
+  rehab_handbook_pdf: "https://dep.nj.gov/wp-content/uploads/njfw/wildlife-rehabilitation-permit-information.pdf"
+  public_wildlife_help_url: "https://dep.nj.gov/njfw/wildlife/rehabilitator-information/"
+  cwd_program_url: ""
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "NJ Permitted Wildlife Rehabilitator Information"
+      url: "https://dep.nj.gov/njfw/wildlife/rehabilitator-information/"
+    - title: "Wildlife Rehabilitation Permit Information (PDF)"
+      url: "https://dep.nj.gov/wp-content/uploads/njfw/wildlife-rehabilitation-permit-information.pdf"
+  notes: "New Jersey publishes a PDF of Wildlife Rehabilitation Permit Information and a permitted rehabilitator directory. No CWD detected in NJ deer as of 2025. The permit information PDF serves as the closest equivalent to an official state handbook."
+  source_urls:
+    - "https://dep.nj.gov/njfw/wildlife/rehabilitator-information/"
+    - "https://dep.nj.gov/wp-content/uploads/njfw/wildlife-rehabilitation-permit-information.pdf"
+
+- state: NM
+  state_name: "New Mexico"
+  agency_name: "Department of Game and Fish"
+  agency_acronym: "NMDGF"
+  agency_url: "https://wildlife.dgf.nm.gov"
+  rehabber_licensing_url: "https://wildlife.dgf.nm.gov/wildlife-education-and-rehabilitation/"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://wildlife.dgf.nm.gov/wildlife-education-and-rehabilitation/"
+  cwd_program_url: "https://wildlife.dgf.nm.gov/conservation/invasive-species-and-diseases/chronic-wasting-disease/"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Education and Rehabilitation"
+      url: "https://wildlife.dgf.nm.gov/wildlife-education-and-rehabilitation/"
+    - title: "Chronic Wasting Disease"
+      url: "https://wildlife.dgf.nm.gov/conservation/invasive-species-and-diseases/chronic-wasting-disease/"
+  notes: "New Mexico NMDGF administers rehabilitation under the 19.35.5 Wildlife Rehabilitation Permits regulation. Active CWD surveillance. No public rehabber directory or standalone handbook found."
+  source_urls:
+    - "https://wildlife.dgf.nm.gov/wildlife-education-and-rehabilitation/"
+    - "https://wildlife.dgf.nm.gov/conservation/invasive-species-and-diseases/chronic-wasting-disease/"
+
+- state: NY
+  state_name: "New York"
+  agency_name: "Department of Environmental Conservation"
+  agency_acronym: "NYSDEC"
+  agency_url: "https://dec.ny.gov"
+  rehabber_licensing_url: "https://dec.ny.gov/regulatory/permits-licenses/fish-wildlife-plant/special-licenses/wildlife-rehabilitator"
+  rehabber_directory_url: "https://dec.ny.gov/nature/wildlife-health/rehabilitators"
+  rehab_handbook_pdf: "https://extapps.dec.ny.gov/docs/wildlife_pdf/rehabstudyguide.pdf"
+  public_wildlife_help_url: "https://dec.ny.gov/animals/6956.html"
+  cwd_program_url: ""
+  hpai_program_url: "https://dec.ny.gov/nature/wildlife-health/animal-diseases"
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "New York State Wildlife Rehabilitation Study Guide 2013"
+      url: "https://extapps.dec.ny.gov/docs/wildlife_pdf/rehabstudyguide.pdf"
+    - title: "Wildlife Rehabilitator License"
+      url: "https://dec.ny.gov/regulatory/permits-licenses/fish-wildlife-plant/special-licenses/wildlife-rehabilitator"
+    - title: "Wildlife Rehabilitators Directory"
+      url: "https://dec.ny.gov/nature/wildlife-health/rehabilitators"
+    - title: "Animal Diseases"
+      url: "https://dec.ny.gov/nature/wildlife-health/animal-diseases"
+    - title: "NY Bird Flu Wildlife Monitoring Platform"
+      url: "https://www.ecos.org/news-and-updates/new-york-launches-platform-to-monitor-bird-flu-in-wildlife/"
+  notes: "New York has one of the most developed programs: a published Wildlife Rehabilitation Study Guide (2013), a licensed rehabilitator directory, and active disease monitoring including a bird flu wildlife monitoring platform. No CWD detected in NYS wild deer as of 2025 but surveillance is active. HPAI monitoring robust."
+  source_urls:
+    - "https://dec.ny.gov/regulatory/permits-licenses/fish-wildlife-plant/special-licenses/wildlife-rehabilitator"
+    - "https://dec.ny.gov/nature/wildlife-health/rehabilitators"
+    - "https://extapps.dec.ny.gov/docs/wildlife_pdf/rehabstudyguide.pdf"
+
+- state: NC
+  state_name: "North Carolina"
+  agency_name: "Wildlife Resources Commission"
+  agency_acronym: "NCWRC"
+  agency_url: "https://www.ncwildlife.gov"
+  rehabber_licensing_url: "https://www.ncwildlife.gov/hunting/hunting-licenses/other-licenses-permits/wildlife-rehabilitation-license"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.ncwildlife.gov/connect/have-wildlife-problem/injured-and-orphaned-wildlife"
+  cwd_program_url: ""
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation License"
+      url: "https://www.ncwildlife.gov/hunting/hunting-licenses/other-licenses-permits/wildlife-rehabilitation-license"
+    - title: "Injured and Orphaned Wildlife"
+      url: "https://www.ncwildlife.gov/connect/have-wildlife-problem/injured-and-orphaned-wildlife"
+  notes: "North Carolina WRC issues wildlife rehabilitation licenses. The Wildlife Rehabilitators of North Carolina (WRNC) is an active nonprofit supplementing state resources. No public rehabber directory or standalone state handbook from NCWRC found. No CWD detected in NC deer as of 2025."
+  source_urls:
+    - "https://www.ncwildlife.gov/hunting/hunting-licenses/other-licenses-permits/wildlife-rehabilitation-license"
+    - "https://www.ncwildlife.gov/connect/have-wildlife-problem/injured-and-orphaned-wildlife"
+
+- state: ND
+  state_name: "North Dakota"
+  agency_name: "Game and Fish Department"
+  agency_acronym: "NDGFD"
+  agency_url: "https://gf.nd.gov"
+  rehabber_licensing_url: "https://gf.nd.gov/ecology/research-permits"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://gf.nd.gov/ecology/orphaned"
+  cwd_program_url: "https://gf.nd.gov/wildlife/diseases/cwd/surveillance"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Orphaned and Injured Animals"
+      url: "https://gf.nd.gov/ecology/orphaned"
+    - title: "CWD Surveillance and Collection Sites"
+      url: "https://gf.nd.gov/wildlife/diseases/cwd/surveillance"
+    - title: "About Chronic Wasting Disease"
+      url: "https://gf.nd.gov/wildlife/diseases/cwd/more"
+  notes: "North Dakota has CWD surveillance page with collection site listings. Research permits cover wildlife rehabilitation. Orphaned/injured animals page provides basic public guidance. No standalone handbook or public rehabber directory found."
+  source_urls:
+    - "https://gf.nd.gov/ecology/orphaned"
+    - "https://gf.nd.gov/wildlife/diseases/cwd/surveillance"
+
+- state: OH
+  state_name: "Ohio"
+  agency_name: "Division of Wildlife"
+  agency_acronym: "ODOW"
+  agency_url: "https://ohiodnr.gov"
+  rehabber_licensing_url: "https://ohiodnr.gov/buy-and-apply/special-use-permits/wildlife-specialty-permits/wildlife-rehabilitator-volunteer"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/permits/Pub%205475%20MinimumStandardsR0117.pdf"
+  public_wildlife_help_url: "https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/wildlife/orphaned-injured"
+  cwd_program_url: ""
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Minimum Standards for Wildlife Rehabilitation (Ohio DOW)"
+      url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/permits/Pub%205475%20MinimumStandardsR0117.pdf"
+    - title: "Wildlife Rehabilitation Permits"
+      url: "https://ohiodnr.gov/buy-and-apply/special-use-permits/wildlife-specialty-permits/wildlife-rehabilitator-volunteer"
+    - title: "Orphaned and Injured Wildlife"
+      url: "https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/wildlife/orphaned-injured"
+  notes: "Ohio publishes its own Minimum Standards for Wildlife Rehabilitation document (Pub 5475, 2017). Ohio Division of Wildlife partners with the Ohio Wildlife Rehabilitators Association (OWRA) for training. No CWD detected in OH deer as of 2025. The published minimum standards PDF is one of the better state-produced handbook equivalents."
+  source_urls:
+    - "https://ohiodnr.gov/buy-and-apply/special-use-permits/wildlife-specialty-permits/wildlife-rehabilitator-volunteer"
+    - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/permits/Pub%205475%20MinimumStandardsR0117.pdf"
+
+- state: OK
+  state_name: "Oklahoma"
+  agency_name: "Department of Wildlife Conservation"
+  agency_acronym: "ODWC"
+  agency_url: "https://www.wildlifedepartment.com"
+  rehabber_licensing_url: "https://www.wildlifedepartment.com/licensing/other-permits-and-licenses"
+  rehabber_directory_url: "https://www.wildlifedepartment.com/law/rehabilitator-list"
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.wildlifedepartment.com/wildlife/leave-young-wildlife-alone"
+  cwd_program_url: "https://www.wildlifedepartment.com/hunting/resources/deer/cwd"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitators List"
+      url: "https://www.wildlifedepartment.com/law/rehabilitator-list"
+    - title: "Leave Young Wildlife Alone"
+      url: "https://www.wildlifedepartment.com/wildlife/leave-young-wildlife-alone"
+    - title: "Chronic Wasting Disease"
+      url: "https://www.wildlifedepartment.com/hunting/resources/deer/cwd"
+  notes: "Oklahoma ODWC publishes a licensed rehabilitator list and active CWD program pages. CWD confirmed in Oklahoma deer (expanded CWD Special Status Area in Cimarron County). No standalone state rehabilitation handbook found."
+  source_urls:
+    - "https://www.wildlifedepartment.com/law/rehabilitator-list"
+    - "https://www.wildlifedepartment.com/hunting/resources/deer/cwd"
+
+- state: OR
+  state_name: "Oregon"
+  agency_name: "Department of Fish and Wildlife"
+  agency_acronym: "ODFW"
+  agency_url: "https://myodfw.com"
+  rehabber_licensing_url: "https://www.dfw.state.or.us/wildlife/rehabilitation/"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: "https://www.dfw.state.or.us/wildlife/rehabilitation/docs/062.pdf"
+  public_wildlife_help_url: "https://myodfw.com/articles/leave-young-wildlife-wild"
+  cwd_program_url: "https://myodfw.com/CWD"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Division 062: Wildlife Rehabilitation Rules (PDF)"
+      url: "https://www.dfw.state.or.us/wildlife/rehabilitation/docs/062.pdf"
+    - title: "Leave Young Wildlife in the Wild"
+      url: "https://myodfw.com/articles/leave-young-wildlife-wild"
+    - title: "Chronic Wasting Disease"
+      url: "https://myodfw.com/CWD"
+  notes: "Oregon publishes its full Division 062 Wildlife Rehabilitation administrative rules as a PDF, which serves as the regulatory handbook. Active CWD program. No CWD detected in Oregon deer as of early 2025 but active monitoring. Good public-facing injured wildlife guidance."
+  source_urls:
+    - "https://www.dfw.state.or.us/wildlife/rehabilitation/docs/062.pdf"
+    - "https://myodfw.com/articles/leave-young-wildlife-wild"
+    - "https://myodfw.com/CWD"
+
+- state: PA
+  state_name: "Pennsylvania"
+  agency_name: "Game Commission"
+  agency_acronym: "PGC"
+  agency_url: "https://www.pa.gov/agencies/pgc"
+  rehabber_licensing_url: "https://www.pa.gov/agencies/pgc/wildlife/wildlife-health"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.pa.gov/agencies/pgc/wildlife/wildlife-health"
+  cwd_program_url: "https://www.pa.gov/agencies/pgc/wildlife/wildlife-health/wildlife-diseases"
+  hpai_program_url: "https://www.pa.gov/agencies/pgc/wildlife/wildlife-health/wildlife-diseases/avian-influenza"
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Health — PGC"
+      url: "https://www.pa.gov/agencies/pgc/wildlife/wildlife-health"
+    - title: "Avian Influenza"
+      url: "https://www.pa.gov/agencies/pgc/wildlife/wildlife-health/wildlife-diseases/avian-influenza"
+    - title: "Wildlife Disease Information"
+      url: "https://www.pa.gov/agencies/pgc/wildlife/wildlife-health/wildlife-diseases"
+  notes: "Pennsylvania Game Commission issues rehabilitation permits. The Pennsylvania Wildlife Rehabilitators Association (PAWR) supplements state resources and describes the application process. Active HPAI and CWD surveillance. PGC has publicly moved much content to the new pa.gov domain. No standalone state rehab handbook found, but detailed disease pages exist."
+  source_urls:
+    - "https://www.pa.gov/agencies/pgc/wildlife/wildlife-health"
+    - "https://www.pa.gov/agencies/pgc/wildlife/wildlife-health/wildlife-diseases/avian-influenza"
+
+- state: RI
+  state_name: "Rhode Island"
+  agency_name: "Division of Fish and Wildlife"
+  agency_acronym: "RIDFW"
+  agency_url: "https://dem.ri.gov/natural-resources-bureau/fish-wildlife"
+  rehabber_licensing_url: "https://dem.ri.gov/natural-resources-bureau/fish-wildlife/wildlife-management/wildlife-rehabilitators"
+  rehabber_directory_url: "https://dem.ri.gov/natural-resources-bureau/fish-wildlife/wildlife-management/wildlife-rehabilitators"
+  rehab_handbook_pdf: "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/bnatres/fishwild/pdf/conspec.pdf"
+  public_wildlife_help_url: "https://dem.ri.gov/ri-wildlife"
+  cwd_program_url: ""
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitator Information (PDF)"
+      url: "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/bnatres/fishwild/pdf/conspec.pdf"
+    - title: "Wildlife Rehabilitation Permit Application"
+      url: "https://dem.ri.gov/sites/g/files/xkgbur861/files/2026-01/wildlife-rehabilitation-permit-application.pdf"
+  notes: "Rhode Island DEM publishes a rehabilitator information PDF and a 2026 permit application. No CWD in Rhode Island deer. Small state with limited public rehabber directory online. Permit categories defined in 250 R.I. Code R. 250-RICR-60-00-1.12."
+  source_urls:
+    - "https://dem.ri.gov/natural-resources-bureau/fish-wildlife/wildlife-management/wildlife-rehabilitators"
+    - "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/bnatres/fishwild/pdf/conspec.pdf"
+
+- state: SC
+  state_name: "South Carolina"
+  agency_name: "Department of Natural Resources"
+  agency_acronym: "SCDNR"
+  agency_url: "https://www.dnr.sc.gov"
+  rehabber_licensing_url: "https://www.dnr.sc.gov/wildlife/rehab/"
+  rehabber_directory_url: "https://www.dnr.sc.gov/wildlife/rehab/"
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.dnr.sc.gov/wildlife/rehab/"
+  cwd_program_url: "https://www.dnr.sc.gov/cwd/index.html"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitators Registry"
+      url: "https://www.dnr.sc.gov/wildlife/rehab/"
+    - title: "Wildlife Publications"
+      url: "https://www.dnr.sc.gov/wildlife/publications.html"
+    - title: "Chronic Wasting Disease"
+      url: "https://www.dnr.sc.gov/cwd/index.html"
+  notes: "South Carolina SCDNR maintains a Wildlife Rehabilitators Registry (directory). Active CWD surveillance — Cornell evaluated SC for CWD risk. No standalone state rehab handbook found."
+  source_urls:
+    - "https://www.dnr.sc.gov/wildlife/rehab/"
+    - "https://www.dnr.sc.gov/cwd/index.html"
+
+- state: SD
+  state_name: "South Dakota"
+  agency_name: "Game, Fish and Parks"
+  agency_acronym: "SDGFP"
+  agency_url: "https://gfp.sd.gov"
+  rehabber_licensing_url: "https://gfp.sd.gov/wildlife-rehab/"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://gfp.sd.gov/wildlife-rehab/"
+  cwd_program_url: "https://gfp.sd.gov/chronic-wasting-disease/"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation Permits"
+      url: "https://gfp.sd.gov/wildlife-rehab/"
+    - title: "CWD Testing Information (PDF)"
+      url: "https://gfp.sd.gov/userdocs/docs/cwd_testing.pdf"
+    - title: "Chronic Wasting Disease"
+      url: "https://gfp.sd.gov/chronic-wasting-disease/"
+  notes: "South Dakota GFP issues wildlife rehabilitation permits and has an active CWD program. CWD is present in SD deer. No public rehabber directory or standalone handbook found."
+  source_urls:
+    - "https://gfp.sd.gov/wildlife-rehab/"
+    - "https://gfp.sd.gov/chronic-wasting-disease/"
+
+- state: TN
+  state_name: "Tennessee"
+  agency_name: "Wildlife Resources Agency"
+  agency_acronym: "TWRA"
+  agency_url: "https://www.tn.gov/twra"
+  rehabber_licensing_url: "https://www.tn.gov/twra/law-enforcement/permits/rehabilitators.html"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://www.tn.gov/twra/wildlife/wildlife-injuries-orphaned-animals.html"
+  cwd_program_url: "https://www.tn.gov/twra/hunting/cwd/cwd-in-tennessee.html"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitator Permits"
+      url: "https://www.tn.gov/twra/law-enforcement/permits/rehabilitators.html"
+    - title: "Wildlife Injuries and Orphaned Animals"
+      url: "https://www.tn.gov/twra/wildlife/wildlife-injuries-orphaned-animals.html"
+    - title: "CWD In Tennessee"
+      url: "https://www.tn.gov/twra/hunting/cwd/cwd-in-tennessee.html"
+  notes: "Tennessee TWRA has both a rehabilitator permit page and public wildlife injuries guidance page. CWD was confirmed in Tennessee (first detection in Decatur County). Active CWD surveillance. The Tennessee Wildlife Federation (TNWF) maintains a rehabilitator directory. No standalone state handbook found."
+  source_urls:
+    - "https://www.tn.gov/twra/law-enforcement/permits/rehabilitators.html"
+    - "https://www.tn.gov/twra/wildlife/wildlife-injuries-orphaned-animals.html"
+    - "https://www.tn.gov/twra/hunting/cwd/cwd-in-tennessee.html"
+
+- state: TX
+  state_name: "Texas"
+  agency_name: "Parks and Wildlife Department"
+  agency_acronym: "TPWD"
+  agency_url: "https://tpwd.texas.gov"
+  rehabber_licensing_url: "https://tpwd.texas.gov/business/permits/land/wildlife/rehab/"
+  rehabber_directory_url: "https://tpwd.texas.gov/huntwild/wild/rehab/"
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://tpwd.texas.gov/huntwild/wild/rehab/"
+  cwd_program_url: "https://tpwd.texas.gov/newsmedia/releases/?req=20251209a"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: "Wildlife Conservation Permits"
+    email: "WPoffice@tpwd.texas.gov"
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabbing Permits"
+      url: "https://tpwd.texas.gov/business/permits/land/wildlife/rehab/"
+    - title: "Wildlife Rehabilitation Permit Application"
+      url: "https://tpwd.texas.gov/publications/pwdforms/media/pwd_1052_w7000_wl_rehab_permit_app.pdf"
+    - title: "Wildlife Rehabilitation General Facilities Guidelines"
+      url: "https://tpwd.texas.gov/business/permits/land/wildlife/rehab/facilityGuidelines.phtml"
+    - title: "Wildlife Rehabbers Directory in Texas"
+      url: "https://tpwd.texas.gov/huntwild/wild/rehab/"
+    - title: "HPAI Wildlife Health Alert 2025"
+      url: "https://tpwd.texas.gov/newsmedia/releases/?req=20251209a"
+  notes: "Texas TPWD has a well-developed rehabilitation program with a permit application, facility guidelines, approved training courses, and a public rehabber directory. Wildlife Conservation Permits office can be reached at WPoffice@tpwd.texas.gov. Texas TAC §69.46 governs wildlife rehabilitation permits. Active HPAI monitoring."
+  source_urls:
+    - "https://tpwd.texas.gov/business/permits/land/wildlife/rehab/"
+    - "https://tpwd.texas.gov/huntwild/wild/rehab/"
+
+- state: UT
+  state_name: "Utah"
+  agency_name: "Division of Wildlife Resources"
+  agency_acronym: "UDWR"
+  agency_url: "https://wildlife.utah.gov"
+  rehabber_licensing_url: "https://wildlife.utah.gov/rehabilitators"
+  rehabber_directory_url: "https://wildlife.utah.gov/rehabilitators"
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://wildlife.utah.gov/rehabilitators"
+  cwd_program_url: "https://wildlife.utah.gov/index.php?catid=19&id=96&option=com_content&view=article"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitators"
+      url: "https://wildlife.utah.gov/rehabilitators"
+    - title: "Chronic Wasting Disease"
+      url: "https://wildlife.utah.gov/index.php?catid=19&id=96&option=com_content&view=article"
+  notes: "Utah DWR maintains a rehabilitator permit page and public rehabber directory. CWD confirmed in Utah deer (first near Scofield and Uintah County). No standalone state rehabilitation handbook found."
+  source_urls:
+    - "https://wildlife.utah.gov/rehabilitators"
+
+- state: VT
+  state_name: "Vermont"
+  agency_name: "Fish and Wildlife Department"
+  agency_acronym: "VFWD"
+  agency_url: "https://vtfishandwildlife.com"
+  rehabber_licensing_url: "https://vtfishandwildlife.com/fish-and-wildlife/wildlife-rehabilitators"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://vtfishandwildlife.com/fish-and-wildlife/wildlife-rehabilitators"
+  cwd_program_url: ""
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitators (VFWD)"
+      url: "https://vtfishandwildlife.com/fish-and-wildlife/wildlife-rehabilitators"
+    - title: "Wildlife Rehabilitation Regulations (Title 10 Appendix)"
+      url: "https://legislature.vermont.gov/statutes/section/10appendix/001/00009"
+  notes: "Vermont Fish and Wildlife issues rehabilitation permits under Title 10 Appendix regulations. Vermont Veterinary Medical Association (VTVMA) publishes guidance on wildlife rehabilitators. No CWD in Vermont deer. Minimal public-facing materials from the agency directly."
+  source_urls:
+    - "https://vtfishandwildlife.com/fish-and-wildlife/wildlife-rehabilitators"
+    - "https://legislature.vermont.gov/statutes/section/10appendix/001/00009"
+
+- state: VA
+  state_name: "Virginia"
+  agency_name: "Department of Wildlife Resources"
+  agency_acronym: "DWR"
+  agency_url: "https://dwr.virginia.gov"
+  rehabber_licensing_url: "https://dwr.virginia.gov/forms/permit-application-notice-wildlife-rehabilitator/"
+  rehabber_directory_url: "https://dwr.virginia.gov/wildlife/injured/rehabilitators/"
+  rehab_handbook_pdf: "https://dwr.virginia.gov/forms-download/wildlife-rehabilitator-conditions.pdf"
+  public_wildlife_help_url: "https://dwr.virginia.gov/wildlife/injured/"
+  cwd_program_url: "https://dwr.virginia.gov/wildlife/disease/cwd/"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Permit Application Notice: Wildlife Rehabilitator"
+      url: "https://dwr.virginia.gov/forms/permit-application-notice-wildlife-rehabilitator/"
+    - title: "Wildlife Rehabilitator Permit Conditions"
+      url: "https://dwr.virginia.gov/forms-download/wildlife-rehabilitator-conditions.pdf"
+    - title: "Permitted Wildlife Rehabilitators Directory"
+      url: "https://dwr.virginia.gov/wildlife/injured/rehabilitators/"
+    - title: "Injured Wildlife"
+      url: "https://dwr.virginia.gov/wildlife/injured/"
+    - title: "CWD in Virginia"
+      url: "https://dwr.virginia.gov/wildlife/disease/cwd/"
+  notes: "Virginia DWR has a comprehensive program: public rehabber directory, permit conditions PDF (handbook equivalent), permit application portal, and detailed injured-wildlife public guidance. Active CWD surveillance — 126 deer tested positive in 2025-26. DWR is active on social media regarding CWD response and bear policy."
+  source_urls:
+    - "https://dwr.virginia.gov/forms/permit-application-notice-wildlife-rehabilitator/"
+    - "https://dwr.virginia.gov/wildlife/injured/rehabilitators/"
+    - "https://dwr.virginia.gov/wildlife/injured/"
+
+- state: WA
+  state_name: "Washington"
+  agency_name: "Department of Fish and Wildlife"
+  agency_acronym: "WDFW"
+  agency_url: "https://wdfw.wa.gov"
+  rehabber_licensing_url: "https://wdfw.wa.gov/licenses/permits/scientific-collection/rehabilitation"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://wdfw.wa.gov/species-habitats/living/injured-wildlife"
+  cwd_program_url: "https://wdfw.wa.gov/species-habitats/at-risk/diseases/cwd"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Scientific Collection Permits — Rehabilitation"
+      url: "https://wdfw.wa.gov/licenses/permits/scientific-collection/rehabilitation"
+    - title: "Washington Wildlife Rehabilitators Association (WWRA)"
+      url: "https://www.wwrawildlife.org"
+    - title: "CWD"
+      url: "https://wdfw.wa.gov/species-habitats/at-risk/diseases/cwd"
+  notes: "Washington WDFW issues rehabilitation permits under scientific collection permit framework. The Washington Wildlife Rehabilitators Association (WWRA) is the primary training and directory resource. Active CWD monitoring. No standalone state handbook published by WDFW found; WWRA fills much of the training gap."
+  source_urls:
+    - "https://wdfw.wa.gov/licenses/permits/scientific-collection/rehabilitation"
+    - "https://www.wwrawildlife.org"
+
+- state: WV
+  state_name: "West Virginia"
+  agency_name: "Division of Natural Resources"
+  agency_acronym: "WVDNR"
+  agency_url: "https://wvdnr.gov"
+  rehabber_licensing_url: "https://wvdnr.gov/plants-animals/"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://wvdnr.gov/plants-animals/"
+  cwd_program_url: "https://wvdnr.gov/plants-animals/wildlife-disease/"
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Disease"
+      url: "https://wvdnr.gov/plants-animals/wildlife-disease/"
+    - title: "WVDNR CWD Containment Area Changes"
+      url: "https://wvdnr.gov/wvdnr-announces-changes-to-cwd-containment-area/"
+    - title: "Wildlife Rehabilitation Statute (§ 20-2D-4)"
+      url: "https://code.wvlegislature.gov/20-2D-4/"
+  notes: "West Virginia's wildlife rehabilitation is governed by WV Code § 20-2D-4. Minimal public-facing rehabilitation materials; WVDNR's website is sparse on rehab specifics. CWD detected and a CWD containment area has been established. No standalone handbook or public rehabber directory found. This is a notable gap state."
+  source_urls:
+    - "https://wvdnr.gov/plants-animals/wildlife-disease/"
+    - "https://code.wvlegislature.gov/20-2D-4/"
+
+- state: WI
+  state_name: "Wisconsin"
+  agency_name: "Department of Natural Resources"
+  agency_acronym: "WDNR"
+  agency_url: "https://dnr.wisconsin.gov"
+  rehabber_licensing_url: "https://dnr.wisconsin.gov/topic/WildlifeHabitat/license"
+  rehabber_directory_url: "https://dnr.wisconsin.gov/topic/WildlifeHabitat/directory"
+  rehab_handbook_pdf: ""
+  public_wildlife_help_url: "https://dnr.wisconsin.gov/topic/WildlifeHabitat/Rehabilitation"
+  cwd_program_url: "https://dnr.wisconsin.gov/topic/WildlifeHabitat/disease"
+  hpai_program_url: "https://dnr.wisconsin.gov/topic/WildlifeHabitat/wildlifehealth"
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Applying for a Wildlife Rehabilitation License"
+      url: "https://dnr.wisconsin.gov/topic/WildlifeHabitat/license"
+    - title: "Wildlife Rehabilitation Directory and Resources"
+      url: "https://dnr.wisconsin.gov/topic/WildlifeHabitat/directory"
+    - title: "Wildlife Disease"
+      url: "https://dnr.wisconsin.gov/topic/WildlifeHabitat/disease"
+    - title: "Wildlife Health"
+      url: "https://dnr.wisconsin.gov/topic/WildlifeHabitat/wildlifehealth"
+    - title: "Wildlife Rehabilitation in Wisconsin (Historical Document)"
+      url: "https://www.wistatedocuments.org/digital/api/collection/p267601coll4/id/1343/download"
+  notes: "Wisconsin has a comprehensive program: licensing page, public directory, disease page, and wildlife health portal. CWD is a major issue in Wisconsin — the state was one of the earliest affected. Wisconsin State Documents library has a historical rehabilitation document. Active CWD and HPAI monitoring."
+  source_urls:
+    - "https://dnr.wisconsin.gov/topic/WildlifeHabitat/license"
+    - "https://dnr.wisconsin.gov/topic/WildlifeHabitat/directory"
+    - "https://dnr.wisconsin.gov/topic/WildlifeHabitat/disease"
+
+- state: WY
+  state_name: "Wyoming"
+  agency_name: "Game and Fish Department"
+  agency_acronym: "WGFD"
+  agency_url: "https://wgfd.wyo.gov"
+  rehabber_licensing_url: "https://wgfd.wyo.gov/Regulations/Wildlife/Wildlife-Rehabilitation"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: "https://wgfd.wyo.gov/media/26462/download?inline"
+  public_wildlife_help_url: "https://wgfd.wyo.gov/wyoming-wildlife/living-with-wildlife"
+  cwd_program_url: "https://wgfd.wyo.gov/wyoming-wildlife/wildlife-disease-and-health/chronic-wasting-disease"
+  hpai_program_url: "https://wgfd.wyo.gov/wyoming-wildlife/wildlife-disease-and-health"
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation Regulations"
+      url: "https://wgfd.wyo.gov/Regulations/Wildlife/Wildlife-Rehabilitation"
+    - title: "Wildlife Disease and Health"
+      url: "https://wgfd.wyo.gov/wyoming-wildlife/wildlife-disease-and-health"
+    - title: "Chronic Wasting Disease"
+      url: "https://wgfd.wyo.gov/wyoming-wildlife/wildlife-disease-and-health/chronic-wasting-disease"
+    - title: "CWD Testing"
+      url: "https://wgfd.wyo.gov/wyoming-wildlife/wildlife-disease-and-health/chronic-wasting-disease/chronic-wasting-disease"
+  notes: "Wyoming has a wildlife rehabilitation regulation page and an older rehabilitation draft document PDF. Extensive CWD and wildlife disease health portal. CWD is endemic in Wyoming mule deer and elk. No public rehabber directory found. The state prioritizes wildlife disease management."
+  source_urls:
+    - "https://wgfd.wyo.gov/Regulations/Wildlife/Wildlife-Rehabilitation"
+    - "https://wgfd.wyo.gov/wyoming-wildlife/wildlife-disease-and-health/chronic-wasting-disease"
+
+- state: DC
+  state_name: "District of Columbia"
+  agency_name: "Department of Energy and Environment"
+  agency_acronym: "DOEE"
+  agency_url: "https://doee.dc.gov"
+  rehabber_licensing_url: "https://doee.dc.gov/service/wildlife-rehabilitation"
+  rehabber_directory_url: ""
+  rehab_handbook_pdf: "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/Wildlife%20Rehab%20Application.pdf"
+  public_wildlife_help_url: "https://doee.dc.gov/service/wildlife-rehabilitation"
+  cwd_program_url: ""
+  hpai_program_url: ""
+  rabies_program_url: ""
+  rehab_coordinator:
+    name: ""
+    title: ""
+    email: ""
+    phone: ""
+  migratory_bird_contact: ""
+  endangered_species_contact: ""
+  notable_publications:
+    - title: "Wildlife Rehabilitation — DOEE"
+      url: "https://doee.dc.gov/service/wildlife-rehabilitation"
+    - title: "Wildlife Rehab Application (PDF)"
+      url: "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/Wildlife%20Rehab%20Application.pdf"
+  notes: "DC DOEE issues two types of wildlife rehabilitation licenses. Rehabilitation must occur at a DOH-licensed animal facility; in-home rehab not permitted. If injured wildlife is found, the public is directed to City Wildlife (202-882-1000). No CWD in DC. The District's unique status means wildlife rehabilitators must also coordinate with USFWS for federal lands. Smallest jurisdiction — very limited public materials."
+  source_urls:
+    - "https://doee.dc.gov/service/wildlife-rehabilitation"
+    - "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/Wildlife%20Rehab%20Application.pdf"
+
+# ============================================================
+# Summary:
+# ============================================================
+#
+# Total jurisdictions covered: 51 (50 states + DC)
+#
+# MATERIAL TYPE COUNTS (approximate, based on research as of 2025):
+#
+# | Material Type                              | States with Material | States Without |
+# |--------------------------------------------|----------------------|----------------|
+# | Rehabber licensing URL                     | 51 / 51 (100%)       | 0              |
+# | Public wildlife help / injured-animal page | 48 / 51 (~94%)       | 3 (sparse)     |
+# | Rehabber directory (public)                | ~22 / 51 (~43%)      | ~29            |
+# | State-published rehab handbook/manual/PDF  | ~12 / 51 (~24%)      | ~39            |
+# | CWD program URL                            | ~35 / 51 (~69%)      | ~16            |
+# | HPAI program URL                           | ~18 / 51 (~35%)      | ~33            |
+# | Rehab coordinator name published           | 0 / 51 (0%)          | 51             |
+# | Rehab coordinator email published          | ~2 / 51 (~4%)        | ~49            |
+#
+# NOTE: Coordinator names/contacts are rarely published on state agency websites;
+# most states direct inquiries through general permit offices or email forms.
+# Minnesota is notable for publishing a permit email address
+# (dnr.wildlife.rehabpermit@state.mn.us). Texas publishes a permits office email
+# (WPoffice@tpwd.texas.gov). Georgia publishes an exam phone number (770-918-6408).
+#
+# ============================================================
+# BIGGEST GAPS — States with the least published material:
+# ============================================================
+#
+# 1. WEST VIRGINIA — Minimal web presence for rehabilitation; statute exists
+#    (WV Code § 20-2D-4) but no dedicated permit page, no handbook, no directory.
+#
+# 2. IDAHO — Notably restrictive/limited rehabilitation program; IDFG reportedly
+#    restricts private rehabilitation; minimal public resources.
+#
+# 3. MISSISSIPPI — Basic rehabilitation page; no directory, no handbook, no
+#    disease reporting pages identified.
+#
+# 4. ALABAMA — Rehabilitation page exists but limited; no handbook or directory.
+#
+# 5. NEVADA — NDOW rehabilitation page exists but content very sparse; no
+#    directory or handbook. State relies on private organizations (Nevada Audubon).
+#
+# 6. ARKANSAS — Limited rehabilitation content; permit available but no handbook
+#    or directory.
+#
+# 7. KANSAS — Special licenses listing exists but minimal dedicated rehabilitation
+#    content; no handbook or directory.
+#
+# 8. VERMONT — Limited web presence; regulations exist but no dedicated handbook
+#    or directory.
+#
+# 9. NEW HAMPSHIRE — Regulations codified (N.H. Admin. Code § Fis 812.01) but
+#    minimal public-facing agency content.
+#
+# 10. NORTH DAKOTA — Basic pages; limited rehabilitation-specific materials beyond
+#     orphaned animals guidance and CWD surveillance.
+#
+# ============================================================
+# BEST-IN-CLASS — States with the most published material:
+# ============================================================
+#
+# 1. CALIFORNIA (CDFW) — Regulations manual PDF, permitted rehabilitator directory,
+#    HPAI monitoring, training/resources page, laws and regulations page. Most
+#    comprehensive state framework identified.
+#
+# 2. MICHIGAN (MDNR) — Detailed permit information page covering permit types,
+#    species-specific rules, disease requirements, care standards, and display rules.
+#    Public licensed rehabilitator directory. Active HPAI and CWD pages.
+#
+# 3. NEW YORK (NYSDEC) — Published Wildlife Rehabilitation Study Guide PDF (2013),
+#    licensed rehabilitator directory, animal diseases page, bird flu monitoring platform.
+#
+# 4. MINNESOTA (MN DNR) — Study guide and exam book, permit instructions, sick/injured
+#    wildlife guidance, published permit email address, active CWD program.
+#
+# 5. VIRGINIA (DWR) — Permit conditions PDF (handbook equivalent), public rehabber
+#    directory, injured wildlife public guidance, CWD program. Active social media presence
+#    on bear policy and CWD.
+#
+# 6. FLORIDA (FWC) — Comprehensive licensing page, public rehabber directory, wildlife
+#    health program, HPAI and CWD (newly detected) monitoring. Executive orders affecting
+#    rehabilitators during CWD response.
+#
+# 7. TEXAS (TPWD) — Permit application, facility guidelines, approved training list,
+#    public rehabber directory, permits email address, active HPAI alerts.
+#
+# 8. GEORGIA (DNR-WRD) — Application and study guide PDF, exam requirement with
+#    contact phone, public rehabber directory, CWD page.
+#
+# 9. INDIANA (IDFW) — Permit instructions PDF, public rehabber directory, CWD pages.
+#
+# 10. WISCONSIN (WDNR) — Licensing page, public directory, disease page, wildlife
+#     health portal. Strong CWD and HPAI monitoring infrastructure.
+#
+# ============================================================
+# REGIONAL PATTERNS:
+# ============================================================
+#
+# - MIDWEST / GREAT LAKES (MN, WI, MI, IN, OH, IA): Generally strong programs with
+#   directories and handbooks, partly driven by long history of CWD in the region and
+#   active CWD surveillance requirements.
+#
+# - NORTHEAST (NY, NJ, CT, MA, MD, RI, PA): Generally above-average public materials;
+#   NY and NJ particularly strong. DE and NH are lighter.
+#
+# - SOUTH (FL, GA, VA, TN, TX): Florida and Virginia are best-in-class for the region;
+#   TX strong on permit/directory side. MS, WV, AL are the regional laggards.
+#
+# - MOUNTAIN WEST / PLAINS (CO, WY, MT, ID, UT): CWD programs well-developed (given
+#   the disease originated here), but public rehabilitation handbook content is sparse.
+#   Idaho is notable for restrictive rehabilitation policies.
+#
+# - PACIFIC (CA, OR, WA): California dominates with the most comprehensive state program
+#   nationally. Oregon publishes administrative rules PDF. Washington relies heavily on
+#   the WWRA nonprofit for training and directories.
+#
+# - CWD COVERAGE: States in the CWD-endemic zone (WY, CO, MT, SD, NE, MN, WI, MI, PA,
+#   VA, MD, NY, TN, GA, FL newly detected) generally publish more disease-related
+#   rehabber guidance. FL is a notable recent addition (2025) with executive orders
+#   directly impacting rehabbers.
+#
+# - MIGRATORY BIRD INTERFACE: Most states do not independently publish a "migratory bird
+#   coordinator" — this interface is handled federally through USFWS Regional Migratory
+#   Bird Coordinators (Pacific Flyway, Central Flyway, Mississippi Flyway, Atlantic Flyway).
+#   State-level migratory bird contacts are rarely published on state wildlife agency sites.
+#
+# - ENDANGERED SPECIES COORDINATORS: Similarly rarely published at the state agency level
+#   in a form accessible to the public; typically handled through USFWS state liaison or
+#   state nongame/endangered species programs. Illinois is notable for its Endangered and
+#   Threatened Species Rehabilitation Grants program.
+#
+# - HPAI RESPONSE (2024-2025): The ongoing HPAI H5N1 outbreak has prompted more states
+#   to publish avian influenza guidance; states with active monitoring pages identifiable
+#   include CA, FL, CT, DE, ME, MA, MI, NY, PA, TX, WI. States without dedicated HPAI
+#   pages are likely handling through USDA/APHIS coordination rather than publishing
+#   independently.
+#
+# Data collection date: 2025. Source material primarily drawn from official state
+# wildlife agency websites. Some URLs may change as agency websites are redesigned.
+# Coordinator names were not published on any identified state agency pages as of
+# research date; contact information where noted reflects general permit office contacts.
