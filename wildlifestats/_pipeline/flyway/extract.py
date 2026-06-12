@@ -181,12 +181,69 @@ def build_record(p, source_type, hit, method):
     }
 
 
+def to_signal_row(rec):
+    """Map a §4 extraction record to a bucket_01.signals row (9d.01.2)."""
+    ef = rec.get("extracted_fields", {}) or {}
+    iso = None
+    ev = ef.get("event_date")
+    if ev:
+        try:
+            from datetime import date
+            y, m, d = (int(x) for x in str(ev)[:10].split("-"))
+            c = date(y, m, d).isocalendar()
+            iso = f"{c[0]:04d}-W{c[1]:02d}"
+        except (ValueError, TypeError):
+            iso = None
+    return {
+        "record_id": rec.get("record_id"), "signal_id": rec.get("signal_id"),
+        "org_slug": rec.get("org_slug"), "source_org_id": rec.get("source_org_id"),
+        "platform": rec.get("source_type"), "event_type": ef.get("event_type"),
+        "species_canonical": ef.get("species_canonical"),
+        "species_verbatim": ef.get("species_verbatim"), "geo_state": ef.get("geo_state"),
+        "geo_county_fips": ef.get("geo_county_fips"),
+        "geo_locality_verbatim": ef.get("geo_locality_verbatim"),
+        "event_date": ef.get("event_date"), "event_date_precision": ef.get("event_date_precision"),
+        "confidence": ef.get("confidence"), "iso_week": iso,
+        "extraction_method": rec.get("extraction_method"),
+        "extraction_prompt_hash": rec.get("extraction_prompt_hash"),
+        # provenance envelope: record_id IS a sha → doubles as content_hash
+        "fetched_at": rec.get("extracted_at"), "source_url": rec.get("source_url"),
+        "content_hash": rec.get("record_id"),
+    }
+
+
+def dual_write_supabase(records):
+    """Second leg of the dual-write (JSON already persisted). Each signal flows
+    through supabase_client.upsert(); failures are logged, NEVER fatal — the
+    JSON path stays canonical. Returns (ok, failed)."""
+    try:
+        from wildlifestats._pipeline._common import supabase_client
+    except ImportError as exc:
+        print(f"  supabase dual-write skipped (import: {exc})")
+        return (0, 0)
+    ok = failed = 0
+    for rec in records:
+        try:
+            supabase_client.upsert(supabase_client.WriteRequest(
+                target_schema="wildlifestats_bucket_01_social_signals",
+                target_table="signals", on_conflict="record_id",
+                record=to_signal_row(rec)))
+            ok += 1
+        except Exception as exc:  # noqa: BLE001 — Supabase down must not abort the run
+            failed += 1
+            print(f"  supabase upsert failed ({str(rec.get('record_id'))[:8]}): {type(exc).__name__}")
+    print(f"  supabase dual-write: {ok} ok, {failed} failed (JSON already canonical)")
+    return (ok, failed)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--posts", required=True, help="apify_client output JSON")
     ap.add_argument("--extractor", choices=["offline", "llm"], default="offline")
     ap.add_argument("--out", required=True)
     ap.add_argument("--audit", required=True)
+    ap.add_argument("--no-supabase", action="store_true",
+                    help="skip the Supabase leg of the dual-write (JSON only)")
     args = ap.parse_args()
 
     signals = load_signals()
@@ -223,6 +280,9 @@ def main():
     print(f"scanned {scanned} posts -> {matched} signal records ({method})")
     print(f"records: {args.out}")
     print(f"audit:   {args.audit}")
+    # Dual-write leg: JSON above is canonical; Supabase second + non-fatal.
+    if not args.no_supabase:
+        dual_write_supabase(records)
 
 
 if __name__ == "__main__":

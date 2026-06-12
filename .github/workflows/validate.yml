@@ -50,6 +50,8 @@ jobs:
         run: PYTHONPATH=. python wildlifestats/_pipeline/flyway/test_cron.py
       - name: Run Flyway 4.5+i.2 spend-tracker tests
         run: PYTHONPATH=. python wildlifestats/_pipeline/flyway/test_spend.py
+      - name: Run Flyway 9d.01.2 dual-write tests
+        run: PYTHONPATH=. python wildlifestats/_pipeline/flyway/test_dualwrite.py
 
   link-check:
     name: Internal link check
