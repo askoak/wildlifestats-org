@@ -2,10 +2,10 @@
 """
 Render the national rehab-center directory as static HTML pages.
 
-Reads:  wildlifestats/_pipeline/sources/rehab-centers/centers.yaml (177 orgs)
+Reads:  wildlifestats/_pipeline/sources/rehab-centers/centers.yaml (181 orgs)
 Writes: /centers/index.html      (national directory landing + searchable table)
         /centers/<state>/index.html  (per-state directory landing — 51 pages)
-        /centers/<state>/<slug>/index.html  (per-org profile — 177 pages)
+        /centers/<state>/<slug>/index.html  (per-org profile — 181 pages)
 
 Deterministic. Same registry in → byte-identical HTML out.
 
@@ -40,6 +40,7 @@ def esc(value):
 REPO_ROOT = Path(__file__).resolve().parents[4]
 REGISTRY_PATH = REPO_ROOT / "wildlifestats/_pipeline/sources/rehab-centers/centers.yaml"
 OUT_ROOT = REPO_ROOT / "centers"
+DOSSIER_ROOT = REPO_ROOT / "wildlifestats/_build/centers"
 
 STATE_NAMES = {
     "AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas",
@@ -137,6 +138,31 @@ def safe(v, default=""):
     if v is None or v == "" or v == "unknown":
         return default
     return html.escape(str(v), quote=True)
+
+
+def dossier_path(center, region_field="state", country_field="country_code", default_country="US"):
+    country = str(center.get(country_field) or default_country).upper()
+    region = str(center.get(region_field) or "_regionless").lower()
+    slug = str(center.get("slug") or "")
+    return DOSSIER_ROOT / country / region / f"{slug}.json"
+
+
+def load_org_dossier(center):
+    path = dossier_path(center)
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+
+
+def source_anchor(url):
+    safe_url = safe(url, "")
+    if not safe_url:
+        return ""
+    label = safe(str(url).replace("https://", "").replace("http://", "").rstrip("/"), safe_url)
+    return f'<a href="{safe_url}" rel="noopener">{label}</a>'
 
 
 def render_national_landing(centers):
@@ -293,6 +319,10 @@ def render_state_landing(state, centers):
 
 
 def render_org_profile(c):
+    dossier = load_org_dossier(c) or {}
+    structured = dossier.get("structured") or {}
+    dossier_contact = structured.get("contact_info") or {}
+    verified_on = safe((dossier.get("fetched_at") or "")[:10], "")
     slug = c.get("slug", "")
     state = c.get("state", "")
     state_name = STATE_NAMES.get(state, state)
@@ -304,11 +334,12 @@ def render_org_profile(c):
     wildlife_help_url = safe(c.get("wildlife_help_url"), "")
     about_url = safe(c.get("about_url"), "")
     contact_url = safe(c.get("contact_url"), "")
-    contact_email = safe(c.get("contact_email"), "")
-    contact_phone = safe(c.get("contact_phone"), "")
+    contact_email = safe(dossier_contact.get("email") or c.get("contact_email"), "")
+    contact_phone = safe(dossier_contact.get("phone") or c.get("contact_phone"), "")
     emergency_hotline = safe(c.get("emergency_hotline"), "")
-    intake_address = safe(c.get("intake_address"), "")
-    intake_hours = safe(c.get("intake_hours"), "")
+    intake_address = safe(dossier_contact.get("intake_address") or c.get("intake_address"), "")
+    intake_hours = safe(dossier_contact.get("intake_hours") or c.get("intake_hours"), "")
+    contact_source_url = dossier_contact.get("source_url") or ""
     news_or_blog = safe(c.get("news_or_blog_url"), "")
     newsletter_signup = safe(c.get("newsletter_signup_url"), "")
     patient_stories = safe(c.get("patient_stories_url"), "")
@@ -334,6 +365,63 @@ def render_org_profile(c):
     if mission:
         body += f'      <p class="lead">{mission}</p>\n'
 
+    if structured:
+        mission_statement = safe(structured.get("mission_statement"), "")
+        mission_source = source_anchor(structured.get("mission_statement_source_url"))
+        leadership_items = structured.get("leadership") or []
+        services_offered = structured.get("services_offered") or []
+        accreditations_site = structured.get("accreditations") or []
+        partnerships = structured.get("partnerships") or []
+        body += '      <section class="org-dossier">\n        <h2>Website profile</h2>\n'
+        if verified_on:
+            body += f'        <p class="org-meta"><strong>Last verified:</strong> {verified_on}</p>\n'
+        if mission_statement:
+            body += f'        <blockquote>{mission_statement}</blockquote>\n'
+            if mission_source:
+                body += f'        <p class="org-source">Source: {mission_source}</p>\n'
+        if leadership_items:
+            body += '        <h3>Leadership</h3>\n        <ul>\n'
+            for item in leadership_items:
+                title = safe(item.get("title"), "")
+                leader = safe(item.get("name"), "")
+                source = source_anchor(item.get("source_url"))
+                body += f'          <li>{title}: {leader}'
+                if source:
+                    body += f' <span class="org-source">({source})</span>'
+                body += '</li>\n'
+            body += '        </ul>\n'
+        if services_offered:
+            body += '        <h3>Services offered on the website</h3>\n        <ul>\n'
+            for item in services_offered:
+                label = safe(item.get("label"), "")
+                source = source_anchor(item.get("source_url"))
+                body += f'          <li>{label}'
+                if source:
+                    body += f' <span class="org-source">({source})</span>'
+                body += '</li>\n'
+            body += '        </ul>\n'
+        if accreditations_site:
+            body += '        <h3>Accreditations &amp; permits cited on the website</h3>\n        <ul>\n'
+            for item in accreditations_site:
+                label = safe(item.get("label"), "")
+                source = source_anchor(item.get("source_url"))
+                body += f'          <li>{label}'
+                if source:
+                    body += f' <span class="org-source">({source})</span>'
+                body += '</li>\n'
+            body += '        </ul>\n'
+        if partnerships:
+            body += '        <h3>Partnerships cited on the website</h3>\n        <ul>\n'
+            for item in partnerships:
+                partner = safe(item.get("name"), "")
+                source = source_anchor(item.get("source_url"))
+                body += f'          <li>{partner}'
+                if source:
+                    body += f' <span class="org-source">({source})</span>'
+                body += '</li>\n'
+            body += '        </ul>\n'
+        body += '      </section>\n'
+
     # Contact + intake panel
     body += '      <section class="org-contact">\n        <h2>Contact &amp; intake</h2>\n        <dl class="org-dl">\n'
     if primary_url:
@@ -348,7 +436,10 @@ def render_org_profile(c):
         body += f'          <dt>Emergency hotline</dt><dd><a href="tel:{emergency_hotline.replace(" ", "")}">{emergency_hotline}</a></dd>\n'
     if contact_email:
         body += f'          <dt>Email</dt><dd><a href="mailto:{contact_email}">{contact_email}</a></dd>\n'
-    body += '        </dl>\n      </section>\n'
+    body += '        </dl>\n'
+    if contact_source_url:
+        body += f'        <p class="org-source">Verified on website: {source_anchor(contact_source_url)}</p>\n'
+    body += '      </section>\n'
 
     # Public-facing pages
     public_links = []
@@ -418,7 +509,7 @@ def render_org_profile(c):
         body += '      </section>\n'
 
     # Leadership
-    if leadership.get("executive_director") or leadership.get("medical_director"):
+    if not (structured.get("leadership") or []) and (leadership.get("executive_director") or leadership.get("medical_director")):
         body += '      <section class="org-leadership">\n        <h2>Leadership</h2>\n        <ul>\n'
         if leadership.get("executive_director"):
             body += f"          <li>Executive Director: {esc(leadership['executive_director'])}</li>\n"
@@ -427,7 +518,7 @@ def render_org_profile(c):
         body += '        </ul>\n      </section>\n'
 
     # Accreditations
-    if accreditations:
+    if not (structured.get("accreditations") or []) and accreditations:
         body += '      <section class="org-accreditations">\n        <h2>Accreditations &amp; permits</h2>\n        <ul>\n'
         for a in accreditations:
             body += f"          <li>{esc(a)}</li>\n"
