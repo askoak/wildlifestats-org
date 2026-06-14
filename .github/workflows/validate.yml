@@ -57,6 +57,18 @@ jobs:
       - name: Run Flyway 4.5+i.3 notification tests
         run: PYTHONPATH=. python wildlifestats/_pipeline/flyway/test_notifications.py
 
+  firm-profile-test:
+    name: Bucket 02 firm-profile tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run Bucket 02 offline harvester tests
+        run: PYTHONPATH=. python wildlifestats/_pipeline/firm_profile/test_harvest.py
+
   link-check:
     name: Internal link check
     runs-on: ubuntu-latest
