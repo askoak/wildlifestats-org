@@ -28,6 +28,11 @@ This phase also writes:
 - a gap memo
 - an operational-fields note for attribution and refresh behavior
 
+GitHub-side architect review and cross-session coordination for this slice are
+described in:
+
+- `docs/handoff/wildlifestats-github-watch-protocol-2026-06-15.md`
+
 No second registry file should be created in parallel.
 
 ## Top-level shape

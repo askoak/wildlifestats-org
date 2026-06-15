@@ -42,6 +42,7 @@ This plan should be read alongside these repo-native anchors:
 - `docs/handoff/wildlifestats-form990-ingestion-spec-2026-06-11.md`
 - `docs/handoff/wildlifestats-source-registry-and-api-leverage-plan-2026-06-15.md`
 - `docs/handoff/wildlifestats-existing-corpus-sweep-2026-06-15.md`
+- `docs/handoff/wildlifestats-github-watch-protocol-2026-06-15.md`
 
 Those docs already establish:
 
@@ -54,6 +55,10 @@ Those docs already establish:
 
 This alignment plan sits above them and decides **which BRWC concepts should
 feed which WildlifeStats surfaces**.
+
+The GitHub watch-protocol note adds the operating layer for how an architect
+should review and write back on this workstream without relying on Mike as a
+relay.
 
 ## 4. What changed from earlier lane discipline
 
