@@ -1,0 +1,164 @@
+# WO-2026-06-15-wave1-public-spines-wildlife911
+# WildStats Wave 1 Step 1 + Step 4 (subset): public-registry spines + wildlife911 render binding
+#
+# Engineer pool:    Claude Code A
+# Repo:             askoak/wildlifestats-org (PUBLIC)
+# Branch:           wo/2026-06-15-wave1-wildlife911-spine
+# PR target:        main
+# PR title:         "[WLS] feat(wildlife911): wave1 spine — render national directory + state agency contacts"
+# Estimated time:   6–8 autonomous hours (one PR per Step 1, Step 4-wildlife911)
+# Parent contract:  docs/handoff/wildlifestats-wave1-public-spine-implementation-sequence-2026-06-15.md
+# Companion notes:  docs/handoff/wildlifestats-rehab-social-monitor-page-contract-2026-06-15.md
+#                   docs/handoff/wildlifestats-master-source-registry-spec-2026-06-15.md
+#                   docs/handoff/wildlifestats-wave1-implementation-readiness-note-2026-06-15.md
+# Depends on:       None — can start immediately on main HEAD (5fecd74 as of 22:14 UTC)
+# Concurrent lanes: Codex A is doing law_watch Federal Register (no file overlap)
+#                   Codex B is doing law_watch Regulations.gov (no file overlap)
+#                   Claude Code B is doing BRWC follow-ups (different repo)
+
+context: |
+  Wave 1 is the minimum useful public spine. The implementation sequence
+  (docs/handoff/wildlifestats-wave1-public-spine-implementation-sequence-2026-06-15.md)
+  defines 5 steps. This WO owns Step 1 (stabilize public registries as render-ready
+  spines) and the wildlife911 half of Step 4 (bind to page contract).
+
+  Two source registries already exist as YAML files and are public-safe:
+    - wildlifestats/_pipeline/sources/rehab-centers/centers.yaml
+    - wildlifestats/_pipeline/sources/state-vet-ag/agencies.yaml
+
+  The wildlife911 page surface exists as scaffolding:
+    - wildlifestats/_wren/wildlife911/scripts/render_static_va.py (existing — VA-only proof of concept)
+    - wildlifestats/_wren/wildlife911/templates/ (existing templates)
+    - wildlifestats/_wren/wildlife911/states/VA/ (existing VA output)
+    - wildlifestats/_wren/wildlife911/states/national/ (placeholder)
+
+  Per the readiness note, render_static_va.py is "safe to edit only when registry
+  binding is actually reached." This WO IS that reaching point.
+
+  Per the rehab-social-monitor page contract: wildlife911 must NOT imply clinical
+  advice. It is a directory + state-contact reference page, not a diagnostic tool.
+
+# ─────────────────────────────────────────────────────────────────────────────
+scope:
+  step_1_stabilize_public_registries:
+    objective: |
+      Make sure the two public registries are render-ready and consistent.
+      Document the public field subset. Add join keys if missing. NO new data.
+
+    tasks:
+      - 1a. Audit `centers.yaml`:
+          - confirm each record has: slug, name, state, city, primary_taxa, intake_phone or intake_url
+          - if any record is missing a slug, generate one as `kebab-case(name)-state-2`
+          - confirm slug is unique across all records
+          - document the public field subset in a new file
+            wildlifestats/_pipeline/sources/rehab-centers/PUBLIC_FIELDS.md
+            (which fields render publicly, which stay internal)
+          - DO NOT add new centers, DO NOT modify existing data values
+      - 1b. Audit `agencies.yaml`:
+          - confirm each record has: jurisdiction (state code), agency_name, contact_url or contact_phone
+          - if any record is missing jurisdiction, halt and surface in PR description
+          - document the public field subset in a new file
+            wildlifestats/_pipeline/sources/state-vet-ag/PUBLIC_FIELDS.md
+          - DO NOT add new agencies, DO NOT modify existing data values
+
+  step_4_wildlife911_render_binding:
+    objective: |
+      Bind the two registries to the wildlife911 page contract. Make the page
+      render NATIONALLY (all 50 states + DC), not just VA. Keep render_static_va.py
+      as the legacy entrypoint; add a new render_static_national.py for the full
+      national render.
+
+    tasks:
+      - 4a. Create `wildlifestats/_wren/wildlife911/scripts/render_static_national.py`
+          which:
+          - reads `wildlifestats/_pipeline/sources/rehab-centers/centers.yaml`
+          - reads `wildlifestats/_pipeline/sources/state-vet-ag/agencies.yaml`
+          - emits per-state index page at `wildlifestats/_wren/wildlife911/states/{STATE}/index.html`
+            for all 50 states + DC
+          - emits a national index at `wildlifestats/_wren/wildlife911/states/national/index.html`
+            with state-picker UI
+          - reuses existing templates in `wildlifestats/_wren/wildlife911/templates/`
+            if they fit; otherwise adds new templates that match the existing
+            VA visual style
+          - per page contract: lists centers in that state (link to phone/intake),
+            shows state agency contacts, includes a "for clinical advice consult a
+            veterinarian or licensed rehabilitator" disclaimer
+          - does NOT include patient outcome data, treatment success rates, or
+            anything that implies clinical advice
+      - 4b. Add a test/check that verifies:
+          - every state's centers.yaml entries render to its state page
+          - every state has an index page (even if it has 0 centers — render a
+            "no centers currently listed; contact state agency" view)
+          - state agency contact renders on every state page
+      - 4c. Update `wildlifestats/_pipeline/sources/master-source-registry.yaml`
+          entries for `wildstats_rehab_centers_registry` and `wildstats_state_vet_ag_registry`
+          ONLY in their `status` field: change `seeded` → `operational_wave1`. NO
+          other field edits in the registry.
+
+# ─────────────────────────────────────────────────────────────────────────────
+hard_rules:
+  - Do NOT touch wildlifestats/_pipeline/flyway/* (other engineer's lane).
+  - Do NOT touch wildlifestats/_pipeline/firm_profile/* (recently shipped).
+  - Do NOT add new sources to master-source-registry.yaml. Only `status` field
+    updates on the two registries this WO operates on.
+  - Do NOT add patient outcome, treatment efficacy, or any clinical-advice content.
+  - Public-safe-by-default: every rendered field must come from the public-safe
+    subset documented in the PUBLIC_FIELDS.md you wrote.
+  - If any data is ambiguous as public-safe vs internal-only, halt and write a
+    one-paragraph note to docs/handoff/wildlifestats-wave1-step1-step4-blockers-2026-06-15.md
+    rather than guessing.
+  - Cite source URLs for any external claims; the page contract requires it.
+  - The deploy preview MUST pass the BRWC content guard CI check (no BRWC-only
+    content leaked).
+
+# ─────────────────────────────────────────────────────────────────────────────
+acceptance_criteria:
+  - PUBLIC_FIELDS.md exists in both `rehab-centers/` and `state-vet-ag/`.
+  - render_static_national.py exists and runs to completion locally without
+    network access.
+  - `wildlifestats/_wren/wildlife911/states/national/index.html` exists and
+    links to all 50 state pages + DC.
+  - At least 5 state pages render with non-empty content (use existing centers
+    in those states).
+  - Every state page carries the "consult a veterinarian or licensed
+    rehabilitator" disclaimer.
+  - Existing render_static_va.py still works (regression check).
+  - Netlify deploy preview is green; all CI checks (BRWC content guard,
+    credentials leakage, _common discipline gates) SUCCESS.
+  - PR description includes:
+      - count of states with ≥1 center vs 0 centers
+      - count of centers rendered nationally
+      - count of state agencies rendered
+  - Cleanup-log entry appended to docs/handoff/wildlifestats-wave1-implementation-readiness-note-2026-06-15.md
+    section 9 (or new section) titled "Wave 1 Step 1+4-wildlife911 — landed PR #NNN".
+
+# ─────────────────────────────────────────────────────────────────────────────
+out_of_scope:
+  - law_watch normalization (Codex A's lane)
+  - Regulations.gov enrichment (Codex B's lane)
+  - Flyway social monitoring
+  - rehab_social_monitor page (different contract; this WO is wildlife911 only)
+  - eBird, iNaturalist, GBIF integration (Wave 2+)
+  - any worker-API or secure-tier integration
+  - any non-rehab-related sources from the registry
+
+# ─────────────────────────────────────────────────────────────────────────────
+if_blocked:
+  - If PUBLIC_FIELDS classification is ambiguous on >3 fields: halt; write blockers
+    note (docs/handoff/wildlifestats-wave1-step1-step4-blockers-2026-06-15.md);
+    open a draft PR with what's done; stop. Do not guess.
+  - If a state has 0 centers AND 0 agencies in the registries: still emit a state
+    page with "no listings; contact your state wildlife department" + a link to
+    USFWS.
+  - If render_static_national.py would require a new dependency in
+    `requirements.txt`: add it ONLY if it's already in the standard library or is
+    `pyyaml` (already pinned). Otherwise halt and ask via PR comment.
+
+# ─────────────────────────────────────────────────────────────────────────────
+on_completion:
+  - Mark this WO done by appending to the cleanup log in the readiness note.
+  - If autonomous time remains: do NOT extend scope. Idle until next dispatch.
+    Do not start Wave 1 Step 5 (that's a dedicated audit and Codex's lane).
+
+prepared_by: Michael Oak Advisors architect
+date: 2026-06-15
