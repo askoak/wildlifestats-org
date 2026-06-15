@@ -1029,10 +1029,12 @@ sources:
     ingest_tier: pull_core
     intended_use: page_feed
     priority: 2
-    status: seeded
+    status: operational_wave1
     page_targets: [source_explorer, law_watch]
     seeded_from: [docs/handoff/wildlifestats-source-registry-and-api-leverage-plan-2026-06-15.md]
-    notes: High-value law-watch backbone; present in planning notes, not yet operationalized.
+    operationalized_at: 2026-06-15
+    operationalized_pr: pending
+    notes: Operationalized as Wave 1 Step 2 (commit 279b956). Fetch+normalize+emit pipeline with 4 passing tests; bounded live pull (30 days, 10 hits) produced 10 normalized records spanning proposal_open / notice_only / finalized stages.
 
   - source_id: regulations_gov_api
     name: Regulations.gov API
