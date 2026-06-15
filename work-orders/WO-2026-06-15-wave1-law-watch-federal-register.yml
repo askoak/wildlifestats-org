@@ -1,0 +1,166 @@
+# WO-2026-06-15-wave1-law-watch-federal-register
+# WildStats Wave 1 Step 2: federal_register_api normalization path
+#
+# Engineer pool:    Codex A
+# Repo:             askoak/wildlifestats-org (PUBLIC)
+# Branch:           wo/2026-06-15-wave1-law-watch-federal-register
+# PR target:        main
+# PR title:         "[WLS] feat(law_watch): Federal Register normalization → law_watch records"
+# Estimated time:   6–8 autonomous hours
+# Parent contract:  docs/handoff/wildlifestats-wave1-public-spine-implementation-sequence-2026-06-15.md (Step 2)
+# Companion notes:  docs/handoff/wildlifestats-law-watch-normalized-schema-2026-06-15.md
+#                   docs/handoff/wildlifestats-law-watch-federal-field-mapping-2026-06-15.md
+#                   docs/handoff/wildlifestats-law-watch-page-contract-2026-06-15.md
+# Depends on:       None — independent of Claude Code A's wildlife911 lane
+# Concurrent lanes: Claude Code A is doing wildlife911 (no file overlap)
+#                   Codex B is doing Regulations.gov (depends on YOUR record shape)
+
+context: |
+  This WO implements Step 2 of the Wave 1 sequence: produce normalized
+  `law_watch` records from the Federal Register API only.
+
+  Two committed planning notes are the binding contract:
+    - law-watch-normalized-schema-2026-06-15.md defines the canonical record shape
+    - law-watch-federal-field-mapping-2026-06-15.md defines the exact field
+      mapping from Federal Register API response → law_watch record
+
+  Your job: write the code that performs that mapping. Nothing more.
+
+  Federal Register API docs Mike verified live:
+    https://www.federalregister.gov/developers/documentation/api/v1
+
+  No API key required. The API is public, no-auth.
+
+  Out of scope here: Regulations.gov (Codex B owns that), Congress, state bills.
+
+# ─────────────────────────────────────────────────────────────────────────────
+scope:
+  step_2_federal_register_normalization:
+    objective: |
+      Implement a normalizer that pulls from Federal Register API, filters for
+      wildlife relevance, and emits law_watch records to a local cache file.
+
+    tasks:
+      - 2a. Create module: `wildlifestats/_pipeline/law_watch/__init__.py`
+            + `wildlifestats/_pipeline/law_watch/federal_register.py`
+      - 2b. Implement `fetch_federal_register(query: str, since: date) -> list[dict]`:
+            - Hits the FR API documents.json endpoint
+            - Uses the search parameters from the field-mapping note
+            - Returns raw JSON records
+            - Handles pagination (per_page=1000 max; iterate per_page+page)
+            - Caches raw response under `wildlifestats/_pipeline/law_watch/_cache/federal_register/{YYYY-MM-DD}/page-{N}.json`
+            - Re-runs are idempotent (cache hit returns cached content)
+      - 2c. Implement `normalize_federal_register(raw: dict) -> dict`:
+            - Maps every field per the federal-field-mapping note (lines 5.*)
+            - Returns a dict matching the law_watch-normalized-schema
+            - Required fields (per the schema note): law_watch_id, source_system,
+              title, publication_date, agency_list, document_type, citation,
+              html_url, raw_payload_ref
+            - law_watch_id format: `lawwatch.federal_register_api.{document_number}`
+            - source_system: literal `"federal_register_api"`
+            - Sets `wildlife_relevance: needs_review` if no wildlife-keyword match;
+              `wildlife_relevance: likely` if matches
+            - Wildlife-keyword list: see `wildlife_keywords()` helper in your
+              module — derive from the law-watch page contract section on
+              filtering. Keywords MUST be cited verbatim from a public source
+              list (USFWS, NOAA, EPA wildlife programs); no novel inventions.
+      - 2d. Implement `emit_law_watch_records() -> int`:
+            - Loops cached raw responses
+            - Normalizes each
+            - Deduplicates by law_watch_id within source
+            - Writes JSONL to `wildlifestats/_pipeline/law_watch/_output/federal_register.jsonl`
+            - Writes a small summary JSON next to it:
+              `wildlifestats/_pipeline/law_watch/_output/federal_register-summary.json`
+              with: total_raw, total_normalized, total_likely, total_needs_review,
+              earliest_date, latest_date, last_run_utc
+            - Returns count
+      - 2e. Add tests in `wildlifestats/_pipeline/law_watch/test_federal_register.py`:
+            - Fixture: a small canned FR API response (≤5 records) committed
+              under `wildlifestats/_pipeline/law_watch/fixtures/federal_register/`
+            - Tests every required field maps correctly
+            - Tests wildlife-relevance flag triggers on a known wildlife
+              keyword and stays `needs_review` on an obvious non-wildlife rule
+            - Tests dedupe within source
+            - Tests cache idempotency
+            - Tests must pass without network access (load from fixtures)
+      - 2f. Add a Click/argparse CLI in `wildlifestats/_pipeline/law_watch/run.py`:
+            - `python -m wildlifestats._pipeline.law_watch.run fetch --since 2026-06-01`
+            - `python -m wildlifestats._pipeline.law_watch.run normalize`
+            - `python -m wildlifestats._pipeline.law_watch.run emit`
+            - Each subcommand is composable; emit can re-run on cached data.
+
+# ─────────────────────────────────────────────────────────────────────────────
+hard_rules:
+  - Do NOT modify `wildlifestats/_pipeline/sources/master-source-registry.yaml`.
+    Only update the `federal_register_api` record's `status` field from
+    `seeded` → `operational_wave1` in your PR (one-line edit OK).
+  - Do NOT touch the rehab_social_monitor / wildlife911 page surfaces (Claude
+    Code A's lane).
+  - Do NOT touch `wildlifestats/_pipeline/flyway/*` (other engineer's lane).
+  - Do NOT touch `wildlifestats/_pipeline/firm_profile/*`.
+  - The wildlife-keywords list MUST cite a public source list. No agent-invented
+    keywords. If no clean source list exists, write the gap memo and limit
+    coverage to documented categories.
+  - Cache files (`_cache/federal_register/**`) MUST be in `.gitignore`. Do NOT
+    commit raw API responses to git.
+  - Fixture files (≤5 small canned responses for tests) ARE committed under
+    `fixtures/federal_register/`.
+  - `_output/federal_register.jsonl` is the deliverable artifact — commit it
+    if it exists at end of run; otherwise the next engineer can regenerate.
+  - All BRWC content guard + credentials leakage guard CI checks must pass.
+  - If FR API rate-limits the work: cache what you have, surface the limit in
+    PR description, mark `last_run_utc` in summary; do not retry to exhaustion.
+
+# ─────────────────────────────────────────────────────────────────────────────
+acceptance_criteria:
+  - `wildlifestats/_pipeline/law_watch/federal_register.py` exists and implements
+    fetch + normalize + emit functions per scope.
+  - Tests pass: `cd wildlifestats && python -m pytest _pipeline/law_watch/test_federal_register.py -v`
+    shows all green.
+  - Running `python -m wildlifestats._pipeline.law_watch.run emit` against
+    committed fixtures produces a non-empty `federal_register.jsonl`.
+  - JSONL records validate against the law_watch-normalized-schema (every
+    record has all required fields).
+  - PR description includes:
+      - normalized record count from fixtures
+      - field-coverage report (which schema fields are populated, which use
+        `needs_review`)
+      - any wildlife-keyword list source URLs
+  - Cleanup-log entry appended to docs/handoff/wildlifestats-wave1-implementation-readiness-note-2026-06-15.md
+    titled "Wave 1 Step 2 — Federal Register normalization landed PR #NNN".
+
+# ─────────────────────────────────────────────────────────────────────────────
+out_of_scope:
+  - Regulations.gov integration (Codex B's lane)
+  - Congress.gov, state legislatures
+  - any UI page rendering for law_watch (Step 4 — separate WO)
+  - any cross-source dedupe across FR + Regulations.gov (Codex B's lane; same-
+    source dedupe within FR is in scope)
+  - workflow scheduling / cron / automation triggers
+  - Supabase or DB writes
+
+# ─────────────────────────────────────────────────────────────────────────────
+if_blocked:
+  - If FR API requires auth that doesn't exist as a free tier: halt; write a
+    blockers note; open draft PR with whatever's done.
+  - If the wildlife-keyword sourcing requires architect approval (e.g. there
+    is no clean public list of keywords): emit with the smallest defensible
+    keyword set (e.g. {"endangered species", "marine mammal", "migratory bird"})
+    citing the Endangered Species Act + Marine Mammal Protection Act +
+    Migratory Bird Treaty Act as source acts. Document why a larger list isn't
+    safe to derive autonomously.
+  - If schema field doesn't exist in the FR response and no derivation is in
+    the field-mapping note: emit the field as `null` AND log it in the
+    summary's `field_gaps: []` list.
+
+# ─────────────────────────────────────────────────────────────────────────────
+on_completion:
+  - Mark this WO done by appending to the readiness-note cleanup log.
+  - If autonomous time remains AND Codex B has not yet started Step 3, do NOT
+    encroach. Codex B's lane is Regulations.gov.
+  - If autonomous time remains AND Codex B is done: help on Step 5 (verify
+    public posture) — but only as a draft PR adding a checklist; do not modify
+    other engineers' code.
+
+prepared_by: Michael Oak Advisors architect
+date: 2026-06-15
