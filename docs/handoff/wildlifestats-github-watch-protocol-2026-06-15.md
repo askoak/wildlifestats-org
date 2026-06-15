@@ -47,8 +47,11 @@ is:
 6. `wildlifestats/_pipeline/sources/master-source-registry.yaml`
 7. `docs/handoff/wildlifestats-master-source-registry-gap-memo-2026-06-15.md`
 8. `docs/handoff/wildlifestats-master-source-registry-operational-fields-note-2026-06-15.md`
-9. `docs/handoff/wildlifestats-page-family-roadmap-2026-06-15.md`
-10. `docs/handoff/wildlifestats-page-family-build-sequence-2026-06-15.md`
+9. `docs/handoff/wildlifestats-top10-source-operationalization-plan-2026-06-15.md`
+10. `docs/handoff/wildlifestats-law-watch-normalized-schema-2026-06-15.md`
+11. `docs/handoff/wildlifestats-rehab-social-signal-normalized-schema-2026-06-15.md`
+12. `docs/handoff/wildlifestats-page-family-roadmap-2026-06-15.md`
+13. `docs/handoff/wildlifestats-page-family-build-sequence-2026-06-15.md`
 
 That sequence moves from boundary rules, to corpus reality, to canonical
 registry shape, to next-page planning.
@@ -173,11 +176,14 @@ verbose.
 
 ## 10. Immediate next bounded work after this note
 
-The next narrow WildlifeStats execution slices should be:
+The next narrow WildlifeStats execution slices should now be:
 
-1. a source-operationalization shortlist for the top 10 registry records
-2. a federal-first `law_watch` normalized record schema
-3. a metadata-only `rehab_social_signal` normalized record schema
+1. implement or spec the Wave 1 public spine around:
+   `wildstats_rehab_centers_registry`, `wildstats_state_vet_ag_registry`,
+   `federal_register_api`, and `regulations_gov_api`
+2. define the exact public page filters and card fields for `law_watch`
+3. define the exact public page filters and card fields for
+   `rehab_social_monitor`
 
-Those three tasks are small enough for clean review and directly build on the
-registry that now exists.
+The registry, top-10 shortlist, and the two normalized record schemas now exist
+and should be treated as the planning baseline for those next steps.
