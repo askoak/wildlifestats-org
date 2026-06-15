@@ -1,0 +1,1359 @@
+schema_version: 1
+registry_id: wildlifestats-master-source-registry
+generated_on: 2026-06-15
+status: seeded_from_existing_repo_materials
+canonical_notes:
+  - docs/handoff/wildlifestats-master-source-registry-spec-2026-06-15.md
+  - docs/handoff/wildlifestats-master-source-registry-gap-memo-2026-06-15.md
+  - docs/handoff/wildlifestats-master-source-registry-operational-fields-note-2026-06-15.md
+
+sources:
+  - source_id: wildstats_rehab_centers_registry
+    name: WildlifeStats National Rehab-Center Registry
+    source_class: directory
+    source_family: rehab_center
+    origin_type: wildlifestats_curated
+    canonical_url: wildlifestats/_pipeline/sources/rehab-centers/centers.yaml
+    access_method: git_tracked_yaml
+    format: yaml
+    geography_scope: usa
+    taxa_scope: multi_taxa
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: WildlifeStats curated rehab-center registry
+    attribution_required: true
+    cache_posture: curated_local_registry
+    refresh_cadence: manual_periodic
+    refresh_mode: manual_curated
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: public_directory
+    priority: 1
+    status: operational
+    page_targets: [source_explorer, center_directory, wildlife911, sector_dashboard]
+    seeded_from: [wildlifestats/_pipeline/sources/rehab-centers/centers.yaml]
+    notes: Canonical local directory asset and join spine for center-level pages.
+
+  - source_id: wildstats_state_vet_ag_registry
+    name: WildlifeStats State Veterinary and Agriculture Contacts Registry
+    source_class: directory
+    source_family: state_agency
+    origin_type: wildlifestats_curated
+    canonical_url: wildlifestats/_pipeline/sources/state-vet-ag/agencies.yaml
+    access_method: git_tracked_yaml
+    format: yaml
+    geography_scope: usa
+    taxa_scope: multi_taxa
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: WildlifeStats curated state veterinary and agriculture contacts
+    attribution_required: true
+    cache_posture: curated_local_registry
+    refresh_cadence: manual_periodic
+    refresh_mode: manual_curated
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: page_feed
+    priority: 1
+    status: operational
+    page_targets: [source_explorer, wildlife911, research_methods]
+    seeded_from: [wildlifestats/_pipeline/sources/state-vet-ag/agencies.yaml]
+    notes: Current public contact and disease-program registry for all 50 states plus DC.
+
+  - source_id: wildstats_statewide_associations_registry
+    name: WildlifeStats Statewide Wildlife Rehabilitator Associations Registry
+    source_class: directory
+    source_family: association
+    origin_type: wildlifestats_curated
+    canonical_url: wildlifestats/_pipeline/sources/statewide-associations/associations.yaml
+    access_method: git_tracked_yaml
+    format: yaml
+    geography_scope: usa
+    taxa_scope: multi_taxa
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: WildlifeStats curated statewide association registry
+    attribution_required: true
+    cache_posture: curated_local_registry
+    refresh_cadence: manual_periodic
+    refresh_mode: manual_curated
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: public_directory
+    priority: 2
+    status: operational
+    page_targets: [source_explorer, center_directory, sector_dashboard]
+    seeded_from: [wildlifestats/_pipeline/sources/statewide-associations/associations.yaml]
+    notes: Sector-network and referral context layer.
+
+  - source_id: wildstats_sector_funders_registry
+    name: WildlifeStats Wildlife Rehabilitation Sector Funders Registry
+    source_class: directory
+    source_family: funder
+    origin_type: wildlifestats_curated
+    canonical_url: wildlifestats/_pipeline/sources/sector-funders/funders.yaml
+    access_method: git_tracked_yaml
+    format: yaml
+    geography_scope: usa
+    taxa_scope: multi_taxa
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: WildlifeStats curated sector funders registry
+    attribution_required: true
+    cache_posture: curated_local_registry
+    refresh_cadence: manual_periodic
+    refresh_mode: manual_curated
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: public_directory
+    priority: 2
+    status: operational
+    page_targets: [source_explorer, grants_funders, sector_dashboard]
+    seeded_from: [wildlifestats/_pipeline/sources/sector-funders/funders.yaml]
+    notes: Curated funding landscape starter for grants and sector pages.
+
+  - source_id: wildstats_usfws_offices_registry
+    name: WildlifeStats USFWS Regional and Field Offices Registry
+    source_class: directory
+    source_family: federal_agency
+    origin_type: wildlifestats_curated
+    canonical_url: wildlifestats/_pipeline/sources/usfws-offices/offices.yaml
+    access_method: git_tracked_yaml
+    format: yaml
+    geography_scope: usa
+    taxa_scope: multi_taxa
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: WildlifeStats curated USFWS office registry
+    attribution_required: true
+    cache_posture: curated_local_registry
+    refresh_cadence: manual_periodic
+    refresh_mode: manual_curated
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: public_directory
+    priority: 2
+    status: operational
+    page_targets: [source_explorer, wildlife911, research_methods]
+    seeded_from: [wildlifestats/_pipeline/sources/usfws-offices/offices.yaml]
+    notes: Federal office directory supporting routing and regulatory context.
+
+  - source_id: flyway_social_roster
+    name: Flyway public social monitoring roster
+    source_class: social
+    source_family: social_monitor
+    origin_type: wildlifestats_curated
+    canonical_url: wildlifestats/_pipeline/sources/flyway-social-seed-top100.csv
+    access_method: git_tracked_csv
+    format: csv
+    geography_scope: usa
+    taxa_scope: multi_taxa
+    license_type: mixed_open
+    public_safe_for_display: false
+    public_safe_for_ai_analysis: true
+    attribution_badge: Flyway monitored public pages roster
+    attribution_required: true
+    cache_posture: curated_local_registry
+    refresh_cadence: manual_periodic
+    refresh_mode: manual_curated
+    credential_hint: apify
+    ingest_tier: pull_periodic
+    intended_use: page_feed
+    priority: 2
+    status: operational
+    page_targets: [source_explorer, flyway, rehab_social_monitor]
+    seeded_from: [wildlifestats/_pipeline/sources/README.md]
+    notes: Monitored roster only; raw post text is not the public product.
+
+  - source_id: flyway_phrase_search_discovery
+    name: Flyway public phrase-search discovery config
+    source_class: social
+    source_family: social_monitor
+    origin_type: wildlifestats_curated
+    canonical_url: wildlifestats/_pipeline/sources/flyway-phrase-search.json
+    access_method: git_tracked_json
+    format: json
+    geography_scope: usa
+    taxa_scope: multi_taxa
+    license_type: mixed_open
+    public_safe_for_display: false
+    public_safe_for_ai_analysis: true
+    attribution_badge: Flyway discovery query set
+    attribution_required: false
+    cache_posture: curated_local_registry
+    refresh_cadence: manual_periodic
+    refresh_mode: manual_curated
+    credential_hint: apify
+    ingest_tier: directory_only
+    intended_use: page_feed
+    priority: 3
+    status: operational
+    page_targets: [flyway]
+    seeded_from: [wildlifestats/_pipeline/sources/flyway-phrase-search.json]
+    notes: Discovery config for new candidate pages rather than a public-facing data source.
+
+  - source_id: journey_north
+    name: Journey North
+    source_class: research_data
+    source_family: taxonomy_occurrence
+    origin_type: external_public
+    canonical_url: https://journeynorth.org
+    access_method: bulk_download
+    format: json
+    geography_scope: north_america
+    taxa_scope: selected_migratory_taxa
+    license_type: not_stated
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via Journey North
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: seasonal
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: page_feed
+    priority: 2
+    status: seeded
+    page_targets: [source_explorer, flyway, species_pages]
+    seeded_from: [wildlifestats/_pipeline/sources/journey-north.json, wildlifestats/_pipeline/sources/README.md]
+    notes: Strong migration and first-of-season signal source for selected taxa.
+
+  - source_id: usgs_whispers_nwhc
+    name: USGS WHISPers / NWHC diagnostic event data
+    source_class: official_data
+    source_family: disease_surveillance
+    origin_type: external_public
+    canonical_url: https://whispers.usgs.gov
+    access_method: bulk_download
+    format: csv
+    geography_scope: usa
+    taxa_scope: multi_taxa
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via USGS WHISPers
+    attribution_required: true
+    cache_posture: build_time_derived
+    refresh_cadence: continuous_with_periodic_snapshots
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: ai_analysis
+    priority: 1
+    status: seeded
+    page_targets: [source_explorer, species_pages, research_methods, sector_dashboard]
+    seeded_from: [docs/research/data-sources/01-federal-state.md, docs/research/data-sources/03-citizen-science.md]
+    notes: Highest-value open U.S. wildlife disease and mortality event backbone.
+
+  - source_id: usgs_bbl
+    name: USGS Bird Banding Laboratory
+    source_class: official_data
+    source_family: taxonomy_occurrence
+    origin_type: external_public
+    canonical_url: https://www.usgs.gov/labs/bird-banding-laboratory
+    access_method: bulk_download
+    format: csv
+    geography_scope: north_america
+    taxa_scope: birds
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via USGS Bird Banding Laboratory
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: annual
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 3
+    status: seeded
+    page_targets: [source_explorer, species_pages, research_methods]
+    seeded_from: [docs/research/data-sources/01-federal-state.md]
+    notes: Avian movement, encounter, and mortality context source.
+
+  - source_id: usfws_ecos
+    name: USFWS ECOS / ECOSphere
+    source_class: official_data
+    source_family: federal_agency
+    origin_type: external_public
+    canonical_url: https://ecos.fws.gov/ecp/services
+    access_method: public_api
+    format: json_xml_csv
+    geography_scope: usa
+    taxa_scope: multi_taxa
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via USFWS ECOS
+    attribution_required: true
+    cache_posture: cached_reference
+    refresh_cadence: weekly_or_event_driven
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: ai_analysis
+    priority: 2
+    status: seeded
+    page_targets: [source_explorer, species_pages, wildlife911, research_methods]
+    seeded_from: [docs/research/data-sources/01-federal-state.md]
+    notes: Protected-species status and regulatory context source.
+
+  - source_id: gbif
+    name: GBIF
+    source_class: research_data
+    source_family: taxonomy_occurrence
+    origin_type: external_public
+    canonical_url: https://www.gbif.org
+    access_method: public_api
+    format: json_dwca_csv
+    geography_scope: global
+    taxa_scope: multi_taxa
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via GBIF.org
+    attribution_required: true
+    cache_posture: cached_reference
+    refresh_cadence: daily_to_weekly
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: ai_analysis
+    priority: 1
+    status: seeded
+    page_targets: [source_explorer, species_pages, flyway, research_methods]
+    seeded_from: [docs/research/data-sources/01-federal-state.md, docs/research/data-sources/03-citizen-science.md]
+    notes: Cross-taxa occurrence backbone with per-record license filtering.
+
+  - source_id: epa_ecotox
+    name: EPA ECOTOX Knowledgebase
+    source_class: official_data
+    source_family: disease_surveillance
+    origin_type: external_public
+    canonical_url: https://cfpub.epa.gov/ecotox/
+    access_method: bulk_download
+    format: csv
+    geography_scope: global
+    taxa_scope: multi_taxa
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via EPA ECOTOX
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: quarterly
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 3
+    status: seeded
+    page_targets: [source_explorer, research_methods, species_pages]
+    seeded_from: [docs/research/data-sources/01-federal-state.md]
+    notes: Toxicology and contaminant-effects reference layer rather than live surveillance.
+
+  - source_id: cdc_nors
+    name: CDC National Outbreak Reporting System
+    source_class: official_data
+    source_family: disease_surveillance
+    origin_type: external_public
+    canonical_url: https://www.cdc.gov/nors/
+    access_method: bulk_download
+    format: csv
+    geography_scope: usa
+    taxa_scope: multi_taxa
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via CDC NORS
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: annual
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 3
+    status: seeded
+    page_targets: [source_explorer, research_methods]
+    seeded_from: [docs/research/data-sources/01-federal-state.md]
+    notes: Human-outbreak system with animal-contact and One Health relevance.
+
+  - source_id: neon
+    name: NSF NEON wildlife and pathogen data products
+    source_class: research_data
+    source_family: disease_surveillance
+    origin_type: external_public
+    canonical_url: https://data.neonscience.org
+    access_method: public_api
+    format: csv_json
+    geography_scope: usa
+    taxa_scope: selected_taxa
+    license_type: cc0
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via NSF NEON
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: rolling_release
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: ai_analysis
+    priority: 2
+    status: seeded
+    page_targets: [source_explorer, research_methods, species_pages]
+    seeded_from: [docs/research/data-sources/01-federal-state.md, docs/research/data-sources/03-citizen-science.md]
+    notes: Strong vector, small-mammal, and ecological surveillance complement.
+
+  - source_id: usda_aphis_hpai_wild_birds
+    name: USDA APHIS HPAI wild bird detections
+    source_class: official_data
+    source_family: disease_surveillance
+    origin_type: external_public
+    canonical_url: https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/wild-birds
+    access_method: dashboard_export
+    format: html_table_csv
+    geography_scope: usa
+    taxa_scope: birds
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via USDA APHIS HPAI wild bird detections
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: weekday
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: page_feed
+    priority: 2
+    status: seeded
+    page_targets: [source_explorer, flyway, species_pages, research_methods]
+    seeded_from: [docs/research/data-sources/01-federal-state.md, docs/research/data-sources/04-rehab-onehealth.md]
+    notes: Active avian disease surveillance table suited to regular refresh.
+
+  - source_id: cdc_arbonet
+    name: CDC ArboNET
+    source_class: official_data
+    source_family: disease_surveillance
+    origin_type: external_public
+    canonical_url: https://www.cdc.gov/vector-borne-diseases/php/arbonet/index.html
+    access_method: bulk_download
+    format: csv_excel
+    geography_scope: usa
+    taxa_scope: vectors_and_hosts
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via CDC ArboNET
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: weekly_in_season
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: ai_analysis
+    priority: 2
+    status: seeded
+    page_targets: [source_explorer, research_methods, species_pages]
+    seeded_from: [docs/research/data-sources/04-rehab-onehealth.md]
+    notes: Arboviral surveillance source spanning humans, vectors, birds, and sentinel animals.
+
+  - source_id: cdc_nndss
+    name: CDC National Notifiable Diseases Surveillance System
+    source_class: official_data
+    source_family: disease_surveillance
+    origin_type: external_public
+    canonical_url: https://www.cdc.gov/nndss/
+    access_method: bulk_download
+    format: csv
+    geography_scope: usa
+    taxa_scope: zoonotic_human_cases
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via CDC NNDSS
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: weekly_provisional_annual_final
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 4
+    status: seeded
+    page_targets: [source_explorer, research_methods]
+    seeded_from: [docs/research/data-sources/01-federal-state.md]
+    notes: Human-side zoonotic correlate rather than wildlife-origin dataset.
+
+  - source_id: state_rehab_annual_reports
+    name: State wildlife rehabilitation annual reports
+    source_class: official_data
+    source_family: state_agency
+    origin_type: external_public
+    canonical_url: state-by-state
+    access_method: manual_request
+    format: pdf_csv_mixed
+    geography_scope: usa
+    taxa_scope: rehab_case_data
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via state wildlife rehabilitation reports
+    attribution_required: true
+    cache_posture: manual_review
+    refresh_cadence: annual
+    refresh_mode: request_driven
+    credential_hint: none
+    ingest_tier: manual_on_demand
+    intended_use: ai_analysis
+    priority: 2
+    status: seeded
+    page_targets: [source_explorer, sector_dashboard, research_methods]
+    seeded_from: [docs/research/data-sources/01-federal-state.md]
+    notes: High-value rehab case-load family but highly heterogeneous across states.
+
+  - source_id: state_wildlife_open_data_portals
+    name: State wildlife agency open data portals
+    source_class: official_data
+    source_family: state_agency
+    origin_type: external_public
+    canonical_url: state-by-state
+    access_method: public_api
+    format: mixed
+    geography_scope: usa
+    taxa_scope: multi_taxa
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via state wildlife agency open data portals
+    attribution_required: true
+    cache_posture: manual_review
+    refresh_cadence: mixed
+    refresh_mode: on_demand
+    credential_hint: none
+    ingest_tier: directory_only
+    intended_use: reference_only
+    priority: 4
+    status: seeded
+    page_targets: [source_explorer, research_methods]
+    seeded_from: [docs/research/data-sources/01-federal-state.md]
+    notes: Valuable family but too heterogeneous for immediate unified ingestion.
+
+  - source_id: inaturalist
+    name: iNaturalist
+    source_class: research_data
+    source_family: taxonomy_occurrence
+    origin_type: external_public
+    canonical_url: https://www.inaturalist.org
+    access_method: public_api
+    format: json_dwca_csv
+    geography_scope: global
+    taxa_scope: multi_taxa
+    license_type: cc_by_nc_mixed
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Photos and observations via iNaturalist
+    attribution_required: true
+    cache_posture: build_time_derived
+    refresh_cadence: weekly_or_on_demand
+    refresh_mode: scheduled_rebuild
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: ai_analysis
+    priority: 1
+    status: seeded
+    page_targets: [source_explorer, species_pages, flyway, wildlife911]
+    seeded_from: [docs/research/data-sources/03-citizen-science.md, docs/research/data-sources/05-apis-scrapers-literature.md]
+    notes: Must preserve per-record licensing and attribution; best used through filtered derived outputs.
+
+  - source_id: ebird_ebd
+    name: eBird Basic Dataset
+    source_class: research_data
+    source_family: taxonomy_occurrence
+    origin_type: external_public
+    canonical_url: https://science.ebird.org/en/use-ebird-data/download-ebird-data-products
+    access_method: authenticated_api
+    format: tab_delimited
+    geography_scope: global
+    taxa_scope: birds
+    license_type: custom_noncommercial
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Species and observation data via eBird
+    attribution_required: true
+    cache_posture: cached_reference
+    refresh_cadence: monthly
+    refresh_mode: scheduled_pull
+    credential_hint: ebird
+    ingest_tier: pull_core
+    intended_use: ai_analysis
+    priority: 1
+    status: seeded
+    page_targets: [source_explorer, species_pages, flyway, wildlife911]
+    seeded_from: [docs/research/data-sources/03-citizen-science.md, docs/research/data-sources/01-federal-state.md]
+    notes: Strong avian backbone but license posture must be handled per surface.
+
+  - source_id: ebird_status_trends
+    name: eBird Status and Trends
+    source_class: research_data
+    source_family: taxonomy_occurrence
+    origin_type: external_public
+    canonical_url: https://ebird.org/st/request
+    access_method: authenticated_api
+    format: geotiff_geopackage
+    geography_scope: global
+    taxa_scope: birds
+    license_type: custom_noncommercial
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via eBird Status and Trends
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: annual
+    refresh_mode: scheduled_pull
+    credential_hint: ebird
+    ingest_tier: manual_on_demand
+    intended_use: ai_analysis
+    priority: 4
+    status: seeded
+    page_targets: [source_explorer, species_pages, research_methods]
+    seeded_from: [docs/research/data-sources/03-citizen-science.md]
+    notes: Valuable modeled abundance layer, but heavier than the first operational slice needs.
+
+  - source_id: usgs_bbs
+    name: USGS North American Breeding Bird Survey
+    source_class: research_data
+    source_family: taxonomy_occurrence
+    origin_type: external_public
+    canonical_url: https://www.pwrc.usgs.gov/bbs/
+    access_method: bulk_download
+    format: csv
+    geography_scope: north_america
+    taxa_scope: birds
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via USGS Breeding Bird Survey
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: annual
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 4
+    status: seeded
+    page_targets: [source_explorer, species_pages, research_methods]
+    seeded_from: [docs/research/data-sources/03-citizen-science.md]
+    notes: Long-horizon avian trend context rather than live signal layer.
+
+  - source_id: globe_observer_mosquito
+    name: GLOBE Observer Mosquito Habitat Mapper
+    source_class: research_data
+    source_family: disease_surveillance
+    origin_type: external_public
+    canonical_url: https://observer.globe.gov/get-data/mosquito-habitat-data
+    access_method: public_api
+    format: csv_json
+    geography_scope: global
+    taxa_scope: vectors
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via GLOBE Observer
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: periodic
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 3
+    status: seeded
+    page_targets: [source_explorer, research_methods]
+    seeded_from: [docs/research/data-sources/03-citizen-science.md]
+    notes: Useful vector surveillance complement with broad public participation.
+
+  - source_id: snapshot_usa
+    name: Snapshot USA
+    source_class: research_data
+    source_family: taxonomy_occurrence
+    origin_type: external_public
+    canonical_url: https://nationalzoo.si.edu/conservation-ecology-center/snapshot-usa
+    access_method: bulk_download
+    format: cc_dataset
+    geography_scope: usa
+    taxa_scope: mammals
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via Snapshot USA
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: annual_or_project_cycle
+    refresh_mode: manual_curated
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 4
+    status: seeded
+    page_targets: [source_explorer, species_pages, research_methods]
+    seeded_from: [docs/research/data-sources/03-citizen-science.md]
+    notes: Standardized camera-trap mammal context; not yet a core first-wave dependency.
+
+  - source_id: wildlife_insights
+    name: Wildlife Insights
+    source_class: research_data
+    source_family: taxonomy_occurrence
+    origin_type: external_public
+    canonical_url: https://www.wildlifeinsights.org
+    access_method: public_api
+    format: json
+    geography_scope: global
+    taxa_scope: camera_trap_fauna
+    license_type: cc_by_nc_mixed
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via Wildlife Insights
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: mixed
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 4
+    status: seeded
+    page_targets: [source_explorer, species_pages, research_methods]
+    seeded_from: [docs/research/data-sources/03-citizen-science.md]
+    notes: Strong camera-trap platform but licensing and project heterogeneity require care.
+
+  - source_id: nabat
+    name: NABat
+    source_class: research_data
+    source_family: taxonomy_occurrence
+    origin_type: external_restricted
+    canonical_url: https://www.nabatmonitoring.org/get-data
+    access_method: manual_request
+    format: zip_mixed
+    geography_scope: north_america
+    taxa_scope: bats
+    license_type: mixed_restricted
+    public_safe_for_display: false
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via NABat
+    attribution_required: true
+    cache_posture: partner_request_only
+    refresh_cadence: periodic
+    refresh_mode: request_driven
+    credential_hint: none
+    ingest_tier: manual_on_demand
+    intended_use: secure_only
+    priority: 5
+    status: seeded
+    page_targets: [source_explorer]
+    seeded_from: [docs/research/data-sources/03-citizen-science.md]
+    notes: Important bat surveillance family, but not a first public-ingest source.
+
+  - source_id: cros
+    name: California Roadkill Observation System
+    source_class: research_data
+    source_family: disease_surveillance
+    origin_type: external_restricted
+    canonical_url: https://roadecology.ucdavis.edu/research/projects/cros
+    access_method: manual_request
+    format: mixed
+    geography_scope: california
+    taxa_scope: roadkill_multi_taxa
+    license_type: not_stated
+    public_safe_for_display: false
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via CROS
+    attribution_required: true
+    cache_posture: partner_request_only
+    refresh_cadence: periodic
+    refresh_mode: request_driven
+    credential_hint: none
+    ingest_tier: manual_on_demand
+    intended_use: ai_analysis
+    priority: 5
+    status: seeded
+    page_targets: [source_explorer]
+    seeded_from: [docs/research/data-sources/03-citizen-science.md]
+    notes: High-value mortality source but not yet a scalable national path.
+
+  - source_id: woah_wahis
+    name: WOAH WAHIS
+    source_class: official_data
+    source_family: disease_surveillance
+    origin_type: external_public
+    canonical_url: https://www.woah.org/en/what-we-do/animal-health-and-welfare/disease-data-collection/world-animal-health-information-system/
+    access_method: dashboard_export
+    format: csv_json
+    geography_scope: global
+    taxa_scope: multi_taxa
+    license_type: not_stated
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via WOAH WAHIS
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: real_time_and_periodic
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 3
+    status: seeded
+    page_targets: [source_explorer, research_methods, species_pages]
+    seeded_from: [docs/research/data-sources/04-rehab-onehealth.md]
+    notes: International disease context layer, especially useful for cross-border outbreak framing.
+
+  - source_id: cdc_rabies
+    name: CDC rabies surveillance
+    source_class: official_data
+    source_family: disease_surveillance
+    origin_type: external_public
+    canonical_url: https://www.cdc.gov/rabies/php/protecting-public-health/index.html
+    access_method: bulk_download
+    format: annual_reports_tables
+    geography_scope: usa
+    taxa_scope: rabies_hosts
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via CDC rabies surveillance
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: annual
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 3
+    status: seeded
+    page_targets: [source_explorer, species_pages, research_methods]
+    seeded_from: [docs/research/data-sources/04-rehab-onehealth.md]
+    notes: Important national zoonotic wildlife disease layer with annual cadence.
+
+  - source_id: cdc_tick_surveillance
+    name: CDC tick surveillance datasets
+    source_class: official_data
+    source_family: disease_surveillance
+    origin_type: external_public
+    canonical_url: https://www.cdc.gov/ticks/data-research/facts-stats/index.html
+    access_method: bulk_download
+    format: csv_excel
+    geography_scope: usa
+    taxa_scope: vectors
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via CDC tick surveillance
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: annual
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 4
+    status: seeded
+    page_targets: [source_explorer, species_pages, research_methods]
+    seeded_from: [docs/research/data-sources/04-rehab-onehealth.md]
+    notes: Strong vector-risk covariate family, though mostly human-side and county-level.
+
+  - source_id: noaa_stssn
+    name: NOAA Sea Turtle Stranding and Salvage Network
+    source_class: official_data
+    source_family: disease_surveillance
+    origin_type: external_public
+    canonical_url: https://www.fisheries.noaa.gov/national/marine-life-distress/sea-turtle-stranding-and-salvage-network
+    access_method: dashboard_export
+    format: tabular_reports
+    geography_scope: usa
+    taxa_scope: sea_turtles
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via NOAA STSSN
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: periodic
+    refresh_mode: request_driven
+    credential_hint: none
+    ingest_tier: manual_on_demand
+    intended_use: ai_analysis
+    priority: 4
+    status: seeded
+    page_targets: [source_explorer, species_pages]
+    seeded_from: [docs/research/data-sources/04-rehab-onehealth.md]
+    notes: High-value marine stranding layer with verification and coordinator dependencies.
+
+  - source_id: noaa_mmhsrp
+    name: NOAA Marine Mammal Health and Stranding Response Program
+    source_class: official_data
+    source_family: disease_surveillance
+    origin_type: external_restricted
+    canonical_url: https://www.fisheries.noaa.gov/national/marine-life-distress/marine-mammal-health-and-stranding-response-program
+    access_method: partner_request
+    format: annual_reports_and_restricted_records
+    geography_scope: usa
+    taxa_scope: marine_mammals
+    license_type: restricted_partner
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via NOAA MMHSRP
+    attribution_required: true
+    cache_posture: partner_request_only
+    refresh_cadence: annual
+    refresh_mode: request_driven
+    credential_hint: none
+    ingest_tier: manual_on_demand
+    intended_use: secure_only
+    priority: 5
+    status: seeded
+    page_targets: [source_explorer]
+    seeded_from: [docs/research/data-sources/04-rehab-onehealth.md]
+    notes: Aggregate public value exists, but research-grade individual records are agreement-gated.
+
+  - source_id: usda_nass_honey_bee
+    name: USDA NASS honey bee colonies survey
+    source_class: official_data
+    source_family: disease_surveillance
+    origin_type: external_public
+    canonical_url: https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Bee_and_Honey/
+    access_method: public_api
+    format: json_csv
+    geography_scope: usa
+    taxa_scope: pollinators
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via USDA NASS Bee and Honey
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: quarterly
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 4
+    status: seeded
+    page_targets: [source_explorer, species_pages, research_methods]
+    seeded_from: [docs/research/data-sources/04-rehab-onehealth.md]
+    notes: Pollinator health indicator with strong environmental context value.
+
+  - source_id: wrmd
+    name: Wildlife Rehabilitation Medical Database
+    source_class: research_data
+    source_family: rehab_center
+    origin_type: external_partner
+    canonical_url: https://wrmd.org/api/v3
+    access_method: partner_request
+    format: api_json
+    geography_scope: international
+    taxa_scope: rehab_case_data
+    license_type: restricted_partner
+    public_safe_for_display: false
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via WRMD
+    attribution_required: true
+    cache_posture: partner_request_only
+    refresh_cadence: request_based
+    refresh_mode: request_driven
+    credential_hint: none
+    ingest_tier: do_not_ingest
+    intended_use: secure_only
+    priority: 2
+    status: seeded
+    page_targets: [source_explorer]
+    seeded_from: [docs/research/data-sources/04-rehab-onehealth.md]
+    notes: Strategically important clinical system but not a public-ingest source.
+
+  - source_id: wild_one
+    name: WILD-ONe
+    source_class: research_data
+    source_family: rehab_center
+    origin_type: external_partner
+    canonical_url: https://wildlifecenter.org/professional-training/wild-one
+    access_method: manual_request
+    format: restricted_platform
+    geography_scope: usa
+    taxa_scope: rehab_case_data
+    license_type: restricted_partner
+    public_safe_for_display: false
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via WILD-ONe
+    attribution_required: true
+    cache_posture: partner_request_only
+    refresh_cadence: request_based
+    refresh_mode: request_driven
+    credential_hint: none
+    ingest_tier: do_not_ingest
+    intended_use: secure_only
+    priority: 3
+    status: seeded
+    page_targets: [source_explorer]
+    seeded_from: [docs/research/data-sources/04-rehab-onehealth.md]
+    notes: Important institutional partner system; treat as request and agreement based.
+
+  - source_id: federal_register_api
+    name: Federal Register API
+    source_class: law_policy
+    source_family: law_regulation
+    origin_type: external_public
+    canonical_url: https://www.federalregister.gov/developers/api/v1
+    access_method: public_api
+    format: json
+    geography_scope: usa
+    taxa_scope: policy_topics
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via the Federal Register
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: daily
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: page_feed
+    priority: 2
+    status: seeded
+    page_targets: [source_explorer, law_watch]
+    seeded_from: [docs/handoff/wildlifestats-source-registry-and-api-leverage-plan-2026-06-15.md]
+    notes: High-value law-watch backbone; present in planning notes, not yet operationalized.
+
+  - source_id: regulations_gov_api
+    name: Regulations.gov API
+    source_class: law_policy
+    source_family: law_regulation
+    origin_type: external_public
+    canonical_url: https://open.gsa.gov/api/regulationsgov/
+    access_method: authenticated_api
+    format: json
+    geography_scope: usa
+    taxa_scope: policy_topics
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via Regulations.gov
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: daily
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: page_feed
+    priority: 2
+    status: seeded
+    page_targets: [source_explorer, law_watch]
+    seeded_from: [docs/handoff/wildlifestats-source-registry-and-api-leverage-plan-2026-06-15.md]
+    notes: Needed for rulemaking comment periods and docket tracking.
+
+  - source_id: congress_gov_api
+    name: Congress.gov API
+    source_class: law_policy
+    source_family: law_regulation
+    origin_type: external_public
+    canonical_url: https://api.congress.gov
+    access_method: authenticated_api
+    format: json
+    geography_scope: usa
+    taxa_scope: policy_topics
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via Congress.gov
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: daily
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: page_feed
+    priority: 3
+    status: seeded
+    page_targets: [source_explorer, law_watch]
+    seeded_from: [docs/handoff/wildlifestats-source-registry-and-api-leverage-plan-2026-06-15.md]
+    notes: Federal legislative tracking layer for wildlife-related bills.
+
+  - source_id: openstates_api
+    name: Open States API
+    source_class: law_policy
+    source_family: law_regulation
+    origin_type: external_public
+    canonical_url: https://openstates.org
+    access_method: authenticated_api
+    format: json
+    geography_scope: usa
+    taxa_scope: policy_topics
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via Open States
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: daily
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: page_feed
+    priority: 3
+    status: seeded
+    page_targets: [source_explorer, law_watch]
+    seeded_from: [docs/handoff/wildlifestats-source-registry-and-api-leverage-plan-2026-06-15.md]
+    notes: Best current multi-state bill-tracking seed named in WildStats planning.
+
+  - source_id: itis
+    name: ITIS
+    source_class: official_data
+    source_family: technical_reference
+    origin_type: external_public
+    canonical_url: https://www.itis.gov/web_service.html
+    access_method: public_api
+    format: json
+    geography_scope: global
+    taxa_scope: multi_taxa
+    license_type: public_domain
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via ITIS
+    attribution_required: true
+    cache_posture: cached_reference
+    refresh_cadence: periodic
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: ai_analysis
+    priority: 2
+    status: seeded
+    page_targets: [source_explorer, species_pages, research_methods]
+    seeded_from: [docs/research/data-sources/05-apis-scrapers-literature.md]
+    notes: Taxonomic resolver and crosswalk backbone candidate.
+
+  - source_id: open_tree_of_life
+    name: Open Tree of Life
+    source_class: research_data
+    source_family: technical_reference
+    origin_type: external_public
+    canonical_url: https://opentreeoflife.org
+    access_method: public_api
+    format: json_newick
+    geography_scope: global
+    taxa_scope: multi_taxa
+    license_type: cc0
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via Open Tree of Life
+    attribution_required: true
+    cache_posture: cached_reference
+    refresh_cadence: periodic
+    refresh_mode: on_demand
+    credential_hint: none
+    ingest_tier: directory_only
+    intended_use: reference_only
+    priority: 5
+    status: seeded
+    page_targets: [source_explorer, research_methods]
+    seeded_from: [docs/research/data-sources/05-apis-scrapers-literature.md]
+    notes: Strong phylogenetic context source but not a first-wave page dependency.
+
+  - source_id: wikidata
+    name: Wikidata
+    source_class: research_data
+    source_family: technical_reference
+    origin_type: external_public
+    canonical_url: https://query.wikidata.org
+    access_method: public_api
+    format: sparql_json_csv
+    geography_scope: global
+    taxa_scope: multi_taxa
+    license_type: cc0
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via Wikidata
+    attribution_required: true
+    cache_posture: cached_reference
+    refresh_cadence: periodic
+    refresh_mode: on_demand
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 4
+    status: seeded
+    page_targets: [source_explorer, species_pages, research_methods]
+    seeded_from: [docs/research/data-sources/05-apis-scrapers-literature.md]
+    notes: Best as a linked-data crosswalk and enrichment layer, not a primary truth source.
+
+  - source_id: crossref
+    name: Crossref
+    source_class: literature
+    source_family: literature_index
+    origin_type: external_public
+    canonical_url: https://api.crossref.org
+    access_method: public_api
+    format: json
+    geography_scope: global
+    taxa_scope: literature_metadata
+    license_type: cc0
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Metadata via Crossref
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: daily_or_on_demand
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: ai_analysis
+    priority: 2
+    status: seeded
+    page_targets: [source_explorer, source_cards, research_methods]
+    seeded_from: [docs/research/data-sources/05-apis-scrapers-literature.md]
+    notes: Strong DOI metadata and data-paper discovery layer.
+
+  - source_id: biorxiv_medrxiv
+    name: bioRxiv and medRxiv
+    source_class: literature
+    source_family: literature_index
+    origin_type: external_public
+    canonical_url: https://api.biorxiv.org
+    access_method: public_api
+    format: json_xml
+    geography_scope: global
+    taxa_scope: literature_metadata
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Metadata via bioRxiv and medRxiv
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: daily
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 4
+    status: seeded
+    page_targets: [source_explorer, wildlife_news, research_methods]
+    seeded_from: [docs/research/data-sources/05-apis-scrapers-literature.md]
+    notes: Fast-moving preprint layer for outbreak and disease research.
+
+  - source_id: iucn_red_list
+    name: IUCN Red List API
+    source_class: research_data
+    source_family: technical_reference
+    origin_type: external_public
+    canonical_url: https://apiv3.iucnredlist.org/api/v3/docs
+    access_method: authenticated_api
+    format: json
+    geography_scope: global
+    taxa_scope: multi_taxa
+    license_type: custom_noncommercial
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Data via the IUCN Red List
+    attribution_required: true
+    cache_posture: cached_reference
+    refresh_cadence: periodic
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: ai_analysis
+    priority: 4
+    status: seeded
+    page_targets: [source_explorer, species_pages, research_methods]
+    seeded_from: [docs/research/data-sources/05-apis-scrapers-literature.md]
+    notes: Conservation status and threats context source with license caveats.
+
+  - source_id: pubmed_pmc
+    name: PubMed and PubMed Central
+    source_class: literature
+    source_family: literature_index
+    origin_type: external_public
+    canonical_url: https://pubmed.ncbi.nlm.nih.gov
+    access_method: public_api
+    format: xml_json
+    geography_scope: global
+    taxa_scope: literature_metadata
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Metadata via PubMed
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: daily
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: ai_analysis
+    priority: 2
+    status: seeded
+    page_targets: [source_explorer, source_cards, research_methods]
+    seeded_from: [docs/research/data-sources/05-apis-scrapers-literature.md]
+    notes: Foundational biomedical and veterinary literature layer.
+
+  - source_id: openalex
+    name: OpenAlex
+    source_class: literature
+    source_family: literature_index
+    origin_type: external_public
+    canonical_url: https://docs.openalex.org
+    access_method: public_api
+    format: json
+    geography_scope: global
+    taxa_scope: literature_metadata
+    license_type: cc0
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Metadata via OpenAlex
+    attribution_required: true
+    cache_posture: periodic_snapshot
+    refresh_cadence: quarterly_or_on_demand
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_core
+    intended_use: ai_analysis
+    priority: 3
+    status: seeded
+    page_targets: [source_explorer, source_cards, research_methods]
+    seeded_from: [docs/research/data-sources/05-apis-scrapers-literature.md]
+    notes: Strong open citation graph and non-MEDLINE literature complement.
+
+  - source_id: gdelt_doc
+    name: GDELT DOC API
+    source_class: news
+    source_family: news_monitoring
+    origin_type: external_public
+    canonical_url: https://www.gdeltproject.org/
+    access_method: public_api
+    format: json
+    geography_scope: global
+    taxa_scope: wildlife_news_topics
+    license_type: mixed_open
+    public_safe_for_display: true
+    public_safe_for_ai_analysis: true
+    attribution_badge: Monitoring via GDELT
+    attribution_required: true
+    cache_posture: live_query_cautious
+    refresh_cadence: daily
+    refresh_mode: scheduled_pull
+    credential_hint: none
+    ingest_tier: pull_periodic
+    intended_use: page_feed
+    priority: 3
+    status: seeded
+    page_targets: [source_explorer, wildlife_news, law_watch]
+    seeded_from: [docs/research/data-sources/05-apis-scrapers-literature.md]
+    notes: Best currently named fast-turn media monitoring source in the repo corpus.
