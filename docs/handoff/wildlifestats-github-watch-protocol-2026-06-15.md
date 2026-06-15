@@ -50,8 +50,11 @@ is:
 9. `docs/handoff/wildlifestats-top10-source-operationalization-plan-2026-06-15.md`
 10. `docs/handoff/wildlifestats-law-watch-normalized-schema-2026-06-15.md`
 11. `docs/handoff/wildlifestats-rehab-social-signal-normalized-schema-2026-06-15.md`
-12. `docs/handoff/wildlifestats-page-family-roadmap-2026-06-15.md`
-13. `docs/handoff/wildlifestats-page-family-build-sequence-2026-06-15.md`
+12. `docs/handoff/wildlifestats-law-watch-page-contract-2026-06-15.md`
+13. `docs/handoff/wildlifestats-rehab-social-monitor-page-contract-2026-06-15.md`
+14. `docs/handoff/wildlifestats-wave1-public-spine-implementation-sequence-2026-06-15.md`
+15. `docs/handoff/wildlifestats-page-family-roadmap-2026-06-15.md`
+16. `docs/handoff/wildlifestats-page-family-build-sequence-2026-06-15.md`
 
 That sequence moves from boundary rules, to corpus reality, to canonical
 registry shape, to next-page planning.
@@ -181,9 +184,11 @@ The next narrow WildlifeStats execution slices should now be:
 1. implement or spec the Wave 1 public spine around:
    `wildstats_rehab_centers_registry`, `wildstats_state_vet_ag_registry`,
    `federal_register_api`, and `regulations_gov_api`
-2. define the exact public page filters and card fields for `law_watch`
-3. define the exact public page filters and card fields for
-   `rehab_social_monitor`
+2. execute the first federal `law_watch` pull against the normalized record
+   schema and page contract
+3. execute the first roster-joined `rehab_social_signal` normalization path
+   after the public spine is stable
 
-The registry, top-10 shortlist, and the two normalized record schemas now exist
-and should be treated as the planning baseline for those next steps.
+The registry, top-10 shortlist, two normalized record schemas, and two page
+contracts now exist, and the Wave 1 public-spine implementation sequence note
+now gives the ordered starting path for those next steps.
