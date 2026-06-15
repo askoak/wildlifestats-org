@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": "FWS-R4-ES-2025-0210-0225",
+      "type": "documents",
+      "attributes": {
+        "docketId": "FWS-R4-ES-2025-0210",
+        "frDocNum": "2026-11634"
+      }
+    },
+    {
+      "id": "FWS-R4-ES-2025-0210-0225",
+      "type": "documents",
+      "attributes": {
+        "docketId": "FWS-R4-ES-2025-0210",
+        "frDocNum": "2026-11634"
+      }
+    },
+    {
+      "id": "NOAA-NMFS-2026-0007-0003",
+      "type": "documents",
+      "attributes": {
+        "docketId": "NOAA-NMFS-2026-0007",
+        "frDocNum": null
+      }
+    }
+  ],
+  "meta": {
+    "totalElements": 3,
+    "totalPages": 1
+  }
+}

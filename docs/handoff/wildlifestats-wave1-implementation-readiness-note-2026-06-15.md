@@ -290,3 +290,10 @@ The first files to edit in a future code session should therefore be new,
 dedicated `law_watch` implementation files, with `render_static_va.py` as the
 first existing file to touch only when the local-registry binding step is
 actually reached.
+
+## Cleanup log
+
+- **Wave 1 Step 3 — Regulations.gov enrichment landed PR #72**
+  Added the Regulations.gov fetch/normalize/emit path, FR↔Regulations.gov
+  bridge artifact generation, fixture-backed offline tests, and the
+  `regulations_gov_api` status bump to `operational_wave1`.

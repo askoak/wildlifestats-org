@@ -1058,10 +1058,12 @@ sources:
     ingest_tier: pull_core
     intended_use: page_feed
     priority: 2
-    status: seeded
+    status: operational_wave1
     page_targets: [source_explorer, law_watch]
     seeded_from: [docs/handoff/wildlifestats-source-registry-and-api-leverage-plan-2026-06-15.md]
-    notes: Needed for rulemaking comment periods and docket tracking.
+    operationalized_at: 2026-06-15
+    operationalized_pr: 72
+    notes: Operationalized as Wave 1 Step 3 (PR #72). regulations_gov.py + cross_source_bridge.py + run.py CLI. 7/7 tests pass on fixture bundles; live pull blocked on REGULATIONS_GOV_API_KEY not present in engineer env. Bridge enriches Federal Register records with docket + comment-window context.
 
   - source_id: congress_gov_api
     name: Congress.gov API

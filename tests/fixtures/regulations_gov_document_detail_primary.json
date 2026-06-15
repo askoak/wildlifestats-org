@@ -1,0 +1,37 @@
+{
+  "data": {
+    "id": "FWS-R4-ES-2025-0210-0225",
+    "type": "documents",
+    "attributes": {
+      "agencyId": "FWS",
+      "commentEndDate": null,
+      "commentStartDate": null,
+      "docAbstract": null,
+      "docketId": "FWS-R4-ES-2025-0210",
+      "documentType": "Proposed Rule",
+      "effectiveDate": null,
+      "fileFormats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/FWS-R4-ES-2025-0210-0225/content.pdf",
+          "format": "pdf",
+          "size": 202655
+        },
+        {
+          "fileUrl": "https://downloads.regulations.gov/FWS-R4-ES-2025-0210-0225/content.html",
+          "format": "html",
+          "size": 3740
+        }
+      ],
+      "frDocNum": "2026-11634",
+      "frVolNum": "91 FR 35173",
+      "modifyDate": "2026-06-11T15:59:08Z",
+      "openForComment": false,
+      "originalDocumentId": "FWS_FRDOC_0001-2460",
+      "postedDate": "2026-06-10T04:00:00Z",
+      "sourceCitation": null,
+      "title": "Endangered and Threatened Wildlife and Plants: Threatened Species Status with Section 4(d) Rule for Southern Hognose Snake; Correction",
+      "withinCommentPeriod": false,
+      "withdrawn": false
+    }
+  }
+}
