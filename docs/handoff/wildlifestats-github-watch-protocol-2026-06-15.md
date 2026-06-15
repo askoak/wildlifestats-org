@@ -53,8 +53,9 @@ is:
 12. `docs/handoff/wildlifestats-law-watch-page-contract-2026-06-15.md`
 13. `docs/handoff/wildlifestats-rehab-social-monitor-page-contract-2026-06-15.md`
 14. `docs/handoff/wildlifestats-wave1-public-spine-implementation-sequence-2026-06-15.md`
-15. `docs/handoff/wildlifestats-page-family-roadmap-2026-06-15.md`
-16. `docs/handoff/wildlifestats-page-family-build-sequence-2026-06-15.md`
+15. `docs/handoff/wildlifestats-law-watch-federal-field-mapping-2026-06-15.md`
+16. `docs/handoff/wildlifestats-page-family-roadmap-2026-06-15.md`
+17. `docs/handoff/wildlifestats-page-family-build-sequence-2026-06-15.md`
 
 That sequence moves from boundary rules, to corpus reality, to canonical
 registry shape, to next-page planning.
