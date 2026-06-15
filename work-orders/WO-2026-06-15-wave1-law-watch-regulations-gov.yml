@@ -1,0 +1,180 @@
+# WO-2026-06-15-wave1-law-watch-regulations-gov
+# WildStats Wave 1 Step 3: regulations_gov_api comment/docket layer
+#
+# Engineer pool:    Codex B
+# Repo:             askoak/wildlifestats-org (PUBLIC)
+# Branch:           wo/2026-06-15-wave1-law-watch-regulations-gov
+# PR target:        main
+# PR title:         "[WLS] feat(law_watch): Regulations.gov enrichment — docket + comment-window layer"
+# Estimated time:   6–8 autonomous hours
+# Parent contract:  docs/handoff/wildlifestats-wave1-public-spine-implementation-sequence-2026-06-15.md (Step 3)
+# Companion notes:  docs/handoff/wildlifestats-law-watch-normalized-schema-2026-06-15.md
+#                   docs/handoff/wildlifestats-law-watch-federal-field-mapping-2026-06-15.md
+# Depends on:       Codex A's WO-2026-06-15-wave1-law-watch-federal-register
+#                   must merge first so the `law_watch` module structure exists.
+# Concurrent lanes: Claude Code A on wildlife911 (no file overlap)
+#                   Codex A on Federal Register (yields the module + schema you
+#                   extend; do not modify their files, add adjacent files)
+
+context: |
+  Step 3 of Wave 1: add Regulations.gov as the comment-and-docket enrichment
+  layer on top of Codex A's Federal Register foundation.
+
+  Regulations.gov makes the law-watch page meaningfully useful — staff and the
+  public need to see open comment windows + docket context, not just FR
+  publication dates.
+
+  Regulations.gov API: https://open.gsa.gov/api/regulationsgov/
+
+  CRITICAL: Regulations.gov requires an API key (free, no rate-limit for
+  reasonable use). Mike's API key, if any, is stored in his Credentials vault
+  per AIStandingOrders convention. Per the bootstrap protocol, the key is read
+  from an env var at runtime (REGULATIONS_GOV_API_KEY), NEVER committed to git.
+
+  The field-mapping note (law-watch-federal-field-mapping-2026-06-15.md §6)
+  defines exact Regulations.gov → law_watch mappings. Implement that mapping
+  literally — do not invent new fields.
+
+# ─────────────────────────────────────────────────────────────────────────────
+prereq_check:
+  - Before starting, verify Codex A's WO has merged. Check
+    `wildlifestats/_pipeline/law_watch/federal_register.py` exists on origin/main.
+  - If it doesn't exist yet: pause and write a draft `regulations_gov.py`
+    skeleton that imports from a hypothetical `law_watch.federal_register`
+    module; mark it WIP; wait. Do not assume the module layout — read what
+    Codex A actually shipped.
+  - If REGULATIONS_GOV_API_KEY env var is unset: write the fetch path against
+    fixtures only and explicitly document the auth dependency. Do NOT attempt
+    to bypass auth.
+
+# ─────────────────────────────────────────────────────────────────────────────
+scope:
+  step_3_regulations_gov_enrichment:
+    objective: |
+      Add Regulations.gov as an enrichment layer that supplies docket context
+      and comment-window metadata to law_watch records that also appear in
+      Federal Register.
+
+    tasks:
+      - 3a. Create `wildlifestats/_pipeline/law_watch/regulations_gov.py` next
+            to Codex A's federal_register.py (do NOT modify their file).
+      - 3b. Implement `fetch_regulations_gov(query: str, since: date) -> list[dict]`:
+            - Uses /documents and /dockets endpoints
+            - Sends `Api-Key` header with REGULATIONS_GOV_API_KEY env var value
+            - Handles pagination (page-size 250 max per the docs)
+            - Caches raw responses under
+              `wildlifestats/_pipeline/law_watch/_cache/regulations_gov/{YYYY-MM-DD}/{endpoint}-page-{N}.json`
+            - Idempotent on cache hit
+      - 3c. Implement `normalize_regulations_gov(raw: dict) -> dict`:
+            - Maps fields per the federal-field-mapping note §6
+            - law_watch_id format: `lawwatch.regulations_gov_api.{top_level_id}`
+            - source_system: literal `"regulations_gov_api"`
+            - Required fields from the schema must all be populated or set to
+              null with a `field_gaps` entry in summary
+            - Comment-window logic:
+              * `comment_window_open: bool` (true if `commentEndDate` is in the future)
+              * `comment_window_end_utc: ISO timestamp` (parsed from API)
+              * `docket_id: string`
+              * If docket lookup is needed for the docket_id, batch it (don't N+1)
+      - 3d. Implement `cross_source_bridge(fr_records, rg_records) -> list[dict]`:
+            - Reads Codex A's emitted federal_register.jsonl
+            - Reads regulations_gov.jsonl from your own emit step
+            - Bridges per the field-mapping note §7 ("Cross-source bridge rules")
+            - DOES NOT mutate either input file
+            - Emits enriched records to a SEPARATE artifact:
+              `wildlifestats/_pipeline/law_watch/_output/law_watch_enriched.jsonl`
+            - Each enriched record carries: the base law_watch fields + the
+              Regulations.gov enrichment fields + `bridge_provenance` field
+              naming the source IDs from both sides
+            - Same-source dedupe within Regulations.gov is in scope here
+              (de-dup before bridging)
+      - 3e. Implement `emit_regulations_gov_records() -> int`:
+            - Loops cached raw
+            - Normalizes
+            - Writes JSONL to `_output/regulations_gov.jsonl`
+            - Writes summary at `_output/regulations_gov-summary.json`
+      - 3f. Tests in `test_regulations_gov.py`:
+            - Fixture: small canned RG API responses (≤5 records)
+            - Tests every required field maps correctly
+            - Tests comment_window_open evaluates correctly for past + future dates
+            - Tests cross_source_bridge matches FR + RG records by document
+              number / docket ID (use Codex A's fixtures + your own)
+            - Tests pass without network access
+      - 3g. Extend the CLI at `wildlifestats/_pipeline/law_watch/run.py` (in a
+            backward-compatible way — Codex A wrote subcommands; ADD subcommands,
+            don't restructure theirs):
+            - `python -m wildlifestats._pipeline.law_watch.run regulations-fetch --since 2026-06-01`
+            - `python -m wildlifestats._pipeline.law_watch.run regulations-emit`
+            - `python -m wildlifestats._pipeline.law_watch.run bridge`
+
+# ─────────────────────────────────────────────────────────────────────────────
+hard_rules:
+  - Do NOT modify Codex A's `federal_register.py`. Add adjacent files only.
+  - Do NOT modify `wildlifestats/_pipeline/sources/master-source-registry.yaml`
+    except for the one-line `regulations_gov_api` `status` field update from
+    `seeded` → `operational_wave1`.
+  - Do NOT touch the rehab_social / wildlife911 surfaces (Claude Code A's lane).
+  - Do NOT touch `wildlifestats/_pipeline/flyway/*`, `firm_profile/*`.
+  - Do NOT commit any API key. Use env var REGULATIONS_GOV_API_KEY only.
+  - Cache files under `_cache/regulations_gov/**` MUST be in `.gitignore`.
+  - Fixture files (committed) MUST be lightly redacted if they contain PII
+    (commenters' names + addresses). For wildlife law dockets this is rare;
+    when it does appear, replace with `[redacted-commenter]`.
+  - All CI checks must pass (BRWC content guard, credentials leakage guard,
+    _common discipline gates).
+  - If Codex A's PR hasn't merged at session start: skeleton your module against
+    expected interfaces, mark WIP, do NOT push a real PR until they merge.
+
+# ─────────────────────────────────────────────────────────────────────────────
+acceptance_criteria:
+  - `wildlifestats/_pipeline/law_watch/regulations_gov.py` exists with fetch +
+    normalize + emit + bridge functions.
+  - Tests pass without network access (fixtures only).
+  - `law_watch_enriched.jsonl` contains at least one record demonstrating a
+    successful cross-source bridge (using committed fixtures).
+  - Comment-window evaluation tested against known-good past + future dates.
+  - PR description includes:
+      - normalized record count from RG fixtures
+      - count of FR records enriched with RG context
+      - any field gaps logged
+      - explicit note that REGULATIONS_GOV_API_KEY is required for live runs
+  - Cleanup-log entry appended to docs/handoff/wildlifestats-wave1-implementation-readiness-note-2026-06-15.md
+    titled "Wave 1 Step 3 — Regulations.gov enrichment landed PR #NNN".
+
+# ─────────────────────────────────────────────────────────────────────────────
+out_of_scope:
+  - Federal Register normalization (Codex A's lane — already done)
+  - Congress.gov, state legislatures
+  - UI rendering for law_watch (Step 4 — separate)
+  - Cross-source dedupe BEYOND Regulations.gov ↔ Federal Register; if a record
+    appears in both AND in some third source not yet integrated, log and skip
+  - Comment submission helpers, advocacy CTAs, anything that interacts with
+    the public regulatory process beyond reading metadata
+  - Supabase or any DB writes
+
+# ─────────────────────────────────────────────────────────────────────────────
+if_blocked:
+  - If Codex A's WO is not merged at start: skeleton your module against the
+    field-mapping note's described interfaces; mark WIP in PR description;
+    do not request review. Re-attempt after Codex A merges.
+  - If REGULATIONS_GOV_API_KEY is unavailable AND you cannot find committed
+    fixtures sufficient to test: emit a draft PR with the normalization +
+    bridge logic but no live-API tests; surface the auth dependency in PR
+    description.
+  - If cross-source bridging produces 0 matches in fixtures: that's likely a
+    fixture-coverage issue, not a code issue. Augment fixtures with a known
+    FR-Regulations.gov pair (the field-mapping note may name one).
+  - If the field-mapping note has a gap you cannot resolve from the public
+    APIs: log it in `field_gaps`, emit the field as null, do not fabricate.
+
+# ─────────────────────────────────────────────────────────────────────────────
+on_completion:
+  - Mark this WO done by appending to the readiness-note cleanup log.
+  - If autonomous time remains: do NOT extend scope. Acceptable continuations:
+    (a) help draft Step 5 (verify public posture) as a CHECKLIST file at
+        `docs/handoff/wildlifestats-wave1-step5-verify-public-posture-checklist-2026-06-15.md`
+        (architect-style audit checklist, no code, no UI work).
+    (b) idle until next dispatch.
+
+prepared_by: Michael Oak Advisors architect
+date: 2026-06-15

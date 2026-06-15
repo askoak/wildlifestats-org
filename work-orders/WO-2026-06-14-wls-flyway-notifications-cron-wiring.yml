@@ -1,0 +1,155 @@
+# Work Order — WildlifeStats Flyway 4.5+i.3 notifications → cron_run.py wiring
+# Authored by: perplexity-architect (Computer)
+# Predicate: WLS PR #64 (Flyway digest + alert emitters merged 2026-06-14)
+
+id: WO-2026-06-14-wls-flyway-notifications-cron-wiring
+authored_by: perplexity-architect
+authored_at: 2026-06-14T15:24-04:00
+repo: wildlifestats-org
+branch_base: main
+lane: data-pipeline
+tier: 2  # touches cron_run.py + adds CI step; PR for architect audit
+window:
+  starts: 2026-06-15T09:00-04:00
+  expires: 2026-06-17T23:00-04:00
+budget:
+  max_total_usd: 0
+  max_total_minutes: 240
+  notes: "$0 — pure Python wiring. The notifications module (PR #64) is local-artifact only; no API calls."
+
+# ── Predicate context ──────────────────────────────────────────────────────
+predicate_context: |
+  WLS PR #64 (merged 2026-06-14 18:12 UTC) shipped:
+    - wildlifestats/_pipeline/flyway/notifications.py
+      (emits weekly digest INBOX + per-trigger alert INBOXes from local
+       artifacts; renderer separated from file loaders)
+    - test_notifications.py (200 lines, no network, all green)
+    - validate.yml CI step running test_notifications.py
+
+  The engineer who shipped #64 noted explicitly:
+    "The implementation is intentionally standalone. It does NOT wire
+     into cron_run.py yet because Mike asked for pure code, no credentials,
+     and no API calls; live cron execution remains separately gated."
+
+  This WO does that wiring. After this lands:
+    - cron_run.py weekly tick calls notifications.emit_weekly_digest()
+    - cron_run.py per-trigger fire calls notifications.emit_trigger_alert()
+    - CRON_ENABLED still gates the whole chain (no auto-enable of cron in
+      this WO; Mike's separate authorization required to flip CRON_ENABLED
+      to "1" — that's the 4.5+i.5 go-live PR)
+
+  IMPORTANT: this WO does NOT flip CRON_ENABLED. It only wires the
+  notification calls so that WHEN Mike later authorizes the cron flip,
+  the notifications fire correctly.
+
+# ── Required reading ───────────────────────────────────────────────────────
+required_reading:
+  - "wildlifestats/_pipeline/flyway/cron_run.py (the file to edit)"
+  - "wildlifestats/_pipeline/flyway/notifications.py (the module to call)"
+  - "wildlifestats/_pipeline/flyway/test_cron.py (existing cron tests; expand)"
+  - "wildlifestats/_pipeline/flyway/test_notifications.py (existing notifications tests; do not edit, just understand)"
+  - "wildlifestats/_pipeline/flyway/spend-log.json (canonical spend log; the digest reads it)"
+
+# ── Pre-flight duplicate-work check ────────────────────────────────────────
+preflight_checks:
+  - "GET origin/main on wildlifestats-org; verify no results YAML at
+     wildlifestats-org/work-orders/WO-2026-06-14-wls-flyway-notifications-cron-wiring-results.yml
+     (or wherever WLS keeps WO results — engineer follows the repo's convention)"
+  - "GET open PRs; verify no branch matches *notifications-cron-wiring* or *flyway-4-5-i-3-wiring*"
+  - "CRON_ENABLED in cron_run.py environment must equal '0' BEFORE you start. If it equals '1', halt+surface — this WO does not run live."
+
+# ── Deliverables ───────────────────────────────────────────────────────────
+deliverables:
+
+  D1_weekly_digest_wiring:
+    path: "wildlifestats/_pipeline/flyway/cron_run.py"
+    purpose: |
+      Add a call to notifications.emit_weekly_digest() inside the cron's
+      weekly-tick path. The call:
+        - Runs AFTER any scrape + trigger evaluation for the week
+        - Reads the canonical artifacts (spend-log.json + the week's
+          triggers JSON + the week's signal records)
+        - Writes the digest INBOX to docs/handoff/ (the existing INBOX dir
+          per notifications.py)
+        - Catches exceptions; emit_weekly_digest failure does NOT crash
+          the cron — it logs to the cron log + sets a degraded-state flag
+          in spend-log.json. Notifications should NEVER take the pipeline
+          down.
+
+  D2_per_trigger_alert_wiring:
+    path: "wildlifestats/_pipeline/flyway/cron_run.py"
+    purpose: |
+      For each fired trigger in the current cron tick, call
+      notifications.emit_trigger_alert(trigger, signal_record).
+      Same catch-and-degrade pattern as D1: alert emission failure is
+      logged + flagged but does not crash the pipeline.
+
+  D3_kill_switch_respect:
+    path: "wildlifestats/_pipeline/flyway/cron_run.py"
+    purpose: |
+      Notifications are gated by CRON_ENABLED just like the rest of the
+      pipeline. If CRON_ENABLED == "0", no digest is emitted (the entire
+      tick short-circuits anyway). If a cap-breach trips the kill switch
+      mid-tick, any pending digest/alert emissions for THIS tick are
+      cancelled — the kill switch fires INSTEAD of the digest, with a
+      clear "kill switch tripped mid-tick" alert INBOX as the only
+      emission.
+
+  D4_test_coverage_expansion:
+    path: "wildlifestats/_pipeline/flyway/test_cron.py"
+    purpose: |
+      Add tests for:
+        (a) Weekly tick calls emit_weekly_digest exactly once after scrape+triggers
+        (b) Per-trigger fires each call emit_trigger_alert exactly once
+        (c) Notification failures (mock the module to raise) do NOT crash the cron
+        (d) CRON_ENABLED == "0" suppresses all notification emission
+        (e) Kill-switch trip mid-tick produces a kill-switch alert and cancels pending emissions
+      No network. All fixtures.
+
+  D5_results_yaml:
+    path: "wildlifestats-org/work-orders/WO-2026-06-14-wls-flyway-notifications-cron-wiring-results.yml"
+    fields_required:
+      - status (success | partial | aborted)
+      - actual_spend_usd (expected: 0)
+      - cron_enabled_value_at_start (must equal "0")
+      - cron_enabled_value_at_end (must equal "0" — this WO does NOT flip it)
+      - tests_added_count (expected: 5)
+      - tests_passing_count (expected: all existing + 5 new, all green)
+      - forbidden_surface_grep_result (must equal "clean")
+      - notes_for_4_5_i_5_go_live_WO: |
+          What Mike-authorized 4.5+i.5 go-live WO needs to do after this lands:
+            (a) Flip CRON_ENABLED to "1"
+            (b) Change the workflow schedule from manual/dispatch to the
+                weekly cron expression (engineer to read current state)
+            (c) Smoke-test ONE live tick under the cap
+
+# ── Acceptance criteria ────────────────────────────────────────────────────
+acceptance_criteria:
+  - "cron_run.py weekly tick calls emit_weekly_digest exactly once."
+  - "cron_run.py per-trigger fires each call emit_trigger_alert exactly once."
+  - "Notification module exception does NOT crash the cron pipeline."
+  - "CRON_ENABLED remains '0' on main after this PR merges."
+  - "All 5 new tests pass; existing tests still pass; no test required network."
+  - "No forbidden surface in the diff."
+
+# ── Forbidden surfaces ─────────────────────────────────────────────────────
+forbidden_surfaces:
+  - "wildlifestats/_pipeline/flyway/notifications.py (DO NOT EDIT — read-only for this WO)"
+  - "wildlifestats/_pipeline/flyway/_eval_live.py (architect-only)"
+  - "Anything that flips CRON_ENABLED to '1'"
+  - "Any live API call (Apify, Anthropic, Exa, Supabase live writes)"
+  - "wildlifestats/_pipeline/_common/migrations/* (no schema changes here)"
+
+# ── Halt conditions ────────────────────────────────────────────────────────
+halt_conditions:
+  - "CRON_ENABLED is not '0' at the start of work → halt+surface."
+  - "Engineer thinks notifications.py needs editing to wire correctly → halt+surface (likely a wiring-side bug, not a notifications-side one)."
+  - "Any test requires network or live credentials → halt+surface."
+  - "Any forbidden surface in the touch list → halt+surface."
+
+# ── Architect commitments ──────────────────────────────────────────────────
+architect_commitments:
+  - "Architect audits within 1 hour of PR open."
+  - "Audit includes: CRON_ENABLED still '0' on main, notification calls correctly placed, exception-handling/degraded-state behavior, all 5 new tests passing, kill-switch interaction sanity-checked."
+  - "If audit passes: squash-merge per Mike's standing autonomous-merge order."
+  - "4.5+i.5 go-live WO (flip CRON_ENABLED, switch to weekly schedule) is the next step after this. NOT in scope for this WO."

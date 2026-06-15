@@ -1,0 +1,211 @@
+# Work Order — WildlifeStats Flyway 4.5+i.5: GO LIVE
+# Authored by: perplexity-architect (Computer)
+# Authorized by: Mike Oak, 2026-06-14 15:51 EDT ("CRON_ENABLED=1")
+# Sequencing confirmed by Mike: "Flip now; notifications catch up later"
+# Schedule confirmed by Mike: "Weekly (existing spec)"
+
+id: WO-2026-06-14-wls-flyway-4-5-i-5-go-live
+authored_by: perplexity-architect
+authored_at: 2026-06-14T15:55-04:00
+repo: wildlifestats-org
+branch_base: main
+lane: data-pipeline
+tier: 1  # LIVE SPEND ENABLE — this is the highest-stakes WO in the WLS lane today; PR for architect audit, no self-merge
+window:
+  starts: 2026-06-15T09:00-04:00
+  expires: 2026-06-17T23:00-04:00
+budget:
+  max_total_usd: 0
+  max_total_minutes: 60
+  notes: |
+    $0 for the WO itself (config flip only). The downstream effect is the
+    pipeline going live under the previously-ratified caps:
+      - Month-1 cap: $30 hard
+      - Month-2+ steady-state cap: $75/month
+      - Auto-suspend on cap hit (kill switch verified by test_killswitch_e2e.py)
+
+# ── Predicate context (full inline — no AISO clone required) ───────────────
+predicate_context: |
+  Mike authorized "CRON_ENABLED=1" at 2026-06-14 15:51 EDT.
+  Mike sequencing call (asked 15:52 EDT): "Flip now; notifications catch
+  up later." So this WO ships the cron flip + schedule change WITHOUT
+  waiting for the WO-6 notifications wiring to land. First few ticks
+  will run silent (no digest INBOX emitted), with spend tracker + kill
+  switch still active.
+  Mike cadence call (asked 15:52 EDT): "Weekly (existing spec)" — i.e.,
+  the cadence locked in INBOX-engineer-4.5+i-cost-cadence-clarification
+  -2026-06-11.md: Tier 1 weekly, Tier 2 first-of-month, $30/$75 caps.
+
+  Predicate chain (already merged on main):
+    - PR #51 (4.5+i.1): cron skeleton with CRON_ENABLED gate
+    - PR #57 (4.5+i.2): spend tracker + auto-suspend ($30/$75 caps)
+    - PR #62 (9d.01.2): dual-write extract.py
+    - PR #64 (4.5+i.3): notifications module (standalone; NOT yet wired
+      into cron_run.py — that's WO-6, in flight separately)
+    - PR #65 (9d.02): firm-profile harvester (data-only; not on the cron
+      path of this WO)
+
+  test_killswitch_e2e.py validated all 5 critical paths:
+    1. CRON_ENABLED="0" keeps the cron suspended
+    2. Manual enable to "1" allows an under-cap dry-run to proceed
+    3. A cap breach trips the kill-switch back to "0" on the next tick
+    4. Manual same-month re-enable is rejected by the spend guard
+    5. Manual restoration works again in the next calendar month
+
+  This WO is THE final gate that flips production wildlife-center social
+  scraping live for the first time.
+
+# ── Required reading ───────────────────────────────────────────────────────
+required_reading:
+  - "wildlifestats/_pipeline/flyway/CRON_ENABLED (the file to flip from '0' to '1')"
+  - "wildlifestats/_pipeline/flyway/cron_run.py (verify CRON_ENABLED_FILE constant + gate logic)"
+  - ".github/workflows/flyway-cron.yml (schedule change from '0 4 * * *' to '0 4 * * 0')"
+  - "wildlifestats/_pipeline/flyway/spend_tracker.py (verify caps are $30 month-1 / $75 month-2+; if not, halt+surface)"
+  - "wildlifestats/_pipeline/flyway/test_killswitch_e2e.py (the safety net that already validated this)"
+  - "wildlifestats/_pipeline/flyway/spend-log.json (canonical spend tracker; engineer verifies it's empty/fresh before flipping)"
+
+# ── Pre-flight duplicate-work check ────────────────────────────────────────
+preflight_checks:
+  - "GET origin/main on wildlifestats-org; verify no results YAML at
+     work-orders/WO-2026-06-14-wls-flyway-4-5-i-5-go-live-results.yml"
+  - "GET open PRs; verify no branch matches *4-5-i-5* or *go-live* or *cron-enable*"
+  - "Verify CRON_ENABLED file on origin/main currently contains '0' (engineer
+     reads it; if it's already '1' something is very wrong — halt+surface)"
+  - "Verify spend-log.json on origin/main shows {\"runs\": []} or no runs in
+     the current month (engineer reads it; if there's existing spend,
+     halt+surface for architect confirmation that we're not re-flipping
+     after a previous live run)"
+
+# ── Deliverables ───────────────────────────────────────────────────────────
+deliverables:
+
+  D1_flip_cron_enabled:
+    path: "wildlifestats/_pipeline/flyway/CRON_ENABLED"
+    purpose: |
+      Change the file's content from "0" to "1". The file is a single byte.
+      No newlines, no extra whitespace — the read path is
+      `f.read().strip()` so cosmetic differences don't matter, but match
+      the existing format for cleanliness.
+
+  D2_swap_workflow_schedule:
+    path: ".github/workflows/flyway-cron.yml"
+    purpose: |
+      Change the cron expression from `'0 4 * * *'` (daily 04:00 UTC) to
+      `'0 4 * * 0'` (Sundays 04:00 UTC). This is the weekly cadence locked
+      in the 2026-06-11 cadence-clarification INBOX.
+
+      Update the workflow file's top comment block to reflect:
+        - Current: "Scheduled daily at 04:00 UTC"
+        - New: "Scheduled weekly on Sundays at 04:00 UTC (Tier 1 weekly,
+          Tier 2 first-of-month gated inside cron_run)"
+
+      Update the safe-by-construction comment that says
+      "...The schedule exists but does nothing until 4.5+i.5" to instead
+      say "...4.5+i.5 enabled this on 2026-06-14 (perplexity-architect,
+      Mike authorization)."
+
+      Leave `workflow_dispatch: {}` in place for manual triggering.
+
+  D3_tier2_first_of_month_gate:
+    path: "wildlifestats/_pipeline/flyway/cron_run.py"
+    purpose: |
+      Verify or add the Tier-2 first-of-month gating logic INSIDE cron_run
+      (since the workflow itself can't easily distinguish "first Sunday of
+      month" from "any Sunday"). The cron_run logic should:
+        - Always run Tier 1 on a Sunday tick
+        - Run Tier 2 only if the current UTC date is between the 1st and
+          7th of the month (i.e., the FIRST Sunday of the month)
+      If this logic is already in place from a prior PR, no change needed
+      — just verify and document in the results YAML. If it's not there,
+      ADD it; otherwise the cost math is wrong (Tier 2 would fire weekly,
+      not monthly, blowing the $75 cap).
+
+  D4_smoke_test_dispatch:
+    path: "post-merge action (not a file deliverable)"
+    purpose: |
+      Immediately after merge: manually trigger the workflow via
+      `gh workflow run flyway-cron.yml` from the engineer's session.
+      Watch the first run end-to-end. Confirm:
+        - cron_run.py sees CRON_ENABLED="1" and proceeds
+        - It executes scrapes for the Tier 1 roster
+        - Spend tracker logs the spend
+        - If today is not the first Sunday of the month, Tier 2 is
+          skipped (logged as "tier2 skipped: not first Sunday")
+        - If spend exceeds 90% of monthly cap during the run, kill switch
+          flips CRON_ENABLED back to "0"
+      Record the smoke-test outcome (run URL, total spend, scrape count,
+      any errors) in the results YAML.
+
+      If the smoke test fails (any error, cap breach mid-run, kill switch
+      trip, or unexpected behavior): the engineer MUST manually flip
+      CRON_ENABLED back to "0" and surface immediately to architect.
+
+  D5_results_yaml:
+    path: "work-orders/WO-2026-06-14-wls-flyway-4-5-i-5-go-live-results.yml"
+    fields_required:
+      - status (success | partial | aborted)
+      - cron_enabled_value_before (must equal "0")
+      - cron_enabled_value_after (must equal "1")
+      - workflow_schedule_before (must equal "0 4 * * *")
+      - workflow_schedule_after (must equal "0 4 * * 0")
+      - tier2_first_of_month_gate_present (boolean: true)
+      - smoke_test_run_url
+      - smoke_test_outcome (success | failure)
+      - smoke_test_spend_usd
+      - smoke_test_actor_runs_count
+      - smoke_test_tier2_executed (boolean — only true if today is 1st–7th)
+      - kill_switch_status_at_end (must equal "1" if no cap breach; "0" if breach)
+      - forbidden_surface_grep_result (must equal "clean")
+      - notes_for_architect (any anomalies, smoke-test details, what to watch
+        for in the first scheduled tick)
+
+# ── Acceptance criteria ────────────────────────────────────────────────────
+acceptance_criteria:
+  - "CRON_ENABLED file contains exactly '1' on main after merge."
+  - "Workflow cron expression is '0 4 * * 0' (Sundays) on main."
+  - "Tier 2 first-of-month gating verified in cron_run.py."
+  - "Manual workflow_dispatch smoke test completes successfully (under cap, no errors)."
+  - "Spend-log.json updated with the smoke-test run cost."
+  - "If smoke test fails, engineer has rolled CRON_ENABLED back to '0' before opening the PR."
+  - "Results YAML committed on the same branch."
+  - "No forbidden surface in the diff."
+
+# ── Forbidden surfaces ─────────────────────────────────────────────────────
+forbidden_surfaces:
+  - "wildlifestats/_pipeline/flyway/_eval_live.py (architect-only)"
+  - "wildlifestats/_pipeline/flyway/spend_tracker.py (read-only — caps already ratified at $30/$75; do not change)"
+  - "wildlifestats/_pipeline/flyway/notifications.py (read-only — WO-6 wires this; not in scope here)"
+  - "Any test file (verify they still pass, but do not edit them)"
+  - ".github/workflows/validate.yml (only flyway-cron.yml in scope)"
+
+# ── Halt conditions ────────────────────────────────────────────────────────
+halt_conditions:
+  - "CRON_ENABLED on main is already '1' → halt+surface (Mike or someone flipped it earlier without going through this WO)."
+  - "spend-log.json has existing month-1 runs → halt+surface (this is the FIRST live run; if there's prior spend, something happened we don't know about)."
+  - "Caps in spend_tracker.py are NOT $30 month-1 / $75 month-2+ → halt+surface (architect re-ratification needed)."
+  - "Tier 2 first-of-month gate is missing AND cannot be added safely without architect spec → halt+surface."
+  - "Smoke-test run fails or trips kill-switch → engineer rolls CRON_ENABLED back to '0', halts, surfaces."
+  - "Any forbidden surface in the touch list → halt+surface."
+
+# ── Architect commitments ──────────────────────────────────────────────────
+architect_commitments:
+  - "Architect audits within 30 minutes of PR open (this is the highest-stakes WLS WO of the day — fast audit)."
+  - "Audit confirms: CRON_ENABLED='1', schedule='0 4 * * 0', Tier 2 gate present, smoke test passed, no forbidden surface touched, spend-log.json shows the smoke-test entry."
+  - "If audit passes: squash-merge per Mike's standing autonomous-merge order. Architect will then watch the first scheduled Sunday tick to confirm it fires correctly."
+  - "If smoke test failed and engineer rolled back: architect investigates the failure, surfaces to Mike, does NOT auto-retry."
+
+# ── Post-merge architect responsibilities ──────────────────────────────────
+post_merge:
+  - "Architect notes the merge time + the calendar week boundary for cap accounting."
+  - "Architect adds a Mike-lane item to MIKE_CARD: 'WLS Flyway pipeline went live at <date>. Month-1 cap $30, month-2+ cap $75. First scheduled tick at <next Sunday 04:00 UTC>.'"
+  - "Architect monitors the first SCHEDULED Sunday tick (not just the smoke test) and surfaces the result to Mike via INBOX."
+  - "Architect dispatches the WO-6 notifications wiring follow-up if it hasn't landed by then, so the second tick onward emits digests."
+
+# ── Roadmap context ────────────────────────────────────────────────────────
+roadmap:
+  this_WO: "FINAL go-live for WildlifeStats Flyway pipeline — first ever live scrape of the top-100 wildlife rehab center social roster"
+  this_completes: "Phase 4.5+i (was authorized 2026-06-11; the .1/.2/.3/.4 sub-PRs all landed; this is .5)"
+  followups:
+    - "WO-6 (already in flight): notifications wiring into cron_run.py so 2nd-tick-onward emits weekly digest INBOXes"
+    - "First Sunday tick monitoring: architect watches the first scheduled run land cleanly"
+    - "Month-1 review: architect surfaces a Mike-lane item at end of month-1 with total spend, scrape counts, trigger fires, and recommendation to continue/adjust month-2 cap"
