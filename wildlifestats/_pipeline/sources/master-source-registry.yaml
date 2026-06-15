@@ -219,7 +219,7 @@ sources:
     ingest_tier: pull_periodic
     intended_use: page_feed
     priority: 2
-    status: seeded
+    status: operational_wave1
     page_targets: [source_explorer, flyway, species_pages]
     seeded_from: [wildlifestats/_pipeline/sources/journey-north.json, wildlifestats/_pipeline/sources/README.md]
     notes: Strong migration and first-of-season signal source for selected taxa.

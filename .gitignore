@@ -1,4 +1,5 @@
 /wildlifestats/_pipeline/_work/
+/wildlifestats/_pipeline/law_watch/_cache/
 
 # fetch.py on-disk response + robots cache (never committed)
 /data/_cache/
