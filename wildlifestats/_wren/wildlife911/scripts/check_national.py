@@ -92,6 +92,10 @@ def check():
                 failures.append(f"[FAIL] {code}/index.html missing clinical-advice disclaimer")
 
     # Check 4: centers render to the correct state page
+    # Names may be HTML-escaped in the rendered page (e.g. & -> &amp;).
+    # Test the raw name first, fall back to a minimal escape so audit
+    # matches what the renderer actually emits.
+    import html as _html
     center_fails = 0
     for code, state_centers in by_state.items():
         page_path = OUT_ROOT / code / "index.html"
@@ -99,9 +103,11 @@ def check():
             continue
         text = page_path.read_text(encoding="utf-8")
         for c in state_centers:
-            if c["common_name"] not in text:
+            raw = c["common_name"]
+            escaped = _html.escape(raw, quote=False)
+            if raw not in text and escaped not in text:
                 failures.append(
-                    f"[FAIL] {code}: '{c['common_name']}' not found on state page"
+                    f"[FAIL] {code}: '{raw}' not found on state page"
                 )
                 center_fails += 1
     if center_fails == 0:

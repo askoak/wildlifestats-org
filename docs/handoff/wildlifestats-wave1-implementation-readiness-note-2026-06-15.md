@@ -288,26 +288,33 @@ generated output, not hand-owned page code**.
 
 The first files to edit in a future code session should therefore be new,
 dedicated `law_watch` implementation files, with `render_static_va.py` as the
-first existing file to touch only when the local-registry binding step
+first existing file to touch only when the local-registry binding step is
+actually reached.
 
-## 14. Wave 1 Step 1+4-wildlife911 — landed PR #73
+## Cleanup log
 
-**Date:** 2026-06-15
-**Lane:** wildlife911 public spine
-**PR:** [askoak/wildlifestats-org#73](https://github.com/askoak/wildlifestats-org/pull/73)
+- **Wave 1 Step 2 — Federal Register law-watch landed PR #71**
+  Added the Federal Register fetch/normalize/emit module + 4 unit tests; bumped
+  `federal_register_api` status to `operational_wave1`.
 
-All 51 state directory pages committed to `wildlifestats/_wren/wildlife911/states/{STATE}/index.html`.
-Covers all 50 states plus DC. Each page includes state wildlife/veterinary agency contact,
-licensed rehabilitation centers with public contact info, national resources section, and the
-DISCLAIMER_SENTINEL on every page.
+- **Wave 1 Step 3 — Regulations.gov enrichment landed PR #72**
+  Added the Regulations.gov fetch/normalize/emit path, FR↔Regulations.gov
+  bridge artifact generation, fixture-backed offline tests, and the
+  `regulations_gov_api` status bump to `operational_wave1`.
 
-Python `''` placeholder artifacts cleaned throughout: empty `href="''"` → plain text;
-`Hours: ''` / `Hours: unknown` → "See website"; phone `''` / `unknown` → "See website";
-leading `'` on mission text stripped.
+- **Wave 1 Step 1 + Step 4-wildlife911 landed PR #73**
+  All 51 state directory pages committed to `wildlifestats/_wren/wildlife911/states/{STATE}/index.html`
+  (50 states + DC). Each page renders state wildlife/veterinary agency contact, licensed
+  rehabilitation centers with public contact info, a national resources section, and the
+  DISCLAIMER_SENTINEL on every page.
 
-Registry updates: `wildstats_rehab_centers_registry` and `wildstats_state_vet_ag_registry`
-advanced to `status: operational_wave1` in `master-source-registry.yaml`.
+  Python `''` placeholder artifacts cleaned throughout: empty `href="''"` → plain text;
+  `Hours: ''` / `Hours: unknown` → "See website"; phone `''` / `unknown` → "See website";
+  leading `'` on mission text stripped.
 
-Infrastructure also landed: `render_static_national.py`, `check_national.py`,
-national `index.html`, and `PUBLIC_FIELDS.md` for both source families.
-`render_static_va.py` untouched (regression constraint satisfied).
+  Registry updates: `wildstats_rehab_centers_registry` and `wildstats_state_vet_ag_registry`
+  advanced from `operational` → `operational_wave1`.
+
+  Infrastructure also landed: `render_static_national.py`, `check_national.py`, national
+  `index.html`, and `PUBLIC_FIELDS.md` for both source families. `render_static_va.py`
+  untouched (regression constraint satisfied).

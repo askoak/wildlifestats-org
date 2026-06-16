@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": "NOAA-NMFS-2026-0007",
+    "type": "dockets",
+    "attributes": {
+      "agencyId": "NOAA-NMFS",
+      "dkAbstract": "Supporting docket for right whale vessel speed protections and comment materials.",
+      "docketType": "Rulemaking",
+      "modifyDate": "2099-06-21T12:00:00Z",
+      "rin": "0648-BL10",
+      "title": "North Atlantic Right Whale Vessel Speed Rulemaking Docket"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "data": {
+    "id": "NOAA-NMFS-2026-0007-0003",
+    "type": "documents",
+    "attributes": {
+      "agencyId": "NOAA-NMFS",
+      "commentEndDate": "2099-07-20T23:59:59Z",
+      "commentStartDate": "2099-06-20T04:00:00Z",
+      "docAbstract": "Comments requested on supporting materials for North Atlantic right whale vessel speed protections.",
+      "docketId": "NOAA-NMFS-2026-0007",
+      "documentType": "Supporting & Related",
+      "effectiveDate": null,
+      "fileFormats": [
+        {
+          "fileUrl": "https://downloads.regulations.gov/NOAA-NMFS-2026-0007-0003/content.html",
+          "format": "html",
+          "size": 1234
+        }
+      ],
+      "frDocNum": null,
+      "frVolNum": null,
+      "modifyDate": "2099-06-21T12:00:00Z",
+      "openForComment": true,
+      "originalDocumentId": null,
+      "postedDate": "2099-06-20T04:00:00Z",
+      "sourceCitation": "91 FR 36010",
+      "title": "Supporting Materials for Right Whale Vessel Speed Notice",
+      "withinCommentPeriod": true,
+      "withdrawn": false
+    }
+  }
+}
