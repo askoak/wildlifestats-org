@@ -80,6 +80,8 @@ jobs:
           python-version: '3.12'
       - name: Run eBird sampling pilot tests
         run: PYTHONPATH=. python wildlifestats/_pipeline/ebird_sampling/test_pilot.py
+      - name: Run eBird sampling stratifier tests
+        run: PYTHONPATH=. python wildlifestats/_pipeline/ebird_sampling/test_stratify.py
 
   link-check:
     name: Internal link check

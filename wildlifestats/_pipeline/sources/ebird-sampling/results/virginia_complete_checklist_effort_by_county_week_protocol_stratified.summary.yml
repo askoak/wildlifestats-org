@@ -1,0 +1,26 @@
+source_csv_path: "C:/Users/Hello/repos/wildlifestats-org/wildlifestats/_pipeline/sources/ebird-sampling/results/virginia_complete_checklist_effort_by_county_week_protocol.csv"
+source_csv_sha256: "553f847986b3a39145b7308987fe02eb4bcee15fbf68b28a536a36c0525847f2"
+output_csv_path: "C:/Users/Hello/repos/wildlifestats-org/wildlifestats/_pipeline/sources/ebird-sampling/results/virginia_complete_checklist_effort_by_county_week_protocol_stratified.csv"
+output_csv_sha256: "f2c81223bd2a626c9e806174b7ef0533a2c749cbefaf25b0792245445b51bf44"
+generated_at_utc: "2026-06-16T17:48:25Z"
+classification_rule:
+  effort_present_when_any_count_gt_zero:
+    - "duration_minutes_count"
+    - "effort_distance_km_count"
+    - "effort_area_ha_count"
+  zero_effort_when_all_counts_equal_zero:
+    - "duration_minutes_count"
+    - "effort_distance_km_count"
+    - "effort_area_ha_count"
+totals:
+  aggregate_rows: 201582
+  total_complete_checklists: 2271631
+  effort_present_rows: 173144
+  effort_present_complete_checklists: 2199286
+  zero_effort_rows: 28438
+  zero_effort_complete_checklists: 72345
+zero_effort_complete_checklists_by_protocol:
+  Incidental: 49289
+  Historical: 23035
+  Stationary: 17
+  Traveling: 4

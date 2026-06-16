@@ -97,3 +97,18 @@ pilot:
     -
       county_code: "US-VA-015"
       complete_checklist_count: 49334
+denominator_policy:
+  canonical_aggregate_csv_path: "wildlifestats/_pipeline/sources/ebird-sampling/results/virginia_complete_checklist_effort_by_county_week_protocol.csv"
+  canonical_aggregate_csv_sha256: "553f847986b3a39145b7308987fe02eb4bcee15fbf68b28a536a36c0525847f2"
+  primary_denominator_rule:
+    effort_present_when_any_count_gt_zero:
+      - "duration_minutes_count"
+      - "effort_distance_km_count"
+      - "effort_area_ha_count"
+  low_trust_secondary_stratum: "zero_effort"
+  blanket_protocol_drop_forbidden:
+    - "Incidental"
+    - "Historical"
+  derived_artifacts:
+    stratified_csv_path: "wildlifestats/_pipeline/sources/ebird-sampling/results/virginia_complete_checklist_effort_by_county_week_protocol_stratified.csv"
+    summary_yaml_path: "wildlifestats/_pipeline/sources/ebird-sampling/results/virginia_complete_checklist_effort_by_county_week_protocol_stratified.summary.yml"

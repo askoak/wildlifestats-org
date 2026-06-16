@@ -1,0 +1,51 @@
+work_order_id: "WO-2026-06-16-wls-ebird-sampling-denominator-policy-followup"
+status: completed
+executed_directly_by: Codex
+executed_on_branch: main
+archive_rerun: false
+raw_rows_committed: false
+
+inputs:
+  canonical_aggregate_csv: "wildlifestats/_pipeline/sources/ebird-sampling/results/virginia_complete_checklist_effort_by_county_week_protocol.csv"
+  canonical_aggregate_csv_sha256: "553f847986b3a39145b7308987fe02eb4bcee15fbf68b28a536a36c0525847f2"
+
+outputs:
+  stratified_csv: "wildlifestats/_pipeline/sources/ebird-sampling/results/virginia_complete_checklist_effort_by_county_week_protocol_stratified.csv"
+  stratified_csv_sha256: "f2c81223bd2a626c9e806174b7ef0533a2c749cbefaf25b0792245445b51bf44"
+  summary_yaml: "wildlifestats/_pipeline/sources/ebird-sampling/results/virginia_complete_checklist_effort_by_county_week_protocol_stratified.summary.yml"
+
+policy:
+  canonical_artifact_preserved: true
+  primary_denominator_class: effort_present
+  low_trust_secondary_class: zero_effort
+  effort_present_when_any_count_gt_zero:
+    - duration_minutes_count
+    - effort_distance_km_count
+    - effort_area_ha_count
+  blanket_protocol_drop_forbidden:
+    - Incidental
+    - Historical
+
+metrics:
+  aggregate_rows: 201582
+  total_complete_checklists: 2271631
+  effort_present_rows: 173144
+  effort_present_complete_checklists: 2199286
+  zero_effort_rows: 28438
+  zero_effort_complete_checklists: 72345
+  zero_effort_complete_checklists_by_protocol:
+    Incidental: 49289
+    Historical: 23035
+    Stationary: 17
+    Traveling: 4
+
+verification:
+  - "$env:PYTHONPATH='.'; python wildlifestats/_pipeline/ebird_sampling/test_pilot.py"
+  - "$env:PYTHONPATH='.'; python wildlifestats/_pipeline/ebird_sampling/test_stratify.py"
+  - "$env:PYTHONPATH='.'; python wildlifestats/_pipeline/ebird_sampling/stratify.py"
+  - "reviewed the generated stratified csv and summary yaml to confirm derivation from the committed aggregate csv only"
+
+notes:
+  - No raw eBird archive pass was rerun for this follow-up.
+  - The original pilot csv remained unchanged at the canonical sha256.
+  - The stratified artifact is derived entirely from the committed aggregate csv.
