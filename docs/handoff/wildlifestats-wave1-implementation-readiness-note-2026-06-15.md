@@ -88,7 +88,7 @@ These are the current files that define the contract and source posture:
 - `wildlifestats/_pipeline/sources/master-source-registry.yaml`
 - `docs/handoff/wildlifestats-law-watch-normalized-schema-2026-06-15.md`
 - `docs/handoff/wildlifestats-law-watch-page-contract-2026-06-15.md`
-- `docs/handoff/wildlifestats-law-watch-federal-field-mapping-2026-06-15.md`
+- `docs/handoff/wildlifestats-law-watch-federal-field-mapping-2026-06-15md`
 - `docs/handoff/wildlifestats-wave1-public-spine-implementation-sequence-2026-06-15.md`
 - `docs/handoff/wildlifestats-top10-source-operationalization-plan-2026-06-15.md`
 
@@ -288,5 +288,26 @@ generated output, not hand-owned page code**.
 
 The first files to edit in a future code session should therefore be new,
 dedicated `law_watch` implementation files, with `render_static_va.py` as the
-first existing file to touch only when the local-registry binding step is
-actually reached.
+first existing file to touch only when the local-registry binding step
+
+## 14. Wave 1 Step 1+4-wildlife911 — landed PR #73
+
+**Date:** 2026-06-15
+**Lane:** wildlife911 public spine
+**PR:** [askoak/wildlifestats-org#73](https://github.com/askoak/wildlifestats-org/pull/73)
+
+All 51 state directory pages committed to `wildlifestats/_wren/wildlife911/states/{STATE}/index.html`.
+Covers all 50 states plus DC. Each page includes state wildlife/veterinary agency contact,
+licensed rehabilitation centers with public contact info, national resources section, and the
+DISCLAIMER_SENTINEL on every page.
+
+Python `''` placeholder artifacts cleaned throughout: empty `href="''"` → plain text;
+`Hours: ''` / `Hours: unknown` → "See website"; phone `''` / `unknown` → "See website";
+leading `'` on mission text stripped.
+
+Registry updates: `wildstats_rehab_centers_registry` and `wildstats_state_vet_ag_registry`
+advanced to `status: operational_wave1` in `master-source-registry.yaml`.
+
+Infrastructure also landed: `render_static_national.py`, `check_national.py`,
+national `index.html`, and `PUBLIC_FIELDS.md` for both source families.
+`render_static_va.py` untouched (regression constraint satisfied).
