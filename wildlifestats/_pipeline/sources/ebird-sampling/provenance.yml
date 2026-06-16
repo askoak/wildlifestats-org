@@ -24,6 +24,7 @@ terms:
   derived_outputs_must_carry_same_terms: true
 pilot:
   target_state_code: "US-VA"
+  scope_label: "virginia_only_pilot_not_national_production"
   row_filter:
     all_species_reported: true
     aggregation_grain: "county_iso_week_protocol"
@@ -112,3 +113,13 @@ denominator_policy:
   derived_artifacts:
     stratified_csv_path: "wildlifestats/_pipeline/sources/ebird-sampling/results/virginia_complete_checklist_effort_by_county_week_protocol_stratified.csv"
     summary_yaml_path: "wildlifestats/_pipeline/sources/ebird-sampling/results/virginia_complete_checklist_effort_by_county_week_protocol_stratified.summary.yml"
+local_working_copy:
+  extracted_path: "C:\\Users\\Hello\\OneDrive - Michael Oak Advisors\\99_Public Folder\\WildStats\\ebirdSamplingMay2026"
+  purpose: "local inspection and bounded follow-up only"
+national_architecture:
+  current_repo_role: "store aggregate-only pilot artifacts and provenance"
+  current_public_claim_limit: "virginia-only denominator pilot; not a national production denominator"
+  raw_row_commit_forbidden: true
+  full_archive_rerun_forbidden_without_schema_change: true
+  next_scale_step: "move repeated refreshes or multi-state derived artifacts out of git"
+  preferred_off_repo_artifacts_root: "C:\\Users\\Hello\\OneDrive - Michael Oak Advisors\\99_Public Folder\\WildStats\\artifacts\\ebird-sampling\\"

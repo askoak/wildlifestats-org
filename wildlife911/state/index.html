@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Wildlife911 — State directory</title>
-  <meta name="description" content="Wildlife911 is currently Virginia-complete. National fallback via Animal Help Now and state wildlife agencies.">
+  <meta name="description" content="Browse Wildlife911 rehab-center and state-agency directory pages for all 50 states and the District of Columbia.">
   <link rel="canonical" href="https://wildlifestats.org/wildlife911/state/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="WildlifeStats">
   <meta property="og:title" content="Wildlife911 — State directory">
-  <meta property="og:description" content="Wildlife911 is currently Virginia-complete. National fallback via Animal Help Now and state wildlife agencies.">
+  <meta property="og:description" content="Browse Wildlife911 rehab-center and state-agency directory pages for all 50 states and the District of Columbia.">
   <meta property="og:url" content="https://wildlifestats.org/wildlife911/state/">
   <meta property="og:image" content="https://wildlifestats.org/assets/img/og-default.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -33,7 +33,7 @@
           <li><a href="/one-health/">One Health</a></li>
           <li><a href="/parks/">National Parks</a></li>
           <li><a href="/wildlife/">Wildlife</a></li>
-          <li><a href="/wildlife911/" class="active">Wildlife911</a></li>
+          <li><a href="/wildlife911/">Wildlife911</a></li>
           <li><a href="/centers/">Centers</a></li>
           <li><a href="/data/">Data</a></li>
           <li><a href="/methodology.html">Methodology</a></li>
@@ -43,54 +43,358 @@
     </div>
   </header>
   <hr class="site-divider">
-
   <main>
-    <div class="container prose">
-      <p class="kicker">Wildlife911 · State directory</p>
-      <h1>Wildlife911 by state</h1>
-      <p>Wildlife911 is currently <strong>Virginia-complete</strong>. The Virginia edition is curated to Virginia Department of Wildlife Resources licensing, Virginia chronic wasting disease and rabies regulations, and the active Virginia wildlife rehabilitation community.</p>
-      <p>For finders of injured wildlife outside Virginia, the universal national starting point is <strong><a href="https://animalhelpnow.org" rel="noopener" class="w911-link">Animal Help Now</a></strong>, which routes by ZIP code to nearby licensed rehabilitators and animal control. Your state wildlife agency is the second institutional contact, particularly for rabies-vector species and any threatened or endangered species.</p>
-
-      <h2>Available state editions</h2>
-      <ul>
-        <li><a href="/wildlife911/state/VA/" class="w911-link"><strong>Virginia</strong></a> — full edition with species guides, dispatcher flow, infographics, and referral directory</li>
-      </ul>
-
-      <h2>State editions in development</h2>
-      <p>Per-state editions are an editorial workstream, not engineering. Each state edition is authored by someone with on-the-ground knowledge of that state's wildlife law, rehab community, and species mix. State editions can be contributed by state wildlife agency staff, partner wildlife rehabilitation organizations, or delegated editors. <a href="/about.html" class="w911-link">Contact us</a> to discuss authoring a state edition.</p>
-
-      <h2>National fallback (any state)</h2>
-
-      <section class="w911-calls" aria-label="Who to call">
-        <h2>Who to call</h2>
-        <div class="w911-calls__grid">
-          <div class="w911-calls__card">
-            <h3>Virginia DWR licensed rehabilitators</h3>
-            <p>The official Virginia Department of Wildlife Resources directory of permitted wildlife rehabilitators.</p>
-            <p><a href="https://dwr.virginia.gov/wildlife/injured/rehabilitators/" rel="noopener" class="w911-link">dwr.virginia.gov/wildlife/injured/rehabilitators</a></p>
-          </div>
-          <div class="w911-calls__card">
-            <h3>Animal Help Now (nationwide)</h3>
-            <p>ZIP-code-based directory of wildlife rehabilitators and animal control nationwide.</p>
-            <p><a href="https://animalhelpnow.org" rel="noopener" class="w911-link">animalhelpnow.org</a></p>
-          </div>
-          <div class="w911-calls__card">
-            <h3>Local animal control</h3>
-            <p>For rabies-vector species (fox, skunk, raccoon, bat, groundhog), and for any animal in your home, contact local animal control first.</p>
-          </div>
+    <div class="container">
+      <p class="kicker">Wildlife911 · National directory</p>
+      <h1 class="w911-h1">Wildlife help by state</h1>
+      <p class="w911-lead">Wildlife911 now publishes a national state-directory layer: 181 active wildlife rehabilitation organizations across all 50 states and the District of Columbia, paired with public state-agency contacts. This is a referral directory, not clinical advice. Virginia remains the deepest authored edition.</p>
+      <div class="w911-cta-row">
+        <a href="/wildlife911/" class="w911-cta-primary">Open Wildlife911 Virginia</a>
+        <a href="https://animalhelpnow.org" rel="noopener" class="w911-cta-secondary">National ZIP-code lookup</a>
+      </div>
+      <div class="w911-directory-grid">
+        <div class="w911-directory-card">
+          <h2>Need Virginia-specific guidance?</h2>
+          <p>Virginia remains the deepest authored Wildlife911 edition, with species pages,
+          triage flow charts, and Virginia-specific law and referral notes.</p>
+          <p><a href="/wildlife911/" class="w911-link">Open Wildlife911 Virginia</a></p>
         </div>
-        <p class="w911-calls__tip">Call two or three rehabilitators — availability varies. If you reach voicemail, leave a detailed message with your name and callback number, exact location, species (or description), the animal's condition, and what containment steps you have taken.</p>
+        <div class="w911-directory-card">
+          <h2>Need the fastest national fallback?</h2>
+          <p>Animal Help Now remains the fastest ZIP-code lookup for licensed wildlife
+          rehabilitators and animal control coverage across the country.</p>
+          <p><a href="https://animalhelpnow.org" rel="noopener" class="w911-link">Open Animal Help Now</a></p>
+        </div>
+        <div class="w911-directory-card">
+          <h2>Need a state agency contact?</h2>
+          <p>Every state page in this directory includes the stable state wildlife or veterinary
+          agency contact carried in the public registry.</p>
+          <p><a href="/centers/" class="w911-link">See the national center directory</a></p>
+        </div>
+      </div>
+
+      <section class="w911-state-directory" aria-label="State directory">
+        <h2>Browse by state</h2>
+        <p class="w911-intro">Choose your state for public rehab-center listings and the stable state wildlife or veterinary agency contact carried in the WildlifeStats registry.</p>
+        <ul class="w911-state-grid">
+        <li>
+          <a href="/wildlife911/state/AK/">
+            <strong>Alaska</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/AL/">
+            <strong>Alabama</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/AR/">
+            <strong>Arkansas</strong>
+            <span>1 center</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/AZ/">
+            <strong>Arizona</strong>
+            <span>3 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/CA/">
+            <strong>California</strong>
+            <span>20 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/CO/">
+            <strong>Colorado</strong>
+            <span>4 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/CT/">
+            <strong>Connecticut</strong>
+            <span>1 center</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/DC/">
+            <strong>District of Columbia</strong>
+            <span>1 center</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/DE/">
+            <strong>Delaware</strong>
+            <span>1 center</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/FL/">
+            <strong>Florida</strong>
+            <span>15 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/GA/">
+            <strong>Georgia</strong>
+            <span>3 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/HI/">
+            <strong>Hawaii</strong>
+            <span>1 center</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/IA/">
+            <strong>Iowa</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/ID/">
+            <strong>Idaho</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/IL/">
+            <strong>Illinois</strong>
+            <span>7 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/IN/">
+            <strong>Indiana</strong>
+            <span>3 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/KS/">
+            <strong>Kansas</strong>
+            <span>1 center</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/KY/">
+            <strong>Kentucky</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/LA/">
+            <strong>Louisiana</strong>
+            <span>3 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/MA/">
+            <strong>Massachusetts</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/MD/">
+            <strong>Maryland</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/ME/">
+            <strong>Maine</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/MI/">
+            <strong>Michigan</strong>
+            <span>5 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/MN/">
+            <strong>Minnesota</strong>
+            <span>4 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/MO/">
+            <strong>Missouri</strong>
+            <span>3 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/MS/">
+            <strong>Mississippi</strong>
+            <span>3 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/MT/">
+            <strong>Montana</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/NC/">
+            <strong>North Carolina</strong>
+            <span>6 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/ND/">
+            <strong>North Dakota</strong>
+            <span>1 center</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/NE/">
+            <strong>Nebraska</strong>
+            <span>4 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/NH/">
+            <strong>New Hampshire</strong>
+            <span>1 center</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/NJ/">
+            <strong>New Jersey</strong>
+            <span>5 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/NM/">
+            <strong>New Mexico</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/NV/">
+            <strong>Nevada</strong>
+            <span>1 center</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/NY/">
+            <strong>New York</strong>
+            <span>3 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/OH/">
+            <strong>Ohio</strong>
+            <span>5 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/OK/">
+            <strong>Oklahoma</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/OR/">
+            <strong>Oregon</strong>
+            <span>4 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/PA/">
+            <strong>Pennsylvania</strong>
+            <span>5 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/RI/">
+            <strong>Rhode Island</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/SC/">
+            <strong>South Carolina</strong>
+            <span>3 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/SD/">
+            <strong>South Dakota</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/TN/">
+            <strong>Tennessee</strong>
+            <span>5 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/TX/">
+            <strong>Texas</strong>
+            <span>12 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/UT/">
+            <strong>Utah</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/VA/">
+            <strong>Virginia</strong>
+            <span>7 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/VT/">
+            <strong>Vermont</strong>
+            <span>2 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/WA/">
+            <strong>Washington</strong>
+            <span>4 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/WI/">
+            <strong>Wisconsin</strong>
+            <span>4 centers</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/WV/">
+            <strong>West Virginia</strong>
+            <span>1 center</span>
+          </a>
+        </li>
+        <li>
+          <a href="/wildlife911/state/WY/">
+            <strong>Wyoming</strong>
+            <span>1 center</span>
+          </a>
+        </li>
+        </ul>
       </section>
 
       <aside class="w911-safety" role="alert">
         <h2 class="w911-safety__title">Two situations are always emergencies</h2>
         <div class="w911-safety__row">
           <span class="w911-safety__num">1</span>
-          <p><strong>Any bird that hits a window, vehicle, or building.</strong> Internal injuries and concussion are likely even when the bird flies away or appears alert. Do not advise "monitor and see." Place the bird in a ventilated cardboard box in a quiet, dark place and contact a licensed rehabilitator immediately.</p>
+          <p><strong>Any bird that hits a window, vehicle, or building.</strong> Internal injuries and concussion are likely even when the bird appears alert. Box the bird in a quiet, dark place and contact a licensed rehabilitator immediately.</p>
         </div>
         <div class="w911-safety__row">
           <span class="w911-safety__num">2</span>
-          <p><strong>Any wild animal that has been in a cat's or dog's mouth.</strong> Bacterial infections from pet saliva are frequently fatal within 24 to 48 hours, even when no injury is visible. Referral is always required.</p>
+          <p><strong>Any wild animal that has been in a cat's or dog's mouth.</strong> Pet-saliva infections can be fatal within 24 to 48 hours even when no wound is visible. Referral is always required.</p>
         </div>
       </aside>
     </div>
@@ -104,6 +408,7 @@
         <a href="/governance.html">Governance</a> ·
         <a href="/about.html">About</a> ·
         <a href="/wildlife911/">Wildlife911</a> ·
+        <a href="/centers/">Centers</a> ·
         <a href="mailto:wildlifestats@michaeloak.com">Contact</a> ·
         <span>2026</span>
       </nav>

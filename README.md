@@ -11,10 +11,11 @@ wildlife rehabilitation, disease, injury, and One Health data. Live at
 
 The framework provides a synthetic reference dataset (n = 1,000,000 admission
 records), a searchable national database surface, a triage and referral
-assistant (Wildlife911 Virginia is the first state edition), and a methodology
-pipeline that would aggregate heterogeneous wildlife rehabilitation records
-into a common schema if real partner data were contributed under partner
-agreements.
+assistant (Wildlife911 Virginia is the deepest authored edition, backed by a
+national state directory), a federal-first law-watch surface, a curated sector
+funders registry, and a methodology pipeline that would aggregate
+heterogeneous wildlife rehabilitation records into a common schema if real
+partner data were contributed under partner agreements.
 
 ## Status
 
@@ -37,8 +38,9 @@ directly on every push to `main`.
 ```
 index.html             Homepage
 404.html, about.html, governance.html, methodology.html
-one-health/, parks/, wildlife/, data/, ingest/, wildlife911/
-                       Public section landings
+one-health/, parks/, wildlife/, data/, ingest/, wildlife911/,
+law-watch/, funders/
+                       Public section landings and public utility pages
 
 data/cube/             The synthetic n=1,000,000 admissions cube
                        (admissions-cube.json + admissions-cube.meta.json)
@@ -59,8 +61,8 @@ wildlifestats/_wren/       WREN test set + Wildlife911 corpus
   wildlife911/
     states/VA/           Canonical Virginia edition (Mike-authored)
     templates/national/  BRWC-scrubbed national template scaffold
-    scripts/             render_static_va.py — generates the public
-                         Wildlife911 site from the YAML deterministically
+    scripts/             render_static_va.py + national/state-directory
+                         renderers that generate public Wildlife911 routes
 
 docs/handoff/          Architect/engineer coordination, engineer orders,
                        INBOX files, spec amendments, slow-pace logs
@@ -71,7 +73,7 @@ docs/research/         Five-agent critique reports (data science, AI safety,
 
 netlify.toml           Build config + security headers + redirects
 robots.txt             Allow-list with /secure/ disallow + sitemap reference
-sitemap.xml            All public URLs (Phase 6 SEO baseline)
+sitemap.xml            Core public URLs (Phase 6 SEO baseline)
 .zenodo.json           Metadata for Zenodo's GitHub-release DOI integration
 .github/workflows/     CI: BRWC content guard + link check + HTML validate
                        + cube validation + pipeline dry-run

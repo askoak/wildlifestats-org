@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>WildlifeStats — Law Watch</title>
+  <meta name="description" content="Federal-first wildlife law watch for wildlife-related notices, proposed rules, and comment deadlines.">
+  <link rel="canonical" href="https://wildlifestats.org/law-watch/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WildlifeStats">
+  <meta property="og:title" content="WildlifeStats — Law Watch">
+  <meta property="og:description" content="Federal-first wildlife law watch for wildlife-related notices, proposed rules, and comment deadlines.">
+  <meta property="og:url" content="https://wildlifestats.org/law-watch/">
+  <meta property="og:image" content="https://wildlifestats.org/assets/img/og-default.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&amp;display=swap">
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <link rel="stylesheet" href="/assets/css/source-pages.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="brand" aria-label="WildlifeStats — home">
+        <img src="/assets/img/logo.svg" alt="" width="240" height="64" class="brand__mark">
+        <span class="brand__kicker">National Wildlife Rehabilitation Research Framework</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="/one-health/">One Health</a></li>
+          <li><a href="/parks/">National Parks</a></li>
+          <li><a href="/wildlife/">Wildlife</a></li>
+          <li><a href="/wildlife911/">Wildlife911</a></li>
+          <li><a href="/centers/">Centers</a></li>
+          <li><a href="/data/">Data</a></li>
+          <li><a href="/methodology.html">Methodology</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <hr class="site-divider">
+
+  <main>
+    <div class="container" data-law-watch-root>
+      <p class="kicker">Federal-first policy tracker</p>
+      <h1>Law Watch</h1>
+      <div class="page-intro">
+        <p>WildlifeStats Law Watch is a federal-first tracker for wildlife-related notices, proposed rules, and public-comment windows. It is a metadata-plus-link surface, not a legal-advice tool and not a full-text policy archive.</p>
+      </div>
+
+      <div class="page-note">
+        <p><strong>Scope:</strong> federal items only for now, with links back to official government documents.</p>
+        <p><strong>Current live refresh:</strong> this public build reflects the live Federal Register lane refreshed June 16, 2026 at 18:22 UTC. The Regulations.gov enrichment lane exists in the schema but is not being refreshed in this environment because the required API credential is not configured here.</p>
+      </div>
+
+      <section class="metric-grid" aria-label="Summary metrics">
+        <div class="metric-card"><strong>42</strong><span>federal items in scope</span></div>
+        <div class="metric-card"><strong>26</strong><span>open comment windows</span></div>
+        <div class="metric-card"><strong>2</strong><span>deadlines in the next 7 days</span></div>
+        <div class="metric-card"><strong>2</strong><span>agencies represented</span></div>
+      </section>
+
+      <section class="filter-panel" aria-label="Law Watch filters">
+        <h2>Filter the tracker</h2>
+        <div class="filter-grid">
+          <div class="filter-field">
+            <label for="law-watch-search">Search</label>
+            <input id="law-watch-search" type="search" data-filter="search" placeholder="Title, summary, docket, species">
+          </div>
+          <div class="filter-field">
+            <label for="law-watch-stage">Stage</label>
+            <select id="law-watch-stage" data-filter="stage">
+              <option value="all">All stages</option>
+              <option value="open_for_comment">Open for comment</option>
+              <option value="proposed">Proposed</option>
+              <option value="final">Final</option>
+              <option value="notice">Notice</option>
+              <option value="other">Other federal action</option>
+            </select>
+          </div>
+          <div class="filter-field">
+            <label for="law-watch-source">Source</label>
+            <select id="law-watch-source" data-filter="source">
+              <option value="all">All source lanes</option>
+              <option value="federal_register_api">Federal Register</option>
+              <option value="regulations_gov_api">Regulations.gov</option>
+            </select>
+          </div>
+          <div class="filter-field">
+            <label for="law-watch-topic">Topic</label>
+            <select id="law-watch-topic" data-filter="topic">
+              <option value="all">All topics</option>
+              <option value="endangered_species">Endangered species</option>
+              <option value="habitat">Habitat</option>
+              <option value="marine_mammals">Marine mammals</option>
+            </select>
+          </div>
+          <div class="filter-field">
+            <label for="law-watch-agency">Agency</label>
+            <select id="law-watch-agency" data-filter="agency">
+              <option value="all">All agencies</option>
+              <option value="fish-and-wildlife-service">Fish and Wildlife Service</option>
+              <option value="interior-department">Interior Department</option>
+            </select>
+          </div>
+          <div class="filter-field">
+            <label for="law-watch-timing">Timing</label>
+            <select id="law-watch-timing" data-filter="timing">
+              <option value="any">Any timing</option>
+              <option value="comment_open">Comment open now</option>
+              <option value="last_30_days">Posted in last 30 days</option>
+              <option value="deadline_this_week">Deadline this week</option>
+            </select>
+          </div>
+        </div>
+        <div class="filter-actions">
+          <p class="filter-status" data-visible-count>Showing 42 of 42 items</p>
+          <button type="button" class="filter-reset" data-filter="reset">Reset filters</button>
+        </div>
+      </section>
+
+      <ul class="card-grid">
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="marine_mammals"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-05-18"
+          data-comment-deadline="2026-06-17">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge">Proposed rule</span>
+          </div>
+          <h2>Marine Mammals; Incidental Take of Polar Bears in the Southern Beaufort Sea; Seismic Exploration Activities by SAExploration, Inc.</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 18, 2026 · Comment deadline June 17, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service, received a request under the Marine Mammal Protection Act of 1972 from SAExploration, Inc., to issue regulations facilitating the authorization of incidental, unintentional take of small numbers of polar bears during seismic exploration activities on the North Slope of Alaska. Take may result from three-dimensional seismic survey programs and associated activities occurring fo…</p>
+          <p class="source-card__detail">Citation 91 FR 28521 · Docket FWS-R7-ES-2023-0086</p>
+          <ul class="tag-list"><li>Marine mammals</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/18/2026-09885/marine-mammals-incidental-take-of-polar-bears-in-the-southern-beaufort-sea-seismic-exploration" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R7-ES-2023-0086-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-18/pdf/2026-09885.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-05-22"
+          data-comment-deadline="2026-06-22">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Endangered and Threatened Wildlife and Plants; Enhancement of Survival Permit Application; Conservation Benefit Agreement for the Greenback Cutthroat Trout; Colorado</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 22, 2026 · Comment deadline June 22, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), are announcing the availability of documents supporting Colorado Parks and Wildlife&#x27;s (CPW) application for an enhancement of survival permit (permit) for the greenback cutthroat trout (Oncorhynchus clarkii stomias, GBCT) under the Endangered Species Act of 1973, as amended. CPW&#x27;s permit application includes a programmatic conservation benefit agreement (CBA) for the…</p>
+          <p class="source-card__detail">Citation 91 FR 30325 · Docket FWS-R6-ES-2026-0826</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/22/2026-10238/endangered-and-threatened-wildlife-and-plants-enhancement-of-survival-permit-application" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R6-ES-2026-0826-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-22/pdf/2026-10238.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic=""
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-05-27"
+          data-comment-deadline="2026-06-26">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge">Proposed rule</span>
+          </div>
+          <h2>National Wildlife Refuge System; 2026-2027 Station-Specific Hunting and Sport Fishing Regulations</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 27, 2026 · Comment deadline June 26, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), propose to open or expand hunting opportunities on 111 field stations, including 107 units of the National Wildlife Refuges System (Refuge System or NWRS) and 4 units of the National Fish Hatchery System (Hatchery System or NFHS). This includes opening hunting or sport fishing opportunities for the first time on 14 National Wildlife Refuges (NWR) and 3 National Fish…</p>
+          <p class="source-card__detail">Citation 91 FR 31580 · Docket FWS-HQ-NWRS-2026-1223</p>
+          
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/27/2026-10465/national-wildlife-refuge-system-2026-2027-station-specific-hunting-and-sport-fishing-regulations" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-HQ-NWRS-2026-1223-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-27/pdf/2026-10465.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-05-29"
+          data-comment-deadline="2026-06-29">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Endangered Species; Recovery Permit Applications</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 29, 2026 · Comment deadline June 29, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service, have received applications for permits to conduct scientific research to promote conservation or other activities intended to enhance the propagation or survival of endangered and threatened species under the Endangered Species Act (Act). We invite the public and local, State, Tribal, and Federal agencies to provide written data, views, or arguments with respect to any applica…</p>
+          <p class="source-card__detail">Citation 91 FR 32079 · Docket FWS-R4-ES-2026-1024</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/29/2026-10774/endangered-species-recovery-permit-applications" rel="noopener">Official notice</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-29/pdf/2026-10774.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-01"
+          data-comment-deadline="2026-07-01">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Endangered Wildlife and Plants; Receipt of Recovery Permit Applications</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 1, 2026 · Comment deadline July 1, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service, invite the public to comment on the following applications for a permit to conduct scientific research to promote conservation or other activities intended to recover and enhance endangered species survival. With some exceptions, the Endangered Species Act (ESA) prohibits certain activities that may impact endangered species, unless a Federal permit allows such activity. The E…</p>
+          <p class="source-card__detail">Citation 91 FR 32417 · Docket FWS-R2-ES-2026-1387</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/01/2026-10885/endangered-wildlife-and-plants-receipt-of-recovery-permit-applications" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R2-ES-2026-1387-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-01/pdf/2026-10885.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-01"
+          data-comment-deadline="2026-07-01">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Endangered Species; Receipt of Recovery Permit Applications</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 1, 2026 · Comment deadline July 1, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service, have received applications for permits to conduct scientific research to promote conservation or other activities intended to enhance the propagation or survival of endangered or threatened species under the Endangered Species Act. We invite local, State, and Federal agencies; Tribes; and the public to comment on these applications. Before issuing the requested permits, we wil…</p>
+          <p class="source-card__detail">Citation 91 FR 32424 · Docket FWS-R5-ES-2026-1321</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/01/2026-10856/endangered-species-receipt-of-recovery-permit-applications" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R5-ES-2026-1321-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-01/pdf/2026-10856.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species|habitat"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-02"
+          data-comment-deadline="2026-07-02">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>North Dakota Petroleum Council, North Dakota; Multi-Project Habitat Conservation Plan for the Dakota Skipper, Draft Environmental Assessment</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 2, 2026 · Comment deadline July 2, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), announce the availability of documents related to an application for an incidental take permit (ITP) under the Endangered Species Act (ESA). The North Dakota Petroleum Council (NDPC) is applying for a permit associated with incidental take of the Dakota Skipper (Hesperia dacotae) during above-ground activities associated with the development of oil and gas projects i…</p>
+          <p class="source-card__detail">Citation 91 FR 32994 · Docket FWS-R6-ES-2026-0859</p>
+          <ul class="tag-list"><li>Endangered species</li><li>Habitat</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/02/2026-10995/north-dakota-petroleum-council-north-dakota-multi-project-habitat-conservation-plan-for-the-dakota" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R6-ES-2026-0859-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-02/pdf/2026-10995.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species|habitat"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-03"
+          data-comment-deadline="2026-07-06">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Receipt of Incidental Take Permit Application and Proposed Habitat Conservation Plan for Green Diamond Resource Company, Humboldt and Del Norte Counties, CA; Availability of Draft Environmental Assessment</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 3, 2026 · Comment deadline July 6, 2026</p>
+          <p class="source-card__summary">We, the Fish and Wildlife Service (Service), announce receipt of an application from Green Diamond Resource Company, LLC (applicant) for an incidental take permit (ITP) under the Endangered Species Act. The applicant requests the ITP to take the federally threatened marbled murrelet incidental to timber harvest operations on lands owned by the applicant, in Humboldt and Del Norte counties, California. We request pub…</p>
+          <p class="source-card__detail">Citation 91 FR 33192 · Docket FWS-R8-ES-2026-2344</p>
+          <ul class="tag-list"><li>Endangered species</li><li>Habitat</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/03/2026-11084/receipt-of-incidental-take-permit-application-and-proposed-habitat-conservation-plan-for-green" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R8-ES-2026-2344-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-03/pdf/2026-11084.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-05-06"
+          data-comment-deadline="2026-07-06">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Endangered and Threatened Wildlife and Plants; Initiation of 5-Year Status Reviews for 78 Species in Hawaii, Idaho, Oregon, and California</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 6, 2026 · Comment deadline July 6, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service, are initiating 5-year status reviews for 78 Species in Hawaii, Idaho, Oregon, and California under the Endangered Species Act of 1973. A 5-year status review is based on the best scientific and commercial data available at the time of the review; therefore, we are requesting submission of any new information on these species that has become available since the last reviews.</p>
+          <p class="source-card__detail">Citation 91 FR 24598 · Docket FWS-R1-ES-2026-0959</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/06/2026-08969/endangered-and-threatened-wildlife-and-plants-initiation-of-5-year-status-reviews-for-78-species-in" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R1-ES-2026-0959-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-06/pdf/2026-08969.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-10"
+          data-comment-deadline="2026-07-08">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge">Proposed rule</span>
+          </div>
+          <h2>Endangered and Threatened Wildlife and Plants; Threatened Species Status With Section 4(d) Rule for Southern Hognose Snake</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 10, 2026 · Comment deadline July 8, 2026</p>
+          <p class="source-card__summary">On June 8, 2026, we, the U.S. Fish and Wildlife Service (Service), published a document reopening the comment period and announcing a public hearing for the southern hognose snake. That document included an incorrect date for the public hearing in the DATES section. This document corrects that error.</p>
+          <p class="source-card__detail">Citation 91 FR 35173 · Docket FWS-R4-ES-2025-0210</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/10/2026-11634/endangered-and-threatened-wildlife-and-plants-threatened-species-status-with-section-4d-rule-for" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-R4-ES-2025-0210-0225" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11634.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species|habitat"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-08"
+          data-comment-deadline="2026-07-08">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>General Conservation Plan for the Alabama Beach Mouse; Categorical Exclusion; Baldwin County, AL</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 8, 2026 · Comment deadline July 8, 2026</p>
+          <p class="source-card__summary">We, the Fish and Wildlife Service (Service), announce receipt of nine separate applications for incidental take permits (ITPs) under the Endangered Species Act (ESA): One from Chris Prantl, Dan Higdon, Elite South Alabama Vacation Rental Series LLC, John Davidson Properties LLC, Johnathon Lazzarino, Phouc Nguyen, RBM Homes LLC, Silver Davis LLC, and Willie and Sheri Payne (applicant/applicants), under the approved g…</p>
+          <p class="source-card__detail">Citation 91 FR 34637 · Docket FWS-R4-ES-2026-1851</p>
+          <ul class="tag-list"><li>Endangered species</li><li>Habitat</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/08/2026-11418/general-conservation-plan-for-the-alabama-beach-mouse-categorical-exclusion-baldwin-county-al" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R4-ES-2026-1851-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-08/pdf/2026-11418.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-08"
+          data-comment-deadline="2026-07-08">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge">Proposed rule</span>
+          </div>
+          <h2>Endangered and Threatened Wildlife and Plants; Threatened Species Status With Section 4(d) Rule for Southern Hognose Snake</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 8, 2026 · Comment deadline July 8, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), are reopening the comment period on our August 29, 2025, proposed rule to list the southern hognose snake (Heterodon simus), a small, fossorial snake species from the coastal plains and sandhills across the southeastern United States, as a threatened species under the Endangered Species Act of 1973, as amended (Act) with protective regulations under section 4(d) of t…</p>
+          <p class="source-card__detail">Citation 91 FR 34597 · Docket FWS-R4-ES-2025-0210</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/08/2026-11414/endangered-and-threatened-wildlife-and-plants-threatened-species-status-with-section-4d-rule-for" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R4-ES-2025-0210-0223" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-08/pdf/2026-11414.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic=""
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-08"
+          data-comment-deadline="2026-07-08">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Agency Information Collection Activities; Submission to the Office of Management and Budget; Northeast Region Hunter Participation Surveys</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 8, 2026 · Comment deadline July 8, 2026</p>
+          <p class="source-card__summary">In accordance with the Paperwork Reduction Act of 1995 (PRA), we, the U.S. Fish and Wildlife Service (Service), are proposing to renew a currently approved information collection.</p>
+          <p class="source-card__detail">Citation 91 FR 34642 · Docket FWS-R5-MB-2026-1981</p>
+          
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/08/2026-11413/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-northeast" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-R5-MB-2026-1981-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-08/pdf/2026-11413.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic=""
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-08"
+          data-comment-deadline="2026-07-08">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Agency Information Collection Activities; Submission to the Office of Management and Budget; National Survey of Fishing, Hunting, and Wildlife Watching</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 8, 2026 · Comment deadline July 8, 2026</p>
+          <p class="source-card__summary">In accordance with the Paperwork Reduction Act of 1995 (PRA), we, the U.S. Fish and Wildlife Service (Service), are proposing to revise a currently approved information collection.</p>
+          <p class="source-card__detail">Citation 91 FR 34644 · Docket FWS-HQ-OCI-2026-2080</p>
+          
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/08/2026-11411/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-national" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-HQ-OCI-2026-2080-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-08/pdf/2026-11411.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="marine_mammals"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-10"
+          data-comment-deadline="2026-07-10">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Marine Mammals; Proposed Incidental Harassment Authorization for the Southern Beaufort Sea Stock of Polar Bears in the Prudhoe Bay Area of the North Slope Borough, Alaska; Draft Environmental Assessment</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 10, 2026 · Comment deadline July 10, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service, in response to a request under the Marine Mammal Protection Act of 1972, as amended, from BP America Production Company and BP Remediation Management (collectively BP), propose to authorize nonlethal, incidental take by harassment of small numbers Southern Beaufort Sea (SBS) polar bears (Ursus maritimus) between June 1, 2026, and May 31, 2027. The applicant requested this auth…</p>
+          <p class="source-card__detail">Citation 91 FR 35250 · Docket FWS-R7-ES-2025-0506</p>
+          <ul class="tag-list"><li>Marine mammals</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/10/2026-11645/marine-mammals-proposed-incidental-harassment-authorization-for-the-southern-beaufort-sea-stock-of" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R7-ES-2025-0506-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11645.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species|habitat"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-10"
+          data-comment-deadline="2026-07-10">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Receipt of Enhancement of Survival Permit Application and Proposed Conservation Benefit Agreement for the Benefit of the Columbia Basin Pygmy Rabbit in Washington; Categorical Exclusion</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 10, 2026 · Comment deadline July 10, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), have received an application from the Washington Department of Fish and Wildlife (WDFW) for an enhancement of survival permit for take of the Columbia Basin pygmy rabbit (CBPR) pursuant to Section 10 of the Endangered Species Act. This application includes a proposed conservation benefit agreement (CBA) outlining conservation measures and ongoing land management acti…</p>
+          <p class="source-card__detail">Citation 91 FR 35261 · Docket FWS-R1-ES-2026-0463</p>
+          <ul class="tag-list"><li>Endangered species</li><li>Habitat</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/10/2026-11582/receipt-of-enhancement-of-survival-permit-application-and-proposed-conservation-benefit-agreement" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R1-ES-2026-0463-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11582.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species|habitat"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-12"
+          data-comment-deadline="2026-07-13">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Receipt of Incidental Take Permit Application and Proposed Habitat Conservation Plan for Sand Skink; Lake County, FL; Categorical Exclusion</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 12, 2026 · Comment deadline July 13, 2026</p>
+          <p class="source-card__summary">We, the Fish and Wildlife Service (Service), announce receipt of an application from Lake County Development Partners, LLC (Casa del Rosa) (applicant) for an incidental take permit (ITP) under the Endangered Species Act (ESA). The applicant requests the ITP to take the federally listed threatened sand skink (Neopseps=(Plestiodon) reynoldsi) (skinks) incidental to the construction of a mixed multi- phase residential…</p>
+          <p class="source-card__detail">Citation 91 FR 35700 · Docket FWS-R4-ES-2026-1750</p>
+          <ul class="tag-list"><li>Endangered species</li><li>Habitat</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/12/2026-11870/receipt-of-incidental-take-permit-application-and-proposed-habitat-conservation-plan-for-sand-skink" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R4-ES-2026-1750-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-12/pdf/2026-11870.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species|habitat"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-12"
+          data-comment-deadline="2026-07-13">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Receipt of Incidental Take Permit Application and Proposed Habitat Conservation Plan for the Coastal California Gnatcatcher, Ventura County, CA; Categorical Exclusion</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 12, 2026 · Comment deadline July 13, 2026</p>
+          <p class="source-card__summary">We, the Fish and Wildlife Service (Service), announce receipt of an application from Moorpark 67, LLC (applicant) for an incidental take permit (ITP) under the Endangered Species Act. The applicant requests the ITP to take the federally listed coastal California gnatcatcher (Polioptila californica californica) incidental to residential development in the City of Moorpark, Ventura County, California. We request publi…</p>
+          <p class="source-card__detail">Citation 91 FR 35701 · Docket FWS-R8-ES-2026-2410</p>
+          <ul class="tag-list"><li>Endangered species</li><li>Habitat</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/12/2026-11869/receipt-of-incidental-take-permit-application-and-proposed-habitat-conservation-plan-for-the-coastal" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R8-ES-2026-2410-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-12/pdf/2026-11869.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species|habitat"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-12"
+          data-comment-deadline="2026-07-13">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Receipt of Incidental Take Permit Application and Proposed Habitat Conservation Plan for Brand Partnerships, 3615 Foothill Road (APN 005-280-041), Carpinteria, Santa Barbara County, CA; Categorical Exclusion</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 12, 2026 · Comment deadline July 13, 2026</p>
+          <p class="source-card__summary">We, the Fish and Wildlife Service (Service), announce receipt of an application from Johnny Brand, landowner, Brand Partnerships (applicant) for an incidental take permit (ITP) under the Endangered Species Act. The applicant requests the ITP to take the federally listed California red-legged frog (Rana draytonii) and southwestern pond turtle (Actinemys pallida), a species proposed for listing, incidental to agricult…</p>
+          <p class="source-card__detail">Citation 91 FR 35702 · Docket FWS-R8-ES-2025-1035</p>
+          <ul class="tag-list"><li>Endangered species</li><li>Habitat</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/12/2026-11857/receipt-of-incidental-take-permit-application-and-proposed-habitat-conservation-plan-for-brand" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R8-ES-2025-1035-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-12/pdf/2026-11857.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic=""
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-05-18"
+          data-comment-deadline="2026-07-17">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Agency Information Collection Activities; Northeast Region Alaska Native Handicrafts</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 18, 2026 · Comment deadline July 17, 2026</p>
+          <p class="source-card__summary">In accordance with the Paperwork Reduction Act, we, the U.S. Fish and Wildlife Service, are proposing to renew an information collection without change.</p>
+          <p class="source-card__detail">Citation 91 FR 28617 · Docket FWS-R7-MB-2026-1884</p>
+          
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/18/2026-09896/agency-information-collection-activities-northeast-region-alaska-native-handicrafts" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R7-MB-2026-1884-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-18/pdf/2026-09896.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="marine_mammals"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-05-29"
+          data-comment-deadline="2026-07-28">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Agency Information Collection Activities; Marine Mammal Marking, Tagging, and Reporting Certificates, and Registration of Certain Dead Marine Mammal Hard Parts</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 29, 2026 · Comment deadline July 28, 2026</p>
+          <p class="source-card__summary">In accordance with the Paperwork Reduction Act of 1995, we, the U.S. Fish and Wildlife Service (Service), are proposing to renew an information collection without change.</p>
+          <p class="source-card__detail">Citation 91 FR 32084 · Docket FWS-R7-ES-2026-1882</p>
+          <ul class="tag-list"><li>Marine mammals</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/29/2026-10787/agency-information-collection-activities-marine-mammal-marking-tagging-and-reporting-certificates" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-R7-ES-2026-1882-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-29/pdf/2026-10787.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-02"
+          data-comment-deadline="2026-08-03">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Agency Information Collection Activities; Federal Fish and Wildlife Permit Applications and Reports-Native Endangered and Threatened Species</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 2, 2026 · Comment deadline August 3, 2026</p>
+          <p class="source-card__summary">In accordance with the Paperwork Reduction Act of 1995, we, the U.S. Fish and Wildlife Service (Service), are proposing to renew an information collection with revisions.</p>
+          <p class="source-card__detail">Citation 91 FR 32995 · Docket FWS-HQ-ES-2026-1124</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/02/2026-11008/agency-information-collection-activities-federal-fish-and-wildlife-permit-applications-and" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-HQ-ES-2026-1124-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-02/pdf/2026-11008.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic=""
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-08"
+          data-comment-deadline="2026-08-07">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Agency Information Collection Activities; Federal Fish and Wildlife Permit Applications and Reports--Requirements for African Elephants</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 8, 2026 · Comment deadline August 7, 2026</p>
+          <p class="source-card__summary">In accordance with the Paperwork Reduction Act of 1995, we, the U.S. Fish and Wildlife Service (Service), are proposing to renew an information collection without change.</p>
+          <p class="source-card__detail">Citation 91 FR 34639 · Docket FWS-HQ-IA-2026-1948</p>
+          
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/08/2026-11412/agency-information-collection-activities-federal-fish-and-wildlife-permit-applications-and" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-HQ-IA-2026-1948-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-08/pdf/2026-11412.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic=""
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-12"
+          data-comment-deadline="2026-08-11">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Agency Information Collection Activities; Policy Regarding Voluntary Prelisting Conservation Actions</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 12, 2026 · Comment deadline August 11, 2026</p>
+          <p class="source-card__summary">In accordance with the Paperwork Reduction Act of 1995, we, the U.S. Fish and Wildlife Service (Service), are proposing to renew an information collection without change.</p>
+          <p class="source-card__detail">Citation 91 FR 35698 · Docket FWS-HQ-ES-2026-1883</p>
+          
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/12/2026-11827/agency-information-collection-activities-policy-regarding-voluntary-prelisting-conservation-actions" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-HQ-ES-2026-1883-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-12/pdf/2026-11827.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic=""
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-15"
+          data-comment-deadline="2026-08-14">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Wilderness Administration and Resource Stewardship; Managing Climbing Activities in Wilderness</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 15, 2026 · Comment deadline August 14, 2026</p>
+          <p class="source-card__summary">The U.S. Fish and Wildlife Service (Service) announces the availability of a draft national guidance memorandum and proposed revisions for two Service Manual chapters to fulfill the direction in Section 122 of the Expanding Public Lands Outdoor Recreation Experiences (EXPLORE) Act governing the management of climbing activities in wilderness areas in the National Wildlife Refuge System (NWRS) and, where applicable,…</p>
+          <p class="source-card__detail">Citation 91 FR 35994 · Docket FWS-HQ-NWRS-2026-1618</p>
+          
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/15/2026-11970/wilderness-administration-and-resource-stewardship-managing-climbing-activities-in-wilderness" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-HQ-NWRS-2026-1618-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-15/pdf/2026-11970.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="open_for_comment"
+          data-source="federal_register_api"
+          data-topic=""
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="true"
+          data-publication-date="2026-06-15"
+          data-comment-deadline="2026-08-14">
+          <div class="source-card__header">
+            <span class="source-badge source-badge--open">Comment open</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Wilderness Administration and Resource Stewardship; Request for Information</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 15, 2026 · Comment deadline August 14, 2026</p>
+          <p class="source-card__summary">The U.S. Fish and Wildlife Service (Service) seeks public comment on potential improvements to Part 610 of the Service Manual (Wilderness Stewardship), which provides policy direction for the review, planning, stewardship, and administration of wilderness areas managed by the Service. The Service is interested in receiving information and recommendations regarding whether updates, clarifications, or other revisions…</p>
+          <p class="source-card__detail">Citation 91 FR 35993 · Docket FWS-HQ-NWRS-2026-2575</p>
+          
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/15/2026-11956/wilderness-administration-and-resource-stewardship-request-for-information" rel="noopener">Official notice</a> <a href="http://www.regulations.gov/commenton/FWS-HQ-NWRS-2026-2575-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-15/pdf/2026-11956.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="notice"
+          data-source="federal_register_api"
+          data-topic="endangered_species|habitat"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-05-04"
+          data-comment-deadline="2026-06-03">
+          <div class="source-card__header">
+            <span class="source-badge">Notice</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Incidental Take Permit Application for the Desert Tortoise; Draft Habitat Conservation Plan and Draft Environmental Assessment; CalPortland-Oro Grande Quarries and Cement Plant, San Bernardino County, CA</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 4, 2026 · Comment deadline June 3, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), have received an application from CalPortland Company (CalPortland) for an incidental take permit under the Endangered Species Act of 1973, as amended. The permit would authorize take of the federally threatened desert tortoise (Gopherus agassizii) incidental to otherwise lawful activities associated with continuing vested mining activities at CalPortland&#x27;s Oro Grand…</p>
+          <p class="source-card__detail">Citation 91 FR 24005 · Docket FWS-R8-ES-2025-0054</p>
+          <ul class="tag-list"><li>Endangered species</li><li>Habitat</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/04/2026-08579/incidental-take-permit-application-for-the-desert-tortoise-draft-habitat-conservation-plan-and-draft" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-R8-ES-2025-0054-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-04/pdf/2026-08579.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="notice"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-05-04"
+          data-comment-deadline="2026-06-03">
+          <div class="source-card__header">
+            <span class="source-badge">Notice</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Endangered and Threatened Species; Receipt of Recovery Permit Applications</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 4, 2026 · Comment deadline June 3, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service, have received applications for permits to conduct scientific research to promote conservation or other activities intended to enhance the propagation or survival of endangered or threatened species under the Endangered Species Act. We invite the public and local, State, Tribal, and Federal agencies to comment on these applications. Before issuing any of the requested permits,…</p>
+          <p class="source-card__detail">Citation 91 FR 24000 · Docket FWS-R3-ES-2026-0860</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/04/2026-08574/endangered-and-threatened-species-receipt-of-recovery-permit-applications" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-R3-ES-2026-0860-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-04/pdf/2026-08574.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="notice"
+          data-source="federal_register_api"
+          data-topic="endangered_species|habitat"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-05-07"
+          data-comment-deadline="2026-06-08">
+          <div class="source-card__header">
+            <span class="source-badge">Notice</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Receipt of Incidental Take Permit Application and Proposed Habitat Conservation Plan for Sand Skink and Blue-Tailed Mole Skink; Polk County, FL; Categorical Exclusion</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 7, 2026 · Comment deadline June 8, 2026</p>
+          <p class="source-card__summary">We, the Fish and Wildlife Service (Service), announce receipt of an application from FLLWCC, LLC/FLOW CC, LLC (Oakwood &amp; Lake Wales Country Club (Vintage)) (applicant) for an incidental take permit (ITP) under the Endangered Species Act (ESA). The applicant requests the ITP to take the federally listed threatened sand skink and blue-tailed mole skink (skinks) incidental to the construction of a multi-phase residenti…</p>
+          <p class="source-card__detail">Citation 91 FR 24912 · Docket FWS-R4-ES-2026-0727</p>
+          <ul class="tag-list"><li>Endangered species</li><li>Habitat</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/07/2026-09093/receipt-of-incidental-take-permit-application-and-proposed-habitat-conservation-plan-for-sand-skink" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-R4-ES-2026-0727-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-07/pdf/2026-09093.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="notice"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-05-11"
+          data-comment-deadline="2026-06-10">
+          <div class="source-card__header">
+            <span class="source-badge">Notice</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Foreign Endangered Species; Receipt of Permit Applications</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 11, 2026 · Comment deadline June 10, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), invite the public to comment on applications to conduct certain activities with foreign species that are listed as endangered under the Endangered Species Act (ESA). With some exceptions, the ESA prohibits activities with listed species unless Federal authorization is issued that allows such activities. The ESA also requires that we invite public comment before issui…</p>
+          <p class="source-card__detail">Citation 91 FR 25591 · Docket FWS-HQ-IA-2026-1057</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/11/2026-09234/foreign-endangered-species-receipt-of-permit-applications" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-HQ-IA-2026-1057-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-11/pdf/2026-09234.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="notice"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-05-11"
+          data-comment-deadline="2026-06-10">
+          <div class="source-card__header">
+            <span class="source-badge">Notice</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Foreign Endangered Species; Receipt of Permit Applications</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 11, 2026 · Comment deadline June 10, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), invite the public to comment on applications to conduct certain activities with foreign species that are listed as endangered under the Endangered Species Act (ESA). With some exceptions, the ESA prohibits activities with listed species unless Federal authorization is issued that allows such activities. The ESA also requires that we invite public comment before issui…</p>
+          <p class="source-card__detail">Citation 91 FR 25593 · Docket FWS-HQ-IA-2026-0760</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/11/2026-09233/foreign-endangered-species-receipt-of-permit-applications" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-HQ-IA-2026-0760-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-11/pdf/2026-09233.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="notice"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-05-15"
+          data-comment-deadline="2026-06-15">
+          <div class="source-card__header">
+            <span class="source-badge">Notice</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Foreign Endangered Species; Receipt of Permit Applications</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 15, 2026 · Comment deadline June 15, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), invite the public to comment on applications to conduct certain activities with foreign species that are listed as endangered under the Endangered Species Act (ESA). With some exceptions, the ESA prohibits activities with listed species unless Federal authorization is issued that allows such activities. The ESA also requires that we invite public comment before issui…</p>
+          <p class="source-card__detail">Citation 91 FR 27977 · Docket FWS-HQ-IA-2026-0298</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/15/2026-09807/foreign-endangered-species-receipt-of-permit-applications" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-HQ-IA-2026-0298-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-15/pdf/2026-09807.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="notice"
+          data-source="federal_register_api"
+          data-topic=""
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-05-15"
+          data-comment-deadline="2026-06-15">
+          <div class="source-card__header">
+            <span class="source-badge">Notice</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Agency Information Collection Activities; Submission to the Office of Management and Budget; Federal Fish and Wildlife Permit Applications and Reports-Management Authority</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 15, 2026 · Comment deadline June 15, 2026</p>
+          <p class="source-card__summary">In accordance with the Paperwork Reduction Act of 1995, we, the U.S. Fish and Wildlife Service (Service), are proposing to renew a currently approved information collection without change.</p>
+          <p class="source-card__detail">Citation 91 FR 27972 · Docket FWS-HQ-IA-2026-1915</p>
+          
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/15/2026-09805/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-federal" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-HQ-IA-2026-1915-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-15/pdf/2026-09805.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="notice"
+          data-source="federal_register_api"
+          data-topic=""
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-05-15"
+          data-comment-deadline="2026-06-15">
+          <div class="source-card__header">
+            <span class="source-badge">Notice</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Agency Information Collection Activities; Submission to the Office of Management and Budget; Horseshoe Crab and Cooperative Fish Tagging Programs</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 15, 2026 · Comment deadline June 15, 2026</p>
+          <p class="source-card__summary">In accordance with the Paperwork Reduction Act of 1995 (PRA), we, the U.S. Fish and Wildlife Service (Service), are proposing to renew a currently approved information collection without change.</p>
+          <p class="source-card__detail">Citation 91 FR 27975 · Docket FWS-R5-FAC-2026-1684</p>
+          
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/15/2026-09751/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-horseshoe" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-R5-FAC-2026-1684-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-15/pdf/2026-09751.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="final"
+          data-source="federal_register_api"
+          data-topic="endangered_species|habitat"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-06-16"
+          data-comment-deadline="">
+          <div class="source-card__header">
+            <span class="source-badge">Final</span>
+            <span class="source-badge">Final rule</span>
+          </div>
+          <h2>Endangered and Threatened Wildlife and Plants; Two Species Not Warranted for Listing as Endangered or Threatened Species</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 16, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), announce findings that two species are not warranted for listing as endangered or threatened species under the Endangered Species Act of 1973, as amended (Act). After a thorough review of the best scientific and commercial data available, we find that it is not warranted at this time to list the Sangre de Cristo peaclam (Pisidium sanguinichristi) and black-backed tan…</p>
+          <p class="source-card__detail">Citation 91 FR 36090 · Docket FWS-HQ-ES-2026-1454</p>
+          <ul class="tag-list"><li>Endangered species</li><li>Habitat</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/16/2026-12077/endangered-and-threatened-wildlife-and-plants-two-species-not-warranted-for-listing-as-endangered-or" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-HQ-ES-2026-1454-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-16/pdf/2026-12077.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="final"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-06-10"
+          data-comment-deadline="">
+          <div class="source-card__header">
+            <span class="source-badge">Final</span>
+            <span class="source-badge">Final rule</span>
+          </div>
+          <h2>Endangered and Threatened Wildlife and Plants; Removal of Northeastern Bulrush From the List of Endangered and Threatened Plants</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 10, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), are removing the northeastern bulrush (Scirpus ancistrochaetus) from the Federal List of Endangered and Threatened Plants. Our review of the best scientific and commercial data available indicates that the threats to the northeastern bulrush have been eliminated or reduced to the point that the species no longer meets the definition of an endangered or threatened spe…</p>
+          <p class="source-card__detail">Citation 91 FR 35147 · Docket FWS-R5-ES-2023-0014</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/10/2026-11609/endangered-and-threatened-wildlife-and-plants-removal-of-northeastern-bulrush-from-the-list-of" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-R5-ES-2023-0014-0018" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11609.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="final"
+          data-source="federal_register_api"
+          data-topic="endangered_species|habitat"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-06-01"
+          data-comment-deadline="">
+          <div class="source-card__header">
+            <span class="source-badge">Final</span>
+            <span class="source-badge">Final rule</span>
+          </div>
+          <h2>Endangered and Threatened Wildlife and Plants; Designation of Critical Habitat for the Rusty Patched Bumble Bee</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published June 1, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), designate critical habitat for the rusty patched bumble bee (Bombus affinis), a bumble bee historically known to occur broadly across the eastern United States and portions of Canada, under the Endangered Species Act of 1973, as amended (Act). In total, we are designating approximately 1,534,951 acres (621,172 hectares) of occupied critical habitat in 14 units across…</p>
+          <p class="source-card__detail">Citation 91 FR 32516 · Docket Docket No. FWS-R3-ES-2024-0132</p>
+          <ul class="tag-list"><li>Endangered species</li><li>Habitat</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/06/01/2026-10846/endangered-and-threatened-wildlife-and-plants-designation-of-critical-habitat-for-the-rusty-patched" rel="noopener">Official notice</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-06-01/pdf/2026-10846.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="final"
+          data-source="federal_register_api"
+          data-topic=""
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-05-27"
+          data-comment-deadline="">
+          <div class="source-card__header">
+            <span class="source-badge">Final</span>
+            <span class="source-badge">Final rule</span>
+          </div>
+          <h2>Change of Address; Technical Amendment</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 27, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service, are updating our regulations to provide the public with the most current information for the U.S. Fish and Wildlife Service headquarters program and Regional offices.</p>
+          <p class="source-card__detail">Citation 91 FR 31368 · Docket FWS-HQ-PRB-2026-0300</p>
+          
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/27/2026-10485/change-of-address-technical-amendment" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-HQ-PRB-2026-0300-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-27/pdf/2026-10485.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="final"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-05-19"
+          data-comment-deadline="">
+          <div class="source-card__header">
+            <span class="source-badge">Final</span>
+            <span class="source-badge">Final rule</span>
+          </div>
+          <h2>Endangered and Threatened Wildlife and Plants; Reclassification of the Rough Popcornflower From Endangered to Threatened With a Section 4(d) Rule</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 19, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), are reclassifying the rough popcornflower (Plagiobothrys hirtus) from endangered to threatened (downlist) under the Endangered Species Act of 1973, as amended (Act). This action is based on our evaluation of the best scientific and commercial data available, which indicates that the species&#x27; status has improved such that it is not in danger of extinction throughout a…</p>
+          <p class="source-card__detail">Citation 91 FR 29071 · Docket FWS-R1-ES-2024-0005</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/19/2026-10045/endangered-and-threatened-wildlife-and-plants-reclassification-of-the-rough-popcornflower-from" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-R1-ES-2024-0005-0007" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-19/pdf/2026-10045.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="notice"
+          data-source="federal_register_api"
+          data-topic=""
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-05-05"
+          data-comment-deadline="">
+          <div class="source-card__header">
+            <span class="source-badge">Notice</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Sport Fishing and Boating Partnership Council; Call for Nominations</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 5, 2026</p>
+          <p class="source-card__summary">The Secretary of the Department of the Interior, through the Director of the U.S. Fish and Wildlife Service, and the Secretary of the Department of Commerce, through the Assistant Administrator for Fisheries at the National Oceanic and Atmospheric Administration, seek nominations for membership on the Sport Fishing and Boating Partnership Council.</p>
+          <p class="source-card__detail">Citation 91 FR 24272 · Docket FWS-HQ-FAC-2026-1123</p>
+          
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/05/2026-08734/sport-fishing-and-boating-partnership-council-call-for-nominations" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-HQ-FAC-2026-1123-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-05/pdf/2026-08734.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="proposed"
+          data-source="federal_register_api"
+          data-topic="endangered_species|habitat"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-05-04"
+          data-comment-deadline="">
+          <div class="source-card__header">
+            <span class="source-badge">Proposed</span>
+            <span class="source-badge">Proposed rule</span>
+          </div>
+          <h2>Endangered and Threatened Wildlife and Plants; 12-Month Not-Warranted Finding for the Temblor Legless Lizard</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 4, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), announce a 12-month finding on a petition to list the Temblor legless lizard (Anniella alexanderae) as an endangered or threatened species under the Endangered Species Act of 1973, as amended (Act). The Temblor legless lizard inhabits the eastern foothills of the Temblor and Diablo ranges of California, along with adjacent portions of the San Joaquin Valley floor. Af…</p>
+          <p class="source-card__detail">Citation 91 FR 23934 · Docket FWS-R8-ES-2026-0299</p>
+          <ul class="tag-list"><li>Endangered species</li><li>Habitat</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/04/2026-08665/endangered-and-threatened-wildlife-and-plants-12-month-not-warranted-finding-for-the-temblor-legless" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-R8-ES-2026-0299-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-04/pdf/2026-08665.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-stage="notice"
+          data-source="federal_register_api"
+          data-topic="endangered_species"
+          data-agency="interior-department|fish-and-wildlife-service"
+          data-comment-open="false"
+          data-publication-date="2026-05-04"
+          data-comment-deadline="">
+          <div class="source-card__header">
+            <span class="source-badge">Notice</span>
+            <span class="source-badge source-badge--warning">Notice</span>
+          </div>
+          <h2>Endangered Species; Issuance of Permits</h2>
+          <p class="source-card__meta">Federal Register · Interior Department, Fish and Wildlife Service · Published May 4, 2026</p>
+          <p class="source-card__summary">We, the U.S. Fish and Wildlife Service (Service), have issued the following permits to conduct certain activities with endangered species. We issued these permits under the Endangered Species Act (ESA).</p>
+          <p class="source-card__detail">Citation 91 FR 23999 · Docket FWS-HQ-IA-2025-1441</p>
+          <ul class="tag-list"><li>Endangered species</li></ul>
+          <p class="source-card__reason">Why it is in scope: agency allowlist: interior-department, fish-and-wildlife-service</p>
+          <div class="source-card__links">
+            <a href="https://www.federalregister.gov/documents/2026/05/04/2026-08592/endangered-species-issuance-of-permits" rel="noopener">Official notice</a> <a href="https://www.regulations.gov/commenton/FWS-HQ-IA-2025-1441-0001" rel="noopener">Comment or docket page</a> <a href="https://www.govinfo.gov/content/pkg/FR-2026-05-04/pdf/2026-08592.pdf" rel="noopener">PDF or source document</a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="empty-state" data-empty-state>
+        <p>No current law-watch items match these filters.</p>
+      </div>
+
+      <p class="source-disclosure">This page is for awareness and routing only. Always verify legal status, deadline timing, and final text in the linked official government source before relying on it.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>WildlifeStats is a research framework. Current dataset is synthetic
+      (n=1,000,000) generated from regional distribution models. See
+      <a href="/methodology.html">Methodology</a>.</p>
+      <nav aria-label="Footer">
+        <a href="/governance.html">Governance</a> ·
+        <a href="/about.html">About</a> ·
+        <a href="/wildlife911/">Wildlife911</a> ·
+        <a href="mailto:wildlifestats@michaeloak.com">Contact</a> ·
+        <span>2026</span>
+      </nav>
+    </div>
+  </footer>
+  <script src="/assets/js/site.js"></script>
+  <script src="/assets/js/law-watch.js"></script>
+</body>
+</html>

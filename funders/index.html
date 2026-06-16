@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>WildlifeStats — Funders</title>
+  <meta name="description" content="Curated national funder registry for wildlife rehabilitation and adjacent conservation support.">
+  <link rel="canonical" href="https://wildlifestats.org/funders/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WildlifeStats">
+  <meta property="og:title" content="WildlifeStats — Funders">
+  <meta property="og:description" content="Curated national funder registry for wildlife rehabilitation and adjacent conservation support.">
+  <meta property="og:url" content="https://wildlifestats.org/funders/">
+  <meta property="og:image" content="https://wildlifestats.org/assets/img/og-default.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&amp;display=swap">
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <link rel="stylesheet" href="/assets/css/source-pages.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="brand" aria-label="WildlifeStats — home">
+        <img src="/assets/img/logo.svg" alt="" width="240" height="64" class="brand__mark">
+        <span class="brand__kicker">National Wildlife Rehabilitation Research Framework</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="/one-health/">One Health</a></li>
+          <li><a href="/parks/">National Parks</a></li>
+          <li><a href="/wildlife/">Wildlife</a></li>
+          <li><a href="/wildlife911/">Wildlife911</a></li>
+          <li><a href="/centers/">Centers</a></li>
+          <li><a href="/data/">Data</a></li>
+          <li><a href="/methodology.html">Methodology</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <hr class="site-divider">
+
+  <main>
+    <div class="container" data-funders-root>
+      <p class="kicker">Curated sector registry</p>
+      <h1>Funders</h1>
+      <div class="page-intro">
+        <p>This page renders the current local WildlifeStats funder registry for wildlife rehabilitation and adjacent conservation support. It is meant to answer a basic sector question quickly: who funds this field, what do they tend to fund, and where should an operator or board start reading?</p>
+      </div>
+
+      <div class="page-note">
+        <p><strong>Scope:</strong> local curated registry only for now. This is not a scraping surface and not a fundraising advice tool.</p>
+        <p><strong>Use with care:</strong> grant deadlines, eligibility terms, and invitation-only posture can change. Always verify against the linked program page before acting.</p>
+      </div>
+
+      <section class="metric-grid" aria-label="Summary metrics">
+        <div class="metric-card"><strong>33</strong><span>funders in the current registry</span></div>
+        <div class="metric-card"><strong>16</strong><span>with a published approximate annual grant total</span></div>
+        <div class="metric-card"><strong>$2.0B</strong><span>combined published annual grants, where disclosed</span></div>
+        <div class="metric-card"><strong>4</strong><span>funder types represented</span></div>
+      </section>
+
+      <section class="filter-panel" aria-label="Funders filters">
+        <h2>Filter the registry</h2>
+        <div class="filter-grid">
+          <div class="filter-field">
+            <label for="funders-search">Search</label>
+            <input id="funders-search" type="search" data-filter="search" placeholder="Name, focus area, eligibility">
+          </div>
+          <div class="filter-field">
+            <label for="funders-type">Funder type</label>
+            <select id="funders-type" data-filter="type">
+              <option value="all">All types</option>
+              <option value="corporate_program">Corporate program</option>
+              <option value="federal_program">Federal program</option>
+              <option value="private_foundation">Private foundation</option>
+              <option value="public_charity">Public charity</option>
+            </select>
+          </div>
+          <div class="filter-field">
+            <label for="funders-focus">Common focus area</label>
+            <select id="funders-focus" data-filter="focus">
+              <option value="all">All focus areas</option>
+              <option value="animal_sheltering">Animal Sheltering</option>
+              <option value="biodiversity">Biodiversity</option>
+              <option value="certified_wildlife_habitat">Certified Wildlife Habitat</option>
+              <option value="climate_adaptation">Climate Adaptation</option>
+              <option value="companion_animal_welfare">Companion Animal Welfare</option>
+              <option value="disaster_relief_animals">Disaster Relief Animals</option>
+              <option value="endangered_species">Endangered Species</option>
+              <option value="environmental_conservation">Environmental Conservation</option>
+              <option value="facility_operations">Facility Operations</option>
+              <option value="habitat_protection">Habitat Protection</option>
+              <option value="habitat_restoration">Habitat Restoration</option>
+              <option value="spay_neuter">Spay Neuter</option>
+              <option value="species_conservation">Species Conservation</option>
+              <option value="veterinary_care">Veterinary Care</option>
+              <option value="wetland_restoration">Wetland Restoration</option>
+              <option value="wildlife_conservation">Wildlife Conservation</option>
+              <option value="wildlife_habitat">Wildlife Habitat</option>
+              <option value="wildlife_health">Wildlife Health</option>
+              <option value="wildlife_medicine">Wildlife Medicine</option>
+              <option value="wildlife_rehab">Wildlife Rehab</option>
+              <option value="wildlife_rehab_adjacent">Wildlife Rehab Adjacent</option>
+            </select>
+          </div>
+        </div>
+        <div class="filter-actions">
+          <p class="filter-status" data-visible-count>Showing 33 of 33 funders</p>
+          <button type="button" class="filter-reset" data-filter="reset">Reset filters</button>
+        </div>
+      </section>
+
+      <ul class="card-grid">
+        <li class="source-card"
+          data-type="federal_program"
+          data-focus="hunter_education|public_access_wildlife|wild_birds_mammals|wildlife_habitat_restoration|wildlife_management_research">
+          <div class="source-card__header">
+            <span class="source-badge">Federal program</span>
+            <span class="source-badge">$1.2B</span>
+          </div>
+          <h2>USFWS Wildlife Restoration / Pittman-Robertson Act</h2>
+          <p class="source-card__meta">U.S. Fish &amp; Wildlife Service – Wildlife Restoration Program (Pittman-Robertson)</p>
+          <p class="source-card__summary">Funded by federal excise taxes on firearms, ammunition, and archery equipment. Grants go to state fish and wildlife agencies (not directly to nonprofits) for restoration, rehabilitation, and improvement of wildlife habitat; population surveys; land acquisition; and hunter education. State agencies may partner with or sub-grant to nonprofits. Covers wild birds and mammals only. Federal share up to 75%; state provides at least 25% match from license revenues. CFDA 15.611. ~$1.2B apportioned in FY2023.</p>
+          
+          <ul class="tag-list"><li>Wildlife Habitat Restoration</li><li>Wildlife Management Research</li><li>Hunter Education</li><li>Public Access Wildlife</li><li>Wild Birds Mammals</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.fws.gov/program/wildlife-restoration" rel="noopener">Organization site</a>
+            <a href="https://www.grants.gov/search-results-detail/285369" rel="noopener">Grant program</a>
+            <a href="https://www.fws.gov/program/wildlife-restoration" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="coastal_wetlands|endangered_species|fish_wildlife_restoration|migratory_birds|wildlife_habitat|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">$513.0M</span>
+          </div>
+          <h2>NFWF</h2>
+          <p class="source-card__meta">National Fish and Wildlife Foundation</p>
+          <p class="source-card__summary">Chartered by Congress in 1984. Awards competitive grants to states, tribes, nonprofits, universities, and government agencies for fish, wildlife, and plant conservation. Multiple programs including America the Beautiful Challenge, Conservation Partners Program, Five Star and Urban Waters, and regional funds. Programs vary in eligibility; many require matching contributions (typically 1:1).</p>
+          <p class="source-card__detail">Contact: <a href="mailto:info@nfwf.org">info@nfwf.org</a> · EIN: 52-1384139</p>
+          <ul class="tag-list"><li>Wildlife Habitat</li><li>Fish Wildlife Restoration</li><li>Endangered Species</li><li>Wildlife Rehab Adjacent</li><li>Coastal Wetlands</li><li>Migratory Birds</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.nfwf.org/" rel="noopener">Organization site</a>
+            <a href="https://www.nfwf.org/apply-grant" rel="noopener">Grant program</a>
+            <a href="https://www.nfwf.org/apply-grant" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="habitat_restoration|national_park_wildlife|threatened_endangered_species|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">$81.9M</span>
+          </div>
+          <h2>NPF</h2>
+          <p class="source-card__meta">National Park Foundation</p>
+          <p class="source-card__summary">Official charitable partner of the National Park Service. Grants (~$81.9M in 2024, 588 grantees) are predominantly invitation-only; does not accept unsolicited proposals. Funds wildlife protection, endangered species recovery, and habitat projects within and adjacent to national parks. Organizations working within NPS units may be considered.</p>
+          <p class="source-card__detail">EIN: 52-1086761</p>
+          <ul class="tag-list"><li>National Park Wildlife</li><li>Threatened Endangered Species</li><li>Habitat Restoration</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.nationalparks.org/" rel="noopener">Organization site</a>
+            <a href="https://www.nationalparks.org/news-and-updates/updates/protecting-wildlife-npf-grants-support-threatened-endangered-species" rel="noopener">Grant program</a>
+            <a href="https://www.nationalparks.org/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="federal_program"
+          data-focus="habitat_restoration|species_of_greatest_conservation_need|wildlife_action_plans|wildlife_conservation|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Federal program</span>
+            <span class="source-badge">$74.0M</span>
+          </div>
+          <h2>USFWS State Wildlife Grants (SWG)</h2>
+          <p class="source-card__meta">U.S. Fish &amp; Wildlife Service – State Wildlife Grants Program</p>
+          <p class="source-card__summary">Federal formula grants to US states, DC, commonwealths, and territories for development and implementation of State Wildlife Action Plans. State fish and wildlife agencies are the direct recipients; they may sub-grant to nonprofits, universities, and other partners. Focuses on non-game and at-risk species; requires ≥35% non-federal match. Congress appropriates annually; ~$74M/year. CFDA 15.634.</p>
+          <p class="source-card__detail">Contact: <a href="mailto:John_Stremple@fws.gov">John_Stremple@fws.gov</a></p>
+          <ul class="tag-list"><li>Wildlife Conservation</li><li>Species Of Greatest Conservation Need</li><li>Habitat Restoration</li><li>Wildlife Action Plans</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.fws.gov/program/state-wildlife-grants" rel="noopener">Organization site</a>
+            <a href="https://www.grants.gov/search-results-detail/285369" rel="noopener">Grant program</a>
+            <a href="https://www.fws.gov/program/state-wildlife-grants" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="companion_animal_welfare|disaster_relief_animals|pet_adoption|spay_neuter|wildlife_rehab">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">$70.0M</span>
+          </div>
+          <h2>PetSmart Charities</h2>
+          <p class="source-card__meta">PetSmart Charities, Inc.</p>
+          <p class="source-card__summary">501(c)(3) animal welfare organizations in the US and Canada. Programs include companion animal adoption, emergency and disaster relief, spay/neuter, and broader animal welfare capacity grants. Wildlife crossover through animal emergency and sheltering programs.</p>
+          <p class="source-card__detail">EIN: 93-1140967</p>
+          <ul class="tag-list"><li>Companion Animal Welfare</li><li>Wildlife Rehab</li><li>Spay Neuter</li><li>Disaster Relief Animals</li><li>Pet Adoption</li></ul>
+          <div class="source-card__links">
+            <a href="https://petsmartcharities.org/" rel="noopener">Organization site</a>
+            <a href="https://petsmartcharities.org/pros/grants" rel="noopener">Grant program</a>
+            <a href="https://petsmartcharities.org/pros/grants" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="federal_program"
+          data-focus="biodiversity|conservation_science|ecology_evolution|wildlife_rehab_adjacent|wildlife_research">
+          <div class="source-card__header">
+            <span class="source-badge">Federal program</span>
+            <span class="source-badge">$16.0M</span>
+          </div>
+          <h2>NSF BIO / PACSP</h2>
+          <p class="source-card__meta">National Science Foundation – Biological Sciences Directorate / Partnership to Advance Conservation Science and Practice</p>
+          <p class="source-card__summary">NSF-Paul G. Allen Family Foundation Partnership (PACSP, FON 24-531). Supports conservation research investigating organismal biology, ecology, and/or evolution tied to on-the-ground biodiversity conservation. Eligible: non-profit non-academic organizations (museums, research labs, professional societies in the US) and accredited IHEs. Proposals must connect basic research to conservation implementation. ~$16M total program funding; ~16 expected awards. CFDA 47.074.</p>
+          <p class="source-card__detail">Contact: <a href="mailto:info@nsf.gov">info@nsf.gov</a></p>
+          <ul class="tag-list"><li>Conservation Science</li><li>Biodiversity</li><li>Ecology Evolution</li><li>Wildlife Research</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.nsf.gov/funding" rel="noopener">Organization site</a>
+            <a href="https://www.federalgrants.com/Partnership-to-Advance-Conservation-Science-and-Practice-98536.html" rel="noopener">Grant program</a>
+            <a href="https://www.nsf.gov/funding" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="animal_sheltering|anti_cruelty|companion_animal_welfare|disaster_relief_animals|spay_neuter|wildlife_crossover">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">$15.0M</span>
+          </div>
+          <h2>ASPCA</h2>
+          <p class="source-card__meta">The American Society for the Prevention of Cruelty to Animals</p>
+          <p class="source-card__summary">501(c)(3) animal welfare organizations, municipal shelters, universities, and government agencies. Grants span shelter capacity, spay/neuter, disaster response, and anti-cruelty. Wildlife rehabilitation organizations may qualify under emergency/disaster and sheltering programs. Since 2001 ASPCA has awarded $200M+ to 4,000+ organizations.</p>
+          <p class="source-card__detail">EIN: 13-1623829</p>
+          <ul class="tag-list"><li>Companion Animal Welfare</li><li>Animal Sheltering</li><li>Disaster Relief Animals</li><li>Wildlife Crossover</li><li>Spay Neuter</li><li>Anti Cruelty</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.aspca.org/" rel="noopener">Organization site</a>
+            <a href="https://www.aspcapro.org/grants/grant-opportunities" rel="noopener">Grant program</a>
+            <a href="https://www.aspcapro.org/grants/grant-opportunities" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="federal_program"
+          data-focus="cultural_species|habitat_mapping|species_not_hunted_fished|tribal_wildlife_conservation|wildlife_rehab">
+          <div class="source-card__header">
+            <span class="source-badge">Federal program</span>
+            <span class="source-badge">$6.1M</span>
+          </div>
+          <h2>USFWS Tribal Wildlife Grants (TWG)</h2>
+          <p class="source-card__meta">U.S. Fish &amp; Wildlife Service – Tribal Wildlife Grants Program</p>
+          <p class="source-card__summary">Competitive grants exclusively to federally recognized Tribal governments for fish and wildlife conservation and management. Award range $25,000–$200,000 per tribe per fiscal year. Activities may include conservation planning, field research, habitat mapping, population monitoring, habitat enhancement, and conservation education. No land acquisitions allowed. CFDA 15.639. ~$6.1M estimated FY2025 total program funding.</p>
+          
+          <ul class="tag-list"><li>Tribal Wildlife Conservation</li><li>Cultural Species</li><li>Habitat Mapping</li><li>Wildlife Rehab</li><li>Species Not Hunted Fished</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.fws.gov/service/tribal-wildlife-grants" rel="noopener">Organization site</a>
+            <a href="https://grants.gov/search-results-detail/358603" rel="noopener">Grant program</a>
+            <a href="https://grants.gov/search-results-detail/358603" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="animal_sheltering|capacity_building|veterinary_care|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">$5.0M</span>
+          </div>
+          <h2>ASPCA National Shelter Grants Initiative</h2>
+          <p class="source-card__meta">The ASPCA / American Society for the Prevention of Cruelty to Animals – National Shelter Grants Initiative</p>
+          <p class="source-card__summary">ASPCA&#x27;s National Shelter Grants Initiative provides up to $5M+ per cycle to 100+ organizations. Open to 501(c)(3) nonprofit and municipal shelters with a physical facility housing adoptable animals. Board of directors must have ≥4 members (majority independent). Application through ASPCA online portal. Deadline typically October. Wildlife rehabilitation organizations operating intake facilities may qualify.</p>
+          <p class="source-card__detail">EIN: 13-1623829</p>
+          <ul class="tag-list"><li>Animal Sheltering</li><li>Veterinary Care</li><li>Wildlife Rehab Adjacent</li><li>Capacity Building</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.aspcapro.org/" rel="noopener">Organization site</a>
+            <a href="https://aspcapro.org/national-shelter-grants" rel="noopener">Grant program</a>
+            <a href="https://aspcapro.org/national-shelter-grants" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="climate_adaptation|ecosystem_resilience|habitat_management|wildlife_conservation|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">$5.0M</span>
+          </div>
+          <h2>WCS / WCS Climate Adaptation Fund</h2>
+          <p class="source-card__meta">Wildlife Conservation Society</p>
+          <p class="source-card__summary">The WCS Climate Adaptation Fund (funded by Doris Duke Charitable Foundation) awards grants of $50,000–$300,000 to US-based 501(c)(3) conservation nonprofits for applied, on-the-ground climate adaptation projects within the 50 US states and territories. Requires a minimum 1:1 match. Annual RFP cycle with pre-proposal requirement. National organizations with cumulative awards exceeding $2M face additional eligibility conditions.</p>
+          <p class="source-card__detail">EIN: 13-1740011</p>
+          <ul class="tag-list"><li>Climate Adaptation</li><li>Wildlife Conservation</li><li>Habitat Management</li><li>Ecosystem Resilience</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.wcs.org/" rel="noopener">Organization site</a>
+            <a href="https://www.wcsclimateadaptationfund.org/" rel="noopener">Grant program</a>
+            <a href="https://www.wcsclimateadaptationfund.org/program-information" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="veterinary_science|wildlife_health_research|wildlife_medicine|wildlife_rehab|zoonotic_disease">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">$4.6M</span>
+          </div>
+          <h2>Morris Animal Foundation</h2>
+          <p class="source-card__meta">Morris Animal Foundation</p>
+          <p class="source-card__summary">Funds hypothesis-driven, humane animal health research at universities and research institutions. Wildlife/exotic animal research track supports conservation-relevant studies including disease ecology, population health, and veterinary care for captive and free-ranging wildlife. Grant types: Established Investigator Awards (no cap, avg $50K/yr, 2 yrs), First Award Grants (max $50K/yr, 2 yrs), Fellowship Training Grants (~$50K/yr), and Pilot Study Grants (max $10K). Four annual RFP cycles. Eligible: universities, research institutions, Smithsonian, zoological institutions. ~$4.6M annual giving (2023); ~$1M wildlife-specific grants annually.</p>
+          <p class="source-card__detail">EIN: 84-6032307</p>
+          <ul class="tag-list"><li>Wildlife Health Research</li><li>Wildlife Medicine</li><li>Zoonotic Disease</li><li>Wildlife Rehab</li><li>Veterinary Science</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.morrisanimalfoundation.org/" rel="noopener">Organization site</a>
+            <a href="https://www.morrisanimalfoundation.org/apply" rel="noopener">Grant program</a>
+            <a href="https://www.morrisanimalfoundation.org/apply" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="federal_program"
+          data-focus="bird_habitat|international_bird_conservation|migratory_bird_conservation|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Federal program</span>
+            <span class="source-badge">$4.0M</span>
+          </div>
+          <h2>USFWS NMBCA Grants</h2>
+          <p class="source-card__meta">U.S. Fish &amp; Wildlife Service – Neotropical Migratory Bird Conservation Act Grants</p>
+          <p class="source-card__summary">Funds projects promoting conservation of neotropical migratory birds across the entire migratory life cycle in the US, Canada, Latin America, and Caribbean. Eligible applicants include nonprofits, universities, state agencies, and foreign organizations in partnership with US entities. Minimum 3:1 non-federal match required. ~$3.8M federal funds in recent award cycles.</p>
+          
+          <ul class="tag-list"><li>Migratory Bird Conservation</li><li>Bird Habitat</li><li>Wildlife Rehab Adjacent</li><li>International Bird Conservation</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.fws.gov/service/neotropical-migratory-bird-conservation-act-nmbca-grants" rel="noopener">Organization site</a>
+            <a href="https://www.fws.gov/service/neotropical-migratory-bird-conservation-act-nmbca-grants" rel="noopener">Grant program</a>
+            <a href="https://www.fws.gov/service/neotropical-migratory-bird-conservation-act-nmbca-grants" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="private_foundation"
+          data-focus="chesapeake_bay|environmental_literacy|habitat_conservation|land_conservation|water_quality|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Private foundation</span>
+            <span class="source-badge">$1.7M</span>
+          </div>
+          <h2>VEE</h2>
+          <p class="source-card__meta">Virginia Environmental Endowment</p>
+          <p class="source-card__summary">Grants to nonprofits for programs in Virginia (Virginia Program), James River watershed (James River Program), southwestern Virginia counties (Community Conservation Program), and Kanawha/Ohio River Valleys of KY and WV. Priorities: water quality, Chesapeake Bay, land conservation, climate adaptation. Virginia Program deadlines: December 1 and June 15 (December 2025 by invitation only). Awards 23 grants totaling $611,005 in October 2025 grant round.</p>
+          <p class="source-card__detail">EIN: 54-1041973</p>
+          <ul class="tag-list"><li>Water Quality</li><li>Land Conservation</li><li>Environmental Literacy</li><li>Habitat Conservation</li><li>Chesapeake Bay</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.vee.org/" rel="noopener">Organization site</a>
+            <a href="https://www.vee.org/grant-programs-application/" rel="noopener">Grant program</a>
+            <a href="https://www.vee.org/grant-programs-application/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="federal_program"
+          data-focus="conservation_education|facility_operations|injured_orphaned_wildlife|wildlife_rehab">
+          <div class="source-card__header">
+            <span class="source-badge">Federal program</span>
+            <span class="source-badge">$500K</span>
+          </div>
+          <h2>CDFW Native Wildlife Rehabilitation Grants</h2>
+          <p class="source-card__meta">California Department of Fish and Wildlife – Native Wildlife Rehabilitation Grant Program</p>
+          <p class="source-card__summary">Competitive grants exclusively to California-permitted nonprofit wildlife rehabilitation facilities. Applicant must hold a valid CDFW Wildlife Rehabilitation Permit, maintain active use of the Wildlife Rehabilitation Medical Database, and be in compliance with MOU terms. Grant tiers based on prior year animal intake (10–200 animals: $2,500; 201–500: $5,000; 501–900: $7,500; 901–1,300: $10,000; 1,301–3,000: $15,000; 3,001+: $20,000). Funded through the Native California Wildlife Rehabilitation Voluntary Tax Contribution Fund. Annual cycle.</p>
+          <p class="source-card__detail">Contact: <a href="mailto:RehabWildlife@wildlife.ca.gov">RehabWildlife@wildlife.ca.gov</a></p>
+          <ul class="tag-list"><li>Wildlife Rehab</li><li>Injured Orphaned Wildlife</li><li>Conservation Education</li><li>Facility Operations</li></ul>
+          <div class="source-card__links">
+            <a href="https://wildlife.ca.gov/Conservation/Laboratories/Wildlife-Health/Rehab/Resources" rel="noopener">Organization site</a>
+            <a href="https://www.grants.ca.gov/grants/voluntary-tax-fund-native-wildlife-rehabilitation-grant-3/" rel="noopener">Grant program</a>
+            <a href="https://www.grants.ca.gov/grants/voluntary-tax-fund-native-wildlife-rehabilitation-grant-3/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="corporate_program"
+          data-focus="biodiversity_conservation|pollinator_habitat|public_lands|wildlife_habitat|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Corporate program</span>
+            <span class="source-badge">$500K</span>
+          </div>
+          <h2>Toyota / NEEF Biodiversity Conservation Grants</h2>
+          <p class="source-card__meta">Toyota Motor North America / National Environmental Education Foundation – Biodiversity Conservation Grants</p>
+          <p class="source-card__summary">Toyota Motor North America has provided $500,000+ in biodiversity conservation grant funding through NEEF for projects on America&#x27;s public lands. Focus areas: pollinator habitat enhancement and biodiversity hotspots (California Floristic Province). Grants awarded to nonprofits for shovel-ready projects on public lands. Additional Toyota/NEEF programs include National Public Lands Day restoration grants and accessibility grants up to $20,000 each. Check NEEF website for current open cycles.</p>
+          
+          <ul class="tag-list"><li>Biodiversity Conservation</li><li>Pollinator Habitat</li><li>Public Lands</li><li>Wildlife Habitat</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.neefusa.org/partner/our-partners/toyota" rel="noopener">Organization site</a>
+            <a href="https://www.toyotaeffect.com/stories-of-impact/neef-grants/" rel="noopener">Grant program</a>
+            <a href="https://www.neefusa.org/partner/our-partners/toyota" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="corporate_program"
+          data-focus="exotic_animal_rehab|facility_operations|small_mammal_rehab|wildlife_rehab">
+          <div class="source-card__header">
+            <span class="source-badge">Corporate program</span>
+            <span class="source-badge">$25K</span>
+          </div>
+          <h2>Oxbow Animal Rescue Grant (Kindswell for Rescues)</h2>
+          <p class="source-card__meta">Oxbow Animal Health – Annual Rescue Grant Program</p>
+          <p class="source-card__summary">Annual grants (~$25,000 total, 6–10 awards) to US and Canadian nonprofit rescue organizations, foster networks, humane societies, wildlife rehabilitation organizations, and animal sanctuaries. Qualifying species: rabbits, guinea pigs, chinchillas, ferrets, degus, sugar gliders, rats, mice, hamsters, gerbils, reptiles, tortoises, and wildlife. Does not require 501(c)(3). Does not fund dog- or cat-specific projects or spay/neuter. Organizations eligible in 2 of every 3 calendar years. Application window opens mid-May through summer; awards announced in October.</p>
+          
+          <ul class="tag-list"><li>Wildlife Rehab</li><li>Small Mammal Rehab</li><li>Exotic Animal Rehab</li><li>Facility Operations</li></ul>
+          <div class="source-card__links">
+            <a href="https://oxbowanimalhealth.com/for-rescues/" rel="noopener">Organization site</a>
+            <a href="https://oxbowanimalhealth.com/for-rescues/" rel="noopener">Grant program</a>
+            <a href="https://oxbowanimalhealth.com/for-rescues/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="animal_welfare|cruelty_neglect_rescue|veterinary_care|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>American Humane</h2>
+          <p class="source-card__meta">American Humane Association</p>
+          <p class="source-card__summary">Second Chance® Grants reimburse 501(c)(3) shelters and rescue organizations for emergency and specialty veterinary costs for animals who have suffered abuse or neglect. Covers surgery, diagnostics, intensive rehabilitation. Wildlife rehabilitation organizations that handle cruelty/neglect cases may qualify. Annual revenue ~$26M.</p>
+          <p class="source-card__detail">EIN: 84-0432950</p>
+          <ul class="tag-list"><li>Animal Welfare</li><li>Wildlife Rehab Adjacent</li><li>Cruelty Neglect Rescue</li><li>Veterinary Care</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.americanhumane.org/" rel="noopener">Organization site</a>
+            <a href="https://www.americanhumane.org/what-we-do/rescue-and-protect/second-chance-grants/" rel="noopener">Grant program</a>
+            <a href="https://www.americanhumane.org/what-we-do/rescue-and-protect/second-chance-grants/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="fishing_hunting_conservation|outdoor_education|species_conservation|wildlife_habitat|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>Bass Pro / Cabela&#x27;s Outdoor Fund</h2>
+          <p class="source-card__meta">Bass Pro Shops &amp; Cabela&#x27;s Outdoor Fund</p>
+          <p class="source-card__summary">501(c)(3) or equivalent nonprofit. Local Impact Grants (up to $5,000, rolling deadline) open to organizations with missions aligned with conserving wildlife and habitat, connecting new audiences to the outdoors, or supporting military and veterans. National-level grants are by invitation only. Does not fund: fundraising events, banquets, capital campaigns, or construction. Customer round-up program has raised $45M+ since 2019.</p>
+          <p class="source-card__detail">EIN: 83-0691791</p>
+          <ul class="tag-list"><li>Wildlife Habitat</li><li>Species Conservation</li><li>Outdoor Education</li><li>Fishing Hunting Conservation</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://about.basspro.com/conservation/outdoor-fund/" rel="noopener">Organization site</a>
+            <a href="https://about.basspro.com/community/support/" rel="noopener">Grant program</a>
+            <a href="https://about.basspro.com/community/support/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="habitat_acquisition|species_conservation|wildlife_biodiversity|wildlife_health|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>CWF</h2>
+          <p class="source-card__meta">California Wildlife Foundation</p>
+          <p class="source-card__summary">Independent California 501(c)(3) focused on wildlife biodiversity and health through habitat acquisition and species conservation. Operates primarily as a conservancy rather than grantmaker; may provide project-specific funding. Annual operating budget ~$5.5M. Based in Berkeley, CA.</p>
+          <p class="source-card__detail">EIN: 68-0234744</p>
+          <ul class="tag-list"><li>Wildlife Biodiversity</li><li>Habitat Acquisition</li><li>Wildlife Health</li><li>Species Conservation</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.californiawildlifefoundation.org/" rel="noopener">Organization site</a>
+            <a href="https://www.californiawildlifefoundation.org/donate/" rel="noopener">Grant program</a>
+            <a href="https://www.californiawildlifefoundation.org/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="endangered_species|habitat_protection|policy_advocacy|wildlife_conservation|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>Defenders of Wildlife</h2>
+          <p class="source-card__meta">Defenders of Wildlife</p>
+          <p class="source-card__summary">Primarily an advocacy and legal organization, but publishes Funding Opportunities for Biodiversity Projects as a resource guide. Limited direct grantmaking; funding partnerships with agencies and foundations. Organizations seeking wildlife funding may use Defenders&#x27; funding directory as a research tool.</p>
+          <p class="source-card__detail">EIN: 53-0183181</p>
+          <ul class="tag-list"><li>Endangered Species</li><li>Wildlife Conservation</li><li>Habitat Protection</li><li>Policy Advocacy</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://defenders.org/" rel="noopener">Organization site</a>
+            <a href="https://defenders.org/publications/funding-opportunities-biodiversity-projects" rel="noopener">Grant program</a>
+            <a href="https://defenders.org/publications/funding-opportunities-biodiversity-projects" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="corporate_program"
+          data-focus="community_conservation|endangered_species|habitat_protection|wildlife_conservation|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Corporate program</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>Disney Conservation Fund</h2>
+          <p class="source-card__meta">The Walt Disney Company (Disney Conservation Fund)</p>
+          <p class="source-card__summary">US 501(c)(3) organizations (or non-US nonprofits applying via a US 501(c)(3) fiscal sponsor). Annual Conservation Grants (max $50,000 over 2 years) require prior DCF funding history since 2015. Rapid Response Fund grants up to $10,000 accepted on rolling basis. Focus on community-based wildlife corridor and migratory pathway protection. Letter of inquiry required.</p>
+          
+          <ul class="tag-list"><li>Wildlife Conservation</li><li>Habitat Protection</li><li>Community Conservation</li><li>Endangered Species</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://impact.disney.com/environmental-sustainability/nature/" rel="noopener">Organization site</a>
+            <a href="https://impact.disney.com/environmental-sustainability/nature/" rel="noopener">Grant program</a>
+            <a href="https://impact.disney.com/environmental-sustainability/nature/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="private_foundation"
+          data-focus="climate_change|environmental_conservation|wildlife_conservation|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Private foundation</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>Doris Duke Foundation</h2>
+          <p class="source-card__meta">Doris Duke Charitable Foundation / Doris Duke Foundation</p>
+          <p class="source-card__summary">Most grants are by invitation only; unsolicited proposals accepted on limited basis. Environment Program focuses on thriving, resilient environments for wildlife and people. Has funded WCS Climate Adaptation Fund, Defenders of Wildlife, NWF, and The Nature Conservancy. Assets ~$1.77B (2018). Grantees typically large established conservation organizations.</p>
+          <p class="source-card__detail">EIN: 13-7043679</p>
+          <ul class="tag-list"><li>Wildlife Conservation</li><li>Environmental Conservation</li><li>Climate Change</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.dorisduke.org/" rel="noopener">Organization site</a>
+            <a href="https://www.dorisduke.org/grants" rel="noopener">Grant program</a>
+            <a href="https://www.dorisduke.org/grants" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="private_foundation"
+          data-focus="biodiversity|environmental_conservation|marine_conservation|wildfire_resilience|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Private foundation</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>Gordon and Betty Moore Foundation</h2>
+          <p class="source-card__meta">Gordon E. and Betty I. Moore Foundation</p>
+          <p class="source-card__summary">Large private foundation (~952 awards in 2023) with Environmental Conservation as a primary program area. Funds conservation science, marine conservation, wildfire resilience, and habitat protection at national and global scale. Grantees include major conservation organizations (WCS, TNC, WWF). Primarily by invitation; unsolicited proposals reviewed selectively. Grants typically multi-year, $100K–$5M+ range.</p>
+          <p class="source-card__detail">EIN: 94-3397785</p>
+          <ul class="tag-list"><li>Environmental Conservation</li><li>Marine Conservation</li><li>Wildfire Resilience</li><li>Biodiversity</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.moore.org/" rel="noopener">Organization site</a>
+            <a href="https://www.moore.org/grants" rel="noopener">Grant program</a>
+            <a href="https://www.moore.org/grants" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="anti_poaching|disaster_relief_animals|marine_mammal_rescue|wildlife_rehab|wildlife_rescue">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>IFAW</h2>
+          <p class="source-card__meta">International Fund for Animal Welfare</p>
+          <p class="source-card__summary">IFAW provides grants to partner organizations for wildlife rescue, rehabilitation, and protection globally and in the US. Focus includes marine mammals, large terrestrial wildlife, and disaster response. Partners primarily in US through existing programmatic relationships. Inquire directly via ifaw.org for current grant opportunities.</p>
+          <p class="source-card__detail">EIN: 31-1594197</p>
+          <ul class="tag-list"><li>Wildlife Rescue</li><li>Wildlife Rehab</li><li>Marine Mammal Rescue</li><li>Disaster Relief Animals</li><li>Anti Poaching</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.ifaw.org/" rel="noopener">Organization site</a>
+            <a href="https://www.ifaw.org/" rel="noopener">Grant program</a>
+            <a href="https://www.ifaw.org/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="community_stewardship|riparian_restoration|urban_wildlife_habitat|wetland_restoration|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>NFWF Five Star and Urban Waters</h2>
+          <p class="source-card__meta">National Fish and Wildlife Foundation – Five Star and Urban Waters Restoration Grant Program</p>
+          <p class="source-card__summary">NFWF sub-program (via EPA partnership) for small community-based habitat restoration projects in urban and suburban areas. Grants typically $2,500–$20,000 for community stewardship projects restoring wetlands, riparian areas, coastal habitats. Eligible: nonprofits, community groups, schools. Supports environmental literacy and on-the-ground habitat work that benefits urban wildlife populations. Annual RFP.</p>
+          <p class="source-card__detail">Contact: <a href="mailto:info@nfwf.org">info@nfwf.org</a> · EIN: 52-1384139</p>
+          <ul class="tag-list"><li>Urban Wildlife Habitat</li><li>Wetland Restoration</li><li>Riparian Restoration</li><li>Community Stewardship</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.nfwf.org/programs/five-star-and-urban-waters-restoration-grant-program" rel="noopener">Organization site</a>
+            <a href="https://www.nfwf.org/programs/five-star-and-urban-waters-restoration-grant-program" rel="noopener">Grant program</a>
+            <a href="https://www.nfwf.org/programs/five-star-and-urban-waters-restoration-grant-program" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="certified_wildlife_habitat|climate_adaptation|habitat_restoration|wildlife_conservation|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>NWF</h2>
+          <p class="source-card__meta">National Wildlife Federation</p>
+          <p class="source-card__summary">NWF primarily operates as an advocacy and education organization rather than a direct grantmaker to external groups. Maintains the Nature-based Funding Database (fundingnaturebasedsolutions.nwf.org) as a resource for organizations seeking conservation funding. Partners with Subaru for Certified Wildlife Habitat school programs. Annual revenue ~$156M.</p>
+          <p class="source-card__detail">EIN: 53-0204616</p>
+          <ul class="tag-list"><li>Wildlife Conservation</li><li>Habitat Restoration</li><li>Climate Adaptation</li><li>Wildlife Rehab Adjacent</li><li>Certified Wildlife Habitat</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.nwf.org/" rel="noopener">Organization site</a>
+            <a href="https://fundingnaturebasedsolutions.nwf.org/" rel="noopener">Grant program</a>
+            <a href="https://fundingnaturebasedsolutions.nwf.org/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="post_release_studies|wildlife_education|wildlife_medicine|wildlife_rehab">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>NWRA</h2>
+          <p class="source-card__meta">National Wildlife Rehabilitators Association</p>
+          <p class="source-card__summary">NWRA awards research grants in wildlife rehabilitation, medicine, and education. Also provides scholarships for symposium attendance and educational materials. Grants support independent and collaborative research by wildlife rehabilitation organizations and professionals. Post-release studies are a priority. Contact nwra@nwrawildlife.org for details.</p>
+          <p class="source-card__detail">Contact: <a href="mailto:nwra@nwrawildlife.org">nwra@nwrawildlife.org</a> · EIN: 37-1143442</p>
+          <ul class="tag-list"><li>Wildlife Rehab</li><li>Wildlife Medicine</li><li>Wildlife Education</li><li>Post Release Studies</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.nwrawildlife.org/" rel="noopener">Organization site</a>
+            <a href="https://www.nwrawildlife.org/page/funding_opportunities" rel="noopener">Grant program</a>
+            <a href="https://www.nwrawildlife.org/page/funding_opportunities" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="corporate_program"
+          data-focus="biodiversity|grassroots_environmental_activism|native_fish_habitat|water_marine|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Corporate program</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>Patagonia Environmental Grants</h2>
+          <p class="source-card__meta">Patagonia, Inc. – Environmental Grants Program</p>
+          <p class="source-card__summary">US-based 501(c)(3) public charities (or comparable fiscal sponsor). Supports grassroots activist groups with direct-action, systems-change campaigns. Grants typically $5,000–$20,000. Current priority: protecting and restoring native fish populations and their habitat. Corporate Grants Program (national scope) is invitation-only. Does not fund: land acquisition, research without action plan, hatchery programs, educational-only work, dam renovations. Pledges ≥1% of annual sales to environmental grants. Application cycles vary; May 1–April 30 fiscal year.</p>
+          
+          <ul class="tag-list"><li>Grassroots Environmental Activism</li><li>Native Fish Habitat</li><li>Biodiversity</li><li>Water Marine</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.patagonia.com/how-we-fund/" rel="noopener">Organization site</a>
+            <a href="https://www.patagonia.com/how-we-fund/corporate-grant/" rel="noopener">Grant program</a>
+            <a href="https://www.patagonia.com/how-we-fund/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="climate_resilience|community_outdoors|outdoor_access|public_lands_conservation|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>REI Cooperative Action Fund</h2>
+          <p class="source-card__meta">REI Cooperative Action Fund</p>
+          <p class="source-card__summary">Independent public charity established in 2021 by REI Co-op to support community-led organizations making the outdoors more accessible, inclusive, and climate-resilient. $36M+ distributed to 500+ nonprofits. Focus areas: creating space outside, connecting people outside, centering health outside. Grantees identified through REI staff recommendations, community advisors, and public nominations; primarily unrestricted multi-year grants. Wildlife habitat organizations working in public lands may qualify.</p>
+          <p class="source-card__detail">EIN: 85-4299419</p>
+          <ul class="tag-list"><li>Outdoor Access</li><li>Public Lands Conservation</li><li>Climate Resilience</li><li>Community Outdoors</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.reifund.org/" rel="noopener">Organization site</a>
+            <a href="https://www.reifund.org/" rel="noopener">Grant program</a>
+            <a href="https://www.reifund.org/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="public_charity"
+          data-focus="captive_breeding|reintroduction|species_conservation|wildlife_health|wildlife_medicine|wildlife_rehab">
+          <div class="source-card__header">
+            <span class="source-badge">Public charity</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>San Diego Zoo Wildlife Alliance</h2>
+          <p class="source-card__meta">Zoological Society of San Diego (San Diego Zoo Wildlife Alliance)</p>
+          <p class="source-card__summary">SDZWA conducts in-house conservation science and awards grants to external partners through programmatic research collaborations. Primarily supports conservation field programs through the Wildlife Health Sciences and Conservation Science programs. External grant opportunities typically through collaborative proposals and partnerships; not a large open-application grant program. Annual operating budget ~$385.7M.</p>
+          <p class="source-card__detail">EIN: 95-1648219</p>
+          <ul class="tag-list"><li>Wildlife Health</li><li>Species Conservation</li><li>Wildlife Rehab</li><li>Captive Breeding</li><li>Reintroduction</li><li>Wildlife Medicine</li></ul>
+          <div class="source-card__links">
+            <a href="https://sandiegozoowildlifealliance.org/" rel="noopener">Organization site</a>
+            <a href="https://sandiegozoowildlifealliance.org/grants-programs" rel="noopener">Grant program</a>
+            <a href="https://sandiegozoowildlifealliance.org/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="corporate_program"
+          data-focus="certified_wildlife_habitat|tree_planting|wildlife_habitat|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Corporate program</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>Subaru Loves the Earth</h2>
+          <p class="source-card__meta">Subaru of America – Subaru Loves the Earth / National Wildlife Federation Partnership</p>
+          <p class="source-card__summary">Subaru of America funds environmental conservation through its Love Promise platform, partnering with National Wildlife Federation, Arbor Day Foundation, Wildlife Conservation Society, and National Park Foundation. Wildlife habitat programs focus on creating Certified Wildlife Habitats at schools and communities. Program activities coordinated through dealer network and national conservation partners; not an open-application grant program.</p>
+          
+          <ul class="tag-list"><li>Wildlife Habitat</li><li>Certified Wildlife Habitat</li><li>Tree Planting</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.subaru.com/our-commitment/love-promise/subaru-loves-the-earth.html" rel="noopener">Organization site</a>
+            <a href="https://www.subaru.com/our-commitment/love-promise/subaru-loves-the-earth.html" rel="noopener">Grant program</a>
+            <a href="https://www.subaru.com/our-commitment/love-promise/subaru-loves-the-earth.html" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="federal_program"
+          data-focus="forest_habitat|grassland_conservation|wetland_restoration|wildlife_habitat|wildlife_rehab_adjacent">
+          <div class="source-card__header">
+            <span class="source-badge">Federal program</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>USDA NRCS EQIP Wildlife</h2>
+          <p class="source-card__meta">U.S. Department of Agriculture – Natural Resources Conservation Service Wildlife Habitat Incentive Program / EQIP Wildlife Practices</p>
+          <p class="source-card__summary">Environmental Quality Incentives Program (EQIP) provides financial and technical assistance to agricultural producers for wildlife habitat practices including brush management, tree/shrub establishment, wetland restoration, and upland wildlife habitat management. Eligible: farmers, ranchers, and forest landowners. Not a direct wildlife rehab grant but funds habitat improvement that supports wildlife populations and may benefit rehab-adjacent programs.</p>
+          
+          <ul class="tag-list"><li>Wildlife Habitat</li><li>Grassland Conservation</li><li>Wetland Restoration</li><li>Forest Habitat</li><li>Wildlife Rehab Adjacent</li></ul>
+          <div class="source-card__links">
+            <a href="https://www.nrcs.usda.gov/programs-initiatives/eqip-environmental-quality-incentives-program" rel="noopener">Organization site</a>
+            <a href="https://www.nrcs.usda.gov/programs-initiatives/eqip-environmental-quality-incentives-program" rel="noopener">Grant program</a>
+            <a href="https://www.nrcs.usda.gov/programs-initiatives/eqip-environmental-quality-incentives-program" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+        <li class="source-card"
+          data-type="private_foundation"
+          data-focus="focal_species_protection|habitat_security|landscape_connectivity|wildlife_conservation|wildlife_linkages">
+          <div class="source-card__header">
+            <span class="source-badge">Private foundation</span>
+            <span class="source-badge">Not published in this registry</span>
+          </div>
+          <h2>Wilburforce Foundation</h2>
+          <p class="source-card__meta">Wilburforce Foundation</p>
+          <p class="source-card__summary">Supports land, water, and wildlife conservation across 13 priority regions in Western North America. Focuses on habitat security, focal species protection, and wildlife linkages. Grants range from $1,000 to $1,300,000 (median ~$50,000). Rolling deadlines. Conservation science and law/policy support integrated into regional strategies.</p>
+          <p class="source-card__detail">EIN: 94-3137894</p>
+          <ul class="tag-list"><li>Wildlife Conservation</li><li>Habitat Security</li><li>Focal Species Protection</li><li>Wildlife Linkages</li><li>Landscape Connectivity</li></ul>
+          <div class="source-card__links">
+            <a href="https://wilburforce.org/" rel="noopener">Organization site</a>
+            <a href="https://wilburforce.org/grants/" rel="noopener">Grant program</a>
+            <a href="https://wilburforce.org/grants/" rel="noopener">Deadlines or application page</a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="empty-state" data-empty-state>
+        <p>No current funders match these filters.</p>
+      </div>
+
+      <p class="source-disclosure">Registry provenance is carried in the local YAML source file. WildlifeStats stores a restrained public subset here: name, type, focus areas, approximate disclosed scale where available, eligibility summary, and links back to the official program surface. The focus filter highlights recurring tags; search still covers the full long tail of one-off themes.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>WildlifeStats is a research framework. Current dataset is synthetic
+      (n=1,000,000) generated from regional distribution models. See
+      <a href="/methodology.html">Methodology</a>.</p>
+      <nav aria-label="Footer">
+        <a href="/governance.html">Governance</a> ·
+        <a href="/about.html">About</a> ·
+        <a href="/wildlife911/">Wildlife911</a> ·
+        <a href="mailto:wildlifestats@michaeloak.com">Contact</a> ·
+        <span>2026</span>
+      </nav>
+    </div>
+  </footer>
+  <script src="/assets/js/site.js"></script>
+  <script src="/assets/js/funders.js"></script>
+</body>
+</html>
