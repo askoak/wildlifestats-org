@@ -5,6 +5,7 @@ raw_rows_committed: false
 
 archive_verified:
   path: "C:\\Users\\Hello\\Downloads\\ebd_sampling_relMay-2026.tar"
+  extracted_local_copy: "C:\\Users\\Hello\\OneDrive - Michael Oak Advisors\\99_Public Folder\\WildStats\\ebirdSamplingMay2026"
   size_bytes: 8460072960
   sha256: ca69755b63f82f91d994be5021c11ca65b0affbca24e2747af1e03e772537678
   members:
@@ -19,6 +20,7 @@ archive_verified:
     - terms_of_use.txt
 
 outputs:
+  github_pr_url: "https://github.com/askoak/wildlifestats-org/pull/74"
   data_terms: "wildlifestats/_pipeline/sources/ebird-sampling/DATA_TERMS.md"
   provenance: "wildlifestats/_pipeline/sources/ebird-sampling/provenance.yml"
   weekly_effort_csv: "wildlifestats/_pipeline/sources/ebird-sampling/results/virginia_complete_checklist_effort_by_county_week_protocol.csv"
@@ -64,3 +66,4 @@ notes:
   - The zero-effort tail is mostly complete Incidental and Historical checklists.
   - County-blank Virginia rows were preserved rather than silently dropped.
   - This pilot is denominator-only; it does not yet emit a species numerator layer.
+  - As of this results file, the PR has no substantive review comments; the only PR comment is Netlify deploy-preview automation.

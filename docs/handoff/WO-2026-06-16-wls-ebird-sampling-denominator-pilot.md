@@ -26,6 +26,8 @@ This pilot does the narrowest honest first step:
 Verified on `Hello` at:
 
 - `C:\Users\Hello\Downloads\ebd_sampling_relMay-2026.tar`
+- extracted local working copy:
+  `C:\Users\Hello\OneDrive - Michael Oak Advisors\99_Public Folder\WildStats\ebirdSamplingMay2026`
 - size: `8,460,072,960` bytes
 - sha256:
   `ca69755b63f82f91d994be5021c11ca65b0affbca24e2747af1e03e772537678`
@@ -155,7 +157,20 @@ step:
 - Full archive pass:
   `$env:PYTHONPATH='.'; python wildlifestats/_pipeline/ebird_sampling/pilot.py --archive 'C:/Users/Hello/Downloads/ebd_sampling_relMay-2026.tar'`
 
-## 9. Recommended next step
+## 9. Cross-platform durability note
+
+This repo is being touched by multiple LLM sessions across different machines
+and surfaces. For that reason, the durable record should be taken from the
+git-tracked files in this section, not from transient chat state.
+
+Current GitHub transport state at time of writing:
+
+- branch: `codex/ebird-sampling-denominator-pilot`
+- PR: `https://github.com/askoak/wildlifestats-org/pull/74`
+- substantive review comments: none yet
+- non-substantive PR comment present: Netlify deploy-preview notification only
+
+## 10. Recommended next step
 
 Do not jump straight from this pilot into multi-state production ingest.
 
@@ -169,4 +184,3 @@ The next bounded decision should be one of:
 
 My view: option `2` is the better first follow-on because it preserves the
 full record of what eBird says while still making the low-effort tail explicit.
-
