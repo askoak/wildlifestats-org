@@ -30,7 +30,7 @@ sources:
     ingest_tier: pull_core
     intended_use: public_directory
     priority: 1
-    status: operational
+    status: operational_wave1
     page_targets: [source_explorer, center_directory, wildlife911, sector_dashboard]
     seeded_from: [wildlifestats/_pipeline/sources/rehab-centers/centers.yaml]
     notes: Canonical local directory asset and join spine for center-level pages.
@@ -57,7 +57,7 @@ sources:
     ingest_tier: pull_core
     intended_use: page_feed
     priority: 1
-    status: operational
+    status: operational_wave1
     page_targets: [source_explorer, wildlife911, research_methods]
     seeded_from: [wildlifestats/_pipeline/sources/state-vet-ag/agencies.yaml]
     notes: Current public contact and disease-program registry for all 50 states plus DC.

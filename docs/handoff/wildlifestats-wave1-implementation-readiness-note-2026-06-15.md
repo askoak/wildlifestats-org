@@ -88,7 +88,7 @@ These are the current files that define the contract and source posture:
 - `wildlifestats/_pipeline/sources/master-source-registry.yaml`
 - `docs/handoff/wildlifestats-law-watch-normalized-schema-2026-06-15.md`
 - `docs/handoff/wildlifestats-law-watch-page-contract-2026-06-15.md`
-- `docs/handoff/wildlifestats-law-watch-federal-field-mapping-2026-06-15.md`
+- `docs/handoff/wildlifestats-law-watch-federal-field-mapping-2026-06-15md`
 - `docs/handoff/wildlifestats-wave1-public-spine-implementation-sequence-2026-06-15.md`
 - `docs/handoff/wildlifestats-top10-source-operationalization-plan-2026-06-15.md`
 
@@ -293,7 +293,28 @@ actually reached.
 
 ## Cleanup log
 
+- **Wave 1 Step 2 — Federal Register law-watch landed PR #71**
+  Added the Federal Register fetch/normalize/emit module + 4 unit tests; bumped
+  `federal_register_api` status to `operational_wave1`.
+
 - **Wave 1 Step 3 — Regulations.gov enrichment landed PR #72**
   Added the Regulations.gov fetch/normalize/emit path, FR↔Regulations.gov
   bridge artifact generation, fixture-backed offline tests, and the
   `regulations_gov_api` status bump to `operational_wave1`.
+
+- **Wave 1 Step 1 + Step 4-wildlife911 landed PR #73**
+  All 51 state directory pages committed to `wildlifestats/_wren/wildlife911/states/{STATE}/index.html`
+  (50 states + DC). Each page renders state wildlife/veterinary agency contact, licensed
+  rehabilitation centers with public contact info, a national resources section, and the
+  DISCLAIMER_SENTINEL on every page.
+
+  Python `''` placeholder artifacts cleaned throughout: empty `href="''"` → plain text;
+  `Hours: ''` / `Hours: unknown` → "See website"; phone `''` / `unknown` → "See website";
+  leading `'` on mission text stripped.
+
+  Registry updates: `wildstats_rehab_centers_registry` and `wildstats_state_vet_ag_registry`
+  advanced from `operational` → `operational_wave1`.
+
+  Infrastructure also landed: `render_static_national.py`, `check_national.py`, national
+  `index.html`, and `PUBLIC_FIELDS.md` for both source families. `render_static_va.py`
+  untouched (regression constraint satisfied).
