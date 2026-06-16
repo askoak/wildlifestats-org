@@ -1,0 +1,125 @@
+# WO-2026-06-16-wls-law-watch-public-page-mvp
+# WildStats week queue Step 2: ship the first public law-watch surface off the
+# already-landed federal normalization layer.
+#
+# Engineer pool:    Codex or Claude Code
+# Repo:             askoak/wildlifestats-org (PUBLIC)
+# Branch:           wo/2026-06-16-law-watch-public-page-mvp
+# PR target:        main
+# PR title:         "[WLS] feat(law-watch): federal-first public page MVP"
+# Estimated time:   5-7 autonomous hours
+# Parent bundle:    docs/handoff/WO-2026-06-16-wls-week-queue-public-spine-and-cleanup.md
+# Depends on:       Step 1 preferred first, but no file dependency
+# Concurrent lanes: Avoid parallel work on homepage/nav files; page lane itself is isolated
+
+context: |
+  WildlifeStats now has:
+
+    - `wildlifestats/_pipeline/law_watch/federal_register.py`
+    - `wildlifestats/_pipeline/law_watch/regulations_gov.py`
+    - `wildlifestats/_pipeline/law_watch/_output/law_watch_enriched.jsonl`
+
+  It still does NOT have a public law-watch route.
+
+  The page contract already exists:
+
+    docs/handoff/wildlifestats-law-watch-page-contract-2026-06-15.md
+
+  This is the cleanest next public page in the repo:
+
+  - federal-first
+  - metadata-plus-link
+  - low ToS risk
+  - useful without a huge visual system rewrite
+
+  Public route decision for this WO:
+
+    - internal module stays `law_watch`
+    - public route ships at `/law-watch/`
+
+  Use hyphenated route naming publicly. Do not expose the underscore module name
+  as a public URL.
+
+scope:
+  federal_first_public_page:
+    objective: |
+      Render a public `law-watch/` page from the committed normalized artifacts
+      using the committed page contract.
+
+    tasks:
+      - 2a. Create a renderer path for the page, preferably under:
+            `wildlifestats/_wren/law_watch/`
+            with a script that reads:
+            `wildlifestats/_pipeline/law_watch/_output/law_watch_enriched.jsonl`
+      - 2b. Emit public output at:
+            `law-watch/index.html`
+      - 2c. Implement the page contract's MVP card view:
+            - title
+            - short summary
+            - source authority
+            - agency list
+            - status badge
+            - publication date
+            - comment deadline when present
+            - topic tags
+            - outbound official source link
+      - 2d. Implement the required MVP filters from the page contract:
+            - stage
+            - source
+            - topic
+            - agency
+            - timing quick filters
+            Keep the implementation simple. Static-first plus light client-side
+            filtering is fine.
+      - 2e. Apply suppression rules:
+            - exclude records not `in_scope`
+            - exclude missing-title or missing-source-url records
+            - suppress duplicates by `source_record_id`
+      - 2f. Add clear page-level framing:
+            - federal-first
+            - metadata from public government systems
+            - links to official documents
+            - not legal advice
+      - 2g. Add a fixture-safe or committed-artifact test/check so the page can
+            be regenerated without live network access
+
+hard_rules:
+  - Do NOT fetch live APIs in this WO unless the current committed page artifact
+    is obviously unusable. Start from committed outputs first.
+  - Do NOT add Congress.gov or OpenStates work.
+  - Do NOT mirror full legal text.
+  - Do NOT expose `review_needed` or out-of-scope records publicly.
+  - Do NOT touch Flyway, eBird, or funders files in this WO.
+
+acceptance_criteria:
+  - `law-watch/index.html` exists.
+  - The page renders cards from the committed law-watch artifact.
+  - Filters exist for stage, source, topic, agency, and timing.
+  - Open-comment items sort first, then deadline ascending, then recency.
+  - The page clearly says federal-first and not legal advice.
+  - Every displayed card links to an official source URL.
+  - The page can regenerate without requiring a live fetch.
+
+out_of_scope:
+  - Congress.gov integration
+  - state bill tracking
+  - legal text mirroring
+  - email alerts or advocacy actions
+  - homepage/nav exposure of the new route
+
+if_blocked:
+  - If the committed law-watch artifact is too obviously fixture-only or too
+    sparse for an honest public page, ship a clearly labeled beta page that says
+    `federal-first tracker beta` and document the refresh gap instead of faking
+    freshness.
+  - If route naming becomes contested, keep `/law-watch/` and note the decision
+    in the PR description. Do not ship both `/law-watch/` and `/law_watch/`.
+
+on_completion:
+  - Add a cleanup-log note to
+    `docs/handoff/wildlifestats-wave1-implementation-readiness-note-2026-06-15.md`
+    describing the first public law-watch page landing.
+  - Stop. Do not bundle homepage/nav changes here.
+
+prepared_by: Michael Oak Advisors architect
+date: 2026-06-16

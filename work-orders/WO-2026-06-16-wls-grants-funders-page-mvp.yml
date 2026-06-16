@@ -1,0 +1,116 @@
+# WO-2026-06-16-wls-grants-funders-page-mvp
+# WildStats week queue Step 3: ship the quickest low-risk sector page from the
+# curated funders registry already in-repo.
+#
+# Engineer pool:    Codex or Claude Code
+# Repo:             askoak/wildlifestats-org (PUBLIC)
+# Branch:           wo/2026-06-16-grants-funders-page-mvp
+# PR target:        main
+# PR title:         "[WLS] feat(funders): public grants and funders page MVP"
+# Estimated time:   4-6 autonomous hours
+# Parent bundle:    docs/handoff/WO-2026-06-16-wls-week-queue-public-spine-and-cleanup.md
+# Depends on:       None, but best after law-watch so page patterns stay coherent
+# Concurrent lanes: Avoid homepage/nav files until the closeout WO
+
+context: |
+  WildlifeStats already has a strong local curated source here:
+
+    wildlifestats/_pipeline/sources/sector-funders/funders.yaml
+
+  The page-family roadmap and build sequence both say this is a ship-now
+  candidate:
+
+    - docs/handoff/wildlifestats-page-family-roadmap-2026-06-15.md
+    - docs/handoff/wildlifestats-page-family-build-sequence-2026-06-15.md
+
+  But there is no public page yet.
+
+  This is a low-risk product win because:
+
+  - the source is local and curated
+  - no new API integration is needed
+  - no heavy licensing question exists
+  - the audience value is obvious for rehab leaders, boards, and grant writers
+
+  Public route decision for this WO:
+
+    - ship at `/funders/`
+    - title the page "Grants and funders"
+
+scope:
+  contract_plus_mvp_page:
+    objective: |
+      Create the missing public page contract and ship a first public
+      `funders/` page directly from the local registry.
+
+    tasks:
+      - 3a. Write a compact page contract note at:
+            `docs/handoff/wildlifestats-funders-page-contract-2026-06-16.md`
+            that defines:
+            - MVP page purpose
+            - required fields
+            - sort order
+            - suppression rules
+            - page guardrails around stale deadlines and invitation-only programs
+      - 3b. Add a public-field note at:
+            `wildlifestats/_pipeline/sources/sector-funders/PUBLIC_FIELDS.md`
+            so the renderer is not guessing field exposure later
+      - 3c. Create a renderer path, preferably under:
+            `wildlifestats/_wren/funders/`
+            reading `funders.yaml`
+      - 3d. Emit public output at:
+            `funders/index.html`
+      - 3e. MVP page should render:
+            - funder name
+            - type
+            - focus areas
+            - approximate annual grants when present
+            - eligibility summary
+            - deadline URL or grants-program URL
+            - source links or provenance wording
+      - 3f. Add simple filters for:
+            - type
+            - focus area
+            - open application vs invitation-only vs mixed, where the registry
+              text supports that distinction
+      - 3g. Add one deterministic regeneration check or fixture-safe test
+
+hard_rules:
+  - Do NOT add new funder rows in this WO.
+  - Do NOT scrape new grant data.
+  - Do NOT present stale or missing deadlines as if they are current facts.
+    If a date is not explicit in the registry, say so.
+  - Do NOT imply that inclusion equals endorsement or funding likelihood.
+  - Do NOT touch Flyway, Wildlife911, or eBird files in this WO.
+
+acceptance_criteria:
+  - `docs/handoff/wildlifestats-funders-page-contract-2026-06-16.md` exists.
+  - `wildlifestats/_pipeline/sources/sector-funders/PUBLIC_FIELDS.md` exists.
+  - `funders/index.html` exists.
+  - The page renders the current curated registry without network access.
+  - The page includes clear external links to program or primary URLs.
+  - Invitation-only or unclear-availability programs are labeled honestly.
+  - The page can be regenerated deterministically from `funders.yaml`.
+
+out_of_scope:
+  - new funder research
+  - 990 joins
+  - partner portal or saved lists
+  - homepage/nav exposure of the route
+  - center-specific grant matching
+
+if_blocked:
+  - If the registry text is too inconsistent for one clean availability label,
+    use the smallest honest taxonomy:
+      * `Open application`
+      * `Invitation only or relationship based`
+      * `Check source`
+    Do not invent precision that the source file does not support.
+
+on_completion:
+  - Add a short cleanup-log note to the week bundle note or README-level
+    documentation referencing the new page.
+  - Stop. Do not bundle sitewide nav changes here.
+
+prepared_by: Michael Oak Advisors architect
+date: 2026-06-16

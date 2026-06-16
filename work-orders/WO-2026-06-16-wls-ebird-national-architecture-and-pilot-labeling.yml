@@ -1,0 +1,99 @@
+# WO-2026-06-16-wls-ebird-national-architecture-and-pilot-labeling
+# WildStats week queue Step 4: stop the Virginia pilot from being mistaken for a
+# national denominator layer and document the real national path.
+#
+# Engineer pool:    Codex or Claude Code
+# Repo:             askoak/wildlifestats-org (PUBLIC)
+# Branch:           wo/2026-06-16-ebird-national-architecture-and-pilot-labeling
+# PR target:        main
+# PR title:         "[WLS] docs(ebird): label Virginia pilot and write national architecture note"
+# Estimated time:   3-5 autonomous hours
+# Parent bundle:    docs/handoff/WO-2026-06-16-wls-week-queue-public-spine-and-cleanup.md
+# Depends on:       None
+# Concurrent lanes: Safe if isolated to eBird docs and source-notes
+
+context: |
+  The eBird sampling work that landed on 2026-06-16 is solid, but it is easy to
+  misread.
+
+  Facts:
+
+  - WildlifeStats.org is national.
+  - The committed eBird artifact is a Virginia pilot.
+  - The denominator policy is decided for the pilot.
+  - The raw archive must stay local and governed.
+  - The extracted local copy has been referenced at:
+    `C:\Users\Hello\OneDrive - Michael Oak Advisors\99_Public Folder\WildStats\ebirdSamplingMay2026`
+    which is too loose a posture for governed raw data if that folder is shared.
+
+  This WO does NOT rerun data. It closes the documentation gap so later sessions
+  do not quietly turn "Virginia pilot" into "national denominator."
+
+scope:
+  national_architecture_and_labeling:
+    objective: |
+      Make the current pilot scope unmistakable and write the next honest
+      national architecture note without touching the raw archive.
+
+    tasks:
+      - 4a. Write a new architecture note at:
+            `docs/handoff/wildlifestats-ebird-national-architecture-2026-06-16.md`
+            covering:
+            - what the Virginia pilot proved
+            - why WildlifeStats needs a national denominator eventually
+            - why the next step is not "commit 50 state CSVs"
+            - recommended off-repo derived-artifact storage pattern
+            - raw archive governance posture
+            - refresh cadence and partition strategy for future national outputs
+      - 4b. Update:
+            `wildlifestats/_pipeline/sources/ebird-sampling/README.md`
+            so the first screen makes clear:
+            - current committed artifact is Virginia-only
+            - it is a pilot
+            - it is not yet a national production denominator
+      - 4c. Update:
+            `wildlifestats/_pipeline/sources/ebird-sampling/provenance.yml`
+            to add an explicit note that the current artifact scope is
+            `pilot_state_scope: US-VA` or equivalent wording
+      - 4d. Update the paired handoff notes if needed so they cross-link to the
+            new national architecture note
+      - 4e. Add one explicit governance warning that raw extracted copies should
+            not live in shared or publicly synced locations unless the user has
+            confirmed that posture is compliant with the source terms
+
+hard_rules:
+  - Do NOT rerun the full archive.
+  - Do NOT commit raw eBird rows or extracted raw files.
+  - Do NOT pretend the Virginia pilot is a national layer.
+  - Do NOT choose a national schema that would force rework of the current pilot
+    without saying so explicitly.
+  - Do NOT move files on Mike's local filesystem in this WO. Document the
+    operator step only.
+
+acceptance_criteria:
+  - The new national architecture note exists.
+  - The source README makes Virginia-pilot scope unmistakable.
+  - Provenance carries an explicit pilot-scope note.
+  - The architecture note states a clear preferred posture for:
+    - raw local storage
+    - derived national artifact storage
+    - in-repo vs off-repo boundary
+  - No archive rerun occurred.
+
+out_of_scope:
+  - all-state generation
+  - species numerator build
+  - migration-signals page implementation
+  - filesystem relocation of Mike's local raw copy
+
+if_blocked:
+  - If the best off-repo artifact location cannot be made specific without
+    Mike's storage preference, document a recommended default path and mark it
+    as an operator decision rather than stalling the note.
+
+on_completion:
+  - Cross-link the new note from the pilot and follow-up handoff notes.
+  - Stop. Do not start an all-states implementation branch from this WO.
+
+prepared_by: Michael Oak Advisors architect
+date: 2026-06-16

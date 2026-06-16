@@ -1,0 +1,114 @@
+# WO-2026-06-16-wls-wildlife911-national-public-route-cleanup
+# WildStats week queue Step 1: reconcile public Wildlife911 routes with the
+# national state-directory render that already exists under `_wren`.
+#
+# Engineer pool:    Codex or Claude Code
+# Repo:             askoak/wildlifestats-org (PUBLIC)
+# Branch:           wo/2026-06-16-wildlife911-national-public-route-cleanup
+# PR target:        main
+# PR title:         "[WLS] fix(wildlife911): align public routes with national state directory"
+# Estimated time:   4-6 autonomous hours
+# Parent bundle:    docs/handoff/WO-2026-06-16-wls-week-queue-public-spine-and-cleanup.md
+# Depends on:       None
+# Concurrent lanes: Safe if isolated to wildlife911 public-route files only
+
+context: |
+  Wave 1 shipped the national Wildlife911 directory render under:
+
+    wildlifestats/_wren/wildlife911/states/{STATE}/index.html
+
+  But the public route still advertises the old posture:
+
+    wildlife911/state/index.html
+
+  still says Wildlife911 is "Virginia-complete" and only lists Virginia as an
+  available state edition. That was honest before the national directory render
+  existed. It is no longer the right public description.
+
+  WildlifeStats is national. The public Wildlife911 route now needs to say:
+
+  - Virginia still has the richest editorial dispatcher flow
+  - the national directory exists today
+  - other states have directory-grade contact pages, not fully curated
+    state-specific species guidance
+
+  This WO is route and posture cleanup. It is not a new editorial build.
+
+scope:
+  public_route_alignment:
+    objective: |
+      Make the public Wildlife911 routes reflect the committed national
+      directory without overstating what exists for each state.
+
+    tasks:
+      - 1a. Update `wildlife911/state/index.html` so it:
+            - no longer says only Virginia is available
+            - lists all 50 states plus DC
+            - clearly distinguishes:
+              * `Virginia enhanced edition`
+              * `national directory page`
+            - links public state routes at `/wildlife911/state/<XX>/`
+      - 1b. Create or regenerate public state pages at:
+            `wildlife911/state/<XX>/index.html`
+            for all 50 states plus DC, using the committed `_wren` state pages
+            as the source material or the same source registries and render logic
+            that produced them
+      - 1c. Update `wildlife911/index.html` so the landing copy becomes:
+            - national by default
+            - explicit that Virginia has the fullest guided workflow today
+            - explicit that the state directory is national
+      - 1d. Preserve the current Virginia-rich dispatcher and species-guide
+            surfaces:
+            - `wildlife911/start/index.html`
+            - `wildlife911/species/*`
+            - `wildlife911/state/VA/index.html`
+            These should stay alive and be framed as the enhanced Virginia lane,
+            not be deleted or flattened.
+      - 1e. Add a small verification script or test that confirms:
+            - every state page exists
+            - every page links back to `/wildlife911/state/`
+            - every page contains a state-agency or fallback contact block
+
+hard_rules:
+  - Do NOT add new state-specific editorial species guidance in this WO.
+  - Do NOT rewrite Virginia species-guide content.
+  - Do NOT hand-author 51 pages if the existing render path can be reused.
+    Use the generator or a reproducible publish step.
+  - Do NOT imply clinical advice. Keep the existing consult-a-vet or licensed
+    rehabilitator disclaimer visible.
+  - Do NOT touch `wildlifestats/_pipeline/flyway/*`, `law_watch/*`, or eBird
+    files in this WO.
+
+acceptance_criteria:
+  - `wildlife911/state/index.html` lists all 50 states plus DC.
+  - `wildlife911/state/index.html` no longer claims Virginia is the only
+    available state route.
+  - Public pages exist at `wildlife911/state/<XX>/index.html` for all states
+    plus DC.
+  - `wildlife911/index.html` presents Wildlife911 as a national surface with
+    Virginia as the richest current edition.
+  - Existing Virginia dispatcher and species-guide routes still work.
+  - A deterministic check exists for route completeness.
+
+out_of_scope:
+  - new species guides for non-VA states
+  - content redesign of the Virginia dispatcher
+  - Flyway, law_watch, or funders work
+  - secure-tier routing
+
+if_blocked:
+  - If the `_wren` state pages cannot be promoted cleanly to public routes
+    without duplicating too much logic, create a single publish script and
+    document the source-of-truth rule rather than patching individual HTML files.
+  - If route naming conflicts with an existing site convention, keep the public
+    route as `/wildlife911/state/<XX>/` and document the conflict in the PR
+    rather than inventing a third route family.
+
+on_completion:
+  - Add a cleanup-log note to
+    `docs/handoff/wildlifestats-wave1-implementation-readiness-note-2026-06-15.md`
+    describing the public-route reconciliation.
+  - Stop. Do not roll directly into law-watch in the same PR.
+
+prepared_by: Michael Oak Advisors architect
+date: 2026-06-16

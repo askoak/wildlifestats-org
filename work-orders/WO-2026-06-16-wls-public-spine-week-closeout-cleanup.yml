@@ -1,0 +1,91 @@
+# WO-2026-06-16-wls-public-spine-week-closeout-cleanup
+# WildStats week queue Step 5: final exposure, wording, attribution, and lane
+# cleanup after the week's public-spine work lands.
+#
+# Engineer pool:    Codex or Claude Code
+# Repo:             askoak/wildlifestats-org (PUBLIC)
+# Branch:           wo/2026-06-16-public-spine-week-closeout-cleanup
+# PR target:        main
+# PR title:         "[WLS] chore(site): expose new public spine routes and close weekly cleanup"
+# Estimated time:   4-6 autonomous hours
+# Parent bundle:    docs/handoff/WO-2026-06-16-wls-week-queue-public-spine-and-cleanup.md
+# Depends on:       Steps 1-4 should land first
+# Concurrent lanes: None recommended; this is the reconciliation pass
+
+context: |
+  After the week's route and page work lands, WildlifeStats still needs one
+  deliberate cleanup pass so the site reads coherently:
+
+  - homepage and nav should expose the new routes
+  - attribution and disclaimers should be visible
+  - Wildlife911 should not still sound Virginia-only where the route is national
+  - eBird should not still sound national where the artifact is a pilot
+
+  This WO is intentionally last. It is the bundle-reconciliation pass.
+
+scope:
+  site_exposure_and_cleanup:
+    objective: |
+      Wire the new public routes into the site shell, reconcile wording, and
+      leave one durable status note so later sessions do not have to rediscover
+      what the week changed.
+
+    tasks:
+      - 5a. Update top-level public discovery surfaces as appropriate:
+            - `index.html`
+            - `about.html`
+            - any shared nav includes or repeated navigation blocks
+            so users can find:
+            - `/wildlife911/state/`
+            - `/law-watch/`
+            - `/funders/`
+      - 5b. Audit new public surfaces for wording consistency:
+            - national vs Virginia-specific framing
+            - federal-first vs broader policy claims
+            - pilot vs production eBird language
+      - 5c. Fix broken internal links or stale copy introduced by the week's
+            page additions
+      - 5d. Add one durable weekly closeout note at:
+            `docs/handoff/wildlifestats-public-spine-week-closeout-2026-06-16.md`
+            summarizing:
+            - what shipped this week
+            - what was deliberately deferred
+            - the current public-route set
+            - the current eBird scope
+      - 5e. Run the lightest honest verification set for the touched surfaces:
+            - HTML validation or targeted checks on new pages
+            - link/path sanity checks
+            - note any inherited repo-wide issues rather than burying them
+
+hard_rules:
+  - Do NOT start Flyway implementation here.
+  - Do NOT reopen law-watch ingest logic or Wildlife911 renderer internals
+    unless a closeout bug requires a minimal fix.
+  - Do NOT add new product surfaces beyond the three already in the bundle.
+  - Keep the closeout note factual, not aspirational.
+
+acceptance_criteria:
+  - Homepage or equivalent discovery surfaces link to the new public routes.
+  - No obvious national-posture contradictions remain in public copy.
+  - The eBird pilot is labeled honestly in user-facing or near-user-facing docs.
+  - A durable week closeout note exists in `docs/handoff/`.
+  - Any remaining inherited validation issue is named explicitly if not fixed.
+
+out_of_scope:
+  - rehab social monitor launch
+  - migration signals page
+  - Flyway cron enablement
+  - secure-tier changes
+  - any new source ingest
+
+if_blocked:
+  - If exposing all three routes in the main nav would overcrowd the shell,
+    expose them from the homepage and about page first, and note the nav tradeoff
+    in the closeout note rather than force a bad header.
+
+on_completion:
+  - Reference the week bundle note and mark which WOs landed.
+  - Stop. The next bundle should be a fresh decision, not an automatic extension.
+
+prepared_by: Michael Oak Advisors architect
+date: 2026-06-16
