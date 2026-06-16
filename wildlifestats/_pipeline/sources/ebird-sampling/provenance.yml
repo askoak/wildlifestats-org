@@ -1,0 +1,99 @@
+source_system: "ebird_sampling"
+verified_at_utc: "2026-06-16T16:07:23Z"
+local_only: true
+archive:
+  path: "C:\\Users\\Hello\\Downloads\\ebd_sampling_relMay-2026.tar"
+  size_bytes: 8460072960
+  sha256: "ca69755b63f82f91d994be5021c11ca65b0affbca24e2747af1e03e772537678"
+  members:
+    - "ebd_sampling_relMay-2026.txt.gz"
+    - "BCRCodes.txt"
+    - "BirdLifeKBACodes.txt"
+    - "IBACodes.txt"
+    - "Protocols.txt"
+    - "USFWSCodes.txt"
+    - "eBird_Basic_Dataset_Metadata_v1.16.pdf"
+    - "recommended_citation.txt"
+    - "terms_of_use.txt"
+  data_member: "ebd_sampling_relMay-2026.txt.gz"
+  citation: "eBird Basic Dataset. Version: EBD_relMay-2026. Cornell Lab of Ornithology, Ithaca, New York. May 2026."
+terms:
+  data_terms_path: "wildlifestats/_pipeline/sources/ebird-sampling/DATA_TERMS.md"
+  non_commercial_only: true
+  raw_row_redistribution_prohibited: true
+  derived_outputs_must_carry_same_terms: true
+pilot:
+  target_state_code: "US-VA"
+  row_filter:
+    all_species_reported: true
+    aggregation_grain: "county_iso_week_protocol"
+    raw_row_commit_policy: "aggregate_only"
+  rows_scanned: 169201908
+  retained_complete_checklists: 2271631
+  output_rows: 201582
+  observation_date_min: "1934-06-05"
+  observation_date_max: "2026-05-31"
+  output_csv_path: "wildlifestats/_pipeline/sources/ebird-sampling/results/virginia_complete_checklist_effort_by_county_week_protocol.csv"
+  output_csv_sha256: "553f847986b3a39145b7308987fe02eb4bcee15fbf68b28a536a36c0525847f2"
+  top_protocols:
+    -
+      protocol_name: "Traveling"
+      complete_checklist_count: 1368328
+    -
+      protocol_name: "Stationary"
+      complete_checklist_count: 786850
+    -
+      protocol_name: "Incidental"
+      complete_checklist_count: 60745
+    -
+      protocol_name: "Historical"
+      complete_checklist_count: 31649
+    -
+      protocol_name: "Area"
+      complete_checklist_count: 19139
+    -
+      protocol_name: "eBird Pelagic Protocol"
+      complete_checklist_count: 3824
+    -
+      protocol_name: "Nocturnal Flight Call Count"
+      complete_checklist_count: 836
+    -
+      protocol_name: "Banding"
+      complete_checklist_count: 252
+    -
+      protocol_name: "Traveling (2 band, 25m)"
+      complete_checklist_count: 4
+    -
+      protocol_name: "Stationary (2 band, 30m)"
+      complete_checklist_count: 4
+  top_counties:
+    -
+      county_code: "US-VA-059"
+      complete_checklist_count: 296917
+    -
+      county_code: "US-VA-810"
+      complete_checklist_count: 116430
+    -
+      county_code: "US-VA-001"
+      complete_checklist_count: 89686
+    -
+      county_code: "US-VA-153"
+      complete_checklist_count: 84464
+    -
+      county_code: "US-VA-107"
+      complete_checklist_count: 79085
+    -
+      county_code: "US-VA-165"
+      complete_checklist_count: 76718
+    -
+      county_code: "US-VA-003"
+      complete_checklist_count: 74130
+    -
+      county_code: "US-VA-131"
+      complete_checklist_count: 61971
+    -
+      county_code: "US-VA-121"
+      complete_checklist_count: 61182
+    -
+      county_code: "US-VA-015"
+      complete_checklist_count: 49334
