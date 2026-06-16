@@ -22,6 +22,7 @@ Dependencies: pyyaml (already pinned in requirements; stdlib only otherwise).
 """
 import re
 import sys
+from html import escape
 from pathlib import Path
 
 try:
@@ -94,14 +95,18 @@ PAGE_FOOT = """\
 </footer>"""
 
 
+def esc(value):
+    return escape(str(value), quote=True)
+
+
 def page(title, description, body):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title}</title>
-  <meta name="description" content="{description}">
+  <title>{esc(title)}</title>
+  <meta name="description" content="{esc(description)}">
 </head>
 <body>
 <header>
@@ -129,18 +134,18 @@ def render_center(center):
     mission = center.get("mission_excerpt") or ""
     tags = taxa_tags(center)
     digits = re.sub(r"[^0-9+]", "", phone)
-    phone_html = f'<p>Phone: <a href="tel:{digits}">{phone}</a></p>' if phone else ""
-    hours_html = f'<p class="hours">Hours: {hours}</p>' if hours else ""
-    mission_html = f'<p class="mission">{mission}</p>' if mission else ""
+    phone_html = f'<p>Phone: <a href="tel:{digits}">{esc(phone)}</a></p>' if phone else ""
+    hours_html = f'<p class="hours">Hours: {esc(hours)}</p>' if hours else ""
+    mission_html = f'<p class="mission">{esc(mission)}</p>' if mission else ""
     url_html = (
-        f'<p><a href="{url}" rel="noopener noreferrer">Wildlife intake / help page</a></p>'
+        f'<p><a href="{esc(url)}" rel="noopener noreferrer">Wildlife intake / help page</a></p>'
         if url else ""
     )
     return (
         f'<div class="center">\n'
-        f'  <h3>{center["common_name"]}</h3>\n'
-        f'  <p class="location">{center["city"]}, {center["state"]}</p>\n'
-        f'  <p class="taxa">Accepts: {", ".join(tags)}</p>\n'
+        f'  <h3>{esc(center["common_name"])}</h3>\n'
+        f'  <p class="location">{esc(center["city"])}, {esc(center["state"])}</p>\n'
+        f'  <p class="taxa">Accepts: {esc(", ".join(tags))}</p>\n'
         f"  {phone_html}\n"
         f"  {hours_html}\n"
         f"  {mission_html}\n"
@@ -152,10 +157,10 @@ def render_center(center):
 def render_state_page(code, name, state_centers, agency):
     if agency:
         phone = agency.get("contact_phone") or ""
-        phone_html = f"<p>Phone: {phone}</p>" if phone else ""
+        phone_html = f"<p>Phone: {esc(phone)}</p>" if phone else ""
         prog_url = agency.get("wildlife_disease_program_url") or ""
         prog_url_html = (
-            f'<p><a href="{prog_url}" rel="noopener noreferrer">'
+            f'<p><a href="{esc(prog_url)}" rel="noopener noreferrer">'
             f"Wildlife/disease program page</a></p>"
             if prog_url and prog_url != agency.get("primary_url")
             else ""
@@ -163,9 +168,9 @@ def render_state_page(code, name, state_centers, agency):
         agency_section = (
             f'<section class="state-agency">\n'
             f'  <h2>State Wildlife/Veterinary Agency</h2>\n'
-            f'  <p class="agency-name">{agency["agency_name"]}</p>\n'
+            f'  <p class="agency-name">{esc(agency["agency_name"])}</p>\n'
             f"  {phone_html}\n"
-            f'  <p><a href="{agency["primary_url"]}" rel="noopener noreferrer">'
+            f'  <p><a href="{esc(agency["primary_url"])}" rel="noopener noreferrer">'
             f"Agency website</a></p>\n"
             f"  {prog_url_html}\n"
             f"</section>"
@@ -189,7 +194,7 @@ def render_state_page(code, name, state_centers, agency):
         centers_section = (
             f'<section class="centers">\n'
             f"  <h2>Licensed Wildlife Rehabilitation Centers</h2>\n"
-            f"  <p>No centers currently listed for {name} in this registry. "
+            f"  <p>No centers currently listed for {esc(name)} in this registry. "
             f"Contact the state agency above or use "
             f'<a href="https://animalhelpnow.org" rel="noopener noreferrer">Animal Help Now</a>'
             f" for a ZIP-code search. You can also contact "
@@ -199,7 +204,7 @@ def render_state_page(code, name, state_centers, agency):
         )
 
     body = (
-        f"<h1>Wildlife911 &mdash; {name}</h1>\n"
+        f"<h1>Wildlife911 &mdash; {esc(name)}</h1>\n"
         f"{DISCLAIMER}\n"
         f"{agency_section}\n"
         f"{centers_section}\n"
@@ -227,8 +232,8 @@ def render_national(active_centers):
         n = len(by_state.get(code, []))
         cnt_label = f"{n} center" if n == 1 else f"{n} centers"
         state_links.append(
-            f'<li><a href="../{code}/">{name}</a>'
-            f' <span class="count">({cnt_label})</span></li>'
+            f'<li><a href="../{esc(code)}/">{esc(name)}</a>'
+            f' <span class="count">({esc(cnt_label)})</span></li>'
         )
 
     body = (
