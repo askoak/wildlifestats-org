@@ -1,0 +1,69 @@
+work_order_id: "WO-2026-06-16-wls-ebird-sampling-denominator-pilot"
+status: completed
+local_only: true
+raw_rows_committed: false
+
+archive_verified:
+  path: "C:\\Users\\Hello\\Downloads\\ebd_sampling_relMay-2026.tar"
+  extracted_local_copy: "C:\\Users\\Hello\\OneDrive - Michael Oak Advisors\\99_Public Folder\\WildStats\\ebirdSamplingMay2026"
+  size_bytes: 8460072960
+  sha256: ca69755b63f82f91d994be5021c11ca65b0affbca24e2747af1e03e772537678
+  members:
+    - ebd_sampling_relMay-2026.txt.gz
+    - BCRCodes.txt
+    - BirdLifeKBACodes.txt
+    - IBACodes.txt
+    - Protocols.txt
+    - USFWSCodes.txt
+    - eBird_Basic_Dataset_Metadata_v1.16.pdf
+    - recommended_citation.txt
+    - terms_of_use.txt
+
+outputs:
+  github_pr_url: "https://github.com/askoak/wildlifestats-org/pull/74"
+  data_terms: "wildlifestats/_pipeline/sources/ebird-sampling/DATA_TERMS.md"
+  provenance: "wildlifestats/_pipeline/sources/ebird-sampling/provenance.yml"
+  weekly_effort_csv: "wildlifestats/_pipeline/sources/ebird-sampling/results/virginia_complete_checklist_effort_by_county_week_protocol.csv"
+  weekly_effort_csv_sha256: "553f847986b3a39145b7308987fe02eb4bcee15fbf68b28a536a36c0525847f2"
+
+filters:
+  state_code: US-VA
+  all_species_reported: true
+  aggregation_grain: county_iso_week_protocol
+
+metrics:
+  rows_scanned: 169201908
+  retained_complete_checklists: 2271631
+  aggregate_rows: 201582
+  observation_date_min: 1934-06-05
+  observation_date_max: 2026-05-31
+  blank_county_checklists: 30
+  blank_county_aggregate_rows: 23
+  zero_effort_checklists: 72345
+  zero_effort_aggregate_rows: 28438
+  protocol_totals:
+    Traveling: 1368328
+    Stationary: 786850
+    Incidental: 60745
+    Historical: 31649
+    Area: 19139
+    eBird Pelagic Protocol: 3824
+    Nocturnal Flight Call Count: 836
+    Banding: 252
+  top_counties:
+    US-VA-059 Fairfax: 296917
+    US-VA-810 Virginia Beach: 116430
+    US-VA-001 Accomack: 89686
+    US-VA-153 Prince William: 84464
+    US-VA-107 Loudoun: 79085
+
+verification:
+  - "$env:PYTHONPATH='.'; python wildlifestats/_pipeline/ebird_sampling/test_pilot.py"
+  - "$env:PYTHONPATH='.'; python wildlifestats/_pipeline/ebird_sampling/pilot.py --archive 'C:/Users/Hello/Downloads/ebd_sampling_relMay-2026.tar'"
+  - aggregate output reviewed to confirm no raw eBird rows were committed
+
+notes:
+  - The zero-effort tail is mostly complete Incidental and Historical checklists.
+  - County-blank Virginia rows were preserved rather than silently dropped.
+  - This pilot is denominator-only; it does not yet emit a species numerator layer.
+  - As of this results file, the PR has no substantive review comments; the only PR comment is Netlify deploy-preview automation.

@@ -69,6 +69,18 @@ jobs:
       - name: Run Bucket 02 offline harvester tests
         run: PYTHONPATH=. python wildlifestats/_pipeline/firm_profile/test_harvest.py
 
+  ebird-sampling-test:
+    name: eBird sampling denominator pilot tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run eBird sampling pilot tests
+        run: PYTHONPATH=. python wildlifestats/_pipeline/ebird_sampling/test_pilot.py
+
   link-check:
     name: Internal link check
     runs-on: ubuntu-latest
